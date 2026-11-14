@@ -161,21 +161,48 @@
     ]
   },
   "main_result_chart": {
-    "model": "Mol1",
-    "labels": [
-      "Trastuzumab",
-      "Pick 01",
-      "Pick 02",
-      "Pick 03",
-      "Pick 04"
+    "type": "Four-design model-output comparison",
+    "values": [
+      {
+        "sequence_id": "newML_b973259db36d",
+        "screen_score": 0.1616493357864329,
+        "estimated_KD_ratio_Ridge": 2.9383918178398103,
+        "estimated_KD_ratio_GP": 0.9364616652158718,
+        "interface_PAE_A": 3.050529718399048,
+        "H3_only_framework_effect_unmodelled": false
+      },
+      {
+        "sequence_id": "newML_b973259db36d_FW85N87T",
+        "screen_score": 0.1616493357864329,
+        "estimated_KD_ratio_Ridge": 2.9383918178398103,
+        "estimated_KD_ratio_GP": 0.9364616652158718,
+        "interface_PAE_A": 3.512383460998535,
+        "H3_only_framework_effect_unmodelled": true
+      },
+      {
+        "sequence_id": "newML_a7acfcc8dce3",
+        "screen_score": 0.8364457488059998,
+        "estimated_KD_ratio_Ridge": 5.842270617412225,
+        "estimated_KD_ratio_GP": 2.3138380258042464,
+        "interface_PAE_A": 3.0769975185394287,
+        "H3_only_framework_effect_unmodelled": false
+      },
+      {
+        "sequence_id": "newML_5753ea077281_FW85N87T",
+        "screen_score": 0.27236541660741836,
+        "estimated_KD_ratio_Ridge": 3.9552884200903358,
+        "estimated_KD_ratio_GP": 2.9583999074414504,
+        "interface_PAE_A": 4.020138740539551,
+        "H3_only_framework_effect_unmodelled": true
+      }
     ],
-    "native_site_contacts": [
-      19,
-      19,
-      19,
-      19,
-      19
-    ],
-    "scope": "Predicted contact recall only; no measured binding or thermal stability. OpenDDE control limitation is noted on the slide; full comparison retained separately."
+    "scope": "H3-based assay estimates are conditional on measurable KD and do not model framework substitutions. Ratios use the historical WT median; they are not validated gains relative to WT."
+  },
+  "model_validation": {
+    "n": 180,
+    "rank_correlation": 0.675243476619694,
+    "WT_observed_KD_nM": 0.1345,
+    "WT_OOF_predicted_KD_nM": 9.081688644270258,
+    "source": "training/SPR-OOF.csv"
   }
 }

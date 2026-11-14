@@ -1,16 +1,16 @@
 # Umi Zoomi: presentation manuscript
 
-This manuscript follows the existing deck. The slides, figures, candidate order and numerical results are unchanged.
+This manuscript follows the updated deck: the complete workflow, four-design comparison, retrospective model validation and next experiments. Candidate identities, order and source values are unchanged.
 
-The spoken text is in quotation marks. The preparation notes after the script are for understanding and questions, not for reading aloud. Allow about five to six minutes for the spoken text, including slide changes. Explain the choices calmly; there is no need to recite every number on screen.
+The spoken text is in quotation marks. The preparation notes after the script are for understanding and questions, not for reading aloud. Allow about six to seven minutes for the expanded spoken version, including slide changes. Explain the choices calmly; there is no need to recite every number on screen.
 
-## Slide 1: Four lab slots. Which four? | PDF page 1
+## Slide 1: HER2 antibody redesign | PDF page 1
 
 Two presses: opening alarm, then title.
 
-“We are Umi Zoomi. We worked on a practical question in antibody discovery: when you can generate many possible designs, but only test a few, which ones should you make?
+“We are Umi Zoomi. We used experimental data to redesign antibody fragments against HER2, starting from trastuzumab.
 
-Our answer is a working selection workflow and four antibody variants, each chosen to test a specific idea.”
+We trained sequence models, generated new binding loops and evaluated their predicted interactions. We will show what that work produced, where the models agreed or failed, and what the four experimental variants are meant to test.”
 
 ## Slide 2: Why HER2-positive breast cancer? | PDF page 2
 
@@ -20,13 +20,13 @@ Two presses reveal the two cards.
 
 We asked whether changes to the antibody could preserve its recognition of HER2 while improving binding or stability. Our work is at the design stage. Laboratory and cell experiments would have to establish whether a change is useful for a future treatment.”
 
-## Slide 3: Who it is for | PDF page 3
+## Slide 3: From data to experimental variants | PDF page 3
 
 One press.
 
-“The immediate user is an antibody discovery team. They need to decide what to spend their next laboratory budget on.
+“The immediate user is an antibody discovery team. They need more than a list of generated sequences: they need experimental evidence behind the design process and a way to check whether the predictions are useful.
 
-We wanted to give them a ranked set of sequences, the evidence behind each choice, and a record of which assumptions still need testing.”
+Our workflow connects those measurements to new variants, structural evaluations and a documented experimental panel.”
 
 ## Slide 4: Keep the right contact | PDF page 4
 
@@ -36,7 +36,7 @@ One press.
 
 This matters because an antibody can have a plausible-looking fold and still be placed at the wrong site. We checked both the sequence and the predicted interaction.”
 
-## Slide 5: How we chose | PDF page 5
+## Slide 5: What we built | PDF page 5
 
 One press. Allow the three labels to appear.
 
@@ -90,23 +90,33 @@ Four presses, one per candidate.
 
 “Pick four uses a third loop with the same framework substitutions as pick two. It tests that idea in another sequence background.”
 
-## Slide 9: Results | PDF page 12
+## Slide 9: Four-design results | PDF page 12
 
 Three presses reveal the cards. Keep the figure visible.
 
-“Mol1 predicts contact with all nineteen reference-site residues for each design. That supports the proposed binding location. Because all four score equally, this figure cannot rank their affinity or establish improved performance.
+“This table shows the different signals for all four variants.
 
-The useful outcome today is a set of eligible designs with explicit reasons to test them. Binding strength and thermal stability remain unmeasured.
+Pick three has the highest screening score. The affinity models favour Pick one's loop, but disagree about how it compares with the historical trastuzumab affinity. The framework variants inherit H3-only assay scores, so those numbers cannot tell us what the framework changes do.
 
-Adaptyv’s next measurements are binding, competition with trastuzumab and thermal stability, with the reference tested alongside our designs.”
+The interface scores describe predicted structural uncertainty. All four also recover the known site in Mol1. Neither result is a measured affinity or stability gain.”
 
-## Slide 10: Conclusion and next steps | PDF page 13
+## Slide 10: How well does the affinity model predict measurements? | PDF page 13
 
 One press.
 
-“Those results will tell us whether to keep a design, revise it or drop it. Promising molecules would then need cell testing and specificity checks before further therapeutic development.
+“Here we check the affinity model against historical SPR measurements. Each dot is a construct predicted while its sequence group was held out. The diagonal would be a perfect prediction.
 
-We have built a route from experimental data to new sequences and a documented choice of experiments. The next test is whether that process identifies a useful improvement to a HER2-binding antibody. Thank you.”
+The model captures some ordering across the affinity range, but the errors are substantial. It also overestimates KD for the strong-binding reference. We therefore use these scores to propose experiments, without claiming that small predicted differences are real improvements.”
+
+## Slide 11: Conclusion and next steps | PDF page 14
+
+One press.
+
+“Next, the four variants need expression, SPR binding, competition and thermal-stability measurements alongside trastuzumab. Comparing Picks one and two tests the framework change in the same binding-loop background.
+
+Promising variants would then need cell binding, specificity checks and development in an appropriate therapeutic format.
+
+Our result is a working design-and-evaluation workflow and four concrete variants, with numerical predictions and clear limitations. Whether any improves on trastuzumab remains an experimental question. Thank you.”
 
 ---
 
@@ -182,13 +192,13 @@ The transfer is uncertain. Our binding loops and fragment format differ, and the
 
 Our H3-based affinity models do not model these framework substitutions. Identical model values for Picks 01 and 02 are therefore not independent predictions that the substitutions preserve binding. The comparison needs an experiment.
 
-## Slide 12: what 19/19 does and does not show
+## What the shared 19/19 contact result does and does not show
 
 The reference is the known trastuzumab–HER2 structure. Nineteen HER2 residues make protein heavy-atom contacts at the 4.5-angstrom cutoff used in the analysis. For each predicted complex, we count how many of those reference residues contact the antibody.
 
 All four recover the complete reference set in Mol1. Extra predicted contacts can exist. The metric does not require identical antibody atoms, an identical pose or an identical total interface.
 
-It is a site-recovery check. It is not measured binding strength, a competition assay, thermal stability, or a success probability. Since the values are identical, the bar chart cannot rank the four candidates. Their priority comes from the assay-model evidence and the experimental comparisons we chose.
+It is a site-recovery check. It is not measured binding strength, a competition assay, thermal stability, or a success probability. Since the values are identical, this metric cannot rank the four candidates. It is no longer the sole results figure. Their priority comes from the assay-model evidence and the experimental comparisons we chose.
 
 ## How the breast cancer case should be framed
 
@@ -215,6 +225,36 @@ First, make the constructs and assess expression. Then compare binding, competit
 If more laboratory slots are available, the unchanged-framework parent of Pick 04 would help test whether the same substitutions transfer across sequence backgrounds.
 
 The selection method itself should eventually be compared with simpler baselines at an equal testing budget. Counting measured outcomes per submitted design would test whether the workflow adds value.
+
+
+## How to read the four-design table on PDF page 12
+
+These are computed values for the frozen four-design panel, not new laboratory measurements.
+
+- Screen score is the minimum of two calibrated high-screen-class model estimates. Higher means stronger screening-model support. The minimum itself is not a calibrated probability of binding or of beating trastuzumab.
+- Estimated KD / WT converts the two assay models’ log-ratio outputs into ratios against the historical WT median. A value above 1 means a higher estimated KD, or weaker estimated affinity; a value below 1 means a lower estimated KD. These are uncertain point estimates.
+- Ridge is the primary model family; the displayed candidate estimate averages bootstrap Ridge fits. GP is the secondary Gaussian-process sensitivity model. The small nominal GP improvement for Pick 01 is not demonstrated improvement: the model is uncertain and WT calibration is poor.
+- The asterisks on Picks02 and04 mean these are H3-only assay estimates. The models do not evaluate the framework substitutions. Repeating Pick 01’s scores for Pick 02 does not establish preserved binding.
+- Interface PAE is Mol1’s predicted uncertainty between contacting residues, averaged over residue pairs. Lower is more confident within this model; it is not an observed structural error or an affinity measurement.
+
+The source values are approximately:
+
+| Pick | Screen score | Estimated KD / WT, Ridge | Estimated KD / WT, GP | Mol1 contact-pair PAE |
+|---|---:|---:|---:|---:|
+|01|0.16|2.94|0.94|3.05 Å|
+|02*|0.16|2.94|0.94|3.51 Å|
+|03|0.84|5.84|2.31|3.08 Å|
+|04*|0.27|3.96|2.96|4.02 Å|
+
+*Framework effects unmodelled by the assay predictors. Binding and thermal stability are unmeasured for all four.
+
+## How to explain the validation figure on PDF page 13
+
+The figure uses actual historical affinity measurements for 180 constructs, not experimental results for our new designs. Each vertical coordinate is a group-held-out prediction from the primary Ridge model. The horizontal coordinate is the observed KD. Both axes use a logarithmic scale; equal distances represent equal fold changes.
+
+Dots on the diagonal would be exact predictions. Departures show prediction errors. The highlighted WT point illustrates the problem near tight binders: its held-out prediction is much weaker than its measured affinity.
+
+The rank correlation of about 0.68 shows some ability to order the measured series. It does not give the probability that a new design will work or beat the parent. Model comparison and this cohort do not establish a prospective advantage over simpler design-selection baselines.
 
 ## Evidence and sources
 

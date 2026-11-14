@@ -1,6 +1,6 @@
 {
-  "states_checked": 23,
-  "PDF_pages": 13,
+  "states_checked": 24,
+  "PDF_pages": 14,
   "fonts_loaded": true,
   "webgl_available": true,
   "javascript_errors": [],
@@ -17,7 +17,9 @@
     "slide-10.png",
     "slide-11.png",
     "slide-12.png",
-    "slide-13.png"
+    "slide-13.png",
+    "slide-14.png"
   ],
-  "data_verification": "Main Mol1 counts unchanged:19/19 for WT and the four candidates. OpenDDE comparison retained in MODEL_CONTROL files; known WT control is2/19. Missing Pick03 is a technical failure, not a zero."
+  "data_check": "All four screen scores, converted Ridge/GP estimates and interface PAEs match TOP4_RESULTATER.csv. Submission sequences and ordering unchanged.",
+  "validation_plot": "180 group-held-out predictions matched to historical measured SPR KD; original data included."
 }

@@ -227,7 +227,7 @@
     <div class="ttl">
       <div class="tag">Team 14</div>
       <h1>Umi<br>Zoomi</h1>
-      <p>Four lab slots. Which four?</p>
+      <p>Antibody redesign<br>for HER2+ breast cancer</p>
     </div>
   </section>
 
@@ -237,7 +237,7 @@
   </section>
 
   <section class="slide" id="sW" data-sub="1">
-    <h2>Who it is for</h2><p>Antibody discovery teams choosing which designs deserve limited laboratory tests.</p><div class="proof"><div class="big">4</div><div class="lab">guaranteed lab tests</div></div>
+    <h2>Build.<br>Test. Learn.</h2><p>We built a workflow for discovery teams: learn from measurements, generate new variants and test what the predictions actually support.</p><div class="proof"><div class="big">4</div><div class="lab">antibody variants evaluated</div></div>
   </section>
 
   <section class="slide" id="s2">
@@ -245,10 +245,10 @@
   </section>
 
   <section class="slide" id="sP">
-    <h2>How we chose</h2><p>Train on experiments. Check the structures. Choose four to test.</p>
+    <h2>What we built</h2><p>We trained, generated<br>and evaluated new variants.</p>
     <div class="pw" style="--d:1.1s"><svg class="lead" viewBox="0 0 1920 1080"><path id="l1"/><rect id="r1" width="18" height="18"/></svg><div class="call" id="c1"><i class="c"></i>Learn</div><div class="pline p1">Learn from screening and affinity experiments.<b>FACS + SPR models; new sequence proposals</b></div></div>
     <div class="pw" style="--d:1.6s"><svg class="lead" viewBox="0 0 1920 1080"><path id="l2"/><rect id="r2" width="18" height="18"/></svg><div class="call" id="c2"><svg viewBox="0 0 38 36"><polygon points="19,3 35,33 3,33" fill="#2F5FB8" stroke="#17150F" stroke-width="4"/></svg>Check</div><div class="pline p2">Check predicted binding against whole HER2.<b>JapanFold: Mol1 / OpenDDE; Apheris: Boltz-2</b></div></div>
-    <div class="pw" style="--d:2.1s"><svg class="lead" viewBox="0 0 1920 1080"><path id="l3"/><rect id="r3" width="18" height="18"/></svg><div class="call" id="c3"><i class="s"></i>Choose</div><div class="pline p3">Rank designs using controls and novelty checks.<b>abguard; published stability evidence</b></div></div>
+    <div class="pw" style="--d:2.1s"><svg class="lead" viewBox="0 0 1920 1080"><path id="l3"/><rect id="r3" width="18" height="18"/></svg><div class="call" id="c3"><i class="s"></i>Choose</div><div class="pline p3">Evaluate new designs using controls and novelty checks.<b>abguard; published stability evidence</b></div></div>
     <div class="repo">github.com/MohamedAlaydi/Umi-Zoomi</div>
   </section>
 
@@ -259,36 +259,35 @@
   </section>
 
   <section class="slide" id="s3" data-sub="0">
-    <div class="num"><span class="n0">182.6<small>k</small></span><span class="n1">1,062</span><span class="n2">20</span><span class="n3">4</span></div><div class="numlabel">from proposals to tests</div>
+    <div class="num"><span class="n0">182.6<small>k</small></span><span class="n1">1,062</span><span class="n2">20</span><span class="n3">4</span></div><div class="numlabel">from generation to evaluation</div>
     <div id="funnel">
       <div class="frow"><div class="lab">Distinct new H3 proposals</div><div class="slot"><div class="bar" style="width:280px;--c:var(--blue)"></div></div></div>
       <div class="frow"><div class="lab">Novelty gate on shortlist</div><div class="slot"><div class="bar" style="width:178px;--c:var(--green)"></div></div></div>
       <div class="frow"><div class="lab">Ranked design proposal</div><div class="slot"><div class="bar" style="width:104px;--c:var(--red)"></div></div></div>
       <div class="frow"><div class="lab">Our first lab priorities</div><div class="slot"><div class="bar" style="width:54px;--c:var(--yellow)"></div></div></div>
-    </div><div class="why3"><span class="n0">182,595 distinct suggestions after the initial WT-identity constraint.</span><span class="n1">1,062 of 2,000 model-shortlisted loops passed the provided-data distance gate.</span><span class="n2">18 optimisation designs + 2 exploratory de novo; final de novo database check pending.</span><span class="n3">All four are optimisation designs and pass local abguard with reference data.</span></div>
+    </div><div class="why3"><span class="n0">182,595 distinct H3 proposals after the initial WT-identity gate, scored by the assay models.</span><span class="n1">1,062 of 2,000 model-shortlisted loops passed the provided-data distance gate.</span><span class="n2">The twenty combine new designs and re-evaluated earlier candidates. De novo database confirmation is pending.</span><span class="n3">The first panel contains three binding loops and two framework-modified constructs. All four pass local abguard.</span></div>
   </section>
 
   <section class="slide" id="s4" data-sub="0">
     <svg viewBox="0 0 1920 1080" fill="none" stroke="#17150F" stroke-width="4"><path id="q1"/><rect id="qr1" width="18" height="18" fill="#17150F"/><path id="q2"/><rect id="qr2" width="18" height="18" fill="#17150F"/><path id="q3"/><rect id="qr3" width="18" height="18" fill="#17150F"/></svg>
-    <div class="pk k1"><div class="card pick"><h3>PICK 01</h3><p>Binding loop A</p></div><div class="card why"><h3>Why this design?</h3><p>Selected for its predicted affinity.</p><div class="loop"></div><div class="loopcap">Yellow: original contact residues.</div></div><div class="card sc"><h3>Predicted site</h3><div class="big">19<small>/19</small></div><div class="mini"><i style="width:100%"></i></div><p>Mol1 contacts with the known HER2 binding site.</p></div></div>
-    <div class="pk k2"><div class="card pick"><h3>PICK 02</h3><p>Loop A with two changes</p></div><div class="card why"><h3>Why this design?</h3><p>Pick 01 with two changes to the supporting structure. We test whether stability improves.</p><div class="loop"></div><div class="loopcap">Yellow: original contact residues.</div></div><div class="card sc"><h3>Predicted site</h3><div class="big">19<small>/19</small></div><div class="mini"><i style="width:100%"></i></div><p>Mol1 contacts with the known HER2 binding site.</p></div></div>
-    <div class="pk k3"><div class="card pick"><h3>PICK 03</h3><p>Binding loop B</p></div><div class="card why"><h3>Why this design?</h3><p>The highest screening-model score of these four, with favourable affinity predictions.</p><div class="loop"></div><div class="loopcap">Yellow: original contact residues.</div></div><div class="card sc"><h3>Predicted site</h3><div class="big">19<small>/19</small></div><div class="mini"><i style="width:100%"></i></div><p>Mol1 contacts with the known HER2 binding site.</p></div></div>
-    <div class="pk k4"><div class="card pick"><h3>PICK 04</h3><p>Loop C with two changes</p></div><div class="card why"><h3>Why this design?</h3><p>A third binding loop, with the same two supporting-structure changes as Pick 02.</p><div class="loop"></div><div class="loopcap">Yellow: original contact residues.</div></div><div class="card sc"><h3>Predicted site</h3><div class="big">19<small>/19</small></div><div class="mini"><i style="width:100%"></i></div><p>Mol1 contacts with the known HER2 binding site.</p></div></div>
+    <div class="pk k1"><div class="card pick"><h3>PICK 01</h3><p>Binding loop A</p></div><div class="card why"><h3>Why this design?</h3><p>Selected for its predicted affinity.</p><div class="loop"></div><div class="loopcap">Yellow: original contact residues.</div></div><div class="card sc"><h3>Screen score</h3><div class="big">0.16<small></small></div><div class="mini"><i style="width:16.16%"></i></div><p>High-screen-class score, not a binding probability.</p></div></div>
+    <div class="pk k2"><div class="card pick"><h3>PICK 02</h3><p>Loop A with two changes</p></div><div class="card why"><h3>Why this design?</h3><p>Pick 01 with two changes to the supporting structure. We test whether stability improves.</p><div class="loop"></div><div class="loopcap">Yellow: original contact residues.</div></div><div class="card sc"><h3>Screen score</h3><div class="big">0.16<small>*</small></div><div class="mini"><i style="width:16.16%"></i></div><p>*H3-only score. Framework effect unmodelled.</p></div></div>
+    <div class="pk k3"><div class="card pick"><h3>PICK 03</h3><p>Binding loop B</p></div><div class="card why"><h3>Why this design?</h3><p>The highest screening-model score of these four, with favourable affinity predictions.</p><div class="loop"></div><div class="loopcap">Yellow: original contact residues.</div></div><div class="card sc"><h3>Screen score</h3><div class="big">0.84<small></small></div><div class="mini"><i style="width:83.64%"></i></div><p>High-screen-class score, not a binding probability.</p></div></div>
+    <div class="pk k4"><div class="card pick"><h3>PICK 04</h3><p>Loop C with two changes</p></div><div class="card why"><h3>Why this design?</h3><p>A third binding loop, with the same two supporting-structure changes as Pick 02.</p><div class="loop"></div><div class="loopcap">Yellow: original contact residues.</div></div><div class="card sc"><h3>Screen score</h3><div class="big">0.27<small>*</small></div><div class="mini"><i style="width:27.24%"></i></div><p>*H3-only score. Framework effect unmodelled.</p></div></div>
   </section>
 
-  <section class="slide" id="sB" data-sub="0">
-    <div class="card m1"><h3>Four valid priorities</h3><p>All four pass local abguard. Picks 01 and 02 are a matched pair; Picks 03 and 04 test other loops.</p></div><div class="card m2"><h3>The site is recovered</h3><p>Mol1 places all four at the known binding site. This result alone cannot rank their affinity.</p></div><div class="card m3"><h3>The lab decides next</h3><p>Measure binding, competition and thermal stability against trastuzumab. Follow promising designs with cell tests.</p></div><div class="card resultchart" style="left:920px;top:200px;width:880px;padding:30px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 560" role="img" aria-label="Mol1 predicts contact with19 of19 known HER2 site residues for trastuzumab and each of our four candidates."><g font-family="Bricolage Grotesque,Arial,sans-serif" fill="#17150F"><text x="0" y="30" font-size="29" font-weight="800">Known HER2-site contacts in Mol1</text><text x="0" y="72" font-size="22">Predicted contacts with the 19 known site residues</text><text x="0" y="137" font-size="24" font-weight="700">Trastuzumab</text><rect x="205" y="112" width="460" height="33" fill="#2F5FB8"/><text x="680" y="137" font-size="23">19/19</text><text x="0" y="209" font-size="24" font-weight="700">Pick 01</text><rect x="205" y="184" width="460" height="33" fill="#2F5FB8"/><text x="680" y="209" font-size="23">19/19</text><text x="0" y="281" font-size="24" font-weight="700">Pick 02</text><rect x="205" y="256" width="460" height="33" fill="#2F5FB8"/><text x="680" y="281" font-size="23">19/19</text><text x="0" y="353" font-size="24" font-weight="700">Pick 03</text><rect x="205" y="328" width="460" height="33" fill="#2F5FB8"/><text x="680" y="353" font-size="23">19/19</text><text x="0" y="425" font-size="24" font-weight="700">Pick 04</text><rect x="205" y="400" width="460" height="33" fill="#2F5FB8"/><text x="680" y="425" font-size="23">19/19</text><text x="0" y="505" font-size="22" font-weight="700">Binding and thermal stability have not been measured.</text><text x="0" y="545" font-size="20">OpenDDE missed the control site. See the model-control notes.</text></g></svg></div>
-  </section>
+  <section class="slide" id="sB" data-sub="0"><div class="card m1"><h3>Assay predictions</h3><p>Loop A has the lowest predicted KD. Pick 03 has the highest screening score.</p></div><div class="card m2"><h3>Framework changes</h3><p>Picks 02 and 04 carry S85N/R87T. The assay models do not score those changes. Their stability effect is unmeasured.</p></div><div class="card m3"><h3>Structural check</h3><p>All four reach the known site in Mol1. Interface PAE describes model uncertainty; it does not measure affinity.</p></div><div class="card resultchart" style="left:920px;top:170px;width:880px;padding:30px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 590" role="img" aria-label="Screen scores, two conditional affinity estimates and interface PAE for all four designs. All values are model outputs, not laboratory measurements."><g font-family="Bricolage Grotesque,Arial,sans-serif" fill="#17150F"><text x="0" y="30" font-size="29" font-weight="800">Four variants: different model signals</text><text x="0" y="70" font-size="21">Computed results. Binding and thermal stability unmeasured.</text><text x="0" y="115" font-size="21" font-weight="800">Design</text><text x="125" y="115" font-size="21" font-weight="800">Screen</text><text x="125" y="141" font-size="21" font-weight="800">score</text><text x="305" y="115" font-size="21" font-weight="800">Estimated KD / WT</text><text x="305" y="141" font-size="21" font-weight="800">Ridge / GP</text><text x="645" y="115" font-size="21" font-weight="800">Interface</text><text x="645" y="141" font-size="21" font-weight="800">PAE, Å</text><path d="M0 158H800" stroke="#17150F" stroke-width="3"/><text x="0" y="201" font-size="24" font-weight="700">Pick 01</text><text x="125" y="201" font-size="24" font-weight="700">0.16</text><text x="305" y="201" font-size="24" font-weight="700">2.94× / 0.94×</text><text x="645" y="201" font-size="24" font-weight="700">3.05</text><path d="M0 222H800" stroke="#17150F" stroke-width="1" opacity=".2"/><text x="0" y="265" font-size="24" font-weight="700">Pick 02</text><text x="125" y="265" font-size="24" font-weight="700">0.16*</text><text x="305" y="265" font-size="24" font-weight="700">2.94× / 0.94×*</text><text x="645" y="265" font-size="24" font-weight="700">3.51</text><path d="M0 286H800" stroke="#17150F" stroke-width="1" opacity=".2"/><text x="0" y="329" font-size="24" font-weight="700">Pick 03</text><text x="125" y="329" font-size="24" font-weight="700">0.84</text><text x="305" y="329" font-size="24" font-weight="700">5.84× / 2.31×</text><text x="645" y="329" font-size="24" font-weight="700">3.08</text><path d="M0 350H800" stroke="#17150F" stroke-width="1" opacity=".2"/><text x="0" y="393" font-size="24" font-weight="700">Pick 04</text><text x="125" y="393" font-size="24" font-weight="700">0.27*</text><text x="305" y="393" font-size="24" font-weight="700">3.96× / 2.96×*</text><text x="645" y="393" font-size="24" font-weight="700">4.02</text><path d="M0 414H800" stroke="#17150F" stroke-width="1" opacity=".2"/><text x="0" y="455" font-size="20">KD / WT: lower means tighter binding; 1× is historical WT KD.</text><text x="0" y="488" font-size="20">* H3-only assay scores. Framework effect is not modelled.</text><text x="0" y="521" font-size="20">Estimates are uncertain; even WT is poorly calibrated.</text><text x="0" y="554" font-size="20">PAE is predicted interface uncertainty, not measured error.</text><text x="0" y="587" font-size="20">Mol1 also recovers 19/19 reference contacts for all four.</text></g></svg></div></section>
 
+  <section class="slide" id="sV"><div class="card" style="left:292px;top:145px;width:530px;background:var(--yellow)"><h3>Held-out test</h3><p>180 measured constructs. Related sequences were held out together.</p><b>Rank correlation: 0.68</b></div><div class="card" style="left:292px;top:440px;width:530px"><h3>Large errors</h3><p>The model orders some of the affinity range, but errors are large. WT calibration is poor near strong binders.</p></div><div class="card" style="left:292px;top:745px;width:530px"><h3>What this supports</h3><p>A model-guided experiment list. It does not establish that a new design binds better than trastuzumab.</p></div><div class="card" style="left:920px;top:145px;width:880px;padding:20px"><img src="model-validation.svg" style="display:block;width:100%" alt="Measured versus group-held-out predicted KD for 180 constructs; WT is highlighted. Individual errors are substantial."/></div></section>
   <section class="slide" id="s5">
     <h2>Thank<br>you</h2>
-    <div class="tag">Team 14, Umi Zoomi</div>
+    <div class="tag">HER2 antibody redesign</div>
     <p class="names">Mohamed, Anas, Rasul, Abdi, Inger Kristine</p>
     <p class="repo2">github.com/MohamedAlaydi/Umi-Zoomi</p>
     <p class="stack">Apheris Foundry, Nebius, JapanFold, Amass</p>
   </section>
 
-  <div id="dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <div id="dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
   <div id="mute">Sound off</div>
 </div>
 
@@ -853,9 +852,10 @@ const SEQ = [
   { stop: 9, sub: 0, el: 'sB', cam: 'B1', dur: 1.4 },
   { stop: 9, sub: 1, el: 'sB', cam: 'B2', dur: 1.4 },
   { stop: 9, sub: 2, el: 'sB', cam: 'B3', dur: 1.4 },
-  { stop: 10, sub: 0, el: 's5', cam: 5,   dur: 1.6 },
+  { stop: 10, sub: 0, el: 'sV', cam: 'B2', dur: 1.4 },
+  { stop: 11, sub: 0, el: 's5', cam: 5, dur: 1.6 },
 ];
-const SLIDES = ['s0', 's1', 'sC', 'sW', 's2', 'sP', 'sT', 's3', 's4', 'sB', 's5'].map($);
+const SLIDES = ['s0', 's1', 'sC', 'sW', 's2', 'sP', 'sT', 's3', 's4', 'sB', 'sV', 's5'].map($);
 const dots = [...document.querySelectorAll('#dots i')];
 let pos = 0;
 const now = () => performance.now() / 1000;
