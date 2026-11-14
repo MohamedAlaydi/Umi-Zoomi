@@ -1,0 +1,7 @@
+# The repo is written from Windows and run on Linux. Without this, every
+# script committed from the laptop comes back as "modified" on the VM.
+* text=auto eol=lf
+*.cif text eol=lf
+*.yaml text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
