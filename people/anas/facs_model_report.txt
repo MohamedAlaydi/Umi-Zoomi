@@ -1,0 +1,45 @@
+/home/hackathon/team14/.venv/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1435: FutureWarning: 'n_jobs' has no effect since 1.8 and will be removed in 1.10. You provided 'n_jobs=-1', please leave it unspecified.
+  warnings.warn(msg, category=FutureWarning)
+loading the FACS screen
+  524346 ten-mers, classes {'low': np.int64(162186), 'medium': np.int64(190011), 'high': np.int64(172149)}
+  SPR rows usable: 740, of which 37 also in FACS
+
+fitting multinomial logistic regression on one-hot positions
+  {"accuracy": 0.7232746783298581, "macro_f1": 0.7228557498757784, "auc_high": 0.903253651767844}
+
+fitting gradient boosting on positions as categoricals
+  {"accuracy": 0.9425825153842242, "macro_f1": 0.9426810310051502, "auc_high": 0.9927387674962179}
+
+  better on held-out FACS: gbm
+
+  gbm: high-vs-rest AUC by edit distance
+  dist      n     AUC
+     3     229   0.944
+     4     939   0.962
+     5    4263   0.976
+     6   12833   0.986
+     7   24172   0.993
+     8   22646   0.997
+     9   10478   0.994
+    10    2987   0.968
+
+==============================================================
+EXTERNAL TEST: SPR, measured in nM on a different assay
+==============================================================
+
+  all SPR: n=740, with fitted KD=187
+    Spearman p_high vs log10 KD : rho=-0.330  p=3.94e-06
+    (negative rho is the good direction: higher p_high, lower KD)
+    AUC quantified-vs-no-fit    : 0.731  (n=628)
+
+  SPR unseen in FACS: n=703, with fitted KD=160
+    Spearman p_high vs log10 KD : rho=-0.430  p=1.36e-08
+    (negative rho is the good direction: higher p_high, lower KD)
+    AUC quantified-vs-no-fit    : 0.764  (n=592)
+
+  wild type WGGDGFYAMD: 8 replicate measurements
+    KD range 0.0285 to 0.1780 nM  (6.2-fold)
+    model p_high 0.998
+    A design must beat this spread, not the single 0.152 nM figure.
+
+wrote /home/hackathon/team14/people/anas/facs_model.joblib and facs_model_metrics.json
