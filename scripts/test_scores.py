@@ -1,5 +1,6 @@
 """Regression checks for score provenance and portable published evidence."""
 import contextlib
+import csv
 import io
 import json
 import shutil
@@ -77,6 +78,27 @@ class ScoreEvidenceTests(unittest.TestCase):
             self.assertEqual(scores.check(table), 0)
             table.with_suffix(".csv").write_text("wrong export\n")
             self.assertEqual(scores.check(table), 1)
+
+    def test_public_labels_preserve_sequences_and_original_query(self):
+        source = self.root / "review/pitch_her2/Proposed_ranked_20.csv"
+        source.parent.mkdir(parents=True)
+        original = dict(rank="1", query="anas_007", pair_sha256="recorded-hash",
+                        heavy_variable="EVQL", light_variable="DIQM")
+        with source.open("w", newline="") as handle:
+            writer = csv.DictWriter(handle, fieldnames=list(original))
+            writer.writeheader()
+            writer.writerow(original)
+        with self.environment():
+            exported = scores.public_panel_exports()
+        public = exported["RANKED_CANDIDATES.csv"][1][0]
+        alias = exported["CANDIDATE_IDS.csv"][1][0]
+        self.assertEqual(public["candidate_id"], "HER2-OPT-007")
+        self.assertEqual(public["heavy_variable"], original["heavy_variable"])
+        self.assertEqual(public["light_variable"], original["light_variable"])
+        self.assertEqual(alias["source_query"], original["query"])
+        self.assertEqual(alias["pair_sha256"], original["pair_sha256"])
+        self.assertEqual(scores.candidate_label("r004_cdrh3_3"), "HER2-GEN-003")
+        self.assertNotIn("anas", scores.run_label("006-anas-enumerated-top40"))
 
 
 if __name__ == "__main__":

@@ -12,14 +12,18 @@ and JapanFold.
 ## Current evidence and submission materials
 
 The current proposal is a ranked panel of 20 Fab optimisation designs. Start
-with the [ranked full-sequence CSV](review/pitch_her2/Proposed_ranked_20.csv),
+with the [ranked full-sequence CSV](notes/RANKED_CANDIDATES.csv),
 [selection rationale](review/pitch_her2/Rangering_begrunnet.md), and
 [pitch deck](review/pitch_her2/HER2_pitch.pdf). The first four proposed tests
-are `anas_007`, `anas_015`, `anas_009`, and `r004_cdrh3_3`. Earlier ranking
+are `HER2-OPT-007`, `HER2-OPT-015`, `HER2-OPT-009`, and `HER2-GEN-003`. Earlier ranking
 files remain as dated alternatives; they are not additional submissions.
 
 - [Score ledger](notes/SCORES.md): generated scores, source links, seeds and
   small raw-score snapshots that can be checked from a fresh checkout.
+  [Scoring explained](notes/SCORING.md) separates computational evidence,
+  the team's selection criteria and the organisers' experimental endpoints.
+  [Candidate ID mapping](notes/CANDIDATE_IDS.csv) preserves the connection
+  between neutral public labels and the original run queries.
 - [Pipeline audit](CURRENT_PIPELINE_AUDIT.md) and
   [execution roadmap](EXECUTION_ROADMAP.md): controls, assay transfer,
   reproducibility and remaining experimental work.

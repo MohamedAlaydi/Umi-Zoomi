@@ -65,10 +65,16 @@ PREAMBLE = """# Score table
 
 This is the computational score ledger for the hackathon submission.
 
-Start with the [proposed ranked 20](../review/pitch_her2/Proposed_ranked_20.csv)
+Start with the [proposed ranked 20](RANKED_CANDIDATES.csv)
 and [selection rationale](../review/pitch_her2/Rangering_begrunnet.md).
-Earlier alternative orders remain in `review/evidence/panel.csv` and
-`people/anas/final-20.csv`; they are dated analyses, not additional submissions.
+The [earlier review order](../review/evidence/panel.csv) and
+[earlier ensemble order](../people/anas/final-20.csv) are dated analyses,
+not additional submissions.
+Public candidate IDs describe the method: `HER2-OPT` for enumerated
+optimisation designs and `HER2-GEN` for a generator comparator. Their numeric
+suffix is stable across ranking changes. [ID mapping](CANDIDATE_IDS.csv)
+connects them to the original model queries; original evidence stays intact.
+Read [how scores and judging criteria differ](SCORING.md).
 The [de novo campaign report](../review/denovo/CAMPAIGN_RESULTS.md) and
 [campaign evidence](../runs/011-codex-denovo-vhh/local-refold-evidence.json)
 record the separate hosted-model checks. The
@@ -621,6 +627,11 @@ def generate(out_path: Path) -> int:
         writer.writerow(["design", "run", "model", "seed", "score", "value", "source", "sample"])
         writer.writerows([r.design, r.run, r.model, r.seed, r.score, r.value, r.source, r.sample] for r in rows)
     out_path.write_text(overview(rows, ledger.name, out_path.with_suffix(".csv").name), encoding="utf-8")
+    for name, (fields, data) in public_panel_exports().items():
+        with (out_path.parent / name).open("w", newline="") as handle:
+            writer = csv.DictWriter(handle, fieldnames=fields)
+            writer.writeheader()
+            writer.writerows(data)
 
     designs = {(r.run, r.design) for r in rows}
     print(f"wrote {repo_rel(out_path)}")
@@ -636,6 +647,44 @@ def generate(out_path: Path) -> int:
     return 0
 
 
+def candidate_label(query: str) -> str:
+    match = re.fullmatch(r"anas_(\d+)", query)
+    if match:
+        return f"HER2-OPT-{int(match.group(1)):03d}"
+    match = re.fullmatch(r"r004_cdrh3_(\d+)", query)
+    if match:
+        return f"HER2-GEN-{int(match.group(1)):03d}"
+    return query
+
+
+def run_label(run: str) -> str:
+    match = re.fullmatch(r"(\d+)-(?:anas|mohamed|claude|codex)-(.+)", run)
+    return f"Run {match.group(1)}: {match.group(2)}" if match else run
+
+
+def public_panel_exports():
+    source = "review/pitch_her2/Proposed_ranked_20.csv"
+    ranking = REPO / source
+    if not ranking.is_file():
+        return {}
+    with ranking.open() as handle:
+        reader = csv.DictReader(handle)
+        fields = ["candidate_id" if f == "query" else f for f in reader.fieldnames]
+        original = list(reader)
+    public, mapping, seen = [], [], set()
+    for row in original:
+        label = candidate_label(row["query"])
+        if label in seen:
+            raise ValueError(f"Duplicate public candidate ID: {label}")
+        seen.add(label)
+        public.append({"candidate_id" if k == "query" else k: label if k == "query" else v for k, v in row.items()})
+        mapping.append(dict(candidate_id=label, source_query=row["query"],
+                            source_file=source, pair_sha256=row["pair_sha256"]))
+    return {"RANKED_CANDIDATES.csv": (fields, public),
+            "CANDIDATE_IDS.csv": (list(mapping[0]) if mapping else
+                                  ["candidate_id", "source_query", "source_file", "pair_sha256"], mapping)}
+
+
 def overview(rows: list[Row], ledger_name: str, csv_name: str) -> str:
     """Keep the GitHub entry point readable; retain every score in the ledger."""
     lines = [PREAMBLE.rstrip(), "", f"<!-- score-ledger: {ledger_name} -->",
@@ -645,7 +694,7 @@ def overview(rows: list[Row], ledger_name: str, csv_name: str) -> str:
     for run in sorted({r.run for r in rows}):
         subset = [r for r in rows if r.run == run]
         seeds = sorted({int(r.seed) for r in subset if str(r.seed).isdigit()})
-        lines.append(f"| {run} | {len({r.design for r in subset})} | {len(subset)} | {', '.join(map(str,seeds))} |")
+        lines.append(f"| {run_label(run)} | {len({r.design for r in subset})} | {len(subset)} | {', '.join(map(str,seeds))} |")
     ranking = REPO / "review/pitch_her2/Proposed_ranked_20.csv"
     if ranking.is_file():
         lines += ["", "## Proposed panel: original matched seed-42 scores", "",
@@ -653,8 +702,10 @@ def overview(rows: list[Row], ledger_name: str, csv_name: str) -> str:
                   "complex scores, not a claim of seed robustness or measured affinity. Global ipTM",
                   "also includes the VH–VL interface. See the linked rationale for the six-seed",
                   "HER2-contact evidence used for selection. A local validator pass is not final acceptance.", "",
-                  "| Rank | Candidate | Global ipTM | Complex pLDDT | Raw score |",
-                  "| ---: | --- | ---: | ---: | --- |"]
+                  "BLOSUM62 and repeated-contact counts come from the supplied ranked panel,",
+                  "not from these single-seed JSON files. There is no official weighted total score.", "",
+                  "| Rank | Candidate | BLOSUM62 | Four contacts / 6 | Global ipTM | Complex pLDDT | Raw score |",
+                  "| ---: | --- | ---: | ---: | ---: | ---: | --- |"]
         baseline = {r.design: {} for r in rows if r.run.startswith("006-")}
         for r in rows:
             if r.run.startswith("006-") and str(r.seed) == "42" and r.sample == 1:
@@ -665,7 +716,7 @@ def overview(rows: list[Row], ledger_name: str, csv_name: str) -> str:
             iptm = data.get("interface_predicted_tm_score")
             plddt = data.get("average_predicted_local_distance_difference_test")
             link = f"[JSON](../{iptm.source})" if iptm else "NA"
-            lines.append(f"| {item['rank']} | {item['query']} | {iptm.value if iptm else 'NA'} | {plddt.value if plddt else 'NA'} | {link} |")
+            lines.append(f"| {item['rank']} | {candidate_label(item['query'])} | {item['blosum62']} | {item['all_four_contacts_of_six']}/6 | {iptm.value if iptm else 'NA'} | {plddt.value if plddt else 'NA'} | {link} |")
     return "\n".join(lines) + "\n"
 
 
@@ -743,6 +794,16 @@ def check(table_path: Path) -> int:
         if not csv_path.is_file() or list(csv.reader(csv_path.open(newline=""))) != expected_csv:
             print("check FAILED: score CSV differs from the source ledger", file=sys.stderr)
             return 1
+        for name, (fields, data) in public_panel_exports().items():
+            path = table_path.parent / name
+            if not path.is_file():
+                print(f"check FAILED: missing public panel export {name}", file=sys.stderr)
+                return 1
+            with path.open(newline="") as handle:
+                reader = csv.DictReader(handle)
+                if reader.fieldnames != fields or list(reader) != data:
+                    print(f"check FAILED: changed public panel export {name}", file=sys.stderr)
+                    return 1
         print(f"check OK: {repo_rel(table_path)} overview matches the ledger and proposed panel")
         return 0
 

@@ -2,10 +2,16 @@
 
 This is the computational score ledger for the hackathon submission.
 
-Start with the [proposed ranked 20](../review/pitch_her2/Proposed_ranked_20.csv)
+Start with the [proposed ranked 20](RANKED_CANDIDATES.csv)
 and [selection rationale](../review/pitch_her2/Rangering_begrunnet.md).
-Earlier alternative orders remain in `review/evidence/panel.csv` and
-`people/anas/final-20.csv`; they are dated analyses, not additional submissions.
+The [earlier review order](../review/evidence/panel.csv) and
+[earlier ensemble order](../people/anas/final-20.csv) are dated analyses,
+not additional submissions.
+Public candidate IDs describe the method: `HER2-OPT` for enumerated
+optimisation designs and `HER2-GEN` for a generator comparator. Their numeric
+suffix is stable across ranking changes. [ID mapping](CANDIDATE_IDS.csv)
+connects them to the original model queries; original evidence stays intact.
+Read [how scores and judging criteria differ](SCORING.md).
 The [de novo campaign report](../review/denovo/CAMPAIGN_RESULTS.md) and
 [campaign evidence](../runs/011-codex-denovo-vhh/local-refold-evidence.json)
 record the separate hosted-model checks. The
