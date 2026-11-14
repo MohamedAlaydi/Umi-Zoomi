@@ -57,6 +57,7 @@ runs/011-*/**/artifacts/
 !runs/003-*/request.json
 !runs/008-*/*.md
 !runs/008-*/input_hashes.txt
+!runs/013-*/input_hashes.txt
 !runs/009-*/*.py
 !runs/009-*/*.sh
 !runs/009-*/*.md

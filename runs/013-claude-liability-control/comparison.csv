@@ -1,0 +1,21 @@
+rank,candidate_id,n_parent,n_design,removed_vs_parent,added_vs_parent,net,added_severity_max
+1,HER2-OPT-007,8,7,Isom@cdr3:110/111; MetOx@cdr3:115,TrpOx@cdr3:115,-1,medium
+2,HER2-OPT-015,8,7,Isom@cdr3:110/111; MetOx@cdr3:115,TrpOx@cdr3:115,-1,medium
+3,HER2-OPT-009,8,6,Isom@cdr3:110/111; MetOx@cdr3:115,none,-2,
+4,HER2-GEN-003,8,6,Isom@cdr3:110/111; MetOx@cdr3:115,none,-2,
+5,HER2-OPT-016,8,6,Isom@cdr3:110/111; MetOx@cdr3:115,none,-2,
+6,HER2-OPT-027,8,6,Isom@cdr3:110/111; MetOx@cdr3:115,none,-2,
+7,HER2-OPT-028,8,6,Isom@cdr3:110/111; MetOx@cdr3:115,none,-2,
+8,HER2-OPT-038,8,6,Isom@cdr3:110/111; MetOx@cdr3:115,none,-2,
+9,HER2-OPT-003,8,7,Isom@cdr3:110/111; MetOx@cdr3:115,TrpOx@cdr3:115,-1,medium
+10,HER2-OPT-004,8,7,Isom@cdr3:110/111; MetOx@cdr3:115,TrpOx@cdr3:115,-1,medium
+11,HER2-OPT-002,8,7,Isom@cdr3:110/111; MetOx@cdr3:115,DeAmdH@cdr3:110/111,-1,high
+12,HER2-OPT-036,8,7,Isom@cdr3:110/111; MetOx@cdr3:115,TrpOx@cdr3:115,-1,medium
+13,HER2-OPT-021,8,7,Isom@cdr3:110/111; MetOx@cdr3:115,TrpOx@cdr3:115,-1,medium
+14,HER2-OPT-039,8,6,Isom@cdr3:110/111; MetOx@cdr3:115,none,-2,
+15,HER2-OPT-014,8,7,Isom@cdr3:110/111; MetOx@cdr3:115,DeAmdH@cdr3:110/111,-1,high
+16,HER2-OPT-026,8,8,Isom@cdr3:110/111; MetOx@cdr3:115,MetOx@cdr3:110; TrpOx@cdr3:115,0,medium
+17,HER2-OPT-032,8,6,Isom@cdr3:110/111; MetOx@cdr3:115,none,-2,
+18,HER2-OPT-010,8,6,Isom@cdr3:110/111; MetOx@cdr3:115,none,-2,
+19,HER2-OPT-040,8,7,Isom@cdr3:110/111; MetOx@cdr3:115,TrpOx@cdr3:115,-1,medium
+20,HER2-OPT-031,8,7,Isom@cdr3:110/111; MetOx@cdr3:115,TrpOx@cdr3:115,-1,medium
