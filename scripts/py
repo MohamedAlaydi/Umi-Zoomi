@@ -1,0 +1,3 @@
+#!/bin/bash
+# the team venv: numpy, pandas, scikit-learn, biotite, matplotlib, pyarrow
+exec "$HOME/team14/.venv/bin/python" "$@"

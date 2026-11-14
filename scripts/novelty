@@ -1,0 +1,2 @@
+#!/bin/bash
+exec "$HOME/team14/.venv/bin/python" "$HOME/team14/scripts/novelty.py" "$@"
