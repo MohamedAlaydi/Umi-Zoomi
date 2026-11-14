@@ -1,0 +1,54 @@
+{
+  "utc": "2026-11-14T16:52:56.050129+00:00",
+  "abguard_version": "0.1.0",
+  "immunum_version": "2.0.0",
+  "input_sha256": "a5023eceeb47f1030b3b1e6beb6bc25eed65101824c8b9ab1a4ee7f11c81e25d",
+  "reference_manifest_sha256": "de5578eb098a576e446cd51bfe37eeafe5da0b7340a41ac2e7f38fab68f1c649",
+  "reference_manifest": {
+    "format": 1,
+    "abguard_version": "0.1.0",
+    "scheme": "imgt",
+    "min_confidence": 0.1,
+    "index_table": "abguard_cdrh3",
+    "compression": "zstd",
+    "tables": [
+      {
+        "table": "abguard_cdrh3",
+        "n_rows": 610109,
+        "sequence_column": null,
+        "n_bytes": 2028925
+      }
+    ]
+  },
+  "novelty_verdict_counts": [
+    {
+      "is_novel_enough": true,
+      "count": 20
+    }
+  ],
+  "validation_report": {
+    "source": "submissions/umi-zoomi.csv",
+    "team": "umi-zoomi",
+    "n_input": 20,
+    "n_valid": 20,
+    "kinds": [
+      {
+        "kind": "vhh",
+        "n_input": 2,
+        "n_valid": 2,
+        "rule_failures": {}
+      },
+      {
+        "kind": "paired",
+        "n_input": 18,
+        "n_valid": 18,
+        "rule_failures": {}
+      }
+    ],
+    "unknown_kinds": {},
+    "duplicate_ids": [],
+    "duplicate_constructs": [],
+    "novelty_failures": {}
+  },
+  "scope": "Installed-build decisions. Its identity classification compares to trastuzumab, not every known full antibody; task-PDF nearest-known identity remains an additional check."
+}
