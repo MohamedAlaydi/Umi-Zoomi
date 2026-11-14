@@ -1,143 +1,140 @@
 # Who does what
 
-Five of us, one GPU, and a 16:00 freeze. Claim a role in the channel.
+Three jobs. The pipeline is already built and working, so nobody has to
+build anything. We run it a lot, pick the best, and explain why.
 
-## Why it is split this way
+Claim a job in the channel by number.
 
-We are not split into "the IT half" and "the biology half". Two reasons.
+---
 
-The pitch is scored **Judgment 40 %, Execution 20 %, User fit 20 %, Path
-to value 20 %**. Execution is the pipeline. Judgment is the biological
-reasoning behind the molecules we picked. Putting four people on the 20 %
-and one person on the 40 % is backwards.
+## Job 1 — Run designs
 
-And there is **one H100**. Only one person can generate designs at a time.
-So the other four roles are all deliberately GPU-free and run in parallel.
+You own the GPU. Nobody else starts a GPU job.
 
-Our biologist is not a separate team. They rotate across all four roles
-and own every call about whether a design makes biological sense.
+```
+design yourname 40
+```
 
-## The roles
+That is the whole thing. It generates 40 designs, refolds the best 10,
+scores them, and checks novelty. It runs in the background, so you can
+close your laptop.
 
-### 1. Generation
-**Owns the GPU. Nobody else holds it.**
+```
+results yourname
+```
 
-Design batches with RFD4-Proteina: sweeps over checkpoint, replicate count,
-recycle strategy and seed. Every run goes through `newrun` and `gpurun`,
-and every run's `NOTE.md` gets filled in while the job is running.
+Shows the table when it is done, or tells you it is still going.
 
-First action: a real optimisation batch, `her2-novel-2026-11-09`, far more
-than the 4 replicates the baseline used.
+Do it again with different settings and see what changes:
 
-Done when: a candidate pool big enough that filtering hard still leaves 20.
+```
+design yourname 40 her2
+design yourname 40 antibody
+```
 
-### 2. Ranking
-**The thing that actually wins. No GPU.**
+- `her2-novel` (the default) gives the most new loops and the best fit
+- `her2` sticks closer to known binders, so more get rejected as not novel
+- `antibody` is the only one that can change CDRs other than H3
 
-We are scored on three properties, so one score column cannot rank us.
-Build the three-column table:
+One run at a time. Check with `gpu` first. Start the big ones early.
 
-- binding: `min_ipae`, `iptm`, `binder_plddt`, plus whatever independent
-  signals land from role 3 and JapanFold
-- epitope preserved: verify per design, do not assume it
-- thermostability: ThermoMPNN, Nebius `stab-ddg`
+---
 
-Rank by how many axes a design is predicted to improve, then by confidence
-within that. A design predicted to improve all three outranks a design
-with a brilliant `min_ipae` and nothing else, because that is literally
-the scoring rule.
+## Job 2 — Pick the best
 
-Also owns the **developability gate**: Aggrescan 3D, SoluProt, NetSolP,
-ProteinMPNN soluble weights. Adaptyv's own write-up says expression
-improved once teams scored with these. A design that will not express
-reads zero on all three properties, so this is a gate, not a tiebreak.
+No GPU. You read the tables from job 1 and build the shortlist.
 
-First action: decide and write down what the ranking is, before there is
-anything to rank.
+The rule, in order:
 
-### 3. Data
-**Pure CPU, zero contention, start now.**
+1. **Throw out anything the novelty check calls REJECTED.** It would never
+   reach the lab.
+2. **Then throw out anything with distance under 3, or over 60 % identical
+   to trastuzumab.** The official limits are 2 and 70 %, so this keeps a
+   margin. A design on the line is a coin flip.
+3. **Sort what is left by `min_ipae`, lowest first.** Then prefer higher
+   `iptm` and higher `binder_plddt`.
+4. **Keep variety.** Ten near-identical CDRH3s is one bet, not ten. If two
+   designs differ by one residue, keep the better one.
 
-`~/team14/data/her2-trastuzumab` has 524,346 CDRH3 variants with FACS
-binding classes and 768 with real SPR numbers. Train/val/test splits are
-already made in `zenodo-10831512-trastuzumab-ngs`.
+Put the survivors in `notes/SCORES.md` as you go, with which run they came
+from. That table is something we have to hand in.
 
-Train a classifier on measured binding. This is the **only signal we have
-that touches reality instead of a model's opinion of itself**. Everything
-else we have is a confidence score, and confidence is not affinity.
+If you have spare time, the one extra thing worth doing is
+**thermostability**, because it is a whole scored property most teams will
+ignore. Ask in the channel before starting it, it is a bigger job.
 
-Feed the result to role 2 as an independent column.
+---
 
-First action: load the splits, get a baseline accuracy, see whether the
-model separates the three FACS classes at all.
+## Job 3 — Tell the story
 
-### 4. Pitch and evidence
-**Starts now, not at 17:00. The highest-leverage seat.**
+No GPU, starts now, not at 17:00.
 
-Winning the pitch takes us from 4 designs tested to 16. That is a 4x
-multiplier on whether any of our work reaches a lab.
+This is the biggest job on the team even though it has no code in it.
+**Winning the pitch takes us from 4 designs tested to 16.** The pitch is
+scored Judgment 40 %, Execution 20 %, User fit 20 %, Path to value 20 %.
+Judgment is just "why did you pick these molecules", which is a writing
+job, not a science job.
 
-Owns: `notes/DECISIONS.md`, `notes/SCORES.md`, the repo README, the slides,
-and Amass for checking claims against primary sources (what is known about
-the trastuzumab epitope, what has been tried on thermostability).
+You own:
 
-The pitch has to answer four things: why these molecules, how the pipeline
-reproduces, who the design is for, and a credible route to real use.
+- `notes/DECISIONS.md` — one line every time we decide something, and why.
+  Write it when it happens. Nobody can reconstruct it at 17:00.
+- The slides.
+- Amass, for checking claims against real papers.
 
-First action: start the decisions log properly and claim the Amass credits.
+Four questions the pitch has to answer: why these molecules, how someone
+else could reproduce the pipeline, who the design is for, and a realistic
+route to it being used.
 
-### 5. Biology
-**Rotates. Reviews continuously, not at the end.**
+---
 
-Sits with generation when choosing what to sample, with ranking when
-deciding what the numbers mean, with the pitch when it gets written.
+## Our biology person
 
-Two concrete deliverables, not "the biology approach":
+Not a separate team. You sit with whoever is working and answer the
+questions none of us can:
 
-1. **Which HER2 contacts must survive.** Name the residues. Role 2 turns
-   that into an automatic check on every refolded complex.
-2. **Which mutations are plausible** without wrecking the fold, and which
-   buy thermostability cheaply. Thermostability is a whole scored axis
-   that most teams will forget, and it is the cheapest route to S-tier.
+1. **Which HER2 residues must the design still touch?** Name them. That
+   becomes a yes/no check on every design.
+2. **Do these CDRH3 sequences look sane?** Job 2 will show you ten
+   ten-letter sequences. Which would you not put in a tube, and why?
+3. **Which changes buy stability?** Thermostability is one of the three
+   things we are scored on and the one everyone forgets.
 
-## How we stay together
+Answers go straight into `notes/DECISIONS.md`. Those sentences are worth
+more marks than anything the rest of us type.
 
-**Sync every 30 minutes. Three minutes, standing, one sentence each.**
-Two groups drifting apart for five hours is what actually sinks hackathon
-projects, and this is cheap insurance against it.
+---
 
-Anyone can `tmux attach` to anyone else's session. Use it. Pairing on the
-thing in front of you beats five solo tracks.
+## The five commands
+
+```
+team14-help          what everything does
+gpu                  is the GPU free
+design yourname 40   run the pipeline
+results yourname     see the table
+novelty check SEQ    would this design be rejected
+```
 
 ## The clock
 
 | By | What |
 | --- | --- |
-| 11:30 | Roles claimed. First real design batch running. |
-| 13:00 | Ranking written down. Developability gate working. |
-| 15:00 | Pool big enough to filter hard. Biology review of the shortlist. |
-| 16:00 | **Freeze.** Ranked 20 picked and novelty-checked. Repo clean. |
-| 17:00 | Pitch rehearsed. Score tables done. |
-| 18:00 | Submit. |
+| 11:30 | Jobs claimed, first big run going |
+| 13:00 | Enough designs to start picking |
+| 15:00 | Biology review of the shortlist |
+| 16:00 | **Stop designing.** Pick the final 20. |
+| 17:00 | Pitch ready |
+| 18:00 | Submit |
 
-Do not design after 16:00. The pitch is worth more than one more batch.
+Nothing new after 16:00. The pitch is worth more than one more run.
+
+## Sync every 30 minutes
+
+Three minutes, standing up, one sentence each. That is the only process
+we have and it is the one that stops us drifting apart.
 
 ## Already done, do not redo
 
-- The environment: `env.sh`, `gpurun`, `newrun`, the venv, Claude Code
-  with per-person logins. Run `team14-help`.
-- 14 GB of hackathon data synced to `~/team14/data`.
-- Run 001: the organisers' pipeline verified end to end, with numbers.
-- `novelty check <CDRH3>`: our stand-in for `abguard`, which is missing
-  from the VM. 525,063 sequences, matching the organisers' count exactly.
-- Run 003: a JapanFold OpenDDE job that adds an independent model **and a
-  wild-type trastuzumab control**, written and ready to submit.
-
-## Still open
-
-- Amass credits need claiming.
-- `abguard` and `immunum` are missing from our VM although the task PDF
-  says they are installed. Worth asking the Apheris team on site.
-- `foundry-toolkit weight list` / `skill list` / `workflow list` are empty
-  with the robot credential, so a browser `foundry-toolkit login` may be
-  needed for the agent skills and Nextflow workflows.
+The environment, the data, the novelty checker, and run 001 which proves
+the pipeline works end to end. Run `team14-help` and look at
+`results 001`.
