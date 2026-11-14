@@ -1,46 +1,48 @@
-# Hvorfor disse 20 får denne rekkefølgen
+# Why these 20 are in this order
 
-Dette er et oppdatert forslag til prioritering av de samme 20 optimaliseringsdesignene. Den tidligere rangfilen var delvis basert på modellkjøringen med startverdi 42. Den historiske plassen vises i tabellen. Fire kontraster er valgt med vitenskapelig skjønn. Reservene er sortert konsekvent på sekvensskår og deretter gjennomsnittlig overlapp over seks kjøringer. Ved eksakt likhet brukes antall kjøringer med alle fire kontakter, deretter kandidat-ID. Alle de valgte kandidatene er parvis minst tre endringer fra hverandre. Resultatet er et forslag til hvilke tester som er mest verdifulle.
+This is an updated proposal for prioritising the same 20 optimisation designs. The earlier rank file was based in part on the model run at seed 42. The historical position is shown in the table. Four contrasts were chosen by scientific judgement. The reserves are sorted consistently on sequence score and then on mean overlap across six runs. Exact ties are broken by the number of runs with all four contacts, then by candidate ID. All the selected candidates are pairwise at least three substitutions apart. The result is a proposal for which tests are the most valuable.
 
-Sekvensskåren BLOSUM62 oppsummerer hvilke aminosyrebytter som ble gjort fra trastuzumab. Høyere skår var på gruppenivå forbundet med større sjanse for en rapporterbar SPR-tilpasning i den historiske serien. På 584 vurderbare historiske varianter var AUROC 0,847 mot 0,751 for FACS-modellen. Deler av serien var valgt ved bruk av BLOSUM. Bare tre historiske varianter oppfyller alle sekvensbetingelsene for den nye enumererte gruppen, og alle tre har en tilpasset KD. Dette begrenser presisjonen for enkeltkandidater.
+The BLOSUM62 sequence score summarises which amino-acid substitutions were made from trastuzumab. At group level, a higher score was associated with a greater chance of a reportable SPR fit in the historical series. Across 584 assessable historical variants the AUROC was 0.847, against 0.751 for the FACS model. Part of that series was itself selected using BLOSUM. Only three historical variants satisfy all the sequence conditions of the new enumerated group, and all three have a fitted KD. That limits the precision available for any single candidate.
 
-Kontaktandel i tabellen teller modellkjøringer der alle de fire valgte løkkeposisjonene berørte HER2 ved 4,5 Å. Flateoverlapp er Jaccard for hele Fab–HER2-kontaktsettet målt mot krystallstrukturen og deretter gjennomsnittet over seks kjøringer. Ekstra eller manglende HER2-rester trekker ned. Originalen selv hadde 6/6 for løkkeposisjonene og 96,5 % gjennomsnittlig flateoverlapp. Seks kjøringer deler modell og mal. Ingen av disse størrelsene måler KD, konkurranse eller temperatur.
+The contact fraction in the table counts model runs in which all four selected loop positions touched HER2 at 4.5 Å. Footprint overlap is the Jaccard index for the whole Fab–HER2 contact set measured against the crystal structure, then averaged over six runs. Extra or missing HER2 residues both reduce it. The parent itself scored 6/6 on the loop positions and 96.5 % mean footprint overlap. The six runs share a model and a template. None of these quantities measures KD, competition or temperature.
 
-| Ny | Før | Kandidat | Sekvensskår | Alle fire | Flateoverlapp | Begrunnelse |
+| New | Prev | Candidate | Sequence score | All four | Footprint overlap | Reason |
 |---:|---:|---|---:|---:|---:|---|
-| 1 | 1 | anas_007 | 36 | 6/6 | 98.2 % | Beste kombinasjon i dette testpanelet av høy sekvensskår og en stabil foretrukket kontaktflate. Eksakt HER2-flate i fem av seks modeller. |
-| 2 | 2 | anas_015 | 32 | 6/6 | 91.2 % | Den kontaktbevarende halvdelen av hovedeksperimentet. Fem endringer og sekvensskår 32, som anas_009. Alle fire kontakter i seks av seks. |
-| 3 | 3 | anas_009 | 32 | 0/6 | 89.6 % | Den andre halvdelen av samme eksperiment. De samme fire byggesteinene er til stede, men ingen av seks modeller har alle fire kontaktene samtidig. |
-| 4 | 4 | r004_cdrh3_3 | 19 | 6/6 | 93.9 % | Utfordrer fra en annen designmetode. Bare to av fire opprinnelige aminosyrer er bevart, men alle fire posisjonene har kontakt i seks av seks. Eksakt flate i tre av seks. |
-| 5 | 5 | anas_016 | 40 | 3/6 | 90.2 % | Høyest sekvensskår blant de 20. Bare tre av seks modeller har alle fire kontaktene. Første reserve tester dermed den sterkeste sekvensbaserte hypotesen. |
-| 6 | 7 | anas_028 | 38 | 6/6 | 94.7 % | Sekvensskår 38 og alle fire kontakter i seks av seks. Sterkere samlet begrunnelse for tidlig testing enn den tidligere nummer seks, anas_027. |
-| 7 | 8 | anas_038 | 37 | 0/6 | 96.5 % | Samme sekvensskår som anas_003, men større gjennomsnittlig overlapp med hele HER2-flaten. Tre eksakte flater, selv om ingen pose har alle fire løkkekontaktene. |
-| 8 | 9 | anas_003 | 37 | 6/6 | 87,0 % | Beholder alle fire kontakter gjennom seks modellkjøringer. Ved samme sekvensskår som anas_038 er den samlede HER2-flaten mindre lik originalens. |
-| 9 | 10 | anas_004 | 35 | 6/6 | 93.9 % | Best gjennomsnittlig overlapp i gruppen med sekvensskår 35. Alle fire kontakter i seks av seks. Sammenlignbar med anas_021, som også har fire endringer. |
-| 10 | 12 | anas_036 | 35 | 6/6 | 93.2 % | Samme sekvensskår og like mange kjøringer med alle kontaktene som anas_002. Litt større gjennomsnittlig overlapp gir en knapp prioritet. |
-| 11 | 11 | anas_002 | 35 | 6/6 | 90.4 % | Samme sekvensskår som de to foran, og seks av seks med alle fire kontakter. Noe lavere gjennomsnittlig overlapp. |
-| 12 | 13 | anas_021 | 35 | 0/6 | 86.8 % | Lavest gjennomsnittlig overlapp av kandidatene med skår 35. Gir et ekstra sammenligningspar med anas_004 dersom begge når laben. |
-| 13 | 14 | anas_039 | 32 | 2/6 | 86.7 % | Sekvensskår 32 gir plass foran kandidatene med skår 31 i denne regelen. Bare to av seks beholder alle kontaktene. Prioritet over anas_014 er særlig usikker. |
-| 14 | 15 | anas_014 | 31 | 6/6 | 97.5 % | Svært høy overlapp med hele HER2-flaten, seks av seks med alle fire kontakter og tre eksakte flater. Først av de to med skår 31. |
-| 15 | 16 | anas_026 | 31 | 6/6 | 87.5 % | Samme sekvensskår og samme seks av seks løkkekontakter som anas_014, men lavere overlapp med hele HER2-flaten. |
-| 16 | 20 | anas_031 | 30 | 6/6 | 93.9 % | Størst gjennomsnittlig overlapp blant de fire med sekvensskår 30. Beholder alle fire kontakter i seks av seks. |
-| 17 | 18 | anas_010 | 30 | 6/6 | 93,0 % | Nest størst gjennomsnittlig overlapp blant kandidatene med skår 30. Alle fire kontakter i seks av seks. Forskjellen fra anas_031 er liten. |
-| 18 | 19 | anas_040 | 30 | 4/6 | 92.3 % | Tredje høyeste gjennomsnittlige overlapp i gruppen med skår 30. Fire av seks har alle løkkekontaktene. Plasseringen mot anas_032 avhenger av hvilken egenskap man vektlegger. |
-| 19 | 17 | anas_032 | 30 | 6/6 | 90.6 % | Alle fire kontakter i seks av seks, men lavest gjennomsnittlig overlapp blant kandidatene med skår 30. Løkkekontakter alene ville gitt en annen rekkefølge. |
-| 20 | 6 | anas_027 | 22 | 0/6 | 89,0 % | Høyere gjennomsnittlig VH–HER2-modellskår enn originalen, men sekvensskår 22 og ingen kjøringer med alle fire kontakter. Beholdes som en strukturbasert utfordrer. |
+| 1 | 1 | anas_007 | 36 | 6/6 | 98.2 % | Best combination in this test panel of a high sequence score and a stable preferred contact face. Exact HER2 footprint in five of six models. |
+| 2 | 2 | anas_015 | 32 | 6/6 | 91.2 % | The contact-preserving half of the main experiment. Five substitutions and sequence score 32, the same as anas_009. All four contacts in six of six. |
+| 3 | 3 | anas_009 | 32 | 0/6 | 89.6 % | The other half of the same experiment. The same four building blocks are present, but none of the six models has all four contacts at once. |
+| 4 | 4 | r004_cdrh3_3 | 19 | 6/6 | 93.9 % | Challenger from a different design method. Only two of the four original amino acids are kept, yet all four positions make contact in six of six. Exact footprint in three of six. |
+| 5 | 5 | anas_016 | 40 | 3/6 | 90.2 % | Highest sequence score of the 20. Only three of six models have all four contacts, so the first reserve tests the strongest sequence-based hypothesis. |
+| 6 | 7 | anas_028 | 38 | 6/6 | 94.7 % | Sequence score 38 and all four contacts in six of six. A stronger overall case for early testing than the previous number six, anas_027. |
+| 7 | 8 | anas_038 | 37 | 0/6 | 96.5 % | Same sequence score as anas_003, but greater mean overlap with the whole HER2 footprint. Three exact footprints, although no pose has all four loop contacts. |
+| 8 | 9 | anas_003 | 37 | 6/6 | 87.0 % | Keeps all four contacts across six model runs. At the same sequence score as anas_038, its overall HER2 footprint is less like the parent's. |
+| 9 | 10 | anas_004 | 35 | 6/6 | 93.9 % | Best mean overlap in the group scoring 35. All four contacts in six of six. Comparable to anas_021, which also carries four substitutions. |
+| 10 | 12 | anas_036 | 35 | 6/6 | 93.2 % | Same sequence score, and the same number of runs with all contacts, as anas_002. A slightly greater mean overlap gives it a narrow priority. |
+| 11 | 11 | anas_002 | 35 | 6/6 | 90.4 % | Same sequence score as the two above it, and six of six with all four contacts. Somewhat lower mean overlap. |
+| 12 | 13 | anas_021 | 35 | 0/6 | 86.8 % | Lowest mean overlap of the candidates scoring 35. Gives an extra comparison pair with anas_004 if both reach the lab. |
+| 13 | 14 | anas_039 | 32 | 2/6 | 86.7 % | Sequence score 32 places it ahead of the candidates scoring 31 under this rule. Only two of six keep all the contacts. Its priority over anas_014 is especially uncertain. |
+| 14 | 15 | anas_014 | 31 | 6/6 | 97.5 % | Very high overlap with the whole HER2 footprint, six of six with all four contacts, and three exact footprints. First of the two scoring 31. |
+| 15 | 16 | anas_026 | 31 | 6/6 | 87.5 % | Same sequence score, and the same six of six loop contacts, as anas_014, but lower overlap with the whole HER2 footprint. |
+| 16 | 20 | anas_031 | 30 | 6/6 | 93.9 % | Greatest mean overlap among the four scoring 30. Keeps all four contacts in six of six. |
+| 17 | 18 | anas_010 | 30 | 6/6 | 93.0 % | Second greatest mean overlap among the candidates scoring 30. All four contacts in six of six. The difference from anas_031 is small. |
+| 18 | 19 | anas_040 | 30 | 4/6 | 92.3 % | Third highest mean overlap in the group scoring 30. Four of six have all the loop contacts. Its placing against anas_032 depends on which property you weight. |
+| 19 | 17 | anas_032 | 30 | 6/6 | 90.6 % | All four contacts in six of six, but the lowest mean overlap among the candidates scoring 30. Loop contacts alone would have given a different order. |
+| 20 | 6 | anas_027 | 22 | 0/6 | 89.0 % | A higher mean VH–HER2 model score than the parent, but sequence score 22 and no runs with all four contacts. Kept as a structure-based challenger. |
 
-## De novo etter de to nye refoldingene
+Public candidate IDs for these queries are in [notes/CANDIDATE_IDS.csv](../../notes/CANDIDATE_IDS.csv).
 
-De tre nye VHH-designene ble vurdert av OpenFold3 og Mol-1 med både kort og lang HER2-sekvens. Oversikten teller de 19 HER2-kontaktrestene fra krystallstrukturen som gjenfinnes i modellen. Denne opptellingen teller kun gjenfunne rester. Fab-tabellens Jaccard tar også hensyn til ekstra kontakter.
+## De novo, after the two new refolds
 
-| Design | OpenFold3 kort / lang | Mol-1 kort / lang |
+The three new VHH designs were assessed by OpenFold3 and Mol-1, with both the short and the long HER2 sequence. The table counts how many of the 19 HER2 contact residues from the crystal structure are recovered in the model. This count only counts recovered residues. The Jaccard index in the Fab table also accounts for extra contacts.
+
+| Design | OpenFold3 short / long | Mol-1 short / long |
 |---|---:|---:|
 | novel1 | 0 / 0 | 7 / 0 |
 | novel2 | 0 / 0 | 0 / 0 |
 | novel3 | 0 / 0 | 8 / 8 |
 
-På den korte referansen fant OpenFold3 bare 2 av 19 for selve trastuzumab, mens Mol-1 fant 18 av 19. Ingen samtidig referanse på den lange HER2-sekvensen inngår her. Novel3 er derfor den de novo-kandidaten det er best grunnlag for å følge opp. Mol-1 finner 8 av 19 i begge oppsett. Det finnes ennå ingen labmåling av konkurranse og ingen endelig bekreftelse av de novo-spor fra arrangøren. VHH-format og lokal kontroll alene avgjør ikke den typeavhengige identiteten mot kjente antistoffer. Med disse dataene står forslaget om å bruke to tidlige plasser på de novo på vent. Den operative listen inneholder 20 optimaliseringer.
+On the short reference, OpenFold3 recovered only 2 of 19 for trastuzumab itself, while Mol-1 recovered 18 of 19. No concurrent reference on the long HER2 sequence is included here. Novel3 is therefore the de novo candidate with the best grounds for follow-up: Mol-1 recovers 8 of 19 in both setups. There is as yet no laboratory measurement of competition, and no final confirmation of de novo track assignment from the organisers. VHH format and a local check alone do not settle the type-dependent identity against known antibodies. **On these data, the proposal to spend two early slots on de novo is on hold. The operative list contains 20 optimisations.**
 
-Alle 20 kjedepar besto det lokalt gjenopprettede abguard-bygget med referansedatabasen. Rangeringa endrer bare rekkefølgen. Dette er en kvalitativ prioritering på en allerede valgt gruppe, og fire laboratorietester gir ikke nok evidens til å validere hele rekkefølgen.
+All 20 chain pairs passed the locally recovered `abguard` build against its reference database. This ranking changes only the order. It is a qualitative prioritisation of an already selected group, and four laboratory tests do not provide enough evidence to validate the whole order.
 
-Kilder i teamrepoet: review/pitch_her2/final_evidence.json, review/pitch_her2/Proposed_ranked_20.csv, review/evidence/assay_transfer.json, runs/011-codex-denovo-vhh/local-refold-collection.log, runs/011-codex-denovo-vhh/local-refold-manifest.json og den lokale valideringsloggen.
+Sources in the team repo: `review/pitch_her2/final_evidence.json`, `review/pitch_her2/Proposed_ranked_20.csv`, `review/evidence/assay_transfer.json`, `runs/011-codex-denovo-vhh/local-refold-collection.log`, `runs/011-codex-denovo-vhh/local-refold-manifest.json`, and the local validation log.
