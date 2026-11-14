@@ -8,6 +8,7 @@ The presentation keeps the supplied visual style and follows the whole design-an
 - PDF page 13 shows primary affinity-model predictions against 180 historical measured SPR constructs, with groups held out.
 - `SPEAKER-SCRIPT.md` contains an expanded spoken script and detailed preparation notes, including units and limitations.
 - `TECHNICAL_MASTER_MANUSCRIPT.md` is the extended whole-presentation version: data audit, model settings, validation, generation, eligibility, structural controls, all four candidates and next steps. It also explains the molecular colour coding. It deliberately exceeds five minutes for editing and preparation.
+- `SLIDE_BY_SLIDE_TECHNICAL_SCRIPT.md` is the presentation-aligned reading version: all 14 PDF pages, with visible content, spoken narrative, optional depth and transitions. Use this when rehearsing with the slides.
 - `FOUR_DESIGN_COMPARISON.csv` and `RESULTS_AND_SOURCES.json` contain the numerical sources.
 - `TOP4_INNSENDING.csv` is unchanged; it keeps the validated six-column submission format.
 
