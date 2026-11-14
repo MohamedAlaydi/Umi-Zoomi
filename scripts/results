@@ -1,0 +1,62 @@
+#!/bin/bash
+# Show the results of a run.
+#
+#   results              the newest run
+#   results <yourname>   your newest run
+#   results <run-folder> that run
+set -u
+
+R="$HOME/team14/runs"
+ARG=${1:-}
+
+if [ -z "$ARG" ]; then
+  DIR=$(ls -1dt "$R"/*/ 2>/dev/null | head -1)
+elif [ -d "$ARG" ]; then
+  DIR="$ARG"
+elif [ -d "$R/$ARG" ]; then
+  DIR="$R/$ARG"
+else
+  DIR=$(ls -1dt "$R"/*"$ARG"*/ 2>/dev/null | head -1)
+fi
+
+if [ -z "${DIR:-}" ] || [ ! -d "$DIR" ]; then
+  echo "no run found. Runs available:"
+  ls -1 "$R" | grep -v '\.log$'
+  exit 1
+fi
+
+DIR=${DIR%/}
+echo "=== $(basename "$DIR") ==="
+
+if grep -q '^EXIT=0' "$DIR/run.log" 2>/dev/null; then
+  echo "status: finished"
+elif grep -q '^EXIT=' "$DIR/run.log" 2>/dev/null; then
+  echo "status: FAILED, last lines of the log:"
+  tail -15 "$DIR/run.log"
+  exit 1
+else
+  echo "status: still running"
+  echo
+  tail -3 "$DIR/run.log" 2>/dev/null
+  echo
+  echo "watch it with: tail -f $DIR/run.log"
+  exit 0
+fi
+
+echo
+TABLE=$(sed -n '/refolded design(s) from/,$p' "$DIR/run.log" 2>/dev/null)
+if [ -n "$TABLE" ]; then
+  echo "$TABLE"
+else
+  # older runs did not append the table, so work it out now
+  CSV=$(find -L "$DIR" "$HOME/team14/data/rfd4-proteina/docs/runs" \
+          -name refold_metrics.csv 2>/dev/null | head -1)
+  if [ -n "$CSV" ]; then
+    "$HOME/team14/.venv/bin/python" "$HOME/team14/scripts/report.py" "$CSV"
+  else
+    echo "(no refold_metrics.csv found for this run)"
+  fi
+fi
+
+echo
+echo "note: $DIR/NOTE.md"

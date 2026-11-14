@@ -1,0 +1,89 @@
+#!/bin/bash
+# One command for the whole design pipeline.
+#
+#   design <yourname> <N>            e.g.  design mohamed 40
+#   design <yourname> <N> <model>    model: her2-novel (default) | her2 | antibody
+#
+# It makes a run folder, generates N designs, refolds the best quarter with
+# Boltz-2, scores them, then prints the table with the novelty check.
+# Everything runs behind the GPU lock, inside tmux, so you can close your
+# laptop. It prints how to watch it.
+set -u
+
+WHO=${1:-}
+N=${2:-}
+MODEL=${3:-her2-novel}
+
+if [ -z "$WHO" ] || [ -z "$N" ]; then
+  sed -n '2,9p' "$0" | sed 's/^# \?//'
+  exit 1
+fi
+
+case "$MODEL" in
+  her2-novel) IMG_SUFFIX=her2-novel-2026-11-09 ;;
+  her2)       IMG_SUFFIX=her2-2026-11-07 ;;
+  antibody)   IMG_SUFFIX=antibody-2026-10-30 ;;
+  *) echo "model must be her2-novel, her2 or antibody" >&2; exit 1 ;;
+esac
+
+# refold the best quarter, at least 2, at most 20
+TOPN=$(( N / 4 ))
+[ "$TOPN" -lt 2 ] && TOPN=2
+[ "$TOPN" -gt 20 ] && TOPN=20
+
+DOCS="$HOME/team14/data/rfd4-proteina/docs"
+RUN=$("$HOME/team14/scripts/newrun" "$WHO" "$MODEL-n$N")
+REL="runs/$(basename "$RUN")"
+SESSION="d-$WHO"
+
+rm -rf "${DOCS:?}/$REL"
+
+cat > "$RUN/NOTE.md" <<NOTE
+# $(basename "$RUN")
+
+- when: $(date '+%Y-%m-%d %H:%M')
+- who: $WHO
+- model: $IMG_SUFFIX
+- designs generated: $N
+- refolded: top $TOPN, Boltz-2 with the 1N8Z template
+- seed: 1
+- command: design $WHO $N $MODEL
+
+## why we ran it
+
+(one or two lines: what were you trying to find out?)
+
+## what came out
+
+(paste the table that \`design\` printed at the end)
+
+## decision
+
+(keep / drop, and why)
+NOTE
+
+tmux kill-session -t "$SESSION" 2>/dev/null
+tmux new-session -d -s "$SESSION" \
+  "cd '$DOCS' && N=$N TOPN=$TOPN OUT='$REL' IMG=$IMG_SUFFIX \
+   '$HOME/team14/scripts/gpurun' '$WHO' \
+   bash Scripts/run-her2.sh all > '$RUN/run.log' 2>&1; \
+   echo EXIT=\$? >> '$RUN/run.log'; \
+   ln -sfn '$DOCS/$REL' '$RUN/out' 2>/dev/null; \
+   '$HOME/team14/.venv/bin/python' '$HOME/team14/scripts/report.py' \
+     '$DOCS/$REL/scored-boltz2/refold_metrics.csv' >> '$RUN/run.log' 2>&1; \
+   sleep 86400"
+
+cat <<MSG
+
+Started: $(basename "$RUN")
+  model    $IMG_SUFFIX
+  designs  $N, refolding the best $TOPN
+
+Watch it:        tail -f $RUN/run.log
+When it's done:  results $WHO
+Is it finished?  grep EXIT $RUN/run.log
+
+It takes a few minutes per design, so $N designs is roughly $(( N * 2 )) to $(( N * 4 )) minutes.
+Go do something else. Fill in the "why we ran it" line in:
+  $RUN/NOTE.md
+MSG
