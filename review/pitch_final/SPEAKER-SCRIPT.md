@@ -1,267 +1,177 @@
-# Umi Zoomi: presentation manuscript
+# Umi Zoomi: whole-presentation manuscript
 
-This manuscript follows the updated deck: the complete workflow, four-design comparison, retrospective model validation and next experiments. Candidate identities, order and source values are unchanged.
+Approximately five minutes at a steady presentation pace. Read the quoted paragraphs; headings and click instructions are not spoken. This follows the existing 14-page PDF, including the four-design table on page 12 and model-validation plot on page 13. No slide changes are needed.
 
-The spoken text is in quotation marks. The preparation notes after the script are for understanding and questions, not for reading aloud. Allow about six to seven minutes for the expanded spoken version, including slide changes. Explain the choices calmly; there is no need to recite every number on screen.
+## Slide 1: Title | PDF 1 |0:00–0:20
+Two presses: alarm, then title.
 
-## Slide 1: HER2 antibody redesign | PDF page 1
+“We are Umi Zoomi. We used experimental data and protein models to redesign antibody fragments against HER2. We built a workflow that generates new sequences, checks their predicted behaviour and produces variants with specific questions to test in the laboratory.”
 
-Two presses: opening alarm, then title.
-
-“We are Umi Zoomi. We used experimental data to redesign antibody fragments against HER2, starting from trastuzumab.
-
-We trained sequence models, generated new binding loops and evaluated their predicted interactions. We will show what that work produced, where the models agreed or failed, and what the four experimental variants are meant to test.”
-
-## Slide 2: Why HER2-positive breast cancer? | PDF page 2
-
+## Slide 2: Motivation | PDF 2 |0:20–0:45
 Two presses reveal the two cards.
 
-“We started from trastuzumab, an established antibody used in HER2-positive breast cancer. That gave us a clear target, a known binding site and an experimental reference.
+“Trastuzumab is an established treatment for HER2-positive breast cancer. It gives us a known target, binding site and experimental reference.
 
-We asked whether changes to the antibody could preserve its recognition of HER2 while improving binding or stability. Our work is at the design stage. Laboratory and cell experiments would have to establish whether a change is useful for a future treatment.”
+We investigated changes that might preserve HER2 recognition while improving binding or thermal stability. Our work concerns early antibody development; a benefit for patients would require much more evidence.”
 
-## Slide 3: From data to experimental variants | PDF page 3
-
+## Slide 3: What the workflow is for | PDF 3 |0:45–1:00
 One press.
 
-“The immediate user is an antibody discovery team. They need more than a list of generated sequences: they need experimental evidence behind the design process and a way to check whether the predictions are useful.
+“For a discovery team, generating sequences is only the beginning. The difficult step is connecting a proposed change to evidence and deciding what an experiment should establish. We made that connection explicit in our workflow.”
 
-Our workflow connects those measurements to new variants, structural evaluations and a documented experimental panel.”
-
-## Slide 4: Keep the right contact | PDF page 4
-
+## Slide 4: What we changed | PDF 4 |1:00–1:25
 One press.
 
-“The experimental trastuzumab–HER2 structure tells us where the antibody binds. We used that as our reference and evaluated new designs against the whole HER2 protein.
+“We focused on H3, the third binding loop on the antibody’s heavy chain. It helps form the surface that recognises HER2.
 
-This matters because an antibody can have a plausible-looking fold and still be placed at the wrong site. We checked both the sequence and the predicted interaction.”
+We redesigned its central sequence while retaining the light chain and most of the original structure. We then checked whether the predicted complexes still contacted trastuzumab’s known binding site.”
 
-## Slide 5: What we built | PDF page 5
+## Slide 5: Methods | PDF 5 |1:25–2:00
+One press; let the labels appear.
 
-One press. Allow the three labels to appear.
+“We trained separate models on screening data and measured affinities. Screening reflects binding and antibody display. Affinity measurements describe how tightly the interaction holds.
 
-“We connected three steps: learning from measurements, checking structures and choosing experiments.
+Those models guided new sequence proposals. Structural predictions tested their placement against full HER2, while abguard checked the sequence requirements.
 
-We trained separate models on the organisers’ screening data and measured binding affinities. We used those models to guide new binding-loop proposals and tested their predictions on held-out data.
+We used Apheris, JapanFold and Nebius across the design and evaluation work. The code, settings and validation records are available in GitHub.”
 
-We then checked selected sequences with structural models and the novelty validator. Apheris, JapanFold and Nebius supported different parts of that work. The inputs, settings, code and validation records are documented in GitHub.
+## Slide 6: What changed our approach | PDF 6 |2:00–2:30
+Three presses, one finding per card.
 
-The final choice combines those checks with a published stability idea. We keep the reasons visible, so a laboratory result can tell us which part of the reasoning held up.”
+“The checks exposed limits. Screening and affinity predictions sometimes favoured different sequences. One docking model missed most of the known binding site for trastuzumab itself, so its negative predictions could not reliably reject new candidates.
 
-## Slide 6: What we learned | PDF page 6
+For stability, we introduced two framework substitutions from published work. Their benefit in our redesigned fragments is still unmeasured.”
 
-Three presses, one per finding.
-
-“The checks changed our decisions.
-
-A strong screening prediction did not consistently mean stronger predicted affinity. We kept those signals separate.
-
-One docking model missed most of the known site even for trastuzumab itself. We therefore stopped treating its negative results as a reason to reject a new design. That disagreement remains a limitation.
-
-For thermal stability, we selected two framework substitutions reported in the literature. Their benefit in our redesigned fragments is unmeasured, so we built a comparison to test them.”
-
-## Slide 7: From proposals to tests | PDF page 7
-
+## Slide 7: Generation and evaluation | PDF 7 |2:30–2:55
 Four presses through the funnel.
 
-“We generated a large set of new binding-loop proposals, scored them, and applied exact sequence-distance checks to a shortlist.
+“We generated about 183,000 distinct loop proposals after the initial identity constraint. Of 2,000 model-shortlisted proposals, 1,062 passed the provided-data distance gate.
 
-The final panel combines new proposals with earlier candidates that we re-evaluated. Twenty designs are ranked; four are our first laboratory priorities, and all four pass local abguard.
+The ranked twenty combine new proposals with earlier designs evaluated again. The first experimental panel contains four locally validated optimisation designs. It covers three binding loops and a matched framework comparison.”
 
-We chose three binding loops and included a matched pair. That gives us different binding ideas and a direct test of the framework changes.”
-
-## Slide 8: The four picks | PDF pages 8–11
-
+## Slide 8: Four variants | PDF 8–11 |2:55–3:35
 Four presses, one per candidate.
 
 ### Pick 01
 
-“Pick one is a binding-loop design prioritised by the affinity models. Its screening-model support is weaker, so that prediction needs an experimental test.”
+“Pick one is an affinity-model-led loop. Its screening-model support is weaker, which is a reason to test the prediction.”
 
 ### Pick 02
 
-“Pick two has exactly the same binding loop, with two changes to the supporting structure. Comparing one and two tests whether those changes affect binding and thermal stability.”
+“Pick two has the same loop, with two framework changes. Comparing one and two tests their effect on binding and stability.”
 
 ### Pick 03
 
-“Pick three uses a different loop and has the highest screening-model score among these four. It gives us an alternative supported by a different signal.”
+“Pick three has a different loop and the highest screening-model score among the four.”
 
 ### Pick 04
 
-“Pick four uses a third loop with the same framework substitutions as pick two. It tests that idea in another sequence background.”
+“Pick four carries the framework changes on a third loop. It explores another sequence background.”
 
-## Slide 9: Four-design results | PDF page 12
+## Slide 9: Four-design results | PDF 12 |3:35–4:05
+Three presses reveal the cards. Keep the table visible.
 
-Three presses reveal the cards. Keep the figure visible.
+“The table shows those trade-offs numerically. The screening model favours Pick three; the affinity models favour Pick one’s loop, but disagree about its affinity relative to the reference.
 
-“This table shows the different signals for all four variants.
+The framework variants inherit H3-only assay scores, so those scores do not evaluate the framework changes. Structural confidence and the shared binding-site recovery also do not establish stronger binding or improved stability.”
 
-Pick three has the highest screening score. The affinity models favour Pick one's loop, but disagree about how it compares with the historical trastuzumab affinity. The framework variants inherit H3-only assay scores, so those numbers cannot tell us what the framework changes do.
-
-The interface scores describe predicted structural uncertainty. All four also recover the known site in Mol1. Neither result is a measured affinity or stability gain.”
-
-## Slide 10: How well does the affinity model predict measurements? | PDF page 13
-
+## Slide 10: Model validation | PDF 13 |4:05–4:30
 One press.
 
-“Here we check the affinity model against historical SPR measurements. Each dot is a construct predicted while its sequence group was held out. The diagonal would be a perfect prediction.
+“We also checked the affinity model against historical measurements, holding related sequences out together. Each dot compares a prediction with a measured affinity; the diagonal would be exact agreement.
 
-The model captures some ordering across the affinity range, but the errors are substantial. It also overestimates KD for the strong-binding reference. We therefore use these scores to propose experiments, without claiming that small predicted differences are real improvements.”
+There is useful ranking signal, but substantial error, including for the reference antibody. The model supports hypotheses, not precise promises about improvement.”
 
-## Slide 11: Conclusion and next steps | PDF page 14
-
+## Slide 11: Conclusion and next steps | PDF 14 |4:30–5:00
 One press.
 
-“Next, the four variants need expression, SPR binding, competition and thermal-stability measurements alongside trastuzumab. Comparing Picks one and two tests the framework change in the same binding-loop background.
+“Our results are new sequences, an implemented evaluation workflow and four testable variants. Improved performance remains unproven.
 
-Promising variants would then need cell binding, specificity checks and development in an appropriate therapeutic format.
+Next are expression, binding, competition and thermal-stability measurements alongside trastuzumab. Promising designs would then need cell testing and specificity checks before further therapeutic development.
 
-Our result is a working design-and-evaluation workflow and four concrete variants, with numerical predictions and clear limitations. Whether any improves on trastuzumab remains an experimental question. Thank you.”
+That is the next question for this HER2 programme: which proposed changes survive measurement?”
 
 ---
 
-# Preparation notes: understand the work behind the talk
+# Preparation notes: not spoken
 
-## What is the actual contribution?
+## What H3 means
 
-The contribution is an implemented design-and-selection workflow, applied to a demanding reference antibody. Its parts are connected: original assay data, freshly trained sequence predictors, new constrained sequence proposals, structural checks against full HER2, explicit-reference novelty validation, and a ranked submission.
+CDR-H3 is the third complementarity-determining region of the heavy variable domain. It is one of the loops that form an antibody’s binding surface. Other loops and the light chain also contribute to recognition.
 
-The control experiments matter because they affected the selection. A model was not allowed to reject designs simply because it returned a low score: we first checked whether it could reproduce the known interaction. We also evaluated a binding-energy predictor on measured historical controls. Its performance was too uncertain to let it drive the ranking.
+The yellow loop in the presentation shows the 10-residue central H3 segment we redesigned. In the full IMGT convention used for checks, the loop also contains fixed flanking residues. We did not redesign the whole antibody or demonstrate a full therapeutic IgG.
 
-This makes the workflow inspectable and gives the next laboratory result a clear interpretation. It does not yet demonstrate that the workflow selects better molecules than a simpler baseline. That requires prospective experimental comparison.
+A plain explanation is: “H3 is one of the small loops at the binding end of the antibody. We changed its sequence to explore different interactions with HER2.”
 
-A useful answer to “what did you build?” is:
+## The four variants, precisely
 
-“We built the software and evidence trail that connect assay data to a ranked experiment list. We generated new designs, checked their eligibility and predicted interaction site, and made the uncertainty part of the selection.”
+All four are optimisation designs derived from trastuzumab, with paired heavy and light variable domains. They are not de novo designs. Their light chains are unchanged.
 
-## Slide 5: what the two assay models learn
-
-The large FACS screen labels sequences by screening class. The fitted models estimate high-class versus other-class behaviour. The signal can depend on both binding and how well the antibody is displayed, so it is not a direct measurement of affinity.
-
-The separate affinity model was trained on 180 distinct same-background constructs with reported SPR KD values. KD describes binding affinity; lower values mean tighter binding under the assay conditions. Constructs without reportable KD were not assigned invented affinity values.
-
-We separated train, calibration and test contact patterns for FACS. For affinity validation, groups of related sequences were held out together. These checks reduce overly easy comparisons with close relatives in the training set. They remain within the trastuzumab scaffold and do not establish generalisation to arbitrary antibody families.
-
-The affinity models learned useful ranking signal in that retrospective task, but their errors were substantial. Their predictions for the known WT were also biased. They support choosing hypotheses; they cannot establish that a new sequence beats trastuzumab. The models are conditional on the quantified-affinity training cohort and do not provide a calibrated probability that an arbitrary design will bind.
-
-We trained assay predictors. We did not demonstrate a newly fine-tuned foundation design model in this fresh training round.
-
-## Slide 6: how to discuss failed controls honestly
-
-OpenDDE recovered only 2 of the 19 reference-site residues for the trastuzumab control. That limits the meaning of its negative predictions in this particular configuration.
-
-For Pick 02, it predicted contact with other HER2 residues and zero overlap with the reference set. That is a different predicted pose, not an experimental failure to bind. For Pick 03, the original job and the retry failed technically. There was no completed result to interpret.
-
-Mol1 recovered the reference site for the control and all four priorities. This is a useful check of geometric plausibility. It does not prove Mol1 correctly predicts the binding performance of new designs. The second-model disagreement remains part of the evidence and is retained in the control files.
-
-If asked whether we picked the model that looked best:
-
-“We checked the known binder in the same setting. Mol1 recovered its site; the other docking model did not. We therefore use Mol1 for this location check and retain the disagreement as uncertainty. Neither model establishes affinity or thermal stability.”
-
-## Slide 7: what each funnel number actually counts
-
-- 182,595 is the number of distinct new proposals remaining after the initial WT-identity constraint.
-- The assay models shortlisted 2,000 proposals.
-- Of those, 1,062 passed the sequence-distance gate against the provided data.
-- A smaller diverse subset was retained and selected new loops and framework variants were structurally evaluated.
-- The ranked twenty combine new proposals with re-evaluated earlier designs. They are not simply the first twenty of those 1,062 novelty passes.
-- Only four laboratory tests are guaranteed. The first four are all optimisation designs. The wider panel includes two intended de novo entries whose complete known-antibody database status still needs organiser confirmation.
-
-Novelty is an entry requirement. A sufficiently different sequence can still have poor binding, expression or stability.
-
-## What exactly are the four designs?
-
-All four are paired heavy/light variable antibody fragments derived from trastuzumab. They are optimisation designs, not de novo designs. Their light chains are unchanged.
-
-| Pick | H3 core | Framework | Why test it? |
+| Pick | H3 core | Framework changes | Experimental question |
 |---|---|---|---|
-| 01 | WGSQGFYEMG | Original | Affinity-model-led binding-loop proposal; weaker screening-model support |
-| 02 | WGSQGFYEMG | S85N/R87T | Direct comparison with 01 to test the framework changes |
-| 03 | WAYEGFYEMD | Original | Different loop with stronger screening-model support |
-| 04 | WRSEGFYEMR | S85N/R87T | Test the same framework changes in another loop background |
+|01|WGSQGFYEMG|None|Does the affinity-model-led loop bind as predicted?|
+|02|WGSQGFYEMG|S85N/R87T|What changes when we modify the framework around the same loop?|
+|03|WAYEGFYEMD|None|Does the stronger screening-model signal translate into useful binding?|
+|04|WRSEGFYEMR|S85N/R87T|How does another loop behave with the same framework changes?|
 
-Only Picks 01 and 02 form a matched pair within the first four. Pick 04 has no unchanged-framework partner among those four, so its laboratory result alone cannot isolate the effect of the framework changes.
+Picks 01 and 02 are the matched pair. Pick 04’s unchanged-framework parent is not among the first four, so its result alone cannot isolate the effect of the framework substitutions.
 
-The selection is a reasoned allocation of experiments, not a statistically validated ordering of success probabilities. Do not describe the four as proven best binders or likely S-tier designs.
+S85N/R87T was reported to improve stability in full trastuzumab, with retained binding/function in that published system. We verified the numbering before applying it. It creates a potential glycosylation site, and transfer to our new loops and cell-free fragment format is uncertain.
 
-## Why use the framework substitutions?
+## Reading the table on PDF page 12
 
-The published S85N/R87T result provides a specific, biologically motivated change to test. It was reported in full trastuzumab. We verified its residue mapping before applying it to our sequences.
-
-The transfer is uncertain. Our binding loops and fragment format differ, and the substitutions introduce a potential glycosylation site. A benefit observed in the published system may not appear in our cell-free fragments.
-
-Our H3-based affinity models do not model these framework substitutions. Identical model values for Picks 01 and 02 are therefore not independent predictions that the substitutions preserve binding. The comparison needs an experiment.
-
-## What the shared 19/19 contact result does and does not show
-
-The reference is the known trastuzumab–HER2 structure. Nineteen HER2 residues make protein heavy-atom contacts at the 4.5-angstrom cutoff used in the analysis. For each predicted complex, we count how many of those reference residues contact the antibody.
-
-All four recover the complete reference set in Mol1. Extra predicted contacts can exist. The metric does not require identical antibody atoms, an identical pose or an identical total interface.
-
-It is a site-recovery check. It is not measured binding strength, a competition assay, thermal stability, or a success probability. Since the values are identical, this metric cannot rank the four candidates. It is no longer the sole results figure. Their priority comes from the assay-model evidence and the experimental comparisons we chose.
-
-## How the breast cancer case should be framed
-
-HER2-positive breast cancer gives the project a relevant target and an established reference treatment. The intended long-term use is improved HER2-binding therapeutic molecules. The immediate user is a discovery team deciding which constructs to test.
-
-We have no evidence yet of cancer-cell effects, improved safety, reduced treatment resistance or patient benefit. A change in affinity or thermal stability would not establish those outcomes by itself.
-
-A defensible description is:
-
-“This is early HER2 antibody design work, using trastuzumab as the reference. We have produced testable variants and a documented way of selecting them. Experimental performance will determine whether any variant deserves further development.”
-
-## What comes next, and what each result would mean
-
-First, make the constructs and assess expression. Then compare binding, competition and thermal stability with the same-run reference in comparable formats and conditions. Small measured differences need uncertainty and replication considered.
-
-| Outcome | Interpretation and next action |
-|---|---|
-| Pick 02 is more stable than 01 and retains binding | Support for the framework changes in this specific loop and format; confirm the result |
-| Pick 02 is more stable but binds worse | A trade-off, not a complete improvement; revise or deprioritise |
-| Both bind but neither improves on the reference | Useful evidence about retained binding, without demonstrated therapeutic improvement |
-| A design cannot be expressed or does not bind | Examine whether the sequence model, structural prediction or expression assumption failed |
-| A design performs well in the challenge assays | Move to HER2-positive cell binding, specificity controls and an appropriate therapeutic format |
-
-If more laboratory slots are available, the unchanged-framework parent of Pick 04 would help test whether the same substitutions transfer across sequence backgrounds.
-
-The selection method itself should eventually be compared with simpler baselines at an equal testing budget. Counting measured outcomes per submitted design would test whether the workflow adds value.
-
-
-## How to read the four-design table on PDF page 12
-
-These are computed values for the frozen four-design panel, not new laboratory measurements.
-
-- Screen score is the minimum of two calibrated high-screen-class model estimates. Higher means stronger screening-model support. The minimum itself is not a calibrated probability of binding or of beating trastuzumab.
-- Estimated KD / WT converts the two assay models’ log-ratio outputs into ratios against the historical WT median. A value above 1 means a higher estimated KD, or weaker estimated affinity; a value below 1 means a lower estimated KD. These are uncertain point estimates.
-- Ridge is the primary model family; the displayed candidate estimate averages bootstrap Ridge fits. GP is the secondary Gaussian-process sensitivity model. The small nominal GP improvement for Pick 01 is not demonstrated improvement: the model is uncertain and WT calibration is poor.
-- The asterisks on Picks02 and04 mean these are H3-only assay estimates. The models do not evaluate the framework substitutions. Repeating Pick 01’s scores for Pick 02 does not establish preserved binding.
-- Interface PAE is Mol1’s predicted uncertainty between contacting residues, averaged over residue pairs. Lower is more confident within this model; it is not an observed structural error or an affinity measurement.
-
-The source values are approximately:
-
-| Pick | Screen score | Estimated KD / WT, Ridge | Estimated KD / WT, GP | Mol1 contact-pair PAE |
+| Pick | Screen score | Estimated KD/WT, Ridge | Estimated KD/WT, GP | Mol1 interface PAE |
 |---|---:|---:|---:|---:|
 |01|0.16|2.94|0.94|3.05 Å|
 |02*|0.16|2.94|0.94|3.51 Å|
 |03|0.84|5.84|2.31|3.08 Å|
 |04*|0.27|3.96|2.96|4.02 Å|
 
-*Framework effects unmodelled by the assay predictors. Binding and thermal stability are unmeasured for all four.
+These are computed model outputs. There are no new measured KD or melting-temperature values for these four designs.
 
-## How to explain the validation figure on PDF page 13
+- Screen score is the minimum of two calibrated predictions of high screening class. It is not the probability of binding or beating trastuzumab. The minimum itself has not been established as a calibrated probability.
+- KD is the dissociation constant. Lower KD means tighter affinity under the same conditions. A predicted KD/WT ratio above 1 means weaker estimated affinity than the historical reference, while below 1 means stronger estimated affinity. The small nominal GP advantage for Pick 01 is not evidence of a genuine improvement.
+- Ridge is the primary model family; candidate values average bootstrap Ridge fits. GP is the secondary Gaussian-process sensitivity model. Both have substantial uncertainty and poor WT calibration.
+- The asterisks mean the assay scores apply to the H3 sequence in the original framework. Framework effects are unmodelled. Identical scores for Picks 01 and 02 do not establish preserved binding after the framework change.
+- Interface PAE is predicted uncertainty in relative positions at the interface. It is not observed structural error or an affinity measurement.
 
-The figure uses actual historical affinity measurements for 180 constructs, not experimental results for our new designs. Each vertical coordinate is a group-held-out prediction from the primary Ridge model. The horizontal coordinate is the observed KD. Both axes use a logarithmic scale; equal distances represent equal fold changes.
+The table exposes conflicting evidence. It does not show that all four designs are strong binders or better than the parent.
 
-Dots on the diagonal would be exact predictions. Departures show prediction errors. The highlighted WT point illustrates the problem near tight binders: its held-out prediction is much weaker than its measured affinity.
+## The historical validation plot on PDF page 13
 
-The rank correlation of about 0.68 shows some ability to order the measured series. It does not give the probability that a new design will work or beat the parent. Model comparison and this cohort do not establish a prospective advantage over simpler design-selection baselines.
+The primary affinity model was evaluated using 180 distinct quantified-affinity constructs. Related sequences were assigned to the same held-out group. Each plotted prediction was made without fitting that sequence group.
 
-## Evidence and sources
+Horizontal position is measured KD; vertical position is predicted KD. Both axes are logarithmic. A point on the diagonal would be an exact prediction. The highlighted WT point shows poor prediction near the strong-binding reference.
 
-- Candidate identities and model values: TOP4_INNSENDING.csv and TOP4_RESULTATER.csv in this folder.
-- Local validator receipt: TOP4_VALIDATION.json.
-- Full docking comparison and technical failures: MODEL_CONTROL_NOTES.md and MODEL_CONTROL.svg.
-- Clinical context: https://www.ema.europa.eu/en/medicines/human/EPAR/herceptin
-- Framework study: https://doi.org/10.1080/19420862.2025.2532117
+Rank correlation is about 0.68. That describes ordering across this measured series, not accuracy on each design or a probability of success for new proposals. Models were trained on constructs with reported KD, so their performance does not establish a reliable binder/nonbinder classifier for arbitrary sequences.
 
-Keep detailed model statistics and source records for questions. During the talk, explain the biological question, the choice it led to and the measurement that can answer it.
+## What 19/19 means
+
+Nineteen HER2 residues form the reference protein-contact set in the experimental trastuzumab complex at the 4.5 Å cutoff used here. Mol1 predicts contact with every residue in that set for all four variants.
+
+This is contact recall. Extra contacts may exist, and the result does not require an identical pose or atom-by-atom interface. It supports a location hypothesis, but does not establish affinity, competition or thermal stability. The identical scores cannot rank the four.
+
+The full second-model control is retained. OpenDDE recovered 2/19 for trastuzumab, then 15/19,0/19,not delivered and18/19 for Picks 01–04. For Pick 02 it predicted a different site; Pick 03’s original job and retry failed technically. Neither means a measured absence of binding. The weak WT control limits the use of its negatives.
+
+## Why the funnel is a summary
+
+182,595 distinct proposals remained after the initial identity gate. The assay models shortlisted 2,000, and 1,062 of those passed the distance gate against provided sequences. A smaller diverse subset was retained and selected new loops and framework variants were structurally evaluated.
+
+The final twenty also include re-evaluated earlier candidates. They are not simply the first twenty of the 1,062 novelty passes. The first four are optimisation designs. Two intended de novo entries in the wider panel still need complete known-antibody database confirmation.
+
+## The breast cancer claim we can defend
+
+HER2-positive breast cancer provides the clinical motivation and trastuzumab the reference. The immediate contribution is early antibody-fragment design and evaluation. We have not shown cancer-cell efficacy, improved safety, reduced resistance or patient benefit.
+
+If the challenge assays show a useful improvement, the next research stage includes HER2-positive cell binding and specificity controls, followed by development in an appropriate therapeutic format. Improved affinity or thermal stability would not by itself establish a better treatment.
+
+The method’s benefit also needs testing: a prospective comparison with simpler selection baselines at an equal laboratory budget would show whether the workflow improves the yield of useful designs.
+
+## Sources and questions
+
+Candidate identities and scores: TOP4_INNSENDING.csv, TOP4_RESULTATER.csv, FOUR_DESIGN_COMPARISON.csv and RESULTS_AND_SOURCES.json. Historical validation: MODEL_VALIDATION_DATA.csv. Local validator: TOP4_VALIDATION.json. Second-model details: MODEL_CONTROL_NOTES.md.
+
+Clinical context: https://www.ema.europa.eu/en/medicines/human/EPAR/herceptin
+Framework evidence: https://doi.org/10.1080/19420862.2025.2532117
+
+The spoken argument covers the four judging criteria: reasoning behind the designs, implemented and documented work, a defined discovery-team user, and a sequence of experiments toward possible therapeutic relevance.
