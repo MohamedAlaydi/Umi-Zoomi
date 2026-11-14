@@ -28,3 +28,6 @@ __pycache__/
 *.pyc
 .DS_Store
 .claude/
+
+# ---- anas: regenerable, too big for a repo ----
+people/anas/ideal-legal-loops.txt

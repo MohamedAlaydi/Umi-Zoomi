@@ -1,0 +1,44 @@
+provided 10-mers: 525,042
+provided, by mismatches at the four anchored positions:
+  g=0:    29,295
+  g=1:   150,826
+  g=2:   210,165
+  g=3:   104,491
+  g=4:    30,265
+
+marking the forbidden neighbourhoods (this is the slow part)
+  after g=0 (radius 2): 23,835,993 of 64,000,000 forbidden
+  after g=1 (radius 1): 24,266,452
+  after g=2 (exact):    24,268,826
+
+novelty-legal fillings of the six free positions: 39,731,174 of 64,000,000  (62.08 %)
+  legal                                    39,731,174
+  >=4 of 6 changed (identity <= 60 %)      39,729,612
+    and both liabilities changed           35,828,149
+    and no cysteine                        25,208,628
+
+IDEAL designs that are also novelty-legal: 25,208,628
+
+20 examples (grip kept, both liabilities changed, novelty-legal):
+   WWNWGFYPPP
+   WHYWGFYTKR
+   WHHMGFYAWL
+   WWWIGFYPWM
+   WMSPGFYRGT
+   WPNVGFYVQF
+   WNQRGFYWDS
+   WYMMGFYSQN
+   WQFIGFYITL
+   WQKHGFYIFQ
+   WFHKGFYRHM
+   WTVMGFYTNL
+   WQDVGFYDGP
+   WAKIGFYAPY
+   WNIQGFYIHK
+   WDQAGFYYEP
+   WVNWGFYRNF
+   WMQAGFYTEV
+   WRYTGFYGHE
+   WAYPGFYRVI
+
+wrote 25,208,628 loops to people/anas/ideal-legal-loops.txt
