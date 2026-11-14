@@ -1,11 +1,29 @@
-# model outputs are big; keep the configs and the notes, not the structures
-runs/**/*.cif
-runs/**/*.pdb
-runs/**/*.npz
-runs/**/*.pt
-runs/**/predictions/
-data/*.cif
-data/*.pdb
-*.log
-.venv/
+# ---- never, this repo becomes public ----
+*.private.json
+*.pem
+*.key
+.env
+credentials*
+nebius/
+
+# ---- the hackathon data bucket: 8.9 GB, re-syncable from s3 ----
+data/
+
+# ---- run outputs: keep the evidence, drop the heavy structures ----
+# everything under runs/ is ignored...
+runs/*
+# ...except the things that prove what we did
+!runs/*/
+runs/*/**
+!runs/*/NOTE.md
+!runs/*/run.log
+!runs/**/config.json
+!runs/**/*.csv
+!runs/**/result.json
+!runs/**/selection.csv
+
+# ---- junk ----
 __pycache__/
+.venv/
+*.pyc
+.DS_Store
