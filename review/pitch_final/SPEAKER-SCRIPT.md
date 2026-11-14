@@ -1,97 +1,77 @@
-# Umi Zoomi — slide-by-slide script
+# Umi Zoomi: slide-by-slide script
 
-About4 minutes of speech, leaving room for animation and pauses within5 minutes. English for the judges. Use Space/Right to advance, Left to go back, F for fullscreen and M to mute.
+About 3 minutes of speech. Allow 4–5 minutes with animations and pauses. Read only the quoted text. Space/Right advances; Left goes back; F is fullscreen; M mutes. The live deck has 10 stops and 22 forward presses. The PDF has 13 pages.
 
-The deck keeps its original10 stops and animation reveals. There are22 forward presses after the holding screen, including the opening alarm. The fallback PDF shows13 pages, with each candidate on its own page. Only the text in quotation marks is spoken.
+## Slide 1: Title | PDF 1
+Two presses: alarm, then title.
 
-## Slide1 — Opening and title ·0:00–0:15
-**Two presses:** opening alarm, then title. PDF page1.
+“We are Umi Zoomi. We chose four antibody variants to test against HER2. Here is why we chose them.”
 
-“Which antibody designs deserve our four laboratory tests? We are Umi Zoomi, and that is the decision we built our project around.”
+## Slide 2: Motivation | PDF 2
+Two presses reveal the two cards.
 
-## Slide2 — Motivation: HER2-positive breast cancer ·0:15–0:45
-**Two presses:** show the starting molecule, then the goal. PDF page2.
+“Trastuzumab is an established treatment for HER2-positive breast cancer. We started from its antibody sequence and asked whether changes could improve binding or stability while keeping the same binding site.”
 
-“Trastuzumab is an established antibody for HER2-positive breast cancer. We use it as a starting point for new designs that could keep recognising the right target while becoming more stable.
+## Slide 3: Who needs this? | PDF 3
+One press.
 
-Our contribution today is preclinical discovery work: new molecules and a better-supported way to choose which ones to test.”
+“Antibody discovery teams can generate many designs. The difficult decision is which ones to make and test. That is the problem our workflow addresses.”
 
-## Slide3 — Who needs this? ·0:45–1:00
-**One press.** PDF page3.
+## Slide 4: The binding site | PDF 4
+One press.
 
-“Our user is the antibody discovery team. They can propose many designs, but testing capacity is limited. Each laboratory slot needs a clear reason.”
+“We used the known trastuzumab structure to locate the binding site, then checked new sequences against the whole HER2 protein.”
 
-## Slide4 — The binding site ·1:00–1:20
-**One press.** PDF page4.
+## Slide 5: Method | PDF 5
+One press; allow the three labels to appear.
 
-“We start from the experimentally known binding site. Then we ask whether our new designs still reach it when evaluated against the whole HER2 protein. Looking well folded is only part of that question.”
+“We trained models on the organisers’ screening and affinity measurements, generated new sequences, and checked their predicted structures. We used Apheris, JapanFold and Nebius for the design and evaluation work. The code and validation records are in GitHub.”
 
-## Slide5 — Method: learn, check, choose ·1:20–1:50
-**One press; let the three labels appear.** PDF page5.
+## Slide 6: Findings | PDF 6
+Three presses, one per card.
 
-“We learn from the organisers’ experiments, propose new sequences, and check their predicted structures. Apheris provides the design and folding tools; JapanFold and Nebius extend the checks. Published evidence gives us a separate stability hypothesis.
+“The screening score and affinity predictions did not always agree, so we kept both. We also found that one docking model missed the known site for trastuzumab itself. We stopped using its negative results to reject candidates.
 
-The workflow, inputs and validation records are documented in GitHub, so the decisions can be inspected and repeated with the same resources.”
+For stability, we chose two changes reported in the literature and applied them to selected designs.”
 
-## Slide6 — What we learned ·1:50–2:20
-**Three presses, one finding per card.** PDF page6.
+## Slide 7: Selection | PDF 7
+Four presses through the funnel.
 
-“Three findings changed our approach. First, a high screening score does not necessarily mean strong affinity, so we model those measurements separately.
+“We filtered the proposals for novelty and ranked the remaining designs. Our first four all pass local abguard. They cover three binding loops and two modified versions of the supporting structure.”
 
-Second, controls matter: a docking model missed the original antibody’s site, so its negative predictions could not reject new designs.
+## Slide 8: The four picks | PDF 8–11
+Four presses, one per candidate.
 
-Third, stability needs its own testable idea. We explore a published change to the antibody’s supporting structure, rather than treating a confident structure as proof of heat resistance.”
+### Pick 01
+“This is our leading binding-loop candidate from the affinity models.”
 
-## Slide7 — From proposals to a ranked panel ·2:20–2:40
-**Four presses through the funnel.** PDF page7.
+### Pick 02
+“This has the same binding loop as Pick 01, with two changes to the supporting structure. Comparing the pair tests what those changes do.”
 
-“We narrowed a large set of new sequence proposals using experimental-data models and exact novelty checks. The ranked proposal contains twenty designs; our first four are optimisation designs and all pass local validation.
+### Pick 03
+“This uses a different loop and has the highest screening-model score among the four.”
 
-The two exploratory de novo designs in the wider panel still need the organisers’ complete database check.”
+### Pick 04
+“This uses a third loop with the same two changes as Pick 02.”
 
-## Slide8 — Our four choices ·2:40–3:20
-**Four presses, one candidate per press.** PDF pages8–11. These labels map to the exact IDs in `TOP4_INNSENDING.csv`.
+## Slide 9: Results | PDF 12
+Three presses reveal the cards. The figure stays visible.
 
-### Pick01 — binding hypothesis
-“Our first choice tests our strongest new affinity hypothesis.”
+“Mol 1 predicts that all four contact the nineteen HER2 residues in trastuzumab’s known binding site. That tells us where the model places them; it does not tell us how strongly they bind.
 
-### Pick02 — matched stability comparison
-“The second keeps the same binding loop and adds the framework change. This matched pair lets us test what that change contributes.”
+We have not measured binding or thermal stability. The next step is Adaptyv’s binding, competition and heat-stability tests, alongside trastuzumab.”
 
-### Pick03 — balanced alternative
-“The third balances the predictions learned from screening and affinity data.”
+## Slide 10: Close | PDF 13
+One press.
 
-### Pick04 — another sequence family
-“The fourth tests another sequence family with the stability hypothesis, so we cover more than one idea.”
+“If those tests are promising, the next stage is cell testing and checks for unwanted binding. Today we have four sequences ready for testing, a reason for each choice, and a documented workflow for the next round.”
 
-## Slide9 — Results, figure and next experiment ·3:20–4:00
-**Three presses reveal the result cards; the figure stays visible.** PDF page12.
+## Preparation notes, not spoken
 
-“The blue bars show that Mol1 predicts the native HER2 contact site for all four designs. The red bars show why that is not the whole answer: another model disagrees, misses the original antibody’s site, and has one missing candidate result.
+The talk covers judgment through the controls and four choices; execution through the implemented workflow and GitHub; user fit through antibody discovery teams; and path to value through laboratory and cell testing.
 
-These are computational results, not measured binding or improved stability. The framework change may not transfer to our new fragments.
+Pick 01 = newML_b973259db36d. Pick 02 = newML_b973259db36d_FW 85 N 87 T. Pick 03 = newML_a7acfcc8dce3. Pick 04 = newML_5753ea077281_FW85N87T.
 
-Adaptyv’s next tests are binding, competition with the original antibody, and thermal stability. Those measurements decide whether any design meets the challenge’s improvement criteria.”
+The supporting-structure substitutions are S85N/R87T, using the paper’s verified numbering. The reported stability benefit was in full trastuzumab, not these new fragments. They also add a potential glycosylation site. Transfer to our designs remains to be tested.
 
-## Slide10 — Close: route to value ·4:00–4:20
-**One press.** PDF page13.
-
-“Successful molecules would then need cell testing, checks for unwanted binding, and development into a suitable medicine for a breast cancer programme.
-
-The value we deliver today is a reasoned choice of experiments: new sequences, working checks, and four clear hypotheses ready for the laboratory. Thank you.”
-
----
-
-## Preparation notes — not spoken
-
-- **Judgment40%:** Slides6 and8 explain how controls changed selection and why each candidate earns a slot.
-- **Execution20%:** Slide5 points to the implemented workflow and GitHub evidence; slide7 records local validation.
-- **User fit20%:** Slides2–3 connect the breast cancer context to discovery teams with limited experimental capacity.
-- **Path to value20%:** Slides9–10 connect challenge assays to subsequent cell testing and medicine development.
-- Contact recall is a structural prediction, not an SPR result, competition measurement or probability of success.
-- The four priorities recover19/19 native contact residues in Mol1. That shared result cannot rank their affinity.
-- OpenDDE recovers2/19 for WT and15/19,0/19,not delivered,18/19 for Picks01–04. Missing is not zero; negative results are inconclusive because the WT control is weak.
-- The published framework substitution is S85N/R87T in the paper’s linear numbering, verified against7MN8. It introduces a glycosylation motif; transfer to our cell-free fragments is unproven.
-- The3D views use the actual selected Mol1 predictions. For readability only the antibody and local HER2 binding region are drawn; the evaluation used the full607-residue HER2 sequence.
-- Clinical context: https://www.ema.europa.eu/en/medicines/human/EPAR/herceptin
-- Framework evidence: https://doi.org/10.1080/19420862.2025.2532117
+The full model comparison is in MODEL_CONTROL.svg and MODEL_CONTROL_NOTES.md. Keep it available for questions.

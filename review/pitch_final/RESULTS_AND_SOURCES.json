@@ -110,29 +110,6 @@
       "official_tier": ""
     }
   ],
-  "result_chart": {
-    "labels": [
-      "Trastuzumab",
-      "Pick 01",
-      "Pick 02",
-      "Pick 03",
-      "Pick 04"
-    ],
-    "Mol1_contacts": [
-      19,
-      19,
-      19,
-      19,
-      19
-    ],
-    "OpenDDE_contacts": [
-      2,
-      15,
-      0,
-      null,
-      18
-    ]
-  },
   "generation": {
     "raw_proposals": 200000,
     "unique_after_WT_identity_gate": 182595,
@@ -159,5 +136,46 @@
     "runs/014-codex-fresh-evaluation/training/generation-summary.json"
   ],
   "structure_view": "Actual selected Mol1 structures; light/heavy and HER2 residues489\u2013607 shown for readability. Cofold evaluation used the complete607-residue sequence.",
-  "style": "Original palette, fonts, layout, Three.js scene, sound and navigation preserved; added one candidate state and a results chart."
+  "style": "Original palette, fonts, layout, Three.js scene, sound and navigation preserved; added one candidate state and a results chart.",
+  "secondary_model_control": {
+    "labels": [
+      "Trastuzumab",
+      "Pick 01",
+      "Pick 02",
+      "Pick 03",
+      "Pick 04"
+    ],
+    "Mol1_contacts": [
+      19,
+      19,
+      19,
+      19,
+      19
+    ],
+    "OpenDDE_contacts": [
+      2,
+      15,
+      0,
+      null,
+      18
+    ]
+  },
+  "main_result_chart": {
+    "model": "Mol1",
+    "labels": [
+      "Trastuzumab",
+      "Pick 01",
+      "Pick 02",
+      "Pick 03",
+      "Pick 04"
+    ],
+    "native_site_contacts": [
+      19,
+      19,
+      19,
+      19,
+      19
+    ],
+    "scope": "Predicted contact recall only; no measured binding or thermal stability. OpenDDE control limitation is noted on the slide; full comparison retained separately."
+  }
 }
