@@ -55,6 +55,7 @@ about selection rather than generation.
 | 010 | every ideal, novel, cysteine-free loop refolded | 16 distinct loops; controls reproduce run 006 exactly |
 | 011 | a de novo VHH campaign | on hold, and the reasoning is written down |
 | 012 | selection, StaB-ddG validation and `abguard` | the validated ranked 20 |
+| 013 | wild-type trastuzumab scored in the same table as the designs | the liability claim, stated by the tool |
 
 Run 004 is the result that drove everything. With the loop free the model
 ignored the interface, so we stopped asking it to care and wrote the
@@ -99,6 +100,19 @@ This section is deliberately placed before the results.
   30386977). Those are chemical degradation over time. Adaptyv measures a
   melting temperature. Whether the two are related is a question for the lab,
   not a claim for a slide.
+- **We remove two liabilities, and eleven of the twenty add one.** Run 013 scores
+  wild-type trastuzumab in the same table as the ranked 20, with the same tool and
+  the same reference, so the claim is `abguard`'s statement rather than ours. It
+  flags **eight** liabilities on the parent, a molecule that has been a medicine
+  since 1998. Two of them are the ones we target: `Isom` at IMGT 110/111, carrying
+  the motif `DG`, which is D102 followed by G103, and `MetOx` at IMGT 115, which is
+  M107. **All 20 designs remove both.** Nine add nothing the parent did not already
+  have, including ranks 3 and 4. Eleven add one, and for eight of those a tryptophan
+  now sits where the parent had a methionine, so at that position the oxidation
+  liability changed class rather than disappearing. **Ranks 1 and 2 are among the
+  eight.** The per-design table is
+  [`runs/013-claude-liability-control/comparison.csv`](runs/013-claude-liability-control/comparison.csv)
+  and the reading is in that run's `NOTE.md`.
 - **One correction we had to make.** A web search told us M107 was not
   oxidation prone. The primary records said the opposite. Without checking we
   would have left a liability in the molecule.
