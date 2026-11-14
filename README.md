@@ -17,7 +17,8 @@ optimisation designs and pass local abguard with an explicit reference.
 - [Top-four evidence](runs/014-codex-fresh-evaluation/TOP4_RESULTATER.csv)
 - [18+2 proposal](runs/014-codex-fresh-evaluation/18plus2_DRAFT_optimisation_first.csv)
 - [Fresh report and figures](review/fresh_evaluation/report/LES_MEG.md)
-- [Five-minute breast cancer pitch](review/fresh_evaluation/PITCH_5_MIN.md)
+- [Updated pitch deck in the original visual style](review/pitch_final/deck.html) · [PDF](review/pitch_final/Umi-Zoomi-team14-fallback.pdf)
+- [Slide-by-slide breast cancer pitch script](review/pitch_final/SPEAKER-SCRIPT.md)
 
 This is experiment priority, not measured improvement or confirmed S-tier.
 The two exploratory de novo entries still require the organisers' complete

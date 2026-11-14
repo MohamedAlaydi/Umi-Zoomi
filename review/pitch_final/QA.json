@@ -1,0 +1,33 @@
+{
+  "states_checked": 23,
+  "PDF_pages": 13,
+  "fonts_loaded": true,
+  "webgl_available": true,
+  "javascript_errors": [],
+  "screenshot_pages": [
+    "slide-01.png",
+    "slide-02.png",
+    "slide-03.png",
+    "slide-04.png",
+    "slide-05.png",
+    "slide-06.png",
+    "slide-07.png",
+    "slide-08.png",
+    "slide-09.png",
+    "slide-10.png",
+    "slide-11.png",
+    "slide-12.png",
+    "slide-13.png"
+  ],
+  "unchanged_original_assets": {
+    "bricolage-latin.woff2": "a79fdb52d4a5c76552452f69202add96e287401fff03d3e8c0e38b4dcb5a99cd",
+    "bricolage-latinext.woff2": "776f6dcaf03636cd69a5802c94808cc8896c0a66c8e9ce0fe147231b6ee01957",
+    "three.module.js": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495",
+    "umi-extras.js": "358e2b0fb23240feb04802a1f7e15ff685aaaa79507393365120de6aaeddeec2",
+    "sfx.js": "8e73dd9440511f376cb68b05596875f3a5b8999b5b614e3de5cef776134ec81c",
+    "serve.mjs": "18a83e2704f63cb542da70a8d3daf7f9b0c9d8d16fa25c62c9b4fb4fa1509dd1",
+    "start-deck.cmd": "6f959a8b8770801374fa35d10df2945c01e76ecf5e35c547ead0d12edf71cb20"
+  },
+  "original_style_verified": "Original styles unchanged except extending the candidate selector to Pick04. One visibility rule added for the new results figure.",
+  "data_verified": "Figure candidate rows match the frozen TOP4_RESULTATER.csv; WT OpenDDE2/19 independently verified in source geometry."
+}
