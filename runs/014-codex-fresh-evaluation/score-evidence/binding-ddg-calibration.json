@@ -1,0 +1,23 @@
+{
+  "operation_id": "op-20924606a7abb96f",
+  "variants": 76,
+  "controls": 12,
+  "control_sampling": "12 previously unscored quantified constructs, chosen across the observed KD range. Not prevalence-representative.",
+  "control_spearman_rho": 0.3216783216783217,
+  "control_construct_bootstrap_95CI": [
+    -0.35006818181818183,
+    0.8298146120150185
+  ],
+  "control_better_than_historical_WT": 1,
+  "ranking_role": "informational only; insufficient control evidence",
+  "usable_secondary_ranker": false,
+  "source_revision": "b19a5d72637a6b581b16f38af39383658e5ae1a5",
+  "checkpoint_sha256": "51a0feb6f9e4f296dbd31db2470c2b8d917d10f64f1302ae63650f43095e348f",
+  "binding_ddg_convention": "mutant minus wild-type; negative means predicted stronger binding",
+  "caveats": [
+    "Native-pose conditional: cannot establish docking, competition, expression or thermal stability.",
+    "Negative predicted binding-ddG is not demonstrated tighter binding than WT.",
+    "MC standard error is not a prediction interval.",
+    "12 controls span the KD range; performance may be lower in the narrow candidate range."
+  ]
+}

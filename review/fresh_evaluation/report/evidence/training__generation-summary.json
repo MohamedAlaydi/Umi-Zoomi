@@ -1,0 +1,20 @@
+{
+  "raw_proposals": 200000,
+  "unique_after_WT_identity_gate": 182595,
+  "assay_shortlist": 2000,
+  "exact_novelty_passes": 1062,
+  "diverse_output": 68,
+  "parents": [
+    "WGGDGFYAMD",
+    "WGSQGFYAYD",
+    "WGSDGWYAMD",
+    "WGGQGFYAMD",
+    "WGGSGPYLFD",
+    "WGGEGFYAMD",
+    "WGGDGFYLMD"
+  ],
+  "no_fixed_grip": true,
+  "no_forced_D102_M107_replacement": true,
+  "thermostability": "unmeasured",
+  "S_tier": "unknown"
+}

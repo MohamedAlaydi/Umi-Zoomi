@@ -5,7 +5,26 @@ Team 1 · AI × Antibodies Hackathon, Oslo · 14 November 2026
 Improving **trastuzumab** against **HER2**, with Apheris Foundry, Nebius,
 JapanFold and Amass.
 
-**The submission is [`notes/RANKED_CANDIDATES.csv`](notes/RANKED_CANDIDATES.csv):**
+## Latest design audit and immediate submission files
+
+The fresh evaluation retrains on the original assays, generates new H3 sequences,
+checks full607-residue HER2 complexes, and tests a separate framework stability
+hypothesis. **The four current recommendations, in priority order, are
+[`TOP4_INNSENDING.csv`](runs/014-codex-fresh-evaluation/TOP4_INNSENDING.csv).**
+They use the requested six-column schema and complete sequences. All four are
+optimisation designs and pass local abguard with an explicit reference.
+
+- [Top-four evidence](runs/014-codex-fresh-evaluation/TOP4_RESULTATER.csv)
+- [18+2 proposal](runs/014-codex-fresh-evaluation/18plus2_DRAFT_optimisation_first.csv)
+- [Fresh report and figures](review/fresh_evaluation/report/LES_MEG.md)
+- [Five-minute breast cancer pitch](review/fresh_evaluation/PITCH_5_MIN.md)
+
+This is experiment priority, not measured improvement or confirmed S-tier.
+The two exploratory de novo entries still require the organisers' complete
+known-antibody database check. The report records the available results and
+unfinished or failed remote calculations at its snapshot time.
+
+**The earlier baseline panel is [`notes/RANKED_CANDIDATES.csv`](notes/RANKED_CANDIDATES.csv):**
 20 ranked optimisation designs, every one of them passed through the official
 `abguard` with its receipts committed. The order is argued design by design in
 [the ranking rationale](review/pitch_her2/Rangering_begrunnet.md).
@@ -14,14 +33,16 @@ JapanFold and Amass.
 
 ## The finding, in one paragraph
 
-Trastuzumab binds HER2 at 0.152 nM. We were not going to beat that in a day,
+The original SPR table includes eight WT observations, with a median KD of
+0.1345 nM;0.152 nM was the first reported observation. In the initial design phase,
 so we asked a different question: which parts of the molecule are actually
 free to change? `scripts/contacts.py` measures every HER2 heavy atom within
 4.5 Å of trastuzumab in the hackathon's own 1N8Z crystal structure. **19 HER2
 residues are in contact. Of the ten CDRH3 positions the HER2 model may
 redesign (99 to 108, `W G G D G F Y A M D`), only four touch HER2: W99, G103,
 F104, Y105.** Six touch nothing at all. Two of those six carry documented
-degradation liabilities. That is the only place any of our designs mutates.
+degradation liabilities. That guided the initial enumerated designs; the fresh
+evaluation also explores other H3 substitutions and verified framework changes.
 
 The contact set is identical at 4.5 Å and 5.0 Å. D102 is the first free
 position to appear as you widen, at 5.5 Å, and it sits near the rim. The

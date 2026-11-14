@@ -1,0 +1,161 @@
+{
+  "snapshot_UTC": "2026-11-14T16:22:30.199000+00:00",
+  "jobs": [
+    {
+      "directory": "full607-mol1-batch00",
+      "job_id": "ae0550329f20b657e3e5d429ba06013b",
+      "status": "succeeded",
+      "done": 18,
+      "total": 18,
+      "partial": {
+        "delivered": 11,
+        "requested": 18,
+        "unit": "structures"
+      },
+      "error": "7 of 18 structures failed; the first said: The device running this job stopped answering, twice. Nothing was charged; please try again."
+    },
+    {
+      "directory": "full607-mol1-batch00-retry",
+      "job_id": "82f10a75798259a7e16dce5564886223",
+      "status": "running",
+      "done": 0,
+      "total": 7,
+      "partial": null,
+      "error": null
+    },
+    {
+      "directory": "full607-mol1-batch01",
+      "job_id": "084c07c810dbeec41389bf5d42cb5652",
+      "status": "succeeded",
+      "done": 18,
+      "total": 18,
+      "partial": {
+        "delivered": 6,
+        "requested": 18,
+        "unit": "structures"
+      },
+      "error": "12 of 18 structures failed; the first said: The device running this job stopped answering, twice. Nothing was charged; please try again."
+    },
+    {
+      "directory": "full607-mol1-batch01-retry",
+      "job_id": "a1e99e3b2e7129ce6164a793dfecb6d6",
+      "status": "succeeded",
+      "done": 12,
+      "total": 12,
+      "partial": {
+        "delivered": 9,
+        "requested": 12,
+        "unit": "structures"
+      },
+      "error": "3 of 12 structures failed; the first said: An internal device error occurred while folding. Please try again; if it persists, try a smaller input."
+    },
+    {
+      "directory": "full607-mol1-batch02",
+      "job_id": "e18fb7b4cf2316abec4c7f3320fb716a",
+      "status": "succeeded",
+      "done": 18,
+      "total": 18,
+      "partial": {
+        "delivered": 13,
+        "requested": 18,
+        "unit": "structures"
+      },
+      "error": "5 of 18 structures failed; the first said: The device running this job stopped answering, twice. Nothing was charged; please try again."
+    },
+    {
+      "directory": "full607-mol1-batch02-retry",
+      "job_id": "0199c438fd3720c75708732ea1a973c8",
+      "status": "succeeded",
+      "done": 5,
+      "total": 5,
+      "partial": null,
+      "error": null
+    },
+    {
+      "directory": "full607-mol1-batch03",
+      "job_id": "23167283b77324bf40bccfca67eedd2b",
+      "status": "succeeded",
+      "done": 18,
+      "total": 18,
+      "partial": null,
+      "error": null
+    },
+    {
+      "directory": "full607-mol1-batch04",
+      "job_id": "3f2c2236cccc51eb40f71368c0877228",
+      "status": "succeeded",
+      "done": 15,
+      "total": 15,
+      "partial": null,
+      "error": null
+    },
+    {
+      "directory": "full607-opendde-batch00",
+      "job_id": "24128724c518429b4b7e3810b98d041f",
+      "status": "succeeded",
+      "done": 14,
+      "total": 14,
+      "partial": {
+        "delivered": 8,
+        "requested": 14,
+        "unit": "structures"
+      },
+      "error": "6 of 14 structures failed; the first said: An internal device error occurred while folding. Please try again; if it persists, try a smaller input."
+    },
+    {
+      "directory": "full607-opendde-batch00-retry",
+      "job_id": "c2d13f136ea3bd565ad2775266cef237",
+      "status": "failed",
+      "done": 6,
+      "total": 6,
+      "partial": null,
+      "error": "Folding failed. The job's log has the engine's own output."
+    },
+    {
+      "directory": "full607-opendde-batch01",
+      "job_id": "d4f44731c2f9b92dcd450cc7049a349e",
+      "status": "succeeded",
+      "done": 11,
+      "total": 11,
+      "partial": {
+        "delivered": 8,
+        "requested": 11,
+        "unit": "structures"
+      },
+      "error": "3 of 11 structures failed; the first said: An internal device error occurred while folding. Please try again; if it persists, try a smaller input."
+    },
+    {
+      "directory": "full607-opendde-batch01-retry",
+      "job_id": "cdc7fd83ebe30463dad2a27a50faaa78",
+      "status": "failed",
+      "done": 3,
+      "total": 3,
+      "partial": null,
+      "error": "An internal device error occurred while folding. Please try again; if it persists, try a smaller input."
+    },
+    {
+      "directory": "newML-full607-mol1",
+      "job_id": "a6647ec1d4ca3b180884b50e081c6f1e",
+      "status": "succeeded",
+      "done": 17,
+      "total": 17,
+      "partial": {
+        "delivered": 10,
+        "requested": 17,
+        "unit": "structures"
+      },
+      "error": "7 of 17 structures failed; the first said: An internal device error occurred while folding. Please try again; if it persists, try a smaller input."
+    },
+    {
+      "directory": "newML-full607-mol1-retry",
+      "job_id": "0f8bc894e2fafb9dca0feb697bbc813d",
+      "status": "running",
+      "done": 4,
+      "total": 7,
+      "partial": null,
+      "error": null
+    }
+  ],
+  "delivered_geometry_rows": 103,
+  "geometry_errors": []
+}

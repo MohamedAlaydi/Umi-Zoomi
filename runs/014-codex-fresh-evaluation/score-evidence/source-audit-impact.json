@@ -1,0 +1,14 @@
+{
+  "raw_Fab_sequences": 98,
+  "nearest_distance_changed": 0,
+  "old_loose_pass_but_fails_fresh_full_IMGT_conservative": 18,
+  "historical_NONINFERIOR_unique_sequences_lacking_required_lower_bound": 4,
+  "affected_historical_H3s": [
+    "WAAGGFYFWQ",
+    "WAERGFYIWD",
+    "WAGEGFYYAE",
+    "WASRGFYNWE"
+  ],
+  "scope": "Historical label audit only. The new candidate evaluation does not load these labels or scores.",
+  "semantics": "Seed-to-seed model confidence cannot establish therapeutic or assay noninferiority, even with the statistical sign corrected."
+}

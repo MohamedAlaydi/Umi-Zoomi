@@ -81,7 +81,7 @@ def main():
   output=[];submission=[]
   for i,r in enumerate(items,1):
    reason=reasons.get(r['sequence_id'],'Exploratory VHH; global database novelty and binding unproven')
-   output.append(dict(rank=i,reason=reason,**r));submission.append({k:r[k] for k in ['sequence_id','kind','heavy_sequence','light_sequence']}|{'design_description':reason})
+   output.append(dict(rank=i,reason=reason,**r));submission.append({k:r[k] for k in ['sequence_id','kind','heavy_sequence','light_sequence']}|{'design_description':reason,'track':'optimization' if r['kind']=='paired' else 'denovo'})
   write_csv(RUN/(name+'.csv'),submission);write_csv(RUN/(name+'_evidence.csv'),output)
  (RUN/'prioritisation-policy.json').write_text(json.dumps(dict(status='DRAFT: no measured phenotype; de novo database eligibility unresolved',
   ranking_role='Heuristic allocation of complementary hypotheses; not calibrated S-tier probability, not a validated decision rule.',

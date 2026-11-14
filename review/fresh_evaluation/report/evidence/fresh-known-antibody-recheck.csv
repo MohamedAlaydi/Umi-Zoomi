@@ -1,0 +1,11 @@
+sequence_id,max_identity_conservative_two_definitions,nearest_entity,nearest_description,identity_alignment_columns_at_nearest,identity_normalized_edit_at_nearest,reference_entities,under70_in_tested_reference_set,universal_known_antibody_novelty
+vhh_1fd88935a3d9,0.703125,9EZV_2,single-domain antibody VHH_h2,0.6976744186046512,0.703125,48,False,not established; Adaptyv full database unavailable
+vhh_3e17aea82221,0.674074074074074,7UNY_2,D2 Nanobody,0.674074074074074,0.6716417910447761,48,True,not established; Adaptyv full database unavailable
+vhh_40415f69ad42,0.6946564885496183,8DTN_1,Nanobody 6101,0.6893939393939394,0.6946564885496183,48,True,not established; Adaptyv full database unavailable
+vhh_66a1ab11c27f,0.6976744186046512,7M1H_7,JPU-B8,0.6976744186046512,0.6953125,48,True,not established; Adaptyv full database unavailable
+vhh_7673a74e16b1,0.6893939393939394,7M1H_7,JPU-B8,0.6766917293233082,0.6893939393939394,48,True,not established; Adaptyv full database unavailable
+vhh_789b26ae31f0,0.7196969696969697,9TNS_4,a3NB83,0.7196969696969697,0.7175572519083969,48,False,not established; Adaptyv full database unavailable
+vhh_809634fa1ba9,0.6850393700787402,7AQY_2,Nanobody VSG2(NB11),0.6850393700787402,0.6825396825396826,48,True,not established; Adaptyv full database unavailable
+vhh_8d2fb55a1add,0.6484375,7M1H_7,JPU-B8,0.6484375,0.6456692913385826,48,True,not established; Adaptyv full database unavailable
+vhh_9eb9ac3717d6,0.6870229007633588,5HVH_2,VHH-a204,0.6870229007633588,0.6846153846153846,48,True,not established; Adaptyv full database unavailable
+vhh_d20ccd81bf0b,0.706766917293233,7TJC_1,VHH-Chl-B2,0.706766917293233,0.7022900763358779,48,False,not established; Adaptyv full database unavailable

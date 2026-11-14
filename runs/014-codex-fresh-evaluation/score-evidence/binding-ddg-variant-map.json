@@ -1,0 +1,3514 @@
+[
+  {
+    "sequence_id": "fab_8dfe7400a4a2",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWASSSEYYFDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "S"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "S"
+      },
+      {
+        "chain": "B",
+        "residue_number": 103,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "S"
+      },
+      {
+        "chain": "B",
+        "residue_number": 104,
+        "insertion_code": "",
+        "wild_type": "F",
+        "mutant": "E"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "F"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_a8d7e3dafeea",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWKSSYYYYFDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "K"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "S"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "S"
+      },
+      {
+        "chain": "B",
+        "residue_number": 103,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 104,
+        "insertion_code": "",
+        "wild_type": "F",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "F"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_d1975089a569",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRDLSLSVYAFDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 99,
+        "insertion_code": "",
+        "wild_type": "W",
+        "mutant": "D"
+      },
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "L"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "S"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "L"
+      },
+      {
+        "chain": "B",
+        "residue_number": 103,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "S"
+      },
+      {
+        "chain": "B",
+        "residue_number": 104,
+        "insertion_code": "",
+        "wild_type": "F",
+        "mutant": "V"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "F"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_7bc62696d17c",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWHSSYDYYFDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "H"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "S"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "S"
+      },
+      {
+        "chain": "B",
+        "residue_number": 103,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 104,
+        "insertion_code": "",
+        "wild_type": "F",
+        "mutant": "D"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "F"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_5111af6cccb5",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRYWSLHYYAMDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 99,
+        "insertion_code": "",
+        "wild_type": "W",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "W"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "S"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "L"
+      },
+      {
+        "chain": "B",
+        "residue_number": 103,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "H"
+      },
+      {
+        "chain": "B",
+        "residue_number": 104,
+        "insertion_code": "",
+        "wild_type": "F",
+        "mutant": "Y"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_8659e50fd392",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWHSLHEYYFDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "H"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "S"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "L"
+      },
+      {
+        "chain": "B",
+        "residue_number": 103,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "H"
+      },
+      {
+        "chain": "B",
+        "residue_number": 104,
+        "insertion_code": "",
+        "wild_type": "F",
+        "mutant": "E"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "F"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_c151b1398d49",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRTTPAVAYAHDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 99,
+        "insertion_code": "",
+        "wild_type": "W",
+        "mutant": "T"
+      },
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "T"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "P"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 103,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "V"
+      },
+      {
+        "chain": "B",
+        "residue_number": 104,
+        "insertion_code": "",
+        "wild_type": "F",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "H"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_bd654b2d902f",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRSLDGYYNYFDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 99,
+        "insertion_code": "",
+        "wild_type": "W",
+        "mutant": "S"
+      },
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "L"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "D"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "G"
+      },
+      {
+        "chain": "B",
+        "residue_number": 103,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 104,
+        "insertion_code": "",
+        "wild_type": "F",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 105,
+        "insertion_code": "",
+        "wild_type": "Y",
+        "mutant": "N"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "F"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_e2a8208154e7",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRSLTPLSDVFDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 99,
+        "insertion_code": "",
+        "wild_type": "W",
+        "mutant": "S"
+      },
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "L"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "T"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "P"
+      },
+      {
+        "chain": "B",
+        "residue_number": 103,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "L"
+      },
+      {
+        "chain": "B",
+        "residue_number": 104,
+        "insertion_code": "",
+        "wild_type": "F",
+        "mutant": "S"
+      },
+      {
+        "chain": "B",
+        "residue_number": 105,
+        "insertion_code": "",
+        "wild_type": "Y",
+        "mutant": "D"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "V"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "F"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_43764c703b48",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWTATGFYSSKYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "T"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "T"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "S"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "S"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "K"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_f133215586ed",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDANGFYYVDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "D"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "N"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "V"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_a9ee16eec519",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWVGPGFYGWDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "V"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "P"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "G"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "W"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_18ee66e30af8",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYGGGFYFWDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "G"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "F"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "W"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_cad971d75a22",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGFVGFYRSKYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "F"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "V"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "R"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "S"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "K"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_9d9a6dee4841",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWVREGFYRSKYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "V"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "R"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "E"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "R"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "S"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "K"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_1198d825d9b8",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYGEGFYTWEYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "E"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "T"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "W"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "E"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_8f68d60279be",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWAAGGFYFWQYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "G"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "F"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "W"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "Q"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_0dadfae417d3",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDREGFYGGDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "D"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "R"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "E"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "G"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "G"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_b02c51183759",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWTATGFYGGDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "T"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "T"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "G"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "G"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_1ec4f7333ebd",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPYGGFYRGDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "P"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "G"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "R"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "G"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_729da584d7a9",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPATGFYPVKYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "P"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "T"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "P"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "V"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "K"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_fcf53c3c2185",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDETGFYYSKYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "D"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "E"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "T"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "S"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "K"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_3648a1a1148d",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGYNGFYPSKYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "N"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "P"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "S"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "K"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_537e55f3e261",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPGGGFYYWEYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "P"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "G"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "W"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "E"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_0ed7943688f1",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYGEGFYGSDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "E"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "G"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "S"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_c47273250eea",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDATGFYGIYYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "D"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "T"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "G"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "I"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "Y"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_395d29130bb6",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYAAGFYVWEYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "V"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "W"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "E"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_a7150f4889ee",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWTATGFYDLQYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "T"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "T"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "D"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "L"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "Q"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_76787d403301",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWVREGFYKWYYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "V"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "R"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "E"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "K"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "W"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "Y"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_cabbf10ade51",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGYKGFYDWDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "K"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "D"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "W"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_fbeeb86b12b5",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPKGGFYRWKYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "P"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "K"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "G"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "R"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "W"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "K"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_0738ed656cf5",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDATGFYYWEYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "D"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "T"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "W"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "E"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_66c858137ac1",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWASRGFYNWEYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "S"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "R"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "N"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "W"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "E"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_76c10b5dd454",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPATGFYDGYYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "P"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "T"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "D"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "G"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "Y"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_f04c1f6f987f",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDAMGFYGWDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "D"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "M"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "G"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "W"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_8a84d2547a88",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWTATGFYETYYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "T"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "T"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "E"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "T"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "Y"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_43bf074f8615",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGREGFYSAEYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "R"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "E"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "S"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "E"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_01f4b62ed474",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWVEPGFYEQDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "V"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "E"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "P"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "E"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "Q"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_8c21267fa1c3",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYATGFYDSDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "T"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "D"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "S"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_3b8ae0a19412",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWRAAGFYRWDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "R"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "R"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "W"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_baee29e9cc33",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWVREGFYTVEYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "V"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "R"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "E"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "T"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "V"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "E"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_1cca65ad93b0",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPYGGFYHVKYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "P"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "G"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "H"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "V"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "K"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_812ca9b61057",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYRGGFYNWEYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "R"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "G"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "N"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "W"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "E"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_5669ad53e51e",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWVETGFYDWDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "V"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "E"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "T"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "D"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "W"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_b7488b69e1a0",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGAKGFYSWQYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "K"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "S"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "W"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "Q"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_421ca84623cd",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWRAKGFYSAEYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "R"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "K"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "S"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "E"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_df3d8bd4e25c",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWAGEGFYYAEYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "E"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "E"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_7401fd6357eb",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWTAKGFYAQNYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "T"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "K"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "Q"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "N"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_f91130857043",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWAERGFYIWDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "E"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "R"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "I"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "W"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_954d3fa58495",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDATGFYGRKYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "D"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "T"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "G"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "R"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "K"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_82cb6911e750",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGEGFYRVKYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "E"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "R"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "V"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "K"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_27816f7a5fcd",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWRGAGFYQWKYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "R"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "Q"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "W"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "K"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_c1f302a62ac6",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYGEGFYIWDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "E"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "I"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "W"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_26ed5d65a4ea",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPAKGFYSVNYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "P"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "K"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "S"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "V"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "N"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_db17e89c6b04",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWTRTGFYRRKYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "T"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "R"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "T"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "R"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "R"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "K"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_e6cd1e4f0c81",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWVREGFYPWYYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "V"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "R"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "E"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "P"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "W"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "Y"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_342ce85f395a",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDDTGFYWSKYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "D"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "D"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "T"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "W"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "S"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "K"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_0ef6da379036",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPYGGFYYSKYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "P"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "G"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "S"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "K"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_471b46ff1a73",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPGGGFYISEYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "P"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "G"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "I"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "S"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "E"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_b64e3f877b26",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWVWGGFYNWDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "V"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "W"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "G"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "N"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "W"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_b537bbc91981",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWTGEGFYGWDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "T"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "E"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "G"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "W"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_21548e7aacb9",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYAHGFYDGDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "H"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "D"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "G"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_0e0b8c68b77a",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYGEGFYVWDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "E"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "V"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "W"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fab_49ef43d3309d",
+    "role": "candidate",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGMAGFYGWDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "M"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "G"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "W"
+      }
+    ],
+    "historical_kd_nM": null
+  },
+  {
+    "sequence_id": "fresh_control_01",
+    "role": "measured_historical_control",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGQGFYAMDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "Q"
+      }
+    ],
+    "historical_kd_nM": 0.09
+  },
+  {
+    "sequence_id": "fresh_control_02",
+    "role": "measured_historical_control",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGGGFYAMDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "G"
+      }
+    ],
+    "historical_kd_nM": 1.200885
+  },
+  {
+    "sequence_id": "fresh_control_03",
+    "role": "measured_historical_control",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGDGFYAKDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "K"
+      }
+    ],
+    "historical_kd_nM": 5.308159
+  },
+  {
+    "sequence_id": "fresh_control_04",
+    "role": "measured_historical_control",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGDWYYAMDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 103,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "W"
+      },
+      {
+        "chain": "B",
+        "residue_number": 104,
+        "insertion_code": "",
+        "wild_type": "F",
+        "mutant": "Y"
+      }
+    ],
+    "historical_kd_nM": 13.0
+  },
+  {
+    "sequence_id": "fresh_control_05",
+    "role": "measured_historical_control",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGGGVNWFDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "G"
+      },
+      {
+        "chain": "B",
+        "residue_number": 104,
+        "insertion_code": "",
+        "wild_type": "F",
+        "mutant": "V"
+      },
+      {
+        "chain": "B",
+        "residue_number": 105,
+        "insertion_code": "",
+        "wild_type": "Y",
+        "mutant": "N"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "W"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "F"
+      }
+    ],
+    "historical_kd_nM": 27.48097
+  },
+  {
+    "sequence_id": "fresh_control_06",
+    "role": "measured_historical_control",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRYAARTFYAMTYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 99,
+        "insertion_code": "",
+        "wild_type": "W",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "A"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "R"
+      },
+      {
+        "chain": "B",
+        "residue_number": 103,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "T"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "T"
+      }
+    ],
+    "historical_kd_nM": 54.0
+  },
+  {
+    "sequence_id": "fresh_control_07",
+    "role": "measured_historical_control",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGHGEFAYDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "H"
+      },
+      {
+        "chain": "B",
+        "residue_number": 104,
+        "insertion_code": "",
+        "wild_type": "F",
+        "mutant": "E"
+      },
+      {
+        "chain": "B",
+        "residue_number": 105,
+        "insertion_code": "",
+        "wild_type": "Y",
+        "mutant": "F"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "Y"
+      }
+    ],
+    "historical_kd_nM": 96.94537
+  },
+  {
+    "sequence_id": "fresh_control_08",
+    "role": "measured_historical_control",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWFENGGNVLDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "F"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "E"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "N"
+      },
+      {
+        "chain": "B",
+        "residue_number": 104,
+        "insertion_code": "",
+        "wild_type": "F",
+        "mutant": "G"
+      },
+      {
+        "chain": "B",
+        "residue_number": 105,
+        "insertion_code": "",
+        "wild_type": "Y",
+        "mutant": "N"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "V"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "L"
+      }
+    ],
+    "historical_kd_nM": 144.8012
+  },
+  {
+    "sequence_id": "fresh_control_09",
+    "role": "measured_historical_control",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRVGGPGQYGLEYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 99,
+        "insertion_code": "",
+        "wild_type": "W",
+        "mutant": "V"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "P"
+      },
+      {
+        "chain": "B",
+        "residue_number": 104,
+        "insertion_code": "",
+        "wild_type": "F",
+        "mutant": "Q"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "G"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "L"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "E"
+      }
+    ],
+    "historical_kd_nM": 193.0
+  },
+  {
+    "sequence_id": "fresh_control_10",
+    "role": "measured_historical_control",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGDGKYASDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 104,
+        "insertion_code": "",
+        "wild_type": "F",
+        "mutant": "K"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "S"
+      }
+    ],
+    "historical_kd_nM": 285.8078
+  },
+  {
+    "sequence_id": "fresh_control_11",
+    "role": "measured_historical_control",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGPSFNALQYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "P"
+      },
+      {
+        "chain": "B",
+        "residue_number": 103,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "S"
+      },
+      {
+        "chain": "B",
+        "residue_number": 105,
+        "insertion_code": "",
+        "wild_type": "Y",
+        "mutant": "N"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "L"
+      },
+      {
+        "chain": "B",
+        "residue_number": 108,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "Q"
+      }
+    ],
+    "historical_kd_nM": 373.0
+  },
+  {
+    "sequence_id": "fresh_control_12",
+    "role": "measured_historical_control",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRYLLNGVFVFDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "mutations": [
+      {
+        "chain": "B",
+        "residue_number": 99,
+        "insertion_code": "",
+        "wild_type": "W",
+        "mutant": "Y"
+      },
+      {
+        "chain": "B",
+        "residue_number": 100,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "L"
+      },
+      {
+        "chain": "B",
+        "residue_number": 101,
+        "insertion_code": "",
+        "wild_type": "G",
+        "mutant": "L"
+      },
+      {
+        "chain": "B",
+        "residue_number": 102,
+        "insertion_code": "",
+        "wild_type": "D",
+        "mutant": "N"
+      },
+      {
+        "chain": "B",
+        "residue_number": 104,
+        "insertion_code": "",
+        "wild_type": "F",
+        "mutant": "V"
+      },
+      {
+        "chain": "B",
+        "residue_number": 105,
+        "insertion_code": "",
+        "wild_type": "Y",
+        "mutant": "F"
+      },
+      {
+        "chain": "B",
+        "residue_number": 106,
+        "insertion_code": "",
+        "wild_type": "A",
+        "mutant": "V"
+      },
+      {
+        "chain": "B",
+        "residue_number": 107,
+        "insertion_code": "",
+        "wild_type": "M",
+        "mutant": "F"
+      }
+    ],
+    "historical_kd_nM": 13863.16
+  }
+]

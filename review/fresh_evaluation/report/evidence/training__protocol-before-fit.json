@@ -1,0 +1,26 @@
+{
+  "seed": 271828,
+  "source_hashes": {
+    "data/her2-trastuzumab/trastuzumab_her2_spr_all_768.csv": "4d6f53a6183f377670e9577b3233a7c4c14888965ac63824863219d13424fa9b",
+    "data/her2-trastuzumab/tz_her2_facs_3classes_524346.csv.zip": "85e5e56c9c34a7b206b818b90421427a8ad65d55ae821cb4ad642bb595def968"
+  },
+  "FACS_objective": "High FACS class versus other classes; expression/binding confounded, not KD or Tm.",
+  "split": "SHA256 of four native-contact-position amino acids,70/15/15 train/calibration/test; all SPR overlap removed before fitting.",
+  "counts": {
+    "train": 375230,
+    "calibration": 83098,
+    "test": 65981
+  },
+  "contact_patterns": 10329,
+  "WT_contact_pattern_split": 14,
+  "SPR_objective": "log10 quantified KD relative to median historical WT; no-reportable/inconclusive/unreported are not imputed affinities.",
+  "SPR_validation": "GroupKFold5 on connected components of edit distance<=2; one row per measured construct.",
+  "fixed_models": "Binary categorical GBM(max_iter120,max_leaf15,min_leaf40,l2=.5) and one-hot logistic(C=1). Ridge(alpha10) on measured logKD. Scalar Platt calibration on disjoint contact groups.",
+  "generator": "200k deterministic proposals from WT plus6 measured tight-binding parents; no hard D/M removal or fixed-contact identity. Exact reference gate after proposal scoring.",
+  "caveats": [
+    "FACS split remains within one scaffold.",
+    "Cluster-CV uncertainty cannot establish novel-scaffold transfer.",
+    "Bootstrap ensemble spread is not predictive confidence.",
+    "No learned thermal predictor."
+  ]
+}

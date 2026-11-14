@@ -1,0 +1,38 @@
+{
+  "FACS": {
+    "categorical_gbm": {
+      "test_auc": 0.9713269821680787,
+      "test_brier": 0.06390184000967568,
+      "test_n": 65981,
+      "test_high": 28283,
+      "external_quantified_SPR_rho_logKD": -0.1763422849924233
+    },
+    "onehot_logistic": {
+      "test_auc": 0.9255433307445999,
+      "test_brier": 0.10693082213401794,
+      "test_n": 65981,
+      "test_high": 28283,
+      "external_quantified_SPR_rho_logKD": -0.07127747792850614
+    }
+  },
+  "SPR": {
+    "quantified_constructs": 180,
+    "clusters": 126,
+    "WT_historical_kd_nM": 0.1345,
+    "WT_observations": [
+      0.152,
+      0.123,
+      0.146,
+      0.165,
+      0.178,
+      0.0378713,
+      0.02851802,
+      0.07916459
+    ],
+    "cluster_OOF_rho": 0.675243476619694,
+    "cluster_OOF_MSE": 0.6505039809206756,
+    "mean_baseline_MSE": 1.0538046825690628,
+    "affinity_score_used_for_generation": true,
+    "restriction": "Conditional on reported KD, not a calibrated probability of measurable binding or S-tier."
+  }
+}

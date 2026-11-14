@@ -1,0 +1,53 @@
+{
+  "SPR_rows": 768,
+  "SPR_unique_full_constructs": 754,
+  "SPR_row_outcomes": {
+    "quantified_binding": 190,
+    "no_reportable_kd": 460,
+    "inconclusive": 104,
+    "not_reported": 14
+  },
+  "FACS_unique": 524346,
+  "FACS_class_rows": {
+    "medium": 190011,
+    "low": 162186,
+    "high": 172149
+  },
+  "WT_measured_KDs_nM": [
+    0.152,
+    0.123,
+    0.146,
+    0.165,
+    0.178,
+    0.0378713,
+    0.02851802,
+    0.07916459
+  ],
+  "WT_median_nM": 0.1345,
+  "FACS_unseen_same_background_constructs": 716,
+  "FACS_unseen_4_to6_mutation_constructs": 268,
+  "FACS_unseen_4_to6_with_quantified_KD": 82,
+  "FACS_unseen_4_to6_measured_KD_better_than_WT": 0,
+  "WT_baseline_sensitivity": [
+    {
+      "WT_nM": 0.02851802,
+      "better_count": 0,
+      "quantified_denominator": 82
+    },
+    {
+      "WT_nM": 0.1345,
+      "better_count": 0,
+      "quantified_denominator": 82
+    },
+    {
+      "WT_nM": 0.178,
+      "better_count": 0,
+      "quantified_denominator": 82
+    }
+  ],
+  "interpretation": "A selected historical cohort. No-reportable-KD is not a proven nonbinder; quantified-only analysis is conditional on assay reportability. No thermal or competition data for our sequences.",
+  "source_sha256": {
+    "data/her2-trastuzumab/trastuzumab_her2_spr_all_768.csv": "4d6f53a6183f377670e9577b3233a7c4c14888965ac63824863219d13424fa9b",
+    "data/her2-trastuzumab/tz_her2_facs_3classes_524346.csv.zip": "85e5e56c9c34a7b206b818b90421427a8ad65d55ae821cb4ad642bb595def968"
+  }
+}

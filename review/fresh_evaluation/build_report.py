@@ -1,5 +1,5 @@
 """Publish an auditable status snapshot; no model result is labelled S/A/B."""
-import csv,json,hashlib,shutil,difflib
+import csv,json,hashlib,shutil,difflib,os
 from pathlib import Path
 from datetime import datetime,timezone
 import numpy as np
@@ -8,7 +8,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from scipy.stats import spearmanr
 from prepare import ROOT,RUN,table,sha
-OUT=Path('/home/hackathon/Documents/Codex/2026-11-14/files-mentioned-by-the-user-apheris-3/outputs/fresh-evaluation')
+OUT=Path(os.environ.get('FRESH_REPORT_OUTPUT',str(ROOT/'review/fresh_evaluation/report')))
 
 
 def main():
@@ -23,13 +23,14 @@ def main():
  files=['predeclared.json','new-job-manifest.json','new-sequence-experiment.json','independent-model-protocol.json','source-input-hashes.json','pool.json',
   'fresh-assay-audit.json','fresh-SPR-construct-audit.csv','binding-ddg-calibration.json','fresh-binding-ddg.csv','source-audit-impact.json','novelty-source-impact.csv',
   'fresh-known-antibody-recheck.csv','fresh-rcsb-sequence-searches.json','fresh-rcsb-hit-entities.json','fresh-rcsb-extra-hit-entities.json',
-  'fresh-assay-and-sequence-scores.csv','fresh-full-context-geometry.csv','regression-tests.log','training/protocol-before-fit.json','training/metrics.json','training/SPR-OOF.csv','training/generation-summary.json']
+  'fresh-assay-and-sequence-scores.csv','fresh-affinity-sensitivity.csv','training/affinity-sensitivity.json','training/SPR-GP-OOF.csv',
+  'candidate-evidence.csv','prioritisation-policy.json','local-boltz2-evidence.json','fresh-full-context-geometry.csv','regression-tests.log','training/protocol-before-fit.json','training/metrics.json','training/SPR-OOF.csv','training/generation-summary.json']
  for name in files:
   p=RUN/name
   if p.exists():shutil.copy2(p,OUT/'evidence'/name.replace('/','__'))
  shutil.copy2(RUN/'training/new-proposals.csv',OUT/'NYE_SEKVENSFORSLAG.csv')
  shutil.copy2(RUN/'new-sequences-submission.csv',OUT/'16_VALIDERTE_NYE_FAB.csv')
- for kind in ['validation','new-sequence-validation']:
+ for kind in ['validation','new-sequence-validation','panel-validation','top4-validation']:
   for name in ['explicit-reference-receipt.json','validated-reference-checked.csv']:
    p=RUN/kind/name
    if p.exists():shutil.copy2(p,OUT/'evidence'/(kind+'__'+name))
@@ -40,6 +41,7 @@ def main():
   before=RUN/'source-before'/name.replace('/','__');after=ROOT/name
   changes.extend(difflib.unified_diff(before.read_text().splitlines(True),after.read_text().splitlines(True),fromfile='before/'+name,tofile='after/'+name))
  (OUT/'SOURCE_CHANGES.diff').write_text(''.join(changes))
+ for p in RUN.glob('18plus2_DRAFT*.csv'):shutil.copy2(p,OUT/p.name)
  # Scientific figures: held-out assay checks, conditional score tradeoff and fresh docking.
  plt.rcParams.update({'font.size':10,'axes.spines.top':False,'axes.spines.right':False})
  fig,axes=plt.subplots(1,3,figsize=(15,4.5),layout='constrained')
@@ -114,7 +116,22 @@ Den nye rammeverksgrenen bruker **VH S85N/R87T** fra [Ng mfl., mAbs 2025](https:
 
 Run `014-codex-fresh-evaluation` bevarer rå sekvenser, kildehasher, fryste forespørsler, idempotenskvitteringer, model/seed/antigenkontekst, native referanse og feil. Kodekopien i `code/` viser algoritmene; originalkjøringen skjer fra prosjektets `review/fresh_evaluation/` med de opprinnelige assayfilene og valideringsmiljøet. API-nøkler og innlogging er ikke med i leveransen. Reproduksjon krever samme katalogstruktur, offentlige assaydata/hackathontilgang og API-tilgang. Dette er ikke en selvstendig installasjonspakke eller en garanti for identiske fjernmodellresultater ved senere modelloppdateringer.
 '''
- (OUT/'LES_MEG.md').write_text(text)
+ extra='''
+## Ny rangering og viktige kontrollresultater
+
+[18+2, optimalisering først](18plus2_DRAFT_optimisation_first.csv) gir Fab blant de fire garanterte og plasserer de to foreløpige de novo ved15/16. [Begge spor blant topp fire](18plus2_DRAFT_both_tracks_top4.csv) flytter VHH til3/4. Dette er **forsøksprioritering, ikke S-tier-prediksjon**. En `..._evidence.csv` følger hver liste. Den endelige lokale kontrollen av standardlisten ga20 av20 godkjente med eksplisitt abguard-referanse. Endelig de novo-databasestatus er fortsatt uavklart.
+
+Listen fordeler forsøk mellom lavere modellert KD, balanse mot FACS-klassen, FACS-sterke alternativer og to konkrete rammeverkshypoteser. H3-diversitet opprettholdes mellom vanlige kandidater; et matchet rammeverkspar deler bevisst H3. Det er ingen offentlig regel som krever at alle nye lagkandidater har ulike H3-er; det er fullsekvensene som er ulike her. Hele panelet valideres samlet. De valgte VHH-ene har svak støtte for riktig bindingsflate. Den ene ligger dessuten svært nær70%-grensen mot et kjent antistoff. **De to plassene er derfor eksplorative, og global novelty kan ikke regnes som ferdig bekreftet.**
+
+En sekundær Gaussian-process-modell er kontrollert med samme fem sekvensklynsefold som hovedmodellen. Kjerneparametere ble lært inne i hver treningsfold. Den gir omtrent samme rangering og litt lavere MSE, uten bevis på sikker overføring til nye konstruksjoner. Dette er en sensitivitetstest valgt underveis, ikke en urørt slutt-test av modellvalg. De empiriske95%-kvantilene for absolutt holdt-ute log10-KD-feil er rundt1,7–1,8: store feil er mulige. Bootstrap-spredningen i parametere kan derfor ikke vises som et snevert biologisk konfidensintervall. Modellene overpredikerer også historisk WT-KD; de er bedre egnet til prioritering enn absolutte affinitetsløfter.
+
+**OpenDDE-kontrollen feiler på WT:** full-context WT gjenfinner bare2 av19 native kontakter. Negative OpenDDE-resultater kan derfor ikke være et hardt avvisningsfilter. Positive sammenfall brukes som ekstra geometrisk støtte, med tydelig begrensning. Mol1-WT gjenfinner19 av19.
+
+En lokal Apheris Boltz-2-kontroll er også gjennomført på H100, med full607-sekvens, HER2-template uten antistoffkoordinater, eksplisitt ingen MSA og seed271828. Alle fem konstruksjoner ble beregnet. Også her sviktet WT-dokkingen (0 av19 kontakter), så negative resultater brukes ikke som avvisning. Rammeverksvarianten av `newML_b973259db36d` traff19 av19; dette støtter en geometrisk hypotese og beviser verken binding eller varmestabilitet. pLDDT og globalipTM er fortsatt bare modellskårer.
+
+For lokal kjøring måtte vi bevare HER2s fulle `_entity_poly_seq` i den eksperimentelle templaten, bruke en skrivbar Numba-cache og en skrivbar hjemmekatalog inne i containeren. Tidligere forsøk stoppet før gyldige prediksjoner og er bevart separat. Ingen modellvekter ble endret. GPU-låsen hindret konflikt med andre på VM-en. Den lokale jobben er en annen kontekst enn Mol1/OpenDDE, og skårene blandes ikke numerisk.
+'''
+ (OUT/'LES_MEG.md').write_text(text+extra)
  hashes={str(p.relative_to(OUT)):sha(p) for p in sorted(OUT.rglob('*')) if p.is_file() and p.name!='SHA256SUMS.json'};(OUT/'SHA256SUMS.json').write_text(json.dumps(hashes,indent=2))
  print(json.dumps({'output':str(OUT),'evaluated':len(good),'pending_jobs':len(pending),'files':len(hashes)}))
 

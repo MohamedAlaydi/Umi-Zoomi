@@ -1,0 +1,27 @@
+{
+  "utc": "2026-11-14T15:18:02.080735+00:00",
+  "intent": "Fresh evaluation from raw generation inputs and original assays, with new full-ectodomain cofold and native-reference binding-ddG. No old ranking or saved model score used to build pool.",
+  "candidate_universe": "All available raw Fab holo-query files from001/004/005/006/007/010, all64 local VHHs, plus16 deterministic hash-sampled legal proposals.",
+  "hard_numeric_policy": "Conservative published constraints; explicit abguard reference next. Global VHH nearest-known check additional; no claim universal database completeness.",
+  "measured_endpoints": [
+    "KD relative to contemporaneous WT; historical WT sensitivity",
+    "competition remains unmeasured",
+    "thermal stability remains unmeasured for these constructs"
+  ],
+  "new_cofold": {
+    "model": "mol1",
+    "seed": 271828,
+    "target": "full607-residue HER2 ectodomain, native sequence",
+    "samples": 1,
+    "template": false,
+    "hotspots": false
+  },
+  "forbidden_shortcuts": [
+    "No best-seed winner selection",
+    "No no-fit=proven-negative claim",
+    "No confidence=affinity or Tm",
+    "No NONINFERIOR declaration using upper CI",
+    "No pS without thermal evidence"
+  ],
+  "controls": "WT plus fresh historical measured affinity controls not in the old8 StaB control list. Historical outcomes supplied only to evaluator, not model."
+}

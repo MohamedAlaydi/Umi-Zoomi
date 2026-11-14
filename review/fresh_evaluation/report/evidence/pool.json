@@ -1,0 +1,3678 @@
+[
+  {
+    "sequence_id": "fab_8dfe7400a4a2",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWASSSEYYFDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "8dfe7400a4a24d5820d431c4e4ba27cae59e84ff878067b68b2e34ba791106b9",
+    "aliases": [
+      "001:her2_cdrh3_3",
+      "004:her2_cdrh3_3",
+      "006:r004_cdrh3_3",
+      "010:r004_cdrh3_3"
+    ],
+    "sources": [
+      "runs/001-mohamed-her2-baseline/out/prepared/holo/queries.json",
+      "runs/004-mohamed-her2-novel-n40/out/prepared/holo/queries.json",
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json",
+      "runs/010-claude-passers-007-005/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWASSSEYYFDY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRFASSRFYYFDY",
+    "imgt_h3_identity_to_wt": 0.46153846153846156,
+    "numbering_confidence": 0.891423225402832,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 3
+  },
+  {
+    "sequence_id": "fab_77758067702e",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGPPYFYAMDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "77758067702eba36b7deaf272628571eff75a5d22319d38f97de26330a13da2f",
+    "aliases": [
+      "001:her2_cdrh3_2"
+    ],
+    "sources": [
+      "runs/001-mohamed-her2-baseline/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGPPYFYAMDY",
+    "imgt_h3_distance_to_provided": 2,
+    "imgt_h3_nearest_provided": "SRWGDPGFYAMDY",
+    "imgt_h3_identity_to_wt": 0.7692307692307692,
+    "numbering_confidence": 0.8844351172447205,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3",
+      "wt_imgt_h3_identity_ge70"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 7
+  },
+  {
+    "sequence_id": "fab_a8d7e3dafeea",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWKSSYYYYFDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "a8d7e3dafeea53d5eaec5e7a242589f14adc11dcf2077a26363e603236f91c9b",
+    "aliases": [
+      "004:her2_cdrh3_21"
+    ],
+    "sources": [
+      "runs/004-mohamed-her2-novel-n40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWKSSYYYYFDY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWDSSGYYAFDY",
+    "imgt_h3_identity_to_wt": 0.46153846153846156,
+    "numbering_confidence": 0.891423225402832,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 3
+  },
+  {
+    "sequence_id": "fab_74b096294a28",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRSTAATSYAFDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "74b096294a28c5d56c9f46d6ac4813bfb331eca2580065e827062f59b7e61383",
+    "aliases": [
+      "004:her2_cdrh3_26"
+    ],
+    "sources": [
+      "runs/004-mohamed-her2-novel-n40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRSTAATSYAFDY",
+    "imgt_h3_distance_to_provided": 2,
+    "imgt_h3_nearest_provided": "SRCTAATFYAFDY",
+    "imgt_h3_identity_to_wt": 0.46153846153846156,
+    "numbering_confidence": 0.8871957063674927,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 3
+  },
+  {
+    "sequence_id": "fab_d1975089a569",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRDLSLSVYAFDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "d1975089a569e2d5ec419ac648d3a541f5251ba132eeeec219540f28dbfc8b11",
+    "aliases": [
+      "004:her2_cdrh3_12"
+    ],
+    "sources": [
+      "runs/004-mohamed-her2-novel-n40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRDLSLSVYAFDY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRDLVCSLYAFDY",
+    "imgt_h3_identity_to_wt": 0.46153846153846156,
+    "numbering_confidence": 0.887385904788971,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 3
+  },
+  {
+    "sequence_id": "fab_7bc62696d17c",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWHSSYDYYFDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "7bc62696d17cfd3d04bc970049445e33b3703568874cd5cd16c7dbe5f6a71e7c",
+    "aliases": [
+      "004:her2_cdrh3_31",
+      "006:r004_cdrh3_31",
+      "010:r004_cdrh3_31"
+    ],
+    "sources": [
+      "runs/004-mohamed-her2-novel-n40/out/prepared/holo/queries.json",
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json",
+      "runs/010-claude-passers-007-005/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWHSSYDYYFDY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWGSSHFYYFDY",
+    "imgt_h3_identity_to_wt": 0.46153846153846156,
+    "numbering_confidence": 0.891423225402832,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 3
+  },
+  {
+    "sequence_id": "fab_5111af6cccb5",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRYWSLHYYAMDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "5111af6cccb54bb1eb4add377edd8070b717119739dfcd2982edd892fadb421d",
+    "aliases": [
+      "004:her2_cdrh3_4",
+      "006:r004_cdrh3_4",
+      "010:r004_cdrh3_4"
+    ],
+    "sources": [
+      "runs/004-mohamed-her2-novel-n40/out/prepared/holo/queries.json",
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json",
+      "runs/010-claude-passers-007-005/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRYWSLHYYAMDY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRYTSLHFYAFDY",
+    "imgt_h3_identity_to_wt": 0.5384615384615384,
+    "numbering_confidence": 0.8900460004806519,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 4
+  },
+  {
+    "sequence_id": "fab_8659e50fd392",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWHSLHEYYFDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "8659e50fd39299da20e99b9ddda506c49c6600845d6d186f652cbf010816545c",
+    "aliases": [
+      "004:her2_cdrh3_14"
+    ],
+    "sources": [
+      "runs/004-mohamed-her2-novel-n40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWHSLHEYYFDY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWGSSHFYYFDY",
+    "imgt_h3_identity_to_wt": 0.46153846153846156,
+    "numbering_confidence": 0.891423225402832,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 3
+  },
+  {
+    "sequence_id": "fab_c151b1398d49",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRTTPAVAYAHDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "c151b1398d4944da1f27a2efd74e9c386c5c17ba4c176ff37b2e1400d4754b13",
+    "aliases": [
+      "004:her2_cdrh3_10"
+    ],
+    "sources": [
+      "runs/004-mohamed-her2-novel-n40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRTTPAVAYAHDY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWTPAVMYAHTY",
+    "imgt_h3_identity_to_wt": 0.46153846153846156,
+    "numbering_confidence": 0.8739407062530518,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 3
+  },
+  {
+    "sequence_id": "fab_bd654b2d902f",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRSLDGYYNYFDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "bd654b2d902f841d7274ebe8c7460743290530be0850f7382a715cf98cfe1a8e",
+    "aliases": [
+      "004:her2_cdrh3_17"
+    ],
+    "sources": [
+      "runs/004-mohamed-her2-novel-n40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRSLDGYYNYFDY",
+    "imgt_h3_distance_to_provided": 4,
+    "imgt_h3_nearest_provided": "SRGLGGYYYPDY",
+    "imgt_h3_identity_to_wt": 0.46153846153846156,
+    "numbering_confidence": 0.8871957063674927,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 1
+  },
+  {
+    "sequence_id": "fab_e2a8208154e7",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRSLTPLSDVFDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "e2a8208154e71df90604aa0984d7e5bb8b01cee81246031e99b02b505c7e0ee4",
+    "aliases": [
+      "004:her2_cdrh3_28"
+    ],
+    "sources": [
+      "runs/004-mohamed-her2-novel-n40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRSLTPLSDVFDY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWLMPHSDVFDY",
+    "imgt_h3_identity_to_wt": 0.3076923076923077,
+    "numbering_confidence": 0.8871957063674927,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 1
+  },
+  {
+    "sequence_id": "fab_4cf5f24b712a",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGPSGFYEHDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "4cf5f24b712ace1def0f144d2850a4f38afe010fa239ef6568a16eea4b5fac0b",
+    "aliases": [
+      "005:her2_anchored_26"
+    ],
+    "sources": [
+      "runs/005-mohamed-anchored-n40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGPSGFYEHDY",
+    "imgt_h3_distance_to_provided": 1,
+    "imgt_h3_nearest_provided": "SRWGGSGFYEHDY",
+    "imgt_h3_identity_to_wt": 0.6923076923076923,
+    "numbering_confidence": 0.8787710070610046,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 6
+  },
+  {
+    "sequence_id": "fab_7357cefcb936",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGPAGFYYFDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "7357cefcb93691c25af7d4c71665357b5dfe62a835af191116135f248ff4e9f7",
+    "aliases": [
+      "005:her2_anchored_21"
+    ],
+    "sources": [
+      "runs/005-mohamed-anchored-n40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGPAGFYYFDY",
+    "imgt_h3_distance_to_provided": 1,
+    "imgt_h3_nearest_provided": "SRWGDAGFYYFDY",
+    "imgt_h3_identity_to_wt": 0.6923076923076923,
+    "numbering_confidence": 0.891423225402832,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 6
+  },
+  {
+    "sequence_id": "fab_b5c8af43fc2e",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGPSGFYEFDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "b5c8af43fc2e6b4be3f599647c980ec127ff56e83ea103537a2084c93c036f4d",
+    "aliases": [
+      "005:her2_anchored_28"
+    ],
+    "sources": [
+      "runs/005-mohamed-anchored-n40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGPSGFYEFDY",
+    "imgt_h3_distance_to_provided": 1,
+    "imgt_h3_nearest_provided": "SRWGDSGFYEFDY",
+    "imgt_h3_identity_to_wt": 0.6923076923076923,
+    "numbering_confidence": 0.891423225402832,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 6
+  },
+  {
+    "sequence_id": "fab_9ad440be8f8a",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGPSGFYAMDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "9ad440be8f8ab46829f6339e8b296572d03701181e63bdb44a57e0a76f32352e",
+    "aliases": [
+      "005:her2_anchored_31",
+      "005:her2_anchored_13",
+      "005:her2_anchored_6"
+    ],
+    "sources": [
+      "runs/005-mohamed-anchored-n40/out/prepared/holo/queries.json",
+      "runs/005-mohamed-anchored-n40/out/prepared/holo/queries.json",
+      "runs/005-mohamed-anchored-n40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGPSGFYAMDY",
+    "imgt_h3_distance_to_provided": 1,
+    "imgt_h3_nearest_provided": "SRWGASGFYAMDY",
+    "imgt_h3_identity_to_wt": 0.8461538461538461,
+    "numbering_confidence": 0.8844351172447205,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3",
+      "wt_imgt_h3_identity_ge70"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 8
+  },
+  {
+    "sequence_id": "fab_a8fc92fefc67",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGPAGFYEFDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "a8fc92fefc67fba3d00ff08c087d59cc2351f7d5143e82f045c8e6154c86578b",
+    "aliases": [
+      "005:her2_anchored_14",
+      "010:r005_a14"
+    ],
+    "sources": [
+      "runs/005-mohamed-anchored-n40/out/prepared/holo/queries.json",
+      "runs/010-claude-passers-007-005/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGPAGFYEFDY",
+    "imgt_h3_distance_to_provided": 2,
+    "imgt_h3_nearest_provided": "SRWGAAGFYKFDY",
+    "imgt_h3_identity_to_wt": 0.6923076923076923,
+    "numbering_confidence": 0.891423225402832,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 6
+  },
+  {
+    "sequence_id": "fab_47999e07a54f",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGPPGFYAMDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "47999e07a54f08580a3f59637503d511338d580f1f7fd701212dbc9ce8efaf29",
+    "aliases": [
+      "005:her2_anchored_19"
+    ],
+    "sources": [
+      "runs/005-mohamed-anchored-n40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGPPGFYAMDY",
+    "imgt_h3_distance_to_provided": 1,
+    "imgt_h3_nearest_provided": "SRWGDPGFYAMDY",
+    "imgt_h3_identity_to_wt": 0.8461538461538461,
+    "numbering_confidence": 0.8844351172447205,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3",
+      "wt_imgt_h3_identity_ge70"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 8
+  },
+  {
+    "sequence_id": "fab_abbb8366a245",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGPPGFYVFDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "abbb8366a24566780bb1ba36420f1d0a4a8b8e0ae92d741f608aaad7171e2741",
+    "aliases": [
+      "005:her2_anchored_25"
+    ],
+    "sources": [
+      "runs/005-mohamed-anchored-n40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGPPGFYVFDY",
+    "imgt_h3_distance_to_provided": 1,
+    "imgt_h3_nearest_provided": "SRWGDPGFYVFDY",
+    "imgt_h3_identity_to_wt": 0.6923076923076923,
+    "numbering_confidence": 0.891423225402832,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 6
+  },
+  {
+    "sequence_id": "fab_18f901f2617e",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGSSGFYAFDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "18f901f2617eae976eff0144756231296b284e1b6c2bb6143db9fdbe8007bfe2",
+    "aliases": [
+      "005:her2_anchored_30"
+    ],
+    "sources": [
+      "runs/005-mohamed-anchored-n40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGSSGFYAFDY",
+    "imgt_h3_distance_to_provided": 1,
+    "imgt_h3_nearest_provided": "SRWGGSGFYAFDY",
+    "imgt_h3_identity_to_wt": 0.7692307692307692,
+    "numbering_confidence": 0.891423225402832,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3",
+      "wt_imgt_h3_identity_ge70"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 7
+  },
+  {
+    "sequence_id": "fab_43764c703b48",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWTATGFYSSKYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "43764c703b48d9af182c4aab2b859b2768be61683b70076c205ef947dce4ec88",
+    "aliases": [
+      "006:anas_001"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWTATGFYSSKY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWAAGGFYSSVY",
+    "imgt_h3_identity_to_wt": 0.5384615384615384,
+    "numbering_confidence": 0.8645974397659302,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 4
+  },
+  {
+    "sequence_id": "fab_f133215586ed",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDANGFYYVDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "f133215586ed2f7a1e01978f31c57c17ba1af217189eab378b9318c78922fa52",
+    "aliases": [
+      "006:anas_002"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWDANGFYYVDY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWAACGFYYFDY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.8810943365097046,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_a9ee16eec519",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWVGPGFYGWDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "a9ee16eec5190b09a6f611105a26413b45b0e72e7e1ae844a52ef1338145c584",
+    "aliases": [
+      "006:anas_003"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWVGPGFYGWDY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWAGPGFYALDY",
+    "imgt_h3_identity_to_wt": 0.6923076923076923,
+    "numbering_confidence": 0.8825864791870117,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 6
+  },
+  {
+    "sequence_id": "fab_18ee66e30af8",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYGGGFYFWDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "18ee66e30af87ef7aedc59a017f27541f9d2d1a41427aaced9f5c6193eb5dbc4",
+    "aliases": [
+      "006:anas_004"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWYGGGFYFWDY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRFYGGGIYFIDY",
+    "imgt_h3_identity_to_wt": 0.6923076923076923,
+    "numbering_confidence": 0.8825864791870117,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 6
+  },
+  {
+    "sequence_id": "fab_cad971d75a22",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGFVGFYRSKYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "cad971d75a22fcc04b2593e5e3fcb74f870067611329e301f0c45903850ea7b4",
+    "aliases": [
+      "006:anas_005"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGFVGFYRSKY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWADVGFLRSKY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.8645974397659302,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_9d9a6dee4841",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWVREGFYRSKYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "9d9a6dee48416b4eb0cd9e073d5c8807761736f7ae1f5b4125d5d9410d24b5e4",
+    "aliases": [
+      "006:anas_006"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWVREGFYRSKY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWARDGFLRSKY",
+    "imgt_h3_identity_to_wt": 0.5384615384615384,
+    "numbering_confidence": 0.8645974397659302,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 4
+  },
+  {
+    "sequence_id": "fab_1198d825d9b8",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYGEGFYTWEYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "1198d825d9b845e2cc097686f3e8361e0b526f90271a745988b596c3a19d9b35",
+    "aliases": [
+      "006:anas_007"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWYGEGFYTWEY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWAGGGFYTFEY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.8751315474510193,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_8f68d60279be",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWAAGGFYFWQYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "8f68d60279be37128ec2c4fe6cb399749c15c8aee8e3b3a35fbe709cb59d10c6",
+    "aliases": [
+      "006:anas_008"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWAAGGFYFWQY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRFAAGGFYSFQY",
+    "imgt_h3_identity_to_wt": 0.5384615384615384,
+    "numbering_confidence": 0.8712520003318787,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 4
+  },
+  {
+    "sequence_id": "fab_0dadfae417d3",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDREGFYGGDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "0dadfae417d374ca1682694ddbff1ae68e770634d89ff32ceaeea41170dd2c7a",
+    "aliases": [
+      "006:anas_009"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWDREGFYGGDY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWDAEGFYNLDY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.8749555945396423,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_b02c51183759",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWTATGFYGGDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "b02c5118375959de2df6c86b0e7da195efb946c2827fa88150401f8af2fe8ed6",
+    "aliases": [
+      "006:anas_010"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWTATGFYGGDY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWAAGGFYGFDY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.8749555945396423,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_1ec4f7333ebd",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPYGGFYRGDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "1ec4f7333ebdf09826b3a4e1c276a1dc0dde4d168499bbced955ca3dc539a051",
+    "aliases": [
+      "006:anas_011"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWPYGGFYRGDY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWAAGGFYRFDY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.8749555945396423,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_729da584d7a9",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPATGFYPVKYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "729da584d7a9727e8a1d244ec38ef45add3da3b8a26b4beb6fdbaff41e994b98",
+    "aliases": [
+      "006:anas_012"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWPATGFYPVKY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWDGTGFYPFKY",
+    "imgt_h3_identity_to_wt": 0.5384615384615384,
+    "numbering_confidence": 0.867820143699646,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 4
+  },
+  {
+    "sequence_id": "fab_fcf53c3c2185",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDETGFYYSKYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "fcf53c3c21855d4a9e2c0d2a7e719f193b6f7b8f13a2a52041377c11a73b7bce",
+    "aliases": [
+      "006:anas_013"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWDETGFYYSKY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWDEHGFYVYSY",
+    "imgt_h3_identity_to_wt": 0.5384615384615384,
+    "numbering_confidence": 0.8645974397659302,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 4
+  },
+  {
+    "sequence_id": "fab_3648a1a1148d",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGYNGFYPSKYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "3648a1a1148dc28ffffc4c8601f6a19c51021c649ee54ee89c86be99e85383b5",
+    "aliases": [
+      "006:anas_014"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGYNGFYPSKY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWGANGFLRSKY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.8645974397659302,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_537e55f3e261",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPGGGFYYWEYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "537e55f3e261ab7ae25640381bbfb84b1180372b47d115f00e0290710ef6ac50",
+    "aliases": [
+      "006:anas_015"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWPGGGFYYWEY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRFAGGGFYYYEY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.8751315474510193,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_0ed7943688f1",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYGEGFYGSDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "0ed7943688f1149b4fa5d017ef53eb9ff45e287d96fae69ce04b65dd35d17787",
+    "aliases": [
+      "006:anas_016"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWYGEGFYGSDY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWAGEGFYAFDY",
+    "imgt_h3_identity_to_wt": 0.6923076923076923,
+    "numbering_confidence": 0.8778716921806335,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 6
+  },
+  {
+    "sequence_id": "fab_c47273250eea",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDATGFYGIYYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "c47273250eeaa3002ea111f6a1881e59eb10d86008806ffcde657af4384d47ca",
+    "aliases": [
+      "006:anas_017"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWDATGFYGIYY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRFTATGFYAIYY",
+    "imgt_h3_identity_to_wt": 0.5384615384615384,
+    "numbering_confidence": 0.8655147552490234,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 4
+  },
+  {
+    "sequence_id": "fab_395d29130bb6",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYAAGFYVWEYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "395d29130bb60451103d938f3185b6755fe682e9d293426d856313b5a1e31c45",
+    "aliases": [
+      "006:anas_018"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWYAAGFYVWEY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWAAAGFYSFEY",
+    "imgt_h3_identity_to_wt": 0.5384615384615384,
+    "numbering_confidence": 0.8751315474510193,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 4
+  },
+  {
+    "sequence_id": "fab_a7150f4889ee",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWTATGFYDLQYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "a7150f4889ee679374ef78c9ecdf0d18c9952b3147fcad625716dd55432efdb7",
+    "aliases": [
+      "006:anas_019",
+      "new_hash_sample:WTATGFYDLQ"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json",
+      "people/anas/legal-scored.csv"
+    ],
+    "cdrh3_imgt": "SRWTATGFYDLQY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRFTAPSFYDLQY",
+    "imgt_h3_identity_to_wt": 0.5384615384615384,
+    "numbering_confidence": 0.8726168870925903,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 4
+  },
+  {
+    "sequence_id": "fab_76787d403301",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWVREGFYKWYYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "76787d403301e3a458d201bee6453e5b8b82c3dc82ec097a0e8fa73975ec3f3f",
+    "aliases": [
+      "006:anas_020"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWVREGFYKWYY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWGREGLYKYYY",
+    "imgt_h3_identity_to_wt": 0.5384615384615384,
+    "numbering_confidence": 0.8651286959648132,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 4
+  },
+  {
+    "sequence_id": "fab_cabbf10ade51",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGYKGFYDWDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "cabbf10ade5131a1f51ffce78ba7a5eeed78934f2be25aa6e407bfef5fa1194c",
+    "aliases": [
+      "006:anas_021"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGYKGFYDWDY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWGADGFYDMDY",
+    "imgt_h3_identity_to_wt": 0.6923076923076923,
+    "numbering_confidence": 0.8825864791870117,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 6
+  },
+  {
+    "sequence_id": "fab_fbeeb86b12b5",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPKGGFYRWKYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "fbeeb86b12b51eace52b28f6c2fe1c99e32321eaae4b7d4f3ea9fd366677ff78",
+    "aliases": [
+      "006:anas_022"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWPKGGFYRWKY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWPAGGFLRSKY",
+    "imgt_h3_identity_to_wt": 0.5384615384615384,
+    "numbering_confidence": 0.8693122267723083,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 4
+  },
+  {
+    "sequence_id": "fab_0738ed656cf5",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDATGFYYWEYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "0738ed656cf55501c67601b5baca99287ae45a1ffbf936e192cadee3e69de3b8",
+    "aliases": [
+      "006:anas_023"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWDATGFYYWEY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWAAGGFYYFEY",
+    "imgt_h3_identity_to_wt": 0.5384615384615384,
+    "numbering_confidence": 0.8751315474510193,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 4
+  },
+  {
+    "sequence_id": "fab_66c858137ac1",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWASRGFYNWEYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "66c858137ac1ebe6d4ea726b6b6df4a3df0668ad2684edf883bf4d9695cbfd39",
+    "aliases": [
+      "006:anas_024"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWASRGFYNWEY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWAAGGFYNFEY",
+    "imgt_h3_identity_to_wt": 0.5384615384615384,
+    "numbering_confidence": 0.8751315474510193,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 4
+  },
+  {
+    "sequence_id": "fab_76c10b5dd454",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPATGFYDGYYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "76c10b5dd454b02e6aab82bcd70ba3842507331ff10df4bb814eeec1e253bfb8",
+    "aliases": [
+      "006:anas_025"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWPATGFYDGYY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRFTATGFYDKYY",
+    "imgt_h3_identity_to_wt": 0.5384615384615384,
+    "numbering_confidence": 0.8574978113174438,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 4
+  },
+  {
+    "sequence_id": "fab_f04c1f6f987f",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDAMGFYGWDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "f04c1f6f987f3c25dbc1de6d1d53daceaac9bafb3dfa83797c4e0091945e2415",
+    "aliases": [
+      "006:anas_026"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWDAMGFYGWDY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWAAGGFYGFDY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.8825864791870117,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_8a84d2547a88",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWTATGFYETYYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "8a84d2547a88d7c9a7759e9dda3080e4df8b1f02dc41c6e25cec58d07736ec90",
+    "aliases": [
+      "006:anas_027"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWTATGFYETYY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRFTATGFYAIYY",
+    "imgt_h3_identity_to_wt": 0.5384615384615384,
+    "numbering_confidence": 0.8607205152511597,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 4
+  },
+  {
+    "sequence_id": "fab_43bf074f8615",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGREGFYSAEYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "43bf074f8615c23a3376839e27839d4d08779de20ec74f433b071bdeedc4a803",
+    "aliases": [
+      "006:anas_028"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGREGFYSAEY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWARPGFYSFEY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.870723307132721,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_01f4b62ed474",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWVEPGFYEQDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "01f4b62ed474ae9286c70b8972dad4fd38c4af609c74d30d4d04160e2cc5c3ff",
+    "aliases": [
+      "006:anas_029"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWVEPGFYEQDY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWAAPGFYELDY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.8766657114028931,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_8c21267fa1c3",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYATGFYDSDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "8c21267fa1c31f5ab05528811fce073f8952825d37539e8f8d265017047b9d7a",
+    "aliases": [
+      "006:anas_030"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWYATGFYDSDY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWAAGGFYDFDY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.8778716921806335,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_3b8ae0a19412",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWRAAGFYRWDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "3b8ae0a19412ac511f8edbf8808acfe62d1a9df3d6a6d8345389bf39d10032fe",
+    "aliases": [
+      "006:anas_031"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWRAAGFYRWDY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRRAAGRFYRFDY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.8825864791870117,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_baee29e9cc33",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWVREGFYTVEYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "baee29e9cc333c45f533b6abc75376b3e72bcb4ce3e1886abbe9d776f480f046",
+    "aliases": [
+      "006:anas_032"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWVREGFYTVEY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWARSGFYQVEY",
+    "imgt_h3_identity_to_wt": 0.5384615384615384,
+    "numbering_confidence": 0.8736394643783569,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 4
+  },
+  {
+    "sequence_id": "fab_1cca65ad93b0",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPYGGFYHVKYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "1cca65ad93b05bd8d675f9ba02f18a03fba3b4d479f576e3e784b55d4f839965",
+    "aliases": [
+      "006:anas_033"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWPYGGFYHVKY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWDEGGFLHVKY",
+    "imgt_h3_identity_to_wt": 0.5384615384615384,
+    "numbering_confidence": 0.867820143699646,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 4
+  },
+  {
+    "sequence_id": "fab_812ca9b61057",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYRGGFYNWEYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "812ca9b610575885692a386c89cb48572f3ec95983e0ca1a544d978d38bb5502",
+    "aliases": [
+      "006:anas_034"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWYRGGFYNWEY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWAAGGFYNFEY",
+    "imgt_h3_identity_to_wt": 0.5384615384615384,
+    "numbering_confidence": 0.8751315474510193,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 4
+  },
+  {
+    "sequence_id": "fab_5669ad53e51e",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWVETGFYDWDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "5669ad53e51e185b0a9c990f3217c5156ef8a2e2391731ec416426ad2d7d445c",
+    "aliases": [
+      "006:anas_035"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWVETGFYDWDY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWAECGFYDFDY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.8825864791870117,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_b7488b69e1a0",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGAKGFYSWQYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "b7488b69e1a08ab09a351c6dead5bba9812eba1015aa0087bcaa2250c1f07b70",
+    "aliases": [
+      "006:anas_036"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGAKGFYSWQY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRFGASGFYSNQY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.8712520003318787,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_421ca84623cd",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWRAKGFYSAEYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "421ca84623cd433c069bafba8cf478f65cd7e3985a2e52c2d3786fae9041f6f5",
+    "aliases": [
+      "006:anas_037"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWRAKGFYSAEY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWAAAGFYSFEY",
+    "imgt_h3_identity_to_wt": 0.5384615384615384,
+    "numbering_confidence": 0.870723307132721,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 4
+  },
+  {
+    "sequence_id": "fab_df3d8bd4e25c",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWAGEGFYYAEYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "df3d8bd4e25cea1c8739ac348b399ff451fcd85948d96e05d33dfa0e506dbe75",
+    "aliases": [
+      "006:anas_038"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWAGEGFYYAEY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRFAGEGFYVYAY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.870723307132721,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_7401fd6357eb",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWTAKGFYAQNYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "7401fd6357eb3a0104072565594bd11153118ad57d6f9143ad9acdeff7f06ab0",
+    "aliases": [
+      "006:anas_039"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWTAKGFYAQNY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRCTAPGFYALNY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.8669669032096863,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_f91130857043",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWAERGFYIWDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "f91130857043e9a606236a4691ba12981e64f681801198483c05f083eb156913",
+    "aliases": [
+      "006:anas_040"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWAERGFYIWDY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWAARGFYAFDY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.8825864791870117,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_f46928d49aeb",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGDGFYAMDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "f46928d49aebd7226ae6dec7efbf403fb27f843bd2c6e6f6dfabe94fe159c0c3",
+    "aliases": [
+      "006:trastuzumab_wt",
+      "010:trastuzumab_wt"
+    ],
+    "sources": [
+      "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json",
+      "runs/010-claude-passers-007-005/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGGDGFYAMDY",
+    "imgt_h3_distance_to_provided": 0,
+    "imgt_h3_nearest_provided": "SRWGGDGFYAMDY",
+    "imgt_h3_identity_to_wt": 1.0,
+    "numbering_confidence": 0.8844351172447205,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3",
+      "wt_imgt_h3_identity_ge70"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 10
+  },
+  {
+    "sequence_id": "fab_9fcdaaf03886",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGDGGFYENNYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "9fcdaaf03886940fa96d9a5cd1e2689d78657db6e698bf80342d3c92bcafd598",
+    "aliases": [
+      "007:her2_anchored_5",
+      "010:r007_a05"
+    ],
+    "sources": [
+      "runs/007-mohamed-anchored-diverse-k1/out/prepared/holo/queries.json",
+      "runs/010-claude-passers-007-005/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGDGGFYENNY",
+    "imgt_h3_distance_to_provided": 2,
+    "imgt_h3_nearest_provided": "SRWGDSGFYENVY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.8659290075302124,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_2fd005e928f9",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGATGFYTHDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "2fd005e928f9364c95d7855cdcbefbec695effe056eaf93b6e5a01bf6af55d32",
+    "aliases": [
+      "007:her2_anchored_22"
+    ],
+    "sources": [
+      "runs/007-mohamed-anchored-diverse-k1/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGATGFYTHDY",
+    "imgt_h3_distance_to_provided": 1,
+    "imgt_h3_nearest_provided": "SRWGATGFYTFDY",
+    "imgt_h3_identity_to_wt": 0.6923076923076923,
+    "numbering_confidence": 0.8787710070610046,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 6
+  },
+  {
+    "sequence_id": "fab_1f5d80c80603",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWSSKGFYQHTYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "1f5d80c806031e99d618104df5446b982388097e4589b756d146ab280d12c717",
+    "aliases": [
+      "007:her2_anchored_25",
+      "010:r007_a25"
+    ],
+    "sources": [
+      "runs/007-mohamed-anchored-diverse-k1/out/prepared/holo/queries.json",
+      "runs/010-claude-passers-007-005/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWSSKGFYQHTY",
+    "imgt_h3_distance_to_provided": 2,
+    "imgt_h3_nearest_provided": "SRWSPVGFYQHTY",
+    "imgt_h3_identity_to_wt": 0.5384615384615384,
+    "numbering_confidence": 0.8658009171485901,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 4
+  },
+  {
+    "sequence_id": "fab_5a52b72fec04",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWRDYGFYYFDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "5a52b72fec04f9c67639caaacc752668311c9221ad7063421fabe1580f500966",
+    "aliases": [
+      "007:her2_anchored_18",
+      "010:r007_a18"
+    ],
+    "sources": [
+      "runs/007-mohamed-anchored-diverse-k1/out/prepared/holo/queries.json",
+      "runs/010-claude-passers-007-005/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWRDYGFYYFDY",
+    "imgt_h3_distance_to_provided": 2,
+    "imgt_h3_nearest_provided": "SRWADAGFYYFDY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.891423225402832,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_2dd5d12802d5",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWNSYGFYAHAYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "2dd5d12802d53dd4648b9ef4d50cf8dbec4bb35da16f2cc6a0c553222483e9b3",
+    "aliases": [
+      "007:her2_anchored_8"
+    ],
+    "sources": [
+      "runs/007-mohamed-anchored-diverse-k1/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWNSYGFYAHAY",
+    "imgt_h3_distance_to_provided": 1,
+    "imgt_h3_nearest_provided": "SRWNGYGFYAHAY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.8650774359703064,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_2d6affce688a",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGRGGFYAHDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "2d6affce688aaa80056765968cc6703f7c6a2b032a6fd79e3a7a86bfcdad17c1",
+    "aliases": [
+      "007:her2_anchored_1"
+    ],
+    "sources": [
+      "runs/007-mohamed-anchored-diverse-k1/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGRGGFYAHDY",
+    "imgt_h3_distance_to_provided": 1,
+    "imgt_h3_nearest_provided": "SRWGRGGFYAFDY",
+    "imgt_h3_identity_to_wt": 0.7692307692307692,
+    "numbering_confidence": 0.8787710070610046,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3",
+      "wt_imgt_h3_identity_ge70"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 7
+  },
+  {
+    "sequence_id": "fab_e7b37d741bc1",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGYGFYEYDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "e7b37d741bc1a3ecd43229d2354fd99cc493d8f2f5a8ea03222817d5a4dac450",
+    "aliases": [
+      "007:her2_anchored_13"
+    ],
+    "sources": [
+      "runs/007-mohamed-anchored-diverse-k1/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGGYGFYEYDY",
+    "imgt_h3_distance_to_provided": 1,
+    "imgt_h3_nearest_provided": "SRWGGDGFYEYDY",
+    "imgt_h3_identity_to_wt": 0.7692307692307692,
+    "numbering_confidence": 0.886036217212677,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3",
+      "wt_imgt_h3_identity_ge70"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 7
+  },
+  {
+    "sequence_id": "fab_d94b61e3f68d",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPGAGFYSYAYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "d94b61e3f68de5da65f3fbdcdfa7ad406d9781aa328f83f0ef37d550ee370653",
+    "aliases": [
+      "007:her2_anchored_39"
+    ],
+    "sources": [
+      "runs/007-mohamed-anchored-diverse-k1/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWPGAGFYSYAY",
+    "imgt_h3_distance_to_provided": 1,
+    "imgt_h3_nearest_provided": "SRWPGAGFYSYVY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.8723426461219788,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_896ed5a0ed04",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGAGFYNMDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "896ed5a0ed04a0a7f8a08c622d81330063d735499a5abbe2d9e8d1e2d50eea4a",
+    "aliases": [
+      "007:her2_anchored_15"
+    ],
+    "sources": [
+      "runs/007-mohamed-anchored-diverse-k1/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGGAGFYNMDY",
+    "imgt_h3_distance_to_provided": 1,
+    "imgt_h3_nearest_provided": "SRWGGAGFYDMDY",
+    "imgt_h3_identity_to_wt": 0.8461538461538461,
+    "numbering_confidence": 0.8844351172447205,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3",
+      "wt_imgt_h3_identity_ge70"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 8
+  },
+  {
+    "sequence_id": "fab_5d87472a3900",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGPQGFYEFDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "5d87472a3900b8f8ef2510d31c61c857a410291444bb9b41f0c5c3b99c413b7b",
+    "aliases": [
+      "007:her2_anchored_37",
+      "010:r007_a37"
+    ],
+    "sources": [
+      "runs/007-mohamed-anchored-diverse-k1/out/prepared/holo/queries.json",
+      "runs/010-claude-passers-007-005/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGPQGFYEFDY",
+    "imgt_h3_distance_to_provided": 2,
+    "imgt_h3_nearest_provided": "SRWGDSGFYEFDY",
+    "imgt_h3_identity_to_wt": 0.6923076923076923,
+    "numbering_confidence": 0.891423225402832,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 6
+  },
+  {
+    "sequence_id": "fab_a9ef83aeb7d7",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGTGGFYVFAYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "a9ef83aeb7d726637de8f8a058ec47602e1097c89c8e6e410ba46776f8d91582",
+    "aliases": [
+      "007:her2_anchored_9"
+    ],
+    "sources": [
+      "runs/007-mohamed-anchored-diverse-k1/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGTGGFYVFAY",
+    "imgt_h3_distance_to_provided": 1,
+    "imgt_h3_nearest_provided": "SRWGDGGFYVFAY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.8777297735214233,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_cc2ba5b12cb5",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGSGGFYSLNYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "cc2ba5b12cb53af3b8312a4b4112db06d2e0f2b4f18ae5a558a35aa535a07d30",
+    "aliases": [
+      "007:her2_anchored_19"
+    ],
+    "sources": [
+      "runs/007-mohamed-anchored-diverse-k1/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGSGGFYSLNY",
+    "imgt_h3_distance_to_provided": 1,
+    "imgt_h3_nearest_provided": "SRWGSGGFYALNY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.8742526769638062,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_e14fa2ff04fe",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWMVTGFYAFTYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "e14fa2ff04febffb409f6143cf10279120d84912652b62715f4e68dbc573dc26",
+    "aliases": [
+      "010:r007_a02"
+    ],
+    "sources": [
+      "runs/010-claude-passers-007-005/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWMVTGFYAFTY",
+    "imgt_h3_distance_to_provided": 2,
+    "imgt_h3_nearest_provided": "SRFMRTGFYAFTY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.8784531354904175,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_a72edc341966",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGKFGFYDFDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "a72edc341966ab0db06894b39517b65a4f8051807d18d053f10dc6e321ceefc5",
+    "aliases": [
+      "010:r007_a04"
+    ],
+    "sources": [
+      "runs/010-claude-passers-007-005/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGKFGFYDFDY",
+    "imgt_h3_distance_to_provided": 2,
+    "imgt_h3_nearest_provided": "SRFGKNGFYDFDY",
+    "imgt_h3_identity_to_wt": 0.6923076923076923,
+    "numbering_confidence": 0.891423225402832,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 6
+  },
+  {
+    "sequence_id": "fab_e35999d697a4",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGPVGFYADDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "e35999d697a47c46825903e2af878f7753e5fb330639efe4eb63ca26b5b7a304",
+    "aliases": [
+      "010:r007_a23"
+    ],
+    "sources": [
+      "runs/010-claude-passers-007-005/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGPVGFYADDY",
+    "imgt_h3_distance_to_provided": 2,
+    "imgt_h3_nearest_provided": "SRWGAVGFYAFDY",
+    "imgt_h3_identity_to_wt": 0.7692307692307692,
+    "numbering_confidence": 0.8749555945396423,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3",
+      "wt_imgt_h3_identity_ge70"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 7
+  },
+  {
+    "sequence_id": "fab_f6edf6d642fd",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWAAPGFYAQPYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "f6edf6d642fd560f9a6f7b40b85dbf71149f12187753e6c3c6379349a931bfbc",
+    "aliases": [
+      "010:r007_a26"
+    ],
+    "sources": [
+      "runs/010-claude-passers-007-005/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWAAPGFYAQPY",
+    "imgt_h3_distance_to_provided": 2,
+    "imgt_h3_nearest_provided": "SRWAAPGFYAFDY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.8633915185928345,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_f6f0968a93ff",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGWEGFYNFDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "f6f0968a93ff3c07717ad5f59394b2cfb835f96a0118c4ba9e0e876f5e1f4a0d",
+    "aliases": [
+      "010:r007_a27"
+    ],
+    "sources": [
+      "runs/010-claude-passers-007-005/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGWEGFYNFDY",
+    "imgt_h3_distance_to_provided": 2,
+    "imgt_h3_nearest_provided": "SRWGAGGFYNFDY",
+    "imgt_h3_identity_to_wt": 0.6923076923076923,
+    "numbering_confidence": 0.891423225402832,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 6
+  },
+  {
+    "sequence_id": "fab_e02f578ae9a8",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGYLGFYEYDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "e02f578ae9a8b998d9f673a81c8127c323865d5991f0692103cbbe85b67c1bc3",
+    "aliases": [
+      "010:r007_a28"
+    ],
+    "sources": [
+      "runs/010-claude-passers-007-005/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGYLGFYEYDY",
+    "imgt_h3_distance_to_provided": 2,
+    "imgt_h3_nearest_provided": "SRWGGDGFYEYDY",
+    "imgt_h3_identity_to_wt": 0.6923076923076923,
+    "numbering_confidence": 0.886036217212677,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 6
+  },
+  {
+    "sequence_id": "fab_b16b32a11419",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGASGFYYHDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "b16b32a11419288ed089a904e907dc7ddc446fc8cdf8d6379b3311c156d2124e",
+    "aliases": [
+      "010:r007_a32"
+    ],
+    "sources": [
+      "runs/010-claude-passers-007-005/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGASGFYYHDY",
+    "imgt_h3_distance_to_provided": 2,
+    "imgt_h3_nearest_provided": "SRWAASGFYYYDY",
+    "imgt_h3_identity_to_wt": 0.6923076923076923,
+    "numbering_confidence": 0.8787710070610046,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 6
+  },
+  {
+    "sequence_id": "fab_23e6cb9a27a1",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGPSGFYVDNYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "23e6cb9a27a1df2b0a71d034aa871f7dbed58dd8e6d1e3172c4bbc55cab24332",
+    "aliases": [
+      "010:r007_a33"
+    ],
+    "sources": [
+      "runs/010-claude-passers-007-005/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGPSGFYVDNY",
+    "imgt_h3_distance_to_provided": 2,
+    "imgt_h3_nearest_provided": "SRWGRSGFYVFNY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.8652567863464355,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_2d2fa5e1d3df",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGPSGFYAHDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "2d2fa5e1d3df5c6f54ab08f3da946f54f95c52ed6baa035a48a48316f2195532",
+    "aliases": [
+      "010:r005_a00"
+    ],
+    "sources": [
+      "runs/010-claude-passers-007-005/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGPSGFYAHDY",
+    "imgt_h3_distance_to_provided": 2,
+    "imgt_h3_nearest_provided": "SRWADSGFYAHDY",
+    "imgt_h3_identity_to_wt": 0.7692307692307692,
+    "numbering_confidence": 0.8787710070610046,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3",
+      "wt_imgt_h3_identity_ge70"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 7
+  },
+  {
+    "sequence_id": "fab_308121404550",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGPSGFYFFDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "308121404550aa9ec95f682a63768c4e8d77cdb0d651ad8a58d9351f90710b46",
+    "aliases": [
+      "010:r005_a22"
+    ],
+    "sources": [
+      "runs/010-claude-passers-007-005/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGPSGFYFFDY",
+    "imgt_h3_distance_to_provided": 2,
+    "imgt_h3_nearest_provided": "SRWALSGFYFFDY",
+    "imgt_h3_identity_to_wt": 0.6923076923076923,
+    "numbering_confidence": 0.891423225402832,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 6
+  },
+  {
+    "sequence_id": "fab_1c0c8aef45c6",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGPAGFYHHDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "1c0c8aef45c6ed0d9aaf2beffd588ff29a056f7c1307c7fd8b47bee102d79410",
+    "aliases": [
+      "010:r005_a34"
+    ],
+    "sources": [
+      "runs/010-claude-passers-007-005/out/prepared/holo/queries.json"
+    ],
+    "cdrh3_imgt": "SRWGPAGFYHHDY",
+    "imgt_h3_distance_to_provided": 2,
+    "imgt_h3_nearest_provided": "SRWGKAGFYAHDY",
+    "imgt_h3_identity_to_wt": 0.6923076923076923,
+    "numbering_confidence": 0.8787710070610046,
+    "local_numeric_reasons": [
+      "provided_h3_distance_lt3"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 6
+  },
+  {
+    "sequence_id": "vhh_e8c75139f157",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGLSVTSYTMGWFRQAPGKGRELVASITSGGHTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCNTRAGVLLPNGEVEYVDYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "e8c75139f1576d6ab65cbb37bd9fb3e24f6d8305968c9a218f052e71e9e43806",
+    "aliases": [
+      "her2_caplacizumab_cdr123_0_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_0/her2_caplacizumab_cdr123_0_generated.cif"
+    ],
+    "cdrh3_imgt": "NTRAGVLLPNGEVEYVDY",
+    "imgt_h3_distance_to_provided": 10,
+    "imgt_h3_nearest_provided": "SRATGWLLPLYVY",
+    "imgt_h3_identity_to_wt": 0.2777777777777778,
+    "numbering_confidence": 0.7747436165809631,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_bea335925b55",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGSSVTNYAMGWFRQAPGKGRELVAWISYDGSETYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAAGRPGSDGHYTWDYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "bea335925b55124dd2b159fb25afe1fc4209bff7f837dccdcfc93e2dc102732b",
+    "aliases": [
+      "her2_caplacizumab_cdr123_1_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_1/her2_caplacizumab_cdr123_1_generated.cif"
+    ],
+    "cdrh3_imgt": "AAGRPGSDGHYTWDY",
+    "imgt_h3_distance_to_provided": 6,
+    "imgt_h3_nearest_provided": "SRWGKDGHYTLDY",
+    "imgt_h3_identity_to_wt": 0.4666666666666667,
+    "numbering_confidence": 0.7905331254005432,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_8351d1c8d881",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSSYTMNWFRQAPGKGRELVAIIHTSGTTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCARDVSYDPSKTSYSGWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "8351d1c8d881e749dea8b026203fcf7ba89d7ef8b49655c4ed9c5e0407d21507",
+    "aliases": [
+      "her2_caplacizumab_cdr123_10_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_10/her2_caplacizumab_cdr123_10_generated.cif"
+    ],
+    "cdrh3_imgt": "ARDVSYDPSKTSYSG",
+    "imgt_h3_distance_to_provided": 8,
+    "imgt_h3_nearest_provided": "SRCVDPSLYVYSY",
+    "imgt_h3_identity_to_wt": 0.1333333333333333,
+    "numbering_confidence": 0.8079351782798767,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_e070b5ab96f4",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGSTVTSRAMGWFRQAPGKGRELVAAISYDGGNTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAAARYSNVYSTSPSEYDYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "e070b5ab96f4bd89e3f206e14776566b9f3fc6b81f267b6a0cf9d9e1d88869c4",
+    "aliases": [
+      "her2_caplacizumab_cdr123_11_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_11/her2_caplacizumab_cdr123_11_generated.cif"
+    ],
+    "cdrh3_imgt": "AAARYSNVYSTSPSEYDY",
+    "imgt_h3_distance_to_provided": 9,
+    "imgt_h3_nearest_provided": "SRYKVGSPYEYDY",
+    "imgt_h3_identity_to_wt": 0.16666666666666663,
+    "numbering_confidence": 0.7913769483566284,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_60bc262a6c1a",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGSHVTSYAMGWFRQAPGKGRELVASISYGGSTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAARYYSTLSYFPYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "60bc262a6c1a3ee4da36930b0e68efb31ea6625f568299fabd70a9ea32942930",
+    "aliases": [
+      "her2_caplacizumab_cdr123_12_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_12/her2_caplacizumab_cdr123_12_generated.cif"
+    ],
+    "cdrh3_imgt": "AARYYSTLSYFPY",
+    "imgt_h3_distance_to_provided": 5,
+    "imgt_h3_nearest_provided": "SRYSTLSFYFLPY",
+    "imgt_h3_identity_to_wt": 0.15384615384615385,
+    "numbering_confidence": 0.7934942245483398,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_e4521e255377",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGRDISSFTMGWFRQAPGKGRELVASITSGGSTWYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCNARELRYDSSGNSYWVAYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "e4521e25537747cdacf21bec7726c4bbda7d1a58b48425d77262f85bb79b6508",
+    "aliases": [
+      "her2_caplacizumab_cdr123_13_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_13/her2_caplacizumab_cdr123_13_generated.cif"
+    ],
+    "cdrh3_imgt": "NARELRYDSSGNSYWVAY",
+    "imgt_h3_distance_to_provided": 9,
+    "imgt_h3_nearest_provided": "SRFLDSSSYDLAY",
+    "imgt_h3_identity_to_wt": 0.2777777777777778,
+    "numbering_confidence": 0.7429782152175903,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_7a2556476088",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGPSVTSYTMGWFRQAPGKGRELVASISSSGSTWYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCRASGSLYSSGHWVYYDAWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "7a255647608818d1b1b7e4a2761b4fa8bf09048ff803e24b6747a4bf0fe94957",
+    "aliases": [
+      "her2_caplacizumab_cdr123_14_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_14/her2_caplacizumab_cdr123_14_generated.cif"
+    ],
+    "cdrh3_imgt": "RASGSLYSSGHWVYYDA",
+    "imgt_h3_distance_to_provided": 9,
+    "imgt_h3_nearest_provided": "SRASGWLLRSHVY",
+    "imgt_h3_identity_to_wt": 0.17647058823529416,
+    "numbering_confidence": 0.7809797525405884,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_ac57c24ed84e",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSSFGMGWFRQAPGKGRELVAYISTGGNTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAAYTGSDTSGTVSLFDYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "ac57c24ed84e1a08ea6e411741b06f001005c4fe2db8b213c80af7806e972c09",
+    "aliases": [
+      "her2_caplacizumab_cdr123_15_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_15/her2_caplacizumab_cdr123_15_generated.cif"
+    ],
+    "cdrh3_imgt": "AAYTGSDTSGTVSLFDY",
+    "imgt_h3_distance_to_provided": 8,
+    "imgt_h3_nearest_provided": "SRIASDTSTSLFY",
+    "imgt_h3_identity_to_wt": 0.2941176470588235,
+    "numbering_confidence": 0.8328059911727905,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_3dffb3fa3bcf",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGLSFSSYAMGWFRQAPGKGRELVAAISGGGGTTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCNAPVGSYDSSLSSNASRQYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "3dffb3fa3bcf4e2b6f1d67bb5b632919ba64828ba34095e655e649a67aa3f8ae",
+    "aliases": [
+      "her2_caplacizumab_cdr123_2_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_2/her2_caplacizumab_cdr123_2_generated.cif"
+    ],
+    "cdrh3_imgt": "NAPVGSYDSSLSSNASRQY",
+    "imgt_h3_distance_to_provided": 10,
+    "imgt_h3_nearest_provided": "SRFSDSSSNALRY",
+    "imgt_h3_identity_to_wt": 0.21052631578947367,
+    "numbering_confidence": 0.7853865623474121,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_f1f6051b3d04",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGSSVTSYAMAWFRQAPGKGRELVALISSSGSNTSYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAAAVPHSGGSYSYDYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "f1f6051b3d04a8411f55c5fa5fc3ad167925737e12e57424a027ad202bd14b22",
+    "aliases": [
+      "her2_caplacizumab_cdr123_3_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_3/her2_caplacizumab_cdr123_3_generated.cif"
+    ],
+    "cdrh3_imgt": "AAAVPHSGGSYSYDY",
+    "imgt_h3_distance_to_provided": 6,
+    "imgt_h3_nearest_provided": "SRYPHGGIYSYDY",
+    "imgt_h3_identity_to_wt": 0.2666666666666667,
+    "numbering_confidence": 0.7935774326324463,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_eefff752278a",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSSYDMGWFRQAPGKGRELVAAISHSGSSTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAAKLSGSHTYDYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "eefff752278a910ef2bf214d8dd55dd9bbf8bd6386df46eeaab0ae6518261687",
+    "aliases": [
+      "her2_caplacizumab_cdr123_4_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_4/her2_caplacizumab_cdr123_4_generated.cif"
+    ],
+    "cdrh3_imgt": "AAKLSGSHTYDY",
+    "imgt_h3_distance_to_provided": 6,
+    "imgt_h3_nearest_provided": "SRCKLSGFYLYDY",
+    "imgt_h3_identity_to_wt": 0.23076923076923073,
+    "numbering_confidence": 0.8075056672096252,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_f82ec34c14d1",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSSYTMGWFRQAPGKGRELVASISHDGSSTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAARLLGSRSGFDYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "f82ec34c14d1c7809e914a1dceadef0f43ce9f0061ecae9906be04d710fc6534",
+    "aliases": [
+      "her2_caplacizumab_cdr123_5_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_5/her2_caplacizumab_cdr123_5_generated.cif"
+    ],
+    "cdrh3_imgt": "AARLLGSRSGFDY",
+    "imgt_h3_distance_to_provided": 6,
+    "imgt_h3_nearest_provided": "SRLAGGRSYTFDY",
+    "imgt_h3_identity_to_wt": 0.23076923076923073,
+    "numbering_confidence": 0.8127967119216919,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_4f51cfba79f5",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGLGVTSYAMGWFRQAPGKGRELVAAISSSGSYTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAAGSASGWFATESDYDYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "4f51cfba79f5859045b9a78f5f8054e3cf7635e19c135faf1a8377880efc0756",
+    "aliases": [
+      "her2_caplacizumab_cdr123_6_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_6/her2_caplacizumab_cdr123_6_generated.cif"
+    ],
+    "cdrh3_imgt": "AAGSASGWFATESDYDY",
+    "imgt_h3_distance_to_provided": 9,
+    "imgt_h3_nearest_provided": "SRCASGRFYTYDY",
+    "imgt_h3_identity_to_wt": 0.23529411764705888,
+    "numbering_confidence": 0.7913110852241516,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_4e7ecbe326de",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFTFSDYTMGWFRQAPGKGRELVAAINGDGSTTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAARLNSGSRDYDYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "4e7ecbe326ded36b10956f81ed49c7430418406e1d4a5630a0729f3aff7171ad",
+    "aliases": [
+      "her2_caplacizumab_cdr123_7_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_7/her2_caplacizumab_cdr123_7_generated.cif"
+    ],
+    "cdrh3_imgt": "AARLNSGSRDYDY",
+    "imgt_h3_distance_to_provided": 5,
+    "imgt_h3_nearest_provided": "SRYNSPGSYDYDY",
+    "imgt_h3_identity_to_wt": 0.23076923076923073,
+    "numbering_confidence": 0.8201077580451965,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_4725cb297912",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGSSVTSYGMGWFRQAPGKGRELVAYISSTGNTWYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAMRGLYPGRNFWETSYYDYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "4725cb2979128bbbf4601ed193eaef303d144c9d3f097df82ef5b8bad29bc19b",
+    "aliases": [
+      "her2_caplacizumab_cdr123_8_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_8/her2_caplacizumab_cdr123_8_generated.cif"
+    ],
+    "cdrh3_imgt": "AMRGLYPGRNFWETSYYDY",
+    "imgt_h3_distance_to_provided": 9,
+    "imgt_h3_nearest_provided": "SRLAPGRFYSYDY",
+    "imgt_h3_identity_to_wt": 0.26315789473684215,
+    "numbering_confidence": 0.8041056990623474,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_31f691696d21",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGSSISYRTMGWFRQAPGKGRELVAAINGSGNTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAAARRGVPVWRADAYDYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "31f691696d2149ef570dcffbfe6a7f8cfa36687d6c57b9d5aa56572c0017ac84",
+    "aliases": [
+      "her2_caplacizumab_cdr123_9_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_9/her2_caplacizumab_cdr123_9_generated.cif"
+    ],
+    "cdrh3_imgt": "AAARRGVPVWRADAYDY",
+    "imgt_h3_distance_to_provided": 9,
+    "imgt_h3_nearest_provided": "SRFGVPGFDLYDY",
+    "imgt_h3_identity_to_wt": 0.2941176470588235,
+    "numbering_confidence": 0.7703679800033569,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_eeaa58db9e8d",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGPNVTSYWMGWFRQAPGKGRELVASINTGGDTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCKTRAYRTPLAWDTPASVRESAATVDYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "eeaa58db9e8dbc512dd79e2e670f5f8383f57f1e83208cab446339c426d70a31",
+    "aliases": [
+      "her2_caplacizumab_longH3_0_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_0/her2_caplacizumab_longH3_0_generated.cif"
+    ],
+    "cdrh3_imgt": "KTRAYRTPLAWDTPASVRESAATVDY",
+    "imgt_h3_distance_to_provided": 16,
+    "imgt_h3_nearest_provided": "SRAYKTAVTSSTY",
+    "imgt_h3_identity_to_wt": 0.1923076923076923,
+    "numbering_confidence": 0.7929609417915344,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_ac971eddba62",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGPTFSTYAMGWFRQAPGKGRELVAAISSSGSTTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAARPAISHETASMLARADRYEAWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "ac971eddba62845479e14dd251b4396ccc3023ea0219d2d476391881638c3c37",
+    "aliases": [
+      "her2_caplacizumab_longH3_1_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_1/her2_caplacizumab_longH3_1_generated.cif"
+    ],
+    "cdrh3_imgt": "AARPAISHETASMLARADRYEA",
+    "imgt_h3_distance_to_provided": 13,
+    "imgt_h3_nearest_provided": "SRGSCTLSLRDRY",
+    "imgt_h3_identity_to_wt": 0.2272727272727273,
+    "numbering_confidence": 0.7878625392913818,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_d8e0471d1710",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGSTFSSYSMGWFRQAPGKGRELVANITSGGSTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCARGSGSSFSASDDYTYTDFYAYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "d8e0471d171006d367c372a7f0cc0728d631f4966c36ae303c5848706402b442",
+    "aliases": [
+      "her2_caplacizumab_longH3_10_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_10/her2_caplacizumab_longH3_10_generated.cif"
+    ],
+    "cdrh3_imgt": "ARGSGSSFSASDDYTYTDFYAY",
+    "imgt_h3_distance_to_provided": 12,
+    "imgt_h3_nearest_provided": "SRCSGDSFYDYAY",
+    "imgt_h3_identity_to_wt": 0.2727272727272727,
+    "numbering_confidence": 0.8046216368675232,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_9813ac97ca92",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGSTFSNYAMGWFRQAPGKGRELVAAISYNGSSTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAAKRGAFTTADDLKREMGAPSNVDYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "9813ac97ca92beb5d7fb280b3b3d4eee1546a1fe19be664a994359fd45064847",
+    "aliases": [
+      "her2_caplacizumab_longH3_11_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_11/her2_caplacizumab_longH3_11_generated.cif"
+    ],
+    "cdrh3_imgt": "AAKRGAFTTADDLKREMGAPSNVDY",
+    "imgt_h3_distance_to_provided": 15,
+    "imgt_h3_nearest_provided": "SRGAAGRGGAVDY",
+    "imgt_h3_identity_to_wt": 0.19999999999999996,
+    "numbering_confidence": 0.8068084120750427,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_53427dbcaab1",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGSSFSSYAMGWFRQAPGKGRELVAAISSGGSTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCARGLNSNTSYWRTRSYWDYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "53427dbcaab1aeb5f9448f0bd822a546469e45ab1bc6abeb8b44d5f96e2db314",
+    "aliases": [
+      "her2_caplacizumab_longH3_12_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_12/her2_caplacizumab_longH3_12_generated.cif"
+    ],
+    "cdrh3_imgt": "ARGLNSNTSYWRTRSYWDY",
+    "imgt_h3_distance_to_provided": 9,
+    "imgt_h3_nearest_provided": "SRWLNSNMYTYDY",
+    "imgt_h3_identity_to_wt": 0.21052631578947367,
+    "numbering_confidence": 0.8316946029663086,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_40263221b844",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSSYAMGWFRQAPGKGRELVAAISPGGTTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAASYLPVSSSISSLDLRDVMRYVRYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "40263221b844b4569795534fd2b33f5ce1db316f9b47b7998cfa13e89c6b858d",
+    "aliases": [
+      "her2_caplacizumab_longH3_13_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_13/her2_caplacizumab_longH3_13_generated.cif"
+    ],
+    "cdrh3_imgt": "AASYLPVSSSISSLDLRDVMRYVRY",
+    "imgt_h3_distance_to_provided": 15,
+    "imgt_h3_nearest_provided": "SRFSDSSSLDLRY",
+    "imgt_h3_identity_to_wt": 0.16000000000000003,
+    "numbering_confidence": 0.8028771281242371,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_117718f6ee46",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGPTFSDYGMGWFRQAPGKGRELVAYISSGGRTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCARERRVYYDYAGDLVSYGDGVFDYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "117718f6ee46998801c2d359b972df8ebe202cee9365c90435bc2c4171da897c",
+    "aliases": [
+      "her2_caplacizumab_longH3_14_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_14/her2_caplacizumab_longH3_14_generated.cif"
+    ],
+    "cdrh3_imgt": "ARERRVYYDYAGDLVSYGDGVFDY",
+    "imgt_h3_distance_to_provided": 13,
+    "imgt_h3_nearest_provided": "SRYHDAGLYVFDY",
+    "imgt_h3_identity_to_wt": 0.25,
+    "numbering_confidence": 0.836614191532135,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_7eccdcf877ca",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGLTVTSRTMGWFRQAPGKGRELVAAINTGGTTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAATDRSPSYASDWLAWVRERSNYAYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "7eccdcf877ca1eb9197d8ea262bd392a812cb04590f5e47cfc363bb3e36c7b15",
+    "aliases": [
+      "her2_caplacizumab_longH3_15_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_15/her2_caplacizumab_longH3_15_generated.cif"
+    ],
+    "cdrh3_imgt": "AATDRSPSYASDWLAWVRERSNYAY",
+    "imgt_h3_distance_to_provided": 16,
+    "imgt_h3_nearest_provided": "SRCPLYSLYVYAY",
+    "imgt_h3_identity_to_wt": 0.16000000000000003,
+    "numbering_confidence": 0.7814021110534668,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_a0fa28eea1ca",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGLNITSRTMGWFRQAPGKGRELVASISGSGSSTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAASDYGPDAYAHQRASYDTLGKRAFYSYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "a0fa28eea1ca276bbc02247589b069c0688b1d4c45605fe29b86655ccea1f76d",
+    "aliases": [
+      "her2_caplacizumab_longH3_2_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_2/her2_caplacizumab_longH3_2_generated.cif"
+    ],
+    "cdrh3_imgt": "AASDYGPDAYAHQRASYDTLGKRAFYSY",
+    "imgt_h3_distance_to_provided": 17,
+    "imgt_h3_nearest_provided": "SRFGARASLRFSY",
+    "imgt_h3_identity_to_wt": 0.2142857142857143,
+    "numbering_confidence": 0.773063600063324,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_6763c6af5cc0",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSDYTMGWFRQAPGKGRELVAAISGSGGNTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAARLDTSVFDVEDLKNVLNWDYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "6763c6af5cc08a6e17efb30a32e14f749c7e54a5cd3dd82fc912ee75622f54a7",
+    "aliases": [
+      "her2_caplacizumab_longH3_3_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_3/her2_caplacizumab_longH3_3_generated.cif"
+    ],
+    "cdrh3_imgt": "AARLDTSVFDVEDLKNVLNWDY",
+    "imgt_h3_distance_to_provided": 12,
+    "imgt_h3_nearest_provided": "SRLDTSRFYKLDY",
+    "imgt_h3_identity_to_wt": 0.18181818181818177,
+    "numbering_confidence": 0.812127947807312,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_70b799c31670",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGRTFTDYVMGWFRQAPGKGRELVASISGDGTSTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAARLSSTPAGPTLERYDYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "70b799c31670b0fe5acedd7a20d3a378378e4aa180c3e19b99197a697e9db643",
+    "aliases": [
+      "her2_caplacizumab_longH3_4_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_4/her2_caplacizumab_longH3_4_generated.cif"
+    ],
+    "cdrh3_imgt": "AARLSSTPAGPTLERYDY",
+    "imgt_h3_distance_to_provided": 9,
+    "imgt_h3_nearest_provided": "SRGSTPAFTLYLY",
+    "imgt_h3_identity_to_wt": 0.2222222222222222,
+    "numbering_confidence": 0.8022686243057251,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_449fb56e0446",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGRTFTSYTMGWFRQAPGKGRELVASISHDGSSTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAARYSLSDATEDERSGFDYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "449fb56e044682e3b4348ca37274082ea0d159e48e9d5a27cadda074a20529e0",
+    "aliases": [
+      "her2_caplacizumab_longH3_5_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_5/her2_caplacizumab_longH3_5_generated.cif"
+    ],
+    "cdrh3_imgt": "AARYSLSDATEDERSGFDY",
+    "imgt_h3_distance_to_provided": 10,
+    "imgt_h3_nearest_provided": "SRLSAATFYSFDY",
+    "imgt_h3_identity_to_wt": 0.21052631578947367,
+    "numbering_confidence": 0.8126949667930603,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_2fb7b2c78785",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGGTFSSYYMGWFRQAPGKGRELVAAINPDGSSTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCNTAVWEDIPVTVNGEPRTLSAYVDYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "2fb7b2c787854dd5a8fe96dffb10f05accadca8e70cf074616db51cf5f6178f3",
+    "aliases": [
+      "her2_caplacizumab_longH3_6_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_6/her2_caplacizumab_longH3_6_generated.cif"
+    ],
+    "cdrh3_imgt": "NTAVWEDIPVTVNGEPRTLSAYVDY",
+    "imgt_h3_distance_to_provided": 16,
+    "imgt_h3_nearest_provided": "SRFPVVGPYAVDY",
+    "imgt_h3_identity_to_wt": 0.19999999999999996,
+    "numbering_confidence": 0.8048916459083557,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_b05af5a1cabe",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSSYDMGWFRQAPGKGRELVAWINSSGSSTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAARLSVADALRTGRPLWAYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "b05af5a1cabe0f9d65dae04e9fce5f229a9e4e22a089a0f886e868a4d2198ba7",
+    "aliases": [
+      "her2_caplacizumab_longH3_7_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_7/her2_caplacizumab_longH3_7_generated.cif"
+    ],
+    "cdrh3_imgt": "AARLSVADALRTGRPLWAY",
+    "imgt_h3_distance_to_provided": 10,
+    "imgt_h3_nearest_provided": "SRLAAGRCGLYAY",
+    "imgt_h3_identity_to_wt": 0.21052631578947367,
+    "numbering_confidence": 0.7940355539321899,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_dbb97d29fe41",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGPHFSSYAMGWFRQAPGKGRELVALITSGGGTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCHAFPYSAPGALEHKLATGSVSDYYPDAWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "dbb97d29fe4180d43f0cf93a59bbd943fba567c9926ecbd92ca37d2e12ae7af4",
+    "aliases": [
+      "her2_caplacizumab_longH3_8_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_8/her2_caplacizumab_longH3_8_generated.cif"
+    ],
+    "cdrh3_imgt": "HAFPYSAPGALEHKLATGSVSDYYPDA",
+    "imgt_h3_distance_to_provided": 18,
+    "imgt_h3_nearest_provided": "SRFKLTGVYDYYY",
+    "imgt_h3_identity_to_wt": 0.18518518518518523,
+    "numbering_confidence": 0.7597866058349609,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_b0b30400bc0a",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGPTFSSYTMGWFRQAPGKGRELVANITSGGSTTYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCKATVSTPKTVTYQGKPVSTTEYSEYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "b0b30400bc0a02980f7e25aaedfad2eaade5450bd8930d90b0a1555c0ed5102e",
+    "aliases": [
+      "her2_caplacizumab_longH3_9_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_9/her2_caplacizumab_longH3_9_generated.cif"
+    ],
+    "cdrh3_imgt": "KATVSTPKTVTYQGKPVSTTEYSEY",
+    "imgt_h3_distance_to_provided": 16,
+    "imgt_h3_nearest_provided": "SRLKVYGFYEYEY",
+    "imgt_h3_identity_to_wt": 0.12,
+    "numbering_confidence": 0.7684035301208496,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_d20ccd81bf0b",
+    "kind": "vhh",
+    "heavy_sequence": "DVQLVESGGGLVQPGGSLRLSCTSSGRAFDGYTMGWYRQAPGRERELVALITRSGDTYYPDSVRGRFTISRDNAKSTVYLQMNSLRLEDTAVYYCAAFDYKQLLKSPVDSRDSTIYNPAEYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "d20ccd81bf0b81363d3d857015864b507e44448df928e9bddfafedadd2aa3225",
+    "aliases": [
+      "her2_variable_sequence_0_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_0/her2_variable_sequence_0_generated.cif"
+    ],
+    "cdrh3_imgt": "AAFDYKQLLKSPVDSRDSTIYNPAEY",
+    "imgt_h3_distance_to_provided": 17,
+    "imgt_h3_nearest_provided": "SRDSVPGRDINAY",
+    "imgt_h3_identity_to_wt": 0.15384615384615385,
+    "numbering_confidence": 0.7564347386360168,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_66a1ab11c27f",
+    "kind": "vhh",
+    "heavy_sequence": "MITLVESGGGLVQPGGSLRLTCAASGNTFSAYDMRWYRQAAGKQRELVSIISSGGSTTWAPDSVKGRFTISRDDAKSTVYLQMNSLKAEDTAIYYCYTRTGAKIDSHSSYPGGISYRYWGQGTQVTVL",
+    "light_sequence": "",
+    "pair_sha256": "66a1ab11c27f910fe9f689f5eaa78bc24eb44fc7e8a71ee42b644b67f04e45e2",
+    "aliases": [
+      "her2_variable_sequence_1_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_1/her2_variable_sequence_1_generated.cif"
+    ],
+    "cdrh3_imgt": "YTRTGAKIDSHSSYPGGISYRY",
+    "imgt_h3_distance_to_provided": 12,
+    "imgt_h3_nearest_provided": "SRFIDSSSYAIRY",
+    "imgt_h3_identity_to_wt": 0.2272727272727273,
+    "numbering_confidence": 0.6898342967033386,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_8d2fb55a1add",
+    "kind": "vhh",
+    "heavy_sequence": "QIDLTESGGGVVQPGGNLKLTCQARGGKFSHFAVGWFRQAPGRERELVAKISSGGSTYYPDSVKGRFTISRDDARSAVYLAMNSLRPEDTAVYYCAATDPEWISRESVTSSLDSFQGWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "8d2fb55a1add394cdb6cb48cc31c0fb1a93bd2759d6917914f34a8e238e71229",
+    "aliases": [
+      "her2_variable_sequence_10_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_10/her2_variable_sequence_10_generated.cif"
+    ],
+    "cdrh3_imgt": "AATDPEWISRESVTSSLDSFQG",
+    "imgt_h3_distance_to_provided": 14,
+    "imgt_h3_nearest_provided": "SRFSRSSLDQFLY",
+    "imgt_h3_identity_to_wt": 0.09090909090909094,
+    "numbering_confidence": 0.7085591554641724,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_789b26ae31f0",
+    "kind": "vhh",
+    "heavy_sequence": "QVQLVESGGGLVQPGGSLRLSCAASGGAFSNYYIGWYRQAPGKERELVASINGSGSHTWSPDSVKGRFTISRDNARNMVYLQMNSLRPEDTANYYCAKLYSWAYNLDDKGNWIHSYSDDYVWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "789b26ae31f00c2934ce55cf0131f0ed605d44589145f84547852a9c1253f9f1",
+    "aliases": [
+      "her2_variable_sequence_11_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_11/her2_variable_sequence_11_generated.cif"
+    ],
+    "cdrh3_imgt": "AKLYSWAYNLDDKGNWIHSYSDDYV",
+    "imgt_h3_distance_to_provided": 15,
+    "imgt_h3_nearest_provided": "SRLDDGLIYSFDY",
+    "imgt_h3_identity_to_wt": 0.24,
+    "numbering_confidence": 0.7259677052497864,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_809634fa1ba9",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLQESGGGLVQPGGSLRLSCASSGQSFSDYAMGWFRQAPGQKRTLVAAITPAGKVYFPDSVRGRFTISRDDAASSVFLQMNSLKPEDTAVYFCAATKRLNVSAWKSPVEWSHWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "809634fa1ba95cc2033ae09b0b58a1477b50596dcda6f61880fee32dbc5a1019",
+    "aliases": [
+      "her2_variable_sequence_12_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_12/her2_variable_sequence_12_generated.cif"
+    ],
+    "cdrh3_imgt": "AATKRLNVSAWKSPVEWSH",
+    "imgt_h3_distance_to_provided": 11,
+    "imgt_h3_nearest_provided": "SRLIVSWSYEQSY",
+    "imgt_h3_identity_to_wt": 0.052631578947368474,
+    "numbering_confidence": 0.7153832316398621,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_9eb9ac3717d6",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLQESGGGVVQPGGSLRLSCAASGHTFTRFAMGWFRQHPGKERELVAYIDTEGHTWFPSSVKGRFTISRDNAKNNVFLQMNSLRPEDTAVYYCATGKWHESRRVFWINRMSTTDDMDYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "9eb9ac3717d655d67026b4f516ad64d8e55843a579f4eabf42b278aada509279",
+    "aliases": [
+      "her2_variable_sequence_13_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_13/her2_variable_sequence_13_generated.cif"
+    ],
+    "cdrh3_imgt": "ATGKWHESRRVFWINRMSTTDDMDY",
+    "imgt_h3_distance_to_provided": 15,
+    "imgt_h3_nearest_provided": "SRWINHSTYDFDY",
+    "imgt_h3_identity_to_wt": 0.24,
+    "numbering_confidence": 0.7636774182319641,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_a511ce4303b9",
+    "kind": "vhh",
+    "heavy_sequence": "QLQLIESGGGLVQPGGVLRLTCAASGATFTDYDMGWYRQAPGKGRELVASITSGGNTYFPDSVQGRFTISRDNAKNLVYLHMRSLKPEDTAVYYCNAKSIGSRQVIDDEGYSRWSYDDYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "a511ce4303b9d10352a0d9a364e434871971022d4e2171fc28ca481a3e203fdd",
+    "aliases": [
+      "her2_variable_sequence_14_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_14/her2_variable_sequence_14_generated.cif"
+    ],
+    "cdrh3_imgt": "NAKSIGSRQVIDDEGYSRWSYDDY",
+    "imgt_h3_distance_to_provided": 15,
+    "imgt_h3_nearest_provided": "SRCDDGRVYSYDY",
+    "imgt_h3_identity_to_wt": 0.25,
+    "numbering_confidence": 0.7361771464347839,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_ddba3daeea02",
+    "kind": "vhh",
+    "heavy_sequence": "QVQLQESGGGLVQPGGSLRLSCVASGRTFTKLAMGWYRQPPGRQRELVASITSGGVTNYPDSVKGRFTISRDNAKNTVYLQMNNLKAEDTAIYYCQASNYTSVTSSSHSPRLSTDVTDTYWGQGTTVTVS",
+    "light_sequence": "",
+    "pair_sha256": "ddba3daeea02ca21d6ce0e76d9f48712522702f73c525a63ae8643daee9c9251",
+    "aliases": [
+      "her2_variable_sequence_15_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_15/her2_variable_sequence_15_generated.cif"
+    ],
+    "cdrh3_imgt": "QASNYTSVTSSSHSPRLSTDVTDTY",
+    "imgt_h3_distance_to_provided": 15,
+    "imgt_h3_nearest_provided": "SRFSVSSSYSLSY",
+    "imgt_h3_identity_to_wt": 0.12,
+    "numbering_confidence": 0.735983669757843,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_3e17aea82221",
+    "kind": "vhh",
+    "heavy_sequence": "QVQLQESGGGLVRPGGSLRLTCAASGDTFNKYAMGWFRQAPGKSLELVASISSSARSTYAPDTVKGRFTISRDNSKSVVYLQMNSLKLEDTADYFCAGHLGFNGYSSDVSTKEYGAFREVGFRYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "3e17aea82221a7823adc4ae9aea248b60273d544bb912550a9f81577d4624d97",
+    "aliases": [
+      "her2_variable_sequence_2_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_2/her2_variable_sequence_2_generated.cif"
+    ],
+    "cdrh3_imgt": "AGHLGFNGYSSDVSTKEYGAFREVGFRY",
+    "imgt_h3_distance_to_provided": 18,
+    "imgt_h3_nearest_provided": "SRFLGFGSDTFGY",
+    "imgt_h3_identity_to_wt": 0.2142857142857143,
+    "numbering_confidence": 0.7624242901802063,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_1fd88935a3d9",
+    "kind": "vhh",
+    "heavy_sequence": "EVLLVESGGGLVQPGGSLRLSCAASGPTFDRRSVGWFRQAPGKEKEGVASISGDGSRTSMPNTVKGRFTISRDNAKNMVFLQMNSLKAEDTAVYYCASTASDRTADVIFERRVANFDYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "1fd88935a3d960dbbd5982b9fd42bff743d5f8000b045506a83318a808dc9a27",
+    "aliases": [
+      "her2_variable_sequence_3_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_3/her2_variable_sequence_3_generated.cif"
+    ],
+    "cdrh3_imgt": "ASTASDRTADVIFERRVANFDY",
+    "imgt_h3_distance_to_provided": 12,
+    "imgt_h3_nearest_provided": "SRCDRTVFVAFVY",
+    "imgt_h3_identity_to_wt": 0.2727272727272727,
+    "numbering_confidence": 0.7194862365722656,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_72dc4a0e2ffb",
+    "kind": "vhh",
+    "heavy_sequence": "QVQLVETGGGLVKPGGNLRLSCTASGLTFSSYGIGWFRQAPGKERELVADISSSGRKTWYPDSVKGRFTISRDNAKDTVHLQMNSLRPEDSAVYYCAAASRRISHTATIANYDYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "72dc4a0e2ffb1eb959fd4e14650cd4413c0daa8bac3652c009c651a85a6cbcc1",
+    "aliases": [
+      "her2_variable_sequence_4_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_4/her2_variable_sequence_4_generated.cif"
+    ],
+    "cdrh3_imgt": "AAASRRISHTATIANYDY",
+    "imgt_h3_distance_to_provided": 9,
+    "imgt_h3_nearest_provided": "SRRIAHAFYVYDY",
+    "imgt_h3_identity_to_wt": 0.2777777777777778,
+    "numbering_confidence": 0.7681500315666199,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_9c4385acb317",
+    "kind": "vhh",
+    "heavy_sequence": "MVQLVESGGGLVEPGGSLRLTCAASGYEVATYAMGWFRQALGRERELVAAISADGGYTFYPDSVKGRFTISRDNAKNQVFLQMDSLKTEDTAVYYCAARPPYYVVRKEYWGQYMYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "9c4385acb31777749286805eda1b3c2c68132ee3bbe5b1b33fec35548711efa3",
+    "aliases": [
+      "her2_variable_sequence_5_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_5/her2_variable_sequence_5_generated.cif"
+    ],
+    "cdrh3_imgt": "AARPPYYVVRKEYWGQYMY",
+    "imgt_h3_distance_to_provided": 10,
+    "imgt_h3_nearest_provided": "SRFPVVRDGLYMY",
+    "imgt_h3_identity_to_wt": 0.1578947368421053,
+    "numbering_confidence": 0.7297587990760803,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_40415f69ad42",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCASSGGSFDRAAFGWYRQAPGKERELVASISGSGSSTYYPDVVKGRFTISRDNAQRSVFLQMNSLKVEDTAVYFCNAKNLHGYNAMVSGQVIQSYHYEEAWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "40415f69ad42307e219bd0707513e78edf752f6df6aaa34c561cea9d8fbe5092",
+    "aliases": [
+      "her2_variable_sequence_6_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_6/her2_variable_sequence_6_generated.cif"
+    ],
+    "cdrh3_imgt": "NAKNLHGYNAMVSGQVIQSYHYEEA",
+    "imgt_h3_distance_to_provided": 16,
+    "imgt_h3_nearest_provided": "SRYAGVGIYSYHY",
+    "imgt_h3_identity_to_wt": 0.16000000000000003,
+    "numbering_confidence": 0.6887946128845215,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_b3410052b742",
+    "kind": "vhh",
+    "heavy_sequence": "EVHLVESGGGLVQPGGSLRLTCVASGRTFSTYSIAWFRQTPGKQRERVAAINSDGSSTSYPDSVKGRFTISRDNAKNSVYLQMNGLRIEDSAVYYCAAGREYTRVGSSLLLYYDHWGHGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "b3410052b7428784334ddc6644dabec81df24575a53303e053b1751bcc8611c7",
+    "aliases": [
+      "her2_variable_sequence_7_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_7/her2_variable_sequence_7_generated.cif"
+    ],
+    "cdrh3_imgt": "AAGREYTRVGSSLLLYYDH",
+    "imgt_h3_distance_to_provided": 10,
+    "imgt_h3_nearest_provided": "SRWTRSSLLLYKY",
+    "imgt_h3_identity_to_wt": 0.1578947368421053,
+    "numbering_confidence": 0.7420340180397034,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_7673a74e16b1",
+    "kind": "vhh",
+    "heavy_sequence": "ELQLVESGGGLVQPGGSLRLSCAASGTSIRDLDVGWYRQAPGKQRELVALIFSDGSTFYPSSVKGRFTISRDNSTNTVYLQMNSLRPEDTAVYFCSASVPRELEYTDTVTGMTLHTHQFEIHWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "7673a74e16b1aa529dfeca8a3a168d9507cc8dbeac979526bc7147f54e8e214b",
+    "aliases": [
+      "her2_variable_sequence_8_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_8/her2_variable_sequence_8_generated.cif"
+    ],
+    "cdrh3_imgt": "SASVPRELEYTDTVTGMTLHTHQFEIH",
+    "imgt_h3_distance_to_provided": 17,
+    "imgt_h3_nearest_provided": "SRGTTTLHTFLIY",
+    "imgt_h3_identity_to_wt": 0.14814814814814814,
+    "numbering_confidence": 0.7145115733146667,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_116dbdcb03dc",
+    "kind": "vhh",
+    "heavy_sequence": "MVQLQESGGGTVQPGGTLRLSCAASGGVFSSAAMAWYRQAPGKGRTLVAYIRPDGTSDFPDSVKGRFTISRDNAKKMVYLQMNSLKTEDTADYFCKSSTISPFTMPWQGQAVRTCGFYDAWGQGTQVTVN",
+    "light_sequence": "",
+    "pair_sha256": "116dbdcb03dcd623d12af93425cf2c3e54d63152e50c483f62510b971c25cb40",
+    "aliases": [
+      "her2_variable_sequence_9_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_9/her2_variable_sequence_9_generated.cif"
+    ],
+    "cdrh3_imgt": "KSSTISPFTMPWQGQAVRTCGFYDA",
+    "imgt_h3_distance_to_provided": 16,
+    "imgt_h3_nearest_provided": "SRFAMPLACTCFY",
+    "imgt_h3_identity_to_wt": 0.19999999999999996,
+    "numbering_confidence": 0.6997795701026917,
+    "local_numeric_reasons": [
+      "unpaired_cysteine_count"
+    ],
+    "local_numeric_pass": false,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_f8646d69819f",
+    "kind": "vhh",
+    "heavy_sequence": "DVQLVESGGGLVQPGGSLRLSCAASGRTFSDYDMGWYRQAPGRGRELVAHIGRTGTTWYPDSVKGRFTISRDNAKSTVYLQMNSLRPEDTAVYYCNAYRGGYDYRDSSGVLNWMPYDPTEYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "f8646d69819fd379f0f5dae59fe802a37a52ca2a1606a2a4d79fdfb798e60335",
+    "aliases": [
+      "her2_variable_sequence_0_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_0/her2_variable_sequence_0_generated.cif"
+    ],
+    "cdrh3_imgt": "NAYRGGYDYRDSSGVLNWMPYDPTEY",
+    "imgt_h3_distance_to_provided": 15,
+    "imgt_h3_nearest_provided": "SRWDRDGLNMYDY",
+    "imgt_h3_identity_to_wt": 0.2692307692307693,
+    "numbering_confidence": 0.7755805253982544,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_af8611af25e6",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSSYAMSWYRQAPGKERELVAAISSSGSNTWHPDSVKGRFTISRDNAKNTVYLQMNSLRVEDTAVYYCFTRTGYNWDSSAPLRDHDSVEYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "af8611af25e6f734679c6261af9dc254b594fae1ea0778ea76702b0baabd3301",
+    "aliases": [
+      "her2_variable_sequence_1_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_1/her2_variable_sequence_1_generated.cif"
+    ],
+    "cdrh3_imgt": "FTRTGYNWDSSAPLRDHDSVEY",
+    "imgt_h3_distance_to_provided": 12,
+    "imgt_h3_nearest_provided": "SRGWSSGPLRSCY",
+    "imgt_h3_identity_to_wt": 0.2272727272727273,
+    "numbering_confidence": 0.7754343748092651,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_5b4e7c2b9371",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLTCAASGRTFSDYGVGWFRQAPGRERELVAYISSGGSTYYPDSVKGRFTISRDNAKNTVYLQMNSLRPEDTAVYYCAATRPPHLYTESITGTLDAFAYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "5b4e7c2b93714e784683b4e3901bce443e56f991a973b563ce9c12738128f777",
+    "aliases": [
+      "her2_variable_sequence_10_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_10/her2_variable_sequence_10_generated.cif"
+    ],
+    "cdrh3_imgt": "AATRPPHLYTESITGTLDAFAY",
+    "imgt_h3_distance_to_provided": 12,
+    "imgt_h3_nearest_provided": "SRFHLSGLYAFAY",
+    "imgt_h3_identity_to_wt": 0.18181818181818177,
+    "numbering_confidence": 0.8114091753959656,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_20df864b80a0",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSNYGMSWYRQAPGKERELVAYISSSGSYTYSPDSVKGRFTISRDNAKNTVYLQMNSLRPEDTAVYYCNARPWYSYELDDSGNWIYYYSTDEYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "20df864b80a0df20b5f76b5138a98b15cf9fb886e8ec53dd198cfbe42a971742",
+    "aliases": [
+      "her2_variable_sequence_11_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_11/her2_variable_sequence_11_generated.cif"
+    ],
+    "cdrh3_imgt": "NARPWYSYELDDSGNWIYYYSTDEY",
+    "imgt_h3_distance_to_provided": 14,
+    "imgt_h3_nearest_provided": "SRWLDSGLYYYSY",
+    "imgt_h3_identity_to_wt": 0.28,
+    "numbering_confidence": 0.7639972567558289,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_7cacd01e4dcd",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGKTFSDFTMGWFRQAPGKERELVAAINSGGSTYYPDSVKGRFTISRDNAKNTVYLQMNSLKPEDTAVYYCAAMETNSSTFPTSPSEYSYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "7cacd01e4dcdcfd88e0d25229c00d52ff81429c0c40345fdae7d5577c6b4e0ec",
+    "aliases": [
+      "her2_variable_sequence_12_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_12/her2_variable_sequence_12_generated.cif"
+    ],
+    "cdrh3_imgt": "AAMETNSSTFPTSPSEYSY",
+    "imgt_h3_distance_to_provided": 11,
+    "imgt_h3_nearest_provided": "SRFGPTSPSFYAY",
+    "imgt_h3_identity_to_wt": 0.10526315789473684,
+    "numbering_confidence": 0.8046942353248596,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_6958a72a5450",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSRYAMGWFRQAPGKERELVAAISSRGNTYYPDSVKGRFTISRDNAKNMVYLQMNSLKPEDTAVYYCAAKKPHSSLGYASVGYWNTEDDFDYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "6958a72a54504ef4910f1c9a1fd8bbf6cab3cb4fb5ff03f078af19a941cb538c",
+    "aliases": [
+      "her2_variable_sequence_13_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_13/her2_variable_sequence_13_generated.cif"
+    ],
+    "cdrh3_imgt": "AAKKPHSSLGYASVGYWNTEDDFDY",
+    "imgt_h3_distance_to_provided": 15,
+    "imgt_h3_nearest_provided": "SRLASGRFNTFDY",
+    "imgt_h3_identity_to_wt": 0.19999999999999996,
+    "numbering_confidence": 0.8095279932022095,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_6e8c757adc12",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGRTFTDYDMGWYRQAPGKERELVASITSGGNTYYPDSVKGRFTISRDNAKNTVYLQMNSLKPEDTAVYYCNARKPTPTDHIDSDGYPLWLYDDYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "6e8c757adc120fc896a14ef2da57f0cf6c3367b486b3d73b5dbeae196f919db0",
+    "aliases": [
+      "her2_variable_sequence_14_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_14/her2_variable_sequence_14_generated.cif"
+    ],
+    "cdrh3_imgt": "NARKPTPTDHIDSDGYPLWLYDDY",
+    "imgt_h3_distance_to_provided": 14,
+    "imgt_h3_nearest_provided": "SRWTHDSMYLYDY",
+    "imgt_h3_identity_to_wt": 0.20833333333333337,
+    "numbering_confidence": 0.7787883877754211,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_07c4030210a9",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGRSISNYAMGWYRQAPGRERELVAMIWSGGSTYYPDSVKGRFTISRDNAKNSVYLQMNSLRAEDTAVYYCNTSVPDSRLSGSTAAMTSSDALVDFWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "07c4030210a9186b499069d163d01d72dac7f7ac87c627d5aad15e1d5801582b",
+    "aliases": [
+      "her2_variable_sequence_15_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_15/her2_variable_sequence_15_generated.cif"
+    ],
+    "cdrh3_imgt": "NTSVPDSRLSGSTAAMTSSDALVDF",
+    "imgt_h3_distance_to_provided": 15,
+    "imgt_h3_nearest_provided": "SRFSDSSSDALVY",
+    "imgt_h3_identity_to_wt": 0.19999999999999996,
+    "numbering_confidence": 0.790256679058075,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_4a8c140a9a82",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGLTFSDYAMGWFRQAPGKERELVASISSSGSWTYAPDSVKGRFTISRDNAKNTVYLQMNSLKPEDTAVYYCAARLAAPASRSYRGETLSADTYTGSFDYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "4a8c140a9a82eb7a703ccc7fc848618173432f1ab031643d7758d6203fcf8933",
+    "aliases": [
+      "her2_variable_sequence_2_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_2/her2_variable_sequence_2_generated.cif"
+    ],
+    "cdrh3_imgt": "AARLAAPASRSYRGETLSADTYTGSFDY",
+    "imgt_h3_distance_to_provided": 16,
+    "imgt_h3_nearest_provided": "SRLAAARLYSFDY",
+    "imgt_h3_identity_to_wt": 0.2142857142857143,
+    "numbering_confidence": 0.7943017482757568,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_2cf98fbb70e5",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSYYAMGWFRQAPGKEREGVAAISSSGSYTYSPDSVKGRFTISRDNAKNTVYLQMNSLKPEDTAVYYCAARYDPSGSSYYWVRNVDNADYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "2cf98fbb70e5c9b03ca54b469f150089632670fe78f789e00e3920cc49ecca57",
+    "aliases": [
+      "her2_variable_sequence_3_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_3/her2_variable_sequence_3_generated.cif"
+    ],
+    "cdrh3_imgt": "AARYDPSGSSYYWVRNVDNADY",
+    "imgt_h3_distance_to_provided": 12,
+    "imgt_h3_nearest_provided": "SRYHPRSSYVNDY",
+    "imgt_h3_identity_to_wt": 0.2272727272727273,
+    "numbering_confidence": 0.7715560793876648,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_3d564f7fbbb0",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSYYGMGWFRQAPGKERELVASINSSGTKTYYPDSVKGRFTISRDNAKNTVYLQMNSLRPEDTAVYYCAAARRSGTINSVLEAYDYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "3d564f7fbbb00efbf82c108054e4070b310b2abb31175691dab99bc54a1f5d56",
+    "aliases": [
+      "her2_variable_sequence_4_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_4/her2_variable_sequence_4_generated.cif"
+    ],
+    "cdrh3_imgt": "AAARRSGTINSVLEAYDY",
+    "imgt_h3_distance_to_provided": 9,
+    "imgt_h3_nearest_provided": "SRFSIDSLYAYDY",
+    "imgt_h3_identity_to_wt": 0.2777777777777778,
+    "numbering_confidence": 0.8004387021064758,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_1ba20259bdea",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSTYAMGWFRQAPGKERELVASISSDGSYTYYPDSVKGRFTISRDNAKNTVYLQMNSLRPEDTAVYYCAARPNYWYASPEDWGTFQYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "1ba20259bdeaa1303a20f28c3d6167ebdba201445d87ba3496b357d1a3a8be12",
+    "aliases": [
+      "her2_variable_sequence_5_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_5/her2_variable_sequence_5_generated.cif"
+    ],
+    "cdrh3_imgt": "AARPNYWYASPEDWGTFQY",
+    "imgt_h3_distance_to_provided": 10,
+    "imgt_h3_nearest_provided": "SRWSASPDYTFDY",
+    "imgt_h3_identity_to_wt": 0.1578947368421053,
+    "numbering_confidence": 0.7981387376785278,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_b0c6ed0e9dca",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSHFAMGWYRQAPGKERELVASISWDGSSTYYPDSVKGRFTISRDNAKNTVYLQMNSLKPEDTAVYYCNAAEYTLETAMEDGKPIHYYTLTQYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "b0c6ed0e9dcabf536376217af628dfb018dbf14349064e5043e679c6bc66d0b5",
+    "aliases": [
+      "her2_variable_sequence_6_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_6/her2_variable_sequence_6_generated.cif"
+    ],
+    "cdrh3_imgt": "NAAEYTLETAMEDGKPIHYYTLTQY",
+    "imgt_h3_distance_to_provided": 15,
+    "imgt_h3_nearest_provided": "SRLEAEGPIHTRY",
+    "imgt_h3_identity_to_wt": 0.16000000000000003,
+    "numbering_confidence": 0.765308678150177,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_c5cd9c6a076b",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSTYAMAWFRQAPGKERERVAAINSSGGTTSYPDSVKGRFTISRDNAKNTVYLQMNSLKPEDTAVYYCAAGSGSTAMPYGSVWSYDYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "c5cd9c6a076b2d155271e7453a26280beea5d348da840f9a4234563208458f7e",
+    "aliases": [
+      "her2_variable_sequence_7_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_7/her2_variable_sequence_7_generated.cif"
+    ],
+    "cdrh3_imgt": "AAGSGSTAMPYGSVWSYDY",
+    "imgt_h3_distance_to_provided": 10,
+    "imgt_h3_nearest_provided": "SRCAPGRVYSYDY",
+    "imgt_h3_identity_to_wt": 0.21052631578947367,
+    "numbering_confidence": 0.8080893754959106,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_11e0c574350c",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGPSFSDYYMGWYRQAPGKERELVAYITPGGSTIYPDSVKGRFTISRDNAKNTVYLQMNSLKPEDTAVYYCNAAVPKTVTYWDDHTQEFKHATQYVDYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "11e0c574350ca94e7aff8e8ae6a67c947eb0f54a5c6c0c484a5cc1c01880f0ed",
+    "aliases": [
+      "her2_variable_sequence_8_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_8/her2_variable_sequence_8_generated.cif"
+    ],
+    "cdrh3_imgt": "NAAVPKTVTYWDDHTQEFKHATQYVDY",
+    "imgt_h3_distance_to_provided": 19,
+    "imgt_h3_nearest_provided": "SRATHLFLHTYIY",
+    "imgt_h3_identity_to_wt": 0.18518518518518523,
+    "numbering_confidence": 0.7994619607925415,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "vhh_ae240aee4bbf",
+    "kind": "vhh",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGPSFSSYAMGWYRQAPGKERELVASITSGGSTSYPDSVKGRFTISRDNAKNMVYLQMNSLKPEDTAVYYCKASVPTSKTVTYQGKAITTTEYTDYWGQGTQVTVS",
+    "light_sequence": "",
+    "pair_sha256": "ae240aee4bbfaca12815efa26c5c66769847b5e6f6a079b28835dc01297e4ceb",
+    "aliases": [
+      "her2_variable_sequence_9_generated"
+    ],
+    "sources": [
+      "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_9/her2_variable_sequence_9_generated.cif"
+    ],
+    "cdrh3_imgt": "KASVPTSKTVTYQGKAITTTEYTDY",
+    "imgt_h3_distance_to_provided": 15,
+    "imgt_h3_nearest_provided": "SRWSTVGIYEYDY",
+    "imgt_h3_identity_to_wt": 0.19999999999999996,
+    "numbering_confidence": 0.7738745808601379,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": null
+  },
+  {
+    "sequence_id": "fab_954d3fa58495",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDATGFYGRKYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "954d3fa584954a58e9761e1c1bebc2eb33b72cf2f69705923676c4a585d550d4",
+    "aliases": [
+      "new_hash_sample:WDATGFYGRK"
+    ],
+    "sources": [
+      "people/anas/legal-scored.csv"
+    ],
+    "cdrh3_imgt": "SRWDATGFYGRKY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWATCGFYGRSY",
+    "imgt_h3_identity_to_wt": 0.5384615384615384,
+    "numbering_confidence": 0.8630258440971375,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 4
+  },
+  {
+    "sequence_id": "fab_82cb6911e750",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGEGFYRVKYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "82cb6911e750755ebf8d170d3a42bd9fd1cadf162d01eae539848731a1b1847a",
+    "aliases": [
+      "new_hash_sample:WGGEGFYRVK"
+    ],
+    "sources": [
+      "people/anas/legal-scored.csv"
+    ],
+    "cdrh3_imgt": "SRWGGEGFYRVKY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWGGCGFLRSKY",
+    "imgt_h3_identity_to_wt": 0.6923076923076923,
+    "numbering_confidence": 0.867820143699646,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 6
+  },
+  {
+    "sequence_id": "fab_27816f7a5fcd",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWRGAGFYQWKYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "27816f7a5fcd72ecd6217275bf840e56db3daba7774ff10f85374979e677f7d5",
+    "aliases": [
+      "new_hash_sample:WRGAGFYQWK"
+    ],
+    "sources": [
+      "people/anas/legal-scored.csv"
+    ],
+    "cdrh3_imgt": "SRWRGAGFYQWKY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWRGAGFYLFAY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.8693122267723083,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_c1f302a62ac6",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYGEGFYIWDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "c1f302a62ac6b6a1b849b3141b36a804a07341cee633bb9d35b9f6c6773c71db",
+    "aliases": [
+      "new_hash_sample:WYGEGFYIWD"
+    ],
+    "sources": [
+      "people/anas/legal-scored.csv"
+    ],
+    "cdrh3_imgt": "SRWYGEGFYIWDY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWAGEGFYAFDY",
+    "imgt_h3_identity_to_wt": 0.6923076923076923,
+    "numbering_confidence": 0.8825864791870117,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 6
+  },
+  {
+    "sequence_id": "fab_26ed5d65a4ea",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPAKGFYSVNYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "26ed5d65a4eade3f8c2f4cf98dafd8ee946f827ea770a9a4b4d2ea2fd6ee33f3",
+    "aliases": [
+      "new_hash_sample:WPAKGFYSVN"
+    ],
+    "sources": [
+      "people/anas/legal-scored.csv"
+    ],
+    "cdrh3_imgt": "SRWPAKGFYSVNY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWAAGGFYSVDY",
+    "imgt_h3_identity_to_wt": 0.5384615384615384,
+    "numbering_confidence": 0.8713955879211426,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 4
+  },
+  {
+    "sequence_id": "fab_db17e89c6b04",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWTRTGFYRRKYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "db17e89c6b049004dec15b1dacaecc3bb4276a026adc3c9c8624603692595516",
+    "aliases": [
+      "new_hash_sample:WTRTGFYRRK"
+    ],
+    "sources": [
+      "people/anas/legal-scored.csv"
+    ],
+    "cdrh3_imgt": "SRWTRTGFYRRKY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWDRTGFLRSKY",
+    "imgt_h3_identity_to_wt": 0.5384615384615384,
+    "numbering_confidence": 0.8630258440971375,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 4
+  },
+  {
+    "sequence_id": "fab_e6cd1e4f0c81",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWVREGFYPWYYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "e6cd1e4f0c81d8b783d1f05c2f6ece42f914e757359dc1ae3f48956657dc5e7d",
+    "aliases": [
+      "new_hash_sample:WVREGFYPWY"
+    ],
+    "sources": [
+      "people/anas/legal-scored.csv"
+    ],
+    "cdrh3_imgt": "SRWVREGFYPWYY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWRRGGFYPYYY",
+    "imgt_h3_identity_to_wt": 0.5384615384615384,
+    "numbering_confidence": 0.8651286959648132,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 4
+  },
+  {
+    "sequence_id": "fab_342ce85f395a",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDDTGFYWSKYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "342ce85f395a101bd783b7cbb97549aa41c1a4d539f872db8b2a17ac8aa42365",
+    "aliases": [
+      "new_hash_sample:WDDTGFYWSK"
+    ],
+    "sources": [
+      "people/anas/legal-scored.csv"
+    ],
+    "cdrh3_imgt": "SRWDDTGFYWSKY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWADTGFLRSKY",
+    "imgt_h3_identity_to_wt": 0.5384615384615384,
+    "numbering_confidence": 0.8645974397659302,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 4
+  },
+  {
+    "sequence_id": "fab_0ef6da379036",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPYGGFYYSKYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "0ef6da379036b9fe69974e0dbc5aa0bcb76b7e3a546a25ec7112dacaf52d8d7a",
+    "aliases": [
+      "new_hash_sample:WPYGGFYYSK"
+    ],
+    "sources": [
+      "people/anas/legal-scored.csv"
+    ],
+    "cdrh3_imgt": "SRWPYGGFYYSKY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWAYGGFYYFVY",
+    "imgt_h3_identity_to_wt": 0.5384615384615384,
+    "numbering_confidence": 0.8645974397659302,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 4
+  },
+  {
+    "sequence_id": "fab_471b46ff1a73",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPGGGFYISEYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "471b46ff1a730fdccdd6b1032a1b066dc5b9cf813edcad0510c7d7c14c670b7f",
+    "aliases": [
+      "new_hash_sample:WPGGGFYISE"
+    ],
+    "sources": [
+      "people/anas/legal-scored.csv"
+    ],
+    "cdrh3_imgt": "SRWPGGGFYISEY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRFPGGGFYSHEY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.8704167008399963,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_b64e3f877b26",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWVWGGFYNWDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "b64e3f877b26e9cd12a54c06305f38e7062aeb96d383f84a61cac92d1529c61a",
+    "aliases": [
+      "new_hash_sample:WVWGGFYNWD"
+    ],
+    "sources": [
+      "people/anas/legal-scored.csv"
+    ],
+    "cdrh3_imgt": "SRWVWGGFYNWDY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWAAGGFYNFDY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.8825864791870117,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_b537bbc91981",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWTGEGFYGWDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "b537bbc91981f8559d50716a0bc8ef22407c1c371e2407670acdd444176db8e4",
+    "aliases": [
+      "new_hash_sample:WTGEGFYGWD"
+    ],
+    "sources": [
+      "people/anas/legal-scored.csv"
+    ],
+    "cdrh3_imgt": "SRWTGEGFYGWDY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWAGEGFYAFDY",
+    "imgt_h3_identity_to_wt": 0.6923076923076923,
+    "numbering_confidence": 0.8825864791870117,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 6
+  },
+  {
+    "sequence_id": "fab_21548e7aacb9",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYAHGFYDGDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "21548e7aacb9eceeed1744ac4b96f14322a1c1e6633a61d9cffc468336a7faa0",
+    "aliases": [
+      "new_hash_sample:WYAHGFYDGD"
+    ],
+    "sources": [
+      "people/anas/legal-scored.csv"
+    ],
+    "cdrh3_imgt": "SRWYAHGFYDGDY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWAAGGFYDFDY",
+    "imgt_h3_identity_to_wt": 0.6153846153846154,
+    "numbering_confidence": 0.8749555945396423,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 5
+  },
+  {
+    "sequence_id": "fab_0e0b8c68b77a",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYGEGFYVWDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "0e0b8c68b77a2b3bb3ea569bba7d65c943b76980613524005536fa6472db2447",
+    "aliases": [
+      "new_hash_sample:WYGEGFYVWD"
+    ],
+    "sources": [
+      "people/anas/legal-scored.csv"
+    ],
+    "cdrh3_imgt": "SRWYGEGFYVWDY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWAGEGFYAFDY",
+    "imgt_h3_identity_to_wt": 0.6923076923076923,
+    "numbering_confidence": 0.8825864791870117,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 6
+  },
+  {
+    "sequence_id": "fab_49ef43d3309d",
+    "kind": "paired",
+    "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGMAGFYGWDYWGQGTLVTVSS",
+    "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "49ef43d3309d635cf43f4712789e926cb865672d4dd908c20e74b4887b8f210f",
+    "aliases": [
+      "new_hash_sample:WGMAGFYGWD"
+    ],
+    "sources": [
+      "people/anas/legal-scored.csv"
+    ],
+    "cdrh3_imgt": "SRWGMAGFYGWDY",
+    "imgt_h3_distance_to_provided": 3,
+    "imgt_h3_nearest_provided": "SRWGAAGFYAIDY",
+    "imgt_h3_identity_to_wt": 0.6923076923076923,
+    "numbering_confidence": 0.8825864791870117,
+    "local_numeric_reasons": [],
+    "local_numeric_pass": true,
+    "canonical_cysteines": true,
+    "old_grip_conserved": 6
+  }
+]

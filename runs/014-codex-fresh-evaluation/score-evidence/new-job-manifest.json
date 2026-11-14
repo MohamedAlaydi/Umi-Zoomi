@@ -1,0 +1,5170 @@
+{
+  "target_sequence": "TQVCTGTDMKLRLPASPETHLDMLRHLYQGCQVVQGNLELTYLPTNASLSFLQDIQEVQGYVLIAHNQVRQVPLQRLRIVRGTQLFEDNYALAVLDNGDPLNNTTPVTGASPGGLRELQLRSLTEILKGGVLIQRNPQLCYQDTILWKDIFHKNNQLALTLIDTNRSRACHPCSPMCKGSRCWGESSEDCQSLTRTVCAGGCARCKGPLPTDCCHEQCAAGCTGPKHSDCLACLHFNHSGICELHCPALVTYNTDTFESMPNPEGRYTFGASCVTACPYNYLSTDVGSCTLVCPLHNQEVTAEDGTQRCEKCSKPCARVCYGLGMEHLREVRAVTSANIQEFAGCKKIFGSLAFLPESFDGDPASNTAPLQPEQLQVFETLEEITGYLYISAWPDSLPDLSVFQNLQVIRGRILHNGAYSLTLQGLGISWLGLRSLRELGSGLALIHHNTHLCFVHTVPWDQLFRNPHQALLHTANRPEDECVGEGLACHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPSGVKPDLSYMPIWKFPDEEGACQPCPIN",
+  "targets": [
+    {
+      "sequence_id": "fresh_WT",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGDGFYAMDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "cdrh3_imgt": "SRWGGDGFYAMDY",
+      "role": "WT_control",
+      "aliases": [],
+      "sources": [
+        "original SPR table"
+      ]
+    },
+    {
+      "sequence_id": "fresh_control_01",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGQGFYAMDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "cdrh3_imgt": "SRWGGQGFYAMDY",
+      "role": "measured_historical_control",
+      "historical_kd_nM": 0.09,
+      "historical_replicates": [
+        0.09
+      ],
+      "aliases": [],
+      "sources": [
+        "original SPR table"
+      ]
+    },
+    {
+      "sequence_id": "fresh_control_02",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGGGFYAMDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "cdrh3_imgt": "SRWGGGGFYAMDY",
+      "role": "measured_historical_control",
+      "historical_kd_nM": 1.200885,
+      "historical_replicates": [
+        1.200885
+      ],
+      "aliases": [],
+      "sources": [
+        "original SPR table"
+      ]
+    },
+    {
+      "sequence_id": "fresh_control_03",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGDGFYAKDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "cdrh3_imgt": "SRWGGDGFYAKDY",
+      "role": "measured_historical_control",
+      "historical_kd_nM": 5.308159,
+      "historical_replicates": [
+        5.308159
+      ],
+      "aliases": [],
+      "sources": [
+        "original SPR table"
+      ]
+    },
+    {
+      "sequence_id": "fresh_control_04",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGDWYYAMDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "cdrh3_imgt": "SRWGGDWYYAMDY",
+      "role": "measured_historical_control",
+      "historical_kd_nM": 13.0,
+      "historical_replicates": [
+        13.0
+      ],
+      "aliases": [],
+      "sources": [
+        "original SPR table"
+      ]
+    },
+    {
+      "sequence_id": "fresh_control_05",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGGGVNWFDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "cdrh3_imgt": "SRWGGGGVNWFDY",
+      "role": "measured_historical_control",
+      "historical_kd_nM": 27.48097,
+      "historical_replicates": [
+        27.48097
+      ],
+      "aliases": [],
+      "sources": [
+        "original SPR table"
+      ]
+    },
+    {
+      "sequence_id": "fresh_control_06",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRYAARTFYAMTYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "cdrh3_imgt": "SRYAARTFYAMTY",
+      "role": "measured_historical_control",
+      "historical_kd_nM": 54.0,
+      "historical_replicates": [
+        54.0
+      ],
+      "aliases": [],
+      "sources": [
+        "original SPR table"
+      ]
+    },
+    {
+      "sequence_id": "fresh_control_07",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGHGEFAYDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "cdrh3_imgt": "SRWGGHGEFAYDY",
+      "role": "measured_historical_control",
+      "historical_kd_nM": 96.94537,
+      "historical_replicates": [
+        96.94537
+      ],
+      "aliases": [],
+      "sources": [
+        "original SPR table"
+      ]
+    },
+    {
+      "sequence_id": "fresh_control_08",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWFENGGNVLDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "cdrh3_imgt": "SRWFENGGNVLDY",
+      "role": "measured_historical_control",
+      "historical_kd_nM": 144.8012,
+      "historical_replicates": [
+        144.8012
+      ],
+      "aliases": [],
+      "sources": [
+        "original SPR table"
+      ]
+    },
+    {
+      "sequence_id": "fresh_control_09",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRVGGPGQYGLEYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "cdrh3_imgt": "SRVGGPGQYGLEY",
+      "role": "measured_historical_control",
+      "historical_kd_nM": 193.0,
+      "historical_replicates": [
+        193.0
+      ],
+      "aliases": [],
+      "sources": [
+        "original SPR table"
+      ]
+    },
+    {
+      "sequence_id": "fresh_control_10",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGDGKYASDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "cdrh3_imgt": "SRWGGDGKYASDY",
+      "role": "measured_historical_control",
+      "historical_kd_nM": 285.8078,
+      "historical_replicates": [
+        285.8078
+      ],
+      "aliases": [],
+      "sources": [
+        "original SPR table"
+      ]
+    },
+    {
+      "sequence_id": "fresh_control_11",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGPSFNALQYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "cdrh3_imgt": "SRWGGPSFNALQY",
+      "role": "measured_historical_control",
+      "historical_kd_nM": 373.0,
+      "historical_replicates": [
+        373.0
+      ],
+      "aliases": [],
+      "sources": [
+        "original SPR table"
+      ]
+    },
+    {
+      "sequence_id": "fresh_control_12",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRYLLNGVFVFDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "cdrh3_imgt": "SRYLLNGVFVFDY",
+      "role": "measured_historical_control",
+      "historical_kd_nM": 13863.16,
+      "historical_replicates": [
+        13863.16
+      ],
+      "aliases": [],
+      "sources": [
+        "original SPR table"
+      ]
+    },
+    {
+      "sequence_id": "fab_01f4b62ed474",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWVEPGFYEQDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "01f4b62ed474ae9286c70b8972dad4fd38c4af609c74d30d4d04160e2cc5c3ff",
+      "aliases": [
+        "006:anas_029"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWVEPGFYEQDY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWAAPGFYELDY",
+      "imgt_h3_identity_to_wt": 0.6153846153846154,
+      "numbering_confidence": 0.8766657114028931,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 5,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_0738ed656cf5",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDATGFYYWEYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "0738ed656cf55501c67601b5baca99287ae45a1ffbf936e192cadee3e69de3b8",
+      "aliases": [
+        "006:anas_023"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWDATGFYYWEY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWAAGGFYYFEY",
+      "imgt_h3_identity_to_wt": 0.5384615384615384,
+      "numbering_confidence": 0.8751315474510193,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 4,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_0dadfae417d3",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDREGFYGGDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "0dadfae417d374ca1682694ddbff1ae68e770634d89ff32ceaeea41170dd2c7a",
+      "aliases": [
+        "006:anas_009"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWDREGFYGGDY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWDAEGFYNLDY",
+      "imgt_h3_identity_to_wt": 0.6153846153846154,
+      "numbering_confidence": 0.8749555945396423,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 5,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_0e0b8c68b77a",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYGEGFYVWDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "0e0b8c68b77a2b3bb3ea569bba7d65c943b76980613524005536fa6472db2447",
+      "aliases": [
+        "new_hash_sample:WYGEGFYVWD"
+      ],
+      "sources": [
+        "people/anas/legal-scored.csv"
+      ],
+      "cdrh3_imgt": "SRWYGEGFYVWDY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWAGEGFYAFDY",
+      "imgt_h3_identity_to_wt": 0.6923076923076923,
+      "numbering_confidence": 0.8825864791870117,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 6,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_0ed7943688f1",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYGEGFYGSDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "0ed7943688f1149b4fa5d017ef53eb9ff45e287d96fae69ce04b65dd35d17787",
+      "aliases": [
+        "006:anas_016"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWYGEGFYGSDY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWAGEGFYAFDY",
+      "imgt_h3_identity_to_wt": 0.6923076923076923,
+      "numbering_confidence": 0.8778716921806335,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 6,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_0ef6da379036",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPYGGFYYSKYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "0ef6da379036b9fe69974e0dbc5aa0bcb76b7e3a546a25ec7112dacaf52d8d7a",
+      "aliases": [
+        "new_hash_sample:WPYGGFYYSK"
+      ],
+      "sources": [
+        "people/anas/legal-scored.csv"
+      ],
+      "cdrh3_imgt": "SRWPYGGFYYSKY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWAYGGFYYFVY",
+      "imgt_h3_identity_to_wt": 0.5384615384615384,
+      "numbering_confidence": 0.8645974397659302,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 4,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_1198d825d9b8",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYGEGFYTWEYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "1198d825d9b845e2cc097686f3e8361e0b526f90271a745988b596c3a19d9b35",
+      "aliases": [
+        "006:anas_007"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWYGEGFYTWEY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWAGGGFYTFEY",
+      "imgt_h3_identity_to_wt": 0.6153846153846154,
+      "numbering_confidence": 0.8751315474510193,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 5,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_18ee66e30af8",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYGGGFYFWDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "18ee66e30af87ef7aedc59a017f27541f9d2d1a41427aaced9f5c6193eb5dbc4",
+      "aliases": [
+        "006:anas_004"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWYGGGFYFWDY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRFYGGGIYFIDY",
+      "imgt_h3_identity_to_wt": 0.6923076923076923,
+      "numbering_confidence": 0.8825864791870117,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 6,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_1cca65ad93b0",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPYGGFYHVKYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "1cca65ad93b05bd8d675f9ba02f18a03fba3b4d479f576e3e784b55d4f839965",
+      "aliases": [
+        "006:anas_033"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWPYGGFYHVKY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWDEGGFLHVKY",
+      "imgt_h3_identity_to_wt": 0.5384615384615384,
+      "numbering_confidence": 0.867820143699646,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 4,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_1ec4f7333ebd",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPYGGFYRGDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "1ec4f7333ebdf09826b3a4e1c276a1dc0dde4d168499bbced955ca3dc539a051",
+      "aliases": [
+        "006:anas_011"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWPYGGFYRGDY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWAAGGFYRFDY",
+      "imgt_h3_identity_to_wt": 0.6153846153846154,
+      "numbering_confidence": 0.8749555945396423,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 5,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_21548e7aacb9",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYAHGFYDGDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "21548e7aacb9eceeed1744ac4b96f14322a1c1e6633a61d9cffc468336a7faa0",
+      "aliases": [
+        "new_hash_sample:WYAHGFYDGD"
+      ],
+      "sources": [
+        "people/anas/legal-scored.csv"
+      ],
+      "cdrh3_imgt": "SRWYAHGFYDGDY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWAAGGFYDFDY",
+      "imgt_h3_identity_to_wt": 0.6153846153846154,
+      "numbering_confidence": 0.8749555945396423,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 5,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_26ed5d65a4ea",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPAKGFYSVNYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "26ed5d65a4eade3f8c2f4cf98dafd8ee946f827ea770a9a4b4d2ea2fd6ee33f3",
+      "aliases": [
+        "new_hash_sample:WPAKGFYSVN"
+      ],
+      "sources": [
+        "people/anas/legal-scored.csv"
+      ],
+      "cdrh3_imgt": "SRWPAKGFYSVNY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWAAGGFYSVDY",
+      "imgt_h3_identity_to_wt": 0.5384615384615384,
+      "numbering_confidence": 0.8713955879211426,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 4,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_27816f7a5fcd",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWRGAGFYQWKYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "27816f7a5fcd72ecd6217275bf840e56db3daba7774ff10f85374979e677f7d5",
+      "aliases": [
+        "new_hash_sample:WRGAGFYQWK"
+      ],
+      "sources": [
+        "people/anas/legal-scored.csv"
+      ],
+      "cdrh3_imgt": "SRWRGAGFYQWKY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWRGAGFYLFAY",
+      "imgt_h3_identity_to_wt": 0.6153846153846154,
+      "numbering_confidence": 0.8693122267723083,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 5,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_342ce85f395a",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDDTGFYWSKYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "342ce85f395a101bd783b7cbb97549aa41c1a4d539f872db8b2a17ac8aa42365",
+      "aliases": [
+        "new_hash_sample:WDDTGFYWSK"
+      ],
+      "sources": [
+        "people/anas/legal-scored.csv"
+      ],
+      "cdrh3_imgt": "SRWDDTGFYWSKY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWADTGFLRSKY",
+      "imgt_h3_identity_to_wt": 0.5384615384615384,
+      "numbering_confidence": 0.8645974397659302,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 4,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_3648a1a1148d",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGYNGFYPSKYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "3648a1a1148dc28ffffc4c8601f6a19c51021c649ee54ee89c86be99e85383b5",
+      "aliases": [
+        "006:anas_014"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWGYNGFYPSKY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWGANGFLRSKY",
+      "imgt_h3_identity_to_wt": 0.6153846153846154,
+      "numbering_confidence": 0.8645974397659302,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 5,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_395d29130bb6",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYAAGFYVWEYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "395d29130bb60451103d938f3185b6755fe682e9d293426d856313b5a1e31c45",
+      "aliases": [
+        "006:anas_018"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWYAAGFYVWEY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWAAAGFYSFEY",
+      "imgt_h3_identity_to_wt": 0.5384615384615384,
+      "numbering_confidence": 0.8751315474510193,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 4,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_3b8ae0a19412",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWRAAGFYRWDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "3b8ae0a19412ac511f8edbf8808acfe62d1a9df3d6a6d8345389bf39d10032fe",
+      "aliases": [
+        "006:anas_031"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWRAAGFYRWDY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRRAAGRFYRFDY",
+      "imgt_h3_identity_to_wt": 0.6153846153846154,
+      "numbering_confidence": 0.8825864791870117,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 5,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_421ca84623cd",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWRAKGFYSAEYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "421ca84623cd433c069bafba8cf478f65cd7e3985a2e52c2d3786fae9041f6f5",
+      "aliases": [
+        "006:anas_037"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWRAKGFYSAEY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWAAAGFYSFEY",
+      "imgt_h3_identity_to_wt": 0.5384615384615384,
+      "numbering_confidence": 0.870723307132721,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 4,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_43764c703b48",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWTATGFYSSKYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "43764c703b48d9af182c4aab2b859b2768be61683b70076c205ef947dce4ec88",
+      "aliases": [
+        "006:anas_001"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWTATGFYSSKY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWAAGGFYSSVY",
+      "imgt_h3_identity_to_wt": 0.5384615384615384,
+      "numbering_confidence": 0.8645974397659302,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 4,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_43bf074f8615",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGREGFYSAEYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "43bf074f8615c23a3376839e27839d4d08779de20ec74f433b071bdeedc4a803",
+      "aliases": [
+        "006:anas_028"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWGREGFYSAEY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWARPGFYSFEY",
+      "imgt_h3_identity_to_wt": 0.6153846153846154,
+      "numbering_confidence": 0.870723307132721,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 5,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_471b46ff1a73",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPGGGFYISEYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "471b46ff1a730fdccdd6b1032a1b066dc5b9cf813edcad0510c7d7c14c670b7f",
+      "aliases": [
+        "new_hash_sample:WPGGGFYISE"
+      ],
+      "sources": [
+        "people/anas/legal-scored.csv"
+      ],
+      "cdrh3_imgt": "SRWPGGGFYISEY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRFPGGGFYSHEY",
+      "imgt_h3_identity_to_wt": 0.6153846153846154,
+      "numbering_confidence": 0.8704167008399963,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 5,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_49ef43d3309d",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGMAGFYGWDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "49ef43d3309d635cf43f4712789e926cb865672d4dd908c20e74b4887b8f210f",
+      "aliases": [
+        "new_hash_sample:WGMAGFYGWD"
+      ],
+      "sources": [
+        "people/anas/legal-scored.csv"
+      ],
+      "cdrh3_imgt": "SRWGMAGFYGWDY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWGAAGFYAIDY",
+      "imgt_h3_identity_to_wt": 0.6923076923076923,
+      "numbering_confidence": 0.8825864791870117,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 6,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_5111af6cccb5",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRYWSLHYYAMDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "5111af6cccb54bb1eb4add377edd8070b717119739dfcd2982edd892fadb421d",
+      "aliases": [
+        "004:her2_cdrh3_4",
+        "006:r004_cdrh3_4",
+        "010:r004_cdrh3_4"
+      ],
+      "sources": [
+        "runs/004-mohamed-her2-novel-n40/out/prepared/holo/queries.json",
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json",
+        "runs/010-claude-passers-007-005/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRYWSLHYYAMDY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRYTSLHFYAFDY",
+      "imgt_h3_identity_to_wt": 0.5384615384615384,
+      "numbering_confidence": 0.8900460004806519,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 4,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_537e55f3e261",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPGGGFYYWEYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "537e55f3e261ab7ae25640381bbfb84b1180372b47d115f00e0290710ef6ac50",
+      "aliases": [
+        "006:anas_015"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWPGGGFYYWEY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRFAGGGFYYYEY",
+      "imgt_h3_identity_to_wt": 0.6153846153846154,
+      "numbering_confidence": 0.8751315474510193,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 5,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_5669ad53e51e",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWVETGFYDWDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "5669ad53e51e185b0a9c990f3217c5156ef8a2e2391731ec416426ad2d7d445c",
+      "aliases": [
+        "006:anas_035"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWVETGFYDWDY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWAECGFYDFDY",
+      "imgt_h3_identity_to_wt": 0.6153846153846154,
+      "numbering_confidence": 0.8825864791870117,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 5,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_66c858137ac1",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWASRGFYNWEYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "66c858137ac1ebe6d4ea726b6b6df4a3df0668ad2684edf883bf4d9695cbfd39",
+      "aliases": [
+        "006:anas_024"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWASRGFYNWEY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWAAGGFYNFEY",
+      "imgt_h3_identity_to_wt": 0.5384615384615384,
+      "numbering_confidence": 0.8751315474510193,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 4,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_729da584d7a9",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPATGFYPVKYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "729da584d7a9727e8a1d244ec38ef45add3da3b8a26b4beb6fdbaff41e994b98",
+      "aliases": [
+        "006:anas_012"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWPATGFYPVKY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWDGTGFYPFKY",
+      "imgt_h3_identity_to_wt": 0.5384615384615384,
+      "numbering_confidence": 0.867820143699646,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 4,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_7401fd6357eb",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWTAKGFYAQNYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "7401fd6357eb3a0104072565594bd11153118ad57d6f9143ad9acdeff7f06ab0",
+      "aliases": [
+        "006:anas_039"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWTAKGFYAQNY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRCTAPGFYALNY",
+      "imgt_h3_identity_to_wt": 0.6153846153846154,
+      "numbering_confidence": 0.8669669032096863,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 5,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_76787d403301",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWVREGFYKWYYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "76787d403301e3a458d201bee6453e5b8b82c3dc82ec097a0e8fa73975ec3f3f",
+      "aliases": [
+        "006:anas_020"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWVREGFYKWYY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWGREGLYKYYY",
+      "imgt_h3_identity_to_wt": 0.5384615384615384,
+      "numbering_confidence": 0.8651286959648132,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 4,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_76c10b5dd454",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPATGFYDGYYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "76c10b5dd454b02e6aab82bcd70ba3842507331ff10df4bb814eeec1e253bfb8",
+      "aliases": [
+        "006:anas_025"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWPATGFYDGYY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRFTATGFYDKYY",
+      "imgt_h3_identity_to_wt": 0.5384615384615384,
+      "numbering_confidence": 0.8574978113174438,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 4,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_7bc62696d17c",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWHSSYDYYFDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "7bc62696d17cfd3d04bc970049445e33b3703568874cd5cd16c7dbe5f6a71e7c",
+      "aliases": [
+        "004:her2_cdrh3_31",
+        "006:r004_cdrh3_31",
+        "010:r004_cdrh3_31"
+      ],
+      "sources": [
+        "runs/004-mohamed-her2-novel-n40/out/prepared/holo/queries.json",
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json",
+        "runs/010-claude-passers-007-005/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWHSSYDYYFDY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWGSSHFYYFDY",
+      "imgt_h3_identity_to_wt": 0.46153846153846156,
+      "numbering_confidence": 0.891423225402832,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 3,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_812ca9b61057",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYRGGFYNWEYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "812ca9b610575885692a386c89cb48572f3ec95983e0ca1a544d978d38bb5502",
+      "aliases": [
+        "006:anas_034"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWYRGGFYNWEY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWAAGGFYNFEY",
+      "imgt_h3_identity_to_wt": 0.5384615384615384,
+      "numbering_confidence": 0.8751315474510193,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 4,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_82cb6911e750",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGEGFYRVKYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "82cb6911e750755ebf8d170d3a42bd9fd1cadf162d01eae539848731a1b1847a",
+      "aliases": [
+        "new_hash_sample:WGGEGFYRVK"
+      ],
+      "sources": [
+        "people/anas/legal-scored.csv"
+      ],
+      "cdrh3_imgt": "SRWGGEGFYRVKY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWGGCGFLRSKY",
+      "imgt_h3_identity_to_wt": 0.6923076923076923,
+      "numbering_confidence": 0.867820143699646,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 6,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_8659e50fd392",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWHSLHEYYFDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "8659e50fd39299da20e99b9ddda506c49c6600845d6d186f652cbf010816545c",
+      "aliases": [
+        "004:her2_cdrh3_14"
+      ],
+      "sources": [
+        "runs/004-mohamed-her2-novel-n40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWHSLHEYYFDY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWGSSHFYYFDY",
+      "imgt_h3_identity_to_wt": 0.46153846153846156,
+      "numbering_confidence": 0.891423225402832,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 3,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_8a84d2547a88",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWTATGFYETYYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "8a84d2547a88d7c9a7759e9dda3080e4df8b1f02dc41c6e25cec58d07736ec90",
+      "aliases": [
+        "006:anas_027"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWTATGFYETYY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRFTATGFYAIYY",
+      "imgt_h3_identity_to_wt": 0.5384615384615384,
+      "numbering_confidence": 0.8607205152511597,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 4,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_8c21267fa1c3",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYATGFYDSDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "8c21267fa1c31f5ab05528811fce073f8952825d37539e8f8d265017047b9d7a",
+      "aliases": [
+        "006:anas_030"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWYATGFYDSDY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWAAGGFYDFDY",
+      "imgt_h3_identity_to_wt": 0.6153846153846154,
+      "numbering_confidence": 0.8778716921806335,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 5,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_8dfe7400a4a2",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWASSSEYYFDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "8dfe7400a4a24d5820d431c4e4ba27cae59e84ff878067b68b2e34ba791106b9",
+      "aliases": [
+        "001:her2_cdrh3_3",
+        "004:her2_cdrh3_3",
+        "006:r004_cdrh3_3",
+        "010:r004_cdrh3_3"
+      ],
+      "sources": [
+        "runs/001-mohamed-her2-baseline/out/prepared/holo/queries.json",
+        "runs/004-mohamed-her2-novel-n40/out/prepared/holo/queries.json",
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json",
+        "runs/010-claude-passers-007-005/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWASSSEYYFDY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRFASSRFYYFDY",
+      "imgt_h3_identity_to_wt": 0.46153846153846156,
+      "numbering_confidence": 0.891423225402832,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 3,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_8f68d60279be",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWAAGGFYFWQYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "8f68d60279be37128ec2c4fe6cb399749c15c8aee8e3b3a35fbe709cb59d10c6",
+      "aliases": [
+        "006:anas_008"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWAAGGFYFWQY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRFAAGGFYSFQY",
+      "imgt_h3_identity_to_wt": 0.5384615384615384,
+      "numbering_confidence": 0.8712520003318787,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 4,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_954d3fa58495",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDATGFYGRKYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "954d3fa584954a58e9761e1c1bebc2eb33b72cf2f69705923676c4a585d550d4",
+      "aliases": [
+        "new_hash_sample:WDATGFYGRK"
+      ],
+      "sources": [
+        "people/anas/legal-scored.csv"
+      ],
+      "cdrh3_imgt": "SRWDATGFYGRKY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWATCGFYGRSY",
+      "imgt_h3_identity_to_wt": 0.5384615384615384,
+      "numbering_confidence": 0.8630258440971375,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 4,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_9d9a6dee4841",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWVREGFYRSKYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "9d9a6dee48416b4eb0cd9e073d5c8807761736f7ae1f5b4125d5d9410d24b5e4",
+      "aliases": [
+        "006:anas_006"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWVREGFYRSKY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWARDGFLRSKY",
+      "imgt_h3_identity_to_wt": 0.5384615384615384,
+      "numbering_confidence": 0.8645974397659302,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 4,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_a7150f4889ee",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWTATGFYDLQYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "a7150f4889ee679374ef78c9ecdf0d18c9952b3147fcad625716dd55432efdb7",
+      "aliases": [
+        "006:anas_019",
+        "new_hash_sample:WTATGFYDLQ"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json",
+        "people/anas/legal-scored.csv"
+      ],
+      "cdrh3_imgt": "SRWTATGFYDLQY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRFTAPSFYDLQY",
+      "imgt_h3_identity_to_wt": 0.5384615384615384,
+      "numbering_confidence": 0.8726168870925903,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 4,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_a8d7e3dafeea",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWKSSYYYYFDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "a8d7e3dafeea53d5eaec5e7a242589f14adc11dcf2077a26363e603236f91c9b",
+      "aliases": [
+        "004:her2_cdrh3_21"
+      ],
+      "sources": [
+        "runs/004-mohamed-her2-novel-n40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWKSSYYYYFDY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWDSSGYYAFDY",
+      "imgt_h3_identity_to_wt": 0.46153846153846156,
+      "numbering_confidence": 0.891423225402832,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 3,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_a9ee16eec519",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWVGPGFYGWDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "a9ee16eec5190b09a6f611105a26413b45b0e72e7e1ae844a52ef1338145c584",
+      "aliases": [
+        "006:anas_003"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWVGPGFYGWDY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWAGPGFYALDY",
+      "imgt_h3_identity_to_wt": 0.6923076923076923,
+      "numbering_confidence": 0.8825864791870117,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 6,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_b02c51183759",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWTATGFYGGDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "b02c5118375959de2df6c86b0e7da195efb946c2827fa88150401f8af2fe8ed6",
+      "aliases": [
+        "006:anas_010"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWTATGFYGGDY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWAAGGFYGFDY",
+      "imgt_h3_identity_to_wt": 0.6153846153846154,
+      "numbering_confidence": 0.8749555945396423,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 5,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_b537bbc91981",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWTGEGFYGWDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "b537bbc91981f8559d50716a0bc8ef22407c1c371e2407670acdd444176db8e4",
+      "aliases": [
+        "new_hash_sample:WTGEGFYGWD"
+      ],
+      "sources": [
+        "people/anas/legal-scored.csv"
+      ],
+      "cdrh3_imgt": "SRWTGEGFYGWDY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWAGEGFYAFDY",
+      "imgt_h3_identity_to_wt": 0.6923076923076923,
+      "numbering_confidence": 0.8825864791870117,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 6,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_b64e3f877b26",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWVWGGFYNWDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "b64e3f877b26e9cd12a54c06305f38e7062aeb96d383f84a61cac92d1529c61a",
+      "aliases": [
+        "new_hash_sample:WVWGGFYNWD"
+      ],
+      "sources": [
+        "people/anas/legal-scored.csv"
+      ],
+      "cdrh3_imgt": "SRWVWGGFYNWDY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWAAGGFYNFDY",
+      "imgt_h3_identity_to_wt": 0.6153846153846154,
+      "numbering_confidence": 0.8825864791870117,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 5,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_b7488b69e1a0",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGAKGFYSWQYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "b7488b69e1a08ab09a351c6dead5bba9812eba1015aa0087bcaa2250c1f07b70",
+      "aliases": [
+        "006:anas_036"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWGAKGFYSWQY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRFGASGFYSNQY",
+      "imgt_h3_identity_to_wt": 0.6153846153846154,
+      "numbering_confidence": 0.8712520003318787,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 5,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_baee29e9cc33",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWVREGFYTVEYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "baee29e9cc333c45f533b6abc75376b3e72bcb4ce3e1886abbe9d776f480f046",
+      "aliases": [
+        "006:anas_032"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWVREGFYTVEY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWARSGFYQVEY",
+      "imgt_h3_identity_to_wt": 0.5384615384615384,
+      "numbering_confidence": 0.8736394643783569,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 4,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_bd654b2d902f",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRSLDGYYNYFDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "bd654b2d902f841d7274ebe8c7460743290530be0850f7382a715cf98cfe1a8e",
+      "aliases": [
+        "004:her2_cdrh3_17"
+      ],
+      "sources": [
+        "runs/004-mohamed-her2-novel-n40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRSLDGYYNYFDY",
+      "imgt_h3_distance_to_provided": 4,
+      "imgt_h3_nearest_provided": "SRGLGGYYYPDY",
+      "imgt_h3_identity_to_wt": 0.46153846153846156,
+      "numbering_confidence": 0.8871957063674927,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 1,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_c151b1398d49",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRTTPAVAYAHDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "c151b1398d4944da1f27a2efd74e9c386c5c17ba4c176ff37b2e1400d4754b13",
+      "aliases": [
+        "004:her2_cdrh3_10"
+      ],
+      "sources": [
+        "runs/004-mohamed-her2-novel-n40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRTTPAVAYAHDY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWTPAVMYAHTY",
+      "imgt_h3_identity_to_wt": 0.46153846153846156,
+      "numbering_confidence": 0.8739407062530518,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 3,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_c1f302a62ac6",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYGEGFYIWDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "c1f302a62ac6b6a1b849b3141b36a804a07341cee633bb9d35b9f6c6773c71db",
+      "aliases": [
+        "new_hash_sample:WYGEGFYIWD"
+      ],
+      "sources": [
+        "people/anas/legal-scored.csv"
+      ],
+      "cdrh3_imgt": "SRWYGEGFYIWDY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWAGEGFYAFDY",
+      "imgt_h3_identity_to_wt": 0.6923076923076923,
+      "numbering_confidence": 0.8825864791870117,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 6,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_c47273250eea",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDATGFYGIYYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "c47273250eeaa3002ea111f6a1881e59eb10d86008806ffcde657af4384d47ca",
+      "aliases": [
+        "006:anas_017"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWDATGFYGIYY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRFTATGFYAIYY",
+      "imgt_h3_identity_to_wt": 0.5384615384615384,
+      "numbering_confidence": 0.8655147552490234,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 4,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_cabbf10ade51",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGYKGFYDWDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "cabbf10ade5131a1f51ffce78ba7a5eeed78934f2be25aa6e407bfef5fa1194c",
+      "aliases": [
+        "006:anas_021"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWGYKGFYDWDY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWGADGFYDMDY",
+      "imgt_h3_identity_to_wt": 0.6923076923076923,
+      "numbering_confidence": 0.8825864791870117,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 6,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_cad971d75a22",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGFVGFYRSKYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "cad971d75a22fcc04b2593e5e3fcb74f870067611329e301f0c45903850ea7b4",
+      "aliases": [
+        "006:anas_005"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWGFVGFYRSKY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWADVGFLRSKY",
+      "imgt_h3_identity_to_wt": 0.6153846153846154,
+      "numbering_confidence": 0.8645974397659302,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 5,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_d1975089a569",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRDLSLSVYAFDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "d1975089a569e2d5ec419ac648d3a541f5251ba132eeeec219540f28dbfc8b11",
+      "aliases": [
+        "004:her2_cdrh3_12"
+      ],
+      "sources": [
+        "runs/004-mohamed-her2-novel-n40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRDLSLSVYAFDY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRDLVCSLYAFDY",
+      "imgt_h3_identity_to_wt": 0.46153846153846156,
+      "numbering_confidence": 0.887385904788971,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 3,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_db17e89c6b04",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWTRTGFYRRKYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "db17e89c6b049004dec15b1dacaecc3bb4276a026adc3c9c8624603692595516",
+      "aliases": [
+        "new_hash_sample:WTRTGFYRRK"
+      ],
+      "sources": [
+        "people/anas/legal-scored.csv"
+      ],
+      "cdrh3_imgt": "SRWTRTGFYRRKY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWDRTGFLRSKY",
+      "imgt_h3_identity_to_wt": 0.5384615384615384,
+      "numbering_confidence": 0.8630258440971375,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 4,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_df3d8bd4e25c",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWAGEGFYYAEYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "df3d8bd4e25cea1c8739ac348b399ff451fcd85948d96e05d33dfa0e506dbe75",
+      "aliases": [
+        "006:anas_038"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWAGEGFYYAEY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRFAGEGFYVYAY",
+      "imgt_h3_identity_to_wt": 0.6153846153846154,
+      "numbering_confidence": 0.870723307132721,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 5,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_e2a8208154e7",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRSLTPLSDVFDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "e2a8208154e71df90604aa0984d7e5bb8b01cee81246031e99b02b505c7e0ee4",
+      "aliases": [
+        "004:her2_cdrh3_28"
+      ],
+      "sources": [
+        "runs/004-mohamed-her2-novel-n40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRSLTPLSDVFDY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWLMPHSDVFDY",
+      "imgt_h3_identity_to_wt": 0.3076923076923077,
+      "numbering_confidence": 0.8871957063674927,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 1,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_e6cd1e4f0c81",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWVREGFYPWYYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "e6cd1e4f0c81d8b783d1f05c2f6ece42f914e757359dc1ae3f48956657dc5e7d",
+      "aliases": [
+        "new_hash_sample:WVREGFYPWY"
+      ],
+      "sources": [
+        "people/anas/legal-scored.csv"
+      ],
+      "cdrh3_imgt": "SRWVREGFYPWYY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWRRGGFYPYYY",
+      "imgt_h3_identity_to_wt": 0.5384615384615384,
+      "numbering_confidence": 0.8651286959648132,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 4,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_f04c1f6f987f",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDAMGFYGWDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "f04c1f6f987f3c25dbc1de6d1d53daceaac9bafb3dfa83797c4e0091945e2415",
+      "aliases": [
+        "006:anas_026"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWDAMGFYGWDY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWAAGGFYGFDY",
+      "imgt_h3_identity_to_wt": 0.6153846153846154,
+      "numbering_confidence": 0.8825864791870117,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 5,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_f133215586ed",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDANGFYYVDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "f133215586ed2f7a1e01978f31c57c17ba1af217189eab378b9318c78922fa52",
+      "aliases": [
+        "006:anas_002"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWDANGFYYVDY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWAACGFYYFDY",
+      "imgt_h3_identity_to_wt": 0.6153846153846154,
+      "numbering_confidence": 0.8810943365097046,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 5,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_f91130857043",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWAERGFYIWDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "f91130857043e9a606236a4691ba12981e64f681801198483c05f083eb156913",
+      "aliases": [
+        "006:anas_040"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWAERGFYIWDY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWAARGFYAFDY",
+      "imgt_h3_identity_to_wt": 0.6153846153846154,
+      "numbering_confidence": 0.8825864791870117,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 5,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_fbeeb86b12b5",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPKGGFYRWKYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "fbeeb86b12b51eace52b28f6c2fe1c99e32321eaae4b7d4f3ea9fd366677ff78",
+      "aliases": [
+        "006:anas_022"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWPKGGFYRWKY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWPAGGFLRSKY",
+      "imgt_h3_identity_to_wt": 0.5384615384615384,
+      "numbering_confidence": 0.8693122267723083,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 4,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "fab_fcf53c3c2185",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDETGFYYSKYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "pair_sha256": "fcf53c3c21855d4a9e2c0d2a7e719f193b6f7b8f13a2a52041377c11a73b7bce",
+      "aliases": [
+        "006:anas_013"
+      ],
+      "sources": [
+        "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json"
+      ],
+      "cdrh3_imgt": "SRWDETGFYYSKY",
+      "imgt_h3_distance_to_provided": 3,
+      "imgt_h3_nearest_provided": "SRWDEHGFYVYSY",
+      "imgt_h3_identity_to_wt": 0.5384615384615384,
+      "numbering_confidence": 0.8645974397659302,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": 4,
+      "role": "candidate"
+    },
+    {
+      "sequence_id": "vhh_1fd88935a3d9",
+      "kind": "vhh",
+      "heavy_sequence": "EVLLVESGGGLVQPGGSLRLSCAASGPTFDRRSVGWFRQAPGKEKEGVASISGDGSRTSMPNTVKGRFTISRDNAKNMVFLQMNSLKAEDTAVYYCASTASDRTADVIFERRVANFDYWGQGTQVTVS",
+      "light_sequence": "",
+      "pair_sha256": "1fd88935a3d960dbbd5982b9fd42bff743d5f8000b045506a83318a808dc9a27",
+      "aliases": [
+        "her2_variable_sequence_3_generated"
+      ],
+      "sources": [
+        "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_3/her2_variable_sequence_3_generated.cif"
+      ],
+      "cdrh3_imgt": "ASTASDRTADVIFERRVANFDY",
+      "imgt_h3_distance_to_provided": 12,
+      "imgt_h3_nearest_provided": "SRCDRTVFVAFVY",
+      "imgt_h3_identity_to_wt": 0.2727272727272727,
+      "numbering_confidence": 0.7194862365722656,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": null,
+      "role": "candidate",
+      "global_known_identity_scope": "Recomputed against23-ish retrieved antibody references; universal database novelty unproven"
+    },
+    {
+      "sequence_id": "vhh_3e17aea82221",
+      "kind": "vhh",
+      "heavy_sequence": "QVQLQESGGGLVRPGGSLRLTCAASGDTFNKYAMGWFRQAPGKSLELVASISSSARSTYAPDTVKGRFTISRDNSKSVVYLQMNSLKLEDTADYFCAGHLGFNGYSSDVSTKEYGAFREVGFRYWGQGTQVTVS",
+      "light_sequence": "",
+      "pair_sha256": "3e17aea82221a7823adc4ae9aea248b60273d544bb912550a9f81577d4624d97",
+      "aliases": [
+        "her2_variable_sequence_2_generated"
+      ],
+      "sources": [
+        "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_2/her2_variable_sequence_2_generated.cif"
+      ],
+      "cdrh3_imgt": "AGHLGFNGYSSDVSTKEYGAFREVGFRY",
+      "imgt_h3_distance_to_provided": 18,
+      "imgt_h3_nearest_provided": "SRFLGFGSDTFGY",
+      "imgt_h3_identity_to_wt": 0.2142857142857143,
+      "numbering_confidence": 0.7624242901802063,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": null,
+      "role": "candidate",
+      "global_known_identity_scope": "Recomputed against23-ish retrieved antibody references; universal database novelty unproven"
+    },
+    {
+      "sequence_id": "vhh_40415f69ad42",
+      "kind": "vhh",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCASSGGSFDRAAFGWYRQAPGKERELVASISGSGSSTYYPDVVKGRFTISRDNAQRSVFLQMNSLKVEDTAVYFCNAKNLHGYNAMVSGQVIQSYHYEEAWGQGTQVTVS",
+      "light_sequence": "",
+      "pair_sha256": "40415f69ad42307e219bd0707513e78edf752f6df6aaa34c561cea9d8fbe5092",
+      "aliases": [
+        "her2_variable_sequence_6_generated"
+      ],
+      "sources": [
+        "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_6/her2_variable_sequence_6_generated.cif"
+      ],
+      "cdrh3_imgt": "NAKNLHGYNAMVSGQVIQSYHYEEA",
+      "imgt_h3_distance_to_provided": 16,
+      "imgt_h3_nearest_provided": "SRYAGVGIYSYHY",
+      "imgt_h3_identity_to_wt": 0.16000000000000003,
+      "numbering_confidence": 0.6887946128845215,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": null,
+      "role": "candidate",
+      "global_known_identity_scope": "Recomputed against23-ish retrieved antibody references; universal database novelty unproven"
+    },
+    {
+      "sequence_id": "vhh_66a1ab11c27f",
+      "kind": "vhh",
+      "heavy_sequence": "MITLVESGGGLVQPGGSLRLTCAASGNTFSAYDMRWYRQAAGKQRELVSIISSGGSTTWAPDSVKGRFTISRDDAKSTVYLQMNSLKAEDTAIYYCYTRTGAKIDSHSSYPGGISYRYWGQGTQVTVL",
+      "light_sequence": "",
+      "pair_sha256": "66a1ab11c27f910fe9f689f5eaa78bc24eb44fc7e8a71ee42b644b67f04e45e2",
+      "aliases": [
+        "her2_variable_sequence_1_generated"
+      ],
+      "sources": [
+        "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_1/her2_variable_sequence_1_generated.cif"
+      ],
+      "cdrh3_imgt": "YTRTGAKIDSHSSYPGGISYRY",
+      "imgt_h3_distance_to_provided": 12,
+      "imgt_h3_nearest_provided": "SRFIDSSSYAIRY",
+      "imgt_h3_identity_to_wt": 0.2272727272727273,
+      "numbering_confidence": 0.6898342967033386,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": null,
+      "role": "candidate",
+      "global_known_identity_scope": "Recomputed against23-ish retrieved antibody references; universal database novelty unproven"
+    },
+    {
+      "sequence_id": "vhh_7673a74e16b1",
+      "kind": "vhh",
+      "heavy_sequence": "ELQLVESGGGLVQPGGSLRLSCAASGTSIRDLDVGWYRQAPGKQRELVALIFSDGSTFYPSSVKGRFTISRDNSTNTVYLQMNSLRPEDTAVYFCSASVPRELEYTDTVTGMTLHTHQFEIHWGQGTQVTVS",
+      "light_sequence": "",
+      "pair_sha256": "7673a74e16b1aa529dfeca8a3a168d9507cc8dbeac979526bc7147f54e8e214b",
+      "aliases": [
+        "her2_variable_sequence_8_generated"
+      ],
+      "sources": [
+        "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_8/her2_variable_sequence_8_generated.cif"
+      ],
+      "cdrh3_imgt": "SASVPRELEYTDTVTGMTLHTHQFEIH",
+      "imgt_h3_distance_to_provided": 17,
+      "imgt_h3_nearest_provided": "SRGTTTLHTFLIY",
+      "imgt_h3_identity_to_wt": 0.14814814814814814,
+      "numbering_confidence": 0.7145115733146667,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": null,
+      "role": "candidate",
+      "global_known_identity_scope": "Recomputed against23-ish retrieved antibody references; universal database novelty unproven"
+    },
+    {
+      "sequence_id": "vhh_789b26ae31f0",
+      "kind": "vhh",
+      "heavy_sequence": "QVQLVESGGGLVQPGGSLRLSCAASGGAFSNYYIGWYRQAPGKERELVASINGSGSHTWSPDSVKGRFTISRDNARNMVYLQMNSLRPEDTANYYCAKLYSWAYNLDDKGNWIHSYSDDYVWGQGTQVTVS",
+      "light_sequence": "",
+      "pair_sha256": "789b26ae31f00c2934ce55cf0131f0ed605d44589145f84547852a9c1253f9f1",
+      "aliases": [
+        "her2_variable_sequence_11_generated"
+      ],
+      "sources": [
+        "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_11/her2_variable_sequence_11_generated.cif"
+      ],
+      "cdrh3_imgt": "AKLYSWAYNLDDKGNWIHSYSDDYV",
+      "imgt_h3_distance_to_provided": 15,
+      "imgt_h3_nearest_provided": "SRLDDGLIYSFDY",
+      "imgt_h3_identity_to_wt": 0.24,
+      "numbering_confidence": 0.7259677052497864,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": null,
+      "role": "candidate",
+      "global_known_identity_scope": "Recomputed against23-ish retrieved antibody references; universal database novelty unproven"
+    },
+    {
+      "sequence_id": "vhh_809634fa1ba9",
+      "kind": "vhh",
+      "heavy_sequence": "EVQLQESGGGLVQPGGSLRLSCASSGQSFSDYAMGWFRQAPGQKRTLVAAITPAGKVYFPDSVRGRFTISRDDAASSVFLQMNSLKPEDTAVYFCAATKRLNVSAWKSPVEWSHWGQGTQVTVS",
+      "light_sequence": "",
+      "pair_sha256": "809634fa1ba95cc2033ae09b0b58a1477b50596dcda6f61880fee32dbc5a1019",
+      "aliases": [
+        "her2_variable_sequence_12_generated"
+      ],
+      "sources": [
+        "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_12/her2_variable_sequence_12_generated.cif"
+      ],
+      "cdrh3_imgt": "AATKRLNVSAWKSPVEWSH",
+      "imgt_h3_distance_to_provided": 11,
+      "imgt_h3_nearest_provided": "SRLIVSWSYEQSY",
+      "imgt_h3_identity_to_wt": 0.052631578947368474,
+      "numbering_confidence": 0.7153832316398621,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": null,
+      "role": "candidate",
+      "global_known_identity_scope": "Recomputed against23-ish retrieved antibody references; universal database novelty unproven"
+    },
+    {
+      "sequence_id": "vhh_8d2fb55a1add",
+      "kind": "vhh",
+      "heavy_sequence": "QIDLTESGGGVVQPGGNLKLTCQARGGKFSHFAVGWFRQAPGRERELVAKISSGGSTYYPDSVKGRFTISRDDARSAVYLAMNSLRPEDTAVYYCAATDPEWISRESVTSSLDSFQGWGQGTQVTVS",
+      "light_sequence": "",
+      "pair_sha256": "8d2fb55a1add394cdb6cb48cc31c0fb1a93bd2759d6917914f34a8e238e71229",
+      "aliases": [
+        "her2_variable_sequence_10_generated"
+      ],
+      "sources": [
+        "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_10/her2_variable_sequence_10_generated.cif"
+      ],
+      "cdrh3_imgt": "AATDPEWISRESVTSSLDSFQG",
+      "imgt_h3_distance_to_provided": 14,
+      "imgt_h3_nearest_provided": "SRFSRSSLDQFLY",
+      "imgt_h3_identity_to_wt": 0.09090909090909094,
+      "numbering_confidence": 0.7085591554641724,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": null,
+      "role": "candidate",
+      "global_known_identity_scope": "Recomputed against23-ish retrieved antibody references; universal database novelty unproven"
+    },
+    {
+      "sequence_id": "vhh_9eb9ac3717d6",
+      "kind": "vhh",
+      "heavy_sequence": "EVQLQESGGGVVQPGGSLRLSCAASGHTFTRFAMGWFRQHPGKERELVAYIDTEGHTWFPSSVKGRFTISRDNAKNNVFLQMNSLRPEDTAVYYCATGKWHESRRVFWINRMSTTDDMDYWGQGTQVTVS",
+      "light_sequence": "",
+      "pair_sha256": "9eb9ac3717d655d67026b4f516ad64d8e55843a579f4eabf42b278aada509279",
+      "aliases": [
+        "her2_variable_sequence_13_generated"
+      ],
+      "sources": [
+        "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_13/her2_variable_sequence_13_generated.cif"
+      ],
+      "cdrh3_imgt": "ATGKWHESRRVFWINRMSTTDDMDY",
+      "imgt_h3_distance_to_provided": 15,
+      "imgt_h3_nearest_provided": "SRWINHSTYDFDY",
+      "imgt_h3_identity_to_wt": 0.24,
+      "numbering_confidence": 0.7636774182319641,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": null,
+      "role": "candidate",
+      "global_known_identity_scope": "Recomputed against23-ish retrieved antibody references; universal database novelty unproven"
+    },
+    {
+      "sequence_id": "vhh_d20ccd81bf0b",
+      "kind": "vhh",
+      "heavy_sequence": "DVQLVESGGGLVQPGGSLRLSCTSSGRAFDGYTMGWYRQAPGRERELVALITRSGDTYYPDSVRGRFTISRDNAKSTVYLQMNSLRLEDTAVYYCAAFDYKQLLKSPVDSRDSTIYNPAEYWGQGTQVTVS",
+      "light_sequence": "",
+      "pair_sha256": "d20ccd81bf0b81363d3d857015864b507e44448df928e9bddfafedadd2aa3225",
+      "aliases": [
+        "her2_variable_sequence_0_generated"
+      ],
+      "sources": [
+        "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_0/her2_variable_sequence_0_generated.cif"
+      ],
+      "cdrh3_imgt": "AAFDYKQLLKSPVDSRDSTIYNPAEY",
+      "imgt_h3_distance_to_provided": 17,
+      "imgt_h3_nearest_provided": "SRDSVPGRDINAY",
+      "imgt_h3_identity_to_wt": 0.15384615384615385,
+      "numbering_confidence": 0.7564347386360168,
+      "local_numeric_reasons": [],
+      "local_numeric_pass": true,
+      "canonical_cysteines": true,
+      "old_grip_conserved": null,
+      "role": "candidate",
+      "global_known_identity_scope": "Recomputed against23-ish retrieved antibody references; universal database novelty unproven"
+    }
+  ],
+  "full_context": "607-residue native HER2 sequence. No input template, no hotspots, fresh seed271828.",
+  "scoring": "native experimental 1N8Z Fv +581 observed HER2 residues;26 unresolved residues and glycans not represented in ddG input.",
+  "native_reference_sha256": "9f22f02b6e514de56dab8a48bc31a16302a51397779e64c398ad3a7f05cb19a2",
+  "ddg_PDB_sha256": "220863412bd688bca44d0daa6fa7ddd320de7bd66f7b8a17adf8868d4fdd0ed7",
+  "binding_ddg_parameters": {
+    "pdb_file": "native_full_HER2.pdb",
+    "partner_a": [
+      "A",
+      "B"
+    ],
+    "partner_b": [
+      "C"
+    ],
+    "variants": [
+      {
+        "id": "fab_8dfe7400a4a2",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "S"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "S"
+          },
+          {
+            "chain": "B",
+            "residue_number": 103,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "S"
+          },
+          {
+            "chain": "B",
+            "residue_number": 104,
+            "insertion_code": "",
+            "wild_type": "F",
+            "mutant": "E"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "F"
+          }
+        ]
+      },
+      {
+        "id": "fab_a8d7e3dafeea",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "K"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "S"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "S"
+          },
+          {
+            "chain": "B",
+            "residue_number": 103,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 104,
+            "insertion_code": "",
+            "wild_type": "F",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "F"
+          }
+        ]
+      },
+      {
+        "id": "fab_d1975089a569",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 99,
+            "insertion_code": "",
+            "wild_type": "W",
+            "mutant": "D"
+          },
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "L"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "S"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "L"
+          },
+          {
+            "chain": "B",
+            "residue_number": 103,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "S"
+          },
+          {
+            "chain": "B",
+            "residue_number": 104,
+            "insertion_code": "",
+            "wild_type": "F",
+            "mutant": "V"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "F"
+          }
+        ]
+      },
+      {
+        "id": "fab_7bc62696d17c",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "H"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "S"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "S"
+          },
+          {
+            "chain": "B",
+            "residue_number": 103,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 104,
+            "insertion_code": "",
+            "wild_type": "F",
+            "mutant": "D"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "F"
+          }
+        ]
+      },
+      {
+        "id": "fab_5111af6cccb5",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 99,
+            "insertion_code": "",
+            "wild_type": "W",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "W"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "S"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "L"
+          },
+          {
+            "chain": "B",
+            "residue_number": 103,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "H"
+          },
+          {
+            "chain": "B",
+            "residue_number": 104,
+            "insertion_code": "",
+            "wild_type": "F",
+            "mutant": "Y"
+          }
+        ]
+      },
+      {
+        "id": "fab_8659e50fd392",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "H"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "S"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "L"
+          },
+          {
+            "chain": "B",
+            "residue_number": 103,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "H"
+          },
+          {
+            "chain": "B",
+            "residue_number": 104,
+            "insertion_code": "",
+            "wild_type": "F",
+            "mutant": "E"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "F"
+          }
+        ]
+      },
+      {
+        "id": "fab_c151b1398d49",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 99,
+            "insertion_code": "",
+            "wild_type": "W",
+            "mutant": "T"
+          },
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "T"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "P"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 103,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "V"
+          },
+          {
+            "chain": "B",
+            "residue_number": 104,
+            "insertion_code": "",
+            "wild_type": "F",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "H"
+          }
+        ]
+      },
+      {
+        "id": "fab_bd654b2d902f",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 99,
+            "insertion_code": "",
+            "wild_type": "W",
+            "mutant": "S"
+          },
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "L"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "D"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "G"
+          },
+          {
+            "chain": "B",
+            "residue_number": 103,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 104,
+            "insertion_code": "",
+            "wild_type": "F",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 105,
+            "insertion_code": "",
+            "wild_type": "Y",
+            "mutant": "N"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "F"
+          }
+        ]
+      },
+      {
+        "id": "fab_e2a8208154e7",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 99,
+            "insertion_code": "",
+            "wild_type": "W",
+            "mutant": "S"
+          },
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "L"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "T"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "P"
+          },
+          {
+            "chain": "B",
+            "residue_number": 103,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "L"
+          },
+          {
+            "chain": "B",
+            "residue_number": 104,
+            "insertion_code": "",
+            "wild_type": "F",
+            "mutant": "S"
+          },
+          {
+            "chain": "B",
+            "residue_number": 105,
+            "insertion_code": "",
+            "wild_type": "Y",
+            "mutant": "D"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "V"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "F"
+          }
+        ]
+      },
+      {
+        "id": "fab_43764c703b48",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "T"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "T"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "S"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "S"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "K"
+          }
+        ]
+      },
+      {
+        "id": "fab_f133215586ed",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "D"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "N"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "V"
+          }
+        ]
+      },
+      {
+        "id": "fab_a9ee16eec519",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "V"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "P"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "G"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "W"
+          }
+        ]
+      },
+      {
+        "id": "fab_18ee66e30af8",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "G"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "F"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "W"
+          }
+        ]
+      },
+      {
+        "id": "fab_cad971d75a22",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "F"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "V"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "R"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "S"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "K"
+          }
+        ]
+      },
+      {
+        "id": "fab_9d9a6dee4841",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "V"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "R"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "E"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "R"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "S"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "K"
+          }
+        ]
+      },
+      {
+        "id": "fab_1198d825d9b8",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "E"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "T"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "W"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "E"
+          }
+        ]
+      },
+      {
+        "id": "fab_8f68d60279be",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "G"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "F"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "W"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "Q"
+          }
+        ]
+      },
+      {
+        "id": "fab_0dadfae417d3",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "D"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "R"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "E"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "G"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "G"
+          }
+        ]
+      },
+      {
+        "id": "fab_b02c51183759",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "T"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "T"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "G"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "G"
+          }
+        ]
+      },
+      {
+        "id": "fab_1ec4f7333ebd",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "P"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "G"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "R"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "G"
+          }
+        ]
+      },
+      {
+        "id": "fab_729da584d7a9",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "P"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "T"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "P"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "V"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "K"
+          }
+        ]
+      },
+      {
+        "id": "fab_fcf53c3c2185",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "D"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "E"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "T"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "S"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "K"
+          }
+        ]
+      },
+      {
+        "id": "fab_3648a1a1148d",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "N"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "P"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "S"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "K"
+          }
+        ]
+      },
+      {
+        "id": "fab_537e55f3e261",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "P"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "G"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "W"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "E"
+          }
+        ]
+      },
+      {
+        "id": "fab_0ed7943688f1",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "E"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "G"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "S"
+          }
+        ]
+      },
+      {
+        "id": "fab_c47273250eea",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "D"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "T"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "G"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "I"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "Y"
+          }
+        ]
+      },
+      {
+        "id": "fab_395d29130bb6",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "V"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "W"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "E"
+          }
+        ]
+      },
+      {
+        "id": "fab_a7150f4889ee",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "T"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "T"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "D"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "L"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "Q"
+          }
+        ]
+      },
+      {
+        "id": "fab_76787d403301",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "V"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "R"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "E"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "K"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "W"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "Y"
+          }
+        ]
+      },
+      {
+        "id": "fab_cabbf10ade51",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "K"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "D"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "W"
+          }
+        ]
+      },
+      {
+        "id": "fab_fbeeb86b12b5",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "P"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "K"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "G"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "R"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "W"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "K"
+          }
+        ]
+      },
+      {
+        "id": "fab_0738ed656cf5",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "D"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "T"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "W"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "E"
+          }
+        ]
+      },
+      {
+        "id": "fab_66c858137ac1",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "S"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "R"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "N"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "W"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "E"
+          }
+        ]
+      },
+      {
+        "id": "fab_76c10b5dd454",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "P"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "T"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "D"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "G"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "Y"
+          }
+        ]
+      },
+      {
+        "id": "fab_f04c1f6f987f",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "D"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "M"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "G"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "W"
+          }
+        ]
+      },
+      {
+        "id": "fab_8a84d2547a88",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "T"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "T"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "E"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "T"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "Y"
+          }
+        ]
+      },
+      {
+        "id": "fab_43bf074f8615",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "R"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "E"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "S"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "E"
+          }
+        ]
+      },
+      {
+        "id": "fab_01f4b62ed474",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "V"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "E"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "P"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "E"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "Q"
+          }
+        ]
+      },
+      {
+        "id": "fab_8c21267fa1c3",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "T"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "D"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "S"
+          }
+        ]
+      },
+      {
+        "id": "fab_3b8ae0a19412",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "R"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "R"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "W"
+          }
+        ]
+      },
+      {
+        "id": "fab_baee29e9cc33",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "V"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "R"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "E"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "T"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "V"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "E"
+          }
+        ]
+      },
+      {
+        "id": "fab_1cca65ad93b0",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "P"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "G"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "H"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "V"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "K"
+          }
+        ]
+      },
+      {
+        "id": "fab_812ca9b61057",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "R"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "G"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "N"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "W"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "E"
+          }
+        ]
+      },
+      {
+        "id": "fab_5669ad53e51e",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "V"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "E"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "T"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "D"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "W"
+          }
+        ]
+      },
+      {
+        "id": "fab_b7488b69e1a0",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "K"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "S"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "W"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "Q"
+          }
+        ]
+      },
+      {
+        "id": "fab_421ca84623cd",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "R"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "K"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "S"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "E"
+          }
+        ]
+      },
+      {
+        "id": "fab_df3d8bd4e25c",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "E"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "E"
+          }
+        ]
+      },
+      {
+        "id": "fab_7401fd6357eb",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "T"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "K"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "Q"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "N"
+          }
+        ]
+      },
+      {
+        "id": "fab_f91130857043",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "E"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "R"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "I"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "W"
+          }
+        ]
+      },
+      {
+        "id": "fab_954d3fa58495",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "D"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "T"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "G"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "R"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "K"
+          }
+        ]
+      },
+      {
+        "id": "fab_82cb6911e750",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "E"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "R"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "V"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "K"
+          }
+        ]
+      },
+      {
+        "id": "fab_27816f7a5fcd",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "R"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "Q"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "W"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "K"
+          }
+        ]
+      },
+      {
+        "id": "fab_c1f302a62ac6",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "E"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "I"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "W"
+          }
+        ]
+      },
+      {
+        "id": "fab_26ed5d65a4ea",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "P"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "K"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "S"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "V"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "N"
+          }
+        ]
+      },
+      {
+        "id": "fab_db17e89c6b04",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "T"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "R"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "T"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "R"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "R"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "K"
+          }
+        ]
+      },
+      {
+        "id": "fab_e6cd1e4f0c81",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "V"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "R"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "E"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "P"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "W"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "Y"
+          }
+        ]
+      },
+      {
+        "id": "fab_342ce85f395a",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "D"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "D"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "T"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "W"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "S"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "K"
+          }
+        ]
+      },
+      {
+        "id": "fab_0ef6da379036",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "P"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "G"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "S"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "K"
+          }
+        ]
+      },
+      {
+        "id": "fab_471b46ff1a73",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "P"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "G"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "I"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "S"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "E"
+          }
+        ]
+      },
+      {
+        "id": "fab_b64e3f877b26",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "V"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "W"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "G"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "N"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "W"
+          }
+        ]
+      },
+      {
+        "id": "fab_b537bbc91981",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "T"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "E"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "G"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "W"
+          }
+        ]
+      },
+      {
+        "id": "fab_21548e7aacb9",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "H"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "D"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "G"
+          }
+        ]
+      },
+      {
+        "id": "fab_0e0b8c68b77a",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "E"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "V"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "W"
+          }
+        ]
+      },
+      {
+        "id": "fab_49ef43d3309d",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "M"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "G"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "W"
+          }
+        ]
+      },
+      {
+        "id": "fresh_control_01",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "Q"
+          }
+        ]
+      },
+      {
+        "id": "fresh_control_02",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "G"
+          }
+        ]
+      },
+      {
+        "id": "fresh_control_03",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "K"
+          }
+        ]
+      },
+      {
+        "id": "fresh_control_04",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 103,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "W"
+          },
+          {
+            "chain": "B",
+            "residue_number": 104,
+            "insertion_code": "",
+            "wild_type": "F",
+            "mutant": "Y"
+          }
+        ]
+      },
+      {
+        "id": "fresh_control_05",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "G"
+          },
+          {
+            "chain": "B",
+            "residue_number": 104,
+            "insertion_code": "",
+            "wild_type": "F",
+            "mutant": "V"
+          },
+          {
+            "chain": "B",
+            "residue_number": 105,
+            "insertion_code": "",
+            "wild_type": "Y",
+            "mutant": "N"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "W"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "F"
+          }
+        ]
+      },
+      {
+        "id": "fresh_control_06",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 99,
+            "insertion_code": "",
+            "wild_type": "W",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "A"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "R"
+          },
+          {
+            "chain": "B",
+            "residue_number": 103,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "T"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "T"
+          }
+        ]
+      },
+      {
+        "id": "fresh_control_07",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "H"
+          },
+          {
+            "chain": "B",
+            "residue_number": 104,
+            "insertion_code": "",
+            "wild_type": "F",
+            "mutant": "E"
+          },
+          {
+            "chain": "B",
+            "residue_number": 105,
+            "insertion_code": "",
+            "wild_type": "Y",
+            "mutant": "F"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "Y"
+          }
+        ]
+      },
+      {
+        "id": "fresh_control_08",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "F"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "E"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "N"
+          },
+          {
+            "chain": "B",
+            "residue_number": 104,
+            "insertion_code": "",
+            "wild_type": "F",
+            "mutant": "G"
+          },
+          {
+            "chain": "B",
+            "residue_number": 105,
+            "insertion_code": "",
+            "wild_type": "Y",
+            "mutant": "N"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "V"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "L"
+          }
+        ]
+      },
+      {
+        "id": "fresh_control_09",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 99,
+            "insertion_code": "",
+            "wild_type": "W",
+            "mutant": "V"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "P"
+          },
+          {
+            "chain": "B",
+            "residue_number": 104,
+            "insertion_code": "",
+            "wild_type": "F",
+            "mutant": "Q"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "G"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "L"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "E"
+          }
+        ]
+      },
+      {
+        "id": "fresh_control_10",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 104,
+            "insertion_code": "",
+            "wild_type": "F",
+            "mutant": "K"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "S"
+          }
+        ]
+      },
+      {
+        "id": "fresh_control_11",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "P"
+          },
+          {
+            "chain": "B",
+            "residue_number": 103,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "S"
+          },
+          {
+            "chain": "B",
+            "residue_number": 105,
+            "insertion_code": "",
+            "wild_type": "Y",
+            "mutant": "N"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "L"
+          },
+          {
+            "chain": "B",
+            "residue_number": 108,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "Q"
+          }
+        ]
+      },
+      {
+        "id": "fresh_control_12",
+        "mutations": [
+          {
+            "chain": "B",
+            "residue_number": 99,
+            "insertion_code": "",
+            "wild_type": "W",
+            "mutant": "Y"
+          },
+          {
+            "chain": "B",
+            "residue_number": 100,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "L"
+          },
+          {
+            "chain": "B",
+            "residue_number": 101,
+            "insertion_code": "",
+            "wild_type": "G",
+            "mutant": "L"
+          },
+          {
+            "chain": "B",
+            "residue_number": 102,
+            "insertion_code": "",
+            "wild_type": "D",
+            "mutant": "N"
+          },
+          {
+            "chain": "B",
+            "residue_number": 104,
+            "insertion_code": "",
+            "wild_type": "F",
+            "mutant": "V"
+          },
+          {
+            "chain": "B",
+            "residue_number": 105,
+            "insertion_code": "",
+            "wild_type": "Y",
+            "mutant": "F"
+          },
+          {
+            "chain": "B",
+            "residue_number": 106,
+            "insertion_code": "",
+            "wild_type": "A",
+            "mutant": "V"
+          },
+          {
+            "chain": "B",
+            "residue_number": 107,
+            "insertion_code": "",
+            "wild_type": "M",
+            "mutant": "F"
+          }
+        ]
+      }
+    ],
+    "mc_samples": 20,
+    "seed": 271828,
+    "noise_level_angstrom": 0.1,
+    "batch_tokens": 10000
+  },
+  "unpaired_VHHs": 10,
+  "paired_candidates": 64,
+  "candidate_count": 74,
+  "controls": 12,
+  "WT": true
+}

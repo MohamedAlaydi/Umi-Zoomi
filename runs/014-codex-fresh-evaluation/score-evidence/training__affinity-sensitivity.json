@@ -1,0 +1,11 @@
+{
+  "protocol": "Secondary nonlinear sensitivity analysis; original5 sequence-cluster folds. GP marginal likelihood fitted inside each training fold.",
+  "primary_Ridge_rho": 0.675243476619694,
+  "primary_Ridge_MSE": 0.6505039809206756,
+  "primary_Ridge_empirical_abs_error_95quantile": 1.7621705863229387,
+  "secondary_GP_rho": 0.6727361769515151,
+  "secondary_GP_MSE": 0.5911150436917169,
+  "secondary_GP_empirical_abs_error_95quantile": 1.6884224323304018,
+  "GP_fitted_kernel": "0.988**2 * RBF(length_scale=2.45) + WhiteKernel(noise_level=0.144)",
+  "scope": "Error quantiles describe held-out measured constructs, not guaranteed intervals for novel designs. GP SD assumes this kernel/noise model; not experimental confidence."
+}

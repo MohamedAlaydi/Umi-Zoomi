@@ -1,0 +1,33 @@
+{
+  "model": "opendde-abag",
+  "seed": 271828,
+  "targets": [
+    "newML_d36bbd2840eb",
+    "newML_85d565388395",
+    "newML_775ca2587e2a",
+    "newML_b3d8b6612830",
+    "newML_b973259db36d",
+    "newML_5753ea077281",
+    "newML_6ee9177c4422",
+    "newML_f5c1a6bab2de",
+    "newML_a7acfcc8dce3",
+    "newML_09fcd1674ef5",
+    "newML_948ec910887a",
+    "newML_0ffcac1cee4a",
+    "newML_d36bbd2840eb_FW85N87T",
+    "newML_85d565388395_FW85N87T",
+    "newML_b973259db36d_FW85N87T",
+    "newML_5753ea077281_FW85N87T",
+    "fresh_WT_FW85N87T",
+    "fresh_WT",
+    "fresh_control_01",
+    "fresh_control_06",
+    "fresh_control_12",
+    "vhh_3e17aea82221",
+    "vhh_809634fa1ba9",
+    "vhh_8d2fb55a1add",
+    "vhh_9eb9ac3717d6"
+  ],
+  "selection": "All17 new matched sequence/framework experiments +WT+all5 VHHs with no RCSB70% hits +3 preselected measured controls. No Mol1 score used.",
+  "interpretation": "Model disagreement is uncertainty, not a calibrated nonbinding test."
+}

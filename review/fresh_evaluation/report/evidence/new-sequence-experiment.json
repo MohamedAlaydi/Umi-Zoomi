@@ -1,0 +1,250 @@
+{
+  "targets": [
+    {
+      "sequence_id": "newML_d36bbd2840eb",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGAGGAARDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "role": "new_model_generated_candidate",
+      "cdrh3_imgt": "SRWGGAGGAARDY",
+      "design_description": "New grouped assay-model-guided H3 proposal; unmeasured phenotype",
+      "sources": [
+        "training/new-proposals.csv"
+      ],
+      "aliases": [],
+      "parent": null
+    },
+    {
+      "sequence_id": "newML_85d565388395",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRYGGAGAYYWEYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "role": "new_model_generated_candidate",
+      "cdrh3_imgt": "SRYGGAGAYYWEY",
+      "design_description": "New grouped assay-model-guided H3 proposal; unmeasured phenotype",
+      "sources": [
+        "training/new-proposals.csv"
+      ],
+      "aliases": [],
+      "parent": null
+    },
+    {
+      "sequence_id": "newML_775ca2587e2a",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGVGVMSRDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "role": "new_model_generated_candidate",
+      "cdrh3_imgt": "SRWGGVGVMSRDY",
+      "design_description": "New grouped assay-model-guided H3 proposal; unmeasured phenotype",
+      "sources": [
+        "training/new-proposals.csv"
+      ],
+      "aliases": [],
+      "parent": null
+    },
+    {
+      "sequence_id": "newML_b3d8b6612830",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRNGGAMPYSFDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "role": "new_model_generated_candidate",
+      "cdrh3_imgt": "SRNGGAMPYSFDY",
+      "design_description": "New grouped assay-model-guided H3 proposal; unmeasured phenotype",
+      "sources": [
+        "training/new-proposals.csv"
+      ],
+      "aliases": [],
+      "parent": null
+    },
+    {
+      "sequence_id": "newML_b973259db36d",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGSQGFYEMGYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "role": "new_model_generated_candidate",
+      "cdrh3_imgt": "SRWGSQGFYEMGY",
+      "design_description": "New grouped assay-model-guided H3 proposal; unmeasured phenotype",
+      "sources": [
+        "training/new-proposals.csv"
+      ],
+      "aliases": [],
+      "parent": null
+    },
+    {
+      "sequence_id": "newML_5753ea077281",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWRSEGFYEMRYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "role": "new_model_generated_candidate",
+      "cdrh3_imgt": "SRWRSEGFYEMRY",
+      "design_description": "New grouped assay-model-guided H3 proposal; unmeasured phenotype",
+      "sources": [
+        "training/new-proposals.csv"
+      ],
+      "aliases": [],
+      "parent": null
+    },
+    {
+      "sequence_id": "newML_6ee9177c4422",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWKVQGFYEMMYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "role": "new_model_generated_candidate",
+      "cdrh3_imgt": "SRWKVQGFYEMMY",
+      "design_description": "New grouped assay-model-guided H3 proposal; unmeasured phenotype",
+      "sources": [
+        "training/new-proposals.csv"
+      ],
+      "aliases": [],
+      "parent": null
+    },
+    {
+      "sequence_id": "newML_f5c1a6bab2de",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGPEGFYEMKYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "role": "new_model_generated_candidate",
+      "cdrh3_imgt": "SRWGPEGFYEMKY",
+      "design_description": "New grouped assay-model-guided H3 proposal; unmeasured phenotype",
+      "sources": [
+        "training/new-proposals.csv"
+      ],
+      "aliases": [],
+      "parent": null
+    },
+    {
+      "sequence_id": "newML_a7acfcc8dce3",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWAYEGFYEMDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "role": "new_model_generated_candidate",
+      "cdrh3_imgt": "SRWAYEGFYEMDY",
+      "design_description": "New grouped assay-model-guided H3 proposal; unmeasured phenotype",
+      "sources": [
+        "training/new-proposals.csv"
+      ],
+      "aliases": [],
+      "parent": null
+    },
+    {
+      "sequence_id": "newML_09fcd1674ef5",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGSTGFYHMEYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "role": "new_model_generated_candidate",
+      "cdrh3_imgt": "SRWGSTGFYHMEY",
+      "design_description": "New grouped assay-model-guided H3 proposal; unmeasured phenotype",
+      "sources": [
+        "training/new-proposals.csv"
+      ],
+      "aliases": [],
+      "parent": null
+    },
+    {
+      "sequence_id": "newML_948ec910887a",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGREGFYKMPYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "role": "new_model_generated_candidate",
+      "cdrh3_imgt": "SRWGREGFYKMPY",
+      "design_description": "New grouped assay-model-guided H3 proposal; unmeasured phenotype",
+      "sources": [
+        "training/new-proposals.csv"
+      ],
+      "aliases": [],
+      "parent": null
+    },
+    {
+      "sequence_id": "newML_0ffcac1cee4a",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWVSVGFYEMDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "role": "new_model_generated_candidate",
+      "cdrh3_imgt": "SRWVSVGFYEMDY",
+      "design_description": "New grouped assay-model-guided H3 proposal; unmeasured phenotype",
+      "sources": [
+        "training/new-proposals.csv"
+      ],
+      "aliases": [],
+      "parent": null
+    },
+    {
+      "sequence_id": "newML_d36bbd2840eb_FW85N87T",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNNLTAEDTAVYYCSRWGGAGGAARDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "role": "literature_framework_transfer_candidate",
+      "cdrh3_imgt": "SRWGGAGGAARDY",
+      "design_description": "New H3 + verified 7MN8 VH S85N/R87T framework hypothesis. Fv/cell-free transfer unproven; adds NLT glycosylation sequon.",
+      "sources": [
+        "training/new-proposals.csv"
+      ],
+      "aliases": [],
+      "parent": "newML_d36bbd2840eb"
+    },
+    {
+      "sequence_id": "newML_85d565388395_FW85N87T",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNNLTAEDTAVYYCSRYGGAGAYYWEYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "role": "literature_framework_transfer_candidate",
+      "cdrh3_imgt": "SRYGGAGAYYWEY",
+      "design_description": "New H3 + verified 7MN8 VH S85N/R87T framework hypothesis. Fv/cell-free transfer unproven; adds NLT glycosylation sequon.",
+      "sources": [
+        "training/new-proposals.csv"
+      ],
+      "aliases": [],
+      "parent": "newML_85d565388395"
+    },
+    {
+      "sequence_id": "newML_b973259db36d_FW85N87T",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNNLTAEDTAVYYCSRWGSQGFYEMGYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "role": "literature_framework_transfer_candidate",
+      "cdrh3_imgt": "SRWGSQGFYEMGY",
+      "design_description": "New H3 + verified 7MN8 VH S85N/R87T framework hypothesis. Fv/cell-free transfer unproven; adds NLT glycosylation sequon.",
+      "sources": [
+        "training/new-proposals.csv"
+      ],
+      "aliases": [],
+      "parent": "newML_b973259db36d"
+    },
+    {
+      "sequence_id": "newML_5753ea077281_FW85N87T",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNNLTAEDTAVYYCSRWRSEGFYEMRYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "role": "literature_framework_transfer_candidate",
+      "cdrh3_imgt": "SRWRSEGFYEMRY",
+      "design_description": "New H3 + verified 7MN8 VH S85N/R87T framework hypothesis. Fv/cell-free transfer unproven; adds NLT glycosylation sequon.",
+      "sources": [
+        "training/new-proposals.csv"
+      ],
+      "aliases": [],
+      "parent": "newML_5753ea077281"
+    },
+    {
+      "sequence_id": "fresh_WT_FW85N87T",
+      "kind": "paired",
+      "heavy_sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNNLTAEDTAVYYCSRWGGDGFYAMDYWGQGTLVTVSS",
+      "light_sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+      "role": "literature_framework_control",
+      "cdrh3_imgt": "SRWGGDGFYAMDY",
+      "design_description": "Framework transfer control; WT H3 means ineligible for submission.",
+      "sources": [
+        "training/new-proposals.csv"
+      ],
+      "aliases": [],
+      "parent": "fresh_WT"
+    }
+  ],
+  "seed": 271828,
+  "paper": "https://doi.org/10.1080/19420862.2025.2532117",
+  "paper_PDB": "7MN8 entity chain E, auth=label=raw linear positions85/87, verified WT120aa exact prefix",
+  "paper_PDB_sha256": "da047fa40d3db49c0630a5f4aa38a11c177ccfda55c909e834879a13ffe5b925",
+  "literature_result_scope": "Full trastuzumab mAb, measured higher Tm and retained HER2 cell binding. New N-linked glycosylation site; no evidence of transfer to new H3/Fv/cell-free expression.",
+  "hypothesis": "Separately modify H3 for binding and distant framework for thermal stability. No measured Tm or affinity claimed.",
+  "raw_proposal_count": 68,
+  "generation_correction": "First generation emitted68 proposals because a Pareto-front loop finished the front after reaching64. Source cap fixed; all68 retained as auditable raw proposals. Only12 prospectively selected for this experiment."
+}

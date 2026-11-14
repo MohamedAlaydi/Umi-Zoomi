@@ -1,0 +1,96 @@
+{
+  "utc": "2026-11-14T15:21:55.335506+00:00",
+  "abguard_version": "0.1.0",
+  "immunum_version": "2.0.0",
+  "input_sha256": "c7efb91171ad4df0eb255f8958b2878e8cbac72eb2847c74b3bfea1acf4ddbfd",
+  "reference_manifest_sha256": "de5578eb098a576e446cd51bfe37eeafe5da0b7340a41ac2e7f38fab68f1c649",
+  "reference_manifest": {
+    "format": 1,
+    "abguard_version": "0.1.0",
+    "scheme": "imgt",
+    "min_confidence": 0.1,
+    "index_table": "abguard_cdrh3",
+    "compression": "zstd",
+    "tables": [
+      {
+        "table": "abguard_cdrh3",
+        "n_rows": 610109,
+        "sequence_column": null,
+        "n_bytes": 2028925
+      }
+    ]
+  },
+  "novelty_verdict_counts": [
+    {
+      "is_novel_enough": true,
+      "count": 128
+    },
+    {
+      "is_novel_enough": false,
+      "count": 34
+    }
+  ],
+  "validation_report": {
+    "source": "runs/014-codex-fresh-evaluation/pool-submission.csv",
+    "team": "pool-submission",
+    "n_input": 162,
+    "n_valid": 127,
+    "kinds": [
+      {
+        "kind": "vhh",
+        "n_input": 64,
+        "n_valid": 63,
+        "rule_failures": {
+          "heavy_cysteines_are_paired": 1,
+          "heavy_domain_cysteines_are_paired": 1
+        }
+      },
+      {
+        "kind": "paired",
+        "n_input": 98,
+        "n_valid": 64,
+        "rule_failures": {}
+      }
+    ],
+    "unknown_kinds": {},
+    "duplicate_ids": [],
+    "duplicate_constructs": [],
+    "novelty_failures": {
+      "fab_77758067702e": "CDRH3 SRWGPPYFYAMDY is 2 mutation(s) from SRWGDPGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_74b096294a28": "CDRH3 SRSTAATSYAFDY is 2 mutation(s) from SRWTAVTSYAFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_4cf5f24b712a": "CDRH3 SRWGPSGFYEHDY is 1 mutation(s) from SRWGGSGFYEHDY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_7357cefcb936": "CDRH3 SRWGPAGFYYFDY is 1 mutation(s) from SRWGDAGFYYFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_b5c8af43fc2e": "CDRH3 SRWGPSGFYEFDY is 1 mutation(s) from SRWGDSGFYEFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_9ad440be8f8a": "CDRH3 SRWGPSGFYAMDY is 1 mutation(s) from SRWGASGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_a8fc92fefc67": "CDRH3 SRWGPAGFYEFDY is 2 mutation(s) from SRWGLAGFYSFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_47999e07a54f": "CDRH3 SRWGPPGFYAMDY is 1 mutation(s) from SRWGDPGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_abbb8366a245": "CDRH3 SRWGPPGFYVFDY is 1 mutation(s) from SRWGPPGFYVFEY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_18f901f2617e": "CDRH3 SRWGSSGFYAFDY is 1 mutation(s) from SRWGSIGFYAFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_f46928d49aeb": "CDRH3 SRWGGDGFYAMDY is 0 mutation(s) from SRWGGDGFYAMDY in trastuzumab; a novel design needs at least 3",
+      "fab_9fcdaaf03886": "CDRH3 SRWGDGGFYENNY is 2 mutation(s) from SRWGPGGFYENVY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_2fd005e928f9": "CDRH3 SRWGATGFYTHDY is 1 mutation(s) from SRWGATGFYTFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_1f5d80c80603": "CDRH3 SRWSSKGFYQHTY is 2 mutation(s) from SRWSPVGFYQHTY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_5a52b72fec04": "CDRH3 SRWRDYGFYYFDY is 2 mutation(s) from SRWRDYGFYSFLY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_2dd5d12802d5": "CDRH3 SRWNSYGFYAHAY is 1 mutation(s) from SRWNGYGFYAHAY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_2d6affce688a": "CDRH3 SRWGRGGFYAHDY is 1 mutation(s) from SRWGRGGFYAMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_e7b37d741bc1": "CDRH3 SRWGGYGFYEYDY is 1 mutation(s) from SRWGGDGFYEYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_d94b61e3f68d": "CDRH3 SRWPGAGFYSYAY is 1 mutation(s) from SRWPGAGFYSYVY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_896ed5a0ed04": "CDRH3 SRWGGAGFYNMDY is 1 mutation(s) from SRWGGAGFYSMDY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_5d87472a3900": "CDRH3 SRWGPQGFYEFDY is 2 mutation(s) from SRWGPGGFYAFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_a9ef83aeb7d7": "CDRH3 SRWGTGGFYVFAY is 1 mutation(s) from SRWGTGGFYVFVY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_cc2ba5b12cb5": "CDRH3 SRWGSGGFYSLNY is 1 mutation(s) from SRWGSGGFYSLDY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_e14fa2ff04fe": "CDRH3 SRWMVTGFYAFTY is 2 mutation(s) from SRWMVTGFYVFSY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_a72edc341966": "CDRH3 SRWGKFGFYDFDY is 2 mutation(s) from SRWGANGFYDFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_e35999d697a4": "CDRH3 SRWGPVGFYADDY is 2 mutation(s) from SRWGFVGFYAIDY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_f6edf6d642fd": "CDRH3 SRWAAPGFYAQPY is 2 mutation(s) from SRWAAPGFYALNY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_f6f0968a93ff": "CDRH3 SRWGWEGFYNFDY is 2 mutation(s) from SRWGEEGFYNFLY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_e02f578ae9a8": "CDRH3 SRWGYLGFYEYDY is 2 mutation(s) from SRWGMCGFYEYDY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_b16b32a11419": "CDRH3 SRWGASGFYYHDY is 2 mutation(s) from SRWGAPGFYYIDY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_23e6cb9a27a1": "CDRH3 SRWGPSGFYVDNY is 2 mutation(s) from SRWGRSGFYVFNY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_2d2fa5e1d3df": "CDRH3 SRWGPSGFYAHDY is 2 mutation(s) from SRWGGSGFYIHDY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_308121404550": "CDRH3 SRWGPSGFYFFDY is 2 mutation(s) from SRWGDSGFYIFDY in tz_her2_facs_3classes_524346; a novel design needs at least 3",
+      "fab_1c0c8aef45c6": "CDRH3 SRWGPAGFYHHDY is 2 mutation(s) from SRWGKAGFYAHDY in tz_her2_facs_3classes_524346; a novel design needs at least 3"
+    }
+  },
+  "scope": "Installed-build decisions. Its identity classification compares to trastuzumab, not every known full antibody; task-PDF nearest-known identity remains an additional check."
+}

@@ -1,0 +1,19 @@
+{
+  "status": "DRAFT: no measured phenotype; de novo database eligibility unresolved",
+  "ranking_role": "Heuristic allocation of complementary hypotheses; not calibrated S-tier probability, not a validated decision rule.",
+  "technical_support": "Local explicit-reference abguard pass; Mol1full607 native recall>=.8, contactPAE<=10, own clashes<=5. Internal geometry thresholds, not challenge rules.",
+  "assay_order": "Conservative max of primary Ridge and secondary GP logKD scores; 6 affinity hypotheses,6 FACS-balanced,4 high-FACS hedges,up to2 framework hypotheses; ordinary H3 diversity>=2.",
+  "OpenDDE": "No negative gate: matched full-context WT itself fails to recover native epitope; positive results are additional uncalibrated geometry support.",
+  "default": "Two provisional de novo at15/16; top4 are Fab. Both tracks tested if N>=16.",
+  "alternate": "Two provisional de novo at3/4; both tracks among guaranteed4, at cost of two Fab opportunities.",
+  "guaranteed4": [
+    "newML_b973259db36d",
+    "newML_b973259db36d_FW85N87T",
+    "newML_a7acfcc8dce3",
+    "newML_5753ea077281_FW85N87T"
+  ],
+  "de_novo_candidates": [
+    "vhh_66a1ab11c27f",
+    "vhh_3e17aea82221"
+  ]
+}
