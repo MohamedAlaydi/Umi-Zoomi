@@ -1,0 +1,17 @@
+query_id,run,design,cdrh3,min_dist,identity,had_fold_before,also
+r007_a02,007,her2_anchored_2,WMVTGFYAFT,2,50,False,
+r007_a04,007,her2_anchored_4,WGKFGFYDFD,2,60,False,
+r007_a05,007,her2_anchored_5,WGDGGFYENN,2,50,True,
+r007_a18,007,her2_anchored_18,WRDYGFYYFD,2,50,True,
+r007_a23,007,her2_anchored_23,WGPVGFYADD,2,70,False,
+r007_a25,007,her2_anchored_25,WSSKGFYQHT,2,40,True,
+r007_a26,007,her2_anchored_26,WAAPGFYAQP,2,50,False,
+r007_a27,007,her2_anchored_27,WGWEGFYNFD,2,60,False,
+r007_a28,007,her2_anchored_28,WGYLGFYEYD,2,60,False,
+r007_a32,007,her2_anchored_32,WGASGFYYHD,2,60,False,
+r007_a33,007,her2_anchored_33,WGPSGFYVDN,2,50,False,
+r007_a37,007,her2_anchored_37,WGPQGFYEFD,2,60,True,
+r005_a00,005,her2_anchored_0,WGPSGFYAHD,2,70,False,005:her2_anchored_8;005:her2_anchored_33;
+r005_a14,005,her2_anchored_14,WGPAGFYEFD,2,60,True,
+r005_a22,005,her2_anchored_22,WGPSGFYFFD,2,60,False,
+r005_a34,005,her2_anchored_34,WGPAGFYHHD,2,60,False,
