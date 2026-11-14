@@ -1,0 +1,147 @@
+{
+  "job_id": "82ca8820a52524b3e61c3b79dc8a2a7e",
+  "utc": "2026-11-14T13:51:32.570051+00:00",
+  "archive_sha256": "e45dca569c3cb55c98ac4dd9d6e7024a38b3141615c101d706d2c624ec1e125c",
+  "artifacts": [
+    {
+      "path": "fixed_framework_control.cif",
+      "sha256": "bbcec81a74cd5420231b98c23fe607a31072ca50c3bf0eb105533d89f720d977",
+      "bytes": 200647
+    },
+    {
+      "path": "fixed_framework_control_pae.json",
+      "sha256": "3825a3a5815c392e4ca56d6a4c9e8897e162b9f72f753d387f59df8f56be22bb",
+      "bytes": 1699
+    },
+    {
+      "path": "fixed_framework_control_pae.npz",
+      "sha256": "a05a3bb0eaec4e24c886d3896e37b7d54f8db09f1dd6f881e532eb569cfe684b",
+      "bytes": 613267
+    },
+    {
+      "path": "high_footprint_known_hit.cif",
+      "sha256": "6e78516778d97c954b3a041ace83ff16f01739c99e88f01859bd883c899e94c0",
+      "bytes": 204664
+    },
+    {
+      "path": "high_footprint_known_hit_pae.json",
+      "sha256": "89861d6675053036cf035618b8c2ea47f6f21858bc1a2f9f5a4b1cce9ff0cb5d",
+      "bytes": 1699
+    },
+    {
+      "path": "high_footprint_known_hit_pae.npz",
+      "sha256": "ee23c583409654f3ba96d99f91cf93b3e1332ca2785db5a32864583ea5e4afb0",
+      "bytes": 629854
+    },
+    {
+      "path": "novel1_crop119.cif",
+      "sha256": "c62db0244b81b5e1453d98f8431117e0ab2165d27fbac38738c68546a146147c",
+      "bytes": 216187
+    },
+    {
+      "path": "novel1_crop119_pae.json",
+      "sha256": "4ad0bb639922779d8ffc92f67b5685524951d9b615ad41fde7ed1dd7b0d04a19",
+      "bytes": 1699
+    },
+    {
+      "path": "novel1_crop119_pae.npz",
+      "sha256": "0d35d148e1049cdbc733c407ecaf92a21aad3c8e6a077cf494f104197933a30f",
+      "bytes": 661952
+    },
+    {
+      "path": "novel1_ectodomain607.cif",
+      "sha256": "759ac22ddd0339036f6df553aa7c6aa43deb78291e0f6211f4b8987f0a8476b7",
+      "bytes": 633436
+    },
+    {
+      "path": "novel1_ectodomain607_pae.json",
+      "sha256": "573d2a66afe65352f7aa9acdd0fb9f2624a3599ae847b9a082269a395bea2e5a",
+      "bytes": 1699
+    },
+    {
+      "path": "novel1_ectodomain607_pae.npz",
+      "sha256": "a9f1e653e935b3cdb26b08d9b8c13c8d579a9caae73fd69f055b2908480eb6ba",
+      "bytes": 5890153
+    },
+    {
+      "path": "novel2_crop119.cif",
+      "sha256": "a3ded46c81f2b108d21b4bb474a220cf6c12cb2352170c33c0b8469c763180d7",
+      "bytes": 203674
+    },
+    {
+      "path": "novel2_crop119_pae.json",
+      "sha256": "89861d6675053036cf035618b8c2ea47f6f21858bc1a2f9f5a4b1cce9ff0cb5d",
+      "bytes": 1699
+    },
+    {
+      "path": "novel2_crop119_pae.npz",
+      "sha256": "0a192dd1a91cc1d808beac25447327025f1204fec717b126e7f6dec7dd7c00c6",
+      "bytes": 630282
+    },
+    {
+      "path": "novel2_ectodomain607.cif",
+      "sha256": "aff8897614ac3d04d207fedfc349d496a18653ebaa00f1a8e5f9141955041dda",
+      "bytes": 617164
+    },
+    {
+      "path": "novel2_ectodomain607_pae.json",
+      "sha256": "f110f3d4fb88d5db49ddf28c534933af8e24c5f72d41037cc6f313a0b6765099",
+      "bytes": 1699
+    },
+    {
+      "path": "novel2_ectodomain607_pae.npz",
+      "sha256": "00857c1f9583a469795f3ddac0a28e0c0f3af3816255ac507bf459f961ad6d3d",
+      "bytes": 5808579
+    },
+    {
+      "path": "novel3_crop119.cif",
+      "sha256": "688e2b82ea90ed682ea4251ab43063b2a8457516054d104f7c9cc7e2e316deb6",
+      "bytes": 214411
+    },
+    {
+      "path": "novel3_crop119_pae.json",
+      "sha256": "0f95f90819a2c2f6b3e47fed047541bf67cf155bc415739775b768adfee2b4f4",
+      "bytes": 1699
+    },
+    {
+      "path": "novel3_crop119_pae.npz",
+      "sha256": "3f600e644924ef42e6c2beac088b6a9cadecde7387b0644f1db59d813be453fb",
+      "bytes": 684248
+    },
+    {
+      "path": "novel3_ectodomain607.cif",
+      "sha256": "55bbb3fa439eadeb047073cb3050075e8651be05714fc5a31755a82a86c22181",
+      "bytes": 631660
+    },
+    {
+      "path": "novel3_ectodomain607_pae.json",
+      "sha256": "3efb5c719c47a3fa5432a49b70ef68adbc430351a8de4180f7135cb9bda71daf",
+      "bytes": 1699
+    },
+    {
+      "path": "novel3_ectodomain607_pae.npz",
+      "sha256": "9b99d412ba60e3a41397190bd2edfad73f688dbd43bb7f6523507936f1c6823f",
+      "bytes": 5954852
+    },
+    {
+      "path": "results.json",
+      "sha256": "71f4fa420d8a07e0b52e1dc067e94c6c17dc88d437eb23f5757feb26a6352ad7",
+      "bytes": 5640
+    },
+    {
+      "path": "trastuzumab_wt_control.cif",
+      "sha256": "287ad51cc5fd6fd138c12aadd25253fa1df839b7f3de46b7f65cc9c502a2b6f6",
+      "bytes": 295330
+    },
+    {
+      "path": "trastuzumab_wt_control_pae.json",
+      "sha256": "e47cab56ca901b923b3aeb30025cdf33b4d7514cbfe8eaf1d5e3a203a61eecbb",
+      "bytes": 1699
+    },
+    {
+      "path": "trastuzumab_wt_control_pae.npz",
+      "sha256": "b2bfba938ddf0743b440afe6ff894c1dba7649a5a3d098ea712ceb81f175dc1c",
+      "bytes": 1288801
+    }
+  ]
+}

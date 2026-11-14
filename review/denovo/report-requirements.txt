@@ -1,0 +1,2 @@
+playwright==1.65.2
+# Browser export is optional; install Chromium with: python -m playwright install chromium

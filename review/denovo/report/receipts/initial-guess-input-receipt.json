@@ -1,0 +1,57 @@
+[
+  {
+    "name": "novel1_crop119",
+    "candidate": "rfd4-variable-sequence-k1__her2_variable_sequence_13_generated",
+    "design_structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_13/her2_variable_sequence_13_generated.cif",
+    "target_completion_source": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/novel1_crop119.cif",
+    "target_completion_source_sha256": "acf32baf6555a8d690e533bc88bbab373697131a45e65f037a538077f3b2b8a8",
+    "target_resolved_CA_rmsd_to_design": 1.036171726411749,
+    "input_sha256": "033a66c395eb7dcb0f1e76c31660c6268ebd6ea131f87ce9a9eab67686781959",
+    "input_structure": "runs/011-codex-denovo-vhh/design-initial-guess-af2ig/novel1_crop119.cif",
+    "interpretation": "Model-completed native-sequence target; supplied design pose, not blind docking"
+  },
+  {
+    "name": "novel2_crop119",
+    "candidate": "rfd4-variable-sequence-k1__her2_variable_sequence_12_generated",
+    "design_structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_12/her2_variable_sequence_12_generated.cif",
+    "target_completion_source": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/novel2_crop119.cif",
+    "target_completion_source_sha256": "2691af70ceb3a0990c8e40a4f231cad4830efd6238d025ccefd7ead202cd95db",
+    "target_resolved_CA_rmsd_to_design": 0.9243005357362772,
+    "input_sha256": "d7bc9437032242db44a39e0555f0db15e3bb1fd946821b7873647cfcda283668",
+    "input_structure": "runs/011-codex-denovo-vhh/design-initial-guess-af2ig/novel2_crop119.cif",
+    "interpretation": "Model-completed native-sequence target; supplied design pose, not blind docking"
+  },
+  {
+    "name": "novel3_crop119",
+    "candidate": "rfd4-variable-sequence-k1__her2_variable_sequence_2_generated",
+    "design_structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_2/her2_variable_sequence_2_generated.cif",
+    "target_completion_source": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/novel3_crop119.cif",
+    "target_completion_source_sha256": "7955d6336d181c3bbec966e718c3e8b8e99551641a4aeebd77f47e50d8a76503",
+    "target_resolved_CA_rmsd_to_design": 0.9206874127321444,
+    "input_sha256": "913ff9c8f74abb24288b4cedb473c6815c57d542a6be94c92b99e8eeeda02021",
+    "input_structure": "runs/011-codex-denovo-vhh/design-initial-guess-af2ig/novel3_crop119.cif",
+    "interpretation": "Model-completed native-sequence target; supplied design pose, not blind docking"
+  },
+  {
+    "name": "high_footprint_known_hit",
+    "candidate": "rfd4-variable-sequence-k1__her2_variable_sequence_4_generated",
+    "design_structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_4/her2_variable_sequence_4_generated.cif",
+    "target_completion_source": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/high_footprint_known_hit.cif",
+    "target_completion_source_sha256": "0414fdf9010ef3a4073183e397e428c109e07cdeee358498d8a01c477e069b52",
+    "target_resolved_CA_rmsd_to_design": 0.7862739742227287,
+    "input_sha256": "aff63ab91b1c8812bff239c12458487f7d425dc9cc62ea6cf65f7dfb4b0af360",
+    "input_structure": "runs/011-codex-denovo-vhh/design-initial-guess-af2ig/high_footprint_known_hit.cif",
+    "interpretation": "Model-completed native-sequence target; supplied design pose, not blind docking"
+  },
+  {
+    "name": "fixed_framework_control",
+    "candidate": "her2_caplacizumab_cdr123_3_generated",
+    "design_structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_3/her2_caplacizumab_cdr123_3_generated.cif",
+    "target_completion_source": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/fixed_framework_control.cif",
+    "target_completion_source_sha256": "947282074dd27dbcaabef32dbdbf13d8908c255631f3b01762788de575135b0f",
+    "target_resolved_CA_rmsd_to_design": 0.9588164286395039,
+    "input_sha256": "02af6fc6afa0a9ba41a2714a87005ff9f3852af56c0533568bc398da707e9dd4",
+    "input_structure": "runs/011-codex-denovo-vhh/design-initial-guess-af2ig/fixed_framework_control.cif",
+    "interpretation": "Model-completed native-sequence target; supplied design pose, not blind docking"
+  }
+]

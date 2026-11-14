@@ -1,0 +1,18 @@
+gate,status,evidence,next_required_evidence
+environment,PASS,H100; local antibody image; authenticated provider metadata,Existing GPU is busy; preserve lock
+input_target_mapping,PASS,109 coordinate residues match; 119-aa native pilot; 19 mapped epitope residues,Finalists need extended HER2 and glycan context
+candidate_sequence_preflight,PASS_LOCAL,20/20 existing Fab pairs; numbering confidence >=0.8607,Run new VHH sequences through the same local checks
+official_track_and_novelty,UNVERIFIED,Official validator and comparison database not located,Get organiser tool or portal receipt
+cdrh3_definition,REVIEW,Organiser mutant window=10; IMGT CDRH3=13,Map and freeze official extraction convention
+disulfides,UNVERIFIED,Two Cys per old chain; count is not pairing proof,Check structural pairing and official result
+new_vhh_geometry,NOT_RUN,Current structural checker hardcodes four Fab/HER2 chains,Implement explicit VHH chain-role map
+independent_refolding,NOT_RUN,JapanFold and Nebius interfaces are reachable,Matched candidate controls and a different cofolder
+seed_robustness,PARTIAL,Saved run-009 summary incomplete; no PASS_ROBUST in reviewed snapshot,Complete WT-paired seed coverage
+affinity_calibration,PARTIAL,Historical assay audit reproducible; structural calibration has no results in reviewed snapshot,Do not apply trastuzumab FACS model as VHH affinity probability
+epitope_competition,NOT_MEASURED,Reference footprint is mapped,Experimental competition against contemporaneous trastuzumab
+thermostability,NOT_MEASURED,No new candidate Tm,Direct thermal measurement; chemical motifs and ddG are separate
+expression_and_specificity,NOT_MEASURED,No novel candidate expression or off-target assay result,Retain expression/no-fit/inconclusive/missing as separate outcomes
+software_tests,PASS,7 existing + 3 new regression tests passed,Tests establish stated software behavior only
+evidence_replay,PASS,193 input hashes verified; all 8 generated evidence outputs identical,Freeze final ranked sequences and receipts
+submission,PENDING,20 old candidates locally screened; no official validation receipts,Use exact official format; one ranked list with sequence hashes
+new_api_spend,RECORDED,3 AMASS searches; 15 credits = USD 0.15,Provider design histories are not cost quotes

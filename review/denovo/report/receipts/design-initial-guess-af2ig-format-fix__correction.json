@@ -1,0 +1,5 @@
+{
+  "original_job": "7800c0f7d13c48f2f2f455e69980b117",
+  "terminal_status": "failed",
+  "reason": "Provider conversion requires pdbx_PDB_ins_code. Added insertion marker and removed insignificant coordinate decimal zeros; all residues and coordinate values unchanged."
+}

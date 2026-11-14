@@ -1,0 +1,47 @@
+{
+  "provenance": {
+    "cli_contract_version": "foundry.cli.v1",
+    "ended_at": "2026-11-14T12:18:57.936095Z",
+    "inputs": [
+      {
+        "path": "/work/runs/009-claude-multiseed-refold/prepared/holo/queries_timing.json",
+        "tier": "none"
+      }
+    ],
+    "module": {
+      "name": "apheris-boltz",
+      "version": "1.3.0"
+    },
+    "resolved_config": {
+      "missing_msas": "fail",
+      "num_diffusion_samples": 1,
+      "query_failures": "skip",
+      "recycling_steps": 3,
+      "sampling_steps": 200,
+      "seeds": [
+        1
+      ],
+      "template_paths": [
+        "../prepared/holo/template.cif"
+      ],
+      "weights": "/app/weights/boltz2_conf.ckpt",
+      "write_detailed_scores": true
+    },
+    "started_at": "2026-11-14T12:18:09.537534Z"
+  },
+  "result": {
+    "predictions": [
+      {
+        "detailed_scores_path": "trastuzumab_wt/seed_1/trastuzumab_wt_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "trastuzumab_wt/seed_1/trastuzumab_wt_seed_1_sample_1_model.cif",
+        "query_id": "trastuzumab_wt",
+        "query_index": 0,
+        "sample": 1,
+        "scores_path": "trastuzumab_wt/seed_1/trastuzumab_wt_seed_1_sample_1_scores.json",
+        "seed": 1
+      }
+    ]
+  },
+  "schema_version": "foundry.cli.v1",
+  "task": "predict"
+}

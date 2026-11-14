@@ -1,0 +1,65 @@
+{
+  "count": 5,
+  "polymer_entities": [
+    {
+      "rcsb_id": "9L1J_1",
+      "rcsb_polymer_entity": {
+        "pdbx_description": "sdAbB YERLA"
+      },
+      "entity_poly": {
+        "pdbx_seq_one_letter_code_can": "QVQLVESGGGLVQPGGSLRLSCAASGFTFSSYWMYWYRQAPGKERELVSGISNGGAGTYYADSVKGRFTISRDNAKNTLYLQMNSLKSEDTAVYYCAQRGSSASRMDYWGKGTQVTVSSAAGHHHHHH"
+      }
+    },
+    {
+      "rcsb_id": "8ELQ_2",
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Nanobody Nb-C4-255"
+      },
+      "entity_poly": {
+        "pdbx_seq_one_letter_code_can": "EVQLQESGGGLVQPGGSLRLSCAASGFTFSSYAMGWYRQAPGKEREWVCAISGSGGSTYYADSVKGRFTCSRDNSKNTLYLQMNSLKPEDTAVYYCARQAWYYSPYGGPEFEAFDYWGQGTQVTVSSGSGHHHHHHHHHH"
+      }
+    },
+    {
+      "rcsb_id": "8ELP_2",
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Nanobody Nb-C4-240"
+      },
+      "entity_poly": {
+        "pdbx_seq_one_letter_code_can": "EVQLQESGGGLVQPGGSLRLSCAASGFTFSSYAMGWYRQAPGKEREWVCAISGSGGSTYYADSVKGRFTCSRDNSKNTLYLQMNSLKPEDTAVYYCARVVSYYDQTGFVYWQSYDYWGQGTQVTVSSGSGHHHHHHHHHH"
+      }
+    },
+    {
+      "rcsb_id": "8ELO_2",
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Nanobody Nb-C4-225"
+      },
+      "entity_poly": {
+        "pdbx_seq_one_letter_code_can": "EVQLQESGGGLVQPGGSLRLSCAASGFTFSSYAMGWYRQAPGKEREWVCAISGSGGSTYYADSVKGRFTCSRDNSKNTLYLQMNSLKPEDTAVYYCARGSFYYTYGGSVGFDAFDYWGQGTQVTVSSGSGHHHHHHHHHH"
+      }
+    },
+    {
+      "rcsb_id": "1OL0_1",
+      "rcsb_polymer_entity": {
+        "pdbx_description": "IMMUNOGLOBULIN G"
+      },
+      "entity_poly": {
+        "pdbx_seq_one_letter_code_can": "QVQLVESGGGLVQPGGSLRLSCAASGFTFSSYAMSWFRQAPGKEREIVSAVSGSGGSTYYADSVRGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAREPRIPRPPSFDYWGQGTLVTVSS"
+      }
+    }
+  ],
+  "editor": {
+    "url": "https://data.rcsb.org/graphiql/index.html",
+    "params": {
+      "query": "query Q($ids: [String!]!) { polymer_entities(entity_ids: $ids) { rcsb_id rcsb_polymer_entity { pdbx_description } entity_poly { pdbx_seq_one_letter_code_can } } }",
+      "variables": {
+        "ids": [
+          "8ELQ_2",
+          "1OL0_1",
+          "8ELO_2",
+          "8ELP_2",
+          "9L1J_1"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+# Exploratory variable-sequence co-design, k=1
+
+The 32 fixed-framework designs remained >75% identical to at least one known PDB heavy/VHH reference under the local diagnostic. This arm frees most framework SEQUENCE while preserving framework BACKBONE, the two canonical Cys and two core Trp positions; retains target sequence and hotspot conditions. CDRH3 length18-30. It is an exploratory condition distribution for the antibody checkpoint, not a validated full-framework design method. Generated antibody identity/fold, disulfides, nearest known sequences and independent refolds must be checked before selection. No random post-hoc mutations to force the identity threshold. Requested16 designs, seed20261114, sequence-tsr-k=1.

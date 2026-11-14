@@ -1,0 +1,81 @@
+{
+  "candidate": "pilot-directed-s20261114__3_shard-0_design__canonicalCys",
+  "query": {
+    "query": {
+      "type": "terminal",
+      "service": "sequence",
+      "parameters": {
+        "value": "EVQLVESGGGLVQPGGSLRLSCAASGFTFSSYLMGWFRQAPGKERELVAVISSSGSLTYYADSVKGRFTISRDNAKNTVYLQMNSLKAEDTAVYYCAAVDSSHYYANPDAPRSEQVDYWGQGTQVTVSSAATTLE",
+        "sequence_type": "protein",
+        "identity_cutoff": 0.7,
+        "evalue_cutoff": 1
+      }
+    },
+    "digest": "c4708b4bd770"
+  },
+  "hits": {
+    "total_count": 1248,
+    "returned": 5,
+    "result_type": "polymer_entity",
+    "fetch_with": "rcsb_get_polymer_entities",
+    "offset": 0,
+    "has_more": true,
+    "next_offset": 5,
+    "hits": [
+      {
+        "id": "8ELQ_2",
+        "score": 1
+      },
+      {
+        "id": "1OL0_1",
+        "score": 0.92
+      },
+      {
+        "id": "8ELO_2",
+        "score": 0.92
+      },
+      {
+        "id": "8ELP_2",
+        "score": 0.92
+      },
+      {
+        "id": "9L1J_1",
+        "score": 0.92
+      }
+    ],
+    "editor": {
+      "url": "https://search.rcsb.org/query-editor.html",
+      "params": {
+        "json": {
+          "query": {
+            "type": "terminal",
+            "service": "sequence",
+            "parameters": {
+              "value": "EVQLVESGGGLVQPGGSLRLSCAASGFTFSSYLMGWFRQAPGKERELVAVISSSGSLTYYADSVKGRFTISRDNAKNTVYLQMNSLKAEDTAVYYCAAVDSSHYYANPDAPRSEQVDYWGQGTQVTVSSAATTLE",
+              "sequence_type": "protein",
+              "identity_cutoff": 0.7,
+              "evalue_cutoff": 1
+            }
+          },
+          "return_type": "polymer_entity",
+          "request_options": {
+            "results_content_type": [
+              "experimental"
+            ],
+            "sort": [
+              {
+                "sort_by": "score",
+                "direction": "desc"
+              }
+            ],
+            "paginate": {
+              "start": 0,
+              "rows": 5
+            },
+            "scoring_strategy": "sequence"
+          }
+        }
+      }
+    }
+  }
+}

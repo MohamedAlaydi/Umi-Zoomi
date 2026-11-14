@@ -82,3 +82,92 @@ chains.
   warnings.warn(
 /app/.pixi/envs/boltz-image/lib/python3.11/site-packages/cuequivariance_ops_torch/triangle_attention.py:623: UserWarning: Generic kernel expects bias to be float32 so it's going to be cast to torch.float32. Check if you can change your code for maximum performance.
   warn_eager_only(
+/app/.pixi/envs/boltz-image/lib/python3.11/site-packages/boltz-community/src/boltz/data/feature/featurizerv2.py:1742: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  deletion = np.pi / 2 * np.arctan(deletion / 3)
+Predicting ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10/10 0:01:21 • 0:00:00 0.14it/s 
+design                                                                        query_id          model   status     seed  sample  binder_chain  target_chains  criterion  pass  pass_note                
+generation/inference_samples/her2_anchored_13/her2_anchored_13_generated.cif  her2_anchored_13  boltz2  predicted  42    1       B             A;C;D          antibody         "missing refolded_target_
+generation/inference_samples/her2_anchored_14/her2_anchored_14_generated.cif  her2_anchored_14  boltz2  predicted  42    1       B             A;C;D          antibody         "missing refolded_target_
+generation/inference_samples/her2_anchored_19/her2_anchored_19_generated.cif  her2_anchored_19  boltz2  predicted  42    1       B             A;C;D          antibody         "missing refolded_target_
+generation/inference_samples/her2_anchored_21/her2_anchored_21_generated.cif  her2_anchored_21  boltz2  predicted  42    1       B             A;C;D          antibody         "missing refolded_target_
+generation/inference_samples/her2_anchored_25/her2_anchored_25_generated.cif  her2_anchored_25  boltz2  predicted  42    1       B             A;C;D          antibody         "missing refolded_target_
+generation/inference_samples/her2_anchored_26/her2_anchored_26_generated.cif  her2_anchored_26  boltz2  predicted  42    1       B             A;C;D          antibody         "missing refolded_target_
+generation/inference_samples/her2_anchored_28/her2_anchored_28_generated.cif  her2_anchored_28  boltz2  predicted  42    1       B             A;C;D          antibody         "missing refolded_target_
+generation/inference_samples/her2_anchored_30/her2_anchored_30_generated.cif  her2_anchored_30  boltz2  predicted  42    1       B             A;C;D          antibody         "missing refolded_target_
+generation/inference_samples/her2_anchored_31/her2_anchored_31_generated.cif  her2_anchored_31  boltz2  predicted  42    1       B             A;C;D          antibody         "missing refolded_target_
+generation/inference_samples/her2_anchored_6/her2_anchored_6_generated.cif    her2_anchored_6   boltz2  predicted  42    1       B             A;C;D          antibody         "missing refolded_target_
+EXIT=0
+10 refolded design(s) from /home/hackathon/team14/data/rfd4-proteina/docs/runs/005-mohamed-anchored-n40/scored-boltz2/refold_metrics.csv
+
+ranking numbers (the pass column is empty for HER2, so rank on these)
+query                             min ipae                      iptm              binder plddt                binder ptmtarget aligned binder rmsd             backbone rmsd
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+her2_anchored_13                     0.339                     0.952                    98.423                     0.991                         -                     0.885
+her2_anchored_14                     0.313                     0.962                    97.635                     0.993                         -                     1.057
+her2_anchored_19                     0.329                     0.957                    98.566                     0.992                         -                     0.679
+her2_anchored_21                     0.335                     0.956                    98.619                     0.992                         -                     0.681
+her2_anchored_25                     0.324                     0.961                    98.415                     0.992                         -                     0.924
+her2_anchored_26                     0.314                     0.962                    97.642                     0.993                         -                     0.732
+her2_anchored_28                     0.346                     0.947                    97.064                     0.990                         -                     1.075
+her2_anchored_30                     0.330                     0.951                    97.944                     0.991                         -                     6.324
+her2_anchored_31                     0.339                     0.952                    98.423                     0.991                         -                     0.878
+her2_anchored_6                      0.339                     0.952                    98.423                     0.991                         -                     0.802
+
+designed CDRH3 and novelty
+(checked against 525,063 provided CDRH3)
+
+wild type CDRH3: WGGDGFYAMD   contacts HER2 at W99, G103, F104, Y105   liabilities D102, M107
+
+query            CDRH3          minDist  %idTz  novelty    hypothesis
+--------------------------------------------------------------------------------------
+her2_anchored_13 WGPSGFYAMD           1    80%  REJECTED   grip kept
+                 4/4 contacts kept; 1/2 liabilities fixed (D102->S)
+                 nearest provided: WGASGFYAMD
+                 full binder, 120 aa: EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGPSGFYAMDYWGQGTLVTVSS
+
+her2_anchored_14 WGPAGFYEFD           2    60%  ok         IDEAL
+                 4/4 contacts kept; 2/2 liabilities fixed (D102->A, M107->F)
+                 full binder, 120 aa: EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGPAGFYEFDYWGQGTLVTVSS
+
+her2_anchored_19 WGPPGFYAMD           1    80%  REJECTED   grip kept
+                 4/4 contacts kept; 1/2 liabilities fixed (D102->P)
+                 nearest provided: WGDPGFYAMD
+                 full binder, 120 aa: EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGPPGFYAMDYWGQGTLVTVSS
+
+her2_anchored_21 WGPAGFYYFD           1    60%  REJECTED   IDEAL
+                 4/4 contacts kept; 2/2 liabilities fixed (D102->A, M107->F)
+                 nearest provided: WGDAGFYYFD
+                 full binder, 120 aa: EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGPAGFYYFDYWGQGTLVTVSS
+
+her2_anchored_25 WGPPGFYVFD           1    60%  REJECTED   IDEAL
+                 4/4 contacts kept; 2/2 liabilities fixed (D102->P, M107->F)
+                 nearest provided: WGDPGFYVFD
+                 full binder, 120 aa: EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGPPGFYVFDYWGQGTLVTVSS
+
+her2_anchored_26 WGPSGFYEHD           1    60%  REJECTED   IDEAL
+                 4/4 contacts kept; 2/2 liabilities fixed (D102->S, M107->H)
+                 nearest provided: WGGSGFYEHD
+                 full binder, 120 aa: EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGPSGFYEHDYWGQGTLVTVSS
+
+her2_anchored_28 WGPSGFYEFD           1    60%  REJECTED   IDEAL
+                 4/4 contacts kept; 2/2 liabilities fixed (D102->S, M107->F)
+                 nearest provided: WGDSGFYEFD
+                 full binder, 120 aa: EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGPSGFYEFDYWGQGTLVTVSS
+
+her2_anchored_30 WGSSGFYAFD           1    70%  REJECTED   IDEAL
+                 4/4 contacts kept; 2/2 liabilities fixed (D102->S, M107->F)
+                 nearest provided: WGGSGFYAFD
+                 full binder, 120 aa: EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGSSGFYAFDYWGQGTLVTVSS
+
+her2_anchored_31 WGPSGFYAMD           1    80%  REJECTED   grip kept
+                 4/4 contacts kept; 1/2 liabilities fixed (D102->S)
+                 nearest provided: WGASGFYAMD
+                 full binder, 120 aa: EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGPSGFYAMDYWGQGTLVTVSS
+
+her2_anchored_6  WGPSGFYAMD           1    80%  REJECTED   grip kept
+                 4/4 contacts kept; 1/2 liabilities fixed (D102->S)
+                 nearest provided: WGASGFYAMD
+                 full binder, 120 aa: EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGPSGFYAMDYWGQGTLVTVSS
+
+hypothesis tally: 6 IDEAL, 4 grip kept
+IDEAL = all four contact residues kept and both liabilities changed. That is the design we are looking for.

@@ -1,0 +1,8 @@
+test_changed_sequence_cannot_reuse_reference_hash (test_preflight.PreflightTests.test_changed_sequence_cannot_reuse_reference_hash) ... ok
+test_csv_duplicates_and_format_mismatch_are_not_silent (test_preflight.PreflightTests.test_csv_duplicates_and_format_mismatch_are_not_silent) ... ok
+test_imported_claim_cannot_assign_track_or_official_acceptance (test_preflight.PreflightTests.test_imported_claim_cannot_assign_track_or_official_acceptance) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.068s
+
+OK

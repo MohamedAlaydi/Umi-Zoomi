@@ -1,0 +1,2426 @@
+{
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    42
+  ],
+  "raw_file_digests": {
+    "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json": "48e7f85bc88744c225ac006111241fdb108ab964cbbd37766a7b8dd36213c9b4",
+    "runs/006-anas-enumerated-top40/out/boltz2/result.json": "b3c6bb722cbc608d814fae19306bc71e1a272db6537ec87000fd5f7b89bd0de2",
+    "runs/006-anas-enumerated-top40/out/boltz2/config.json": "8e2a5b8d42b062fc2a4d43ac7c148c152a1a3351e737617a493ee88d617c8adc",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_001/seed_42/anas_001_seed_42_sample_1_model.cif": "b849aed91e74b819b0c050e35edbc4ceb419c947b1768d64be396c1c6ad0fc16",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_001/seed_42/anas_001_seed_42_sample_1_scores.json": "9fd77011ea8e656b67acf10cc85887b0d755ba819be585293c533e39de83ea5c",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_002/seed_42/anas_002_seed_42_sample_1_model.cif": "ab47ab23f65b7207c5be9d343845a2474e9cbc352039b03d01b0d1259eca0582",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_002/seed_42/anas_002_seed_42_sample_1_scores.json": "4094192c5ca18b9e601c0105ac5e95fbedb310ef3222abab605077b421cdfb6b",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_003/seed_42/anas_003_seed_42_sample_1_model.cif": "bf344aca8b8abb50e07c1872c7f16f2cd62ce018e6f1ee995ceff5b02f7b9532",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_003/seed_42/anas_003_seed_42_sample_1_scores.json": "30314c43b3ec13ded5723cbf5ee1d28f3c5a21e328ddab5466c419c96086957b",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_004/seed_42/anas_004_seed_42_sample_1_model.cif": "7e425e1f57bdf69ba49374c930576c37f69092837005e9ff3050917d9018a974",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_004/seed_42/anas_004_seed_42_sample_1_scores.json": "6edf57350cea863c814c2d6fdfa62a3ae8e6d9a49c25b7730eae4a8c8766e841",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_005/seed_42/anas_005_seed_42_sample_1_model.cif": "97f5204db2e0f2815c2513f3fc1911bf074c494d50439bfccad8b7a5930be036",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_005/seed_42/anas_005_seed_42_sample_1_scores.json": "72d7ba74ed5945e098013d7c933bb79fe885d22676638e5e01d7aadcfae402bd",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_006/seed_42/anas_006_seed_42_sample_1_model.cif": "34570e3d58087a7c73090336be7f62125583afd5b6d04ceb39bb299f4642e6fd",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_006/seed_42/anas_006_seed_42_sample_1_scores.json": "1f547719d897adc0afc3cd14f6ecb24c16a27f2098c724d451dd2cd3e9e94592",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_007/seed_42/anas_007_seed_42_sample_1_model.cif": "c82f7d99429a08f58074d80c3ae942a09cc82bed06efab41f051e1241382473d",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_007/seed_42/anas_007_seed_42_sample_1_scores.json": "f7c27a1c0ecaca81121411b217fba773af785bf1aa60507c9b518efc0e0172f6",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_008/seed_42/anas_008_seed_42_sample_1_model.cif": "38ff0c1b843756dce94aaa29fa869af2598d34280590f6c5349a3af687c45e34",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_008/seed_42/anas_008_seed_42_sample_1_scores.json": "52c3894a977e1850c0e41c9b90ae663ff85bcd45b964e0d02f1a347804d79e62",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_009/seed_42/anas_009_seed_42_sample_1_model.cif": "97c0b96b5e319276d90249d86fe7c888a8b25f72fca0bc15030f0f9294c29ca2",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_009/seed_42/anas_009_seed_42_sample_1_scores.json": "be335ba6c38aabf0eea3ff87cd169d0bbff1c50c05da069d46d0f314462fbc79",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_010/seed_42/anas_010_seed_42_sample_1_model.cif": "95183b533722863cc099e869436227fcce8699e98c22b75fd6e7bfdd8c2b4cdb",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_010/seed_42/anas_010_seed_42_sample_1_scores.json": "b938e76123f6d90a441563c25ebf41bb1bf06eb7a09e216af02894434d5787fd",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_011/seed_42/anas_011_seed_42_sample_1_model.cif": "62323d0dd0945b4b4e8de94385b2dc1534753aac6283fd5a8e3509d2fb1f7cee",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_011/seed_42/anas_011_seed_42_sample_1_scores.json": "a56992acfcd903598422564a853d5f709935edef2603a9b53ef231a0da9e263c",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_012/seed_42/anas_012_seed_42_sample_1_model.cif": "70531d1bb4ffa082bcd17e08cff68804df3344299fa043962e78df05bfd42a4e",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_012/seed_42/anas_012_seed_42_sample_1_scores.json": "5b7e0ec222db439b319262e6e9d1c6e50cc022860078616180fb2d46a915d760",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_013/seed_42/anas_013_seed_42_sample_1_model.cif": "6e9ce0332088305f25e9af0568096e9e6b92c6e7cb427c530a7d6e8943c092f3",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_013/seed_42/anas_013_seed_42_sample_1_scores.json": "f8afd353cb7740910f96a939a69e531c0bdf2aa053b0471a1b22f9dceabcde9c",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_014/seed_42/anas_014_seed_42_sample_1_model.cif": "6b839afc0981099896e3ab58ec34be631c05ebb07f7bba0dc1525c899876f128",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_014/seed_42/anas_014_seed_42_sample_1_scores.json": "6575645b21f581df2b4cf030c61ee1a119e257442febe1f97cc00893d3b75143",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_015/seed_42/anas_015_seed_42_sample_1_model.cif": "1bf3e18a6132e8aa5afa99809044871660ef283be4d34ce188b463296715a8eb",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_015/seed_42/anas_015_seed_42_sample_1_scores.json": "638704770261d1a0b8ceb7d8cc7376f70c9c641caac3e70ea6bbc9a04997a400",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_016/seed_42/anas_016_seed_42_sample_1_model.cif": "8c9d2c03bd419c4a4ed4e5a1891284116f85825f4427db96f224fc12d27370e6",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_016/seed_42/anas_016_seed_42_sample_1_scores.json": "fc18e26595ac5f6855be73b55867e185b34fb54b9e565d46628bb67fc3e147b2",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_017/seed_42/anas_017_seed_42_sample_1_model.cif": "3dc31b3443f13d648c8c6240b7d9e67c2927bb4c1cdc5551e3a865722352efc0",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_017/seed_42/anas_017_seed_42_sample_1_scores.json": "c8212622fe8aebbc3940479aa7e98e972ab4a36ee791e8d3e86460c9a32f3035",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_018/seed_42/anas_018_seed_42_sample_1_model.cif": "c0bac166147db04326ef48525028065dfe521a71db38b9832aafff9153832b2d",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_018/seed_42/anas_018_seed_42_sample_1_scores.json": "4484d82e735da009ae6db16fc19cbc2de65795519b45c518e20883c76c0328b1",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_019/seed_42/anas_019_seed_42_sample_1_model.cif": "658bed55dcfcf96d26e7f8c18ec0f27c97b6eeb1106c07282c0b9123e8c6ccbd",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_019/seed_42/anas_019_seed_42_sample_1_scores.json": "eb26b5d97497a77b66573df4a8069cee6b39c67c04681984064e102924426231",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_020/seed_42/anas_020_seed_42_sample_1_model.cif": "4e93783bc36a3b7728b77d53958a802b8dbb989a27c7a638a8ac809edff539f0",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_020/seed_42/anas_020_seed_42_sample_1_scores.json": "06f8a6483f5e699db51b552f4d56bac7bdf599956ac303304346923c6d2e0047",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_021/seed_42/anas_021_seed_42_sample_1_model.cif": "5b0d695d0bf06f2b5c5b0aa95d27c9660d6201fbfb8a928a44da85a38140ea9c",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_021/seed_42/anas_021_seed_42_sample_1_scores.json": "bc2939e3ce020d945af527a1a6318d05a6446e6d75881d69958723754954ad02",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_022/seed_42/anas_022_seed_42_sample_1_model.cif": "f8060ba44acc358d783c311e5caa684b3036aaf38db55560523261f2be017aaa",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_022/seed_42/anas_022_seed_42_sample_1_scores.json": "b6e168e0dfbcfc8451ec1f9c2a4f84ab035df11caece117f13a79ac20e2fe114",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_023/seed_42/anas_023_seed_42_sample_1_model.cif": "236bb3e0c4f78e0c83792b37008a51763d3d2b44468d3e65ff60a991d7bbcf8e",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_023/seed_42/anas_023_seed_42_sample_1_scores.json": "1774ede15994d6eaa205f8abecaba53b21a3ca5df7cf49cbc06eb803ec5699d5",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_024/seed_42/anas_024_seed_42_sample_1_model.cif": "4aec5815beb6b8f2e9ee4dd7c569ebc53557f999fa8fe7909c34c6e79afb61d1",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_024/seed_42/anas_024_seed_42_sample_1_scores.json": "445fcd27232e11812a0453d648114a702d4f0b02227c1b4ccd2a31d11bf0492a",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_025/seed_42/anas_025_seed_42_sample_1_model.cif": "87a48b3bb727fdad4db11be48f29429ba3e748e851059924ec7c3c1fc8c8c96d",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_025/seed_42/anas_025_seed_42_sample_1_scores.json": "2133b7999f7bc769e00f0c9b8f94710508590791a3171880802217cc81efeb14",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_026/seed_42/anas_026_seed_42_sample_1_model.cif": "9d30c5dcb99b7b9825e13c3f1baae7b95aee389b323fadae6645b197e2aa4c65",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_026/seed_42/anas_026_seed_42_sample_1_scores.json": "efbed69fec518252d4837b7d17f5dabcb48d925fb7a8d8fa122c098586ad45c1",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_027/seed_42/anas_027_seed_42_sample_1_model.cif": "b09223cfb1ed5834a5df619960bb9002e46c7f97556e6238e95ce4389abfbc53",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_027/seed_42/anas_027_seed_42_sample_1_scores.json": "ea6335a54bd23e3c6fef0f83c9d1655f4d4a83132ef351006611ad9fd68bb468",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_028/seed_42/anas_028_seed_42_sample_1_model.cif": "0d2e3ac985a4c5469c62645619b43d034c45ea6ba1d58671c3d2a3c05f903c8a",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_028/seed_42/anas_028_seed_42_sample_1_scores.json": "64141f3e0cf8febcb1388885adea2cc7c898b5f32245a2a9822afb577a8d828b",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_029/seed_42/anas_029_seed_42_sample_1_model.cif": "dce70fc744077a3cf42be1adb7e3de2d9a0b08600556b5bd99afe22f8b4730d8",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_029/seed_42/anas_029_seed_42_sample_1_scores.json": "e4199daf3d0161a9a9390d65d58d6345b459a38651397a26288c72133d523e85",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_030/seed_42/anas_030_seed_42_sample_1_model.cif": "6908711dc06b49e9cd19fbc1b35b050248a784907b0bdf453543fe5d5932a7a0",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_030/seed_42/anas_030_seed_42_sample_1_scores.json": "075ebf2beebb3287f0c9d9588be751a8f126422097b0ab57c8b2bd6aea4ef349",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_031/seed_42/anas_031_seed_42_sample_1_model.cif": "bfbbca96d78d4235ecc1bde466e979c5ef5c3dcb26955525508fbf61c8c96aac",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_031/seed_42/anas_031_seed_42_sample_1_scores.json": "a970891fb3ee0e516cc66d003598348ab8c2d790e485126b9168adc2f9649146",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_032/seed_42/anas_032_seed_42_sample_1_model.cif": "681d860a529d145a74ba3b3963b689ba12d9170601b7398760ef088b02049bdb",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_032/seed_42/anas_032_seed_42_sample_1_scores.json": "360bc770a3ef5c9ab66195b48d347b1ec7cd726d0f138249eeb54b54095cd6a7",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_033/seed_42/anas_033_seed_42_sample_1_model.cif": "e7dc12133907b525c162be05c18a7dd4f9543f88d3201bcecf4e57b14c3cbfd5",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_033/seed_42/anas_033_seed_42_sample_1_scores.json": "dced0938371df3b006c940d7048fb5ee87e273c1016ff8b690ed4cb28ef573fd",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_034/seed_42/anas_034_seed_42_sample_1_model.cif": "13c81b60d9c2c6698344e9939d7e839f8709a45979e60d837d9d38ecb3cf4543",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_034/seed_42/anas_034_seed_42_sample_1_scores.json": "9babe2fe2a9b7e8996e908eb02d0c56efefd6b40e365f1902727f32dae09b020",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_035/seed_42/anas_035_seed_42_sample_1_model.cif": "e89a96b5b4d80e5d911c38abf77ff9bbc0016570e60c16dc4bd05e6fd35ed258",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_035/seed_42/anas_035_seed_42_sample_1_scores.json": "0509e3b29ef4a2ae8ced565b5c4f226626205e89a036e814188016f509dcd5d6",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_036/seed_42/anas_036_seed_42_sample_1_model.cif": "469fb84edaff136375bdbeecef0a664530b487c39d8b9411a096a25db4f1cd09",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_036/seed_42/anas_036_seed_42_sample_1_scores.json": "0e312a5fcfaa95c9e0c76505fe7bcb68054a783102f150fa8e6fa908b7dabfd8",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_037/seed_42/anas_037_seed_42_sample_1_model.cif": "aae53b25284fb5d22abe3865dd6f6de3bc9d1ae7a650b6c19e7f98310a5ba5d6",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_037/seed_42/anas_037_seed_42_sample_1_scores.json": "67f64506db2ffa5e89b13d6c76ba55616571c98f910d921f52f0f2676ef892a6",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_038/seed_42/anas_038_seed_42_sample_1_model.cif": "1840d44a68befff4182cc08e2102f4789c34abb36469f76735afccb7f0d57042",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_038/seed_42/anas_038_seed_42_sample_1_scores.json": "a7a3d275d867a85d835bbb62498b1272d07ecf0f12c1f4178ae3f0e1ccfb2e20",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_039/seed_42/anas_039_seed_42_sample_1_model.cif": "ca9e2d3ed1f6da2b33edbc66b3070f677f1cc7ba666e1f1fe554c58d743840af",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_039/seed_42/anas_039_seed_42_sample_1_scores.json": "4f44068d7ce9b9f5cd9ca072dce3b3087ed2669caac29a44f69f9a74f759ab99",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_040/seed_42/anas_040_seed_42_sample_1_model.cif": "eb5ddc63edbef1d15eb526cd3b6aa76ec62b28c893663b55f949964169375795",
+    "runs/006-anas-enumerated-top40/out/boltz2/anas_040/seed_42/anas_040_seed_42_sample_1_scores.json": "f3a05098e4b9ccac7e24471775e0c72c639131c80a017bbb25aca0f665ec9e1f",
+    "runs/006-anas-enumerated-top40/out/boltz2/trastuzumab_wt/seed_42/trastuzumab_wt_seed_42_sample_1_model.cif": "077b15e3b30234965c3c1f8bd49899428c88aae65c15110c429431a8b45dab5e",
+    "runs/006-anas-enumerated-top40/out/boltz2/trastuzumab_wt/seed_42/trastuzumab_wt_seed_42_sample_1_scores.json": "c17a46fd765eba0f4bca1688a7900af9f3a85ded49b03a9bd9e975ea88e2ce42",
+    "runs/006-anas-enumerated-top40/out/boltz2/r004_cdrh3_4/seed_42/r004_cdrh3_4_seed_42_sample_1_model.cif": "09c1962b8891ab06e2f1c408a923c368407e87fd9bc8f5a9b074c4e8df966b1d",
+    "runs/006-anas-enumerated-top40/out/boltz2/r004_cdrh3_4/seed_42/r004_cdrh3_4_seed_42_sample_1_scores.json": "d0c61ff5d33cf5ecc0c465b02a2bddf3f44169bcff1c2f6627cde6971ba512ed",
+    "runs/006-anas-enumerated-top40/out/boltz2/r004_cdrh3_3/seed_42/r004_cdrh3_3_seed_42_sample_1_model.cif": "9bea0ee7a556206405eabc737dff56ef1194969eb3a1e177f508132350761f9f",
+    "runs/006-anas-enumerated-top40/out/boltz2/r004_cdrh3_3/seed_42/r004_cdrh3_3_seed_42_sample_1_scores.json": "9ef0563d157a2b27948f457f04cf854b8fde86dca02f4b84112f6035c6fecaf3",
+    "runs/006-anas-enumerated-top40/out/boltz2/r004_cdrh3_31/seed_42/r004_cdrh3_31_seed_42_sample_1_model.cif": "cd575d6d6c169d230151e983c63b115ff4349a4dec4de6ad0cb211e85ec35fdd",
+    "runs/006-anas-enumerated-top40/out/boltz2/r004_cdrh3_31/seed_42/r004_cdrh3_31_seed_42_sample_1_scores.json": "186741a59c375a5eb4facc567f2ef87de8347d4befe69fe04eb1ccb41bdf3f5a",
+    "runs/009-claude-multiseed-refold/out/prepared/holo/queries_cand.json": "83e05ada42d92fac7c3146264632004951d097b8330c48f760148560ce4820ae",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/result.json": "3ecf1792b7aa59d52924b2325c403f827711030506ca4d16d61fb07c3d690073",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/config.json": "4bfa2ec0eaf3f3ccda73ab195a714cbe01cec49194c4a04e064b4aa9da101712",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_008/seed_1/anas_008_seed_1_sample_1_model.cif": "cd7df89de484ea97de13744bf9f21533c42da8ab7780ea83c214b873d02367ba",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_008/seed_1/anas_008_seed_1_sample_1_scores.json": "48fd400ab10645d440d824531b538c9a59da5e2c9392f9ce2a66125af576902c",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_008/seed_2/anas_008_seed_2_sample_1_model.cif": "cf04e87ce1d223c8e1cbc41c85e46b9d3a413034d5fd2926c9971bc55b086e68",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_008/seed_2/anas_008_seed_2_sample_1_scores.json": "ba368f9511ff27bdd78b1de6288d4ee2ef079b9cc346ae3fb5a48f854c188dd3",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_008/seed_3/anas_008_seed_3_sample_1_model.cif": "905dfc39777227a7adbb8f429164ba6507ff8eccf3c4fb4887e025b768f19519",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_008/seed_3/anas_008_seed_3_sample_1_scores.json": "d7dd6a6ceb0e4c3dab7653bfc3dad42bfdd94d3a5c7397070435bef8b831fd2e",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_008/seed_4/anas_008_seed_4_sample_1_model.cif": "128572ec3d30fdceb5c6aa33182900efb80a1a9461db8795d51ce074f61a838f",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_008/seed_4/anas_008_seed_4_sample_1_scores.json": "5cd31d5a0ecf48435e943822d07d9aa2ef1b60ca9694e8d28410d1e79d9e7b56",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_008/seed_5/anas_008_seed_5_sample_1_model.cif": "288078c78be12730526ef1eb4260dabe983fda6e40dc233322b6469227eb9e08",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_008/seed_5/anas_008_seed_5_sample_1_scores.json": "73d046c26a53c3728e40719a20f4fdb3cce1a67c58989f7094b2d4a0065cbea1",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_040/seed_1/anas_040_seed_1_sample_1_model.cif": "75a2889ca86816db682835c5fff0860eab7e3b6eaf7885bf723265e02f44d589",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_040/seed_1/anas_040_seed_1_sample_1_scores.json": "0db795e7090b2dbefb24408842fb770c22e0c9bdf0afb1e74ccdd6882f099781",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_040/seed_2/anas_040_seed_2_sample_1_model.cif": "512a24c60bc40f9104da32f3b72418c36fb0b7348e746ee5448dac228a929e16",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_040/seed_2/anas_040_seed_2_sample_1_scores.json": "81cb8b96e5d1ba9e8b449b2e9b7642ab4903011a1f1d92a7fec8424672442bde",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_040/seed_3/anas_040_seed_3_sample_1_model.cif": "027dc56ae85c7c39d13f5161bbc239a6e834117dc8634d228855b83020d2cab0",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_040/seed_3/anas_040_seed_3_sample_1_scores.json": "a6a92b3a11b240c1bcf51ffacaf650470873318c0c9de5f3e1806bf4ffdf74bf",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_040/seed_4/anas_040_seed_4_sample_1_model.cif": "12a1c0b950bbb0a45de7706a2d82269cb580ad07e41ceda7f0bdd5387fe6e95f",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_040/seed_4/anas_040_seed_4_sample_1_scores.json": "a20005da99f0108128a2bf30d1c3b28cf2006629aa463c727c35601d832465f0",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_040/seed_5/anas_040_seed_5_sample_1_model.cif": "f71cf2178f69c042aab1966a1bb4fcd91b49b06712425830f2f07bd1177e1f0c",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_040/seed_5/anas_040_seed_5_sample_1_scores.json": "c1bfe17670c94cb55547502e915495a8383959f8ced7a7d8ca9ab660d1231853",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_038/seed_1/anas_038_seed_1_sample_1_model.cif": "dc20aebb63fd5d2ea8e3280473fdb72f25166d93c01804c6d947ee8f66bc0c25",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_038/seed_1/anas_038_seed_1_sample_1_scores.json": "e799b92cc3c33f189c9bc3e7e87fd955a1362a9ac24afa01a3d863824fe1d6a2",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_038/seed_2/anas_038_seed_2_sample_1_model.cif": "c7d4a58f18d44cbdb90c1b2d2da94963aced0f90cc471514b063cf906389cc2e",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_038/seed_2/anas_038_seed_2_sample_1_scores.json": "5e2d812c18676101b1b737128b8fdbf51ae7d0f106a86961b986e07f340ed813",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_038/seed_3/anas_038_seed_3_sample_1_model.cif": "d6ba2b0b1644d1607842be80b2a0e8390fa9a9184c7e3faf821ae8c8db52866c",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_038/seed_3/anas_038_seed_3_sample_1_scores.json": "db474482e1fd659eda637df713abbb980a44fa9cd7f9e4d0aba4f481892a1cb2",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_038/seed_4/anas_038_seed_4_sample_1_model.cif": "dd8e14a2ba8728fd545a707de8e94f951ffe324c2114e88c6c77676e70f51e30",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_038/seed_4/anas_038_seed_4_sample_1_scores.json": "cc9d4871929ac9a4fb0a14c68c03d01a1b449bf5486cc4cc9185e608ea0c300b",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_038/seed_5/anas_038_seed_5_sample_1_model.cif": "3ff17f49d8d39fede55b12766dbfc862ed643158a931103cbd42a4cd46755159",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_038/seed_5/anas_038_seed_5_sample_1_scores.json": "20241c0898bf6be860ebb6f70f3379a4cfa4fc8d64a2af0ab1b8bda1606402c6",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_024/seed_1/anas_024_seed_1_sample_1_model.cif": "6326cd45d7accbc45c1d63d019e43af01367683a46a3aa619e8128f5efe56798",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_024/seed_1/anas_024_seed_1_sample_1_scores.json": "70797239362dae7dfc5126823355a26be46525f839cb81a949f2f67a31aced31",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_024/seed_2/anas_024_seed_2_sample_1_model.cif": "eb6c73b73891de109c9385b098ab274c0cbb24e2aaf43a9de49e918ad81fefff",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_024/seed_2/anas_024_seed_2_sample_1_scores.json": "722b448c945aef4617303a2f22079c609ff48ba627978adfeaa8d29e4852495c",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_024/seed_3/anas_024_seed_3_sample_1_model.cif": "74fefd8c4f27f8a2552bddfb6a9857e6c6e31f6a7859a697727c8ed264cd9fc3",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_024/seed_3/anas_024_seed_3_sample_1_scores.json": "4883af42f2a2d80668cd1030ff95eb6ca325890d07033980b3944ed536644bb3",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_024/seed_4/anas_024_seed_4_sample_1_model.cif": "b36fb92ed32acdcab4f54c7b83fb145db102c9ab611ca4fad7bbfd18e606777d",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_024/seed_4/anas_024_seed_4_sample_1_scores.json": "b7dd6fb1f8ce2ce066e5150516b9939c623f046f366b0635728f5f47bc41005d",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_024/seed_5/anas_024_seed_5_sample_1_model.cif": "5fe24af324a8934caffad5521afcb6fdf32c7a994f8c0ee4bd7036ca064f71bf",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_024/seed_5/anas_024_seed_5_sample_1_scores.json": "898452424519b431c99ccfcc14640873bbef74446f00db3497d3e1246e4424d3",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/r004_cdrh3_3/seed_1/r004_cdrh3_3_seed_1_sample_1_model.cif": "2e286a2dd0cdfbf773f28d8f537562d94a7932c0159f5307c1173ff330ad3c2e",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/r004_cdrh3_3/seed_1/r004_cdrh3_3_seed_1_sample_1_scores.json": "daafe8b3977d6720fc1b9a1a4fbe0f1e24b5b0a562adac1e247e93b438065a7c",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/r004_cdrh3_3/seed_2/r004_cdrh3_3_seed_2_sample_1_model.cif": "a10fc9d07bc106040a50d80c0ec0e3cf555122abefcd8abf209cd79c5f0ee323",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/r004_cdrh3_3/seed_2/r004_cdrh3_3_seed_2_sample_1_scores.json": "839588c43b3c6a63db114208001a3a60df658d80fc403952564d8792fb1b5166",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/r004_cdrh3_3/seed_3/r004_cdrh3_3_seed_3_sample_1_model.cif": "07a9a19a8c9cc25a4d03ee3e894910ae068fc4c3a7bd1ccce89244913025a9ed",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/r004_cdrh3_3/seed_3/r004_cdrh3_3_seed_3_sample_1_scores.json": "a7cff2fb55a7fb38562577b4f8adeafe126e22e9d3713899d9a6b9a7752d4ace",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/r004_cdrh3_3/seed_4/r004_cdrh3_3_seed_4_sample_1_model.cif": "c4bfe1042cf5f9a7c9aca0d89d4be684062a32337e9da312bc3a5757dfdf4b0e",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/r004_cdrh3_3/seed_4/r004_cdrh3_3_seed_4_sample_1_scores.json": "4dce630becec744132ec087d5b75065288926e9126dbc5a0e95ceef5edbcc8d0",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/r004_cdrh3_3/seed_5/r004_cdrh3_3_seed_5_sample_1_model.cif": "5576413dff660e37116e307f6f41bee499907d96ef299e63e39570138d7aa625",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/r004_cdrh3_3/seed_5/r004_cdrh3_3_seed_5_sample_1_scores.json": "97e9e7624a9f0c5b32156325c34469dbd13a175e5a7c2fc2d151e6c70caf10c3",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_026/seed_1/anas_026_seed_1_sample_1_model.cif": "3ef58d2ba5abe893e839a2bdbb2357e175b051c27b3c1cb27ff7b9b9923c4d48",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_026/seed_1/anas_026_seed_1_sample_1_scores.json": "b26f2d826e80e436282d88138bc34c7f6424c95c88c557c2b61588d7bc4e8905",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_026/seed_2/anas_026_seed_2_sample_1_model.cif": "94c36ab19bc444881d2251c9841a181a38cdcaa47af33c902d4715988b6f2029",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_026/seed_2/anas_026_seed_2_sample_1_scores.json": "b5900a0b8316ec98c83a87761c0249ccb5b21308d76f71b1039f40167adaf16e",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_026/seed_3/anas_026_seed_3_sample_1_model.cif": "04aa7482e1b7fc7de4362c2f7b5abe1b81cb2cdf2b0b24084af2ca1cebf00a16",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_026/seed_3/anas_026_seed_3_sample_1_scores.json": "13aa645de2d86d8267df8e3bcb9d811a8cca81c5bb8492c26c5b75bfb71b4d66",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_026/seed_4/anas_026_seed_4_sample_1_model.cif": "de58ce3ab15513f0d2359e8d2f1d5d6ffa828c94fe86b71c7d244e3582cdc818",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_026/seed_4/anas_026_seed_4_sample_1_scores.json": "a5825fee0677ea70295fe8dcb29d9dbea1a5a796ad53f81f58c78859daee61d9",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_026/seed_5/anas_026_seed_5_sample_1_model.cif": "788777bf616d34946dd50abddef3b18ce05c3c937ee963e26fb81c4ff3e3d317",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_026/seed_5/anas_026_seed_5_sample_1_scores.json": "c2d84fe5f65cfd48376b4e52405434421c133f629cbf8424ea03a564c61ca258",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_002/seed_1/anas_002_seed_1_sample_1_model.cif": "1b3ff17e242432a1c4506b67f52abadb5a93fdccc807dd2082ef31c8fe207db3",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_002/seed_1/anas_002_seed_1_sample_1_scores.json": "44520ee0514ff56ad229eee812acd507a85c160716fc0392cb4cf07e886a659d",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_002/seed_2/anas_002_seed_2_sample_1_model.cif": "2c0c4c55e7118eb0d4f48ed9f3a9cd392d6b030af617fe426efaa4bff3bcf918",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_002/seed_2/anas_002_seed_2_sample_1_scores.json": "256672f4575459ded22b9776ceec30a236fb0f0815fc867c2510f2ac2da57e93",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_002/seed_3/anas_002_seed_3_sample_1_model.cif": "45fb5ff4ae5f4f3d5e7326ce14bdb4f85b99159bca5e2db794d86fda414bc0f3",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_002/seed_3/anas_002_seed_3_sample_1_scores.json": "aa262b178adef5533f0ea1a5d3568b5bd70ee7959ec1f05f5371093a35c5a965",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_002/seed_4/anas_002_seed_4_sample_1_model.cif": "0677ace38d00075ae356308d67721a294fb9d726a674984405388299a54970ba",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_002/seed_4/anas_002_seed_4_sample_1_scores.json": "9cbc95101a3e0fa9bab20fd3cd8a3877d59b5bd74949f67431383599990d318b",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_002/seed_5/anas_002_seed_5_sample_1_model.cif": "e929a10308a8d0af6b49eb9a637ee76ee12010f42739b546f4a4c55f8a1bf9e7",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_002/seed_5/anas_002_seed_5_sample_1_scores.json": "8396ac79fcbaf1844cce1046b688eff15b6401f104ccbb36360742574ba95e38",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_017/seed_1/anas_017_seed_1_sample_1_model.cif": "5fd04352f89c074fe109ae870eb0ccf11eff844e08618481331ccbd269950dd2",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_017/seed_1/anas_017_seed_1_sample_1_scores.json": "9c34fc5415c6eb8be575e7e5b083d6b85cdb052ad5a0a397542e6651fa38f0c8",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_017/seed_2/anas_017_seed_2_sample_1_model.cif": "ee752f4322f1b8d6059d534ee681b3b4e44695b5b91676c9d1203a3eb4c7a0b5",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_017/seed_2/anas_017_seed_2_sample_1_scores.json": "f1c16853562b05dbef20274f99979ee0145374f7daa40fda0f45b38155a7210f",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_017/seed_3/anas_017_seed_3_sample_1_model.cif": "1af2dd9e1fa5251950236ece43eded8640e8418ff24fd4ce65e447f71ca7c145",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_017/seed_3/anas_017_seed_3_sample_1_scores.json": "598f261c4fa294c35086981263ce47b72d8c729ed0db63db82b26ae7f0c8a693",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_017/seed_4/anas_017_seed_4_sample_1_model.cif": "3d62afc4c3b9674cca69e91ac72733eed6c3b8a7e7d918fb70aed708bf768d1e",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_017/seed_4/anas_017_seed_4_sample_1_scores.json": "3ab2ddaa202d68c535edd465f43830f7e3ec56a1b0b9545d08acd19ba0c83c14",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_017/seed_5/anas_017_seed_5_sample_1_model.cif": "94e918ab58724112e8cc75231c96f422f9e71db537cc9e268ff530e93a9f1865",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_017/seed_5/anas_017_seed_5_sample_1_scores.json": "6584af7c562486e3a9e0e24f1d550a396b87b6f76849b00515e6db2e57bc509b",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_023/seed_1/anas_023_seed_1_sample_1_model.cif": "7ce3d0755bbbdf296d592c1b475f5dd54d39b962d39498c972fcf7c88fe15da6",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_023/seed_1/anas_023_seed_1_sample_1_scores.json": "641c0287e9f98c2fc1aedb8ce4ca06f152939b7eb81cbc966df6b577583e34b3",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_023/seed_2/anas_023_seed_2_sample_1_model.cif": "79e78d4364c5e47b161f80eca03cce3753b9a44102584383188addeee9b989da",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_023/seed_2/anas_023_seed_2_sample_1_scores.json": "97666aff313a0829474c38f4ec3ff2c4d3ca7dc4145c3d13a118b156d67659d9",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_023/seed_3/anas_023_seed_3_sample_1_model.cif": "d8c8af0799eea87dc6a01b4caca6569dd87ae35f3c82933af0ad42abfa88a8c0",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_023/seed_3/anas_023_seed_3_sample_1_scores.json": "9a0525a7966e9dcff56f5afa8e189ae7a503f5336fa9c7a9efdf8efe89f4ba68",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_023/seed_4/anas_023_seed_4_sample_1_model.cif": "82188ae442f77602a32d6783abaa36b12347572b4702a3b3ba42f68e12bd5646",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_023/seed_4/anas_023_seed_4_sample_1_scores.json": "a4d5f7b624f71114d0efeb7cc3668b1d43b805514c056ee8c1b3fa87441b9510",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_023/seed_5/anas_023_seed_5_sample_1_model.cif": "27af43a75cfa938ea0ae476d28b1a889f2047eb284fbe2ed37846fc3db766520",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_023/seed_5/anas_023_seed_5_sample_1_scores.json": "9cbbe9d49c51c0dc5d9a092d39e25a8e6a8ef9e457e1b8764e70f11c47775832",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_013/seed_1/anas_013_seed_1_sample_1_model.cif": "10e9a8bd519c935210bf194eb43f6079b764913d568e7a231fc6dd30030cff0e",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_013/seed_1/anas_013_seed_1_sample_1_scores.json": "8a36eb97258ad4e9d1806db15fcd9ab39e89963be6cd7ea3823e8e1db0b8d491",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_013/seed_2/anas_013_seed_2_sample_1_model.cif": "3cf403c1ac2cb15c4df0605aca4c48a102a70562f2314f5d51c4ea3d5b84faf4",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_013/seed_2/anas_013_seed_2_sample_1_scores.json": "9caebdf964521435341cc863ae704fe2da5ca3068d6fcfc71dd56fa8ccf5af43",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_013/seed_3/anas_013_seed_3_sample_1_model.cif": "89ac3634ff83f42e3eccb71454ad9ce372d51aac6380a554d9b0e2b0f7ac16e8",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_013/seed_3/anas_013_seed_3_sample_1_scores.json": "733362587c853e93e2699af25f28efcfc8d09ddc7f9fdecc77394a78831bc744",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_013/seed_4/anas_013_seed_4_sample_1_model.cif": "9a26f85b7a7ae341817749e61f37762f56f61a0af5fb7603da3ef7db487faedd",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_013/seed_4/anas_013_seed_4_sample_1_scores.json": "ae316cbe040e7d53db78eed516638e3ff3d538fd54c5add0255690108ddc2b6f",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_013/seed_5/anas_013_seed_5_sample_1_model.cif": "229e62bef654c07d3fd21b5713d0438f8afb1771735ae06ddb67dfb7397ee2dd",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_013/seed_5/anas_013_seed_5_sample_1_scores.json": "3f4975d5431f1dc2dc7316165ee664bdc13e9a173120f0817b450b769945bfc2",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_009/seed_1/anas_009_seed_1_sample_1_model.cif": "c7835339e78a14fda2752956c5304d5ecb180cb81dd2531a2125eecb29ea9eb1",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_009/seed_1/anas_009_seed_1_sample_1_scores.json": "3f8a1d65a3027c83ac11ef554c8be84d3e4f6a9bfafd616c80d53206c0e55c3d",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_009/seed_2/anas_009_seed_2_sample_1_model.cif": "274df63943c0854b7a33ea8e616893c71139b643166daa4b04f9e02458c28ed3",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_009/seed_2/anas_009_seed_2_sample_1_scores.json": "fb9c2d91eba2cd766d3555fb963e2c9053fc929fb1cb5850d3feea669229e318",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_009/seed_3/anas_009_seed_3_sample_1_model.cif": "b94b07cc1d78a5407e942c56b9e12fa9e97eb4024b3d954527e95cbf8dc64d09",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_009/seed_3/anas_009_seed_3_sample_1_scores.json": "be3555e28d281dcc436f71daf85f610d69df90d5eb4afe774702400163940235",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_009/seed_4/anas_009_seed_4_sample_1_model.cif": "cd924f6dd67efd9aa8ac4444ed8cb3c5797a9f615ad8878292a43366f45979c0",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_009/seed_4/anas_009_seed_4_sample_1_scores.json": "cfe3620df59fb83e3af2f12dfd45c51d19de4e70c3959d53763b0e96a61a1eb5",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_009/seed_5/anas_009_seed_5_sample_1_model.cif": "180c1877e44c2520d9c5c1068b874921f05eb57a2799867ad1716e07bf239786",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_009/seed_5/anas_009_seed_5_sample_1_scores.json": "e440ebc3039f47535c1f80ee9533c29e079e27937eb32088929fb0362cbe9fa2",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_036/seed_1/anas_036_seed_1_sample_1_model.cif": "85eb519198d22fb8ac7ccbd45d044e4615f5e92f8d07b81736e8e3589b4af8ea",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_036/seed_1/anas_036_seed_1_sample_1_scores.json": "ed9723ec609e4a9dfdf70ccccc0540bd9e78d70042f4ee1e3eb0f2e941598a2a",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_036/seed_2/anas_036_seed_2_sample_1_model.cif": "e4a120151f849c1a2a63b96be0bbf573d70ab2a8009075589b37516dea6d6dbd",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_036/seed_2/anas_036_seed_2_sample_1_scores.json": "6c51c7218e0803b91674844bbacaca7a83fdbfc9ee4aa011fb92b9ef9c60e648",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_036/seed_3/anas_036_seed_3_sample_1_model.cif": "c4cd12b987b1cd5d8b5853ed000de626e41c7d137ccc2d59420b8b57b61c4609",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_036/seed_3/anas_036_seed_3_sample_1_scores.json": "8d785f70741ccedab686f001e870e68fd1f628e53f8763f5d2c56c4e4ff2fd9a",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_036/seed_4/anas_036_seed_4_sample_1_model.cif": "be70aeb20eeabce0bef5a7d9dd332b2a5ecddbd1300c506cd64e9ac43e1abd12",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_036/seed_4/anas_036_seed_4_sample_1_scores.json": "7f023b0a48e9d725501daaad4c32fb1e1cbd102571d264c19ca4a0023b00c7cf",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_036/seed_5/anas_036_seed_5_sample_1_model.cif": "8f62ead7523e98c5c8278942bac1187728f77528a5c45b82d0946009b61df2ff",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_036/seed_5/anas_036_seed_5_sample_1_scores.json": "45919b71b7fe230c63e975a1ff1d373c4001608895298e4e4bcfd2bb41fd306f",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_005/seed_1/anas_005_seed_1_sample_1_model.cif": "82f879e5e93c95c3f1e511a8e54d01571e7c88142fe376b942880cab05ab57f1",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_005/seed_1/anas_005_seed_1_sample_1_scores.json": "214636ee829de033b28300a03a46d4d45575bb0039ea396234b86f132edf5a6c",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_005/seed_2/anas_005_seed_2_sample_1_model.cif": "6b7c28cd5ba7524c9b68f59d748bbf5059773120282e4c556d7171629905c6d1",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_005/seed_2/anas_005_seed_2_sample_1_scores.json": "a91690b1bc09f36c47c0cde04e06610bc5c83b727732786ed397a18026c0de84",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_005/seed_3/anas_005_seed_3_sample_1_model.cif": "aef72691b67a393092e6c0d7d07e065306c2d237b013a61f9b86093e2d357f73",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_005/seed_3/anas_005_seed_3_sample_1_scores.json": "04c32a3c1977db6e77a5a30b7984062942792ed51229b19a13ff412e1302389d",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_005/seed_4/anas_005_seed_4_sample_1_model.cif": "7be30375c508fd8a77464aab31e1b7ea9edd88304c3280e5c00929dff93da75a",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_005/seed_4/anas_005_seed_4_sample_1_scores.json": "d996403c7b8a7d994b349320de67ec59751cb10dc812aac6f9bfc92b1aab9fee",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_005/seed_5/anas_005_seed_5_sample_1_model.cif": "148dbbf576ab22dded3d3aca0c129b4ad706ded3fd1333e89893b47f9ad9933d",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_005/seed_5/anas_005_seed_5_sample_1_scores.json": "228d417afd965a61a70093df627fb9b0377b3fc6ddc805bea01e269e12b0f742",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/trastuzumab_wt/seed_1/trastuzumab_wt_seed_1_sample_1_model.cif": "0d84a14577c029b80926a048c3d9cd0e0d91a96b7765fb9aab7faaf66f5e105c",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/trastuzumab_wt/seed_1/trastuzumab_wt_seed_1_sample_1_scores.json": "a70971351ef9911a58959190499d4ced1067476c3f3ed35b85922197108f8d6f",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/trastuzumab_wt/seed_2/trastuzumab_wt_seed_2_sample_1_model.cif": "9e1cb445cea83befb7f37f9c434738ac39e1dab0fbba70be387b95868ad74238",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/trastuzumab_wt/seed_2/trastuzumab_wt_seed_2_sample_1_scores.json": "7cc97e1fb8291dd0c077c800be0dec52e608684f6a09668f36f54171c3dce557",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/trastuzumab_wt/seed_3/trastuzumab_wt_seed_3_sample_1_model.cif": "93b4bf1881a8ae40253a221d3d9853966660a442249b5ac9ac9b2e6dcdcc5d65",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/trastuzumab_wt/seed_3/trastuzumab_wt_seed_3_sample_1_scores.json": "26d5bc58388ec73b235e11b397a70fec680e01ea8b226d5abfbce18521111a31",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/trastuzumab_wt/seed_4/trastuzumab_wt_seed_4_sample_1_model.cif": "a77b9c39e92e28cdb1bd3b8af671f9973362c4f5d7a86cee2c164b34e36c78dc",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/trastuzumab_wt/seed_4/trastuzumab_wt_seed_4_sample_1_scores.json": "99c19df186df0cb9291437f3cc37dd3c84399f37db0bbe12bfa1cfdc8ed7ec30",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/trastuzumab_wt/seed_5/trastuzumab_wt_seed_5_sample_1_model.cif": "3353964face0d0b720003d1ee56d8a2554cae578b2bbd68832fa986be4a87178",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/trastuzumab_wt/seed_5/trastuzumab_wt_seed_5_sample_1_scores.json": "11da419bd2fa57b3c39dfef6b3cee39675854a2158e9e7438e346dd85ad890b2",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_028/seed_1/anas_028_seed_1_sample_1_model.cif": "9dfe6f05629f77e15a6012c01e4cdefccc540c429d0dc3510e9b48d1bc187c87",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_028/seed_1/anas_028_seed_1_sample_1_scores.json": "0af5a277382a384c9b306980fd116adb7418801947c8e6213f078b98655a6117",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_028/seed_2/anas_028_seed_2_sample_1_model.cif": "8bbb7367de75abfb7b7663cc441e58d850f0b87c1f5d2123903708476a647de5",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_028/seed_2/anas_028_seed_2_sample_1_scores.json": "847d2d860eaf1f2be965c402770f48fe1ab72a07793d6f28d65dbcab3fd3f473",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_028/seed_3/anas_028_seed_3_sample_1_model.cif": "930e504906a185816f17afbc66e5eadca74e832a7d36d7567a93a39091acd4ea",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_028/seed_3/anas_028_seed_3_sample_1_scores.json": "17dc28db931c9dd741933b2f8c57c1cfa96caa8765b63be5058f76025a2ffd95",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_028/seed_4/anas_028_seed_4_sample_1_model.cif": "17e87c219309a1d20db0f543656660c827ad0876a3914821dae4219f96d9a98f",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_028/seed_4/anas_028_seed_4_sample_1_scores.json": "1f4d9c5b37740d45b7ac41305148e25b8ae6089501b00ea0189e468ad7599fbd",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_028/seed_5/anas_028_seed_5_sample_1_model.cif": "1b287984ed111ab37c89db86611391edbe5c46c6fc89cbaac4d72bd710002169",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_028/seed_5/anas_028_seed_5_sample_1_scores.json": "8051d08f3347fd7b1b136c50931706a117a87053a8813e5cdc8a6089340c9252",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_021/seed_1/anas_021_seed_1_sample_1_model.cif": "95223372ad1e3b757556f1b18ada3805f46e51ebde1a9d3880e87afd13aecfe5",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_021/seed_1/anas_021_seed_1_sample_1_scores.json": "c373bd02652f6d16173ebb2bc75e660ac1425622416e08a67548094fdb11678b",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_021/seed_2/anas_021_seed_2_sample_1_model.cif": "a6a40f1b9f87033ff50b895f99e75b2c495be5ba07a88be77af92f9670f3f56c",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_021/seed_2/anas_021_seed_2_sample_1_scores.json": "2b375663ea17d9e31971a645178de712a20c3a3d478d7784cfd5e66a396fc316",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_021/seed_3/anas_021_seed_3_sample_1_model.cif": "7a857f56678eb97a0b99f80094219dfb699f5f79f7e9700f837b6539c6f6ec47",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_021/seed_3/anas_021_seed_3_sample_1_scores.json": "95dbc62fe633a76a72bd4061dae0650a55b3007baa5194649922082ee23e4a17",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_021/seed_4/anas_021_seed_4_sample_1_model.cif": "1d44b3c327a259f29ff46891928b080d9cc29092b79e954c15e180189fdd2472",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_021/seed_4/anas_021_seed_4_sample_1_scores.json": "feaf1b38eb36bcd62548f70edcf25afd4cdf1d3f9ec382fb3026f9e93b104fd1",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_021/seed_5/anas_021_seed_5_sample_1_model.cif": "3061d51dec2e0c00110166eae958cee219e9f2e6cf79eaca578e254d15a2731f",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_021/seed_5/anas_021_seed_5_sample_1_scores.json": "63545193d9f9c32c115eee667fddd111c5e67a8731fef9bf857db05fd17dc695",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_014/seed_1/anas_014_seed_1_sample_1_model.cif": "8d9345276318639c4d18c09800d503c8098631457c3556f1580b2b7bf93a27b6",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_014/seed_1/anas_014_seed_1_sample_1_scores.json": "7d9d8c9c75bf9cf154056ccc465cf42670666e1a7eff087946c3d53a64821385",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_014/seed_2/anas_014_seed_2_sample_1_model.cif": "819867ee7330f3caf74311668e4f69f788658a7cc29f142b6876b8f21b774b9a",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_014/seed_2/anas_014_seed_2_sample_1_scores.json": "e22ae8fc6c2855e9b4612b524c9d6506f261a6d43bd3f2177fad58bbbd7a5ac5",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_014/seed_3/anas_014_seed_3_sample_1_model.cif": "c0aa0e349514767392d7d2532d75da1a82317687c9346581cc13d11a9589760b",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_014/seed_3/anas_014_seed_3_sample_1_scores.json": "4e31770300a1ba6d164965d6e6e8c9e2a1f3791f224b8f9f87f88b7c8f47cdbb",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_014/seed_4/anas_014_seed_4_sample_1_model.cif": "21f97550e4c4090b49d2cdea42033ef6847201997bcdc4e79e950de2c9c8d32f",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_014/seed_4/anas_014_seed_4_sample_1_scores.json": "0d746ec13d3612c278ff5cf8612eff5ded3a177a02fd7fb580daf1a107bc600c",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_014/seed_5/anas_014_seed_5_sample_1_model.cif": "06f32d95bb8ddde2fe40438c42a44f60fcdac3306a59e778f21b552a6945c896",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_014/seed_5/anas_014_seed_5_sample_1_scores.json": "02cd0b7c990994670d166794cef92776c53531d2540852fc2d84694b272ab47f",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/r004_cdrh3_31/seed_1/r004_cdrh3_31_seed_1_sample_1_model.cif": "880413e8bdf5d8712f1c96db6cf49c8c3a5a42740b0e3bd37650b9014c31e362",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/r004_cdrh3_31/seed_1/r004_cdrh3_31_seed_1_sample_1_scores.json": "a6c1457d249830bcfa71e2eda8cbd8e6ca93e2075cc36d61a97db0bef825cdfd",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/r004_cdrh3_31/seed_2/r004_cdrh3_31_seed_2_sample_1_model.cif": "0c686e1f26257b70c5818d04b7b71d6a92fd3c26b30956c22dfe5d239f0a0967",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/r004_cdrh3_31/seed_2/r004_cdrh3_31_seed_2_sample_1_scores.json": "952f0e618b1d44226cd3e8258f334a61ea85c82ea0d14776a08c486c17bffd9d",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/r004_cdrh3_31/seed_3/r004_cdrh3_31_seed_3_sample_1_model.cif": "c992c4f61b8a4fc076827653756553f76290b6f2d8813d0b46c3488fd9c67f17",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/r004_cdrh3_31/seed_3/r004_cdrh3_31_seed_3_sample_1_scores.json": "0caf2b94e52c28df18b8fd676b89fb2d7eef133a7bdebd0d9289bfafda467322",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/r004_cdrh3_31/seed_4/r004_cdrh3_31_seed_4_sample_1_model.cif": "df4a7c45f6b2b3d9ce815a0c9a097b7f4ce63e9ae0298879e3069ce4b2d6ec65",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/r004_cdrh3_31/seed_4/r004_cdrh3_31_seed_4_sample_1_scores.json": "c4ba9cd5e6a460ddaf2bcfa1c7fbbe2c05e0156b1c91908e8ddb328eb85140f8",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/r004_cdrh3_31/seed_5/r004_cdrh3_31_seed_5_sample_1_model.cif": "584a79368091a92690740b541b47191c4f8db74b428f9a72c0b9cba53c6a379a",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/r004_cdrh3_31/seed_5/r004_cdrh3_31_seed_5_sample_1_scores.json": "a6b893e75dc00471920f0f14db39f0dc77fdfccef4c2b316d140daea0ee76eac",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_025/seed_1/anas_025_seed_1_sample_1_model.cif": "0e0cefc9fa13750498fe5be6088a61eddd2bd8e2a09db8d9e60ba3df94bfec7c",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_025/seed_1/anas_025_seed_1_sample_1_scores.json": "cd7e239a29a8f7cbcd2b7c870e7508b627ddf03a31062893e75a55ef27c8347c",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_025/seed_2/anas_025_seed_2_sample_1_model.cif": "3930aa40e7e52eeaffc851ccf10fc0212dd42ed91798b6cda2e0f27ec7471bd7",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_025/seed_2/anas_025_seed_2_sample_1_scores.json": "237cbad2f085cd2c07acdb47d5890fd1ecfc20c8539f16e9316ee6fee201b998",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_025/seed_3/anas_025_seed_3_sample_1_model.cif": "3677fc18a8d4b3d414c1a9bc43ce1338f89cd780a43e4d7e95106012baf7b14e",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_025/seed_3/anas_025_seed_3_sample_1_scores.json": "1803d3144151ec596c9c076059bbef1eca9ce1296e3653d2223f45cbeff70bba",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_025/seed_4/anas_025_seed_4_sample_1_model.cif": "e0152776225b4809b022a0dfa6b1bfaf12c2fe73a6644c3d66778706370db319",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_025/seed_4/anas_025_seed_4_sample_1_scores.json": "f24f005dd995a9171a9313d382fe8f1d490908d46eb741565928abcf58756525",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_025/seed_5/anas_025_seed_5_sample_1_model.cif": "892186e3fbabedacdb76a0d2ed7e7b388ce396cd612319fb2edc782c1e6c68ca",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_025/seed_5/anas_025_seed_5_sample_1_scores.json": "cff22240d4c7e4dc97ef81159660881aedec8da6eb60e2b648500409a7cf1e3b",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_012/seed_1/anas_012_seed_1_sample_1_model.cif": "346f7608603c50320b9f6ae0d17004d16df7c2e51323df225363696e36f387e1",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_012/seed_1/anas_012_seed_1_sample_1_scores.json": "f9678e3d656280c1b17e2eb0a69d023ed6d780d8ef4fd8b30de1ed2406582d8a",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_012/seed_2/anas_012_seed_2_sample_1_model.cif": "914257582f66054cde6df2b8c8f39f25f5cb68f9d06f07153a6bb42bffae5f89",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_012/seed_2/anas_012_seed_2_sample_1_scores.json": "d7d0450a16b65e61090dcb4a1747f9680fd3a7b72268bb10f6bdf8a58650b259",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_012/seed_3/anas_012_seed_3_sample_1_model.cif": "c05d6db738e0b352921d3fb1e94f3980c43d8c5e5593b79f46d85e3210db1fb0",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_012/seed_3/anas_012_seed_3_sample_1_scores.json": "4765dcc0c02a9b2af7e36fab2ed184f3cf05ce57703486df861b57889897abcd",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_012/seed_4/anas_012_seed_4_sample_1_model.cif": "f49c728e91204fc59e510d3db44881698e0692d3f5797b0ba2fcd458ebd2b7ed",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_012/seed_4/anas_012_seed_4_sample_1_scores.json": "846274651fcafc421b26abc898ea485a5d603a48dbcccc72820a842783128955",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_012/seed_5/anas_012_seed_5_sample_1_model.cif": "1adccb22e231f9db0f98684137a3c355bd47b8604eef96b56c21a1b9a7facf7f",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_012/seed_5/anas_012_seed_5_sample_1_scores.json": "1926039046ea544ce623c1a9032bdcc196a620168c309107fe0b6d4bf28ae881",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_015/seed_1/anas_015_seed_1_sample_1_model.cif": "17e381128535e1b35a7f9f049a571a37affc1fc66c482ce36cf47f98af6a1daa",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_015/seed_1/anas_015_seed_1_sample_1_scores.json": "1977caca236d7ba9bb93b2f2a6da984c119234ed7a820ad1af7c2557600a3651",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_015/seed_2/anas_015_seed_2_sample_1_model.cif": "31009ffc0b8eb4a6ea3f2173a8cae0a449e82ecf31ae26b5d2f8e2a9a21af01e",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_015/seed_2/anas_015_seed_2_sample_1_scores.json": "af24b966eca7d3c48387f186fbf65fa819b6af387f795ff043ef8f1a2cb2c914",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_015/seed_3/anas_015_seed_3_sample_1_model.cif": "5acb03b83c4b0328075963ee877c1e1871fc87d9c4d0d9fb809730a57f686df3",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_015/seed_3/anas_015_seed_3_sample_1_scores.json": "20cb29fa3e82bb90226f1f41389fd7c10c549b3ab5dfbb1a91a12287899a14a0",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_015/seed_4/anas_015_seed_4_sample_1_model.cif": "1fa9f23a5f6c3a3aa2d490c7b57746a583429023829f41d35ede1ccb128da8ef",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_015/seed_4/anas_015_seed_4_sample_1_scores.json": "e9b931b90c464a58374e705cd92766e92b905010ce9575cc084a37b0a012a72b",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_015/seed_5/anas_015_seed_5_sample_1_model.cif": "42aa67d4d5225d27df5ea4fbff6dd7dd2027967f6550e97a74a8e1044e7bf2e7",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_015/seed_5/anas_015_seed_5_sample_1_scores.json": "3ecae9dbaa49d02128f751da7b53c6f0666f3ede42257504516e0d8ffd382897",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_022/seed_1/anas_022_seed_1_sample_1_model.cif": "fc43e7be174c6340169eaf072bcda86aedf815a10b70ed180e0e501894c7c521",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_022/seed_1/anas_022_seed_1_sample_1_scores.json": "6ad1e4d82d4ae23fe52a2804b82c6050a87839d638a49fc5f72521825d371548",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_022/seed_2/anas_022_seed_2_sample_1_model.cif": "8abe75a65f6764c45b977b5babad45ced090cebe4e79c3e23ffdb95d02fb3541",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_022/seed_2/anas_022_seed_2_sample_1_scores.json": "0c705a4ed3dc91176cd51a58615ed0eaed10494163960e571ba17b99837f136a",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_022/seed_3/anas_022_seed_3_sample_1_model.cif": "a777724e1124f99327c7a70eb557e47301ac24198a376e8fcc98941f746938ae",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_022/seed_3/anas_022_seed_3_sample_1_scores.json": "6d7c190df022da7eaa417a9957239c8be94ce1ccfc69a3124192947f247c78cf",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_022/seed_4/anas_022_seed_4_sample_1_model.cif": "779a13c892d76770c945303c3d57c810d76931a86a94864b7fba6c5e9df107d7",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_022/seed_4/anas_022_seed_4_sample_1_scores.json": "448645cd1b8f375515fbd1d80b6805bf6748ace4000a93b346765332a8beacac",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_022/seed_5/anas_022_seed_5_sample_1_model.cif": "5fd78ac0799a29a72b3c710923fb009156eaccaf177921eb59249a4c53b9f2de",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_022/seed_5/anas_022_seed_5_sample_1_scores.json": "7623f1eb33ce2ab4ec1273f9559a06e095321798e2890d8377fd582108636802",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_033/seed_1/anas_033_seed_1_sample_1_model.cif": "30a7b7f97a15cefc4e160c05317a5e8357d07b6fbeba8444236cd33426a3dc9d",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_033/seed_1/anas_033_seed_1_sample_1_scores.json": "143db05d0fc0d0b7746f7704d1b93bae56ca271d9ea17f5d467f3009ca1a3208",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_033/seed_2/anas_033_seed_2_sample_1_model.cif": "1baeac158fc0780a0792555c55a6d8b019336e5db07977e357eb5dd4cdd95048",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_033/seed_2/anas_033_seed_2_sample_1_scores.json": "22a822559089e73712154ba68b552da7ae14954c304b5a27c797862b973bc11b",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_033/seed_3/anas_033_seed_3_sample_1_model.cif": "a98279c8c5a4d4a7ee4067e70b992f1fdac0ccaedd67435e5f82ed7ad1015fe1",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_033/seed_3/anas_033_seed_3_sample_1_scores.json": "4f68fe89ff0a3577327885e10e9f8f5de3d04775f22c0323fb52981406ae4b02",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_033/seed_4/anas_033_seed_4_sample_1_model.cif": "b06d14616c5968f6753938ba19f320d9e892295d00153d2a6678a49fe4fd6647",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_033/seed_4/anas_033_seed_4_sample_1_scores.json": "60756cbe8249236361b9e92d44f24b7baf126110dfc257242f37c160273ff268",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_033/seed_5/anas_033_seed_5_sample_1_model.cif": "a178dd46efe1071424adc88835ac5ac86604a5037f5ff01d9f47634a0c2b9f85",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_033/seed_5/anas_033_seed_5_sample_1_scores.json": "4d4fc7ac2235041e72797064f9a934814d5c6d614d511204cd460d8aa60019c5",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_011/seed_1/anas_011_seed_1_sample_1_model.cif": "2f7ed12f552d167d8973b9173f513f9acc30bebf1abaa643c2fffbc67d61511e",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_011/seed_1/anas_011_seed_1_sample_1_scores.json": "773359d7f5133309acd5c354e46cb9568508c631cb06f3982b6a9e12bb7cd772",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_011/seed_2/anas_011_seed_2_sample_1_model.cif": "e7246332f13e3d5f07c485f6f377caf56dbc8603f4f6ca91e523099a7b7d2183",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_011/seed_2/anas_011_seed_2_sample_1_scores.json": "412dc7e19d99899be90b50dd6dd1336a24e9fedb56260c450e5c44e32d98fb20",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_011/seed_3/anas_011_seed_3_sample_1_model.cif": "511a76ad3421cdda6923d8b510a94f904d4c63eae49b90731a14027a3819f25d",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_011/seed_3/anas_011_seed_3_sample_1_scores.json": "fab7669c32e436b1ff4a6723cd94498064e694947b0d921636b64b08cd4887f8",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_011/seed_4/anas_011_seed_4_sample_1_model.cif": "aa9ac8db16629b0c398a703251195829b0195967029df42613980ef62a5ed4fb",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_011/seed_4/anas_011_seed_4_sample_1_scores.json": "d6952a5c9abd79e3d2c444dffa51f0606ade750b0819bfba0d936130750a5193",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_011/seed_5/anas_011_seed_5_sample_1_model.cif": "a5d5ba7617d4426356b523fdef173edfc25aab62fe00a2f6ffae841a0c89f8a3",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_011/seed_5/anas_011_seed_5_sample_1_scores.json": "1956b51afa4538ed4e702d636fd09640b2683aeb43bdf839b3fbd0c8310452c0",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_031/seed_1/anas_031_seed_1_sample_1_model.cif": "dbe135f21ad7477f8c8cc2ecd732c161c20e17a14f6fb8d04ec95b4768397239",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_031/seed_1/anas_031_seed_1_sample_1_scores.json": "8f188596eebcc45682026fd1a2c72033f8ec5fb2a2bbfbf4689ff06fac2699c7",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_031/seed_2/anas_031_seed_2_sample_1_model.cif": "a18c8a03ef536a75b038d77f1f9c50b049620e70a420f3832fc3136a9a81dcd0",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_031/seed_2/anas_031_seed_2_sample_1_scores.json": "063640821c8bd5386b4e7da81b81f9464613d41f3e935b5c78b94b5a616ac1e2",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_031/seed_3/anas_031_seed_3_sample_1_model.cif": "a6068191b4930e620a263b5d91d8448f26a89cdee347bf988ec8d93cf9895912",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_031/seed_3/anas_031_seed_3_sample_1_scores.json": "e2c4435282dc124a948ad3d745119eccf4afee27a42427cb765ce1f29febf892",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_031/seed_4/anas_031_seed_4_sample_1_model.cif": "bc5fe3b1a697c247c05a75a6b31d6e6ff2c302a78bcb542dccc34e5a37f01960",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_031/seed_4/anas_031_seed_4_sample_1_scores.json": "99cf2a76b510b9aa4513ee5fbb09fa3b5e790a4bde839b80092e0699c6120e40",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_031/seed_5/anas_031_seed_5_sample_1_model.cif": "fdb1a212c05e74d3fd4ca3ca221d7895a1577a009e5367d8fc549ca4578ca8d3",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_031/seed_5/anas_031_seed_5_sample_1_scores.json": "5b2a4f752cd02abfb570e47262df0493d32782b53a70dfbcf345fbedc074bd11",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_037/seed_1/anas_037_seed_1_sample_1_model.cif": "b44661add278c186851a883a204771ec340be12edf9adbd6c6fcb86ccdc11d34",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_037/seed_1/anas_037_seed_1_sample_1_scores.json": "7543a10f81b1604f4d877739393377160000fe51cf8f76c71c17b15e3357a254",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_037/seed_2/anas_037_seed_2_sample_1_model.cif": "d6652ac1a406d11d6f012d62264e4386a18a03229453081e629ecd2f4eb98280",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_037/seed_2/anas_037_seed_2_sample_1_scores.json": "a75c4f2a9d31d8d2dada1550011b570f55903e7f73dea3a8753dc0cffef2ccd9",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_037/seed_3/anas_037_seed_3_sample_1_model.cif": "22f258490aba0b6791a6d1730ed734657f9972ef2997dd2060fb06a6bd4c545a",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_037/seed_3/anas_037_seed_3_sample_1_scores.json": "a2ee5173829dc010c0f3a92fa95d31aa490d1e901c128bc6f521f3e6cca0303d",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_037/seed_4/anas_037_seed_4_sample_1_model.cif": "8574a9d8477c53d75bcd27539064e1d58ca434840556f3f714ddfed052c70210",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_037/seed_4/anas_037_seed_4_sample_1_scores.json": "9c2c1780bf1bd6463aa51decb1a5159c5ecd517b42ea026f265edc6a176077f7",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_037/seed_5/anas_037_seed_5_sample_1_model.cif": "6ac8f662e5ed360f6a498cae69c7b2c8257c84ca38984ea8006b4307050e93eb",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_037/seed_5/anas_037_seed_5_sample_1_scores.json": "04d67529dd15a872108b1ae1b9f8dc10098d3f8fae1a8ac429c2730c5ef91574",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_039/seed_1/anas_039_seed_1_sample_1_model.cif": "065dbb7f85644565ae72497c02634cbc89d0e98a82a4a7b2e28fab1bd255f846",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_039/seed_1/anas_039_seed_1_sample_1_scores.json": "23d9ddce05db87323c2ebc0c79debfca25829cbf1c0863e871605a75006d5d48",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_039/seed_2/anas_039_seed_2_sample_1_model.cif": "cc8afe767fb2e453fa70dae4a3b8ca5a6ed13f6f60ba0ee0f362ee5ade281752",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_039/seed_2/anas_039_seed_2_sample_1_scores.json": "72719995f60207194cfcae249dca6ed340d0642482413374c39a09c549662547",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_039/seed_3/anas_039_seed_3_sample_1_model.cif": "6d160dd36a3134d69cf5d69350f8a7be00c5b4f37050d284f7763b868ca7e436",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_039/seed_3/anas_039_seed_3_sample_1_scores.json": "3ec9c670977acbd068e4132d83f644a638041110e9f4aec284280e2f848d12c2",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_039/seed_4/anas_039_seed_4_sample_1_model.cif": "dd386cbebc60b346fc9e378a2a8bbbef1adf709a2c0cd0dd807ba8d2181e2d25",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_039/seed_4/anas_039_seed_4_sample_1_scores.json": "5a97c2ef0b8d6a35d2bbe145eda91041d27b036ba5f56cefe40070c14dc0134c",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_039/seed_5/anas_039_seed_5_sample_1_model.cif": "d2aaab48acd5968bb01cff77a2806e7fff33a922148b8205b9d5e57ae705e2cf",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_039/seed_5/anas_039_seed_5_sample_1_scores.json": "f6f355e97a4f294313f15a9770d2a7ac30e2d9e3343cd2b2b2ca79d339f8bf94",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_019/seed_1/anas_019_seed_1_sample_1_model.cif": "ebe730a733361d2bf913fe343d28dfd14920bb48e12e116ebe22d511eb1ba74e",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_019/seed_1/anas_019_seed_1_sample_1_scores.json": "152f9af2d0a5e6ea24db3f3c0c73a8466e2411113bd5ef12fb28f91c9eddefb3",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_019/seed_2/anas_019_seed_2_sample_1_model.cif": "98ce106b89a322e67dfd0dc43440d2dc56221bdef6070daa96c60a29ad52e703",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_019/seed_2/anas_019_seed_2_sample_1_scores.json": "33067d8850548fb96122aa0c402a95a03ff51f04fc34148eeae40ec416395d29",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_019/seed_3/anas_019_seed_3_sample_1_model.cif": "ebdee2994f2e705bdce5bfa38b4b128bc66fca7927984521ed87ad226dfa6299",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_019/seed_3/anas_019_seed_3_sample_1_scores.json": "ea544a5adf83d916b9ad9bdc0edd9a06bf7315cbc33f9dc8ee5b94c10fe5d923",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_019/seed_4/anas_019_seed_4_sample_1_model.cif": "36ad529d91181094e164fa2b45a77360de7896ef39055c6ef25bd39d3faaed3e",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_019/seed_4/anas_019_seed_4_sample_1_scores.json": "427ed6586c8494ec1fc6f4532ab69736a190c958cb8fef92c0005a082dac91d3",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_019/seed_5/anas_019_seed_5_sample_1_model.cif": "566d2af616d1976c46036449dd3276f42b6e54fcdb466898c9b89b1829558c91",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_019/seed_5/anas_019_seed_5_sample_1_scores.json": "b0632dcbb58e6bb4271ddbdd42b7d60602ce04020b49f4d2467dbd2b9f1cedc9",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_027/seed_1/anas_027_seed_1_sample_1_model.cif": "3c24b890c743375ccf4a58bef1cb67145e621882b437745c1acd04f6db2ecd01",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_027/seed_1/anas_027_seed_1_sample_1_scores.json": "b1566628e16a6755ee9ea1751efbed44fba536d888c6742f02eea100a1465b17",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_027/seed_2/anas_027_seed_2_sample_1_model.cif": "2d8bf014ee9c44385c4b8e2e1fdc0d4a9aca4387bd7cf105ae4897d443d9c547",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_027/seed_2/anas_027_seed_2_sample_1_scores.json": "382181ba4b8f247a1030a1a375e0ab39ac3302dd5f00fca85f943c58685514e4",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_027/seed_3/anas_027_seed_3_sample_1_model.cif": "9b76978e15af26f42b673232c6787187cf3f3d469c5767557855199373f825e5",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_027/seed_3/anas_027_seed_3_sample_1_scores.json": "6b90a5d6fd71cefe187dd6c4d13e40d28140f7587f9617040d7569636d925185",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_027/seed_4/anas_027_seed_4_sample_1_model.cif": "ae750286a718f7a788c0b5e875198e8f5ad3abd03fb06659d3e87f93ce468268",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_027/seed_4/anas_027_seed_4_sample_1_scores.json": "db10514e19d0454dfbf034394b872ba886e251db3f54f77cad25b94c99752361",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_027/seed_5/anas_027_seed_5_sample_1_model.cif": "3df89ef36bf983e809839ae25d33f4056ddc4ec80ba590eaed95dbee2657d14f",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_027/seed_5/anas_027_seed_5_sample_1_scores.json": "c73a6823bab9a3ebc91b1278911f3903f33b64976427458e2b8acf02795a55bb",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_010/seed_1/anas_010_seed_1_sample_1_model.cif": "ea5cf7eca8652f66fef86c9ed9ceb86266a98fa7960ffb1777b9cc79ccaae0f2",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_010/seed_1/anas_010_seed_1_sample_1_scores.json": "658e0fb92725f5bb2a3232433bd928f469870a2e99cfe80f39ea737ed4a9d1c0",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_010/seed_2/anas_010_seed_2_sample_1_model.cif": "1630e9ccab4d945eb7c3aa7127d0257fc0370a5340d91e38ee8046148fac6022",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_010/seed_2/anas_010_seed_2_sample_1_scores.json": "030cbfbd89233981994e9df1b89f212c30105788ac4821a7728e1b875c973915",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_010/seed_3/anas_010_seed_3_sample_1_model.cif": "52228b34a09bc704b3a87be8fc4ef0111b7e601873ae6b8603212b21e68c8ad2",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_010/seed_3/anas_010_seed_3_sample_1_scores.json": "4f57f7131ff8b18cf18661216e19ec322c25200bcac3fa253531c3683aeaa0df",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_010/seed_4/anas_010_seed_4_sample_1_model.cif": "6f361558f6733cfe1674fe7055373cbe566300ee64e41a11b978175cda3d89a6",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_010/seed_4/anas_010_seed_4_sample_1_scores.json": "5f4224dd20f686b9ea9f4448f770bc17ca25a57369ec43996a84c43c00d47d81",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_010/seed_5/anas_010_seed_5_sample_1_model.cif": "1d09c2b96e4191b3c7af17fdb5d43b96e4b2e54a1ea70569e4e2b0c4b192d6ec",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_010/seed_5/anas_010_seed_5_sample_1_scores.json": "45e0fe98f3554d9e92922abb37c8569f114e491e02dddcc3b8e0e8d82a260bc1",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_001/seed_1/anas_001_seed_1_sample_1_model.cif": "a999013b8f7b346a9e07b1151ea8781a1bd5fac85e4c1fc85b7d4003a0ff5e92",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_001/seed_1/anas_001_seed_1_sample_1_scores.json": "a7bcea3bae52bbf3be153b9dc004fe73d6d030231c4cefd643cbd05cb71739af",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_001/seed_2/anas_001_seed_2_sample_1_model.cif": "b13f9588e3fd604d9788e3b857b20d87fdf00318fc0e13289720aeea7d0ac8c3",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_001/seed_2/anas_001_seed_2_sample_1_scores.json": "86f97ffa2fd33aef99058870560da152a0dced57795bc52f539fd8086226e0d2",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_001/seed_3/anas_001_seed_3_sample_1_model.cif": "d6b7e5cc23b4cab92e8d73ca8bd3f9c98c9ee02ce8f32d7920183943810de6c0",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_001/seed_3/anas_001_seed_3_sample_1_scores.json": "7d6cbd6b0d62e6880e98f4e95dd807ea64deb4b9de4bbb7bc94327649ad0d6be",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_001/seed_4/anas_001_seed_4_sample_1_model.cif": "55873a931d163c40ea9eb64225b91cb072c79a7f7c2fb70ad08d0eb868d38a96",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_001/seed_4/anas_001_seed_4_sample_1_scores.json": "7196ef32bc201d97f0f51c52844f348b12f58593382a67ab156f03b7fc4c99fc",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_001/seed_5/anas_001_seed_5_sample_1_model.cif": "f735a5cd07dfad6a4f7453336bc2da7cdb29488cfc160c0b414a103d6080278a",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_001/seed_5/anas_001_seed_5_sample_1_scores.json": "e03c14f17a84a306de775c6b39c5148d9cf2879a8dd5dd223247d765f0745886",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_029/seed_1/anas_029_seed_1_sample_1_model.cif": "986716f543f4b3ad674ebff7c8892430df1a8e8083a2b313b40c29285e9c0118",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_029/seed_1/anas_029_seed_1_sample_1_scores.json": "a6c0910651f737e748422813a8fc9d13349ac29dc127807c19a88c603075c1ac",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_029/seed_2/anas_029_seed_2_sample_1_model.cif": "35f3cbda8203efee1fe10859a90f49d8540dfb0db879d8e8c6f6656ad544293f",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_029/seed_2/anas_029_seed_2_sample_1_scores.json": "88daf3a54d6e937d33417643377292d00bf07d1de66a33e461ae80ba174577b4",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_029/seed_3/anas_029_seed_3_sample_1_model.cif": "01c27f14fc7dcbb1ca975bf2904b075009eb878959d4569258d7c7a40f1271ba",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_029/seed_3/anas_029_seed_3_sample_1_scores.json": "8286b6c8cc51120deef1ba1eddfb137a31c9be9d6aeefd035a96d242a1cda74d",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_029/seed_4/anas_029_seed_4_sample_1_model.cif": "8b15927dc7ab58de4bcb02319de150c5d87ec354c702da1c298bd9a48e4cff87",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_029/seed_4/anas_029_seed_4_sample_1_scores.json": "0eac6e59ebfea65f9aac35930804f864947f0624d29f741478bb6659dc1e1739",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_029/seed_5/anas_029_seed_5_sample_1_model.cif": "5b8f96fb891a1bdf9323fe40286d40ac4a446f5c4844f936f8ec65b3c48e18e6",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_029/seed_5/anas_029_seed_5_sample_1_scores.json": "2e6421e84398a6e55accd5972e8c1e0e4d953a9e9d9e009397c7acfd3391287e",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_035/seed_1/anas_035_seed_1_sample_1_model.cif": "fff47694a6b77373498577347692a9f936fbe8ece0dc5dff68fb66797588891d",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_035/seed_1/anas_035_seed_1_sample_1_scores.json": "c4290861724510b91dba155ac3cd4ceb68742f2a872970dc43e1ed489a4fa860",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_035/seed_2/anas_035_seed_2_sample_1_model.cif": "0344755a14edc54346c0399738562a296996aa2b20465a6fe7b6e3b5bba5dfdd",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_035/seed_2/anas_035_seed_2_sample_1_scores.json": "b4f868909b95c117c7db087881bc7e5d087670af17ab8ccd4127a75e2dc7889a",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_035/seed_3/anas_035_seed_3_sample_1_model.cif": "3b366e3eac46b08389dec20bb89da07a53b62b28de4d9be675c000b632a27a85",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_035/seed_3/anas_035_seed_3_sample_1_scores.json": "7a968628ba25139e7a223a2f58e20c3880b3625d1e8079c7180dfbe23fa83aae",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_035/seed_4/anas_035_seed_4_sample_1_model.cif": "e3256a2c3ec845a2eeca33e44cb9d9478a0120bbee6da42b2fd20b58f6dc3029",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_035/seed_4/anas_035_seed_4_sample_1_scores.json": "56bd6d1bddb0b20c22535adee7dd374d646cb3826a1c267118f59fc7fdfd6e63",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_035/seed_5/anas_035_seed_5_sample_1_model.cif": "dea0e69db95e61bc9edb03451fb2d7772e94bbe11fe56ca375d676a1c4bffc0d",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_035/seed_5/anas_035_seed_5_sample_1_scores.json": "ea5b9e8f9ce818f9a88cf48f655eb4cc3b0c356e3e1de618410f0f96d08f1919",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_003/seed_1/anas_003_seed_1_sample_1_model.cif": "412225dbb7dc1f8b890a18fed032f066ab00b9101e18d4c855440bd8ac3466c8",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_003/seed_1/anas_003_seed_1_sample_1_scores.json": "c4f97f03f08a539bf8c5b002332f56f318726f6666e48fcf1edfab74feee2c71",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_003/seed_2/anas_003_seed_2_sample_1_model.cif": "85e0eccc82ff9d631ef1d45876138cad11ffb74a91782cd43eb04d65ed5a34b6",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_003/seed_2/anas_003_seed_2_sample_1_scores.json": "786afa1bfcd8e83e4e562f94d573dd5207b5daf1d1a0173c1b6e2102caa6079b",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_003/seed_3/anas_003_seed_3_sample_1_model.cif": "fdf9c0a5ab69d8b8451d50b0c9966c8777c9802d6af05a862180e2e9d60a98c7",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_003/seed_3/anas_003_seed_3_sample_1_scores.json": "63e1ad66d1e1c2a76521d3fa2752474e7edc0349652e6d8aeaabe6d53f8194cb",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_003/seed_4/anas_003_seed_4_sample_1_model.cif": "10673e14165869b66b47639f6864802033662eeae3ef2eb259979d8d3bc24d98",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_003/seed_4/anas_003_seed_4_sample_1_scores.json": "f1ad5f47b06f14b0bb7117604d71d732718025812a2b3b5bf9c5449661cf624e",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_003/seed_5/anas_003_seed_5_sample_1_model.cif": "f3414a04fe9774605005bbaca006611bfb27b3c0007c6eddb2862cbdaa320cff",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_003/seed_5/anas_003_seed_5_sample_1_scores.json": "2cda4c2423f2cac571e259ae946906ef21e15c56d706ddcce46590f82a2ff1db",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_020/seed_1/anas_020_seed_1_sample_1_model.cif": "0aba8ecf9091043cc77d697f14318b52a6768bcfce40d9abfa7ff574040373c5",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_020/seed_1/anas_020_seed_1_sample_1_scores.json": "0bc501dd7dc424e27dcdfda449cfb9ed5b111a71b5dcbd840482670a746ff2b8",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_020/seed_2/anas_020_seed_2_sample_1_model.cif": "8200649538b07e59e50abe84eb84ca4effb81762c76842b10540d60de7c774eb",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_020/seed_2/anas_020_seed_2_sample_1_scores.json": "48fee0c0dfc340b8eeb7249107110d04b769983705db63b628f4862bfc541db9",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_020/seed_3/anas_020_seed_3_sample_1_model.cif": "acb8e66b8dedf0e7a0dd6085bd8333f004473ee8dadb4e4e611c051dbeb73862",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_020/seed_3/anas_020_seed_3_sample_1_scores.json": "05d88d71267f887fec93c2f55a27269ac456a98dba375eabca941e7abb774b2e",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_020/seed_4/anas_020_seed_4_sample_1_model.cif": "65a591cf743d349734dc65175c0aec577100a44be45c7c10dc8527967fd1facb",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_020/seed_4/anas_020_seed_4_sample_1_scores.json": "efe4177fd2b19fcbe73a8dfa1588ba3244baec27336f9caf25878dd219f35c94",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_020/seed_5/anas_020_seed_5_sample_1_model.cif": "92cce1179639fdeb67f8ca8d5f909d7165ffbe8f54372e6439f1a3abe16484c3",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_020/seed_5/anas_020_seed_5_sample_1_scores.json": "c7637bd44f9500f79dd585c8376f084e0ee4e6bf7dc1888c01f6012053535e8d",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_006/seed_1/anas_006_seed_1_sample_1_model.cif": "fc1234bf74cfade4e758016a2b8ccf1f26524a2d9bd2f960ce1b04fd8696a552",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_006/seed_1/anas_006_seed_1_sample_1_scores.json": "bf91280e787d506520535db765a8f7aa5863b78786c2dbaee7bfd301a0a964e4",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_006/seed_2/anas_006_seed_2_sample_1_model.cif": "9b6dc20408503bc694f27209d66771905aa3abeba80bb161d1a18c2681010c94",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_006/seed_2/anas_006_seed_2_sample_1_scores.json": "b6142cbc2bfdf33e05dcfbf5f27b75b20328eb20d2da822ea22041ecdf2c9398",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_006/seed_3/anas_006_seed_3_sample_1_model.cif": "40bd91ef543d1d2a7c5d5e32dfedde598a7efa8fee560052e19004fc7037d396",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_006/seed_3/anas_006_seed_3_sample_1_scores.json": "829e67b156c70050f6800e3fe8a5ee1d549b4b177f94971bc80a717d2b313a64",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_006/seed_4/anas_006_seed_4_sample_1_model.cif": "b2098df4d726b2a70c1fdbc16f8a1d90539b119b64402a8a37cf4bc92ab453b8",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_006/seed_4/anas_006_seed_4_sample_1_scores.json": "5a50039111d80187d4160549a808e8a587774417da16f538263bf2bed7ce73d6",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_006/seed_5/anas_006_seed_5_sample_1_model.cif": "d7a1dbaffa55c5c2704be806c6718ea9a90dccab2fdd6ef47c25db7cbc8751ac",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_006/seed_5/anas_006_seed_5_sample_1_scores.json": "5744f47fef366bea380c5268e7c409eba305bd96ba7b5f329b1e47971e057e1b",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_032/seed_1/anas_032_seed_1_sample_1_model.cif": "1f5a2c2360881eef30996c7709ddcb53c483a136478ec68ada952d56e0117a7c",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_032/seed_1/anas_032_seed_1_sample_1_scores.json": "c05baa8e25efb33553eb83f83bd1fb00faf3118cbcd1529aba2e4fd1c8f395f8",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_032/seed_2/anas_032_seed_2_sample_1_model.cif": "79d8f145d15f925d798a87ca719a1a3da0301e88a12de60e0d3eea90cebde894",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_032/seed_2/anas_032_seed_2_sample_1_scores.json": "2c1ae476b962a709e93f4ae50f834eb27547120f65b3c3c9844bb61a6fa8a957",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_032/seed_3/anas_032_seed_3_sample_1_model.cif": "7c9ae754c1a88d3f80c768a21f49bb92974b4dcee29fe1d09ac38a60633cd1c4",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_032/seed_3/anas_032_seed_3_sample_1_scores.json": "b9f5e95e2c80b7c31b2e467b1d4d160951c4e6ffda0ca97987fc7a1706fab913",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_032/seed_4/anas_032_seed_4_sample_1_model.cif": "b4e058d4eec5c011df03662a0a2af8adda0477bf78950332b5eb1c9092576680",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_032/seed_4/anas_032_seed_4_sample_1_scores.json": "5ad372c1100532359da0202ae84d8ae5b9bb7deb3202390a9b30a20ef7947770",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_032/seed_5/anas_032_seed_5_sample_1_model.cif": "5dd98153631e131f715b9553070f25b1c4c19dd2e35ee29e38cfc2f6f0dbc8ae",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_032/seed_5/anas_032_seed_5_sample_1_scores.json": "2a9df1cd942bf80e83084de2fcd4b8800f644bc242f14d8ac7aa4f5fb4b1f500",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_018/seed_1/anas_018_seed_1_sample_1_model.cif": "20c1a34dc98afab0796ee752732e6b6370592e54c6c5f9001640e86ea3482f4c",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_018/seed_1/anas_018_seed_1_sample_1_scores.json": "d29418202e629e7fd787c623caecd2cf334f7bc61214e2746a829fc4b0506f85",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_018/seed_2/anas_018_seed_2_sample_1_model.cif": "043e91a97a3080c93fe5ee8f7181fb635eee6b5bf70360e221aa988ba0cff6aa",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_018/seed_2/anas_018_seed_2_sample_1_scores.json": "f1703e9e7aab68d44a69c3ea989f0789fa6ffc8bc0921bf1f06e0af216016ed1",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_018/seed_3/anas_018_seed_3_sample_1_model.cif": "0c9648020058fed2718d8db35ec1b3be239af9c2d7e4e9ac90fde9701b5f75a1",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_018/seed_3/anas_018_seed_3_sample_1_scores.json": "d1df47eb0fad85719a8b612383325f4603d9935ceeadf0fdb3afeaaac07fec0f",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_018/seed_4/anas_018_seed_4_sample_1_model.cif": "a2283f66d85d2ab588061df117cb3127e1643796d848cbf7d23c6fa3c57be9b8",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_018/seed_4/anas_018_seed_4_sample_1_scores.json": "a8b95408a013cc97073e437ccffe8509208f7cecdf9a45ce9d9fa95a835c8495",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_018/seed_5/anas_018_seed_5_sample_1_model.cif": "e84339d6fccd2fbdac882572353ce75a93a7cb5b3199e6d55cbf925674f8e192",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_018/seed_5/anas_018_seed_5_sample_1_scores.json": "eafda184d5506d25fb089f6dbb1c48c2253fdd8a39131ab5f303857a89e019bd",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_030/seed_1/anas_030_seed_1_sample_1_model.cif": "446c43438d6f2ba8abfebdce0edd5f000e3d6e35cc55a4d7896d883569817bcb",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_030/seed_1/anas_030_seed_1_sample_1_scores.json": "3c4c2ccfc4d03f069c830d8a01ea6741a5a140dd87238672feda801701edc56b",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_030/seed_2/anas_030_seed_2_sample_1_model.cif": "5f848981c174e3609d413e3ad174597c4b733718b669f9b46c7572c29d5cc4e0",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_030/seed_2/anas_030_seed_2_sample_1_scores.json": "7b35fe795ec7d5cfca253d8843b4752fdabb540b777bf03006b52b0e2323f856",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_030/seed_3/anas_030_seed_3_sample_1_model.cif": "151f45fa090983a22621eb0a263d8c41d354037fdea48c2d168f2478f131438e",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_030/seed_3/anas_030_seed_3_sample_1_scores.json": "daf38a770e072c79e5a165aaaf9104dedb9176a80dfcc736cf31478b9089cdc8",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_030/seed_4/anas_030_seed_4_sample_1_model.cif": "8d1d443beca23554beb4dc7ac3bd2ee25a0d2fc0d7be41f21ef73d377d585115",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_030/seed_4/anas_030_seed_4_sample_1_scores.json": "518d581bbbb73aa1f980b0419a86ad29c32e5a2e8ac4283bcb95d0660940f2a0",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_030/seed_5/anas_030_seed_5_sample_1_model.cif": "13a1e77c0cd03fc1f70511020b1593882cf68c84ccf8ff75fb7a2ad88860d350",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_030/seed_5/anas_030_seed_5_sample_1_scores.json": "1397b07d6d63dc585f86588765ec87001e86bf5a4fe867593a07ab635751f2e5",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_016/seed_1/anas_016_seed_1_sample_1_model.cif": "80b1923c1dab5c7ed90adc8ce0bf875b0bef6f0a0d473164cad8a705241410e7",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_016/seed_1/anas_016_seed_1_sample_1_scores.json": "8061d830342e3d0545a443e125385c3b61e25a2683718cf8615541d1aabf6126",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_016/seed_2/anas_016_seed_2_sample_1_model.cif": "6d1d544947099b1d645872f545bd55c332552355bc282143981f99245735e95a",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_016/seed_2/anas_016_seed_2_sample_1_scores.json": "91af27d4fdb0c8ab4f425bfe462cc7bc0f2527420a66060b0d8b1f836cf6e883",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_016/seed_3/anas_016_seed_3_sample_1_model.cif": "fd07f1f1d56a0f6c58d0d707e5621dc1b5a10b24049747b0f072106e818383d2",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_016/seed_3/anas_016_seed_3_sample_1_scores.json": "90f439444ef7acc6d13076024e7011346a7eb6e8605f0a883e746b072d7a8dcd",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_016/seed_4/anas_016_seed_4_sample_1_model.cif": "62d61fa30da947597a1e8996233fb96205bc90a2869f706eeb7117031d1fcb48",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_016/seed_4/anas_016_seed_4_sample_1_scores.json": "a968f75858692eb3766129ac57733ae83c979d86e616809d9f3e80ba77ba8d06",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_016/seed_5/anas_016_seed_5_sample_1_model.cif": "0b3dece7652aa78d65428cd84aee88b8225c62054796054c5d0859e2d6529a9e",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_016/seed_5/anas_016_seed_5_sample_1_scores.json": "3a584b1f84f44dcb91328f143bfd5b716aa8e4a07c7461015e1477b0d2d76bcb",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_007/seed_1/anas_007_seed_1_sample_1_model.cif": "c616fbb996b6e446c4e3d69210b70d322ac47230d8cdff0d484022fd1783113a",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_007/seed_1/anas_007_seed_1_sample_1_scores.json": "3a5eee7f828601712272adee71a373aa441c5a997448ef60222bd88837b67464",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_007/seed_2/anas_007_seed_2_sample_1_model.cif": "a38bf1643510d234b9c4916950cd22d69b31f97e4eb9c3e1f235ac32ddaa277c",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_007/seed_2/anas_007_seed_2_sample_1_scores.json": "882da16c320c2cf4f706e61e970fc63781ccc21c696002bc467642af10bdc9f0",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_007/seed_3/anas_007_seed_3_sample_1_model.cif": "6645f128ab9258af7fb604b3ab89cb5468f618cf520ba277fc5a3e705df09203",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_007/seed_3/anas_007_seed_3_sample_1_scores.json": "1c6904826db9f348997e27375682b010ea44c4c6e4850203938074638a287eab",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_007/seed_4/anas_007_seed_4_sample_1_model.cif": "ffe044766d9931f690deff4c29f95820477d379b0a0a230b3ac2c4dfb8e7d0c3",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_007/seed_4/anas_007_seed_4_sample_1_scores.json": "74d48979da2b69516fbc7853a0c6f97080e75aa5261b9ddc818193d0a14b4aee",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_007/seed_5/anas_007_seed_5_sample_1_model.cif": "318fb113212552d1307f8604d4ca0586ea99051acd3895ca4247b14ad534cac5",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_007/seed_5/anas_007_seed_5_sample_1_scores.json": "0365289fbf0ef2193666f28563ee92be317d310f77fb9068a083d9ec05527c79",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_004/seed_1/anas_004_seed_1_sample_1_model.cif": "93c5ac4f2703b24bd6f9652f9494aeb67cd2ac027c01d963a1f72bf7e410217c",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_004/seed_1/anas_004_seed_1_sample_1_scores.json": "e02ea38cd36370f0aabbebe1495c2405c15093685fa422bd2e9d779d8f3348f8",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_004/seed_2/anas_004_seed_2_sample_1_model.cif": "8de163e38ffd449c141951a2622515d430f284cc002930147754684ec3421d1f",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_004/seed_2/anas_004_seed_2_sample_1_scores.json": "085aa1805044c7e187ddb291fbded54d6abbb40911c08cbb5f8ca14bfe1d2480",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_004/seed_3/anas_004_seed_3_sample_1_model.cif": "2f05404a57f14e205b416b69306921a4dce07b0a04404bb8f047b571ba94a57a",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_004/seed_3/anas_004_seed_3_sample_1_scores.json": "3baf3aff5b44941700f791af829de945a4a2acdb8c969bfcc6817e8733ba1744",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_004/seed_4/anas_004_seed_4_sample_1_model.cif": "9d870d730c5d079f5c8dcea0adf04c4fbd619082d47a6e7b5bdf8a72891ac23d",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_004/seed_4/anas_004_seed_4_sample_1_scores.json": "57a6589c5a3a8137d364aae2a1718c79f7d025a7c8b8e839934fd732fb11701f",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_004/seed_5/anas_004_seed_5_sample_1_model.cif": "2968f33a48f04251bc6fbc1bdb8d36de5deb4e1f1a062e1c7363098ae8b16c6d",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_004/seed_5/anas_004_seed_5_sample_1_scores.json": "74b48f005b6990cb12048bb43243b194248c59b388396064116fff200be03530",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_034/seed_1/anas_034_seed_1_sample_1_model.cif": "27595094a027905f577f94506662fbf156b01ec9570758c32a00d2681876b33c",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_034/seed_1/anas_034_seed_1_sample_1_scores.json": "684cfef1d653a8871fdc06803e57cb3e9274f36acba5905dd49bf2390eaf9aad",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_034/seed_2/anas_034_seed_2_sample_1_model.cif": "76ca82b10391215cc237c23d9a27b1ab6184e043bc081bc1d1890d8ce6ea14aa",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_034/seed_2/anas_034_seed_2_sample_1_scores.json": "8a33b6496a9cb6d609d4b8bc113b3cf2fcfb3d1d30124b05e1864d63c6a1c80a",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_034/seed_3/anas_034_seed_3_sample_1_model.cif": "7f775a12baaf1c27ebe39feac21d085fb63cd38d117c9fb0892ab57e2277a8dd",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_034/seed_3/anas_034_seed_3_sample_1_scores.json": "78e617c0f35f0f21347b76c368438f80e5823ad7f18724ed65236ae101670cbe",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_034/seed_4/anas_034_seed_4_sample_1_model.cif": "4ce27556b78bdb7ead93c6bf0768f1007333d760397c2da41f07ed6f2ad720e9",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_034/seed_4/anas_034_seed_4_sample_1_scores.json": "ecb889d9c465c96df4f75ed12cb8e275e1f88a42c1df006b9dc19ddba31f5325",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_034/seed_5/anas_034_seed_5_sample_1_model.cif": "fbaed190a7ef4096c98ede53b1af48c916f3752b4f0abcf02efd37b763db1fa8",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/anas_034/seed_5/anas_034_seed_5_sample_1_scores.json": "6ef8b3a0c26b450aa3fc01a1aeac179c93cb7a7b88121e2f8c74c43cb10c6abe",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/r004_cdrh3_4/seed_1/r004_cdrh3_4_seed_1_sample_1_model.cif": "c64e7775c3f628249b74f5cf6ee82e17e430dbd70fc9678022cfa2259b6fe38d",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/r004_cdrh3_4/seed_1/r004_cdrh3_4_seed_1_sample_1_scores.json": "bddd1e5518b9015e956bc03ef5c656742b325475b880e6575b7081afc81ec28f",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/r004_cdrh3_4/seed_2/r004_cdrh3_4_seed_2_sample_1_model.cif": "377de7ee1e59a1d2c7e88022eabeb4b245d77ad4697c4431771c80724477ff2f",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/r004_cdrh3_4/seed_2/r004_cdrh3_4_seed_2_sample_1_scores.json": "56b8516e6740b8c31c0c896dd4570d03ac71270173f6a068f1a0d88747ceffe3",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/r004_cdrh3_4/seed_3/r004_cdrh3_4_seed_3_sample_1_model.cif": "b9604b121c8c889d7e80fa68cfcae6a21d237e2335652d1774f3d0372fbeb8ef",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/r004_cdrh3_4/seed_3/r004_cdrh3_4_seed_3_sample_1_scores.json": "617fdc56f3b3a5c3bdd17691a9b7ee5d0b02b51416c840506d1821dba9e8830f",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/r004_cdrh3_4/seed_4/r004_cdrh3_4_seed_4_sample_1_model.cif": "94fa8d55213f3d332042f04fc647894dcdb402d02e40783a5de9af7e9cff996b",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/r004_cdrh3_4/seed_4/r004_cdrh3_4_seed_4_sample_1_scores.json": "6c37ce7f0b3f6beee2851282c06d946ab49f8792b5d087f5c63caa3d6d8e3d67",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/r004_cdrh3_4/seed_5/r004_cdrh3_4_seed_5_sample_1_model.cif": "c0cf4d1282b567b2211d62d09e54e9c453ea172e2cd5c831452cb956211d5e39",
+    "runs/009-claude-multiseed-refold/out/boltz2-cand-s1to5/r004_cdrh3_4/seed_5/r004_cdrh3_4_seed_5_sample_1_scores.json": "4f137a086b5dfae1dcb32e4e5d1aa648077dd9642d11c022e32b308bdd789ad0",
+    "runs/009-claude-multiseed-refold/out/prepared/holo/queries_calib.json": "0e386b8654cb3dacaa671c59e2ce1a6988b761e20c813236fd58ea2b05bd85d1",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/result.json": "e6b2f9ab1f24fb7e57d95071c0087b8e82a830c116691f60babf3b4c99b2fa04",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/config.json": "65fbb3674116f16f75a335eb3f7e12694a9753dcf32fc35ff4749b84520bfb17",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_001/seed_42/calib_001_seed_42_sample_1_model.cif": "b68ecb5d75ab8401df143101e07bdb5f1a5b13acb49becfc7f2a574aaedc85ff",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_001/seed_42/calib_001_seed_42_sample_1_scores.json": "ac0ef56988f4ac008c4a523a071f73631133778b288026939a3c2b1193dfa8c1",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_001/seed_1/calib_001_seed_1_sample_1_model.cif": "981d5a40ee7021132536e694649c8686cc1bc967719f81ee720da7d20d88dc33",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_001/seed_1/calib_001_seed_1_sample_1_scores.json": "c3bec3e55fde969f6c0e9c5a66a42c84dabf17579fe2783f2875b40f53eb1d9f",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_001/seed_2/calib_001_seed_2_sample_1_model.cif": "24f634757ab64dd09d0eccaf7e9acd30434b07c920fcea846e8dc4fed810c0c7",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_001/seed_2/calib_001_seed_2_sample_1_scores.json": "2c0cf8d416ddcbd0cc08c428c64c467cb7077280e410be80d6327df08ddc07c7",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_002/seed_42/calib_002_seed_42_sample_1_model.cif": "b15e86a1a3ae91eacf908eaea6ea83fa774bbd2537f44d19cabaf89870c4d53f",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_002/seed_42/calib_002_seed_42_sample_1_scores.json": "64618c8e3e48224e3ceba89c65142d428fd99200eb4def330480db1f005c42b1",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_002/seed_1/calib_002_seed_1_sample_1_model.cif": "e2c8577334bc9d916f490011a5a5b1467ecde854cfb8a7502a04544d4b724693",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_002/seed_1/calib_002_seed_1_sample_1_scores.json": "7e1745684fe0ec5cca59713c3d799860d94142f0f240a8b998ab3dd31c7c4fae",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_002/seed_2/calib_002_seed_2_sample_1_model.cif": "90a4fb004894b71ee6ab90f5cd623be2786e77fb08c602249c1bcc0dd9f4d26d",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_002/seed_2/calib_002_seed_2_sample_1_scores.json": "ef4cd057540749c1c5719f1b1b01ea7170a0834f27ad90cbef62c793d00029cf",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_003/seed_42/calib_003_seed_42_sample_1_model.cif": "a0dd17e7814051df938d8b1f3cd48c86fd66ae7ceccfc672d865867856d7442c",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_003/seed_42/calib_003_seed_42_sample_1_scores.json": "590208255cd01b08087d64cebe9774296e0a609b80dcf9a44a171b41478782f0",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_003/seed_1/calib_003_seed_1_sample_1_model.cif": "1bfe4e9deff02c34bad205ba91ad20f98a5a9c7a8ea33e2b43e878025547e065",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_003/seed_1/calib_003_seed_1_sample_1_scores.json": "38d921c5347da5832ace391dd185798c142cd36a551b47c16bad678758d90b7d",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_003/seed_2/calib_003_seed_2_sample_1_model.cif": "6437631892a2636c8441eb7b841a49e35a7c7c263baf23123df27fc7fc9cf958",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_003/seed_2/calib_003_seed_2_sample_1_scores.json": "93783070b2dd7ec8f4518f04a7d1166a61098910fa96bbfa6012b0270bbff308",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_004/seed_42/calib_004_seed_42_sample_1_model.cif": "6e0dde424dbdd17993ce0596df65bc79fb59a76b1d6fc2bc2ceb98ace523404b",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_004/seed_42/calib_004_seed_42_sample_1_scores.json": "900b4a1bb76f4eac3189d64be817125dfb7f4747a8ed1e5c9a971dfa574ed682",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_004/seed_1/calib_004_seed_1_sample_1_model.cif": "3ae2082ae7da6d04cbdc58e203477388ab206072cacfb8e493f3ad695277ef69",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_004/seed_1/calib_004_seed_1_sample_1_scores.json": "7657090e07c734b912dbc061a6bf7542ddf1678a2043eb3b21dbc644548f82c9",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_004/seed_2/calib_004_seed_2_sample_1_model.cif": "88868de189dcbee8d960f07207f322b2bc2028118a3bab4e980a52c51466e9ff",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_004/seed_2/calib_004_seed_2_sample_1_scores.json": "ac1e08c69c8fafeab6582708f67fbe094487364a796d2a5e61e0420141366f05",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_005/seed_42/calib_005_seed_42_sample_1_model.cif": "c22c04a89f233cc21aa916f46b4922c16fee7b3d5ccd94d16df5932a5939f735",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_005/seed_42/calib_005_seed_42_sample_1_scores.json": "9b945bc7002fef3cb504960b1ebb6c771f06f0f7b840be5a06a174dffcaa7d09",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_005/seed_1/calib_005_seed_1_sample_1_model.cif": "47c3a4be45d910578293c397519a95c077e6b0f28503a973278c8aeea33d1a66",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_005/seed_1/calib_005_seed_1_sample_1_scores.json": "2cf6bed2ef065c9e4e860c1be22eb5db3fb1dd50e34550710ae9a1c7c1d37770",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_005/seed_2/calib_005_seed_2_sample_1_model.cif": "36e079585cc3b913b82dae034807af3bee9a86dae4f8f153fbd2ed502337a913",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_005/seed_2/calib_005_seed_2_sample_1_scores.json": "76551be6fe04e2114be567095ab83b486e8593f3cd5e4fc0d68fb3cd59cebfaa",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_006/seed_42/calib_006_seed_42_sample_1_model.cif": "6d791eee4e612e7087f54cf8d1c479b990213ca605feef3cc441335093ed74cc",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_006/seed_42/calib_006_seed_42_sample_1_scores.json": "0b144b0fe53b1932da7b603c65c16d9587f469c51c75cb8a09af5e6cc79df850",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_006/seed_1/calib_006_seed_1_sample_1_model.cif": "fdcd4471042f0968e3d6a3d6a073ca80dd3527d362bc6e6322748ccc52c81adc",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_006/seed_1/calib_006_seed_1_sample_1_scores.json": "96d4248fa003c2ff3707403b866572b439df4e21f3b4dd1c230bc8d89ecee36e",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_006/seed_2/calib_006_seed_2_sample_1_model.cif": "77bcb2514dc80c52d3fcb387302bcded9201c2a58f39e686791de8fdab8358ec",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_006/seed_2/calib_006_seed_2_sample_1_scores.json": "3a85f54ff4a55c4d8cd464a7348b86ae6cfb55f2a2581c3c1ba36f8e49a47463",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_007/seed_42/calib_007_seed_42_sample_1_model.cif": "f08c885a658cb4ea26121058ffdeb42056c9fd7c5adf1776c49bc100d6f46354",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_007/seed_42/calib_007_seed_42_sample_1_scores.json": "943ba469d6d82a1adf13755e5905960865bd1090d53e0d82e66a7a3de6ae0c18",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_007/seed_1/calib_007_seed_1_sample_1_model.cif": "f796e7bdfa8f43f8a9a739b4d3ec9b257c887287ed20d8e7f4a9122637fdd398",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_007/seed_1/calib_007_seed_1_sample_1_scores.json": "286ce8bc327d976ff634656e71c58cd88e8c4634262bd9c4bd21430e4a81be1c",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_007/seed_2/calib_007_seed_2_sample_1_model.cif": "c1d007cff10d3a851c4d536d2998956045f38ad4ee9cac9d37fc0add376f87dd",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_007/seed_2/calib_007_seed_2_sample_1_scores.json": "74ffb942c4cc4a9d3d9e858949238b1a3066eb573bdd5b7f54220391e46b9d2f",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_008/seed_42/calib_008_seed_42_sample_1_model.cif": "9db219b75993cdd2711ee2d57778469b7e688a87c7b73333fbbd91a9ce8230fd",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_008/seed_42/calib_008_seed_42_sample_1_scores.json": "22559c36be9a41b347bf979832001f19656877529f6ff6eab1a35bdda01a49e8",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_008/seed_1/calib_008_seed_1_sample_1_model.cif": "8913efd6a0d306b3fd0d231a99a2dc701a78bf009267c9580f7b24dbfda9f818",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_008/seed_1/calib_008_seed_1_sample_1_scores.json": "20e2615561200eaf3c9da2188bffa13caa2a4461d8b6e3104e40f744da0da8a6",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_008/seed_2/calib_008_seed_2_sample_1_model.cif": "7a16de1f8766f3bea3d25bfb4e460e552b8c688615439d02e2860c5ea613d8ce",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_008/seed_2/calib_008_seed_2_sample_1_scores.json": "def77ae5d8d5ac68aef5159d55f72be2c8a5be67c4955daf05f209485bbda74d",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_009/seed_42/calib_009_seed_42_sample_1_model.cif": "424b3fae9fcd74bc351b63d5eac8a7c13cf70f9bb654b0ea026ab719155e0f93",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_009/seed_42/calib_009_seed_42_sample_1_scores.json": "eeb7b025ad432f7b377fe8c53eb957f9e8633a3bbb22ddbfdb7299f92175a808",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_009/seed_1/calib_009_seed_1_sample_1_model.cif": "b47ba20211d451b47dfd2bc372650b3fffecb4af49867bb5794bf686b9596ed8",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_009/seed_1/calib_009_seed_1_sample_1_scores.json": "ec8f457e9f34b5c9ac43126b80275ad9a370046ce1e18af1804f0d18f232ce1a",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_009/seed_2/calib_009_seed_2_sample_1_model.cif": "f11add2f0203a37d5950c575bffb153880d784bc290b4f52b2178ddf142c3e1f",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_009/seed_2/calib_009_seed_2_sample_1_scores.json": "af1c7daf37f40279808690cd34c7ee74129cf360a4c87f32d9e41d4baaf7d157",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_010/seed_42/calib_010_seed_42_sample_1_model.cif": "4ad1d9f04b6f5404058f0550174d136c897374fe3154a48231c07b8f582a08a0",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_010/seed_42/calib_010_seed_42_sample_1_scores.json": "7fe2677390745593ac196001ff0a0e2344f87c3778f964d302dc09ca66c0a689",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_010/seed_1/calib_010_seed_1_sample_1_model.cif": "e4a7897957121a585af9571229e845561bfbdc45ecaf2ba2b371e34c4ece251d",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_010/seed_1/calib_010_seed_1_sample_1_scores.json": "3c709ba588e1971e2c3d9a2c82a946310b3548b34c565eb5a388da2c81ac5cfc",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_010/seed_2/calib_010_seed_2_sample_1_model.cif": "dafd308d4a1c8f34ff878d605c233601bb43e3e4de6821396d3628321137b54d",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_010/seed_2/calib_010_seed_2_sample_1_scores.json": "fed8a7702b5fcea974181fccd860ad3f6eb118425c460ffd536659b351cec3dc",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_011/seed_42/calib_011_seed_42_sample_1_model.cif": "284aaba841da3f79fe0ec5b481aea4f18f3b4d18fd8384e22e2dd4b632c2fab4",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_011/seed_42/calib_011_seed_42_sample_1_scores.json": "75c0f6ee1c35bca24d28f2e44c6c42f47ca8fe3dea1b52d90d62bbb00a31a2da",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_011/seed_1/calib_011_seed_1_sample_1_model.cif": "590cf8aeb4510782ab40568e9460fa5ef58c5ef33d3858fa0c945a940006e462",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_011/seed_1/calib_011_seed_1_sample_1_scores.json": "e4405a891450d397c169518d5c51ce72dbfc75d3cbd381adc2bfb9cc0ec15870",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_011/seed_2/calib_011_seed_2_sample_1_model.cif": "d572507d35cb7d8fb7dff15d3b9c39a0c86d783912d04105a3176c810df95d80",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_011/seed_2/calib_011_seed_2_sample_1_scores.json": "83a765ecae6aedd3656be18a9400b0707b8d77c3861ea4af1dca0a0e21f2f387",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_012/seed_42/calib_012_seed_42_sample_1_model.cif": "b9bf91ed1f46cbea28fb53fcdcde38310e4e97b8668bb10652b978d5657fc898",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_012/seed_42/calib_012_seed_42_sample_1_scores.json": "e6bbd99a30bb71a1a65588ea4fe9afa3b914ca2297ee87a9af0fc3ed088998f9",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_012/seed_1/calib_012_seed_1_sample_1_model.cif": "18d5ba80984559327f228600e17f3bdd89df14271475096785d92ff401f259ad",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_012/seed_1/calib_012_seed_1_sample_1_scores.json": "4e2d3b39f68d87ce8fdf38522e2913d3b811f5aa62c34333c22cc94f9366ecd6",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_012/seed_2/calib_012_seed_2_sample_1_model.cif": "d7a1f11f1629d45006d8cf2c424b7c4d7fc4c71b7cfa6d8f4a6d7135abdbaec8",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_012/seed_2/calib_012_seed_2_sample_1_scores.json": "8e627ee5314ca42a33e9730d8323741c622886e45d04dbd5de849b52a9cea07c",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_013/seed_42/calib_013_seed_42_sample_1_model.cif": "9a7137ecaa184121249c0caaf9eb08105b6f1b04bc7653d79af7e19e468dac64",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_013/seed_42/calib_013_seed_42_sample_1_scores.json": "df18a1bcf23baafc794d2c37f5f44fe358a7b9fb415c1ff3883349116be0cbf4",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_013/seed_1/calib_013_seed_1_sample_1_model.cif": "f3bfd165231bda02fbcaf9b1d269f137c2c05779e8976da7d69ef7332e8645bf",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_013/seed_1/calib_013_seed_1_sample_1_scores.json": "bb8fa8dd9a893bb2a463597cbe172a6adf6414d9097597d1056401c1b0aefddc",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_013/seed_2/calib_013_seed_2_sample_1_model.cif": "367a4d804af4e7be43037dbf893171658ca24d24147991ff89af4d825c49142d",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_013/seed_2/calib_013_seed_2_sample_1_scores.json": "b6de9354f2bcc3e5b8092eed0f4d1493fa9a54ce7a881f1be7808d1c801ebf97",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_014/seed_42/calib_014_seed_42_sample_1_model.cif": "31740d1c55db2173fb377cf55e79adaac198a648c0868c89e1fd08fe338a968d",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_014/seed_42/calib_014_seed_42_sample_1_scores.json": "b092b101016e612c2d94dcd34060ae969666062146c153419b9585dec13aa930",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_014/seed_1/calib_014_seed_1_sample_1_model.cif": "b370eee13a917d47e9a7e2e7d32d9af3b39a6ed00e900d4b520282edd1705ca0",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_014/seed_1/calib_014_seed_1_sample_1_scores.json": "c5b8e1d2fd4273e93b80a054e826f7b6d6cc6f86653abcc1d5e3eddeadcba6d9",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_014/seed_2/calib_014_seed_2_sample_1_model.cif": "ba01c9c7ec262f2c63c4116f8d619f99cafa544be68f46867db5d53fa9d01851",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_014/seed_2/calib_014_seed_2_sample_1_scores.json": "610f645f7b4e685d2c1bb5810fc6fb8cd9a2b015e7bc8a47564c04dd891d6266",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_015/seed_42/calib_015_seed_42_sample_1_model.cif": "ae481195529c1d54850c6a5e34d47eb524d9b7129a754f42def49e1ea3e06c7b",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_015/seed_42/calib_015_seed_42_sample_1_scores.json": "bc2f39f591a25c7e47b3e81fddfc18597e505107598daa08993766518bc78a3c",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_015/seed_1/calib_015_seed_1_sample_1_model.cif": "87bf56f030e6d84d3d79dd34e235d99e448f491d1d23cafbc200c749b96aa4e8",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_015/seed_1/calib_015_seed_1_sample_1_scores.json": "ac71b5660d604c645856aaadd5df71ccad553ab95762009ae9c5011013f46d7d",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_015/seed_2/calib_015_seed_2_sample_1_model.cif": "97fdac6047ac9b5f8f33b294829310b06c72d4982cbea80cff17a6c8c61b09bc",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_015/seed_2/calib_015_seed_2_sample_1_scores.json": "e8bbbfbb5fc1f5172fe1c96365f759dba6e94b4b92b47d0a38b6897551bec976",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_016/seed_42/calib_016_seed_42_sample_1_model.cif": "180af94e9e03f7ebde66cdc44e47af4498d98bd27b20109a3d021a82571c0492",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_016/seed_42/calib_016_seed_42_sample_1_scores.json": "f5e42d79ea93374d1478737a712bf46e006916015d445b4821fba31781038634",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_016/seed_1/calib_016_seed_1_sample_1_model.cif": "6a162c908412270476e26ce19cd6436cd9975bd5c0e71a0000fc3ddc23ef0a09",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_016/seed_1/calib_016_seed_1_sample_1_scores.json": "c47ca7b3cc4621136b4b7b84e406972edeec1a8c42b7cc2675aa1879100be42a",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_016/seed_2/calib_016_seed_2_sample_1_model.cif": "0deb7748d4db187f2ddecbe7cc2138c0f83f9ce9c37dd6ffd96fdc2cff04f846",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_016/seed_2/calib_016_seed_2_sample_1_scores.json": "76ca7bd2a3e4a96432d1079a1d2bdfdf2cc1e655e461f2ce2d8d0a1fbe82b276",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_017/seed_42/calib_017_seed_42_sample_1_model.cif": "e26296efdbfc3535ddca951f67e1c20391f8571c59172b3e47b9ff807f150e7c",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_017/seed_42/calib_017_seed_42_sample_1_scores.json": "56c301615c757b56a044ceefba271feafd36ddd7698f9f30e200ff011613a4d9",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_017/seed_1/calib_017_seed_1_sample_1_model.cif": "dfaad1db69a58efcfe68351ec7d7ccb32765c4cf7c9231e27d6677b7bce61260",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_017/seed_1/calib_017_seed_1_sample_1_scores.json": "6e38c59470abfbb8f05811b8b2d696f5d99c72a150b7e5b9131890f688f906fa",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_017/seed_2/calib_017_seed_2_sample_1_model.cif": "a78f3a27e5ed1ad3fbdecfa46ef748bcfc7a2df3381c42c8c1114a6fd1d4e894",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_017/seed_2/calib_017_seed_2_sample_1_scores.json": "9f967cba26572ae62dc9aad3dd0af82d08d6c7d8e3ddb2ca247594dc91877de8",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_018/seed_42/calib_018_seed_42_sample_1_model.cif": "9b46673d54fb9b3343f686277c1d1cebd723dcbaf3697764cbfe3c327883341d",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_018/seed_42/calib_018_seed_42_sample_1_scores.json": "41ed7f17d1e677ae554e2a779df1d8ebc67c4af509a93cbe728e788f64b9d91c",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_018/seed_1/calib_018_seed_1_sample_1_model.cif": "518e8df6d34494948611c661c7fff3e0d87949ba3d55aaffbf487e79373ac417",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_018/seed_1/calib_018_seed_1_sample_1_scores.json": "2c884ada98db1c9fa6229e52063372526c1c128834d86c1747b08b79f30b5275",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_018/seed_2/calib_018_seed_2_sample_1_model.cif": "f459f63fd8ffeb065e14ade5a43f57e139a6393324ef07f4abda2c48d3feca59",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_018/seed_2/calib_018_seed_2_sample_1_scores.json": "f57c21f564eebc7b20595d6fe7f2f4efef1c7006f12ea65a2840ba7f714468e4",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_019/seed_42/calib_019_seed_42_sample_1_model.cif": "a4b5d4b380f4dc8d1b5e7848848d5c09d14f65c13b36c7257f6dc00d51a5f788",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_019/seed_42/calib_019_seed_42_sample_1_scores.json": "e4305d1bca91853d7e6e65c1f0c46370786428d6fbe9f3aeb7d96173eb149cd1",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_019/seed_1/calib_019_seed_1_sample_1_model.cif": "0a05e8aadbc6607a73ada84200846a957fcd15bf049ca326d99a53ef983eb4ee",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_019/seed_1/calib_019_seed_1_sample_1_scores.json": "4bb159eee11eb4fdc35c8e5107838cbc60f562014c4f7f4da131d245e1b2ce39",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_019/seed_2/calib_019_seed_2_sample_1_model.cif": "a528280f919887fea7ed076f75fef1686fc4970142e4d8ff3175edbd6282ed48",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_019/seed_2/calib_019_seed_2_sample_1_scores.json": "b67df538d024478a6e68bdc70dc45acff24a18c9572b226d5760aea31e8a9466",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_020/seed_42/calib_020_seed_42_sample_1_model.cif": "caa7debfa5ae0e02bff1c498af9c115c919ecc79ee6cd42e890b6f5c68e66324",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_020/seed_42/calib_020_seed_42_sample_1_scores.json": "6e9934b2b718a93a910e699023967c080271c2f8bcbf4ea6c4561f7070ccebbc",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_020/seed_1/calib_020_seed_1_sample_1_model.cif": "716dd02eb449d257ba803f6d7a213da7c7544870a28d869fd99df5996ff74bd2",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_020/seed_1/calib_020_seed_1_sample_1_scores.json": "cfb74f47fd09cec542ed908e88ad0c2201001ecff082f204a6cca75146881e43",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_020/seed_2/calib_020_seed_2_sample_1_model.cif": "7c5d1d0b95265f1733a3eb6b5a91e4b7976bb3e16f2aeed2f26ca9c69c6ff088",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_020/seed_2/calib_020_seed_2_sample_1_scores.json": "ac53f6d4ef2192c02f5ffa833748d262d5664c0a876961584cb06e0c1bdf2371",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_021/seed_42/calib_021_seed_42_sample_1_model.cif": "2881b3b750d0858f20ecb2753565ff687aa8f336ac568a3759e52e6ba21fbc50",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_021/seed_42/calib_021_seed_42_sample_1_scores.json": "6026b1cc8018adf7a3c6308990c10ced78f7ae65a9e16ad2d1ff93d096f59f16",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_021/seed_1/calib_021_seed_1_sample_1_model.cif": "cf75ee1052bd18f4ed70eaabc43c3d9504433278f7994afa334bf02776675a21",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_021/seed_1/calib_021_seed_1_sample_1_scores.json": "18b85ed714ecd0342ab710fc42f1930be06a95e864168cfb81da8901ef0540ba",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_021/seed_2/calib_021_seed_2_sample_1_model.cif": "846470df9829bc594a1542b23ada54deca949af1944bced0e7dce29bcce0d3c0",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_021/seed_2/calib_021_seed_2_sample_1_scores.json": "01397944bf32b400ea5f64fba608284f5681d182ac7a56715cca640b11f95117",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_022/seed_42/calib_022_seed_42_sample_1_model.cif": "359a16ebf9d94eef6d069d3342f14e3ef3f8849ba0636e3e279184bf10e91f90",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_022/seed_42/calib_022_seed_42_sample_1_scores.json": "a29b74346d1b9e98544db56ac360813373b377f1e5cbfc981b8ae03414b6c4ac",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_022/seed_1/calib_022_seed_1_sample_1_model.cif": "a8966675243d80136ac159126e827a899a48b0ec72d704c83208865fea8c35ec",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_022/seed_1/calib_022_seed_1_sample_1_scores.json": "79d2742e767979049ca3f9646465c96df2fc9ef283a804853a14f51be453a8c2",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_022/seed_2/calib_022_seed_2_sample_1_model.cif": "d97a4307b81423cbc54a354a880e815566410a0e57cd91512212b34acfb4914a",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_022/seed_2/calib_022_seed_2_sample_1_scores.json": "08f73d37d45094aa5900e3fab3281eefdb7c22b2934861e7c21f7662250f2418",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_023/seed_42/calib_023_seed_42_sample_1_model.cif": "b5a19b02f72439c93c5b11c0b0e67a0073030bcd4d2438417834d42435132cde",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_023/seed_42/calib_023_seed_42_sample_1_scores.json": "97e16152a0408c1cbd496235f138062ee7d0766c3bfe5f0049979032fd30a0fb",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_023/seed_1/calib_023_seed_1_sample_1_model.cif": "4d008be6f0b8a5efed9e4cff9231194cafc65ce02595ab5a4a8cb292074dbb90",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_023/seed_1/calib_023_seed_1_sample_1_scores.json": "88ee018d6dab97dcdcbc2d46b097c56f1fbb7850cedbb6fb07a35c339d67444b",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_023/seed_2/calib_023_seed_2_sample_1_model.cif": "ed0b42f0ad53f9054961570e4310b7c8db7cb79707254a797300899cd5868b15",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_023/seed_2/calib_023_seed_2_sample_1_scores.json": "4da2b718beda2c8c882a61e926a73f61fe5d4de4bcf855ab0f8de8a1e3552e17",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_024/seed_42/calib_024_seed_42_sample_1_model.cif": "ce1fb5ab78bceb1d4853429146b73224b3d62a3b9276f2b1e2a8da4351d695d3",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_024/seed_42/calib_024_seed_42_sample_1_scores.json": "816f99d4f0a7b8c578ad5ca48bc71c68b842d5172dd9ead62481421d68de4028",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_024/seed_1/calib_024_seed_1_sample_1_model.cif": "d19d9384f085423f0534de469158bb0a6fa23855dd28f657628ab0fb51e333bb",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_024/seed_1/calib_024_seed_1_sample_1_scores.json": "322d9c311a93b8bb84e46c4f7cef8ef5c990370ae010134c55653b9b4a4648e1",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_024/seed_2/calib_024_seed_2_sample_1_model.cif": "03010fe19a85003a86e3e6519ff5ddae1e5c97a715dd7746bc13097d55faaa83",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_024/seed_2/calib_024_seed_2_sample_1_scores.json": "ca0268f6002a1ceeb995be9028486eff2fd1a0f3b8f08d155488032ffbcfbe84",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_025/seed_42/calib_025_seed_42_sample_1_model.cif": "53a8243f537ce3d6a80bbcb537c9e3b21d2646aacb89c3c15be6b7aab1d79b22",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_025/seed_42/calib_025_seed_42_sample_1_scores.json": "1efedc78dce8e79fea338546799ffbf9cdb02196d268fa6325d0d40daacc3843",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_025/seed_1/calib_025_seed_1_sample_1_model.cif": "76b13061c3432837ae6d8477b8470cc0742044288864a2e024d8f46e8d47c7fb",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_025/seed_1/calib_025_seed_1_sample_1_scores.json": "24e249d959a9e616fb63125509932c4a2631905184cb431497326bdbbb144f9d",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_025/seed_2/calib_025_seed_2_sample_1_model.cif": "3fb158cfc88720f763dc31e708832930577729251e286c4dfc8ce6d3619347dc",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_025/seed_2/calib_025_seed_2_sample_1_scores.json": "ff6a784f8705f6650dc2f26b13f0ae3b93557a46eccf2692176e4ddf416fe1fb",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_026/seed_42/calib_026_seed_42_sample_1_model.cif": "7dda454e9ec160e11376144ffe6c3731f92df76bff49d3942d98b2f235abf849",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_026/seed_42/calib_026_seed_42_sample_1_scores.json": "e378699b61c5bf28f2cf3d203477131b8827abc1bdbb8afcb4c8cd1664c54336",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_026/seed_1/calib_026_seed_1_sample_1_model.cif": "2dfb89873b9b0f33c9ab9d1fc88f02a0ded0c3bb114e906c0da2a476d6b4a377",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_026/seed_1/calib_026_seed_1_sample_1_scores.json": "1d64e55c865fbcd742e3f1c8c695e1bfa425badb5b015df3ae1b241aa033c7a5",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_026/seed_2/calib_026_seed_2_sample_1_model.cif": "a966993c5fa38344461b0c526da873074a746d43b2ad581cc5f15d8adf076706",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_026/seed_2/calib_026_seed_2_sample_1_scores.json": "799f8ba6e95dd5fd516b3fc05a82ee6807c8fb31c52cbf73d9c133276b6fbef1",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_027/seed_42/calib_027_seed_42_sample_1_model.cif": "8fe16cece70fe43dc726b3f6b2995bda3f53812043519f688db683753d5513da",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_027/seed_42/calib_027_seed_42_sample_1_scores.json": "6a0c0773a8f73a836fec9fd7891c11f16acb1b801e7ccb0a7b8327db2e633e68",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_027/seed_1/calib_027_seed_1_sample_1_model.cif": "d7c408c9385ad2a72df1c2bbd0598914b7ed9cdc5c227dbc6d889418f053cb6a",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_027/seed_1/calib_027_seed_1_sample_1_scores.json": "5063de8af7bdd4faae4768da2951c45ff5654586382acbf1f49ef9b8cf24987a",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_027/seed_2/calib_027_seed_2_sample_1_model.cif": "9fa0b6f68a163fe737ee0afcc4c980af30faa19bbcebb0bd66b9fa870ce3e955",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_027/seed_2/calib_027_seed_2_sample_1_scores.json": "9307e0c729e434f3b5da8f36a728c52d52c2fa4616c5695d28ec23ad14d046c2",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_028/seed_42/calib_028_seed_42_sample_1_model.cif": "b4f6378262da4706e9bbf1706db2cc139f69aae0b0cf8445dd02f8e90073c1cc",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_028/seed_42/calib_028_seed_42_sample_1_scores.json": "bb6612bf17f7317f411088fb18eebed3f86c5195bdbc64b39e062981c05f9091",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_028/seed_1/calib_028_seed_1_sample_1_model.cif": "687bfd3278d2943fe397836c41db0e2eea56269eb9a79ca0dc4d8dedaa8c5825",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_028/seed_1/calib_028_seed_1_sample_1_scores.json": "4ad27ffea7f2cbbc38a0bfa5e29d91f3b1f7cad9beb0dc9285d8da5846863be5",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_028/seed_2/calib_028_seed_2_sample_1_model.cif": "89abbc238ca176d4f25b4bc6e88e5ee51cf673467cb351fa05ece1adb63b69da",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_028/seed_2/calib_028_seed_2_sample_1_scores.json": "e7d6e7f17be13ee9a10b452e95f3afc9b1a23d39ac9294c4e9fa4fb1eb23df55",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_029/seed_42/calib_029_seed_42_sample_1_model.cif": "6e0dc7a3da9c8673d7b0b88565451ddc31a553aae40931a65371d199886a938e",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_029/seed_42/calib_029_seed_42_sample_1_scores.json": "0fa86d7af804254432cb66ec7d121c8fbb523c0b952f9dd9a90846da50bcb73e",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_029/seed_1/calib_029_seed_1_sample_1_model.cif": "388eafc0633a32c7bc687ea91d1dd80f41b237ab7334801a552868216dbdaebc",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_029/seed_1/calib_029_seed_1_sample_1_scores.json": "f70a44a85efcefaa4245af5699082fabbce6b28e621b69531fad7b2c45e6ad1f",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_029/seed_2/calib_029_seed_2_sample_1_model.cif": "3f5a7f9804de08a3058a2e003c9c1661365e34cdeed75e0b26c97ff1f50062f2",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_029/seed_2/calib_029_seed_2_sample_1_scores.json": "e64423d3618cb0ad63f881a8821b00c889fca0d3cb1545a858c80373483b7cf6",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_030/seed_42/calib_030_seed_42_sample_1_model.cif": "d3010590f8d91fa86612fd12eb95c3b693a09b1ba8796ca02c20da32db5dd20b",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_030/seed_42/calib_030_seed_42_sample_1_scores.json": "6218783ce8030473b0ac021f07882744646ccb609b1f15b9c43cf1544f764bcb",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_030/seed_1/calib_030_seed_1_sample_1_model.cif": "a6554310a02a80120b0131dcb8a8a35e7307dff25abc5245ab2d9f644a70a6c1",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_030/seed_1/calib_030_seed_1_sample_1_scores.json": "d8bcb5261eaee7a0b4f122556589132df7058bbf76fd6d4186bbfeac2cb50146",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_030/seed_2/calib_030_seed_2_sample_1_model.cif": "888c196ada2df67e773bf31f8f435a2a71937747505b98a9168d7525d50b65ac",
+    "runs/009-claude-multiseed-refold/out/boltz2-calib/calib_030/seed_2/calib_030_seed_2_sample_1_scores.json": "5a1b9a8f98884aed5a5a629c208b32150893b72c322acb07d149add7356aa53b"
+  },
+  "all_four_by_seed": {
+    "1": 28,
+    "2": 30,
+    "3": 28,
+    "4": 27,
+    "5": 28,
+    "42": 28
+  },
+  "all_four_every_seed": 24,
+  "exact_by_seed": {
+    "1": 11,
+    "2": 10,
+    "3": 7,
+    "4": 7,
+    "5": 11,
+    "42": 14
+  },
+  "panel_poses": {
+    "anas_001": {
+      "42": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.9145
+      },
+      "1": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.9055
+      },
+      "2": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.9215
+      },
+      "3": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.9005000000000001
+      },
+      "4": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.903
+      },
+      "5": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.894
+      }
+    },
+    "anas_002": {
+      "42": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.877
+      },
+      "1": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8421052631578947,
+        "vh": 0.8694999999999999
+      },
+      "2": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.8995
+      },
+      "3": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8421052631578947,
+        "vh": 0.8815
+      },
+      "4": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.919
+      },
+      "5": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.887
+      }
+    },
+    "anas_003": {
+      "42": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.853
+      },
+      "1": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8421052631578947,
+        "vh": 0.849
+      },
+      "2": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.864
+      },
+      "3": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.8435
+      },
+      "4": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.8555
+      },
+      "5": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8,
+        "vh": 0.845
+      }
+    },
+    "anas_004": {
+      "42": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.887
+      },
+      "1": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.8805000000000001
+      },
+      "2": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.8935
+      },
+      "3": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.8725
+      },
+      "4": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.889
+      },
+      "5": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.8965000000000001
+      }
+    },
+    "anas_005": {
+      "42": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9,
+        "vh": 0.8605
+      },
+      "1": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.8415
+      },
+      "2": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.8285
+      },
+      "3": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.8421052631578947,
+        "vh": 0.8625
+      },
+      "4": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.8515
+      },
+      "5": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.8500000000000001
+      }
+    },
+    "anas_006": {
+      "42": {
+        "all_four": false,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.7725
+      },
+      "1": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.95,
+        "vh": 0.88
+      },
+      "2": {
+        "all_four": false,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.7909999999999999
+      },
+      "3": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9,
+        "vh": 0.841
+      },
+      "4": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.9,
+        "vh": 0.883
+      },
+      "5": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.95,
+        "vh": 0.883
+      }
+    },
+    "anas_007": {
+      "42": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.8965000000000001
+      },
+      "1": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.883
+      },
+      "2": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.9115
+      },
+      "3": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.886
+      },
+      "4": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.9195
+      },
+      "5": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.9159999999999999
+      }
+    },
+    "anas_008": {
+      "42": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.8714999999999999
+      },
+      "1": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.8815
+      },
+      "2": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.8845000000000001
+      },
+      "3": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.8835
+      },
+      "4": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.898
+      },
+      "5": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.8975
+      }
+    },
+    "anas_009": {
+      "42": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.8636363636363636,
+        "vh": 0.9065
+      },
+      "1": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.894
+      },
+      "2": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.8636363636363636,
+        "vh": 0.9079999999999999
+      },
+      "3": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.907
+      },
+      "4": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.8925000000000001
+      },
+      "5": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.8571428571428571,
+        "vh": 0.8885000000000001
+      }
+    },
+    "anas_010": {
+      "42": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.8885000000000001
+      },
+      "1": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.892
+      },
+      "2": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.9175
+      },
+      "3": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.9005000000000001
+      },
+      "4": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.902
+      },
+      "5": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.898
+      }
+    },
+    "anas_011": {
+      "42": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.913
+      },
+      "1": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.8815
+      },
+      "2": {
+        "all_four": false,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.8674999999999999
+      },
+      "3": {
+        "all_four": false,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.9179999999999999
+      },
+      "4": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.896
+      },
+      "5": {
+        "all_four": false,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.9125
+      }
+    },
+    "anas_012": {
+      "42": {
+        "all_four": false,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.882
+      },
+      "1": {
+        "all_four": false,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.8455
+      },
+      "2": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.8421052631578947,
+        "vh": 0.8694999999999999
+      },
+      "3": {
+        "all_four": false,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.863
+      },
+      "4": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.8545
+      },
+      "5": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.8485
+      }
+    },
+    "anas_013": {
+      "42": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.8855
+      },
+      "1": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.8420000000000001
+      },
+      "2": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.85,
+        "vh": 0.827
+      },
+      "3": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.9,
+        "vh": 0.8765000000000001
+      },
+      "4": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.8,
+        "vh": 0.8955
+      },
+      "5": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.8421052631578947,
+        "vh": 0.8975
+      }
+    },
+    "anas_014": {
+      "42": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.866
+      },
+      "1": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.8565
+      },
+      "2": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.95,
+        "vh": 0.883
+      },
+      "3": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.8585
+      },
+      "4": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.95,
+        "vh": 0.8505
+      },
+      "5": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.95,
+        "vh": 0.869
+      }
+    },
+    "anas_015": {
+      "42": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.8935
+      },
+      "1": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.8625
+      },
+      "2": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.891
+      },
+      "3": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8421052631578947,
+        "vh": 0.883
+      },
+      "4": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.8895
+      },
+      "5": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.8885000000000001
+      }
+    },
+    "anas_016": {
+      "42": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.95,
+        "vh": 0.8985000000000001
+      },
+      "1": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.85,
+        "vh": 0.8575
+      },
+      "2": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.95,
+        "vh": 0.8895
+      },
+      "3": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.95,
+        "vh": 0.8594999999999999
+      },
+      "4": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.8636363636363636,
+        "vh": 0.8905000000000001
+      },
+      "5": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.85,
+        "vh": 0.8734999999999999
+      }
+    },
+    "anas_017": {
+      "42": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.9065
+      },
+      "1": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.862
+      },
+      "2": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.8795
+      },
+      "3": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8421052631578947,
+        "vh": 0.8745
+      },
+      "4": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.883
+      },
+      "5": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.895
+      }
+    },
+    "anas_018": {
+      "42": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.8965000000000001
+      },
+      "1": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.882
+      },
+      "2": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.901
+      },
+      "3": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.8995
+      },
+      "4": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.892
+      },
+      "5": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.905
+      }
+    },
+    "anas_019": {
+      "42": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.9075
+      },
+      "1": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8421052631578947,
+        "vh": 0.8985000000000001
+      },
+      "2": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8421052631578947,
+        "vh": 0.9115
+      },
+      "3": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.899
+      },
+      "4": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.89
+      },
+      "5": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.896
+      }
+    },
+    "anas_020": {
+      "42": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.95,
+        "vh": 0.8995
+      },
+      "1": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9,
+        "vh": 0.864
+      },
+      "2": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.8795
+      },
+      "3": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8421052631578947,
+        "vh": 0.8520000000000001
+      },
+      "4": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.85,
+        "vh": 0.872
+      },
+      "5": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.85,
+        "vh": 0.8895
+      }
+    },
+    "anas_021": {
+      "42": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.8421052631578947,
+        "vh": 0.885
+      },
+      "1": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.8421052631578947,
+        "vh": 0.903
+      },
+      "2": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.913
+      },
+      "3": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.8421052631578947,
+        "vh": 0.8905000000000001
+      },
+      "4": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.897
+      },
+      "5": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.884
+      }
+    },
+    "anas_022": {
+      "42": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.8825000000000001
+      },
+      "1": {
+        "all_four": false,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.8565
+      },
+      "2": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.8534999999999999
+      },
+      "3": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.8835
+      },
+      "4": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.8755
+      },
+      "5": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.8755
+      }
+    },
+    "anas_023": {
+      "42": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8421052631578947,
+        "vh": 0.8955
+      },
+      "1": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8421052631578947,
+        "vh": 0.87
+      },
+      "2": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8421052631578947,
+        "vh": 0.872
+      },
+      "3": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8421052631578947,
+        "vh": 0.894
+      },
+      "4": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8421052631578947,
+        "vh": 0.905
+      },
+      "5": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8421052631578947,
+        "vh": 0.896
+      }
+    },
+    "anas_024": {
+      "42": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.882
+      },
+      "1": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9,
+        "vh": 0.8725
+      },
+      "2": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8571428571428571,
+        "vh": 0.8674999999999999
+      },
+      "3": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.85,
+        "vh": 0.882
+      },
+      "4": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8095238095238095,
+        "vh": 0.9095
+      },
+      "5": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.782608695652174,
+        "vh": 0.8665
+      }
+    },
+    "anas_025": {
+      "42": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.867
+      },
+      "1": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.8714999999999999
+      },
+      "2": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9,
+        "vh": 0.8915
+      },
+      "3": {
+        "all_four": false,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.885
+      },
+      "4": {
+        "all_four": false,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.9139999999999999
+      },
+      "5": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.833
+      }
+    },
+    "anas_026": {
+      "42": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.85,
+        "vh": 0.909
+      },
+      "1": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.85,
+        "vh": 0.8935
+      },
+      "2": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.95,
+        "vh": 0.9115
+      },
+      "3": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.85,
+        "vh": 0.8895
+      },
+      "4": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.85,
+        "vh": 0.897
+      },
+      "5": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9,
+        "vh": 0.903
+      }
+    },
+    "anas_027": {
+      "42": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.95,
+        "vh": 0.915
+      },
+      "1": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.895
+      },
+      "2": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.9235
+      },
+      "3": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.8,
+        "vh": 0.9015
+      },
+      "4": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.8,
+        "vh": 0.9125
+      },
+      "5": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.95,
+        "vh": 0.921
+      }
+    },
+    "anas_028": {
+      "42": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.891
+      },
+      "1": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.8775
+      },
+      "2": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.905
+      },
+      "3": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.878
+      },
+      "4": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.9015
+      },
+      "5": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.8985000000000001
+      }
+    },
+    "anas_029": {
+      "42": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.8825000000000001
+      },
+      "1": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.8855
+      },
+      "2": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.8925000000000001
+      },
+      "3": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.8975
+      },
+      "4": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.882
+      },
+      "5": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.8815
+      }
+    },
+    "anas_030": {
+      "42": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.8865000000000001
+      },
+      "1": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.8480000000000001
+      },
+      "2": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.902
+      },
+      "3": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.8855
+      },
+      "4": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.8895
+      },
+      "5": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.8945000000000001
+      }
+    },
+    "anas_031": {
+      "42": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.893
+      },
+      "1": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.8574999999999999
+      },
+      "2": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.899
+      },
+      "3": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.8765000000000001
+      },
+      "4": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.892
+      },
+      "5": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.884
+      }
+    },
+    "anas_032": {
+      "42": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.95,
+        "vh": 0.8725
+      },
+      "1": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.8725
+      },
+      "2": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.89
+      },
+      "3": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8,
+        "vh": 0.869
+      },
+      "4": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.892
+      },
+      "5": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.8725
+      }
+    },
+    "anas_033": {
+      "42": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.8475
+      },
+      "1": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.8405
+      },
+      "2": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.8455
+      },
+      "3": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.8455
+      },
+      "4": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.847
+      },
+      "5": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.8745
+      }
+    },
+    "anas_034": {
+      "42": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.8975
+      },
+      "1": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.8614999999999999
+      },
+      "2": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.911
+      },
+      "3": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8421052631578947,
+        "vh": 0.9105
+      },
+      "4": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8421052631578947,
+        "vh": 0.8865000000000001
+      },
+      "5": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.915
+      }
+    },
+    "anas_035": {
+      "42": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.8835
+      },
+      "1": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.883
+      },
+      "2": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.901
+      },
+      "3": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.892
+      },
+      "4": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.886
+      },
+      "5": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.9015
+      }
+    },
+    "anas_036": {
+      "42": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9,
+        "vh": 0.8825000000000001
+      },
+      "1": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9,
+        "vh": 0.892
+      },
+      "2": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.881
+      },
+      "3": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.8425
+      },
+      "4": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.888
+      },
+      "5": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9,
+        "vh": 0.882
+      }
+    },
+    "anas_037": {
+      "42": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.904
+      },
+      "1": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.902
+      },
+      "2": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.9165
+      },
+      "3": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.9015
+      },
+      "4": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.8965000000000001
+      },
+      "5": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.8905000000000001
+      }
+    },
+    "anas_038": {
+      "42": {
+        "all_four": false,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.867
+      },
+      "1": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.8935
+      },
+      "2": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.847
+      },
+      "3": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.89
+      },
+      "4": {
+        "all_four": false,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.897
+      },
+      "5": {
+        "all_four": false,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.9095
+      }
+    },
+    "anas_039": {
+      "42": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.9047619047619048,
+        "vh": 0.8845000000000001
+      },
+      "1": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.85,
+        "vh": 0.855
+      },
+      "2": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.85,
+        "vh": 0.9
+      },
+      "3": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.9,
+        "vh": 0.872
+      },
+      "4": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.85,
+        "vh": 0.8795
+      },
+      "5": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.85,
+        "vh": 0.8415
+      }
+    },
+    "anas_040": {
+      "42": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.863
+      },
+      "1": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.851
+      },
+      "2": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.9,
+        "vh": 0.909
+      },
+      "3": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8421052631578947,
+        "vh": 0.886
+      },
+      "4": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.871
+      },
+      "5": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.9,
+        "vh": 0.8915
+      }
+    },
+    "trastuzumab_wt": {
+      "42": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.901
+      },
+      "1": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.9025
+      },
+      "2": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.897
+      },
+      "3": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.897
+      },
+      "4": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.9
+      },
+      "5": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.9
+      }
+    },
+    "r004_cdrh3_4": {
+      "42": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.9
+      },
+      "1": {
+        "all_four": false,
+        "exact": false,
+        "jaccard": 0.95,
+        "vh": 0.882
+      },
+      "2": {
+        "all_four": false,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.915
+      },
+      "3": {
+        "all_four": false,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.8785000000000001
+      },
+      "4": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.893
+      },
+      "5": {
+        "all_four": false,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.8865000000000001
+      }
+    },
+    "r004_cdrh3_3": {
+      "42": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.933
+      },
+      "1": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.9195
+      },
+      "2": {
+        "all_four": true,
+        "exact": true,
+        "jaccard": 1.0,
+        "vh": 0.9239999999999999
+      },
+      "3": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.9179999999999999
+      },
+      "4": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8947368421052632,
+        "vh": 0.9275
+      },
+      "5": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8421052631578947,
+        "vh": 0.9175
+      }
+    },
+    "r004_cdrh3_31": {
+      "42": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.9055
+      },
+      "1": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.8785000000000001
+      },
+      "2": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9,
+        "vh": 0.913
+      },
+      "3": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.8,
+        "vh": 0.8925000000000001
+      },
+      "4": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9473684210526315,
+        "vh": 0.904
+      },
+      "5": {
+        "all_four": true,
+        "exact": false,
+        "jaccard": 0.9,
+        "vh": 0.8825000000000001
+      }
+    }
+  },
+  "calibration": {
+    "queries": 30,
+    "quantified": 25,
+    "seed_count": 3,
+    "rho_vh_vs_log_kd": -0.33621850977782675
+  }
+}

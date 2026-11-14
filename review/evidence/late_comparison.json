@@ -1,0 +1,479 @@
+{
+  "all": {
+    "total": 695,
+    "fitted": 152,
+    "no_fit": 432,
+    "other": 111,
+    "auc": {
+      "facs": {
+        "value": 0.7511574074074074,
+        "ci95": [
+          0.7046014558966862,
+          0.7929162097953216
+        ]
+      },
+      "blosum62": {
+        "value": 0.8466359039961013,
+        "ci95": [
+          0.8086748446637427,
+          0.8804025036549707
+        ]
+      },
+      "identity": {
+        "value": 0.8048245614035088,
+        "ci95": [
+          0.7606150249756335,
+          0.8435072870979532
+        ]
+      },
+      "logistic": {
+        "value": 0.6639406676413255,
+        "ci95": [
+          0.6116802966617934,
+          0.712114705165692
+        ]
+      },
+      "model_mean": {
+        "value": 0.7297605994152047,
+        "ci95": [
+          0.6793673093323587,
+          0.7721041971247563
+        ]
+      },
+      "minus_nearest_FACS_high": {
+        "value": 0.8494913499025342,
+        "ci95": [
+          0.8140076754385965,
+          0.8822134274488304
+        ]
+      }
+    },
+    "delta_auc_blosum_minus_facs": {
+      "value": 0.0954784965886939,
+      "ci95": [
+        0.06139284844054578,
+        0.13194691916423
+      ]
+    },
+    "delta_auc_blosum_minus_identity": {
+      "value": 0.04181134259259256,
+      "ci95": [
+        0.02875986080653025,
+        0.055838054337232
+      ]
+    },
+    "delta_auc_blosum_minus": {
+      "logistic": {
+        "value": 0.1826952363547758,
+        "ci95": [
+          0.14054790296052633,
+          0.22827976516812867
+        ]
+      },
+      "model_mean": {
+        "value": 0.11687530458089668,
+        "ci95": [
+          0.08055803027534109,
+          0.15640286153752433
+        ]
+      },
+      "minus_nearest_FACS_high": {
+        "value": -0.0028554459064328297,
+        "ci95": [
+          -0.024753670199804994,
+          0.019562850268031184
+        ]
+      }
+    },
+    "rho_log_kd": {
+      "facs": {
+        "value": -0.339179627911248,
+        "ci95": [
+          -0.48323266402134385,
+          -0.18417929827155752
+        ]
+      },
+      "blosum62": {
+        "value": -0.4964030575760733,
+        "ci95": [
+          -0.61356933468103,
+          -0.3680858019359014
+        ]
+      },
+      "identity": {
+        "value": -0.4314125378005051,
+        "ci95": [
+          -0.5585721518592254,
+          -0.29621881024300817
+        ]
+      },
+      "logistic": {
+        "value": -0.1538313020861882,
+        "ci95": [
+          -0.29735137002689127,
+          -0.002190687117483208
+        ]
+      },
+      "model_mean": {
+        "value": -0.2608176383343279,
+        "ci95": [
+          -0.40433482626402883,
+          -0.10955662755721277
+        ]
+      },
+      "minus_nearest_FACS_high": {
+        "value": -0.5320220587250402,
+        "ci95": [
+          -0.6352987828090452,
+          -0.4132269677295532
+        ]
+      }
+    },
+    "matched_pairs": 5798,
+    "same_distance_auc": {
+      "facs": 0.5765781303897896,
+      "blosum62": 0.7606071058985857,
+      "identity": 0.5,
+      "logistic": 0.47757847533632286,
+      "model_mean": 0.5369092790617455,
+      "minus_nearest_FACS_high": 0.7165401862711279
+    }
+  },
+  "distance_4_to_6": {
+    "total": 255,
+    "fitted": 82,
+    "no_fit": 128,
+    "other": 45,
+    "auc": {
+      "facs": {
+        "value": 0.625952743902439,
+        "ci95": [
+          0.5482517149390245,
+          0.7018935785060976
+        ]
+      },
+      "blosum62": {
+        "value": 0.7660537347560976,
+        "ci95": [
+          0.7013314596036586,
+          0.8273175495426829
+        ]
+      },
+      "identity": {
+        "value": 0.6398628048780488,
+        "ci95": [
+          0.5665789348323171,
+          0.7140815548780488
+        ]
+      },
+      "logistic": {
+        "value": 0.5529725609756098,
+        "ci95": [
+          0.4752096036585366,
+          0.6320526867378049
+        ]
+      },
+      "model_mean": {
+        "value": 0.6189024390243902,
+        "ci95": [
+          0.540867949695122,
+          0.6971298589939025
+        ]
+      },
+      "minus_nearest_FACS_high": {
+        "value": 0.749094893292683,
+        "ci95": [
+          0.6879656535823171,
+          0.8075016673018293
+        ]
+      }
+    },
+    "delta_auc_blosum_minus_facs": {
+      "value": 0.14010099085365857,
+      "ci95": [
+        0.06238924352134155,
+        0.22223466082317075
+      ]
+    },
+    "delta_auc_blosum_minus_identity": {
+      "value": 0.1261909298780488,
+      "ci95": [
+        0.08035203887195118,
+        0.17311713986280483
+      ]
+    },
+    "delta_auc_blosum_minus": {
+      "logistic": {
+        "value": 0.21308117378048785,
+        "ci95": [
+          0.12188690929878053,
+          0.3013100228658536
+        ]
+      },
+      "model_mean": {
+        "value": 0.14715129573170738,
+        "ci95": [
+          0.06416372903963408,
+          0.22718654725609752
+        ]
+      },
+      "minus_nearest_FACS_high": {
+        "value": 0.016958841463414642,
+        "ci95": [
+          -0.052361613948170745,
+          0.08142149390243898
+        ]
+      }
+    },
+    "rho_log_kd": {
+      "facs": {
+        "value": -0.07460859060958679,
+        "ci95": [
+          -0.2932165084885508,
+          0.14501787542025257
+        ]
+      },
+      "blosum62": {
+        "value": -0.25986707253304164,
+        "ci95": [
+          -0.44434249313980545,
+          -0.044923109659663944
+        ]
+      },
+      "identity": {
+        "value": -0.0937113600382278,
+        "ci95": [
+          -0.32513180381338447,
+          0.13473889352236354
+        ]
+      },
+      "logistic": {
+        "value": 0.15089328960048304,
+        "ci95": [
+          -0.0788676757446206,
+          0.37320609951278344
+        ]
+      },
+      "model_mean": {
+        "value": 0.06142828379292602,
+        "ci95": [
+          -0.15653469070585688,
+          0.2670608965346008
+        ]
+      },
+      "minus_nearest_FACS_high": {
+        "value": -0.31844284758216707,
+        "ci95": [
+          -0.5064380906812237,
+          -0.10811316641673561
+        ]
+      }
+    },
+    "matched_pairs": 3320,
+    "same_distance_auc": {
+      "facs": 0.5882530120481928,
+      "blosum62": 0.7643072289156626,
+      "identity": 0.5,
+      "logistic": 0.5123493975903615,
+      "model_mean": 0.566566265060241,
+      "minus_nearest_FACS_high": 0.7132530120481928
+    }
+  },
+  "all_by_high_distance": {
+    "1": {
+      "outcomes": {
+        "quantified_binding": 29,
+        "no_reportable_kd": 1,
+        "inconclusive": 1
+      },
+      "assessable": 30,
+      "fitted_fraction": 0.9666666666666667,
+      "descriptive_wilson_ci95": [
+        0.8332960900859083,
+        0.9940914096183875
+      ]
+    },
+    "2": {
+      "outcomes": {
+        "quantified_binding": 47,
+        "no_reportable_kd": 27,
+        "inconclusive": 19,
+        "not_reported": 2
+      },
+      "assessable": 74,
+      "fitted_fraction": 0.6351351351351351,
+      "descriptive_wilson_ci95": [
+        0.5213181349836579,
+        0.735614357071373
+      ]
+    },
+    "3": {
+      "outcomes": {
+        "no_reportable_kd": 89,
+        "quantified_binding": 53,
+        "inconclusive": 26,
+        "not_reported": 1
+      },
+      "assessable": 142,
+      "fitted_fraction": 0.3732394366197183,
+      "descriptive_wilson_ci95": [
+        0.29801048594930757,
+        0.4551461247215959
+      ]
+    },
+    "4": {
+      "outcomes": {
+        "no_reportable_kd": 161,
+        "inconclusive": 31,
+        "quantified_binding": 18,
+        "not_reported": 3
+      },
+      "assessable": 179,
+      "fitted_fraction": 0.1005586592178771,
+      "descriptive_wilson_ci95": [
+        0.06455835613141786,
+        0.15334331167230042
+      ]
+    },
+    "5": {
+      "outcomes": {
+        "no_reportable_kd": 129,
+        "inconclusive": 19,
+        "not_reported": 7,
+        "quantified_binding": 4
+      },
+      "assessable": 133,
+      "fitted_fraction": 0.03007518796992481,
+      "descriptive_wilson_ci95": [
+        0.011756525913678748,
+        0.07477762040969688
+      ]
+    },
+    "6": {
+      "outcomes": {
+        "no_reportable_kd": 25,
+        "inconclusive": 2,
+        "quantified_binding": 1
+      },
+      "assessable": 26,
+      "fitted_fraction": 0.038461538461538464,
+      "descriptive_wilson_ci95": [
+        0.006821984993543473,
+        0.18892778903034757
+      ]
+    }
+  },
+  "four_to_six_by_high_distance": {
+    "1": {
+      "outcomes": {
+        "quantified_binding": 1
+      },
+      "assessable": 1,
+      "fitted_fraction": 1.0,
+      "descriptive_wilson_ci95": [
+        0.20654931437723745,
+        1.0
+      ]
+    },
+    "2": {
+      "outcomes": {
+        "quantified_binding": 34,
+        "no_reportable_kd": 16,
+        "inconclusive": 11,
+        "not_reported": 2
+      },
+      "assessable": 50,
+      "fitted_fraction": 0.68,
+      "descriptive_wilson_ci95": [
+        0.5418970269185592,
+        0.7924178373934316
+      ]
+    },
+    "3": {
+      "outcomes": {
+        "no_reportable_kd": 57,
+        "quantified_binding": 42,
+        "inconclusive": 19,
+        "not_reported": 1
+      },
+      "assessable": 99,
+      "fitted_fraction": 0.42424242424242425,
+      "descriptive_wilson_ci95": [
+        0.33151106620941706,
+        0.5226333598614659
+      ]
+    },
+    "4": {
+      "outcomes": {
+        "no_reportable_kd": 51,
+        "inconclusive": 11,
+        "quantified_binding": 5
+      },
+      "assessable": 56,
+      "fitted_fraction": 0.08928571428571429,
+      "descriptive_wilson_ci95": [
+        0.0387421484495869,
+        0.1925600138551116
+      ]
+    },
+    "5": {
+      "outcomes": {
+        "no_reportable_kd": 4,
+        "not_reported": 1
+      },
+      "assessable": 4,
+      "fitted_fraction": 0.0,
+      "descriptive_wilson_ci95": [
+        0.0,
+        0.4898908364545973
+      ]
+    }
+  },
+  "inputs": {
+    "data/her2-trastuzumab/tz_her2_facs_3classes_524346.csv.zip": "85e5e56c9c34a7b206b818b90421427a8ad65d55ae821cb4ad642bb595def968",
+    "data/her2-trastuzumab/trastuzumab_her2_spr_all_768.csv": "4d6f53a6183f377670e9577b3233a7c4c14888965ac63824863219d13424fa9b",
+    "people/anas/facs_model.joblib": "ab1f714ca3e071976083c03bc4a81f64571b236d7f4f521f2b50e8ef6dd91da7",
+    "people/anas/facs_model_logreg.joblib": "cdc1b0bcbcc868257bcc8357e324e57c3405e6afb6ec7203cf01f42d489f45b4",
+    "people/anas/final-20.csv": "3142b262c8382265bbac8619139880e084b0fe8c7a4dc65627649736d1328ce9",
+    "runs/009-claude-multiseed-refold/multiseed_metrics.csv": "bfb7151b29a806f5540d6f0e66bb7a52579cdca66e1e5d892aa22965f4a6f310",
+    "runs/009-claude-multiseed-refold/multiseed_summary.csv": "917ea3d019f035a4f8b29e4b4b27af67bd015a820babdd6282636f012d06872a",
+    "runs/009-claude-multiseed-refold/calibration.csv": "1c43860b9df083b68ba2f76daa6a6713bd74cf60962d07124582d46e01739026"
+  },
+  "unique_FACS_high": 172149,
+  "n_unique_spr": 695,
+  "candidate_high_distance_counts": {
+    "3": 40
+  },
+  "team_top4": [
+    "anas_036",
+    "anas_023",
+    "anas_002",
+    "anas_031"
+  ],
+  "review_top4": [
+    "anas_009",
+    "anas_016",
+    "anas_027",
+    "r004_cdrh3_3"
+  ],
+  "overlap_top4": 0,
+  "overlap_top20": 10,
+  "team_seed_summary": {
+    "n_queries": 60,
+    "n_records": 110,
+    "coverage": {
+      "1": 49,
+      "6": 9,
+      "5": 1,
+      "2": 1
+    },
+    "repeated": 11,
+    "within_sequence_sd": 0.014664776393340153,
+    "calibration_with_at_least_one_seed": 0,
+    "calibration_planned": 30,
+    "wt_seeds": [
+      1,
+      42
+    ]
+  }
+}

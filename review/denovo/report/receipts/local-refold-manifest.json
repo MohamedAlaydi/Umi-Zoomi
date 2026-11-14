@@ -1,0 +1,187 @@
+[
+  {
+    "name": "novel1_crop119",
+    "candidate": "rfd4-variable-sequence-k1__her2_variable_sequence_13_generated",
+    "role": "novelty-screened exploratory VHH; zero RCSB hits at 70% cutoff, not universal database clearance",
+    "context": "crop119",
+    "antibody_sequences": {
+      "H": "EVQLQESGGGVVQPGGSLRLSCAASGHTFTRFAMGWFRQHPGKERELVAYIDTEGHTWFPSSVKGRFTISRDNAKNNVFLQMNSLRPEDTAVYYCATGKWHESRRVFWINRMSTTDDMDYWGQGTQVTVS"
+    },
+    "target_sequence": "CHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPSGVKPDLSYMPIWKFPDEEGACQPCPIN",
+    "design_structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_13/her2_variable_sequence_13_generated.cif",
+    "generation_epitope": {
+      "recall": 0.5789473684210527,
+      "jaccard": 0.5238095238095238,
+      "n_target_residues": 13
+    },
+    "official_validation": "pending final installed-validator receipt",
+    "sequence_hashes": {
+      "H": "60cc80abe78693234693a81eee19ccfc952a67138f1fce697d5efa02e68201e3"
+    },
+    "target_sha256": "1e079745f5855331f422ec196280ae55fe5c69931d434e2fe86216512dc648bc"
+  },
+  {
+    "name": "novel1_ectodomain607",
+    "candidate": "rfd4-variable-sequence-k1__her2_variable_sequence_13_generated",
+    "role": "novelty-screened exploratory VHH; zero RCSB hits at 70% cutoff, not universal database clearance",
+    "context": "ectodomain607",
+    "antibody_sequences": {
+      "H": "EVQLQESGGGVVQPGGSLRLSCAASGHTFTRFAMGWFRQHPGKERELVAYIDTEGHTWFPSSVKGRFTISRDNAKNNVFLQMNSLRPEDTAVYYCATGKWHESRRVFWINRMSTTDDMDYWGQGTQVTVS"
+    },
+    "target_sequence": "TQVCTGTDMKLRLPASPETHLDMLRHLYQGCQVVQGNLELTYLPTNASLSFLQDIQEVQGYVLIAHNQVRQVPLQRLRIVRGTQLFEDNYALAVLDNGDPLNNTTPVTGASPGGLRELQLRSLTEILKGGVLIQRNPQLCYQDTILWKDIFHKNNQLALTLIDTNRSRACHPCSPMCKGSRCWGESSEDCQSLTRTVCAGGCARCKGPLPTDCCHEQCAAGCTGPKHSDCLACLHFNHSGICELHCPALVTYNTDTFESMPNPEGRYTFGASCVTACPYNYLSTDVGSCTLVCPLHNQEVTAEDGTQRCEKCSKPCARVCYGLGMEHLREVRAVTSANIQEFAGCKKIFGSLAFLPESFDGDPASNTAPLQPEQLQVFETLEEITGYLYISAWPDSLPDLSVFQNLQVIRGRILHNGAYSLTLQGLGISWLGLRSLRELGSGLALIHHNTHLCFVHTVPWDQLFRNPHQALLHTANRPEDECVGEGLACHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPSGVKPDLSYMPIWKFPDEEGACQPCPIN",
+    "design_structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_13/her2_variable_sequence_13_generated.cif",
+    "generation_epitope": {
+      "recall": 0.5789473684210527,
+      "jaccard": 0.5238095238095238,
+      "n_target_residues": 13
+    },
+    "official_validation": "pending final installed-validator receipt",
+    "sequence_hashes": {
+      "H": "60cc80abe78693234693a81eee19ccfc952a67138f1fce697d5efa02e68201e3"
+    },
+    "target_sha256": "ae38d43ea82403ec59e716cdfe9c5d3d27cb911a968e3cd9a2172ec8b554c78d"
+  },
+  {
+    "name": "novel2_crop119",
+    "candidate": "rfd4-variable-sequence-k1__her2_variable_sequence_12_generated",
+    "role": "novelty-screened exploratory VHH; zero RCSB hits at 70% cutoff, not universal database clearance",
+    "context": "crop119",
+    "antibody_sequences": {
+      "H": "EVQLQESGGGLVQPGGSLRLSCASSGQSFSDYAMGWFRQAPGQKRTLVAAITPAGKVYFPDSVRGRFTISRDDAASSVFLQMNSLKPEDTAVYFCAATKRLNVSAWKSPVEWSHWGQGTQVTVS"
+    },
+    "target_sequence": "CHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPSGVKPDLSYMPIWKFPDEEGACQPCPIN",
+    "design_structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_12/her2_variable_sequence_12_generated.cif",
+    "generation_epitope": {
+      "recall": 0.5263157894736842,
+      "jaccard": 0.4166666666666667,
+      "n_target_residues": 15
+    },
+    "official_validation": "pending final installed-validator receipt",
+    "sequence_hashes": {
+      "H": "e08a6896d0a6c3c3a370da3f1c54730cae158194eb903a384895608946c4584f"
+    },
+    "target_sha256": "1e079745f5855331f422ec196280ae55fe5c69931d434e2fe86216512dc648bc"
+  },
+  {
+    "name": "novel2_ectodomain607",
+    "candidate": "rfd4-variable-sequence-k1__her2_variable_sequence_12_generated",
+    "role": "novelty-screened exploratory VHH; zero RCSB hits at 70% cutoff, not universal database clearance",
+    "context": "ectodomain607",
+    "antibody_sequences": {
+      "H": "EVQLQESGGGLVQPGGSLRLSCASSGQSFSDYAMGWFRQAPGQKRTLVAAITPAGKVYFPDSVRGRFTISRDDAASSVFLQMNSLKPEDTAVYFCAATKRLNVSAWKSPVEWSHWGQGTQVTVS"
+    },
+    "target_sequence": "TQVCTGTDMKLRLPASPETHLDMLRHLYQGCQVVQGNLELTYLPTNASLSFLQDIQEVQGYVLIAHNQVRQVPLQRLRIVRGTQLFEDNYALAVLDNGDPLNNTTPVTGASPGGLRELQLRSLTEILKGGVLIQRNPQLCYQDTILWKDIFHKNNQLALTLIDTNRSRACHPCSPMCKGSRCWGESSEDCQSLTRTVCAGGCARCKGPLPTDCCHEQCAAGCTGPKHSDCLACLHFNHSGICELHCPALVTYNTDTFESMPNPEGRYTFGASCVTACPYNYLSTDVGSCTLVCPLHNQEVTAEDGTQRCEKCSKPCARVCYGLGMEHLREVRAVTSANIQEFAGCKKIFGSLAFLPESFDGDPASNTAPLQPEQLQVFETLEEITGYLYISAWPDSLPDLSVFQNLQVIRGRILHNGAYSLTLQGLGISWLGLRSLRELGSGLALIHHNTHLCFVHTVPWDQLFRNPHQALLHTANRPEDECVGEGLACHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPSGVKPDLSYMPIWKFPDEEGACQPCPIN",
+    "design_structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_12/her2_variable_sequence_12_generated.cif",
+    "generation_epitope": {
+      "recall": 0.5263157894736842,
+      "jaccard": 0.4166666666666667,
+      "n_target_residues": 15
+    },
+    "official_validation": "pending final installed-validator receipt",
+    "sequence_hashes": {
+      "H": "e08a6896d0a6c3c3a370da3f1c54730cae158194eb903a384895608946c4584f"
+    },
+    "target_sha256": "ae38d43ea82403ec59e716cdfe9c5d3d27cb911a968e3cd9a2172ec8b554c78d"
+  },
+  {
+    "name": "novel3_crop119",
+    "candidate": "rfd4-variable-sequence-k1__her2_variable_sequence_2_generated",
+    "role": "novelty-screened exploratory VHH; zero RCSB hits at 70% cutoff, not universal database clearance",
+    "context": "crop119",
+    "antibody_sequences": {
+      "H": "QVQLQESGGGLVRPGGSLRLTCAASGDTFNKYAMGWFRQAPGKSLELVASISSSARSTYAPDTVKGRFTISRDNSKSVVYLQMNSLKLEDTADYFCAGHLGFNGYSSDVSTKEYGAFREVGFRYWGQGTQVTVS"
+    },
+    "target_sequence": "CHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPSGVKPDLSYMPIWKFPDEEGACQPCPIN",
+    "design_structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_2/her2_variable_sequence_2_generated.cif",
+    "generation_epitope": {
+      "recall": 0.47368421052631576,
+      "jaccard": 0.2571428571428571,
+      "n_target_residues": 25
+    },
+    "official_validation": "pending final installed-validator receipt",
+    "sequence_hashes": {
+      "H": "2a4eef26db92c132fd47aeee8df62d64830562dc19db196b24b18847ae56cf78"
+    },
+    "target_sha256": "1e079745f5855331f422ec196280ae55fe5c69931d434e2fe86216512dc648bc"
+  },
+  {
+    "name": "novel3_ectodomain607",
+    "candidate": "rfd4-variable-sequence-k1__her2_variable_sequence_2_generated",
+    "role": "novelty-screened exploratory VHH; zero RCSB hits at 70% cutoff, not universal database clearance",
+    "context": "ectodomain607",
+    "antibody_sequences": {
+      "H": "QVQLQESGGGLVRPGGSLRLTCAASGDTFNKYAMGWFRQAPGKSLELVASISSSARSTYAPDTVKGRFTISRDNSKSVVYLQMNSLKLEDTADYFCAGHLGFNGYSSDVSTKEYGAFREVGFRYWGQGTQVTVS"
+    },
+    "target_sequence": "TQVCTGTDMKLRLPASPETHLDMLRHLYQGCQVVQGNLELTYLPTNASLSFLQDIQEVQGYVLIAHNQVRQVPLQRLRIVRGTQLFEDNYALAVLDNGDPLNNTTPVTGASPGGLRELQLRSLTEILKGGVLIQRNPQLCYQDTILWKDIFHKNNQLALTLIDTNRSRACHPCSPMCKGSRCWGESSEDCQSLTRTVCAGGCARCKGPLPTDCCHEQCAAGCTGPKHSDCLACLHFNHSGICELHCPALVTYNTDTFESMPNPEGRYTFGASCVTACPYNYLSTDVGSCTLVCPLHNQEVTAEDGTQRCEKCSKPCARVCYGLGMEHLREVRAVTSANIQEFAGCKKIFGSLAFLPESFDGDPASNTAPLQPEQLQVFETLEEITGYLYISAWPDSLPDLSVFQNLQVIRGRILHNGAYSLTLQGLGISWLGLRSLRELGSGLALIHHNTHLCFVHTVPWDQLFRNPHQALLHTANRPEDECVGEGLACHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPSGVKPDLSYMPIWKFPDEEGACQPCPIN",
+    "design_structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_2/her2_variable_sequence_2_generated.cif",
+    "generation_epitope": {
+      "recall": 0.47368421052631576,
+      "jaccard": 0.2571428571428571,
+      "n_target_residues": 25
+    },
+    "official_validation": "pending final installed-validator receipt",
+    "sequence_hashes": {
+      "H": "2a4eef26db92c132fd47aeee8df62d64830562dc19db196b24b18847ae56cf78"
+    },
+    "target_sha256": "ae38d43ea82403ec59e716cdfe9c5d3d27cb911a968e3cd9a2172ec8b554c78d"
+  },
+  {
+    "name": "high_footprint_known_hit",
+    "candidate": "rfd4-variable-sequence-k1__her2_variable_sequence_4_generated",
+    "role": "computational comparator; known-antibody similarity warning",
+    "context": "crop119",
+    "antibody_sequences": {
+      "H": "QVQLVETGGGLVKPGGNLRLSCTASGLTFSSYGIGWFRQAPGKERELVADISSSGRKTWYPDSVKGRFTISRDNAKDTVHLQMNSLRPEDSAVYYCAAASRRISHTATIANYDYWGQGTQVTVS"
+    },
+    "target_sequence": "CHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPSGVKPDLSYMPIWKFPDEEGACQPCPIN",
+    "design_structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_4/her2_variable_sequence_4_generated.cif",
+    "generation_epitope": {
+      "recall": 0.8421052631578947,
+      "jaccard": 0.5925925925925926,
+      "n_target_residues": 24
+    },
+    "official_validation": "pending",
+    "sequence_hashes": {
+      "H": "e4d8963cc6940ddc22fa951ed90aae11a711af4d77f27cd5ae0fd5475314a992"
+    },
+    "target_sha256": "1e079745f5855331f422ec196280ae55fe5c69931d434e2fe86216512dc648bc"
+  },
+  {
+    "name": "fixed_framework_control",
+    "candidate": "her2_caplacizumab_cdr123_3_generated",
+    "role": "computational comparator; known-antibody similarity warning",
+    "context": "crop119",
+    "antibody_sequences": {
+      "H": "EVQLVESGGGLVQPGGSLRLSCAASGSSVTSYAMAWFRQAPGKGRELVALISSSGSNTSYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAAAVPHSGGSYSYDYWGQGTQVTVS"
+    },
+    "target_sequence": "CHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPSGVKPDLSYMPIWKFPDEEGACQPCPIN",
+    "design_structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_3/her2_caplacizumab_cdr123_3_generated.cif",
+    "generation_epitope": {
+      "recall": 0.7894736842105263,
+      "jaccard": 0.6521739130434783,
+      "n_target_residues": 19
+    },
+    "official_validation": "pending",
+    "sequence_hashes": {
+      "H": "673f27542a80d8c87c32736ca7def03b164a46b991da2c7568821bbf34e50675"
+    },
+    "target_sha256": "1e079745f5855331f422ec196280ae55fe5c69931d434e2fe86216512dc648bc"
+  },
+  {
+    "name": "trastuzumab_wt_control",
+    "candidate": "trastuzumab_wt",
+    "role": "sequence-verified Fab baseline; do not directly equate Fab/VHH global ipTM",
+    "context": "crop119",
+    "antibody_sequences": {
+      "H": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGDGFYAMDYWGQGTLVTVSS",
+      "L": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK"
+    },
+    "target_sequence": "CHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPSGVKPDLSYMPIWKFPDEEGACQPCPIN",
+    "official_validation": "reference, not a novel submission",
+    "sequence_hashes": {
+      "H": "8b8998709aa9423e89f2c0b71328bf9702d979ecd1ce6d64a3671c60e353f454",
+      "L": "54785c99f723d6189985caeb5db492bdb8ca3b0f77dd99c7e7b707f0868b4732"
+    },
+    "target_sha256": "1e079745f5855331f422ec196280ae55fe5c69931d434e2fe86216512dc648bc"
+  }
+]

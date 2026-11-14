@@ -1,0 +1,244 @@
+{
+  "models": [
+    {
+      "blurb": "The Baker lab's RoseTTAFold3, running fully on-device. Folds multi-chain complexes of proteins, RNA, DNA and small-molecule ligands, using a multiple-sequence alignment by default (turn it off to fold single-sequence). Structure only: no binding affinity, and no covalent modifications or binding constraints from this input format. For those use Boltz-2.",
+      "caps": [
+        "msa",
+        "ligands",
+        "nucleic",
+        "multichain",
+        "pae",
+        "contacts",
+        "structure",
+        "samples"
+      ],
+      "chain_ids": {
+        "pdb_chars": 1,
+        "spaces": false
+      },
+      "confidence": {
+        "absent": {},
+        "arrays": [
+          "pae",
+          "pde",
+          "contact_probs",
+          "contact_cutoff_A"
+        ],
+        "file": "<name>_pae.npz",
+        "sidecar": "<name>_pae.json"
+      },
+      "engine_fixed_params": [
+        "sampling_steps"
+      ],
+      "id": "rf3",
+      "max_residues": 1600,
+      "measured_wall": 1600,
+      "msa_default": true,
+      "name": "RoseTTAFold3",
+      "needs_msa": false,
+      "tagline": "The RoseTTAFold line's AlphaFold3.",
+      "typical_cost": {
+        "jobs": 180,
+        "since": "2026-11-07",
+        "targets_p50": 1,
+        "usd_p50": 0.0093,
+        "usd_p90": 0.18,
+        "usd_per_target_p50": 0.0063,
+        "usd_per_target_p90": 0.013
+      }
+    },
+    {
+      "blurb": "OpenDDE with its antibody-antigen checkpoint selected. Co-folds an antibody (Fab heavy/light) with its antigen on the Protenix-v2 stack, using an MSA by default. Protein-only, no affinity. Accuracy is verified to match the reference OpenDDE implementation: strong on standard antibody-antigen complexes, and it shares the reference's own limitation on some hard targets (a checkpoint characteristic, not a port defect), so don't expect uniformly high accuracy on every antibody-antigen input.",
+      "caps": [
+        "msa",
+        "multichain",
+        "pae",
+        "contacts",
+        "fast",
+        "structure",
+        "samples",
+        "guidance"
+      ],
+      "confidence": {
+        "absent": {},
+        "arrays": [
+          "pae",
+          "pde",
+          "contact_probs",
+          "contact_cutoff_A"
+        ],
+        "file": "<name>_pae.npz",
+        "sidecar": "<name>_pae.json"
+      },
+      "family": "opendde",
+      "id": "opendde-abag",
+      "label": "Antibody-Antigen",
+      "max_residues": 1536,
+      "measured_wall": 1536,
+      "msa_default": true,
+      "name": "OpenDDE \u00b7 Antibody-Antigen",
+      "needs_msa": false,
+      "tagline": "Antibody-antigen checkpoint.",
+      "typical_cost": {
+        "jobs": 13672,
+        "since": "2026-11-07",
+        "targets_p50": 1,
+        "usd_p50": 0.0099,
+        "usd_p90": 0.057,
+        "usd_per_target_p50": 0.0061,
+        "usd_per_target_p90": 0.011
+      }
+    },
+    {
+      "blurb": "AlphaFold2 initial-guess, the filter a binder-design pipeline uses to tell a real design from a plausible one. Give it a design you already have, meaning a structure carrying the target chain and the binder backbone plus the binder's sequence. It re-predicts the complex from those coordinates and reports ipTM and interface pAE for the interface. Paste it as `target:` (with the structure inline) and `binder:`; a chain list is a different input and it is refused. No alignment and no sampling: the same input gives the same answer. It runs Google DeepMind's AlphaFold2 parameters (params_model_1_ptm, 2022-12-06 release), licensed under CC BY 4.0.",
+      "caps": [
+        "multichain",
+        "pae",
+        "contacts",
+        "structure",
+        "designed_complex"
+      ],
+      "confidence": {
+        "absent": {
+          "pde": "AF2 has no PDE head"
+        },
+        "arrays": [
+          "pae",
+          "contact_probs",
+          "contact_cutoff_A"
+        ],
+        "file": "<name>_pae.npz",
+        "sidecar": "<name>_pae.json"
+      },
+      "id": "af2ig",
+      "max_residues": 1024,
+      "measured_wall": 1024,
+      "name": "AF2-IG",
+      "needs_msa": false,
+      "tagline": "Scores a binder you already designed.",
+      "typical_cost": {
+        "jobs": 894,
+        "since": "2026-11-07",
+        "targets_p50": 12,
+        "usd_p50": 0.0044,
+        "usd_p90": 0.012,
+        "usd_per_target_p50": 0.00036,
+        "usd_per_target_p90": 0.00087
+      }
+    },
+    {
+      "blurb": "Mol-1, model by Molence. Predicts the 3D structure of complexes of proteins, DNA, RNA and small molecules (CCD codes or SMILES). It is derived from Protenix with a wider pair track and runs fully on-device. Uses a multiple-sequence alignment by default (turn it off to fold single-sequence). Reports pLDDT, pTM, ipTM and PAE. For binding affinity, use Boltz-2.",
+      "caps": [
+        "msa",
+        "ligands",
+        "nucleic",
+        "multichain",
+        "pae",
+        "fast",
+        "structure",
+        "samples",
+        "conditions"
+      ],
+      "confidence": {
+        "absent": {
+          "contact_cutoff_A": "tt-bio does not run its distogram head",
+          "contact_probs": "tt-bio does not run its distogram head"
+        },
+        "arrays": [
+          "pae",
+          "pde"
+        ],
+        "file": "<name>_pae.npz",
+        "sidecar": "<name>_pae.json"
+      },
+      "id": "mol1",
+      "max_residues": 1024,
+      "measured_wall": 1024,
+      "msa_default": true,
+      "name": "Mol-1",
+      "needs_msa": false,
+      "tagline": "Molence's Protenix-family structure model.",
+      "typical_cost": {
+        "jobs": 77,
+        "since": "2026-11-07",
+        "targets_p50": 20,
+        "usd_p50": 0.35,
+        "usd_p90": 0.38,
+        "usd_per_target_p50": 0.018,
+        "usd_per_target_p90": 0.019
+      }
+    }
+  ],
+  "design_models": [
+    {
+      "blurb": "Full binder-design pipeline: generate against a protein, small molecule, DNA or RNA target, then inverse-fold, refold, score and filter. You get a ranked top set with confidence metrics, ready to order.",
+      "id": "boltzgen",
+      "input": "spec",
+      "max_residues": 1024,
+      "measured_wall": 1024,
+      "name": "BoltzGen",
+      "params": [
+        {
+          "default": 10,
+          "help": "Binders to generate before filtering. A long run is bounded by the watchdog that frees its chip, and by your balance.",
+          "key": "num_designs",
+          "label": "Designs to generate",
+          "min": 1,
+          "type": "int"
+        },
+        {
+          "default": 10,
+          "help": "How many ranked designs to report after filtering.",
+          "key": "budget",
+          "label": "Top designs to keep",
+          "min": 1,
+          "type": "int"
+        },
+        {
+          "default": false,
+          "help": "Higher throughput, may be slightly less accurate.",
+          "key": "fast",
+          "label": "Fast mode",
+          "type": "bool",
+          "ui_default": true
+        },
+        {
+          "default": null,
+          "help": "Noise seed. The same seed and spec give the same designs; leave it out for a fresh draw each run.",
+          "key": "seed",
+          "label": "Seed",
+          "max": 2147483647,
+          "min": 0,
+          "type": "int"
+        }
+      ],
+      "tagline": "Ranked binders against any target.",
+      "typical_cost": {
+        "jobs": 558,
+        "since": "2026-11-07",
+        "targets_p50": null,
+        "usd_p50": 0.015,
+        "usd_p90": 0.047,
+        "usd_per_target_p50": null,
+        "usd_per_target_p90": null
+      }
+    }
+  ],
+  "protocols": [
+    {
+      "blurb": "Single-domain antibody / nanobody binder.",
+      "engine": "boltzgen",
+      "id": "nanobody-anything",
+      "name": "Nanobody (VHH)",
+      "typical_cost": null
+    },
+    {
+      "blurb": "Antibody binder design.",
+      "engine": "boltzgen",
+      "id": "antibody-anything",
+      "name": "Antibody",
+      "typical_cost": null
+    }
+  ],
+  "typical_cost_note": "typical_cost is history from the last 7 days, not a quote. A prediction runs each target (input structure) on its own chip and is billed per chip-second, so multiply usd_per_target_p90 by the targets you submit for what most jobs that size cost (usd_per_target_p50 for a median one). usd_p50 and usd_p90 are per job and follow whatever batch sizes users sent that week (targets_p50). A design or embedding job splits its own work across chips, so it has only the per-job figures. null means fewer than 20 jobs."
+}

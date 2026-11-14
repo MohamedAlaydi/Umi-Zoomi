@@ -1,0 +1,87 @@
+{
+  "job_id": "eec321fd1dd467b035916be5862002cd",
+  "utc": "2026-11-14T13:51:26.111988+00:00",
+  "archive_sha256": "eec4549e1f6a7433b2b61a47bcf4c008fca268261345ebffab3390e9d8e50ef7",
+  "artifacts": [
+    {
+      "path": "fixed_framework_control.cif",
+      "sha256": "f2436e592fdedafa7abc5025fedfe081225fa468a2df54054212ca775e3fdd3c",
+      "bytes": 200425
+    },
+    {
+      "path": "fixed_framework_control_pae.json",
+      "sha256": "8979da2b15054d411d6d12e3b74e1b2b5cf8df126c753268af2ff3f275e15b30",
+      "bytes": 1382
+    },
+    {
+      "path": "fixed_framework_control_pae.npz",
+      "sha256": "43a2cd94eff6a7ed0dde04e2f27dc49be8d91fc25dd2c641b9257cd7fdfb5686",
+      "bytes": 410414
+    },
+    {
+      "path": "high_footprint_known_hit.cif",
+      "sha256": "4872527b3d4b77063ecb3a59c5723efb2d1311c1d9df43446d917ce4dcd9e384",
+      "bytes": 206308
+    },
+    {
+      "path": "high_footprint_known_hit_pae.json",
+      "sha256": "f7b618800232f877d1dbba7fd05a5055a58ee3370cd112356d7d027d8b9fc708",
+      "bytes": 1382
+    },
+    {
+      "path": "high_footprint_known_hit_pae.npz",
+      "sha256": "e6a8b7b39f9507275b3e58f9f19f67eda0d85a93169bf60c22b2d183894b9516",
+      "bytes": 419868
+    },
+    {
+      "path": "novel1_crop119.cif",
+      "sha256": "09405c565c0f97669786e64ad464e75fc002c8e6f1482b6396da34028bbb81cd",
+      "bytes": 215965
+    },
+    {
+      "path": "novel1_crop119_pae.json",
+      "sha256": "09c3c22f91c1fa57bbbeca520a6619644e1a443464c42fbc611f5860250803b5",
+      "bytes": 1382
+    },
+    {
+      "path": "novel1_crop119_pae.npz",
+      "sha256": "01b193172cb5c54c4dff23a449d0f47ad684a6803cc24e34d23e7b732c576355",
+      "bytes": 442094
+    },
+    {
+      "path": "novel2_crop119.cif",
+      "sha256": "2b1db0622f4f756f0f2d5875ede0fb7f69be0d0fb2c2ba8fa67f40262017d99c",
+      "bytes": 205309
+    },
+    {
+      "path": "novel2_crop119_pae.json",
+      "sha256": "f7b618800232f877d1dbba7fd05a5055a58ee3370cd112356d7d027d8b9fc708",
+      "bytes": 1382
+    },
+    {
+      "path": "novel2_crop119_pae.npz",
+      "sha256": "ffe603e5624d23eeffc801e2908001265d5882dcc037512062fa06bcb9a6a8f5",
+      "bytes": 420118
+    },
+    {
+      "path": "novel3_crop119.cif",
+      "sha256": "98ea1f5461cc5b174ff2b62dc160395838cd65f17276c53bc37d6688fd299e60",
+      "bytes": 216124
+    },
+    {
+      "path": "novel3_crop119_pae.json",
+      "sha256": "7f4ddeb123e3a9d3f811db7ab395bcb46d9d486c561e6aff09835029ba6dc271",
+      "bytes": 1382
+    },
+    {
+      "path": "novel3_crop119_pae.npz",
+      "sha256": "3194c6b63c6a961984dc13faa785f72d35448bd263cf3b6edc8ed7a4540340dd",
+      "bytes": 456022
+    },
+    {
+      "path": "results.json",
+      "sha256": "8a30b04ca495c9c01dd5f4ed36b8ba606c2f926ce66bf572694344422d901266",
+      "bytes": 2990
+    }
+  ]
+}

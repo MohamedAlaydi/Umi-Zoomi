@@ -1,0 +1,289 @@
+{
+  "archive_url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/archive",
+  "artifacts": [
+    {
+      "path": "novel1_crop119.cif",
+      "target": "novel1_crop119",
+      "type": "structure",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/novel1_crop119.cif"
+    },
+    {
+      "path": "novel2_crop119.cif",
+      "target": "novel2_crop119",
+      "type": "structure",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/novel2_crop119.cif"
+    },
+    {
+      "path": "novel3_crop119.cif",
+      "target": "novel3_crop119",
+      "type": "structure",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/novel3_crop119.cif"
+    },
+    {
+      "path": "fixed_framework_control.cif",
+      "target": "fixed_framework_control",
+      "type": "structure",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/fixed_framework_control.cif"
+    },
+    {
+      "path": "high_footprint_known_hit.cif",
+      "target": "high_footprint_known_hit",
+      "type": "structure",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/high_footprint_known_hit.cif"
+    },
+    {
+      "path": "novel1_crop119_pae.npz",
+      "type": "pae",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/novel1_crop119_pae.npz"
+    },
+    {
+      "path": "novel2_crop119_pae.npz",
+      "type": "pae",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/novel2_crop119_pae.npz"
+    },
+    {
+      "path": "novel3_crop119_pae.npz",
+      "type": "pae",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/novel3_crop119_pae.npz"
+    },
+    {
+      "path": "high_footprint_known_hit_pae.npz",
+      "type": "pae",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/high_footprint_known_hit_pae.npz"
+    },
+    {
+      "path": "fixed_framework_control_pae.npz",
+      "type": "pae",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/fixed_framework_control_pae.npz"
+    },
+    {
+      "path": "novel1_crop119_pae.json",
+      "type": "pae_sidecar",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/novel1_crop119_pae.json"
+    },
+    {
+      "path": "novel1_crop119_pae.json",
+      "type": "pae_sidecar",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/novel1_crop119_pae.json"
+    },
+    {
+      "path": "novel2_crop119_pae.json",
+      "type": "pae_sidecar",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/novel2_crop119_pae.json"
+    },
+    {
+      "path": "novel3_crop119_pae.json",
+      "type": "pae_sidecar",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/novel3_crop119_pae.json"
+    },
+    {
+      "path": "high_footprint_known_hit_pae.json",
+      "type": "pae_sidecar",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/high_footprint_known_hit_pae.json"
+    },
+    {
+      "path": "fixed_framework_control_pae.json",
+      "type": "pae_sidecar",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/fixed_framework_control_pae.json"
+    }
+  ],
+  "job_id": "eec321fd1dd467b035916be5862002cd",
+  "kind": "predict",
+  "object": "results",
+  "pae": [
+    "novel1_crop119_pae.npz",
+    "novel2_crop119_pae.npz",
+    "novel3_crop119_pae.npz",
+    "high_footprint_known_hit_pae.npz",
+    "fixed_framework_control_pae.npz"
+  ],
+  "pae_sidecar": [
+    "novel1_crop119_pae.json",
+    "novel1_crop119_pae.json",
+    "novel2_crop119_pae.json",
+    "novel3_crop119_pae.json",
+    "high_footprint_known_hit_pae.json",
+    "fixed_framework_control_pae.json"
+  ],
+  "ready": true,
+  "rows": [
+    {
+      "binder_residues": 130,
+      "chains_ptm": {
+        "0": 0.659737,
+        "1": 0.85102
+      },
+      "id": "novel1_crop119",
+      "interface_pae": 26.1557,
+      "ipae": 0.8437,
+      "iptm": 0.1078,
+      "load_s": 3.1,
+      "msa": false,
+      "n_atoms": 1951,
+      "n_chains": 2,
+      "n_residues": 249,
+      "pae": 0.4683,
+      "pair_chains_iptm": {
+        "0": {
+          "0": 0.659737,
+          "1": 0.107762
+        },
+        "1": {
+          "0": 0.107762,
+          "1": 0.85102
+        }
+      },
+      "plddt": 0.9051,
+      "ptm": 0.5228,
+      "recycling_steps": 3,
+      "runtime_s": 13.8,
+      "status": "ok"
+    },
+    {
+      "binder_residues": 124,
+      "chains_ptm": {
+        "0": 0.659361,
+        "1": 0.822405
+      },
+      "id": "novel2_crop119",
+      "interface_pae": 26.1778,
+      "ipae": 0.8444,
+      "iptm": 0.1124,
+      "load_s": 5.3,
+      "msa": false,
+      "n_atoms": 1855,
+      "n_chains": 2,
+      "n_residues": 243,
+      "pae": 0.4918,
+      "pair_chains_iptm": {
+        "0": {
+          "0": 0.659361,
+          "1": 0.112407
+        },
+        "1": {
+          "0": 0.112407,
+          "1": 0.822405
+        }
+      },
+      "plddt": 0.875,
+      "ptm": 0.5068,
+      "recycling_steps": 3,
+      "runtime_s": 12.6,
+      "status": "ok"
+    },
+    {
+      "binder_residues": 134,
+      "chains_ptm": {
+        "0": 0.655429,
+        "1": 0.789022
+      },
+      "id": "novel3_crop119",
+      "interface_pae": 25.9168,
+      "ipae": 0.836,
+      "iptm": 0.1209,
+      "load_s": 3.8,
+      "msa": false,
+      "n_atoms": 1935,
+      "n_chains": 2,
+      "n_residues": 253,
+      "pae": 0.5084,
+      "pair_chains_iptm": {
+        "0": {
+          "0": 0.655429,
+          "1": 0.120892
+        },
+        "1": {
+          "0": 0.120892,
+          "1": 0.789022
+        }
+      },
+      "plddt": 0.8084,
+      "ptm": 0.5066,
+      "recycling_steps": 3,
+      "runtime_s": 14.9,
+      "status": "ok"
+    },
+    {
+      "binder_residues": 124,
+      "chains_ptm": {
+        "0": 0.642826,
+        "1": 0.83844
+      },
+      "id": "high_footprint_known_hit",
+      "interface_pae": 26.3099,
+      "ipae": 0.8487,
+      "iptm": 0.1095,
+      "load_s": 3.1,
+      "msa": false,
+      "n_atoms": 1864,
+      "n_chains": 2,
+      "n_residues": 243,
+      "pae": 0.4857,
+      "pair_chains_iptm": {
+        "0": {
+          "0": 0.642826,
+          "1": 0.109496
+        },
+        "1": {
+          "0": 0.109496,
+          "1": 0.83844
+        }
+      },
+      "plddt": 0.8878,
+      "ptm": 0.5114,
+      "recycling_steps": 3,
+      "runtime_s": 5.8,
+      "status": "ok"
+    },
+    {
+      "binder_residues": 121,
+      "chains_ptm": {
+        "0": 0.652194,
+        "1": 0.85422
+      },
+      "id": "fixed_framework_control",
+      "interface_pae": 26.5365,
+      "ipae": 0.856,
+      "iptm": 0.0979,
+      "load_s": 3.4,
+      "msa": false,
+      "n_atoms": 1811,
+      "n_chains": 2,
+      "n_residues": 240,
+      "pae": 0.4785,
+      "pair_chains_iptm": {
+        "0": {
+          "0": 0.652194,
+          "1": 0.097909
+        },
+        "1": {
+          "0": 0.097909,
+          "1": 0.85422
+        }
+      },
+      "plddt": 0.9264,
+      "ptm": 0.5081,
+      "recycling_steps": 3,
+      "runtime_s": 5.2,
+      "status": "ok"
+    }
+  ],
+  "structures": {
+    "fixed_framework_control": [
+      "fixed_framework_control.cif"
+    ],
+    "high_footprint_known_hit": [
+      "high_footprint_known_hit.cif"
+    ],
+    "novel1_crop119": [
+      "novel1_crop119.cif"
+    ],
+    "novel2_crop119": [
+      "novel2_crop119.cif"
+    ],
+    "novel3_crop119": [
+      "novel3_crop119.cif"
+    ]
+  },
+  "tables": []
+}

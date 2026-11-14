@@ -1,0 +1,49 @@
+{
+  "utc": "2026-11-14T14:09:08.790944+00:00",
+  "source_rows": {
+    "FACS": 524346,
+    "SPR": 768
+  },
+  "unique_raw_CDRH3": 525063,
+  "unique_IMGT_CDRH3": 525063,
+  "IMGT_lengths": {
+    "16": 1,
+    "13": 525042,
+    "12": 20
+  },
+  "normalization": "Verified FACS/trastuzumab VH equals fixed prefix+core+suffix; full IMGT CDRH3 is SR+core+Y. Non-trastuzumab SPR domains numbered directly.",
+  "source_hashes": {
+    "data/her2-trastuzumab/tz_her2_facs_3classes_524346.csv.zip": "85e5e56c9c34a7b206b818b90421427a8ad65d55ae821cb4ad642bb595def968",
+    "data/her2-trastuzumab/trastuzumab_her2_spr_all_768.csv": "4d6f53a6183f377670e9577b3233a7c4c14888965ac63824863219d13424fa9b"
+  },
+  "candidates": [
+    {
+      "candidate": "rfd4-variable-sequence-k1__her2_variable_sequence_13_generated",
+      "cdrh3_imgt": "ATGKWHESRRVFWINRMSTTDDMDY",
+      "min_distance_provided_imgt": 15,
+      "closest_provided_imgt": "SRWINHSTYDFDY",
+      "min_distance_raw_column": 17,
+      "closest_raw_column": "CTHESRYVFS",
+      "passes_two_mutations": true
+    },
+    {
+      "candidate": "rfd4-variable-sequence-k1__her2_variable_sequence_12_generated",
+      "cdrh3_imgt": "AATKRLNVSAWKSPVEWSH",
+      "min_distance_provided_imgt": 11,
+      "closest_provided_imgt": "SRLIVSWSYEQSY",
+      "min_distance_raw_column": 12,
+      "closest_raw_column": "CAKLSSYEFH",
+      "passes_two_mutations": true
+    },
+    {
+      "candidate": "rfd4-variable-sequence-k1__her2_variable_sequence_2_generated",
+      "cdrh3_imgt": "AGHLGFNGYSSDVSTKEYGAFREVGFRY",
+      "min_distance_provided_imgt": 18,
+      "closest_provided_imgt": "SRFLGFGSDTFGY",
+      "min_distance_raw_column": 19,
+      "closest_raw_column": "FGLNGSYAFV",
+      "passes_two_mutations": true
+    }
+  ],
+  "scope": "Exact Levenshtein against all rows in the two local provided tables; independent of installed abguard bundle. Not full-sequence novelty."
+}

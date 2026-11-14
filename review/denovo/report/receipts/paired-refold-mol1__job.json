@@ -1,0 +1,77 @@
+{
+  "created_at": "2026-11-14T13:10:25.393154+00:00",
+  "done": 8,
+  "download": "curl -fsSL -H \"Authorization: Bearer $JAPANFOLD_API_KEY\" -o db7fff3788d169cc4974d493959a687c-results.zip https://api.japanfold.aiand.com/v1/jobs/db7fff3788d169cc4974d493959a687c/archive && unzip -oq db7fff3788d169cc4974d493959a687c-results.zip",
+  "error": null,
+  "finished_at": "2026-11-14T13:13:15.535622+00:00",
+  "id": "db7fff3788d169cc4974d493959a687c",
+  "kind": "predict",
+  "links": {
+    "archive": "/v1/jobs/db7fff3788d169cc4974d493959a687c/archive",
+    "logs": "/v1/jobs/db7fff3788d169cc4974d493959a687c/logs",
+    "results": "/v1/jobs/db7fff3788d169cc4974d493959a687c/results",
+    "self": "/v1/jobs/db7fff3788d169cc4974d493959a687c",
+    "usage": "/v1/jobs/db7fff3788d169cc4974d493959a687c/usage"
+  },
+  "model": "mol1",
+  "name": "team14-her2-paired-canonical-cys-mol1",
+  "object": "job",
+  "params": {
+    "diffusion_samples": 1,
+    "fast": false,
+    "output_format": "cif",
+    "seed": 0,
+    "use_msa_server": true,
+    "write_pae": true
+  },
+  "progress": 1.0,
+  "protocol": null,
+  "residues": 254,
+  "results_ready": true,
+  "stage": "done",
+  "started_at": "2026-11-14T13:10:29.344980+00:00",
+  "status": "succeeded",
+  "targets": [
+    {
+      "id": "p00_original",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "p01_repaired",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "p02_original",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "p03_repaired",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "p04_original",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "p05_repaired",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "p06_original",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "p07_repaired",
+      "stage": null,
+      "state": "done"
+    }
+  ],
+  "total": 8
+}

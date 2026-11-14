@@ -1,0 +1,82 @@
+{
+  "created_at": "2026-11-14T13:33:02.978230+00:00",
+  "done": 9,
+  "download": "curl -fsSL -H \"Authorization: Bearer $JAPANFOLD_API_KEY\" -o f17875d6892ef43c21a85534110dcc21-results.zip https://api.japanfold.aiand.com/v1/jobs/f17875d6892ef43c21a85534110dcc21/archive && unzip -oq f17875d6892ef43c21a85534110dcc21-results.zip",
+  "error": null,
+  "finished_at": "2026-11-14T13:41:52.331449+00:00",
+  "id": "f17875d6892ef43c21a85534110dcc21",
+  "kind": "predict",
+  "links": {
+    "archive": "/v1/jobs/f17875d6892ef43c21a85534110dcc21/archive",
+    "logs": "/v1/jobs/f17875d6892ef43c21a85534110dcc21/logs",
+    "results": "/v1/jobs/f17875d6892ef43c21a85534110dcc21/results",
+    "self": "/v1/jobs/f17875d6892ef43c21a85534110dcc21",
+    "usage": "/v1/jobs/f17875d6892ef43c21a85534110dcc21/usage"
+  },
+  "model": "mol1",
+  "name": "team14-her2-variable-designs-context-mol1",
+  "object": "job",
+  "params": {
+    "diffusion_samples": 1,
+    "fast": false,
+    "output_format": "cif",
+    "seed": 42,
+    "use_msa_server": true,
+    "write_pae": true
+  },
+  "progress": 1.0,
+  "protocol": null,
+  "residues": 741,
+  "results_ready": true,
+  "stage": "done",
+  "started_at": "2026-11-14T13:33:03.030743+00:00",
+  "status": "succeeded",
+  "targets": [
+    {
+      "id": "novel1_crop119",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "novel1_ectodomain607",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "novel2_crop119",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "novel2_ectodomain607",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "novel3_crop119",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "novel3_ectodomain607",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "high_footprint_known_hit",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "fixed_framework_control",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "trastuzumab_wt_control",
+      "stage": null,
+      "state": "done"
+    }
+  ],
+  "total": 9
+}

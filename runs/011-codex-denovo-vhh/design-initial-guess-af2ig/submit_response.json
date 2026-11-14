@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-11-14T13:46:59.931707+00:00",
+  "done": 0,
+  "error": null,
+  "finished_at": null,
+  "id": "7800c0f7d13c48f2f2f455e69980b117",
+  "kind": "predict",
+  "links": {
+    "archive": "/v1/jobs/7800c0f7d13c48f2f2f455e69980b117/archive",
+    "logs": "/v1/jobs/7800c0f7d13c48f2f2f455e69980b117/logs",
+    "results": "/v1/jobs/7800c0f7d13c48f2f2f455e69980b117/results",
+    "self": "/v1/jobs/7800c0f7d13c48f2f2f455e69980b117",
+    "usage": "/v1/jobs/7800c0f7d13c48f2f2f455e69980b117/usage",
+    "wait": "/v1/jobs/7800c0f7d13c48f2f2f455e69980b117?wait=60"
+  },
+  "model": "af2ig",
+  "name": "team14-her2-design-pose-consistency",
+  "object": "job",
+  "params": {
+    "output_format": "cif",
+    "seed": 0,
+    "write_pae": true
+  },
+  "progress": null,
+  "protocol": null,
+  "residues": 253,
+  "results_ready": false,
+  "stage": null,
+  "started_at": null,
+  "status": "queued",
+  "total": 5,
+  "wait": {
+    "how": "GET this URL with your API key instead of sleeping. It answers the moment the job ends, or after 60 s with the job as it is then; call it again while status is queued or running.",
+    "seconds": 60,
+    "url": "https://api.japanfold.aiand.com/v1/jobs/7800c0f7d13c48f2f2f455e69980b117?wait=60"
+  },
+  "waiting_for_device": true
+}

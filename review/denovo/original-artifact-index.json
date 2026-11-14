@@ -1,0 +1,1525 @@
+{
+  "scope": "Original artifacts retained on VM; not uploaded to Git. See download receipts for artifact hashes.",
+  "files": [
+    {
+      "path": "runs/011-codex-denovo-vhh/abguard-complete/novelty-reference-checked.parquet",
+      "bytes": 16400
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/abguard-final/novelty-reference-checked.parquet",
+      "bytes": 16469
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/abguard-first/novelty-reference-checked.parquet",
+      "bytes": 13617
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/antifold-novel2/71ff1538-c92b-5bb3-b195-2fcbe3ca235a.tar",
+      "bytes": 81920
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/caplacizumab-example.cif",
+      "bytes": 449914
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/caplacizumab-longH3.cif",
+      "bytes": 449914
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/design-initial-guess-af2ig/fixed_framework_control.cif",
+      "bytes": 44327
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/design-initial-guess-af2ig/high_footprint_known_hit.cif",
+      "bytes": 45155
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/design-initial-guess-af2ig/novel1_crop119.cif",
+      "bytes": 46288
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/design-initial-guess-af2ig/novel2_crop119.cif",
+      "bytes": 45005
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/design-initial-guess-af2ig/novel3_crop119.cif",
+      "bytes": 46870
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/design-initial-guess-af2ig-format-fix/artifacts/fixed_framework_control.cif",
+      "bytes": 200425
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/design-initial-guess-af2ig-format-fix/artifacts/fixed_framework_control_pae.npz",
+      "bytes": 410414
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/design-initial-guess-af2ig-format-fix/artifacts/high_footprint_known_hit.cif",
+      "bytes": 206308
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/design-initial-guess-af2ig-format-fix/artifacts/high_footprint_known_hit_pae.npz",
+      "bytes": 419868
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/design-initial-guess-af2ig-format-fix/artifacts/novel1_crop119.cif",
+      "bytes": 215965
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/design-initial-guess-af2ig-format-fix/artifacts/novel1_crop119_pae.npz",
+      "bytes": 442094
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/design-initial-guess-af2ig-format-fix/artifacts/novel2_crop119.cif",
+      "bytes": 205309
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/design-initial-guess-af2ig-format-fix/artifacts/novel2_crop119_pae.npz",
+      "bytes": 420118
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/design-initial-guess-af2ig-format-fix/artifacts/novel3_crop119.cif",
+      "bytes": 216124
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/design-initial-guess-af2ig-format-fix/artifacts/novel3_crop119_pae.npz",
+      "bytes": 456022
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/design-initial-guess-af2ig-format-fix/artifacts.zip",
+      "bytes": 2360443
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/design-initial-guess-af2ig-format-fix/fixed_framework_control.cif",
+      "bytes": 45957
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/design-initial-guess-af2ig-format-fix/high_footprint_known_hit.cif",
+      "bytes": 46769
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/design-initial-guess-af2ig-format-fix/novel1_crop119.cif",
+      "bytes": 47956
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/design-initial-guess-af2ig-format-fix/novel2_crop119.cif",
+      "bytes": 46592
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/design-initial-guess-af2ig-format-fix/novel3_crop119.cif",
+      "bytes": 48508
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/fixed_framework_control/seed_42/predictions/fixed_framework_control_full_data_sample_0.json",
+      "bytes": 2648565
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/fixed_framework_control/seed_42/predictions/fixed_framework_control_sample_0.cif",
+      "bytes": 203400
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/fixed_framework_control.cif",
+      "bytes": 198834
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/fixed_framework_control_pae.npz",
+      "bytes": 406522
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/high_footprint_known_hit/seed_42/predictions/high_footprint_known_hit_full_data_sample_0.json",
+      "bytes": 2691867
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/high_footprint_known_hit/seed_42/predictions/high_footprint_known_hit_sample_0.cif",
+      "bytes": 211134
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/high_footprint_known_hit.cif",
+      "bytes": 206530
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/high_footprint_known_hit_pae.npz",
+      "bytes": 417152
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/novel1_crop119/seed_42/predictions/novel1_crop119_full_data_sample_0.json",
+      "bytes": 2834832
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/novel1_crop119/seed_42/predictions/novel1_crop119_sample_0.cif",
+      "bytes": 220843
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/novel1_crop119.cif",
+      "bytes": 216187
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/novel1_crop119_pae.npz",
+      "bytes": 438646
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/novel1_ectodomain607/seed_42/predictions/novel1_ectodomain607_full_data_sample_0.json",
+      "bytes": 23889999
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/novel1_ectodomain607/seed_42/predictions/novel1_ectodomain607_sample_0.cif",
+      "bytes": 638248
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/novel1_ectodomain607.cif",
+      "bytes": 622012
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/novel1_ectodomain607_pae.npz",
+      "bytes": 3858040
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/novel2_crop119/seed_42/predictions/novel2_crop119_full_data_sample_0.json",
+      "bytes": 2705945
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/novel2_crop119/seed_42/predictions/novel2_crop119_sample_0.cif",
+      "bytes": 208258
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/novel2_crop119.cif",
+      "bytes": 203674
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/novel2_crop119_pae.npz",
+      "bytes": 415995
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/novel2_ectodomain607/seed_42/predictions/novel2_ectodomain607_full_data_sample_0.json",
+      "bytes": 23470418
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/novel2_ectodomain607/seed_42/predictions/novel2_ectodomain607_sample_0.cif",
+      "bytes": 633232
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/novel2_ectodomain607.cif",
+      "bytes": 622780
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/novel2_ectodomain607_pae.npz",
+      "bytes": 3794956
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/novel3_crop119/seed_42/predictions/novel3_crop119_full_data_sample_0.json",
+      "bytes": 2942695
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/novel3_crop119/seed_42/predictions/novel3_crop119_sample_0.cif",
+      "bytes": 219115
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/novel3_crop119.cif",
+      "bytes": 214411
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/novel3_crop119_pae.npz",
+      "bytes": 453268
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/novel3_ectodomain607/seed_42/predictions/novel3_ectodomain607_full_data_sample_0.json",
+      "bytes": 24186132
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/novel3_ectodomain607/seed_42/predictions/novel3_ectodomain607_sample_0.cif",
+      "bytes": 636536
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/novel3_ectodomain607.cif",
+      "bytes": 625964
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/novel3_ectodomain607_pae.npz",
+      "bytes": 3898417
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/trastuzumab_wt_control/seed_42/predictions/trastuzumab_wt_control_full_data_sample_0.json",
+      "bytes": 5381332
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/trastuzumab_wt_control/seed_42/predictions/trastuzumab_wt_control_sample_0.cif",
+      "bytes": 306421
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/trastuzumab_wt_control.cif",
+      "bytes": 300662
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/trastuzumab_wt_control_pae.npz",
+      "bytes": 834883
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts.zip",
+      "bytes": 25599338
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-opendde-abag/artifacts/fixed_framework_control.cif",
+      "bytes": 200647
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-opendde-abag/artifacts/fixed_framework_control_pae.npz",
+      "bytes": 613267
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-opendde-abag/artifacts/high_footprint_known_hit.cif",
+      "bytes": 204664
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-opendde-abag/artifacts/high_footprint_known_hit_pae.npz",
+      "bytes": 629854
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-opendde-abag/artifacts/novel1_crop119.cif",
+      "bytes": 216187
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-opendde-abag/artifacts/novel1_crop119_pae.npz",
+      "bytes": 661952
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-opendde-abag/artifacts/novel1_ectodomain607.cif",
+      "bytes": 633436
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-opendde-abag/artifacts/novel1_ectodomain607_pae.npz",
+      "bytes": 5890153
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-opendde-abag/artifacts/novel2_crop119.cif",
+      "bytes": 203674
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-opendde-abag/artifacts/novel2_crop119_pae.npz",
+      "bytes": 630282
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-opendde-abag/artifacts/novel2_ectodomain607.cif",
+      "bytes": 617164
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-opendde-abag/artifacts/novel2_ectodomain607_pae.npz",
+      "bytes": 5808579
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-opendde-abag/artifacts/novel3_crop119.cif",
+      "bytes": 214411
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-opendde-abag/artifacts/novel3_crop119_pae.npz",
+      "bytes": 684248
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-opendde-abag/artifacts/novel3_ectodomain607.cif",
+      "bytes": 631660
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-opendde-abag/artifacts/novel3_ectodomain607_pae.npz",
+      "bytes": 5954852
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-opendde-abag/artifacts/trastuzumab_wt_control.cif",
+      "bytes": 295330
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-opendde-abag/artifacts/trastuzumab_wt_control_pae.npz",
+      "bytes": 1288801
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-opendde-abag/artifacts.zip",
+      "bytes": 23032526
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-openfold3/artifacts/fixed_framework_control.cif",
+      "bytes": 207700
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-openfold3/artifacts/fixed_framework_control_pae.npz",
+      "bytes": 602515
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-openfold3/artifacts/high_footprint_known_hit.cif",
+      "bytes": 210067
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-openfold3/artifacts/high_footprint_known_hit_pae.npz",
+      "bytes": 628339
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-openfold3/artifacts/novel1_crop119.cif",
+      "bytes": 223800
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-openfold3/artifacts/novel1_crop119_pae.npz",
+      "bytes": 661273
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-openfold3/artifacts/novel1_ectodomain607.cif",
+      "bytes": 650375
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-openfold3/artifacts/novel1_ectodomain607_pae.npz",
+      "bytes": 5871608
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-openfold3/artifacts/novel2_crop119.cif",
+      "bytes": 209050
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-openfold3/artifacts/novel2_crop119_pae.npz",
+      "bytes": 628066
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-openfold3/artifacts/novel2_ectodomain607.cif",
+      "bytes": 633817
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-openfold3/artifacts/novel2_ectodomain607_pae.npz",
+      "bytes": 5775563
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-openfold3/artifacts/novel3_crop119.cif",
+      "bytes": 221960
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-openfold3/artifacts/novel3_crop119_pae.npz",
+      "bytes": 682175
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-openfold3/artifacts/novel3_ectodomain607.cif",
+      "bytes": 659939
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-openfold3/artifacts/novel3_ectodomain607_pae.npz",
+      "bytes": 5946639
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-openfold3/artifacts/trastuzumab_wt_control.cif",
+      "bytes": 308343
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-openfold3/artifacts/trastuzumab_wt_control_pae.npz",
+      "bytes": 1294263
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/local-refold-openfold3/artifacts.zip",
+      "bytes": 22705726
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/nanobodybuilder2-novel1/2dc79d27-4ddc-5490-bbb8-63e2af27492e.pdb",
+      "bytes": 84158
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/nanobodybuilder2-novel1/585c3934-689c-5969-9e9c-a8027958ceed.pdb",
+      "bytes": 163847
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/nanobodybuilder2-novel1/6eb659f5-337b-53c9-b758-0fc8a042dc5a.pdb",
+      "bytes": 84158
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/nanobodybuilder2-novel1/9ec31000-7415-5ea9-8345-bc9bd64c1a2f.pdb",
+      "bytes": 84158
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/nanobodybuilder2-novel1/c7c80e18-d3c2-5885-a7d5-cee05654bce6.pdb",
+      "bytes": 84158
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/nanobodybuilder2-novel2/1244af2f-c8af-5a9b-9998-0be1284ece15.pdb",
+      "bytes": 76382
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/nanobodybuilder2-novel2/74625c59-41c6-54c3-85be-817df7af12b9.pdb",
+      "bytes": 76382
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/nanobodybuilder2-novel2/952830e4-1b01-5f40-8d65-6c528c9a1240.pdb",
+      "bytes": 150887
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/nanobodybuilder2-novel2/f1414c8a-ab5b-5973-878b-204dea79069b.pdb",
+      "bytes": 76382
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/nanobodybuilder2-novel2/f5c497e6-16c0-5cff-b885-817a3556e4ad.pdb",
+      "bytes": 76382
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/nanobodybuilder2-novel3/5de27e60-4b98-58ae-ab6d-7fb5ec8c0926.pdb",
+      "bytes": 82862
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/nanobodybuilder2-novel3/8e3a81f2-0ba4-52a6-b75a-e29bbe689ee8.pdb",
+      "bytes": 82862
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/nanobodybuilder2-novel3/a31dc333-de7d-5482-94ad-571d56ede237.pdb",
+      "bytes": 82133
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/nanobodybuilder2-novel3/d6518cc2-a879-55fd-9cf2-0752d5ec817f.pdb",
+      "bytes": 163037
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/nanobodybuilder2-novel3/dc6707b8-f2b1-59f6-9718-3a528033f898.pdb",
+      "bytes": 82862
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p00_original/seed_0/predictions/p00_original_full_data_sample_0.json",
+      "bytes": 2939364
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p00_original/seed_0/predictions/p00_original_sample_0.cif",
+      "bytes": 220344
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p00_original.cif",
+      "bytes": 215632
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p00_original_pae.npz",
+      "bytes": 455456
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p01_repaired/seed_0/predictions/p01_repaired_full_data_sample_0.json",
+      "bytes": 2950725
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p01_repaired/seed_0/predictions/p01_repaired_sample_0.cif",
+      "bytes": 219123
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p01_repaired.cif",
+      "bytes": 214411
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p01_repaired_pae.npz",
+      "bytes": 455346
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p02_original/seed_0/predictions/p02_original_full_data_sample_0.json",
+      "bytes": 2987761
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p02_original/seed_0/predictions/p02_original_sample_0.cif",
+      "bytes": 214365
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p02_original.cif",
+      "bytes": 209665
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p02_original_pae.npz",
+      "bytes": 449922
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p03_repaired/seed_0/predictions/p03_repaired_full_data_sample_0.json",
+      "bytes": 2956018
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p03_repaired/seed_0/predictions/p03_repaired_sample_0.cif",
+      "bytes": 217557
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p03_repaired.cif",
+      "bytes": 212857
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p03_repaired_pae.npz",
+      "bytes": 451634
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p04_original/seed_0/predictions/p04_original_full_data_sample_0.json",
+      "bytes": 2708657
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p04_original/seed_0/predictions/p04_original_sample_0.cif",
+      "bytes": 210356
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p04_original.cif",
+      "bytes": 205764
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p04_original_pae.npz",
+      "bytes": 420091
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p05_repaired/seed_0/predictions/p05_repaired_full_data_sample_0.json",
+      "bytes": 2698452
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p05_repaired/seed_0/predictions/p05_repaired_sample_0.cif",
+      "bytes": 209806
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p05_repaired.cif",
+      "bytes": 205214
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p05_repaired_pae.npz",
+      "bytes": 422163
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p06_original/seed_0/predictions/p06_original_full_data_sample_0.json",
+      "bytes": 2977055
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p06_original/seed_0/predictions/p06_original_sample_0.cif",
+      "bytes": 214905
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p06_original.cif",
+      "bytes": 210193
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p06_original_pae.npz",
+      "bytes": 455212
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p07_repaired/seed_0/predictions/p07_repaired_full_data_sample_0.json",
+      "bytes": 2951922
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p07_repaired/seed_0/predictions/p07_repaired_sample_0.cif",
+      "bytes": 214350
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p07_repaired.cif",
+      "bytes": 209638
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts/p07_repaired_pae.npz",
+      "bytes": 457025
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-mol1/artifacts.zip",
+      "bytes": 7071274
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-openfold3/artifacts/p00_original.cif",
+      "bytes": 221279
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-openfold3/artifacts/p00_original_pae.npz",
+      "bytes": 689137
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-openfold3/artifacts/p01_repaired.cif",
+      "bytes": 220025
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-openfold3/artifacts/p01_repaired_pae.npz",
+      "bytes": 689238
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-openfold3/artifacts/p02_original.cif",
+      "bytes": 219113
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-openfold3/artifacts/p02_original_pae.npz",
+      "bytes": 680730
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-openfold3/artifacts/p03_repaired.cif",
+      "bytes": 216508
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-openfold3/artifacts/p03_repaired_pae.npz",
+      "bytes": 683735
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-openfold3/artifacts/p04_original.cif",
+      "bytes": 213071
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-openfold3/artifacts/p04_original_pae.npz",
+      "bytes": 634363
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-openfold3/artifacts/p05_repaired.cif",
+      "bytes": 212501
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-openfold3/artifacts/p05_repaired_pae.npz",
+      "bytes": 636059
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-openfold3/artifacts/p06_original.cif",
+      "bytes": 215693
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-openfold3/artifacts/p06_original_pae.npz",
+      "bytes": 686297
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-openfold3/artifacts/p07_repaired.cif",
+      "bytes": 213231
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-openfold3/artifacts/p07_repaired_pae.npz",
+      "bytes": 687271
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/paired-refold-openfold3/artifacts.zip",
+      "bytes": 5607847
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/design.cif",
+      "bytes": 85554
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/final_8_designs/before_refolding/rank1_3_shard-0_design.cif",
+      "bytes": 155712
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/final_8_designs/before_refolding/rank2_3_shard-0_design_1.cif",
+      "bytes": 141748
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/final_8_designs/before_refolding/rank3_1_shard-0_design.cif",
+      "bytes": 150144
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/final_8_designs/before_refolding/rank4_0_shard-0_design_1.cif",
+      "bytes": 145279
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/final_8_designs/before_refolding/rank5_1_shard-0_design_1.cif",
+      "bytes": 154569
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/final_8_designs/before_refolding/rank6_2_shard-0_design.cif",
+      "bytes": 152128
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/final_8_designs/before_refolding/rank7_0_shard-0_design.cif",
+      "bytes": 155370
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/final_8_designs/before_refolding/rank8_2_shard-0_design_1.cif",
+      "bytes": 153231
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/final_8_designs/rank1_3_shard-0_design.cif",
+      "bytes": 181959
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/final_8_designs/rank2_3_shard-0_design_1.cif",
+      "bytes": 164444
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/final_8_designs/rank3_1_shard-0_design.cif",
+      "bytes": 175314
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/final_8_designs/rank4_0_shard-0_design_1.cif",
+      "bytes": 168889
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/final_8_designs/rank5_1_shard-0_design_1.cif",
+      "bytes": 180180
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/final_8_designs/rank6_2_shard-0_design.cif",
+      "bytes": 177473
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/final_8_designs/rank7_0_shard-0_design.cif",
+      "bytes": 181775
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/final_8_designs/rank8_2_shard-0_design_1.cif",
+      "bytes": 178717
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs/0_shard-0_design.cif",
+      "bytes": 164586
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs/0_shard-0_design.npz",
+      "bytes": 1074
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs/0_shard-0_design_1.cif",
+      "bytes": 156527
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs/0_shard-0_design_1.npz",
+      "bytes": 1071
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs/1_shard-0_design.cif",
+      "bytes": 159252
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs/1_shard-0_design.npz",
+      "bytes": 1071
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs/1_shard-0_design_1.cif",
+      "bytes": 165056
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs/1_shard-0_design_1.npz",
+      "bytes": 1074
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs/2_shard-0_design.cif",
+      "bytes": 161855
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs/2_shard-0_design.npz",
+      "bytes": 1073
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs/2_shard-0_design_1.cif",
+      "bytes": 164414
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs/2_shard-0_design_1.npz",
+      "bytes": 1074
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs/3_shard-0_design.cif",
+      "bytes": 165469
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs/3_shard-0_design.npz",
+      "bytes": 1074
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs/3_shard-0_design_1.cif",
+      "bytes": 149988
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs/3_shard-0_design_1.npz",
+      "bytes": 1069
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs_inverse_folded/0_shard-0_design.cif",
+      "bytes": 155370
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs_inverse_folded/0_shard-0_design.npz",
+      "bytes": 1074
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs_inverse_folded/0_shard-0_design_1.cif",
+      "bytes": 145279
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs_inverse_folded/0_shard-0_design_1.npz",
+      "bytes": 1071
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs_inverse_folded/1_shard-0_design.cif",
+      "bytes": 150144
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs_inverse_folded/1_shard-0_design.npz",
+      "bytes": 1071
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs_inverse_folded/1_shard-0_design_1.cif",
+      "bytes": 154569
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs_inverse_folded/1_shard-0_design_1.npz",
+      "bytes": 1074
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs_inverse_folded/2_shard-0_design.cif",
+      "bytes": 152128
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs_inverse_folded/2_shard-0_design.npz",
+      "bytes": 1073
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs_inverse_folded/2_shard-0_design_1.cif",
+      "bytes": 153231
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs_inverse_folded/2_shard-0_design_1.npz",
+      "bytes": 1074
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs_inverse_folded/3_shard-0_design.cif",
+      "bytes": 155712
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs_inverse_folded/3_shard-0_design.npz",
+      "bytes": 1074
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs_inverse_folded/3_shard-0_design_1.cif",
+      "bytes": 141748
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs_inverse_folded/3_shard-0_design_1.npz",
+      "bytes": 1069
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs_inverse_folded/refold_cif/0_shard-0_design.cif",
+      "bytes": 181775
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs_inverse_folded/refold_cif/0_shard-0_design_1.cif",
+      "bytes": 168889
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs_inverse_folded/refold_cif/1_shard-0_design.cif",
+      "bytes": 175314
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs_inverse_folded/refold_cif/1_shard-0_design_1.cif",
+      "bytes": 180180
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs_inverse_folded/refold_cif/2_shard-0_design.cif",
+      "bytes": 177473
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs_inverse_folded/refold_cif/2_shard-0_design_1.cif",
+      "bytes": 178717
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs_inverse_folded/refold_cif/3_shard-0_design.cif",
+      "bytes": 181959
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_designs_inverse_folded/refold_cif/3_shard-0_design_1.cif",
+      "bytes": 164444
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_ranked_10_designs/before_refolding/rank0_3_shard-0_design.cif",
+      "bytes": 155712
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_ranked_10_designs/before_refolding/rank1_3_shard-0_design_1.cif",
+      "bytes": 141748
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_ranked_10_designs/before_refolding/rank2_1_shard-0_design.cif",
+      "bytes": 150144
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_ranked_10_designs/before_refolding/rank3_0_shard-0_design_1.cif",
+      "bytes": 145279
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_ranked_10_designs/before_refolding/rank4_1_shard-0_design_1.cif",
+      "bytes": 154569
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_ranked_10_designs/before_refolding/rank5_2_shard-0_design.cif",
+      "bytes": 152128
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_ranked_10_designs/before_refolding/rank6_0_shard-0_design.cif",
+      "bytes": 155370
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_ranked_10_designs/before_refolding/rank7_2_shard-0_design_1.cif",
+      "bytes": 153231
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_ranked_10_designs/rank0_3_shard-0_design.cif",
+      "bytes": 181959
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_ranked_10_designs/rank1_3_shard-0_design_1.cif",
+      "bytes": 164444
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_ranked_10_designs/rank2_1_shard-0_design.cif",
+      "bytes": 175314
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_ranked_10_designs/rank3_0_shard-0_design_1.cif",
+      "bytes": 168889
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_ranked_10_designs/rank4_1_shard-0_design_1.cif",
+      "bytes": 180180
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_ranked_10_designs/rank5_2_shard-0_design.cif",
+      "bytes": 177473
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_ranked_10_designs/rank6_0_shard-0_design.cif",
+      "bytes": 181775
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts/intermediate_ranked_10_designs/rank7_2_shard-0_design_1.cif",
+      "bytes": 178717
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-directed-s20261114/artifacts.zip",
+      "bytes": 2966213
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/design.cif",
+      "bytes": 85131
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/final_8_designs/before_refolding/rank1_1_shard-0_design.cif",
+      "bytes": 150356
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/final_8_designs/before_refolding/rank2_0_shard-0_design_1.cif",
+      "bytes": 145704
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/final_8_designs/before_refolding/rank3_1_shard-0_design_1.cif",
+      "bytes": 153854
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/final_8_designs/before_refolding/rank4_2_shard-0_design_1.cif",
+      "bytes": 151386
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/final_8_designs/before_refolding/rank5_3_shard-0_design_1.cif",
+      "bytes": 142724
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/final_8_designs/before_refolding/rank6_2_shard-0_design.cif",
+      "bytes": 151026
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/final_8_designs/before_refolding/rank7_3_shard-0_design.cif",
+      "bytes": 153157
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/final_8_designs/before_refolding/rank8_0_shard-0_design.cif",
+      "bytes": 153873
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/final_8_designs/rank1_1_shard-0_design.cif",
+      "bytes": 175474
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/final_8_designs/rank2_0_shard-0_design_1.cif",
+      "bytes": 169516
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/final_8_designs/rank3_1_shard-0_design_1.cif",
+      "bytes": 179231
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/final_8_designs/rank4_2_shard-0_design_1.cif",
+      "bytes": 175697
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/final_8_designs/rank5_3_shard-0_design_1.cif",
+      "bytes": 165346
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/final_8_designs/rank6_2_shard-0_design.cif",
+      "bytes": 175631
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/final_8_designs/rank7_3_shard-0_design.cif",
+      "bytes": 177892
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/final_8_designs/rank8_0_shard-0_design.cif",
+      "bytes": 179346
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs/0_shard-0_design.cif",
+      "bytes": 163911
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs/0_shard-0_design.npz",
+      "bytes": 1068
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs/0_shard-0_design_1.cif",
+      "bytes": 155821
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs/0_shard-0_design_1.npz",
+      "bytes": 1067
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs/1_shard-0_design.cif",
+      "bytes": 159624
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs/1_shard-0_design.npz",
+      "bytes": 1067
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs/1_shard-0_design_1.cif",
+      "bytes": 165686
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs/1_shard-0_design_1.npz",
+      "bytes": 1068
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs/2_shard-0_design.cif",
+      "bytes": 162149
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs/2_shard-0_design.npz",
+      "bytes": 1067
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs/2_shard-0_design_1.cif",
+      "bytes": 162620
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs/2_shard-0_design_1.npz",
+      "bytes": 1068
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs/3_shard-0_design.cif",
+      "bytes": 163596
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs/3_shard-0_design.npz",
+      "bytes": 1068
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs/3_shard-0_design_1.cif",
+      "bytes": 152941
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs/3_shard-0_design_1.npz",
+      "bytes": 1065
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs_inverse_folded/0_shard-0_design.cif",
+      "bytes": 153873
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs_inverse_folded/0_shard-0_design.npz",
+      "bytes": 1068
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs_inverse_folded/0_shard-0_design_1.cif",
+      "bytes": 145704
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs_inverse_folded/0_shard-0_design_1.npz",
+      "bytes": 1067
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs_inverse_folded/1_shard-0_design.cif",
+      "bytes": 150356
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs_inverse_folded/1_shard-0_design.npz",
+      "bytes": 1067
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs_inverse_folded/1_shard-0_design_1.cif",
+      "bytes": 153854
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs_inverse_folded/1_shard-0_design_1.npz",
+      "bytes": 1068
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs_inverse_folded/2_shard-0_design.cif",
+      "bytes": 151026
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs_inverse_folded/2_shard-0_design.npz",
+      "bytes": 1067
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs_inverse_folded/2_shard-0_design_1.cif",
+      "bytes": 151386
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs_inverse_folded/2_shard-0_design_1.npz",
+      "bytes": 1068
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs_inverse_folded/3_shard-0_design.cif",
+      "bytes": 153157
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs_inverse_folded/3_shard-0_design.npz",
+      "bytes": 1068
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs_inverse_folded/3_shard-0_design_1.cif",
+      "bytes": 142724
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs_inverse_folded/3_shard-0_design_1.npz",
+      "bytes": 1065
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs_inverse_folded/refold_cif/0_shard-0_design.cif",
+      "bytes": 179346
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs_inverse_folded/refold_cif/0_shard-0_design_1.cif",
+      "bytes": 169516
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs_inverse_folded/refold_cif/1_shard-0_design.cif",
+      "bytes": 175474
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs_inverse_folded/refold_cif/1_shard-0_design_1.cif",
+      "bytes": 179231
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs_inverse_folded/refold_cif/2_shard-0_design.cif",
+      "bytes": 175631
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs_inverse_folded/refold_cif/2_shard-0_design_1.cif",
+      "bytes": 175697
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs_inverse_folded/refold_cif/3_shard-0_design.cif",
+      "bytes": 177892
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_designs_inverse_folded/refold_cif/3_shard-0_design_1.cif",
+      "bytes": 165346
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_ranked_10_designs/before_refolding/rank0_1_shard-0_design.cif",
+      "bytes": 150356
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_ranked_10_designs/before_refolding/rank1_0_shard-0_design_1.cif",
+      "bytes": 145704
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_ranked_10_designs/before_refolding/rank2_1_shard-0_design_1.cif",
+      "bytes": 153854
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_ranked_10_designs/before_refolding/rank3_2_shard-0_design_1.cif",
+      "bytes": 151386
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_ranked_10_designs/before_refolding/rank4_3_shard-0_design_1.cif",
+      "bytes": 142724
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_ranked_10_designs/before_refolding/rank5_2_shard-0_design.cif",
+      "bytes": 151026
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_ranked_10_designs/before_refolding/rank6_3_shard-0_design.cif",
+      "bytes": 153157
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_ranked_10_designs/before_refolding/rank7_0_shard-0_design.cif",
+      "bytes": 153873
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_ranked_10_designs/rank0_1_shard-0_design.cif",
+      "bytes": 175474
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_ranked_10_designs/rank1_0_shard-0_design_1.cif",
+      "bytes": 169516
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_ranked_10_designs/rank2_1_shard-0_design_1.cif",
+      "bytes": 179231
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_ranked_10_designs/rank3_2_shard-0_design_1.cif",
+      "bytes": 175697
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_ranked_10_designs/rank4_3_shard-0_design_1.cif",
+      "bytes": 165346
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_ranked_10_designs/rank5_2_shard-0_design.cif",
+      "bytes": 175631
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_ranked_10_designs/rank6_3_shard-0_design.cif",
+      "bytes": 177892
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts/intermediate_ranked_10_designs/rank7_0_shard-0_design.cif",
+      "bytes": 179346
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/pilot-unconditioned-s20261114/artifacts.zip",
+      "bytes": 2933558
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_0/her2_caplacizumab_cdr123_0_generated.cif",
+      "bytes": 704836
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_1/her2_caplacizumab_cdr123_1_generated.cif",
+      "bytes": 704804
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_10/her2_caplacizumab_cdr123_10_generated.cif",
+      "bytes": 701507
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_11/her2_caplacizumab_cdr123_11_generated.cif",
+      "bytes": 711517
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_12/her2_caplacizumab_cdr123_12_generated.cif",
+      "bytes": 699285
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_13/her2_caplacizumab_cdr123_13_generated.cif",
+      "bytes": 711640
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_14/her2_caplacizumab_cdr123_14_generated.cif",
+      "bytes": 702756
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_15/her2_caplacizumab_cdr123_15_generated.cif",
+      "bytes": 702731
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_2/her2_caplacizumab_cdr123_2_generated.cif",
+      "bytes": 703624
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_3/her2_caplacizumab_cdr123_3_generated.cif",
+      "bytes": 693931
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_4/her2_caplacizumab_cdr123_4_generated.cif",
+      "bytes": 691873
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_5/her2_caplacizumab_cdr123_5_generated.cif",
+      "bytes": 697173
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_6/her2_caplacizumab_cdr123_6_generated.cif",
+      "bytes": 701426
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_7/her2_caplacizumab_cdr123_7_generated.cif",
+      "bytes": 699660
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_8/her2_caplacizumab_cdr123_8_generated.cif",
+      "bytes": 722299
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_9/her2_caplacizumab_cdr123_9_generated.cif",
+      "bytes": 708289
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/her2-target.cif",
+      "bytes": 120002
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_0/her2_caplacizumab_longH3_0_generated.cif",
+      "bytes": 731658
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_1/her2_caplacizumab_longH3_1_generated.cif",
+      "bytes": 719160
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_10/her2_caplacizumab_longH3_10_generated.cif",
+      "bytes": 714730
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_11/her2_caplacizumab_longH3_11_generated.cif",
+      "bytes": 734861
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_12/her2_caplacizumab_longH3_12_generated.cif",
+      "bytes": 716788
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_13/her2_caplacizumab_longH3_13_generated.cif",
+      "bytes": 732085
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_14/her2_caplacizumab_longH3_14_generated.cif",
+      "bytes": 732456
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_15/her2_caplacizumab_longH3_15_generated.cif",
+      "bytes": 730673
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_2/her2_caplacizumab_longH3_2_generated.cif",
+      "bytes": 735470
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_3/her2_caplacizumab_longH3_3_generated.cif",
+      "bytes": 726457
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_4/her2_caplacizumab_longH3_4_generated.cif",
+      "bytes": 705229
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_5/her2_caplacizumab_longH3_5_generated.cif",
+      "bytes": 718362
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_6/her2_caplacizumab_longH3_6_generated.cif",
+      "bytes": 729989
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_7/her2_caplacizumab_longH3_7_generated.cif",
+      "bytes": 717950
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_8/her2_caplacizumab_longH3_8_generated.cif",
+      "bytes": 729988
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_9/her2_caplacizumab_longH3_9_generated.cif",
+      "bytes": 724008
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_0/her2_variable_sequence_0_generated.cif",
+      "bytes": 737247
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_1/her2_variable_sequence_1_generated.cif",
+      "bytes": 717959
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_10/her2_variable_sequence_10_generated.cif",
+      "bytes": 716441
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_11/her2_variable_sequence_11_generated.cif",
+      "bytes": 738857
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_12/her2_variable_sequence_12_generated.cif",
+      "bytes": 707577
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_13/her2_variable_sequence_13_generated.cif",
+      "bytes": 744703
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_14/her2_variable_sequence_14_generated.cif",
+      "bytes": 728335
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_15/her2_variable_sequence_15_generated.cif",
+      "bytes": 724185
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_2/her2_variable_sequence_2_generated.cif",
+      "bytes": 736938
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_3/her2_variable_sequence_3_generated.cif",
+      "bytes": 716121
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_4/her2_variable_sequence_4_generated.cif",
+      "bytes": 709182
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_5/her2_variable_sequence_5_generated.cif",
+      "bytes": 721052
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_6/her2_variable_sequence_6_generated.cif",
+      "bytes": 724751
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_7/her2_variable_sequence_7_generated.cif",
+      "bytes": 715007
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_8/her2_variable_sequence_8_generated.cif",
+      "bytes": 736478
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_9/her2_variable_sequence_9_generated.cif",
+      "bytes": 724630
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_0/her2_variable_sequence_0_generated.cif",
+      "bytes": 736117
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_1/her2_variable_sequence_1_generated.cif",
+      "bytes": 725573
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_10/her2_variable_sequence_10_generated.cif",
+      "bytes": 715034
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_11/her2_variable_sequence_11_generated.cif",
+      "bytes": 742857
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_12/her2_variable_sequence_12_generated.cif",
+      "bytes": 706137
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_13/her2_variable_sequence_13_generated.cif",
+      "bytes": 729287
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_14/her2_variable_sequence_14_generated.cif",
+      "bytes": 730507
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_15/her2_variable_sequence_15_generated.cif",
+      "bytes": 722349
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_2/her2_variable_sequence_2_generated.cif",
+      "bytes": 734820
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_3/her2_variable_sequence_3_generated.cif",
+      "bytes": 722671
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_4/her2_variable_sequence_4_generated.cif",
+      "bytes": 708827
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_5/her2_variable_sequence_5_generated.cif",
+      "bytes": 718481
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_6/her2_variable_sequence_6_generated.cif",
+      "bytes": 735745
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_7/her2_variable_sequence_7_generated.cif",
+      "bytes": 705895
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_8/her2_variable_sequence_8_generated.cif",
+      "bytes": 739773
+    },
+    {
+      "path": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_9/her2_variable_sequence_9_generated.cif",
+      "bytes": 722479
+    }
+  ]
+}

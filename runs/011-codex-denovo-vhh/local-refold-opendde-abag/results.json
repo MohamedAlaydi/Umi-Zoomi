@@ -1,0 +1,509 @@
+{
+  "archive_url": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/archive",
+  "artifacts": [
+    {
+      "path": "novel1_crop119.cif",
+      "target": "novel1_crop119",
+      "type": "structure",
+      "url": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/artifacts/novel1_crop119.cif"
+    },
+    {
+      "path": "novel2_crop119.cif",
+      "target": "novel2_crop119",
+      "type": "structure",
+      "url": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/artifacts/novel2_crop119.cif"
+    },
+    {
+      "path": "novel3_crop119.cif",
+      "target": "novel3_crop119",
+      "type": "structure",
+      "url": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/artifacts/novel3_crop119.cif"
+    },
+    {
+      "path": "novel1_ectodomain607.cif",
+      "target": "novel1_ectodomain607",
+      "type": "structure",
+      "url": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/artifacts/novel1_ectodomain607.cif"
+    },
+    {
+      "path": "novel2_ectodomain607.cif",
+      "target": "novel2_ectodomain607",
+      "type": "structure",
+      "url": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/artifacts/novel2_ectodomain607.cif"
+    },
+    {
+      "path": "novel3_ectodomain607.cif",
+      "target": "novel3_ectodomain607",
+      "type": "structure",
+      "url": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/artifacts/novel3_ectodomain607.cif"
+    },
+    {
+      "path": "trastuzumab_wt_control.cif",
+      "target": "trastuzumab_wt_control",
+      "type": "structure",
+      "url": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/artifacts/trastuzumab_wt_control.cif"
+    },
+    {
+      "path": "fixed_framework_control.cif",
+      "target": "fixed_framework_control",
+      "type": "structure",
+      "url": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/artifacts/fixed_framework_control.cif"
+    },
+    {
+      "path": "high_footprint_known_hit.cif",
+      "target": "high_footprint_known_hit",
+      "type": "structure",
+      "url": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/artifacts/high_footprint_known_hit.cif"
+    },
+    {
+      "path": "novel1_crop119_pae.npz",
+      "type": "pae",
+      "url": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/artifacts/novel1_crop119_pae.npz"
+    },
+    {
+      "path": "novel1_ectodomain607_pae.npz",
+      "type": "pae",
+      "url": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/artifacts/novel1_ectodomain607_pae.npz"
+    },
+    {
+      "path": "novel2_crop119_pae.npz",
+      "type": "pae",
+      "url": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/artifacts/novel2_crop119_pae.npz"
+    },
+    {
+      "path": "novel2_ectodomain607_pae.npz",
+      "type": "pae",
+      "url": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/artifacts/novel2_ectodomain607_pae.npz"
+    },
+    {
+      "path": "novel3_crop119_pae.npz",
+      "type": "pae",
+      "url": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/artifacts/novel3_crop119_pae.npz"
+    },
+    {
+      "path": "novel3_ectodomain607_pae.npz",
+      "type": "pae",
+      "url": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/artifacts/novel3_ectodomain607_pae.npz"
+    },
+    {
+      "path": "high_footprint_known_hit_pae.npz",
+      "type": "pae",
+      "url": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/artifacts/high_footprint_known_hit_pae.npz"
+    },
+    {
+      "path": "fixed_framework_control_pae.npz",
+      "type": "pae",
+      "url": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/artifacts/fixed_framework_control_pae.npz"
+    },
+    {
+      "path": "trastuzumab_wt_control_pae.npz",
+      "type": "pae",
+      "url": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/artifacts/trastuzumab_wt_control_pae.npz"
+    },
+    {
+      "path": "novel1_crop119_pae.json",
+      "type": "pae_sidecar",
+      "url": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/artifacts/novel1_crop119_pae.json"
+    },
+    {
+      "path": "novel1_crop119_pae.json",
+      "type": "pae_sidecar",
+      "url": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/artifacts/novel1_crop119_pae.json"
+    },
+    {
+      "path": "novel1_ectodomain607_pae.json",
+      "type": "pae_sidecar",
+      "url": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/artifacts/novel1_ectodomain607_pae.json"
+    },
+    {
+      "path": "novel2_crop119_pae.json",
+      "type": "pae_sidecar",
+      "url": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/artifacts/novel2_crop119_pae.json"
+    },
+    {
+      "path": "novel2_ectodomain607_pae.json",
+      "type": "pae_sidecar",
+      "url": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/artifacts/novel2_ectodomain607_pae.json"
+    },
+    {
+      "path": "novel3_crop119_pae.json",
+      "type": "pae_sidecar",
+      "url": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/artifacts/novel3_crop119_pae.json"
+    },
+    {
+      "path": "novel3_ectodomain607_pae.json",
+      "type": "pae_sidecar",
+      "url": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/artifacts/novel3_ectodomain607_pae.json"
+    },
+    {
+      "path": "high_footprint_known_hit_pae.json",
+      "type": "pae_sidecar",
+      "url": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/artifacts/high_footprint_known_hit_pae.json"
+    },
+    {
+      "path": "fixed_framework_control_pae.json",
+      "type": "pae_sidecar",
+      "url": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/artifacts/fixed_framework_control_pae.json"
+    },
+    {
+      "path": "trastuzumab_wt_control_pae.json",
+      "type": "pae_sidecar",
+      "url": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/artifacts/trastuzumab_wt_control_pae.json"
+    }
+  ],
+  "job_id": "82ca8820a52524b3e61c3b79dc8a2a7e",
+  "kind": "predict",
+  "object": "results",
+  "pae": [
+    "novel1_crop119_pae.npz",
+    "novel1_ectodomain607_pae.npz",
+    "novel2_crop119_pae.npz",
+    "novel2_ectodomain607_pae.npz",
+    "novel3_crop119_pae.npz",
+    "novel3_ectodomain607_pae.npz",
+    "high_footprint_known_hit_pae.npz",
+    "fixed_framework_control_pae.npz",
+    "trastuzumab_wt_control_pae.npz"
+  ],
+  "pae_sidecar": [
+    "novel1_crop119_pae.json",
+    "novel1_crop119_pae.json",
+    "novel1_ectodomain607_pae.json",
+    "novel2_crop119_pae.json",
+    "novel2_ectodomain607_pae.json",
+    "novel3_crop119_pae.json",
+    "novel3_ectodomain607_pae.json",
+    "high_footprint_known_hit_pae.json",
+    "fixed_framework_control_pae.json",
+    "trastuzumab_wt_control_pae.json"
+  ],
+  "ready": true,
+  "rows": [
+    {
+      "chains_ptm": {
+        "0": 0.908935,
+        "1": 0.881167
+      },
+      "complex_plddt": 0.837131,
+      "confidence_score": 0.414941,
+      "id": "novel1_crop119",
+      "iptm": 0.35495,
+      "load_s": 7.0,
+      "msa": true,
+      "msa_depth": 10558,
+      "n_atoms": 1953,
+      "n_chains": 2,
+      "n_residues": 249,
+      "n_tokens": 249,
+      "pair_chains_iptm": {
+        "0": {
+          "0": 0.908935,
+          "1": 0.35495
+        },
+        "1": {
+          "0": 0.35495,
+          "1": 0.881167
+        }
+      },
+      "plddt": 0.837131,
+      "ptm": 0.654905,
+      "runtime_s": 47.1,
+      "samples": 1,
+      "status": "ok"
+    },
+    {
+      "chains_ptm": {
+        "0": 0.895693,
+        "1": 0.93267
+      },
+      "complex_plddt": 0.889889,
+      "confidence_score": 0.33538,
+      "id": "novel1_ectodomain607",
+      "iptm": 0.217358,
+      "load_s": 8.2,
+      "msa": true,
+      "msa_depth": 10560,
+      "n_atoms": 5712,
+      "n_chains": 2,
+      "n_residues": 737,
+      "n_tokens": 737,
+      "pair_chains_iptm": {
+        "0": {
+          "0": 0.895693,
+          "1": 0.217358
+        },
+        "1": {
+          "0": 0.217358,
+          "1": 0.93267
+        }
+      },
+      "plddt": 0.889889,
+      "ptm": 0.80747,
+      "runtime_s": 295.5,
+      "samples": 1,
+      "status": "ok"
+    },
+    {
+      "chains_ptm": {
+        "0": 0.961175,
+        "1": 0.884761
+      },
+      "complex_plddt": 0.885003,
+      "confidence_score": 0.319398,
+      "id": "novel2_crop119",
+      "iptm": 0.244729,
+      "load_s": 9.6,
+      "msa": true,
+      "msa_depth": 9887,
+      "n_atoms": 1857,
+      "n_chains": 2,
+      "n_residues": 243,
+      "n_tokens": 243,
+      "pair_chains_iptm": {
+        "0": {
+          "0": 0.961175,
+          "1": 0.244729
+        },
+        "1": {
+          "0": 0.244729,
+          "1": 0.884761
+        }
+      },
+      "plddt": 0.885003,
+      "ptm": 0.618075,
+      "runtime_s": 33.3,
+      "samples": 1,
+      "status": "ok"
+    },
+    {
+      "chains_ptm": {
+        "0": 0.958202,
+        "1": 0.937255
+      },
+      "complex_plddt": 0.912626,
+      "confidence_score": 0.485564,
+      "id": "novel2_ectodomain607",
+      "iptm": 0.394892,
+      "load_s": 7.7,
+      "msa": true,
+      "msa_depth": 9889,
+      "n_atoms": 5616,
+      "n_chains": 2,
+      "n_residues": 731,
+      "n_tokens": 731,
+      "pair_chains_iptm": {
+        "0": {
+          "0": 0.958202,
+          "1": 0.394892
+        },
+        "1": {
+          "0": 0.394892,
+          "1": 0.937255
+        }
+      },
+      "plddt": 0.912626,
+      "ptm": 0.848251,
+      "runtime_s": 291.6,
+      "samples": 1,
+      "status": "ok"
+    },
+    {
+      "chains_ptm": {
+        "0": 0.915117,
+        "1": 0.882165
+      },
+      "complex_plddt": 0.814496,
+      "confidence_score": 0.292781,
+      "id": "novel3_crop119",
+      "iptm": 0.216511,
+      "load_s": 6.9,
+      "msa": true,
+      "msa_depth": 9505,
+      "n_atoms": 1937,
+      "n_chains": 2,
+      "n_residues": 253,
+      "n_tokens": 253,
+      "pair_chains_iptm": {
+        "0": {
+          "0": 0.915117,
+          "1": 0.216511
+        },
+        "1": {
+          "0": 0.216511,
+          "1": 0.882165
+        }
+      },
+      "plddt": 0.814496,
+      "ptm": 0.597862,
+      "runtime_s": 36.8,
+      "samples": 1,
+      "status": "ok"
+    },
+    {
+      "chains_ptm": {
+        "0": 0.89767,
+        "1": 0.933549
+      },
+      "complex_plddt": 0.890342,
+      "confidence_score": 0.347457,
+      "id": "novel3_ectodomain607",
+      "iptm": 0.232489,
+      "load_s": 8.1,
+      "msa": true,
+      "msa_depth": 9507,
+      "n_atoms": 5696,
+      "n_chains": 2,
+      "n_residues": 741,
+      "n_tokens": 741,
+      "pair_chains_iptm": {
+        "0": {
+          "0": 0.89767,
+          "1": 0.232489
+        },
+        "1": {
+          "0": 0.232489,
+          "1": 0.933549
+        }
+      },
+      "plddt": 0.890342,
+      "ptm": 0.807328,
+      "runtime_s": 297.2,
+      "samples": 1,
+      "status": "ok"
+    },
+    {
+      "chains_ptm": {
+        "0": 0.947362,
+        "1": 0.883428
+      },
+      "complex_plddt": 0.87043,
+      "confidence_score": 0.284797,
+      "id": "high_footprint_known_hit",
+      "iptm": 0.20763,
+      "load_s": 6.9,
+      "msa": true,
+      "msa_depth": 10270,
+      "n_atoms": 1866,
+      "n_chains": 2,
+      "n_residues": 243,
+      "n_tokens": 243,
+      "pair_chains_iptm": {
+        "0": {
+          "0": 0.947362,
+          "1": 0.20763
+        },
+        "1": {
+          "0": 0.20763,
+          "1": 0.883428
+        }
+      },
+      "plddt": 0.87043,
+      "ptm": 0.593466,
+      "runtime_s": 37.8,
+      "samples": 1,
+      "status": "ok"
+    },
+    {
+      "chains_ptm": {
+        "0": 0.961274,
+        "1": 0.888558
+      },
+      "complex_plddt": 0.903676,
+      "confidence_score": 0.473992,
+      "id": "fixed_framework_control",
+      "iptm": 0.417635,
+      "load_s": 9.0,
+      "msa": true,
+      "msa_depth": 10804,
+      "n_atoms": 1813,
+      "n_chains": 2,
+      "n_residues": 240,
+      "n_tokens": 240,
+      "pair_chains_iptm": {
+        "0": {
+          "0": 0.961274,
+          "1": 0.417635
+        },
+        "1": {
+          "0": 0.417635,
+          "1": 0.888558
+        }
+      },
+      "plddt": 0.903676,
+      "ptm": 0.699422,
+      "runtime_s": 37.5,
+      "samples": 1,
+      "status": "ok"
+    },
+    {
+      "chains_ptm": {
+        "0": 0.970266,
+        "1": 0.969423,
+        "2": 0.87812
+      },
+      "complex_plddt": 0.913998,
+      "confidence_score": 0.80902,
+      "id": "trastuzumab_wt_control",
+      "iptm": 0.797757,
+      "load_s": 7.5,
+      "msa": true,
+      "msa_depth": 12654,
+      "n_atoms": 2666,
+      "n_chains": 3,
+      "n_residues": 346,
+      "n_tokens": 346,
+      "pair_chains_iptm": {
+        "0": {
+          "0": 0.970266,
+          "1": 0.973208,
+          "2": 0.578692
+        },
+        "1": {
+          "0": 0.973208,
+          "1": 0.969423,
+          "2": 0.582451
+        },
+        "2": {
+          "0": 0.578692,
+          "1": 0.582451,
+          "2": 0.87812
+        }
+      },
+      "plddt": 0.913998,
+      "ptm": 0.854072,
+      "runtime_s": 48.7,
+      "samples": 1,
+      "status": "ok"
+    }
+  ],
+  "structures": {
+    "fixed_framework_control": [
+      "fixed_framework_control.cif"
+    ],
+    "high_footprint_known_hit": [
+      "high_footprint_known_hit.cif"
+    ],
+    "novel1_crop119": [
+      "novel1_crop119.cif"
+    ],
+    "novel1_ectodomain607": [
+      "novel1_ectodomain607.cif"
+    ],
+    "novel2_crop119": [
+      "novel2_crop119.cif"
+    ],
+    "novel2_ectodomain607": [
+      "novel2_ectodomain607.cif"
+    ],
+    "novel3_crop119": [
+      "novel3_crop119.cif"
+    ],
+    "novel3_ectodomain607": [
+      "novel3_ectodomain607.cif"
+    ],
+    "trastuzumab_wt_control": [
+      "trastuzumab_wt_control.cif"
+    ]
+  },
+  "tables": []
+}

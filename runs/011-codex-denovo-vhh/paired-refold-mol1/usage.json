@@ -1,0 +1,173 @@
+{
+  "amount": 0.055696,
+  "amount_micros": 55696,
+  "billable_s": 771.186,
+  "closed_at": "2026-11-14T13:13:15.013000+00:00",
+  "currency": "usd",
+  "excluded_s": 0.0,
+  "job": "db7fff3788d169cc4974d493959a687c",
+  "kind": "predict",
+  "links": {
+    "job": "/v1/jobs/db7fff3788d169cc4974d493959a687c"
+  },
+  "load_s": 36.186,
+  "meter": {
+    "bias": "under",
+    "bound_s": 6.0,
+    "method": "sampled-lease-integral+engine-clock-cap",
+    "sample_gap_s": 3.0,
+    "visible": true
+  },
+  "model": "mol1",
+  "name": "team14-her2-paired-canonical-cys-mol1",
+  "object": "usage",
+  "reconcile": {
+    "agree": 1,
+    "capped": 0,
+    "checked": 1,
+    "over_engine": 0,
+    "rate": 1.0,
+    "worst_delta_s": -2.372
+  },
+  "status": "succeeded",
+  "submitted_at": "2026-11-14T13:10:29.389000+00:00",
+  "surface": "skill",
+  "targets": [
+    {
+      "amount": 0.006805,
+      "amount_micros": 6805,
+      "attempts": 1,
+      "billable_s": 94.228,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "p00_original",
+      "intervals": [
+        [
+          "2026-11-14T13:11:13.555000+00:00",
+          "2026-11-14T13:12:47.783000+00:00"
+        ]
+      ],
+      "load_s": 5.228,
+      "runtime_s": 89.0
+    },
+    {
+      "amount": 0.007896,
+      "amount_micros": 7896,
+      "attempts": 1,
+      "billable_s": 109.337,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "p01_repaired",
+      "intervals": [
+        [
+          "2026-11-14T13:11:22.679000+00:00",
+          "2026-11-14T13:13:12.016000+00:00"
+        ]
+      ],
+      "load_s": 2.937,
+      "runtime_s": 106.4
+    },
+    {
+      "amount": 0.006226,
+      "amount_micros": 6226,
+      "attempts": 1,
+      "billable_s": 86.203,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "p02_original",
+      "intervals": [
+        [
+          "2026-11-14T13:11:24.700000+00:00",
+          "2026-11-14T13:12:50.903000+00:00"
+        ]
+      ],
+      "load_s": 2.603,
+      "runtime_s": 83.6
+    },
+    {
+      "amount": 0.008112,
+      "amount_micros": 8112,
+      "attempts": 1,
+      "billable_s": 112.316,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "p03_repaired",
+      "intervals": [
+        [
+          "2026-11-14T13:11:19.658000+00:00",
+          "2026-11-14T13:13:11.974000+00:00"
+        ]
+      ],
+      "load_s": 4.416,
+      "runtime_s": 107.9
+    },
+    {
+      "amount": 0.007676,
+      "amount_micros": 7676,
+      "attempts": 1,
+      "billable_s": 106.281,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "p04_original",
+      "intervals": [
+        [
+          "2026-11-14T13:11:18.799000+00:00",
+          "2026-11-14T13:13:05.079000+00:00"
+        ]
+      ],
+      "load_s": 5.781,
+      "runtime_s": 100.5
+    },
+    {
+      "amount": 0.006524,
+      "amount_micros": 6524,
+      "attempts": 1,
+      "billable_s": 90.327,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "p05_repaired",
+      "intervals": [
+        [
+          "2026-11-14T13:11:25.818000+00:00",
+          "2026-11-14T13:12:56.146000+00:00"
+        ]
+      ],
+      "load_s": 5.527,
+      "runtime_s": 84.8
+    },
+    {
+      "amount": 0.006519,
+      "amount_micros": 6519,
+      "attempts": 1,
+      "billable_s": 90.27,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "p06_original",
+      "intervals": [
+        [
+          "2026-11-14T13:11:16.883000+00:00",
+          "2026-11-14T13:12:47.153000+00:00"
+        ]
+      ],
+      "load_s": 4.87,
+      "runtime_s": 85.4
+    },
+    {
+      "amount": 0.005938,
+      "amount_micros": 5938,
+      "attempts": 1,
+      "billable_s": 82.224,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "p07_repaired",
+      "intervals": [
+        [
+          "2026-11-14T13:11:24.949000+00:00",
+          "2026-11-14T13:12:47.173000+00:00"
+        ]
+      ],
+      "load_s": 4.824,
+      "runtime_s": 77.4
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 0.036s
+
+OK
+Identical  assay-and-contacts.png
+Identical  assay_transfer.json
+Identical  completed_batches.json
+Identical  late_comparison.json
+Identical  panel.csv
+Identical  split_check.json
+Identical  structure_checks.json
+Identical  vhh_controls.json
+Verified 193 original inputs in isolation.

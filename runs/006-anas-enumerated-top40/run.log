@@ -54,3 +54,5 @@ chains.
   warn_eager_only(
 /app/.pixi/envs/boltz-image/lib/python3.11/site-packages/boltz-community/src/boltz/data/feature/featurizerv2.py:1742: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
   deletion = np.pi / 2 * np.arctan(deletion / 3)
+Predicting ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44/44 0:05:26 • 0:00:00 0.14it/s 
+EXIT=0

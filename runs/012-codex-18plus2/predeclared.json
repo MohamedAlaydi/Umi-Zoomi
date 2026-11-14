@@ -1,0 +1,38 @@
+{
+  "utc": "2026-11-14T14:32:00.723092+00:00",
+  "source_rank_file": "review/pitch_her2/Rangering_begrunnet.csv",
+  "source_rank_sha256": "5854332e73aca1954e8f5ac679ce4927c0e33da188a90cc54c583ae76eda8a9c",
+  "selected_optimization_ranks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "de_novo_names": [
+    "novel2",
+    "novel3"
+  ],
+  "purpose": "Complete common blind-prediction coverage before offering final18+2 prioritization; current rank is provisional.",
+  "controls": "Reuse exact-sequence crop119 WT and VHH jobs from011 with identical models and settings; do not rerun identical work.",
+  "endpoints": [
+    "reference-epitope Jaccard and recall at4/4.5/5A",
+    "target-specific pair ipTM from actual chain mapping",
+    "severe cross-chain clashes",
+    "antibody regional confidence"
+  ],
+  "interpretation": "Compare within format, retain disagreement and source provenance; no average across raw different-model scores, no calibrated S-tier probability."
+}

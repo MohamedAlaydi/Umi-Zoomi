@@ -1,0 +1,196 @@
+{
+  "inputs": {
+    "data/her2-trastuzumab/trastuzumab_her2_spr_all_768.csv": "4d6f53a6183f377670e9577b3233a7c4c14888965ac63824863219d13424fa9b",
+    "data/her2-trastuzumab/tz_her2_facs_3classes_524346.csv.zip": "85e5e56c9c34a7b206b818b90421427a8ad65d55ae821cb4ad642bb595def968",
+    "people/anas/facs_model.joblib": "ab1f714ca3e071976083c03bc4a81f64571b236d7f4f521f2b50e8ef6dd91da7"
+  },
+  "model": "gbm",
+  "n_facs": 524346,
+  "counts": {
+    "input_rows": 768,
+    "ten_mer_rows": 740,
+    "all_ten_mer_unseen_rows": 703,
+    "unique_variants": 695,
+    "raw_outcomes": {
+      "no_reportable_kd": 460,
+      "quantified_binding": 190,
+      "inconclusive": 104,
+      "not_reported": 14
+    },
+    "variant_outcomes": {
+      "no_reportable_kd": 432,
+      "quantified_binding": 152,
+      "inconclusive": 98,
+      "not_reported": 13
+    },
+    "wt_n": 8,
+    "wt_values_nM": [
+      0.152,
+      0.123,
+      0.146,
+      0.165,
+      0.178,
+      0.0378713,
+      0.02851802,
+      0.07916459
+    ],
+    "wt_median_nM": 0.1345,
+    "wt_range_ratio": 6.241667549149625
+  },
+  "bootstrap": {
+    "draws": 2000,
+    "seed": 14112026,
+    "unit": "unique construct"
+  },
+  "all_variants": {
+    "total": 695,
+    "fitted": 152,
+    "no_fit": 432,
+    "other": 111,
+    "auc": {
+      "facs": {
+        "value": 0.7511574074074074,
+        "ci95": [
+          0.7046014558966862,
+          0.7929162097953216
+        ]
+      },
+      "blosum62": {
+        "value": 0.8466359039961013,
+        "ci95": [
+          0.8086748446637427,
+          0.8804025036549707
+        ]
+      },
+      "identity": {
+        "value": 0.8048245614035088,
+        "ci95": [
+          0.7606150249756335,
+          0.8435072870979532
+        ]
+      }
+    },
+    "delta_auc_blosum_minus_facs": {
+      "value": 0.0954784965886939,
+      "ci95": [
+        0.06139284844054578,
+        0.13194691916423
+      ]
+    },
+    "delta_auc_blosum_minus_identity": {
+      "value": 0.04181134259259256,
+      "ci95": [
+        0.02875986080653025,
+        0.055838054337232
+      ]
+    },
+    "rho_log_kd": {
+      "facs": {
+        "value": -0.339179627911248,
+        "ci95": [
+          -0.48323266402134385,
+          -0.18417929827155752
+        ]
+      },
+      "blosum62": {
+        "value": -0.4964030575760733,
+        "ci95": [
+          -0.61356933468103,
+          -0.3680858019359014
+        ]
+      },
+      "identity": {
+        "value": -0.4314125378005051,
+        "ci95": [
+          -0.5585721518592254,
+          -0.29621881024300817
+        ]
+      }
+    },
+    "matched_pairs": 5798,
+    "same_distance_auc": {
+      "facs": 0.5765781303897896,
+      "blosum62": 0.7606071058985857,
+      "identity": 0.5
+    }
+  },
+  "distance_4_to_6": {
+    "total": 255,
+    "fitted": 82,
+    "no_fit": 128,
+    "other": 45,
+    "auc": {
+      "facs": {
+        "value": 0.625952743902439,
+        "ci95": [
+          0.5482517149390245,
+          0.7018935785060976
+        ]
+      },
+      "blosum62": {
+        "value": 0.7660537347560976,
+        "ci95": [
+          0.7013314596036586,
+          0.8273175495426829
+        ]
+      },
+      "identity": {
+        "value": 0.6398628048780488,
+        "ci95": [
+          0.5665789348323171,
+          0.7140815548780488
+        ]
+      }
+    },
+    "delta_auc_blosum_minus_facs": {
+      "value": 0.14010099085365857,
+      "ci95": [
+        0.06238924352134155,
+        0.22223466082317075
+      ]
+    },
+    "delta_auc_blosum_minus_identity": {
+      "value": 0.1261909298780488,
+      "ci95": [
+        0.08035203887195118,
+        0.17311713986280483
+      ]
+    },
+    "rho_log_kd": {
+      "facs": {
+        "value": -0.07460859060958679,
+        "ci95": [
+          -0.2932165084885508,
+          0.14501787542025257
+        ]
+      },
+      "blosum62": {
+        "value": -0.25986707253304164,
+        "ci95": [
+          -0.44434249313980545,
+          -0.044923109659663944
+        ]
+      },
+      "identity": {
+        "value": -0.0937113600382278,
+        "ci95": [
+          -0.32513180381338447,
+          0.13473889352236354
+        ]
+      }
+    },
+    "matched_pairs": 3320,
+    "same_distance_auc": {
+      "facs": 0.5882530120481928,
+      "blosum62": 0.7643072289156626,
+      "identity": 0.5
+    }
+  },
+  "panel_sequence_constraints": {
+    "total": 3,
+    "fitted": 3,
+    "no_fit": 0,
+    "other": 0,
+    "auc_estimable": false
+  }
+}

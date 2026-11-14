@@ -1,0 +1,384 @@
+[
+  {
+    "chain_roles": {
+      "H": "H",
+      "T": "T"
+    },
+    "antibody_n_chains": 1,
+    "clashing_cross_chain_atom_pairs_2A": 0,
+    "epitope_recall_4.0": 0.0,
+    "epitope_jaccard_4.0": 0.0,
+    "target_residue_contacts_4.0": 9,
+    "epitope_recall_4.5": 0.0,
+    "epitope_jaccard_4.5": 0.0,
+    "target_residue_contacts_4.5": 11,
+    "epitope_recall_5.0": 0.0,
+    "epitope_jaccard_5.0": 0.0,
+    "target_residue_contacts_5.0": 12,
+    "ca_nac": 0.898659304300944,
+    "cdr_ca_plddt": 0.881924005396226,
+    "antibody_ca_plddt": 0.8940705933109407,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLQESGGGLVQPGGSLRLSCASSGQSFSDYAMGWFRQAPGQKRTLVAAITPAGKVYFPDSVRGRFTISRDDAASSVFLQMNSLKPEDTAVYFCAATKRLNVSAWKSPVEWSHWGQGTQVTVS",
+        "detected_type": "H",
+        "n_framework": 90,
+        "n_cdr": 34,
+        "framework_ca_plddt": 0.898659304300944,
+        "cdr_ca_plddt": 0.881924005396226
+      }
+    },
+    "binder_CA_rmsd_after_target_alignment": 46.15471195271367,
+    "binder_self_CA_rmsd": 0.7528428280153131,
+    "contact_residue_pairs_4_5": 18,
+    "mean_contact_pair_symmetric_PAE_A": 23.457263045840794,
+    "pae_sha256": "6dc360ae4e87a3cbe83c3c9008b71c7ba744a91b57ccf0854087c588ce187d7d",
+    "pae_sidecar_sha256": "f0a6a6df308ec8e185693101ae68491b6e7aa1674ce0959f4209f2c78dd1f07a",
+    "candidate": "rfd4-variable-sequence-k1__her2_variable_sequence_12_generated",
+    "model": "mol1",
+    "format": "VHH",
+    "requested_track": "de_novo",
+    "pair_sha256": "809634fa1ba95cc2033ae09b0b58a1477b50596dcda6f61880fee32dbc5a1019",
+    "global_iptm": 0.124493,
+    "status": "ok",
+    "source_job": "f17875d6892ef43c21a85534110dcc21",
+    "row_target": "novel2_crop119",
+    "source_reused": true,
+    "structure": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/novel2_crop119.cif",
+    "structure_sha256": "2691af70ceb3a0990c8e40a4f231cad4830efd6238d025ccefd7ead202cd95db",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.940665,
+        "1": 0.124493
+      },
+      "1": {
+        "0": 0.124493,
+        "1": 0.870083
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "T": "T"
+    },
+    "antibody_n_chains": 1,
+    "clashing_cross_chain_atom_pairs_2A": 1,
+    "epitope_recall_4.0": 0.3684210526315789,
+    "epitope_jaccard_4.0": 0.21212121212121213,
+    "target_residue_contacts_4.0": 21,
+    "epitope_recall_4.5": 0.42105263157894735,
+    "epitope_jaccard_4.5": 0.23529411764705882,
+    "target_residue_contacts_4.5": 23,
+    "epitope_recall_5.0": 0.42105263157894735,
+    "epitope_jaccard_5.0": 0.21621621621621623,
+    "target_residue_contacts_5.0": 26,
+    "ca_nac": 0.9043227666219076,
+    "cdr_ca_plddt": 0.8724133508855645,
+    "antibody_ca_plddt": 0.8938450480219143,
+    "regional_chains": {
+      "H": {
+        "sequence": "QVQLQESGGGLVRPGGSLRLTCAASGDTFNKYAMGWFRQAPGKSLELVASISSSARSTYAPDTVKGRFTISRDNSKSVVYLQMNSLKLEDTADYFCAGHLGFNGYSSDVSTKEYGAFREVGFRYWGQGTQVTVS",
+        "detected_type": "H",
+        "n_framework": 90,
+        "n_cdr": 44,
+        "framework_ca_plddt": 0.9043227666219076,
+        "cdr_ca_plddt": 0.8724133508855645
+      }
+    },
+    "binder_CA_rmsd_after_target_alignment": 39.14254985780687,
+    "binder_self_CA_rmsd": 5.55348456999368,
+    "contact_residue_pairs_4_5": 50,
+    "mean_contact_pair_symmetric_PAE_A": 19.11982995033264,
+    "pae_sha256": "f58676fcfac31068985e78f3991d1607a550f8c003f5d7872cae5e8a1bd2108d",
+    "pae_sidecar_sha256": "071f7225b7f93af7f22dcf52ca020cd7a6dbf78a03ccb336f0801229a3adf661",
+    "candidate": "rfd4-variable-sequence-k1__her2_variable_sequence_2_generated",
+    "model": "mol1",
+    "format": "VHH",
+    "requested_track": "de_novo",
+    "pair_sha256": "3e17aea82221a7823adc4ae9aea248b60273d544bb912550a9f81577d4624d97",
+    "global_iptm": 0.189638,
+    "status": "ok",
+    "source_job": "f17875d6892ef43c21a85534110dcc21",
+    "row_target": "novel3_crop119",
+    "source_reused": true,
+    "structure": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/novel3_crop119.cif",
+    "structure_sha256": "7955d6336d181c3bbec966e718c3e8b8e99551641a4aeebd77f47e50d8a76503",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.888472,
+        "1": 0.189638
+      },
+      "1": {
+        "0": 0.189638,
+        "1": 0.875782
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 0,
+    "epitope_recall_4.0": 0.8421052631578947,
+    "epitope_jaccard_4.0": 0.7272727272727273,
+    "target_residue_contacts_4.0": 19,
+    "epitope_recall_4.5": 0.9473684210526315,
+    "epitope_jaccard_4.5": 0.782608695652174,
+    "target_residue_contacts_4.5": 22,
+    "epitope_recall_5.0": 0.9473684210526315,
+    "epitope_jaccard_5.0": 0.75,
+    "target_residue_contacts_5.0": 23,
+    "ca_nac": 0.9459483629862467,
+    "cdr_ca_plddt": 0.938044996870325,
+    "antibody_ca_plddt": 0.944311983217752,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGDGFYAMDYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9460217964256202,
+        "cdr_ca_plddt": 0.931801310572131
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9458732793572245,
+        "cdr_ca_plddt": 0.9481042692396375
+      }
+    },
+    "contact_residue_pairs_4_5": 46,
+    "mean_contact_pair_symmetric_PAE_A": 1.602582434921161,
+    "pae_sha256": "58f44ee44f000f0bd3931cee07498ee6419716a50bfd4b0e5e097055a26ffa38",
+    "pae_sidecar_sha256": "f274f974590a5c2b9f9d6c0a5e005a1f91df9e9ec019366ef4a04ec08be37310",
+    "candidate": "trastuzumab_wt",
+    "model": "mol1",
+    "format": "Fab",
+    "requested_track": "control",
+    "pair_sha256": "f46928d49aebd7226ae6dec7efbf403fb27f843bd2c6e6f6dfabe94fe159c0c3",
+    "global_iptm": 0.952837,
+    "status": "ok",
+    "source_job": "f17875d6892ef43c21a85534110dcc21",
+    "row_target": "trastuzumab_wt_control",
+    "source_reused": true,
+    "structure": "runs/011-codex-denovo-vhh/local-refold-mol1/artifacts/trastuzumab_wt_control.cif",
+    "structure_sha256": "c2b39294833cafc6a375fc0e117e26864154cb5a7c5a598b586d0c8d88c73d43",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.974227,
+        "1": 0.969733,
+        "2": 0.932246
+      },
+      "1": {
+        "0": 0.969733,
+        "1": 0.973455,
+        "2": 0.932984
+      },
+      "2": {
+        "0": 0.932246,
+        "1": 0.932984,
+        "2": 0.914688
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "T": "T"
+    },
+    "antibody_n_chains": 1,
+    "clashing_cross_chain_atom_pairs_2A": 0,
+    "epitope_recall_4.0": 0.0,
+    "epitope_jaccard_4.0": 0.0,
+    "target_residue_contacts_4.0": 11,
+    "epitope_recall_4.5": 0.0,
+    "epitope_jaccard_4.5": 0.0,
+    "target_residue_contacts_4.5": 12,
+    "epitope_recall_5.0": 0.0,
+    "epitope_jaccard_5.0": 0.0,
+    "target_residue_contacts_5.0": 17,
+    "ca_nac": 0.953798932393392,
+    "cdr_ca_plddt": 0.8808661516974955,
+    "antibody_ca_plddt": 0.9338012344606461,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLQESGGGLVQPGGSLRLSCASSGQSFSDYAMGWFRQAPGQKRTLVAAITPAGKVYFPDSVRGRFTISRDDAASSVFLQMNSLKPEDTAVYFCAATKRLNVSAWKSPVEWSHWGQGTQVTVS",
+        "detected_type": "H",
+        "n_framework": 90,
+        "n_cdr": 34,
+        "framework_ca_plddt": 0.953798932393392,
+        "cdr_ca_plddt": 0.8808661516974955
+      }
+    },
+    "binder_CA_rmsd_after_target_alignment": 37.48965913175417,
+    "binder_self_CA_rmsd": 0.824623734590298,
+    "contact_residue_pairs_4_5": 25,
+    "mean_contact_pair_symmetric_PAE_A": 14.74395164489746,
+    "pae_sha256": "0a192dd1a91cc1d808beac25447327025f1204fec717b126e7f6dec7dd7c00c6",
+    "pae_sidecar_sha256": "89861d6675053036cf035618b8c2ea47f6f21858bc1a2f9f5a4b1cce9ff0cb5d",
+    "candidate": "rfd4-variable-sequence-k1__her2_variable_sequence_12_generated",
+    "model": "opendde-abag",
+    "format": "VHH",
+    "requested_track": "de_novo",
+    "pair_sha256": "809634fa1ba95cc2033ae09b0b58a1477b50596dcda6f61880fee32dbc5a1019",
+    "global_iptm": 0.244729,
+    "status": "ok",
+    "source_job": "82ca8820a52524b3e61c3b79dc8a2a7e",
+    "row_target": "novel2_crop119",
+    "source_reused": true,
+    "structure": "runs/011-codex-denovo-vhh/local-refold-opendde-abag/artifacts/novel2_crop119.cif",
+    "structure_sha256": "a3ded46c81f2b108d21b4bb474a220cf6c12cb2352170c33c0b8469c763180d7",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.961175,
+        "1": 0.244729
+      },
+      "1": {
+        "0": 0.244729,
+        "1": 0.884761
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "T": "T"
+    },
+    "antibody_n_chains": 1,
+    "clashing_cross_chain_atom_pairs_2A": 1,
+    "epitope_recall_4.0": 0.15789473684210525,
+    "epitope_jaccard_4.0": 0.08823529411764706,
+    "target_residue_contacts_4.0": 18,
+    "epitope_recall_4.5": 0.21052631578947367,
+    "epitope_jaccard_4.5": 0.1111111111111111,
+    "target_residue_contacts_4.5": 21,
+    "epitope_recall_5.0": 0.2631578947368421,
+    "epitope_jaccard_5.0": 0.1282051282051282,
+    "target_residue_contacts_5.0": 25,
+    "ca_nac": 0.9361350877549913,
+    "cdr_ca_plddt": 0.6798920995538885,
+    "antibody_ca_plddt": 0.8519955990919426,
+    "regional_chains": {
+      "H": {
+        "sequence": "QVQLQESGGGLVRPGGSLRLTCAASGDTFNKYAMGWFRQAPGKSLELVASISSSARSTYAPDTVKGRFTISRDNSKSVVYLQMNSLKLEDTADYFCAGHLGFNGYSSDVSTKEYGAFREVGFRYWGQGTQVTVS",
+        "detected_type": "H",
+        "n_framework": 90,
+        "n_cdr": 44,
+        "framework_ca_plddt": 0.9361350877549913,
+        "cdr_ca_plddt": 0.6798920995538885
+      }
+    },
+    "binder_CA_rmsd_after_target_alignment": 38.75360910462442,
+    "binder_self_CA_rmsd": 4.884742755047544,
+    "contact_residue_pairs_4_5": 41,
+    "mean_contact_pair_symmetric_PAE_A": 17.54845312165051,
+    "pae_sha256": "3f600e644924ef42e6c2beac088b6a9cadecde7387b0644f1db59d813be453fb",
+    "pae_sidecar_sha256": "0f95f90819a2c2f6b3e47fed047541bf67cf155bc415739775b768adfee2b4f4",
+    "candidate": "rfd4-variable-sequence-k1__her2_variable_sequence_2_generated",
+    "model": "opendde-abag",
+    "format": "VHH",
+    "requested_track": "de_novo",
+    "pair_sha256": "3e17aea82221a7823adc4ae9aea248b60273d544bb912550a9f81577d4624d97",
+    "global_iptm": 0.216511,
+    "status": "ok",
+    "source_job": "82ca8820a52524b3e61c3b79dc8a2a7e",
+    "row_target": "novel3_crop119",
+    "source_reused": true,
+    "structure": "runs/011-codex-denovo-vhh/local-refold-opendde-abag/artifacts/novel3_crop119.cif",
+    "structure_sha256": "688e2b82ea90ed682ea4251ab43063b2a8457516054d104f7c9cc7e2e316deb6",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.915117,
+        "1": 0.216511
+      },
+      "1": {
+        "0": 0.216511,
+        "1": 0.882165
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 0,
+    "epitope_recall_4.0": 0.3157894736842105,
+    "epitope_jaccard_4.0": 0.23076923076923078,
+    "target_residue_contacts_4.0": 13,
+    "epitope_recall_4.5": 0.3684210526315789,
+    "epitope_jaccard_4.5": 0.25,
+    "target_residue_contacts_4.5": 16,
+    "epitope_recall_5.0": 0.3684210526315789,
+    "epitope_jaccard_5.0": 0.2413793103448276,
+    "target_residue_contacts_5.0": 17,
+    "ca_nac": 0.969269421895345,
+    "cdr_ca_plddt": 0.9174550758524146,
+    "antibody_ca_plddt": 0.9585413414371171,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGDGFYAMDYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9720643397739956,
+        "cdr_ca_plddt": 0.9185989906047954
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9664116968733542,
+        "cdr_ca_plddt": 0.9156121020846898
+      }
+    },
+    "contact_residue_pairs_4_5": 35,
+    "mean_contact_pair_symmetric_PAE_A": 6.016534050873347,
+    "pae_sha256": "b2bfba938ddf0743b440afe6ff894c1dba7649a5a3d098ea712ceb81f175dc1c",
+    "pae_sidecar_sha256": "e47cab56ca901b923b3aeb30025cdf33b4d7514cbfe8eaf1d5e3a203a61eecbb",
+    "candidate": "trastuzumab_wt",
+    "model": "opendde-abag",
+    "format": "Fab",
+    "requested_track": "control",
+    "pair_sha256": "f46928d49aebd7226ae6dec7efbf403fb27f843bd2c6e6f6dfabe94fe159c0c3",
+    "global_iptm": 0.797757,
+    "status": "ok",
+    "source_job": "82ca8820a52524b3e61c3b79dc8a2a7e",
+    "row_target": "trastuzumab_wt_control",
+    "source_reused": true,
+    "structure": "runs/011-codex-denovo-vhh/local-refold-opendde-abag/artifacts/trastuzumab_wt_control.cif",
+    "structure_sha256": "287ad51cc5fd6fd138c12aadd25253fa1df839b7f3de46b7f65cc9c502a2b6f6",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.970266,
+        "1": 0.973208,
+        "2": 0.578692
+      },
+      "1": {
+        "0": 0.973208,
+        "1": 0.969423,
+        "2": 0.582451
+      },
+      "2": {
+        "0": 0.578692,
+        "1": 0.582451,
+        "2": 0.87812
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  }
+]

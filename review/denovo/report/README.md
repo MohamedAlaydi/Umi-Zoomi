@@ -1,0 +1,1 @@
+Open report.html for the offline evidence room and pitch mode. See RESULTATER.md for the complete Norwegian report and limits. This supplement preserves the main Fab optimization panel. Exact new VHH sequences are exploratory reserves. Source files rebuild from the team project; model weights and full input datasets are not bundled.

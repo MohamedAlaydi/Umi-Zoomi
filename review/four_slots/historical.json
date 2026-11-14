@@ -1,0 +1,35 @@
+{
+  "seed": 14112026,
+  "draws": 5000,
+  "pool_size": 40,
+  "slots": 4,
+  "unique_historical": 255,
+  "population_outcomes": {
+    "no_reportable_kd": 128,
+    "quantified_binding": 82,
+    "inconclusive": 41,
+    "not_reported": 4
+  },
+  "input_sha256": {
+    "data/her2-trastuzumab/trastuzumab_her2_spr_all_768.csv": "4d6f53a6183f377670e9577b3233a7c4c14888965ac63824863219d13424fa9b",
+    "data/her2-trastuzumab/tz_her2_facs_3classes_524346.csv.zip": "85e5e56c9c34a7b206b818b90421427a8ad65d55ae821cb4ad642bb595def968",
+    "people/anas/facs_model.joblib": "ab1f714ca3e071976083c03bc4a81f64571b236d7f4f521f2b50e8ef6dd91da7"
+  },
+  "methods": {
+    "random": {
+      "mean_fits": 1.2786,
+      "mean_unassessed": 0.6914,
+      "mean_no_fit": 2.03
+    },
+    "BLOSUM62": {
+      "mean_fits": 2.3836,
+      "mean_unassessed": 0.8948,
+      "mean_no_fit": 0.7216
+    },
+    "high_FACS": {
+      "mean_fits": 2.1106,
+      "mean_unassessed": 0.9044,
+      "mean_no_fit": 0.985
+    }
+  }
+}

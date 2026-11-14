@@ -1,0 +1,78 @@
+{
+  "credential_present": {
+    "AMASS_API_KEY": true,
+    "JAPANFOLD_API_KEY": true,
+    "NEBIUS_CREDS": true
+  },
+  "japan_health": {
+    "api_version": "1.0.0",
+    "commit": "f82a4b658cd6136a369d126c1027a66b6aa2f912",
+    "service": "japanfold",
+    "status": "ok"
+  },
+  "model_catalog_top_level": [
+    "design_models",
+    "embed_models",
+    "embed_params",
+    "limits",
+    "models",
+    "params_usage",
+    "predict_params",
+    "protocols",
+    "typical_cost_note"
+  ],
+  "japan_credits": {
+    "balance": 1100.0,
+    "balance_micros": 1100000000,
+    "currency": "usd",
+    "processor_seconds_left": 15230769.23076923,
+    "topup_available": true
+  },
+  "japan_jobs_top_level": [
+    "data",
+    "has_more",
+    "next_cursor",
+    "object"
+  ],
+  "japan_recent_jobs": [],
+  "amass_credits": {
+    "remaining": 10448
+  },
+  "requests": [
+    {
+      "provider": "japanfold",
+      "path": "/v1/health",
+      "utc": "2026-11-14T12:47:52.583160+00:00",
+      "status": 200,
+      "billed_credits": null
+    },
+    {
+      "provider": "japanfold",
+      "path": "/v1/models",
+      "utc": "2026-11-14T12:47:53.393414+00:00",
+      "status": 200,
+      "billed_credits": null
+    },
+    {
+      "provider": "japanfold",
+      "path": "/v1/credits",
+      "utc": "2026-11-14T12:47:54.453676+00:00",
+      "status": 200,
+      "billed_credits": null
+    },
+    {
+      "provider": "japanfold",
+      "path": "/v1/jobs?limit=5",
+      "utc": "2026-11-14T12:47:55.232616+00:00",
+      "status": 200,
+      "billed_credits": null
+    },
+    {
+      "provider": "amass",
+      "path": "/credits/api-credits",
+      "utc": "2026-11-14T12:47:56.031510+00:00",
+      "status": 200,
+      "billed_credits": null
+    }
+  ]
+}

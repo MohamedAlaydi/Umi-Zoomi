@@ -1,0 +1,89 @@
+{
+  "model_id": "antifold",
+  "model_version": "AntiFold 0.4.0",
+  "checkpoint": "AntiFold weights-v1",
+  "checkpoint_sha256": "d5c442fa0372c28f4d0026d2f551b6f8ba7e7a127cb6837813a88093ed233e9e",
+  "source_revision": "9918344067f34a6b026f2634fdba212fc3e6e986",
+  "input_sha256": "dd14252d980ac4fc015bed969ed567d1f4f824ee0bfdca07e8b3666c2c84063c",
+  "parameters": {
+    "pdb_file": "structure.pdb",
+    "pdb_dir": null,
+    "pdbs_csv": null,
+    "heavy_chain": null,
+    "light_chain": null,
+    "nanobody_chain": "H",
+    "antigen_chain": "T",
+    "regions": "CDRH1 CDRH2 CDRH3",
+    "num_seq_per_target": 16,
+    "sampling_temp": "0.20",
+    "limit_variation": false,
+    "extract_embeddings": false,
+    "custom_chain_mode": true,
+    "skip_anarcii_numbering": true,
+    "nanobody_mode": true,
+    "batch_size": 1,
+    "num_threads": 0,
+    "seed": 20261114,
+    "model_file": null
+  },
+  "operation": "inverse-fold",
+  "files": {
+    "log.txt": {
+      "sha256": "ac20bd682d7d98ac098506da0509cba9b16f9b8a9e672b1423c0e9ed14ee78de",
+      "size_bytes": 5383,
+      "media_type": "text/plain"
+    },
+    "structure_HT.csv": {
+      "sha256": "697518f363b18586ba3ccbb862d0b11eab4930daa583e9b173deae76c194acb3",
+      "size_bytes": 45720,
+      "media_type": "text/csv"
+    },
+    "structure_HT.fasta": {
+      "sha256": "81d65998e6a051ab401e2b82e10ac9775076d1b93e1eebbcd0259abadc8a8b94",
+      "size_bytes": 6314,
+      "media_type": "application/octet-stream"
+    }
+  },
+  "tables": {
+    "structure_HT.csv": {
+      "sha256": "697518f363b18586ba3ccbb862d0b11eab4930daa583e9b173deae76c194acb3",
+      "size_bytes": 45720,
+      "rows": 243,
+      "columns": [
+        "pdb_posins",
+        "pdb_chain",
+        "pdb_res",
+        "top_res",
+        "pdb_pos",
+        "perplexity",
+        "assumed_region",
+        "A",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "K",
+        "L",
+        "M",
+        "N",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "V",
+        "W",
+        "Y"
+      ]
+    }
+  },
+  "runtime_metrics": {
+    "native_command_seconds": 6.627273744903505,
+    "backend": "cuda"
+  },
+  "score_interpretation": "Structure-conditioned natural-log probabilities; not calibrated Kd.",
+  "native_label_note": "ESM-IF1 native FASTA may retain upstream AntiFold label; checkpoint above is authoritative."
+}

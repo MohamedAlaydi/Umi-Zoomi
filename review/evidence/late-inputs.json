@@ -1,0 +1,47 @@
+{
+  "people/anas/facs_model_logreg.joblib": {
+    "sha256": "cdc1b0bcbcc868257bcc8357e324e57c3405e6afb6ec7203cf01f42d489f45b4",
+    "size": 3336,
+    "archive": "late-inputs.tar.gz"
+  },
+  "people/anas/final-20.csv": {
+    "sha256": "3142b262c8382265bbac8619139880e084b0fe8c7a4dc65627649736d1328ce9",
+    "size": 3209,
+    "archive": "late-inputs.tar.gz"
+  },
+  "people/anas/final_report.txt": {
+    "sha256": "26acda06912874725b5c345884803b093a67291d49a3ea26ebad5f5757c7f5e9",
+    "size": 3437,
+    "archive": "late-inputs.tar.gz"
+  },
+  "people/anas/score_final.py": {
+    "sha256": "a1b75c9754100afe43c851a28616fdb6fe2a6eff70fdb82289d4ce19cc048833",
+    "size": 8580,
+    "archive": "late-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/analysis_stats.json": {
+    "sha256": "78191c046d84590ff5068188950897b3d5d9970d9ba443e69e9b21410f2d5c9c",
+    "size": 3568,
+    "archive": "late-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/calibration.csv": {
+    "sha256": "1c43860b9df083b68ba2f76daa6a6713bd74cf60962d07124582d46e01739026",
+    "size": 3653,
+    "archive": "late-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/multiseed_metrics.csv": {
+    "sha256": "bfb7151b29a806f5540d6f0e66bb7a52579cdca66e1e5d892aa22965f4a6f310",
+    "size": 36247,
+    "archive": "late-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/multiseed_summary.csv": {
+    "sha256": "917ea3d019f035a4f8b29e4b4b27af67bd015a820babdd6282636f012d06872a",
+    "size": 30099,
+    "archive": "late-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/multiseed_summary.md": {
+    "sha256": "e711c90a5a97a6144fdd47f4f00e7bbb19c41c7771c1d2423496abe0aa7f91a4",
+    "size": 8064,
+    "archive": "late-inputs.tar.gz"
+  }
+}

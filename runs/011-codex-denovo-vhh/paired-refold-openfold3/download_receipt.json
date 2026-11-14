@@ -1,0 +1,132 @@
+{
+  "job_id": "87165e3bfa621033be339296e88e822d",
+  "utc": "2026-11-14T13:13:04.926855+00:00",
+  "archive_sha256": "ac632e4170bde151d06ff1bd5ef08fd7a7bb9bb6c11d17b27532a50c1f25dd66",
+  "artifacts": [
+    {
+      "path": "p00_original.cif",
+      "sha256": "1f622a64bec62643e8ec2ffef10f05ad4b6f8fe0604f5899097a02c5472b046e",
+      "bytes": 221279
+    },
+    {
+      "path": "p00_original_pae.json",
+      "sha256": "534c16233e24fffc8acca5262c44e431276f1a1da98963bf5227b7e1595e1418",
+      "bytes": 1473
+    },
+    {
+      "path": "p00_original_pae.npz",
+      "sha256": "37152555ae087b8c2d8b9eae9f8718166cc05454f88f312bade8c3bac51aaca3",
+      "bytes": 689137
+    },
+    {
+      "path": "p01_repaired.cif",
+      "sha256": "3bf0417a29798d668fa65eeef37d7323185e6632148495c25021ffd315d2b56d",
+      "bytes": 220025
+    },
+    {
+      "path": "p01_repaired_pae.json",
+      "sha256": "534c16233e24fffc8acca5262c44e431276f1a1da98963bf5227b7e1595e1418",
+      "bytes": 1473
+    },
+    {
+      "path": "p01_repaired_pae.npz",
+      "sha256": "e28505f115f817efb2c68c1145ea812fa911134f117ffd77d664597aa9556091",
+      "bytes": 689238
+    },
+    {
+      "path": "p02_original.cif",
+      "sha256": "04af033945496c85f2507f994fce9d7310b6d462b767e76b1e9524670d8f9b6b",
+      "bytes": 219113
+    },
+    {
+      "path": "p02_original_pae.json",
+      "sha256": "3fd0dd98c7f885bba6d3b8716bf650cca3db9bf35c61b30e0c0b70014b1abf58",
+      "bytes": 1473
+    },
+    {
+      "path": "p02_original_pae.npz",
+      "sha256": "f7427b031c28ce5b128a58458f137920b39919f837522f6ea6bcff03e38f13d4",
+      "bytes": 680730
+    },
+    {
+      "path": "p03_repaired.cif",
+      "sha256": "9c9361b37f4598212c147736288e14bce0f2f858f1f3f8ecf4e29182ad2e8b12",
+      "bytes": 216508
+    },
+    {
+      "path": "p03_repaired_pae.json",
+      "sha256": "3fd0dd98c7f885bba6d3b8716bf650cca3db9bf35c61b30e0c0b70014b1abf58",
+      "bytes": 1473
+    },
+    {
+      "path": "p03_repaired_pae.npz",
+      "sha256": "fcc9c9449eb40d5490fb6de4a5f70e9730f29323f35e7c40b711e39b43ae2bd0",
+      "bytes": 683735
+    },
+    {
+      "path": "p04_original.cif",
+      "sha256": "fa8de17ba25e033b5a5fe03e6e634e3753f809a624f2c830241121ffdcbd7140",
+      "bytes": 213071
+    },
+    {
+      "path": "p04_original_pae.json",
+      "sha256": "94d12a8d135923e6e1526b18baf57191c9ada9bc9327b53f6a8771543a4cbdd3",
+      "bytes": 1473
+    },
+    {
+      "path": "p04_original_pae.npz",
+      "sha256": "b5a8542132d5daccc9c1745e2a9d69bba1b5cdb3ab7c34235ae6ab7da5a36294",
+      "bytes": 634363
+    },
+    {
+      "path": "p05_repaired.cif",
+      "sha256": "8029c19bf6102262fd5ca574308265900efaf90fdc25047da1ef57cc88b0bb46",
+      "bytes": 212501
+    },
+    {
+      "path": "p05_repaired_pae.json",
+      "sha256": "94d12a8d135923e6e1526b18baf57191c9ada9bc9327b53f6a8771543a4cbdd3",
+      "bytes": 1473
+    },
+    {
+      "path": "p05_repaired_pae.npz",
+      "sha256": "7b15cff983b76e401bce755ffb5bef990077dd3e107f9e9a8e61e73a33ced2c0",
+      "bytes": 636059
+    },
+    {
+      "path": "p06_original.cif",
+      "sha256": "63fac6a59a23ba39b69bfa33709511e13acfadf7d2c9cab6f5ad0e8ca620c971",
+      "bytes": 215693
+    },
+    {
+      "path": "p06_original_pae.json",
+      "sha256": "534c16233e24fffc8acca5262c44e431276f1a1da98963bf5227b7e1595e1418",
+      "bytes": 1473
+    },
+    {
+      "path": "p06_original_pae.npz",
+      "sha256": "67d2d7613bb2ebda713b89859538f93c59d3c91e48a81a32431009dbeb20f53e",
+      "bytes": 686297
+    },
+    {
+      "path": "p07_repaired.cif",
+      "sha256": "5b335f3c8dfe235bf3ad0f3d5e3e53ad287e37d0801d4ec176293459bc541856",
+      "bytes": 213231
+    },
+    {
+      "path": "p07_repaired_pae.json",
+      "sha256": "534c16233e24fffc8acca5262c44e431276f1a1da98963bf5227b7e1595e1418",
+      "bytes": 1473
+    },
+    {
+      "path": "p07_repaired_pae.npz",
+      "sha256": "2ccea86073c56b5a99f5385f3fb7c6d692d3621db291621b27e75afba539db61",
+      "bytes": 687271
+    },
+    {
+      "path": "results.json",
+      "sha256": "fbb3c31100feb63575f78200071d350c3c808f02708df82bed9833bef90ee798",
+      "bytes": 4831
+    }
+  ]
+}

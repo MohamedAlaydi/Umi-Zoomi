@@ -1,0 +1,922 @@
+{
+  "runs/001-mohamed-her2-baseline/out/boltz2/config.json": {
+    "sha256": "8e2a5b8d42b062fc2a4d43ac7c148c152a1a3351e737617a493ee88d617c8adc",
+    "size": 341,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/001-mohamed-her2-baseline/out/design/config.json": {
+    "sha256": "d210664688bcdf680509aa9582eecc79a3cb614bd6b54b72d5f030551c054a2f",
+    "size": 341,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/001-mohamed-her2-baseline/out/prepared/holo/template.cif": {
+    "sha256": "a234bcb48e5dbfb9fe4332f3893ba7a73e00e2e402abc16eb9deb7dd73817495",
+    "size": 186253,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/001-mohamed-her2-baseline/out/scored-boltz2/refold_metrics.csv": {
+    "sha256": "020fc5728948b8c1123331cfa39028efe3a80a01fe75da31651e6ab9d1008fde",
+    "size": 1901,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/003-mohamed-japanfold-abag-control/request.json": {
+    "sha256": "5f187873a723727711d781c33eb3a101d8e07548e14e57fc224128135b3ed0b1",
+    "size": 1756,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/004-mohamed-her2-novel-n40/out/boltz2/config.json": {
+    "sha256": "8e2a5b8d42b062fc2a4d43ac7c148c152a1a3351e737617a493ee88d617c8adc",
+    "size": 341,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/004-mohamed-her2-novel-n40/out/design/config.json": {
+    "sha256": "ae7b6f6f4221fac3b39221bc10165f06e27d66f9e8318a82f6e280e413fe1fd2",
+    "size": 342,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/004-mohamed-her2-novel-n40/out/prepared/holo/template.cif": {
+    "sha256": "719541a9bd7fb1cd77aaa1387873142f3376075cdff71e007afe7a66e594efff",
+    "size": 186349,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/004-mohamed-her2-novel-n40/out/scored-boltz2/refold_metrics.csv": {
+    "sha256": "0ffd00b5dd5a9817a17a1d766ce260abf6f17c2add5035418174b57fb408392d",
+    "size": 8418,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/005-mohamed-anchored-n40/out/boltz2/config.json": {
+    "sha256": "8e2a5b8d42b062fc2a4d43ac7c148c152a1a3351e737617a493ee88d617c8adc",
+    "size": 341,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/005-mohamed-anchored-n40/out/design/config.json": {
+    "sha256": "ae7b6f6f4221fac3b39221bc10165f06e27d66f9e8318a82f6e280e413fe1fd2",
+    "size": 342,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/005-mohamed-anchored-n40/out/prepared/holo/template.cif": {
+    "sha256": "74d1eac1574bf6116173b86fb5c28ee594927e4266e31da341205363c8c77b2c",
+    "size": 189486,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/005-mohamed-anchored-n40/out/scored-boltz2/refold_metrics.csv": {
+    "sha256": "da4c3681ab1872ee982b7a9654a25c367eaa914cea5c9841476aedd1dcbb7e6d",
+    "size": 8511,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/manifest.csv": {
+    "sha256": "e88c3fc6d288c409914e0e14f74c1464095552347412b3096a58f6558f26dad3",
+    "size": 2343,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_001/seed_42/anas_001_seed_42_sample_1_model.cif": {
+    "sha256": "b849aed91e74b819b0c050e35edbc4ceb419c947b1768d64be396c1c6ad0fc16",
+    "size": 217848,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_001/seed_42/anas_001_seed_42_sample_1_scores.json": {
+    "sha256": "9fd77011ea8e656b67acf10cc85887b0d755ba819be585293c533e39de83ea5c",
+    "size": 611,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_002/seed_42/anas_002_seed_42_sample_1_model.cif": {
+    "sha256": "ab47ab23f65b7207c5be9d343845a2474e9cbc352039b03d01b0d1259eca0582",
+    "size": 218449,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_002/seed_42/anas_002_seed_42_sample_1_scores.json": {
+    "sha256": "4094192c5ca18b9e601c0105ac5e95fbedb310ef3222abab605077b421cdfb6b",
+    "size": 609,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_003/seed_42/anas_003_seed_42_sample_1_model.cif": {
+    "sha256": "bf344aca8b8abb50e07c1872c7f16f2cd62ce018e6f1ee995ceff5b02f7b9532",
+    "size": 218236,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_003/seed_42/anas_003_seed_42_sample_1_scores.json": {
+    "sha256": "30314c43b3ec13ded5723cbf5ee1d28f3c5a21e328ddab5466c419c96086957b",
+    "size": 609,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_004/seed_42/anas_004_seed_42_sample_1_model.cif": {
+    "sha256": "7e425e1f57bdf69ba49374c930576c37f69092837005e9ff3050917d9018a974",
+    "size": 218910,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_004/seed_42/anas_004_seed_42_sample_1_scores.json": {
+    "sha256": "6edf57350cea863c814c2d6fdfa62a3ae8e6d9a49c25b7730eae4a8c8766e841",
+    "size": 611,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_005/seed_42/anas_005_seed_42_sample_1_model.cif": {
+    "sha256": "97f5204db2e0f2815c2513f3fc1911bf074c494d50439bfccad8b7a5930be036",
+    "size": 218457,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_005/seed_42/anas_005_seed_42_sample_1_scores.json": {
+    "sha256": "72d7ba74ed5945e098013d7c933bb79fe885d22676638e5e01d7aadcfae402bd",
+    "size": 612,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_006/seed_42/anas_006_seed_42_sample_1_model.cif": {
+    "sha256": "34570e3d58087a7c73090336be7f62125583afd5b6d04ceb39bb299f4642e6fd",
+    "size": 218760,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_006/seed_42/anas_006_seed_42_sample_1_scores.json": {
+    "sha256": "1f547719d897adc0afc3cd14f6ecb24c16a27f2098c724d451dd2cd3e9e94592",
+    "size": 609,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_007/seed_42/anas_007_seed_42_sample_1_model.cif": {
+    "sha256": "c82f7d99429a08f58074d80c3ae942a09cc82bed06efab41f051e1241382473d",
+    "size": 219303,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_007/seed_42/anas_007_seed_42_sample_1_scores.json": {
+    "sha256": "f7c27a1c0ecaca81121411b217fba773af785bf1aa60507c9b518efc0e0172f6",
+    "size": 609,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_008/seed_42/anas_008_seed_42_sample_1_model.cif": {
+    "sha256": "38ff0c1b843756dce94aaa29fa869af2598d34280590f6c5349a3af687c45e34",
+    "size": 218542,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_008/seed_42/anas_008_seed_42_sample_1_scores.json": {
+    "sha256": "52c3894a977e1850c0e41c9b90ae663ff85bcd45b964e0d02f1a347804d79e62",
+    "size": 610,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_009/seed_42/anas_009_seed_42_sample_1_model.cif": {
+    "sha256": "97c0b96b5e319276d90249d86fe7c888a8b25f72fca0bc15030f0f9294c29ca2",
+    "size": 218407,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_009/seed_42/anas_009_seed_42_sample_1_scores.json": {
+    "sha256": "be335ba6c38aabf0eea3ff87cd169d0bbff1c50c05da069d46d0f314462fbc79",
+    "size": 611,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_010/seed_42/anas_010_seed_42_sample_1_model.cif": {
+    "sha256": "95183b533722863cc099e869436227fcce8699e98c22b75fd6e7bfdd8c2b4cdb",
+    "size": 217398,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_010/seed_42/anas_010_seed_42_sample_1_scores.json": {
+    "sha256": "b938e76123f6d90a441563c25ebf41bb1bf06eb7a09e216af02894434d5787fd",
+    "size": 612,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_011/seed_42/anas_011_seed_42_sample_1_model.cif": {
+    "sha256": "62323d0dd0945b4b4e8de94385b2dc1534753aac6283fd5a8e3509d2fb1f7cee",
+    "size": 218430,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_011/seed_42/anas_011_seed_42_sample_1_scores.json": {
+    "sha256": "a56992acfcd903598422564a853d5f709935edef2603a9b53ef231a0da9e263c",
+    "size": 612,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_012/seed_42/anas_012_seed_42_sample_1_model.cif": {
+    "sha256": "70531d1bb4ffa082bcd17e08cff68804df3344299fa043962e78df05bfd42a4e",
+    "size": 218188,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_012/seed_42/anas_012_seed_42_sample_1_scores.json": {
+    "sha256": "5b7e0ec222db439b319262e6e9d1c6e50cc022860078616180fb2d46a915d760",
+    "size": 611,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_013/seed_42/anas_013_seed_42_sample_1_model.cif": {
+    "sha256": "6e9ce0332088305f25e9af0568096e9e6b92c6e7cb427c530a7d6e8943c092f3",
+    "size": 218797,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_013/seed_42/anas_013_seed_42_sample_1_scores.json": {
+    "sha256": "f8afd353cb7740910f96a939a69e531c0bdf2aa053b0471a1b22f9dceabcde9c",
+    "size": 612,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_014/seed_42/anas_014_seed_42_sample_1_model.cif": {
+    "sha256": "6b839afc0981099896e3ab58ec34be631c05ebb07f7bba0dc1525c899876f128",
+    "size": 218589,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_014/seed_42/anas_014_seed_42_sample_1_scores.json": {
+    "sha256": "6575645b21f581df2b4cf030c61ee1a119e257442febe1f97cc00893d3b75143",
+    "size": 609,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_015/seed_42/anas_015_seed_42_sample_1_model.cif": {
+    "sha256": "1bf3e18a6132e8aa5afa99809044871660ef283be4d34ce188b463296715a8eb",
+    "size": 218613,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_015/seed_42/anas_015_seed_42_sample_1_scores.json": {
+    "sha256": "638704770261d1a0b8ceb7d8cc7376f70c9c641caac3e70ea6bbc9a04997a400",
+    "size": 607,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_016/seed_42/anas_016_seed_42_sample_1_model.cif": {
+    "sha256": "8c9d2c03bd419c4a4ed4e5a1891284116f85825f4427db96f224fc12d27370e6",
+    "size": 218209,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_016/seed_42/anas_016_seed_42_sample_1_scores.json": {
+    "sha256": "fc18e26595ac5f6855be73b55867e185b34fb54b9e565d46628bb67fc3e147b2",
+    "size": 607,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_017/seed_42/anas_017_seed_42_sample_1_model.cif": {
+    "sha256": "3dc31b3443f13d648c8c6240b7d9e67c2927bb4c1cdc5551e3a865722352efc0",
+    "size": 218349,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_017/seed_42/anas_017_seed_42_sample_1_scores.json": {
+    "sha256": "c8212622fe8aebbc3940479aa7e98e972ab4a36ee791e8d3e86460c9a32f3035",
+    "size": 610,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_018/seed_42/anas_018_seed_42_sample_1_model.cif": {
+    "sha256": "c0bac166147db04326ef48525028065dfe521a71db38b9832aafff9153832b2d",
+    "size": 218964,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_018/seed_42/anas_018_seed_42_sample_1_scores.json": {
+    "sha256": "4484d82e735da009ae6db16fc19cbc2de65795519b45c518e20883c76c0328b1",
+    "size": 609,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_019/seed_42/anas_019_seed_42_sample_1_model.cif": {
+    "sha256": "658bed55dcfcf96d26e7f8c18ec0f27c97b6eeb1106c07282c0b9123e8c6ccbd",
+    "size": 218117,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_019/seed_42/anas_019_seed_42_sample_1_scores.json": {
+    "sha256": "eb26b5d97497a77b66573df4a8069cee6b39c67c04681984064e102924426231",
+    "size": 608,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_020/seed_42/anas_020_seed_42_sample_1_model.cif": {
+    "sha256": "4e93783bc36a3b7728b77d53958a802b8dbb989a27c7a638a8ac809edff539f0",
+    "size": 219931,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_020/seed_42/anas_020_seed_42_sample_1_scores.json": {
+    "sha256": "06f8a6483f5e699db51b552f4d56bac7bdf599956ac303304346923c6d2e0047",
+    "size": 611,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_021/seed_42/anas_021_seed_42_sample_1_model.cif": {
+    "sha256": "5b0d695d0bf06f2b5c5b0aa95d27c9660d6201fbfb8a928a44da85a38140ea9c",
+    "size": 219242,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_021/seed_42/anas_021_seed_42_sample_1_scores.json": {
+    "sha256": "bc2939e3ce020d945af527a1a6318d05a6446e6d75881d69958723754954ad02",
+    "size": 609,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_022/seed_42/anas_022_seed_42_sample_1_model.cif": {
+    "sha256": "f8060ba44acc358d783c311e5caa684b3036aaf38db55560523261f2be017aaa",
+    "size": 219067,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_022/seed_42/anas_022_seed_42_sample_1_scores.json": {
+    "sha256": "b6e168e0dfbcfc8451ec1f9c2a4f84ab035df11caece117f13a79ac20e2fe114",
+    "size": 610,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_023/seed_42/anas_023_seed_42_sample_1_model.cif": {
+    "sha256": "236bb3e0c4f78e0c83792b37008a51763d3d2b44468d3e65ff60a991d7bbcf8e",
+    "size": 218916,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_023/seed_42/anas_023_seed_42_sample_1_scores.json": {
+    "sha256": "1774ede15994d6eaa205f8abecaba53b21a3ca5df7cf49cbc06eb803ec5699d5",
+    "size": 609,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_024/seed_42/anas_024_seed_42_sample_1_model.cif": {
+    "sha256": "4aec5815beb6b8f2e9ee4dd7c569ebc53557f999fa8fe7909c34c6e79afb61d1",
+    "size": 218862,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_024/seed_42/anas_024_seed_42_sample_1_scores.json": {
+    "sha256": "445fcd27232e11812a0453d648114a702d4f0b02227c1b4ccd2a31d11bf0492a",
+    "size": 609,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_025/seed_42/anas_025_seed_42_sample_1_model.cif": {
+    "sha256": "87a48b3bb727fdad4db11be48f29429ba3e748e851059924ec7c3c1fc8c8c96d",
+    "size": 218261,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_025/seed_42/anas_025_seed_42_sample_1_scores.json": {
+    "sha256": "2133b7999f7bc769e00f0c9b8f94710508590791a3171880802217cc81efeb14",
+    "size": 609,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_026/seed_42/anas_026_seed_42_sample_1_model.cif": {
+    "sha256": "9d30c5dcb99b7b9825e13c3f1baae7b95aee389b323fadae6645b197e2aa4c65",
+    "size": 218492,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_026/seed_42/anas_026_seed_42_sample_1_scores.json": {
+    "sha256": "efbed69fec518252d4837b7d17f5dabcb48d925fb7a8d8fa122c098586ad45c1",
+    "size": 609,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_027/seed_42/anas_027_seed_42_sample_1_model.cif": {
+    "sha256": "b09223cfb1ed5834a5df619960bb9002e46c7f97556e6238e95ce4389abfbc53",
+    "size": 218409,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_027/seed_42/anas_027_seed_42_sample_1_scores.json": {
+    "sha256": "ea6335a54bd23e3c6fef0f83c9d1655f4d4a83132ef351006611ad9fd68bb468",
+    "size": 609,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_028/seed_42/anas_028_seed_42_sample_1_model.cif": {
+    "sha256": "0d2e3ac985a4c5469c62645619b43d034c45ea6ba1d58671c3d2a3c05f903c8a",
+    "size": 218025,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_028/seed_42/anas_028_seed_42_sample_1_scores.json": {
+    "sha256": "64141f3e0cf8febcb1388885adea2cc7c898b5f32245a2a9822afb577a8d828b",
+    "size": 611,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_029/seed_42/anas_029_seed_42_sample_1_model.cif": {
+    "sha256": "dce70fc744077a3cf42be1adb7e3de2d9a0b08600556b5bd99afe22f8b4730d8",
+    "size": 218454,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_029/seed_42/anas_029_seed_42_sample_1_scores.json": {
+    "sha256": "e4199daf3d0161a9a9390d65d58d6345b459a38651397a26288c72133d523e85",
+    "size": 611,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_030/seed_42/anas_030_seed_42_sample_1_model.cif": {
+    "sha256": "6908711dc06b49e9cd19fbc1b35b050248a784907b0bdf453543fe5d5932a7a0",
+    "size": 218306,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_030/seed_42/anas_030_seed_42_sample_1_scores.json": {
+    "sha256": "075ebf2beebb3287f0c9d9588be751a8f126422097b0ab57c8b2bd6aea4ef349",
+    "size": 609,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_031/seed_42/anas_031_seed_42_sample_1_model.cif": {
+    "sha256": "bfbbca96d78d4235ecc1bde466e979c5ef5c3dcb26955525508fbf61c8c96aac",
+    "size": 218957,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_031/seed_42/anas_031_seed_42_sample_1_scores.json": {
+    "sha256": "a970891fb3ee0e516cc66d003598348ab8c2d790e485126b9168adc2f9649146",
+    "size": 610,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_032/seed_42/anas_032_seed_42_sample_1_model.cif": {
+    "sha256": "681d860a529d145a74ba3b3963b689ba12d9170601b7398760ef088b02049bdb",
+    "size": 218719,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_032/seed_42/anas_032_seed_42_sample_1_scores.json": {
+    "sha256": "360bc770a3ef5c9ab66195b48d347b1ec7cd726d0f138249eeb54b54095cd6a7",
+    "size": 610,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_033/seed_42/anas_033_seed_42_sample_1_model.cif": {
+    "sha256": "e7dc12133907b525c162be05c18a7dd4f9543f88d3201bcecf4e57b14c3cbfd5",
+    "size": 218893,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_033/seed_42/anas_033_seed_42_sample_1_scores.json": {
+    "sha256": "dced0938371df3b006c940d7048fb5ee87e273c1016ff8b690ed4cb28ef573fd",
+    "size": 608,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_034/seed_42/anas_034_seed_42_sample_1_model.cif": {
+    "sha256": "13c81b60d9c2c6698344e9939d7e839f8709a45979e60d837d9d38ecb3cf4543",
+    "size": 219115,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_034/seed_42/anas_034_seed_42_sample_1_scores.json": {
+    "sha256": "9babe2fe2a9b7e8996e908eb02d0c56efefd6b40e365f1902727f32dae09b020",
+    "size": 611,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_035/seed_42/anas_035_seed_42_sample_1_model.cif": {
+    "sha256": "e89a96b5b4d80e5d911c38abf77ff9bbc0016570e60c16dc4bd05e6fd35ed258",
+    "size": 218747,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_035/seed_42/anas_035_seed_42_sample_1_scores.json": {
+    "sha256": "0509e3b29ef4a2ae8ced565b5c4f226626205e89a036e814188016f509dcd5d6",
+    "size": 611,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_036/seed_42/anas_036_seed_42_sample_1_model.cif": {
+    "sha256": "469fb84edaff136375bdbeecef0a664530b487c39d8b9411a096a25db4f1cd09",
+    "size": 218756,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_036/seed_42/anas_036_seed_42_sample_1_scores.json": {
+    "sha256": "0e312a5fcfaa95c9e0c76505fe7bcb68054a783102f150fa8e6fa908b7dabfd8",
+    "size": 609,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_037/seed_42/anas_037_seed_42_sample_1_model.cif": {
+    "sha256": "aae53b25284fb5d22abe3865dd6f6de3bc9d1ae7a650b6c19e7f98310a5ba5d6",
+    "size": 218438,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_037/seed_42/anas_037_seed_42_sample_1_scores.json": {
+    "sha256": "67f64506db2ffa5e89b13d6c76ba55616571c98f910d921f52f0f2676ef892a6",
+    "size": 611,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_038/seed_42/anas_038_seed_42_sample_1_model.cif": {
+    "sha256": "1840d44a68befff4182cc08e2102f4789c34abb36469f76735afccb7f0d57042",
+    "size": 218124,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_038/seed_42/anas_038_seed_42_sample_1_scores.json": {
+    "sha256": "a7a3d275d867a85d835bbb62498b1272d07ecf0f12c1f4178ae3f0e1ccfb2e20",
+    "size": 608,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_039/seed_42/anas_039_seed_42_sample_1_model.cif": {
+    "sha256": "ca9e2d3ed1f6da2b33edbc66b3070f677f1cc7ba666e1f1fe554c58d743840af",
+    "size": 218088,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_039/seed_42/anas_039_seed_42_sample_1_scores.json": {
+    "sha256": "4f44068d7ce9b9f5cd9ca072dce3b3087ed2669caac29a44f69f9a74f759ab99",
+    "size": 608,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_040/seed_42/anas_040_seed_42_sample_1_model.cif": {
+    "sha256": "eb5ddc63edbef1d15eb526cd3b6aa76ec62b28c893663b55f949964169375795",
+    "size": 218943,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/anas_040/seed_42/anas_040_seed_42_sample_1_scores.json": {
+    "sha256": "f3a05098e4b9ccac7e24471775e0c72c639131c80a017bbb25aca0f665ec9e1f",
+    "size": 606,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/config.json": {
+    "sha256": "8e2a5b8d42b062fc2a4d43ac7c148c152a1a3351e737617a493ee88d617c8adc",
+    "size": 341,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/r004_cdrh3_3/seed_42/r004_cdrh3_3_seed_42_sample_1_model.cif": {
+    "sha256": "9bea0ee7a556206405eabc737dff56ef1194969eb3a1e177f508132350761f9f",
+    "size": 218644,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/r004_cdrh3_3/seed_42/r004_cdrh3_3_seed_42_sample_1_scores.json": {
+    "sha256": "9ef0563d157a2b27948f457f04cf854b8fde86dca02f4b84112f6035c6fecaf3",
+    "size": 609,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/r004_cdrh3_31/seed_42/r004_cdrh3_31_seed_42_sample_1_model.cif": {
+    "sha256": "cd575d6d6c169d230151e983c63b115ff4349a4dec4de6ad0cb211e85ec35fdd",
+    "size": 219181,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/r004_cdrh3_31/seed_42/r004_cdrh3_31_seed_42_sample_1_scores.json": {
+    "sha256": "186741a59c375a5eb4facc567f2ef87de8347d4befe69fe04eb1ccb41bdf3f5a",
+    "size": 609,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/r004_cdrh3_4/seed_42/r004_cdrh3_4_seed_42_sample_1_model.cif": {
+    "sha256": "09c1962b8891ab06e2f1c408a923c368407e87fd9bc8f5a9b074c4e8df966b1d",
+    "size": 218890,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/r004_cdrh3_4/seed_42/r004_cdrh3_4_seed_42_sample_1_scores.json": {
+    "sha256": "d0c61ff5d33cf5ecc0c465b02a2bddf3f44169bcff1c2f6627cde6971ba512ed",
+    "size": 611,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/result.json": {
+    "sha256": "b3c6bb722cbc608d814fae19306bc71e1a272db6537ec87000fd5f7b89bd0de2",
+    "size": 17325,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/trastuzumab_wt/seed_42/trastuzumab_wt_seed_42_sample_1_model.cif": {
+    "sha256": "077b15e3b30234965c3c1f8bd49899428c88aae65c15110c429431a8b45dab5e",
+    "size": 217588,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/boltz2/trastuzumab_wt/seed_42/trastuzumab_wt_seed_42_sample_1_scores.json": {
+    "sha256": "c17a46fd765eba0f4bca1688a7900af9f3a85ded49b03a9bd9e975ea88e2ce42",
+    "size": 609,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/prepared/holo/queries.json": {
+    "sha256": "48e7f85bc88744c225ac006111241fdb108ab964cbbd37766a7b8dd36213c9b4",
+    "size": 60884,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/006-anas-enumerated-top40/out/prepared/holo/template.cif": {
+    "sha256": "719541a9bd7fb1cd77aaa1387873142f3376075cdff71e007afe7a66e594efff",
+    "size": 186349,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/007-mohamed-anchored-diverse-k1/out/boltz2/config.json": {
+    "sha256": "8e2a5b8d42b062fc2a4d43ac7c148c152a1a3351e737617a493ee88d617c8adc",
+    "size": 341,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/007-mohamed-anchored-diverse-k1/out/design/config.json": {
+    "sha256": "9775e88d7cd2d7f580f0db96402c061adf32b8d0fee4ef4dba2a3cbf7f879582",
+    "size": 367,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/007-mohamed-anchored-diverse-k1/out/prepared/holo/template.cif": {
+    "sha256": "d620d82ae90ad48344d8be1a1f1a1ee8c91b5b7efd718d1e95c439e1ebe42536",
+    "size": 188849,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/007-mohamed-anchored-diverse-k1/out/scored-boltz2/refold_metrics.csv": {
+    "sha256": "6fb5de031a5e910e4e567a42f9020c921fbc3f705bc5a4e6c1e3026c44227011",
+    "size": 10145,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/008-claude-first-pass/first_pass_candidates.csv": {
+    "sha256": "31e8c432b1a6b7344145c93082c044797366a34bad3dba5e6c9c269c9b9ee624",
+    "size": 1260180,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/manifest_calibration.csv": {
+    "sha256": "0fca7e64d1f0bed3b46319137552253e9e01c74d5e7ed76dbef2db9df92520b6",
+    "size": 2459,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/manifest_candidates.csv": {
+    "sha256": "f114cba665e66e226bfba26dcae8a8e0c4f54d8fc60d07991b183bf2f3078dd1",
+    "size": 2799,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/out/boltz2-cand-s42/anas_001/seed_42/anas_001_seed_42_sample_1_model.cif": {
+    "sha256": "b849aed91e74b819b0c050e35edbc4ceb419c947b1768d64be396c1c6ad0fc16",
+    "size": 217848,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/out/boltz2-cand-s42/anas_001/seed_42/anas_001_seed_42_sample_1_scores.json": {
+    "sha256": "9fd77011ea8e656b67acf10cc85887b0d755ba819be585293c533e39de83ea5c",
+    "size": 611,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/out/boltz2-cand-s42/anas_027/seed_42/anas_027_seed_42_sample_1_model.cif": {
+    "sha256": "b09223cfb1ed5834a5df619960bb9002e46c7f97556e6238e95ce4389abfbc53",
+    "size": 218409,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/out/boltz2-cand-s42/anas_027/seed_42/anas_027_seed_42_sample_1_scores.json": {
+    "sha256": "ea6335a54bd23e3c6fef0f83c9d1655f4d4a83132ef351006611ad9fd68bb468",
+    "size": 609,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/out/boltz2-cand-s42/config.json": {
+    "sha256": "8e2a5b8d42b062fc2a4d43ac7c148c152a1a3351e737617a493ee88d617c8adc",
+    "size": 341,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/out/boltz2-cand-s42/her2_anchored_13/seed_42/her2_anchored_13_seed_42_sample_1_scores.json": {
+    "sha256": "f433bca2ba90c92e2d36b673cd87b2402b9492a10623207484eced5f0d3c5403",
+    "size": 611,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/out/boltz2-cand-s42/her2_anchored_14/seed_42/her2_anchored_14_seed_42_sample_1_scores.json": {
+    "sha256": "1793e37112c0991365a443cad2207f6a434dabd0c20bc3051dbbf398992308cf",
+    "size": 611,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/out/boltz2-cand-s42/her2_anchored_19/seed_42/her2_anchored_19_seed_42_sample_1_scores.json": {
+    "sha256": "c88551b18d8b6c256bb604de60428236013de07a428222c5bbccd000b6ffe048",
+    "size": 608,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/out/boltz2-cand-s42/her2_anchored_21/seed_42/her2_anchored_21_seed_42_sample_1_scores.json": {
+    "sha256": "1b834965a6b4381b2002a6839cdd3f325c7908e839aa7b74b6ca7ea15edfdd79",
+    "size": 612,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/out/boltz2-cand-s42/her2_anchored_25/seed_42/her2_anchored_25_seed_42_sample_1_scores.json": {
+    "sha256": "fd181d352134d280c5e4f37f463525787e9fe18dc6974dd07ea5d824d5b74964",
+    "size": 612,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/out/boltz2-cand-s42/her2_anchored_26/seed_42/her2_anchored_26_seed_42_sample_1_scores.json": {
+    "sha256": "1c79f86a89a5d3fe214b31041a635f2e88155ba430fd970df960b5a57a375c49",
+    "size": 609,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/out/boltz2-cand-s42/her2_anchored_28/seed_42/her2_anchored_28_seed_42_sample_1_scores.json": {
+    "sha256": "8c8f85f512246daceee06bdc32183b742e9dbdaeb250982c58afe753d65f84cd",
+    "size": 611,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/out/boltz2-cand-s42/her2_anchored_30/seed_42/her2_anchored_30_seed_42_sample_1_scores.json": {
+    "sha256": "0de22efbd24dd2efac48e6f136a6137e6301ea3333a50c9f0c048e756231e4dd",
+    "size": 608,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/out/boltz2-cand-s42/her2_cdrh3_10/seed_42/her2_cdrh3_10_seed_42_sample_1_scores.json": {
+    "sha256": "ee9ad9f2ea9ce3141d97ae0ff6e703c485f787412d8adb8c070333a34e649c31",
+    "size": 607,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/out/boltz2-cand-s42/her2_cdrh3_12/seed_42/her2_cdrh3_12_seed_42_sample_1_scores.json": {
+    "sha256": "7bb2d134f24d04aeed8a110b60ac03ad272106981a48d2b9ea8ae7da3a481644",
+    "size": 612,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/out/boltz2-cand-s42/her2_cdrh3_14/seed_42/her2_cdrh3_14_seed_42_sample_1_scores.json": {
+    "sha256": "fb3b8a30c262566ea73d6172f6e9812ec48690fb75c3c6cac1c6f518830c92c3",
+    "size": 607,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/out/boltz2-cand-s42/her2_cdrh3_17/seed_42/her2_cdrh3_17_seed_42_sample_1_scores.json": {
+    "sha256": "5d4c1b9cd58ea169e9e000de81206a3a66670b551ddd13977c269e98852bc8d6",
+    "size": 607,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/out/boltz2-cand-s42/her2_cdrh3_2/seed_42/her2_cdrh3_2_seed_42_sample_1_scores.json": {
+    "sha256": "f12b6f7966033be42fe27c3fe65686208f071aefd4938858fc1ff32e3db6e0ee",
+    "size": 609,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/out/boltz2-cand-s42/her2_cdrh3_21/seed_42/her2_cdrh3_21_seed_42_sample_1_scores.json": {
+    "sha256": "c034837a6f7058018f5cd66301cd4dd5cfc3b6b4fdf1f37d4a09e13a0a12e352",
+    "size": 607,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/out/boltz2-cand-s42/her2_cdrh3_26/seed_42/her2_cdrh3_26_seed_42_sample_1_scores.json": {
+    "sha256": "d0432e368a00810e91cc94f06ebba3b225dec9573f974e6d7a1289e8315935a9",
+    "size": 612,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/out/boltz2-cand-s42/her2_cdrh3_28/seed_42/her2_cdrh3_28_seed_42_sample_1_scores.json": {
+    "sha256": "53cd40866c128c0703995ebd8c73f8bd9551d654c63e84a988c88fa1d95da8e5",
+    "size": 609,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/out/boltz2-cand-s42/result.json": {
+    "sha256": "cb3cd99eaa3f6535f4595e19b7692d75ef85d3f9e96a2f7d90831ee2e1aa67ca",
+    "size": 8689,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/out/boltz2-cand-s42/trastuzumab_wt/seed_42/trastuzumab_wt_seed_42_sample_1_model.cif": {
+    "sha256": "077b15e3b30234965c3c1f8bd49899428c88aae65c15110c429431a8b45dab5e",
+    "size": 217588,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/out/boltz2-cand-s42/trastuzumab_wt/seed_42/trastuzumab_wt_seed_42_sample_1_scores.json": {
+    "sha256": "c17a46fd765eba0f4bca1688a7900af9f3a85ded49b03a9bd9e975ea88e2ce42",
+    "size": 609,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/out/prepared/holo/queries_cand42.json": {
+    "sha256": "d4f69186c183c91d3b97899c9eb810f9262f384888172d15fd19c0aa99624827",
+    "size": 26399,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/009-claude-multiseed-refold/out/prepared/holo/template.cif": {
+    "sha256": "719541a9bd7fb1cd77aaa1387873142f3376075cdff71e007afe7a66e594efff",
+    "size": 186349,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/010-claude-passers-007-005/candidates.csv": {
+    "sha256": "1ba6edd91614bb07e5b8f5bb1973393285151a58cd5c6466882e8d5530d4786b",
+    "size": 962,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/010-claude-passers-007-005/out/boltz2/config.json": {
+    "sha256": "8e2a5b8d42b062fc2a4d43ac7c148c152a1a3351e737617a493ee88d617c8adc",
+    "size": 341,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/010-claude-passers-007-005/out/boltz2/r004_cdrh3_3/seed_42/r004_cdrh3_3_seed_42_sample_1_model.cif": {
+    "sha256": "9bea0ee7a556206405eabc737dff56ef1194969eb3a1e177f508132350761f9f",
+    "size": 218644,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/010-claude-passers-007-005/out/boltz2/r004_cdrh3_3/seed_42/r004_cdrh3_3_seed_42_sample_1_scores.json": {
+    "sha256": "9ef0563d157a2b27948f457f04cf854b8fde86dca02f4b84112f6035c6fecaf3",
+    "size": 609,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/010-claude-passers-007-005/out/boltz2/r004_cdrh3_31/seed_42/r004_cdrh3_31_seed_42_sample_1_model.cif": {
+    "sha256": "cd575d6d6c169d230151e983c63b115ff4349a4dec4de6ad0cb211e85ec35fdd",
+    "size": 219181,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/010-claude-passers-007-005/out/boltz2/r004_cdrh3_31/seed_42/r004_cdrh3_31_seed_42_sample_1_scores.json": {
+    "sha256": "186741a59c375a5eb4facc567f2ef87de8347d4befe69fe04eb1ccb41bdf3f5a",
+    "size": 609,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/010-claude-passers-007-005/out/boltz2/r004_cdrh3_4/seed_42/r004_cdrh3_4_seed_42_sample_1_model.cif": {
+    "sha256": "09c1962b8891ab06e2f1c408a923c368407e87fd9bc8f5a9b074c4e8df966b1d",
+    "size": 218890,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/010-claude-passers-007-005/out/boltz2/r004_cdrh3_4/seed_42/r004_cdrh3_4_seed_42_sample_1_scores.json": {
+    "sha256": "d0c61ff5d33cf5ecc0c465b02a2bddf3f44169bcff1c2f6627cde6971ba512ed",
+    "size": 611,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/010-claude-passers-007-005/out/boltz2/r005_a00/seed_42/r005_a00_seed_42_sample_1_scores.json": {
+    "sha256": "239bc04a384afa3357820926e5ba9bfb5d4c9693bec5e58b0027290784cb6939",
+    "size": 610,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/010-claude-passers-007-005/out/boltz2/r005_a14/seed_42/r005_a14_seed_42_sample_1_scores.json": {
+    "sha256": "1793e37112c0991365a443cad2207f6a434dabd0c20bc3051dbbf398992308cf",
+    "size": 611,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/010-claude-passers-007-005/out/boltz2/r005_a22/seed_42/r005_a22_seed_42_sample_1_scores.json": {
+    "sha256": "8da2dcc688da908aa5686594c7cf8b967352005c3baa345a943dfd2c4fc9ff79",
+    "size": 612,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/010-claude-passers-007-005/out/boltz2/r005_a34/seed_42/r005_a34_seed_42_sample_1_scores.json": {
+    "sha256": "103c75368da29d55cb2ada9cf60bed93b5635acea5136d869f6069ca8b11d0ac",
+    "size": 608,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/010-claude-passers-007-005/out/boltz2/r007_a02/seed_42/r007_a02_seed_42_sample_1_scores.json": {
+    "sha256": "e40e7f0bed763651deccb734c41f6cd62256c37dddf60d6077e2a7b127b06119",
+    "size": 609,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/010-claude-passers-007-005/out/boltz2/r007_a04/seed_42/r007_a04_seed_42_sample_1_scores.json": {
+    "sha256": "7da65af646a01473a9715fa88953c9856d65e637177de42c2e273677e8e5b50e",
+    "size": 608,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/010-claude-passers-007-005/out/boltz2/r007_a05/seed_42/r007_a05_seed_42_sample_1_scores.json": {
+    "sha256": "49726d4d873b555b039b8111e0a930408925f6b6102730c27700f9a34b128b43",
+    "size": 609,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/010-claude-passers-007-005/out/boltz2/r007_a18/seed_42/r007_a18_seed_42_sample_1_scores.json": {
+    "sha256": "fd47fb1108131169e862f28563be4fce340981644065553915e66df1eb1b7931",
+    "size": 612,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/010-claude-passers-007-005/out/boltz2/r007_a23/seed_42/r007_a23_seed_42_sample_1_scores.json": {
+    "sha256": "3b2f1b905db630cd8034e33e754a2c79f1688084014ec24a01df90aa9693399d",
+    "size": 609,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/010-claude-passers-007-005/out/boltz2/r007_a25/seed_42/r007_a25_seed_42_sample_1_scores.json": {
+    "sha256": "ebba2705f97ffd409e777f2d145137ea2f676ba988709231908fcae0a5a6fe2e",
+    "size": 610,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/010-claude-passers-007-005/out/boltz2/r007_a26/seed_42/r007_a26_seed_42_sample_1_scores.json": {
+    "sha256": "ae0e1ab19e3025e3a3ed430cf8d6420cd47f25bcad58f7f4b2c3ff8ac61d04cd",
+    "size": 608,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/010-claude-passers-007-005/out/boltz2/r007_a27/seed_42/r007_a27_seed_42_sample_1_scores.json": {
+    "sha256": "8a35045fc396640f273ba625ed2706808fac4997afd48de3f90a2c3c8ff11e87",
+    "size": 611,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/010-claude-passers-007-005/out/boltz2/r007_a28/seed_42/r007_a28_seed_42_sample_1_scores.json": {
+    "sha256": "0f5adae89e60f66748e690e1fd5e953cd54fb5c063f1dd60b3aab960abf0d400",
+    "size": 609,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/010-claude-passers-007-005/out/boltz2/r007_a32/seed_42/r007_a32_seed_42_sample_1_scores.json": {
+    "sha256": "9767977a00440899a77225db34d984988fbe093ab27ac9aac37aa63381121abb",
+    "size": 610,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/010-claude-passers-007-005/out/boltz2/r007_a33/seed_42/r007_a33_seed_42_sample_1_scores.json": {
+    "sha256": "ece00144b53b1be6af78936435684d37b41d75504dc4c219760b7ec1ab9352b9",
+    "size": 610,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/010-claude-passers-007-005/out/boltz2/r007_a37/seed_42/r007_a37_seed_42_sample_1_scores.json": {
+    "sha256": "1fa21306f32ae76ac019db45c4fd0398af28595cd8f1c1d180bdf09b5b7e740e",
+    "size": 608,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/010-claude-passers-007-005/out/boltz2/result.json": {
+    "sha256": "2a8c4bd28c78fa450441f558f43861cb37c0933e77d15808f924df6d1e8e7e09",
+    "size": 8422,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/010-claude-passers-007-005/out/boltz2/trastuzumab_wt/seed_42/trastuzumab_wt_seed_42_sample_1_model.cif": {
+    "sha256": "077b15e3b30234965c3c1f8bd49899428c88aae65c15110c429431a8b45dab5e",
+    "size": 217588,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/010-claude-passers-007-005/out/boltz2/trastuzumab_wt/seed_42/trastuzumab_wt_seed_42_sample_1_scores.json": {
+    "sha256": "c17a46fd765eba0f4bca1688a7900af9f3a85ded49b03a9bd9e975ea88e2ce42",
+    "size": 609,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/010-claude-passers-007-005/out/prepared/holo/queries.json": {
+    "sha256": "c18497fd1a320e70d1fcca912893d206cc70f8f6908fc38f8215eaf7be4b76ba",
+    "size": 27692,
+    "archive": "run-inputs.tar.gz"
+  },
+  "runs/010-claude-passers-007-005/out/prepared/holo/template.cif": {
+    "sha256": "719541a9bd7fb1cd77aaa1387873142f3376075cdff71e007afe7a66e594efff",
+    "size": 186349,
+    "archive": "run-inputs.tar.gz"
+  },
+  "data/her2-trastuzumab/provided_cdrh3.npz": {
+    "sha256": "62b51f1f1ca5f7b8e7dec87309b1e4a8ab1e99bf3bf10b3a28f115e4c40538ed",
+    "size": 1406801,
+    "archive": "replay-data.tar.gz"
+  },
+  "data/her2-trastuzumab/trastuzumab_her2_spr_all_768.csv": {
+    "sha256": "4d6f53a6183f377670e9577b3233a7c4c14888965ac63824863219d13424fa9b",
+    "size": 199986,
+    "archive": "replay-data.tar.gz"
+  },
+  "data/her2-trastuzumab/tz_her2_facs_3classes_524346.csv.zip": {
+    "sha256": "85e5e56c9c34a7b206b818b90421427a8ad65d55ae821cb4ad642bb595def968",
+    "size": 6060043,
+    "archive": "replay-data.tar.gz"
+  },
+  "data/rfd4-proteina/docs/Data/12-her2/her2_fv_1n8z.cif": {
+    "sha256": "8136a9abb040fc92f993a416e9af98e618f1a9a4932eace743e6b009efcd0c5b",
+    "size": 302300,
+    "archive": "replay-data.tar.gz"
+  },
+  "data/spr-supplementary/spr_table_s1_pairwise.csv": {
+    "sha256": "6d28ccec9ed5d4f15cd88e4edd063bfcaaa1d80d48323447441ad03dd35e00f1",
+    "size": 2856,
+    "archive": "replay-data.tar.gz"
+  },
+  "data/zenodo-10831512-trastuzumab-ngs/splits/data/affinity_data/her2/her2_aff_large/processed/remove_overlap/clonotype_split/0.7_0.15_0.15/test.csv": {
+    "sha256": "b350c10c7df4eb5e1b966f76909a805fc7d8011486f1ddb5dd1d7a6e19556a06",
+    "size": 2389824,
+    "archive": "replay-data.tar.gz"
+  },
+  "data/zenodo-10831512-trastuzumab-ngs/splits/data/affinity_data/her2/her2_aff_large/processed/remove_overlap/clonotype_split/0.7_0.15_0.15/train.csv": {
+    "sha256": "b639077ff116daa8b8c3a2122b6ed9291361892469f6237963967ca0772cb262",
+    "size": 11146083,
+    "archive": "replay-data.tar.gz"
+  },
+  "data/zenodo-10831512-trastuzumab-ngs/splits/data/affinity_data/her2/her2_aff_large/processed/remove_overlap/clonotype_split/0.7_0.15_0.15/val.csv": {
+    "sha256": "ea5e2e0908f018f579e476cef4452f9de11ba9144513bffa783588d49123f5d1",
+    "size": 2386496,
+    "archive": "replay-data.tar.gz"
+  },
+  "data/zenodo-10831512-trastuzumab-ngs/splits/data/affinity_data/her2/her2_aff_large/processed/remove_overlap/random_split/0.7_0.15_0.15/test.csv": {
+    "sha256": "8c78b21ede36e6f0c88a7b44e3668ea9cab8b79ffcadbd6d0eaa02b75766d8ec",
+    "size": 1523196,
+    "archive": "replay-data.tar.gz"
+  },
+  "data/zenodo-10831512-trastuzumab-ngs/splits/data/affinity_data/her2/her2_aff_large/processed/remove_overlap/random_split/0.7_0.15_0.15/train.csv": {
+    "sha256": "e7efdd8f2608d777ff0c730966b1792496734ac82e871d5d0a9ae95787cf7ff7",
+    "size": 7108218,
+    "archive": "replay-data.tar.gz"
+  },
+  "data/zenodo-10831512-trastuzumab-ngs/splits/data/affinity_data/her2/her2_aff_large/processed/remove_overlap/random_split/0.7_0.15_0.15/val.csv": {
+    "sha256": "1db964bf7cd37da7d2009f2ecf20bf6cd1e095fbd81247e87545f809605c7366",
+    "size": 1523138,
+    "archive": "replay-data.tar.gz"
+  },
+  "data/zenodo-18390239-ab-ag-complexes/iptm_confidence_scores.zip": {
+    "sha256": "643cead16b0daf499600e01e52713078497c5be2c4f20c83ab68d83aec2cc15a",
+    "size": 150793,
+    "archive": "replay-data.tar.gz"
+  },
+  "people/anas/facs_model.joblib": {
+    "sha256": "ab1f714ca3e071976083c03bc4a81f64571b236d7f4f521f2b50e8ef6dd91da7",
+    "size": 4997847,
+    "archive": "replay-data.tar.gz"
+  },
+  "people/anas/facs_model.py": {
+    "sha256": "1e88ee9e816c0e99fa5ee2c7c5a5ad4af944e6966c702d87e6022d2e53905084",
+    "size": 7382,
+    "archive": "replay-data.tar.gz"
+  },
+  "scripts/contacts.py": {
+    "sha256": "7ef30e20d0380c79427a717cb6ee9d48322decfaa825af9ec27ca546fd272ff2",
+    "size": 6228,
+    "archive": "replay-data.tar.gz"
+  },
+  "scripts/novelty.py": {
+    "sha256": "127c2ee7a8245660172792325b7267bccb4af8796ff606418d24d2abb20c508c",
+    "size": 7120,
+    "archive": "replay-data.tar.gz"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "searches": 3,
+  "records_returned": 60,
+  "billed_credits": 15.0,
+  "usd_at_0_01_per_credit": 0.15,
+  "claims": [
+    {
+      "amassId": "AMBC_7RZqsUDgiNKqWnImKrx9KnLjnyo",
+      "doi": "10.1101/2025.11.20.689494",
+      "interpretation": "Published BoltzGen antibody generation can preserve known scaffolds; de novo in the paper is not competition eligibility."
+    },
+    {
+      "amassId": "AMBC_Lz5g8lDFUMBXhqq8lelbAEJfmVH",
+      "doi": "10.1038/s41586-025-09721-5",
+      "interpretation": "Epitope-specific antibody design exists experimentally; affinity maturation and screening were part of the evidence."
+    },
+    {
+      "amassId": "AMBC_7JQnNNTyfm9h6mBu1BVMLkjM0Ix",
+      "doi": "10.1080/19420862.2026.2634216",
+      "interpretation": "Held-out thermostability prediction was limited; require direct Tm rather than interpreting chemical motif changes as thermal improvement."
+    }
+  ],
+  "retrieval_scope": "Search-returned abstracts, not full-text review. BoltzGen PMC paper and RFdiffusion primary abstract checked separately; official BoltzGen scaffold example inspected via GitHub."
+}

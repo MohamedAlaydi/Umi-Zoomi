@@ -1,0 +1,743 @@
+[
+  {
+    "status": "fulfilled",
+    "value": {
+      "query": "rfd4-variable-sequence-k1__her2_variable_sequence_0_generated",
+      "sequence_query": {
+        "query": {
+          "type": "terminal",
+          "service": "sequence",
+          "parameters": {
+            "value": "DVQLVESGGGLVQPGGSLRLSCTSSGRAFDGYTMGWYRQAPGRERELVALITRSGDTYYPDSVRGRFTISRDNAKSTVYLQMNSLRLEDTAVYYCAAFDYKQLLKSPVDSRDSTIYNPAEYWGQGTQVTVS",
+            "sequence_type": "protein",
+            "identity_cutoff": 0.7,
+            "evalue_cutoff": 1
+          }
+        },
+        "digest": "2052c241ff96"
+      },
+      "result": {
+        "total_count": 8,
+        "returned": 5,
+        "result_type": "polymer_entity",
+        "fetch_with": "rcsb_get_polymer_entities",
+        "offset": 0,
+        "has_more": true,
+        "next_offset": 5,
+        "hits": [
+          {
+            "id": "8X7N_2",
+            "score": 1
+          },
+          {
+            "id": "8DTN_1",
+            "score": 0.9
+          },
+          {
+            "id": "7TJC_1",
+            "score": 0.6
+          },
+          {
+            "id": "8XLD_2",
+            "score": 0.6
+          },
+          {
+            "id": "6H71_2",
+            "score": 0.3
+          }
+        ],
+        "editor": {
+          "url": "https://search.rcsb.org/query-editor.html",
+          "params": {
+            "json": {
+              "query": {
+                "type": "terminal",
+                "service": "sequence",
+                "parameters": {
+                  "value": "DVQLVESGGGLVQPGGSLRLSCTSSGRAFDGYTMGWYRQAPGRERELVALITRSGDTYYPDSVRGRFTISRDNAKSTVYLQMNSLRLEDTAVYYCAAFDYKQLLKSPVDSRDSTIYNPAEYWGQGTQVTVS",
+                  "sequence_type": "protein",
+                  "identity_cutoff": 0.7,
+                  "evalue_cutoff": 1
+                }
+              },
+              "return_type": "polymer_entity",
+              "request_options": {
+                "results_content_type": [
+                  "experimental"
+                ],
+                "sort": [
+                  {
+                    "sort_by": "score",
+                    "direction": "desc"
+                  }
+                ],
+                "paginate": {
+                  "start": 0,
+                  "rows": 5
+                },
+                "scoring_strategy": "sequence"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "query": "rfd4-variable-sequence-k1__her2_variable_sequence_1_generated",
+      "sequence_query": {
+        "query": {
+          "type": "terminal",
+          "service": "sequence",
+          "parameters": {
+            "value": "MITLVESGGGLVQPGGSLRLTCAASGNTFSAYDMRWYRQAAGKQRELVSIISSGGSTTWAPDSVKGRFTISRDDAKSTVYLQMNSLKAEDTAIYYCYTRTGAKIDSHSSYPGGISYRYWGQGTQVTVL",
+            "sequence_type": "protein",
+            "identity_cutoff": 0.7,
+            "evalue_cutoff": 1
+          }
+        },
+        "digest": "67e8c6678c54"
+      },
+      "result": {
+        "total_count": 1,
+        "returned": 1,
+        "result_type": "polymer_entity",
+        "fetch_with": "rcsb_get_polymer_entities",
+        "offset": 0,
+        "has_more": false,
+        "next_offset": null,
+        "hits": [
+          {
+            "id": "7D4B_2",
+            "score": 1
+          }
+        ],
+        "editor": {
+          "url": "https://search.rcsb.org/query-editor.html",
+          "params": {
+            "json": {
+              "query": {
+                "type": "terminal",
+                "service": "sequence",
+                "parameters": {
+                  "value": "MITLVESGGGLVQPGGSLRLTCAASGNTFSAYDMRWYRQAAGKQRELVSIISSGGSTTWAPDSVKGRFTISRDDAKSTVYLQMNSLKAEDTAIYYCYTRTGAKIDSHSSYPGGISYRYWGQGTQVTVL",
+                  "sequence_type": "protein",
+                  "identity_cutoff": 0.7,
+                  "evalue_cutoff": 1
+                }
+              },
+              "return_type": "polymer_entity",
+              "request_options": {
+                "results_content_type": [
+                  "experimental"
+                ],
+                "sort": [
+                  {
+                    "sort_by": "score",
+                    "direction": "desc"
+                  }
+                ],
+                "paginate": {
+                  "start": 0,
+                  "rows": 5
+                },
+                "scoring_strategy": "sequence"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "query": "rfd4-variable-sequence-k1__her2_variable_sequence_11_generated",
+      "sequence_query": {
+        "query": {
+          "type": "terminal",
+          "service": "sequence",
+          "parameters": {
+            "value": "QVQLVESGGGLVQPGGSLRLSCAASGGAFSNYYIGWYRQAPGKERELVASINGSGSHTWSPDSVKGRFTISRDNARNMVYLQMNSLRPEDTANYYCAKLYSWAYNLDDKGNWIHSYSDDYVWGQGTQVTVS",
+            "sequence_type": "protein",
+            "identity_cutoff": 0.7,
+            "evalue_cutoff": 1
+          }
+        },
+        "digest": "fe5949af5310"
+      },
+      "result": {
+        "total_count": 11,
+        "returned": 5,
+        "result_type": "polymer_entity",
+        "fetch_with": "rcsb_get_polymer_entities",
+        "offset": 0,
+        "has_more": true,
+        "next_offset": 5,
+        "hits": [
+          {
+            "id": "5TOJ_2",
+            "score": 1
+          },
+          {
+            "id": "5TP3_1",
+            "score": 1
+          },
+          {
+            "id": "9QJP_4",
+            "score": 1
+          },
+          {
+            "id": "9TNS_4",
+            "score": 1
+          },
+          {
+            "id": "9VUD_1",
+            "score": 0.865
+          }
+        ],
+        "editor": {
+          "url": "https://search.rcsb.org/query-editor.html",
+          "params": {
+            "json": {
+              "query": {
+                "type": "terminal",
+                "service": "sequence",
+                "parameters": {
+                  "value": "QVQLVESGGGLVQPGGSLRLSCAASGGAFSNYYIGWYRQAPGKERELVASINGSGSHTWSPDSVKGRFTISRDNARNMVYLQMNSLRPEDTANYYCAKLYSWAYNLDDKGNWIHSYSDDYVWGQGTQVTVS",
+                  "sequence_type": "protein",
+                  "identity_cutoff": 0.7,
+                  "evalue_cutoff": 1
+                }
+              },
+              "return_type": "polymer_entity",
+              "request_options": {
+                "results_content_type": [
+                  "experimental"
+                ],
+                "sort": [
+                  {
+                    "sort_by": "score",
+                    "direction": "desc"
+                  }
+                ],
+                "paginate": {
+                  "start": 0,
+                  "rows": 5
+                },
+                "scoring_strategy": "sequence"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "query": "rfd4-variable-sequence-k1__her2_variable_sequence_12_generated",
+      "sequence_query": {
+        "query": {
+          "type": "terminal",
+          "service": "sequence",
+          "parameters": {
+            "value": "EVQLQESGGGLVQPGGSLRLSCASSGQSFSDYAMGWFRQAPGQKRTLVAAITPAGKVYFPDSVRGRFTISRDDAASSVFLQMNSLKPEDTAVYFCAATKRLNVSAWKSPVEWSHWGQGTQVTVS",
+            "sequence_type": "protein",
+            "identity_cutoff": 0.7,
+            "evalue_cutoff": 1
+          }
+        },
+        "digest": "b9b61f8f1dff"
+      },
+      "result": {
+        "total_count": 0,
+        "returned": 0,
+        "result_type": "polymer_entity",
+        "fetch_with": "rcsb_get_polymer_entities",
+        "offset": 0,
+        "has_more": false,
+        "next_offset": null,
+        "hits": [],
+        "editor": {
+          "url": "https://search.rcsb.org/query-editor.html",
+          "params": {
+            "json": {
+              "query": {
+                "type": "terminal",
+                "service": "sequence",
+                "parameters": {
+                  "value": "EVQLQESGGGLVQPGGSLRLSCASSGQSFSDYAMGWFRQAPGQKRTLVAAITPAGKVYFPDSVRGRFTISRDDAASSVFLQMNSLKPEDTAVYFCAATKRLNVSAWKSPVEWSHWGQGTQVTVS",
+                  "sequence_type": "protein",
+                  "identity_cutoff": 0.7,
+                  "evalue_cutoff": 1
+                }
+              },
+              "return_type": "polymer_entity",
+              "request_options": {
+                "results_content_type": [
+                  "experimental"
+                ],
+                "sort": [
+                  {
+                    "sort_by": "score",
+                    "direction": "desc"
+                  }
+                ],
+                "paginate": {
+                  "start": 0,
+                  "rows": 5
+                },
+                "scoring_strategy": "sequence"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "query": "rfd4-variable-sequence-k1__her2_variable_sequence_13_generated",
+      "sequence_query": {
+        "query": {
+          "type": "terminal",
+          "service": "sequence",
+          "parameters": {
+            "value": "EVQLQESGGGVVQPGGSLRLSCAASGHTFTRFAMGWFRQHPGKERELVAYIDTEGHTWFPSSVKGRFTISRDNAKNNVFLQMNSLRPEDTAVYYCATGKWHESRRVFWINRMSTTDDMDYWGQGTQVTVS",
+            "sequence_type": "protein",
+            "identity_cutoff": 0.7,
+            "evalue_cutoff": 1
+          }
+        },
+        "digest": "f5144b21fe19"
+      },
+      "result": {
+        "total_count": 0,
+        "returned": 0,
+        "result_type": "polymer_entity",
+        "fetch_with": "rcsb_get_polymer_entities",
+        "offset": 0,
+        "has_more": false,
+        "next_offset": null,
+        "hits": [],
+        "editor": {
+          "url": "https://search.rcsb.org/query-editor.html",
+          "params": {
+            "json": {
+              "query": {
+                "type": "terminal",
+                "service": "sequence",
+                "parameters": {
+                  "value": "EVQLQESGGGVVQPGGSLRLSCAASGHTFTRFAMGWFRQHPGKERELVAYIDTEGHTWFPSSVKGRFTISRDNAKNNVFLQMNSLRPEDTAVYYCATGKWHESRRVFWINRMSTTDDMDYWGQGTQVTVS",
+                  "sequence_type": "protein",
+                  "identity_cutoff": 0.7,
+                  "evalue_cutoff": 1
+                }
+              },
+              "return_type": "polymer_entity",
+              "request_options": {
+                "results_content_type": [
+                  "experimental"
+                ],
+                "sort": [
+                  {
+                    "sort_by": "score",
+                    "direction": "desc"
+                  }
+                ],
+                "paginate": {
+                  "start": 0,
+                  "rows": 5
+                },
+                "scoring_strategy": "sequence"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "query": "rfd4-variable-sequence-k1__her2_variable_sequence_2_generated",
+      "sequence_query": {
+        "query": {
+          "type": "terminal",
+          "service": "sequence",
+          "parameters": {
+            "value": "QVQLQESGGGLVRPGGSLRLTCAASGDTFNKYAMGWFRQAPGKSLELVASISSSARSTYAPDTVKGRFTISRDNSKSVVYLQMNSLKLEDTADYFCAGHLGFNGYSSDVSTKEYGAFREVGFRYWGQGTQVTVS",
+            "sequence_type": "protein",
+            "identity_cutoff": 0.7,
+            "evalue_cutoff": 1
+          }
+        },
+        "digest": "1e0a61415ba9"
+      },
+      "result": {
+        "total_count": 0,
+        "returned": 0,
+        "result_type": "polymer_entity",
+        "fetch_with": "rcsb_get_polymer_entities",
+        "offset": 0,
+        "has_more": false,
+        "next_offset": null,
+        "hits": [],
+        "editor": {
+          "url": "https://search.rcsb.org/query-editor.html",
+          "params": {
+            "json": {
+              "query": {
+                "type": "terminal",
+                "service": "sequence",
+                "parameters": {
+                  "value": "QVQLQESGGGLVRPGGSLRLTCAASGDTFNKYAMGWFRQAPGKSLELVASISSSARSTYAPDTVKGRFTISRDNSKSVVYLQMNSLKLEDTADYFCAGHLGFNGYSSDVSTKEYGAFREVGFRYWGQGTQVTVS",
+                  "sequence_type": "protein",
+                  "identity_cutoff": 0.7,
+                  "evalue_cutoff": 1
+                }
+              },
+              "return_type": "polymer_entity",
+              "request_options": {
+                "results_content_type": [
+                  "experimental"
+                ],
+                "sort": [
+                  {
+                    "sort_by": "score",
+                    "direction": "desc"
+                  }
+                ],
+                "paginate": {
+                  "start": 0,
+                  "rows": 5
+                },
+                "scoring_strategy": "sequence"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "query": "rfd4-variable-sequence-k1__her2_variable_sequence_3_generated",
+      "sequence_query": {
+        "query": {
+          "type": "terminal",
+          "service": "sequence",
+          "parameters": {
+            "value": "EVLLVESGGGLVQPGGSLRLSCAASGPTFDRRSVGWFRQAPGKEKEGVASISGDGSRTSMPNTVKGRFTISRDNAKNMVFLQMNSLKAEDTAVYYCASTASDRTADVIFERRVANFDYWGQGTQVTVS",
+            "sequence_type": "protein",
+            "identity_cutoff": 0.7,
+            "evalue_cutoff": 1
+          }
+        },
+        "digest": "7344d9ee741a"
+      },
+      "result": {
+        "total_count": 3,
+        "returned": 3,
+        "result_type": "polymer_entity",
+        "fetch_with": "rcsb_get_polymer_entities",
+        "offset": 0,
+        "has_more": false,
+        "next_offset": null,
+        "hits": [
+          {
+            "id": "9EZV_2",
+            "score": 1
+          },
+          {
+            "id": "6RUM_1",
+            "score": 0.059
+          },
+          {
+            "id": "7JZ1_1",
+            "score": 0
+          }
+        ],
+        "editor": {
+          "url": "https://search.rcsb.org/query-editor.html",
+          "params": {
+            "json": {
+              "query": {
+                "type": "terminal",
+                "service": "sequence",
+                "parameters": {
+                  "value": "EVLLVESGGGLVQPGGSLRLSCAASGPTFDRRSVGWFRQAPGKEKEGVASISGDGSRTSMPNTVKGRFTISRDNAKNMVFLQMNSLKAEDTAVYYCASTASDRTADVIFERRVANFDYWGQGTQVTVS",
+                  "sequence_type": "protein",
+                  "identity_cutoff": 0.7,
+                  "evalue_cutoff": 1
+                }
+              },
+              "return_type": "polymer_entity",
+              "request_options": {
+                "results_content_type": [
+                  "experimental"
+                ],
+                "sort": [
+                  {
+                    "sort_by": "score",
+                    "direction": "desc"
+                  }
+                ],
+                "paginate": {
+                  "start": 0,
+                  "rows": 5
+                },
+                "scoring_strategy": "sequence"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "query": "rfd4-variable-sequence-k1__her2_variable_sequence_4_generated",
+      "sequence_query": {
+        "query": {
+          "type": "terminal",
+          "service": "sequence",
+          "parameters": {
+            "value": "QVQLVETGGGLVKPGGNLRLSCTASGLTFSSYGIGWFRQAPGKERELVADISSSGRKTWYPDSVKGRFTISRDNAKDTVHLQMNSLRPEDSAVYYCAAASRRISHTATIANYDYWGQGTQVTVS",
+            "sequence_type": "protein",
+            "identity_cutoff": 0.7,
+            "evalue_cutoff": 1
+          }
+        },
+        "digest": "dd1715808094"
+      },
+      "result": {
+        "total_count": 172,
+        "returned": 5,
+        "result_type": "polymer_entity",
+        "fetch_with": "rcsb_get_polymer_entities",
+        "offset": 0,
+        "has_more": true,
+        "next_offset": 5,
+        "hits": [
+          {
+            "id": "9HZJ_2",
+            "score": 1
+          },
+          {
+            "id": "9EZV_2",
+            "score": 0.968
+          },
+          {
+            "id": "5LMJ_1",
+            "score": 0.935
+          },
+          {
+            "id": "9EZU_2",
+            "score": 0.935
+          },
+          {
+            "id": "5IMK_1",
+            "score": 0.903
+          }
+        ],
+        "editor": {
+          "url": "https://search.rcsb.org/query-editor.html",
+          "params": {
+            "json": {
+              "query": {
+                "type": "terminal",
+                "service": "sequence",
+                "parameters": {
+                  "value": "QVQLVETGGGLVKPGGNLRLSCTASGLTFSSYGIGWFRQAPGKERELVADISSSGRKTWYPDSVKGRFTISRDNAKDTVHLQMNSLRPEDSAVYYCAAASRRISHTATIANYDYWGQGTQVTVS",
+                  "sequence_type": "protein",
+                  "identity_cutoff": 0.7,
+                  "evalue_cutoff": 1
+                }
+              },
+              "return_type": "polymer_entity",
+              "request_options": {
+                "results_content_type": [
+                  "experimental"
+                ],
+                "sort": [
+                  {
+                    "sort_by": "score",
+                    "direction": "desc"
+                  }
+                ],
+                "paginate": {
+                  "start": 0,
+                  "rows": 5
+                },
+                "scoring_strategy": "sequence"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "query": "rfd4-variable-sequence-k1__her2_variable_sequence_5_generated",
+      "sequence_query": {
+        "query": {
+          "type": "terminal",
+          "service": "sequence",
+          "parameters": {
+            "value": "MVQLVESGGGLVEPGGSLRLTCAASGYEVATYAMGWFRQALGRERELVAAISADGGYTFYPDSVKGRFTISRDNAKNQVFLQMDSLKTEDTAVYYCAARPPYYVVRKEYWGQYMYWGQGTQVTVS",
+            "sequence_type": "protein",
+            "identity_cutoff": 0.7,
+            "evalue_cutoff": 1
+          }
+        },
+        "digest": "7e7f2003ef78"
+      },
+      "result": {
+        "total_count": 62,
+        "returned": 5,
+        "result_type": "polymer_entity",
+        "fetch_with": "rcsb_get_polymer_entities",
+        "offset": 0,
+        "has_more": true,
+        "next_offset": 5,
+        "hits": [
+          {
+            "id": "4GRW_4",
+            "score": 1
+          },
+          {
+            "id": "9QJP_4",
+            "score": 0.951
+          },
+          {
+            "id": "9TNS_4",
+            "score": 0.951
+          },
+          {
+            "id": "26AP_1",
+            "score": 0.902
+          },
+          {
+            "id": "7R1Z_1",
+            "score": 0.902
+          }
+        ],
+        "editor": {
+          "url": "https://search.rcsb.org/query-editor.html",
+          "params": {
+            "json": {
+              "query": {
+                "type": "terminal",
+                "service": "sequence",
+                "parameters": {
+                  "value": "MVQLVESGGGLVEPGGSLRLTCAASGYEVATYAMGWFRQALGRERELVAAISADGGYTFYPDSVKGRFTISRDNAKNQVFLQMDSLKTEDTAVYYCAARPPYYVVRKEYWGQYMYWGQGTQVTVS",
+                  "sequence_type": "protein",
+                  "identity_cutoff": 0.7,
+                  "evalue_cutoff": 1
+                }
+              },
+              "return_type": "polymer_entity",
+              "request_options": {
+                "results_content_type": [
+                  "experimental"
+                ],
+                "sort": [
+                  {
+                    "sort_by": "score",
+                    "direction": "desc"
+                  }
+                ],
+                "paginate": {
+                  "start": 0,
+                  "rows": 5
+                },
+                "scoring_strategy": "sequence"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "query": "rfd4-variable-sequence-k1__her2_variable_sequence_6_generated",
+      "sequence_query": {
+        "query": {
+          "type": "terminal",
+          "service": "sequence",
+          "parameters": {
+            "value": "EVQLVESGGGLVQPGGSLRLSCASSGGSFDRAAFGWYRQAPGKERELVASISGSGSSTYYPDVVKGRFTISRDNAQRSVFLQMNSLKVEDTAVYFCNAKNLHGYNAMVSGQVIQSYHYEEAWGQGTQVTVS",
+            "sequence_type": "protein",
+            "identity_cutoff": 0.7,
+            "evalue_cutoff": 1
+          }
+        },
+        "digest": "ed86f7bf1645"
+      },
+      "result": {
+        "total_count": 2,
+        "returned": 2,
+        "result_type": "polymer_entity",
+        "fetch_with": "rcsb_get_polymer_entities",
+        "offset": 0,
+        "has_more": false,
+        "next_offset": null,
+        "hits": [
+          {
+            "id": "6RUL_1",
+            "score": 1
+          },
+          {
+            "id": "6RUM_1",
+            "score": 1
+          }
+        ],
+        "editor": {
+          "url": "https://search.rcsb.org/query-editor.html",
+          "params": {
+            "json": {
+              "query": {
+                "type": "terminal",
+                "service": "sequence",
+                "parameters": {
+                  "value": "EVQLVESGGGLVQPGGSLRLSCASSGGSFDRAAFGWYRQAPGKERELVASISGSGSSTYYPDVVKGRFTISRDNAQRSVFLQMNSLKVEDTAVYFCNAKNLHGYNAMVSGQVIQSYHYEEAWGQGTQVTVS",
+                  "sequence_type": "protein",
+                  "identity_cutoff": 0.7,
+                  "evalue_cutoff": 1
+                }
+              },
+              "return_type": "polymer_entity",
+              "request_options": {
+                "results_content_type": [
+                  "experimental"
+                ],
+                "sort": [
+                  {
+                    "sort_by": "score",
+                    "direction": "desc"
+                  }
+                ],
+                "paginate": {
+                  "start": 0,
+                  "rows": 5
+                },
+                "scoring_strategy": "sequence"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+]

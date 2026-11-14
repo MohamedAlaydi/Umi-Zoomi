@@ -1,0 +1,89 @@
+{
+  "utc": "2026-11-14T13:55:30.694759+00:00",
+  "jobs": [
+    {
+      "directory": "design-initial-guess-af2ig",
+      "job_id": "7800c0f7d13c48f2f2f455e69980b117",
+      "model": "af2ig",
+      "status": "failed",
+      "amount_usd": 0.0,
+      "processed_work_units": 5,
+      "total_work_units": 5
+    },
+    {
+      "directory": "design-initial-guess-af2ig-format-fix",
+      "job_id": "eec321fd1dd467b035916be5862002cd",
+      "model": "af2ig",
+      "status": "succeeded",
+      "amount_usd": 0.004488,
+      "processed_work_units": 5,
+      "total_work_units": 5
+    },
+    {
+      "directory": "local-refold-mol1",
+      "job_id": "f17875d6892ef43c21a85534110dcc21",
+      "model": "mol1",
+      "status": "succeeded",
+      "amount_usd": 0.144992,
+      "processed_work_units": 9,
+      "total_work_units": 9
+    },
+    {
+      "directory": "local-refold-opendde-abag",
+      "job_id": "82ca8820a52524b3e61c3b79dc8a2a7e",
+      "model": "opendde-abag",
+      "status": "succeeded",
+      "amount_usd": 0.08481,
+      "processed_work_units": 9,
+      "total_work_units": 9
+    },
+    {
+      "directory": "local-refold-openfold3",
+      "job_id": "3f825d078c45c3bc0557f056468acfcb",
+      "model": "openfold3",
+      "status": "succeeded",
+      "amount_usd": 0.035389,
+      "processed_work_units": 9,
+      "total_work_units": 9
+    },
+    {
+      "directory": "paired-refold-mol1",
+      "job_id": "db7fff3788d169cc4974d493959a687c",
+      "model": "mol1",
+      "status": "succeeded",
+      "amount_usd": 0.055696,
+      "processed_work_units": 8,
+      "total_work_units": 8
+    },
+    {
+      "directory": "paired-refold-openfold3",
+      "job_id": "87165e3bfa621033be339296e88e822d",
+      "model": "openfold3",
+      "status": "succeeded",
+      "amount_usd": 0.02579,
+      "processed_work_units": 8,
+      "total_work_units": 8
+    },
+    {
+      "directory": "pilot-directed-s20261114",
+      "job_id": "76103db46162d975c6b29217fc07300e",
+      "model": "boltzgen",
+      "status": "succeeded",
+      "amount_usd": 0.032607,
+      "processed_work_units": 1,
+      "total_work_units": 1
+    },
+    {
+      "directory": "pilot-unconditioned-s20261114",
+      "job_id": "7ddd6a47ff2643d5b5b2f3fa5e354e2b",
+      "model": "boltzgen",
+      "status": "succeeded",
+      "amount_usd": 0.031967,
+      "processed_work_units": 1,
+      "total_work_units": 1
+    }
+  ],
+  "amount_usd": 0.415739,
+  "scope": "Only exact run011 JapanFold job IDs, including failed attempt. Local H100, Nebius and AMASS excluded.",
+  "unit_note": "Job progress units are not delivered structures: failed units and design shards may also count as processed. Scientific output counts come from downloaded results."
+}

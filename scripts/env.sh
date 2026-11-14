@@ -12,6 +12,12 @@ if [ -r "$HOME/.team_me" ]; then
   [ -r "$_amass_f" ] && export AMASS_API_KEY="$(cat "$_amass_f")"
   unset _amass_f
 fi
+# We run on one team subscription, so a key saved with `amass key --shared`
+# is used by anyone who has not saved a personal one. A personal key wins.
+if [ -z "${AMASS_API_KEY:-}" ] && [ -r "$HOME/.amass-keys/shared.key" ]; then
+  export AMASS_API_KEY="$(cat "$HOME/.amass-keys/shared.key")"
+fi
+
 export PATH="$HOME/.pixi/bin:$HOME/.local/bin:$PATH"
 
 REG=quay.io/apheris/oslo-hackathon

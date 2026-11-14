@@ -1,0 +1,10 @@
+{
+  "source_her2_sha256": "8136a9abb040fc92f993a416e9af98e618f1a9a4932eace743e6b009efcd0c5b",
+  "source_framework": "Official Data/03-vhh/pmvk_caplacizumab.cif.zst; annotated H chain only; original PMVK chain A dropped by contig",
+  "scaffold_sha256": "9a3343aa4c917dc68be407ff88953b36050001aaceb87bc3d8cb1fda404eb42e",
+  "preserved_framework_compressed_positions": "H1-22,H24-37,H39-75,H77-86",
+  "designed_loops": "Official expandable segments H23 length13; H38 length9-10; H76 length12-21",
+  "epitope": "Same four atom hotspots as organiser HER2 task; target fragments held as one rigid group",
+  "official_track": "UNVERIFIED; fixed known framework does not imply de novo eligibility",
+  "target_atom_count": 837
+}

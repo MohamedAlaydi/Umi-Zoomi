@@ -1,0 +1,8 @@
+WARNING  /home/hackathon/team14/runs/011-codex-denovo-vhh/abguard-final/submission.csv: dropped rows for [vhh] heavy_cysteines_are_paired: 1 row(s); [vhh] heavy_domain_cysteines_are_paired: 1 row(s); [vhh] heavy_has_expected_domains: 1 row(s); [novelty] pilot-unconditioned-s20261114__0_shard-0_design_1: CDRH3 ARGYSYYSFVY is 2 mutation(s) from ARGYLYYSFDY in uspto:uspto_AJN51465; a novel design needs at least 3; [novelty] pilot-unconditioned-s20261114__0_shard-0_design_1__canonicalCys: CDRH3 ARGYSYYSFVY is 2 mutation(s) from ARGYLYYSFDY in uspto:uspto_AJN51465; a novel design needs at least 3
+INFO     submission: 127/131 design(s) valid
+WARNING    [vhh] heavy_cysteines_are_paired: 1 row(s)
+WARNING    [vhh] heavy_domain_cysteines_are_paired: 1 row(s)
+WARNING    [vhh] heavy_has_expected_domains: 1 row(s)
+WARNING    [novelty] pilot-unconditioned-s20261114__0_shard-0_design_1: CDRH3 ARGYSYYSFVY is 2 mutation(s) from ARGYLYYSFDY in uspto:uspto_AJN51465; a novel design needs at least 3
+WARNING    [novelty] pilot-unconditioned-s20261114__0_shard-0_design_1__canonicalCys: CDRH3 ARGYSYYSFVY is 2 mutation(s) from ARGYLYYSFDY in uspto:uspto_AJN51465; a novel design needs at least 3
+INFO     wrote 127 rows to /home/hackathon/team14/runs/011-codex-denovo-vhh/abguard-final/validated.csv

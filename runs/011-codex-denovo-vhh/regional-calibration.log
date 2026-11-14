@@ -1,0 +1,62 @@
+{
+  "source": "CA-based NAC adaptation of arXiv:2610.23136v2; region masks from immunum2.1.0",
+  "scope": "Retrospective stratified 30-sequence panel, 3 Boltz2 seeds per construct, 25 quantified KD. No threshold fitting or prospective validation. Five no-reportable-KD rows excluded from continuous affinity endpoint.",
+  "n_sequences": 30,
+  "n_structures": 90,
+  "statistics": {
+    "ca_nac": {
+      "n_constructs": 25,
+      "rho_log10_KD": -0.46384615384615385,
+      "p": 0.019514767792474928,
+      "bootstrap_ci95": [
+        -0.7098049604363302,
+        -0.10312346778950582
+      ]
+    },
+    "cdr_ca_plddt": {
+      "n_constructs": 25,
+      "rho_log10_KD": -0.3892307692307692,
+      "p": 0.054462480644176525,
+      "bootstrap_ci95": [
+        -0.6731655388481741,
+        -0.031018974575476452
+      ]
+    },
+    "antibody_ca_plddt": {
+      "n_constructs": 25,
+      "rho_log10_KD": -0.4130769230769231,
+      "p": 0.04013747815937925,
+      "bootstrap_ci95": [
+        -0.67804092484997,
+        -0.03169083131782043
+      ]
+    },
+    "iptm": {
+      "n_constructs": 25,
+      "rho_log10_KD": -0.3627611862898853,
+      "p": 0.07471312465387976,
+      "bootstrap_ci95": [
+        -0.6756202488783454,
+        0.04137700518071761
+      ]
+    },
+    "vh_min_pair": {
+      "n_constructs": 25,
+      "rho_log10_KD": -0.3928434303870273,
+      "p": 0.05206813645939717,
+      "bootstrap_ci95": [
+        -0.703597541001468,
+        -0.019350004946520928
+      ]
+    }
+  },
+  "paired_NAC_minus_ipTM": {
+    "definition": "rho(NAC, logKD) minus rho(ipTM, logKD); more negative favors NAC",
+    "difference": -0.10108496755626856,
+    "paired_bootstrap_ci95": [
+      -0.5751921558757694,
+      0.4231842836701101
+    ]
+  },
+  "manifest_sha256": "0fca7e64d1f0bed3b46319137552253e9e01c74d5e7ed76dbef2db9df92520b6"
+}

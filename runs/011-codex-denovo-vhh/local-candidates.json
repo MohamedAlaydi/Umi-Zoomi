@@ -1,0 +1,2690 @@
+[
+  {
+    "query": "her2_caplacizumab_cdr123_0_generated",
+    "generation_id": "her2_caplacizumab_cdr123_0_generated",
+    "source_arm": "rfd4-antibody-her2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGLSVTSYTMGWFRQAPGKGRELVASITSGGHTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCNTRAGVLLPNGEVEYVDYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 123,
+    "numbering_confidence": 0.7747436165809631,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "NTRAGVLLPNGEVEYVDY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.3684210526315789,
+        "jaccard": 0.30434782608695654,
+        "n_target_residues": 11
+      },
+      "4.5": {
+        "recall": 0.42105263157894735,
+        "jaccard": 0.3333333333333333,
+        "n_target_residues": 13
+      },
+      "5.0": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.375,
+        "n_target_residues": 14
+      }
+    },
+    "cross_chain_pairs_under_2A": 1,
+    "antigen_rigid_rmsd": 0.37123757145483954,
+    "hotspot_obedience": "0.75",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_0/her2_caplacizumab_cdr123_0_generated.cif",
+    "structure_sha256": "e84739cdfb691f7f99ff4a34824af545bde53ac4fe8475dd77a3e88005276e20",
+    "sequence_sha256": "6732b080291b7ddd78df2616b8a9e7a82e7fc41dcf25a6e6bbec67c38ba9e6d4",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_cdr123_1_generated",
+    "generation_id": "her2_caplacizumab_cdr123_1_generated",
+    "source_arm": "rfd4-antibody-her2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGSSVTNYAMGWFRQAPGKGRELVAWISYDGSETYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAAGRPGSDGHYTWDYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 121,
+    "numbering_confidence": 0.7905331254005432,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AAGRPGSDGHYTWDY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.4166666666666667,
+        "n_target_residues": 15
+      },
+      "4.5": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.4,
+        "n_target_residues": 16
+      },
+      "5.0": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.38461538461538464,
+        "n_target_residues": 17
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.3802398905419511,
+    "hotspot_obedience": "0.75",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_1/her2_caplacizumab_cdr123_1_generated.cif",
+    "structure_sha256": "d25d37c2e8252ff28afe6b51d30a8e4d37e66d1c95720122ed398ca15cdfa404",
+    "sequence_sha256": "72ee7218753fca73735ed6fe7c5e2d069055567919cae71b5e11e1e59eff79f2",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_cdr123_10_generated",
+    "generation_id": "her2_caplacizumab_cdr123_10_generated",
+    "source_arm": "rfd4-antibody-her2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSSYTMNWFRQAPGKGRELVAIIHTSGTTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCARDVSYDPSKTSYSGWGQGTQVTVS",
+    "light_variable": "",
+    "length": 120,
+    "numbering_confidence": 0.8079351782798767,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "ARDVSYDPSKTSYSG",
+    "footprint": {
+      "4.0": {
+        "recall": 0.42105263157894735,
+        "jaccard": 0.32,
+        "n_target_residues": 14
+      },
+      "4.5": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.38461538461538464,
+        "n_target_residues": 17
+      },
+      "5.0": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.37037037037037035,
+        "n_target_residues": 18
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.3819336094412719,
+    "hotspot_obedience": "0.75",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_10/her2_caplacizumab_cdr123_10_generated.cif",
+    "structure_sha256": "75d0e3d217f51cfd75f6883d9472c10a7b95a8f5280ae9b94f42bf044adbea7b",
+    "sequence_sha256": "909cc2fadca8a08f51cc71dc8e1d96cb02383d5af34f0a8a744315abb530786a",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_cdr123_11_generated",
+    "generation_id": "her2_caplacizumab_cdr123_11_generated",
+    "source_arm": "rfd4-antibody-her2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGSTVTSRAMGWFRQAPGKGRELVAAISYDGGNTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAAARYSNVYSTSPSEYDYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 124,
+    "numbering_confidence": 0.7913769483566284,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AAARYSNVYSTSPSEYDY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.42105263157894735,
+        "jaccard": 0.32,
+        "n_target_residues": 14
+      },
+      "4.5": {
+        "recall": 0.42105263157894735,
+        "jaccard": 0.3076923076923077,
+        "n_target_residues": 15
+      },
+      "5.0": {
+        "recall": 0.42105263157894735,
+        "jaccard": 0.3076923076923077,
+        "n_target_residues": 15
+      }
+    },
+    "cross_chain_pairs_under_2A": 1,
+    "antigen_rigid_rmsd": 0.36290194856817237,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_11/her2_caplacizumab_cdr123_11_generated.cif",
+    "structure_sha256": "04fa73bade0f84aaf8e18e596899e8d975e6fbd95b7548a81f574cbfe73871c9",
+    "sequence_sha256": "b6dd07ef9f1993321bc973b03c8536997dd2bb16cfd607436dcac69d7c55c658",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_cdr123_12_generated",
+    "generation_id": "her2_caplacizumab_cdr123_12_generated",
+    "source_arm": "rfd4-antibody-her2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGSHVTSYAMGWFRQAPGKGRELVASISYGGSTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAARYYSTLSYFPYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 118,
+    "numbering_confidence": 0.7934942245483398,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AARYYSTLSYFPY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.3157894736842105,
+        "jaccard": 0.2,
+        "n_target_residues": 17
+      },
+      "4.5": {
+        "recall": 0.3684210526315789,
+        "jaccard": 0.23333333333333334,
+        "n_target_residues": 18
+      },
+      "5.0": {
+        "recall": 0.42105263157894735,
+        "jaccard": 0.26666666666666666,
+        "n_target_residues": 19
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.46686108088625644,
+    "hotspot_obedience": "0.75",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_12/her2_caplacizumab_cdr123_12_generated.cif",
+    "structure_sha256": "68ddc86b143f7cac3d6524fbec2cc59ffe3fa5f065c9fadaa1c0c8a065c7778a",
+    "sequence_sha256": "80cfdc176f65c0259b5817c5a49c90ecf607118a06dd3a41a49333ed98a6aad3",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_cdr123_13_generated",
+    "generation_id": "her2_caplacizumab_cdr123_13_generated",
+    "source_arm": "rfd4-antibody-her2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGRDISSFTMGWFRQAPGKGRELVASITSGGSTWYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCNARELRYDSSGNSYWVAYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 123,
+    "numbering_confidence": 0.7429782152175903,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "NARELRYDSSGNSYWVAY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.3157894736842105,
+        "jaccard": 0.25,
+        "n_target_residues": 11
+      },
+      "4.5": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.34615384615384615,
+        "n_target_residues": 16
+      },
+      "5.0": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.32142857142857145,
+        "n_target_residues": 18
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.5262643152472036,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_13/her2_caplacizumab_cdr123_13_generated.cif",
+    "structure_sha256": "63b009a6e7f7e3e7a382dab882363be285b75197d47b8b52de0fe676c4ee3bc4",
+    "sequence_sha256": "bdd74e661dc784ce774150efedda37d5061aaf4201de01822b43fc95c3590876",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_cdr123_14_generated",
+    "generation_id": "her2_caplacizumab_cdr123_14_generated",
+    "source_arm": "rfd4-antibody-her2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGPSVTSYTMGWFRQAPGKGRELVASISSSGSTWYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCRASGSLYSSGHWVYYDAWGQGTQVTVS",
+    "light_variable": "",
+    "length": 122,
+    "numbering_confidence": 0.7809797525405884,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "RASGSLYSSGHWVYYDA",
+    "footprint": {
+      "4.0": {
+        "recall": 0.3684210526315789,
+        "jaccard": 0.28,
+        "n_target_residues": 13
+      },
+      "4.5": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.38461538461538464,
+        "n_target_residues": 17
+      },
+      "5.0": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.37037037037037035,
+        "n_target_residues": 18
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.42929199884494373,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_14/her2_caplacizumab_cdr123_14_generated.cif",
+    "structure_sha256": "f9b5e74b1e88987a3d720bd4b4b51f62944b082db958c647e0eb1134cff48534",
+    "sequence_sha256": "4697b05fa3f2ea55ee08bd46d638810fee7e93843f0975a80dd862d8e21f6fab",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_cdr123_15_generated",
+    "generation_id": "her2_caplacizumab_cdr123_15_generated",
+    "source_arm": "rfd4-antibody-her2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSSFGMGWFRQAPGKGRELVAYISTGGNTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAAYTGSDTSGTVSLFDYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 122,
+    "numbering_confidence": 0.8328059911727905,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AAYTGSDTSGTVSLFDY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.4,
+        "n_target_residues": 16
+      },
+      "4.5": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.4,
+        "n_target_residues": 16
+      },
+      "5.0": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.37037037037037035,
+        "n_target_residues": 18
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.4911579416210785,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_15/her2_caplacizumab_cdr123_15_generated.cif",
+    "structure_sha256": "24caa9da441c1b952c8a01d07ce69dd61148f13f6f519e2efc1e1bd6d9078c4b",
+    "sequence_sha256": "5593687c075bb1bff7df1f8e03e2c0c0249fc1af4e38afa26d499225970c7116",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_cdr123_2_generated",
+    "generation_id": "her2_caplacizumab_cdr123_2_generated",
+    "source_arm": "rfd4-antibody-her2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGLSFSSYAMGWFRQAPGKGRELVAAISGGGGTTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCNAPVGSYDSSLSSNASRQYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 125,
+    "numbering_confidence": 0.7853865623474121,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "NAPVGSYDSSLSSNASRQY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.32142857142857145,
+        "n_target_residues": 18
+      },
+      "4.5": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.3333333333333333,
+        "n_target_residues": 21
+      },
+      "5.0": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.3225806451612903,
+        "n_target_residues": 22
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.3726185326242425,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_2/her2_caplacizumab_cdr123_2_generated.cif",
+    "structure_sha256": "f7f516eeac4d1242091769cc19ee0047234880176b5861cad61ca7e2287475f0",
+    "sequence_sha256": "53ff524d1fe2e77f28c72e033c9a5ff741341955e188ff5cc4ab5f16231940d7",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_cdr123_3_generated",
+    "generation_id": "her2_caplacizumab_cdr123_3_generated",
+    "source_arm": "rfd4-antibody-her2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGSSVTSYAMAWFRQAPGKGRELVALISSSGSNTSYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAAAVPHSGGSYSYDYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 121,
+    "numbering_confidence": 0.7935774326324463,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AAAVPHSGGSYSYDY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.6842105263157895,
+        "jaccard": 0.6190476190476191,
+        "n_target_residues": 15
+      },
+      "4.5": {
+        "recall": 0.7894736842105263,
+        "jaccard": 0.6521739130434783,
+        "n_target_residues": 19
+      },
+      "5.0": {
+        "recall": 0.8421052631578947,
+        "jaccard": 0.6666666666666666,
+        "n_target_residues": 21
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.4719400657266921,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_3/her2_caplacizumab_cdr123_3_generated.cif",
+    "structure_sha256": "6852cdbb15e549a87cb46fdd7fe9a7d62824b1e8c3547b9b46aaaf9f87e3ff29",
+    "sequence_sha256": "673f27542a80d8c87c32736ca7def03b164a46b991da2c7568821bbf34e50675",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_cdr123_4_generated",
+    "generation_id": "her2_caplacizumab_cdr123_4_generated",
+    "source_arm": "rfd4-antibody-her2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSSYDMGWFRQAPGKGRELVAAISHSGSSTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAAKLSGSHTYDYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 118,
+    "numbering_confidence": 0.8075056672096252,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AAKLSGSHTYDY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.2631578947368421,
+        "jaccard": 0.23809523809523808,
+        "n_target_residues": 7
+      },
+      "4.5": {
+        "recall": 0.3157894736842105,
+        "jaccard": 0.2857142857142857,
+        "n_target_residues": 8
+      },
+      "5.0": {
+        "recall": 0.42105263157894735,
+        "jaccard": 0.36363636363636365,
+        "n_target_residues": 11
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.4201887158356271,
+    "hotspot_obedience": "0.5",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_4/her2_caplacizumab_cdr123_4_generated.cif",
+    "structure_sha256": "7c285ff929b13b4429744a9171c9bc2ae758bfbbd4158f54530f97481edfbd22",
+    "sequence_sha256": "4d297fc870aa5f848e73bed1b108bd16247c38d284ec63df8f5af141a3262d11",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_cdr123_5_generated",
+    "generation_id": "her2_caplacizumab_cdr123_5_generated",
+    "source_arm": "rfd4-antibody-her2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSSYTMGWFRQAPGKGRELVASISHDGSSTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAARLLGSRSGFDYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 119,
+    "numbering_confidence": 0.8127967119216919,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AARLLGSRSGFDY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.3157894736842105,
+        "jaccard": 0.24,
+        "n_target_residues": 12
+      },
+      "4.5": {
+        "recall": 0.3684210526315789,
+        "jaccard": 0.25925925925925924,
+        "n_target_residues": 15
+      },
+      "5.0": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.32142857142857145,
+        "n_target_residues": 18
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.3427375922425025,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_5/her2_caplacizumab_cdr123_5_generated.cif",
+    "structure_sha256": "3d532ba97575fd108009ae55b10930386831aadc62185f4d4dc460b39c173318",
+    "sequence_sha256": "187373956d525fbe435cd6ed0e28ae16cca29309ca8fad8ac0a3ae2efb7d882b",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_cdr123_6_generated",
+    "generation_id": "her2_caplacizumab_cdr123_6_generated",
+    "source_arm": "rfd4-antibody-her2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGLGVTSYAMGWFRQAPGKGRELVAAISSSGSYTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAAGSASGWFATESDYDYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 123,
+    "numbering_confidence": 0.7913110852241516,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AAGSASGWFATESDYDY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.3157894736842105,
+        "jaccard": 0.23076923076923078,
+        "n_target_residues": 13
+      },
+      "4.5": {
+        "recall": 0.3684210526315789,
+        "jaccard": 0.25925925925925924,
+        "n_target_residues": 15
+      },
+      "5.0": {
+        "recall": 0.42105263157894735,
+        "jaccard": 0.26666666666666666,
+        "n_target_residues": 19
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.3877091493183266,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_6/her2_caplacizumab_cdr123_6_generated.cif",
+    "structure_sha256": "bb93586c18238887446f8e4ab63c5eac5cf3fe1f45ccba23ddcd50d882f25f36",
+    "sequence_sha256": "5bfd27e80a95b976c3be723d7086046089eb53903b59b215d47369cb0536ef08",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_cdr123_7_generated",
+    "generation_id": "her2_caplacizumab_cdr123_7_generated",
+    "source_arm": "rfd4-antibody-her2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGFTFSDYTMGWFRQAPGKGRELVAAINGDGSTTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAARLNSGSRDYDYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 119,
+    "numbering_confidence": 0.8201077580451965,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AARLNSGSRDYDY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.47619047619047616,
+        "n_target_residues": 12
+      },
+      "4.5": {
+        "recall": 0.5789473684210527,
+        "jaccard": 0.5238095238095238,
+        "n_target_residues": 13
+      },
+      "5.0": {
+        "recall": 0.5789473684210527,
+        "jaccard": 0.4782608695652174,
+        "n_target_residues": 15
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.451361074519179,
+    "hotspot_obedience": "0.75",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_7/her2_caplacizumab_cdr123_7_generated.cif",
+    "structure_sha256": "3a94ddbe2cfdd8597cc252483412983ee4d37327fa49cfddb61ca80cb5a4ea92",
+    "sequence_sha256": "09582d4ce6a08a83cf5a68d1663113c86ed9b610ac565441dac88543936d1b28",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_cdr123_8_generated",
+    "generation_id": "her2_caplacizumab_cdr123_8_generated",
+    "source_arm": "rfd4-antibody-her2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGSSVTSYGMGWFRQAPGKGRELVAYISSTGNTWYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAMRGLYPGRNFWETSYYDYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 124,
+    "numbering_confidence": 0.8041056990623474,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AMRGLYPGRNFWETSYYDY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.34615384615384615,
+        "n_target_residues": 16
+      },
+      "4.5": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.3,
+        "n_target_residues": 20
+      },
+      "5.0": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.3125,
+        "n_target_residues": 23
+      }
+    },
+    "cross_chain_pairs_under_2A": 1,
+    "antigen_rigid_rmsd": 0.39744240233311084,
+    "hotspot_obedience": "0.75",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_8/her2_caplacizumab_cdr123_8_generated.cif",
+    "structure_sha256": "81241e15ff7b3e6b83893b0365fab6892ce02f37c9ec5bc1b72052f66dad1deb",
+    "sequence_sha256": "9af5879f2323c407adacf7ea5b8136dcae4db2dc8dd5bd3e3afa1ed91a1b15b2",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_cdr123_9_generated",
+    "generation_id": "her2_caplacizumab_cdr123_9_generated",
+    "source_arm": "rfd4-antibody-her2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGSSISYRTMGWFRQAPGKGRELVAAINGSGNTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAAARRGVPVWRADAYDYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 122,
+    "numbering_confidence": 0.7703679800033569,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AAARRGVPVWRADAYDY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.3157894736842105,
+        "jaccard": 0.2857142857142857,
+        "n_target_residues": 8
+      },
+      "4.5": {
+        "recall": 0.3157894736842105,
+        "jaccard": 0.2727272727272727,
+        "n_target_residues": 9
+      },
+      "5.0": {
+        "recall": 0.3157894736842105,
+        "jaccard": 0.2608695652173913,
+        "n_target_residues": 10
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.42067215330219604,
+    "hotspot_obedience": "0.75",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2/design/generation/inference_samples/her2_caplacizumab_cdr123_9/her2_caplacizumab_cdr123_9_generated.cif",
+    "structure_sha256": "c09cca15c37ca73decad0eac015fb2dc61d01a5bffde62ef944427679f040933",
+    "sequence_sha256": "7ebcd230ffb93afc7249875f854b9b3472563c2400952242f9c1bea413226cb3",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_0_generated",
+    "generation_id": "her2_caplacizumab_longH3_0_generated",
+    "source_arm": "rfd4-antibody-her2-longH3",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGPNVTSYWMGWFRQAPGKGRELVASINTGGDTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCKTRAYRTPLAWDTPASVRESAATVDYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 131,
+    "numbering_confidence": 0.7929609417915344,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "KTRAYRTPLAWDTPASVRESAATVDY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.6842105263157895,
+        "jaccard": 0.48148148148148145,
+        "n_target_residues": 21
+      },
+      "4.5": {
+        "recall": 0.7368421052631579,
+        "jaccard": 0.4666666666666667,
+        "n_target_residues": 25
+      },
+      "5.0": {
+        "recall": 0.8421052631578947,
+        "jaccard": 0.48484848484848486,
+        "n_target_residues": 30
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.3560845715939687,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_0/her2_caplacizumab_longH3_0_generated.cif",
+    "structure_sha256": "fd784b462182d21728b515fd1807c57ae439f77c7852d49196427fe59ebb3bc7",
+    "sequence_sha256": "08562b1f5c71d7a0f462ab4c91d45bb570a700671d428bcce53c230b8c9c33e9",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_1_generated",
+    "generation_id": "her2_caplacizumab_longH3_1_generated",
+    "source_arm": "rfd4-antibody-her2-longH3",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGPTFSTYAMGWFRQAPGKGRELVAAISSSGSTTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAARPAISHETASMLARADRYEAWGQGTQVTVS",
+    "light_variable": "",
+    "length": 128,
+    "numbering_confidence": 0.7878625392913818,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AARPAISHETASMLARADRYEA",
+    "footprint": {
+      "4.0": {
+        "recall": 0.42105263157894735,
+        "jaccard": 0.38095238095238093,
+        "n_target_residues": 10
+      },
+      "4.5": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.4090909090909091,
+        "n_target_residues": 12
+      },
+      "5.0": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.3333333333333333,
+        "n_target_residues": 17
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.4489262674038194,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_1/her2_caplacizumab_longH3_1_generated.cif",
+    "structure_sha256": "3d55ad7cb54b2e0b1a6e20375b6ab6b4575f1b1e41e2427a7c833c97a85fcd2f",
+    "sequence_sha256": "cb9b5bfd5ee5deb6e81c6b24d6bbfd36f4864554d177e72d679ba57d81121cb4",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_10_generated",
+    "generation_id": "her2_caplacizumab_longH3_10_generated",
+    "source_arm": "rfd4-antibody-her2-longH3",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGSTFSSYSMGWFRQAPGKGRELVANITSGGSTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCARGSGSSFSASDDYTYTDFYAYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 127,
+    "numbering_confidence": 0.8046216368675232,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "ARGSGSSFSASDDYTYTDFYAY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.5789473684210527,
+        "jaccard": 0.4074074074074074,
+        "n_target_residues": 19
+      },
+      "4.5": {
+        "recall": 0.5789473684210527,
+        "jaccard": 0.3548387096774194,
+        "n_target_residues": 23
+      },
+      "5.0": {
+        "recall": 0.5789473684210527,
+        "jaccard": 0.3235294117647059,
+        "n_target_residues": 26
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.4342027292978931,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_10/her2_caplacizumab_longH3_10_generated.cif",
+    "structure_sha256": "07f6a92ecf81db3b9a0489585b81d50737c4af5c46187c9d66145bfb0bed5eeb",
+    "sequence_sha256": "81984a69e27785f2d35edd532cdda08dd540dc94c42699ef064c68707f9da58b",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_11_generated",
+    "generation_id": "her2_caplacizumab_longH3_11_generated",
+    "source_arm": "rfd4-antibody-her2-longH3",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGSTFSNYAMGWFRQAPGKGRELVAAISYNGSSTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAAKRGAFTTADDLKREMGAPSNVDYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 131,
+    "numbering_confidence": 0.8068084120750427,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AAKRGAFTTADDLKREMGAPSNVDY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.3684210526315789,
+        "jaccard": 0.35,
+        "n_target_residues": 8
+      },
+      "4.5": {
+        "recall": 0.3684210526315789,
+        "jaccard": 0.35,
+        "n_target_residues": 8
+      },
+      "5.0": {
+        "recall": 0.42105263157894735,
+        "jaccard": 0.3333333333333333,
+        "n_target_residues": 13
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.38066516294158476,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_11/her2_caplacizumab_longH3_11_generated.cif",
+    "structure_sha256": "74da5549fe8624216092ec9767c07947a96e1e6b2f6558225ca6d7dddbabf4be",
+    "sequence_sha256": "7b38c9cfdabe22b6bad0c29d232268ba06d3d59410c136d62c29e4cecec19bc3",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_12_generated",
+    "generation_id": "her2_caplacizumab_longH3_12_generated",
+    "source_arm": "rfd4-antibody-her2-longH3",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGSSFSSYAMGWFRQAPGKGRELVAAISSGGSTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCARGLNSNTSYWRTRSYWDYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 124,
+    "numbering_confidence": 0.8316946029663086,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "ARGLNSNTSYWRTRSYWDY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.631578947368421,
+        "jaccard": 0.6,
+        "n_target_residues": 13
+      },
+      "4.5": {
+        "recall": 0.631578947368421,
+        "jaccard": 0.5714285714285714,
+        "n_target_residues": 14
+      },
+      "5.0": {
+        "recall": 0.631578947368421,
+        "jaccard": 0.5714285714285714,
+        "n_target_residues": 14
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.5187059650391467,
+    "hotspot_obedience": "0.75",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_12/her2_caplacizumab_longH3_12_generated.cif",
+    "structure_sha256": "4729b29f57f090f527e9bcf58b4286465c2b4d12af63808d08ec84d988894773",
+    "sequence_sha256": "25a2c870f9884bcbcad41181bc919d1eddecc7b082f9c65f97dce45d8a7144b1",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_13_generated",
+    "generation_id": "her2_caplacizumab_longH3_13_generated",
+    "source_arm": "rfd4-antibody-her2-longH3",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSSYAMGWFRQAPGKGRELVAAISPGGTTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAASYLPVSSSISSLDLRDVMRYVRYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 130,
+    "numbering_confidence": 0.8028771281242371,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AASYLPVSSSISSLDLRDVMRYVRY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.2631578947368421,
+        "jaccard": 0.17857142857142858,
+        "n_target_residues": 14
+      },
+      "4.5": {
+        "recall": 0.42105263157894735,
+        "jaccard": 0.27586206896551724,
+        "n_target_residues": 18
+      },
+      "5.0": {
+        "recall": 0.42105263157894735,
+        "jaccard": 0.26666666666666666,
+        "n_target_residues": 19
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.43594159431417423,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_13/her2_caplacizumab_longH3_13_generated.cif",
+    "structure_sha256": "880532db38b7d98fd705001d4908f3bfaee25e10057863822bdfc9ef463c5f08",
+    "sequence_sha256": "941ceeca252d0298a53e961969eb7c0d07b86b53c60238cd0fe2d47e9ad94376",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_14_generated",
+    "generation_id": "her2_caplacizumab_longH3_14_generated",
+    "source_arm": "rfd4-antibody-her2-longH3",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGPTFSDYGMGWFRQAPGKGRELVAYISSGGRTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCARERRVYYDYAGDLVSYGDGVFDYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 129,
+    "numbering_confidence": 0.836614191532135,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "ARERRVYYDYAGDLVSYGDGVFDY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.3157894736842105,
+        "jaccard": 0.2222222222222222,
+        "n_target_residues": 14
+      },
+      "4.5": {
+        "recall": 0.3684210526315789,
+        "jaccard": 0.22580645161290322,
+        "n_target_residues": 19
+      },
+      "5.0": {
+        "recall": 0.42105263157894735,
+        "jaccard": 0.23529411764705882,
+        "n_target_residues": 23
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.4498207713655703,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_14/her2_caplacizumab_longH3_14_generated.cif",
+    "structure_sha256": "248c5950d510c7d5125f85c7a88c22f7100fa4ea7125b67ef09c1ef68bfcebe3",
+    "sequence_sha256": "bdb5d69f347ac9526e518ea4fdee5e1c44dc89054f6c70a116cbc4484d08de0f",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_15_generated",
+    "generation_id": "her2_caplacizumab_longH3_15_generated",
+    "source_arm": "rfd4-antibody-her2-longH3",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGLTVTSRTMGWFRQAPGKGRELVAAINTGGTTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAATDRSPSYASDWLAWVRERSNYAYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 130,
+    "numbering_confidence": 0.7814021110534668,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AATDRSPSYASDWLAWVRERSNYAY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.42105263157894735,
+        "jaccard": 0.32,
+        "n_target_residues": 14
+      },
+      "4.5": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.32142857142857145,
+        "n_target_residues": 18
+      },
+      "5.0": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.3448275862068966,
+        "n_target_residues": 20
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.5197524391007198,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_15/her2_caplacizumab_longH3_15_generated.cif",
+    "structure_sha256": "9269f87500b34d5c2690154a91b92a1d033505e8ca2692e1530bf8d80bd241c2",
+    "sequence_sha256": "c2c2c9bf53d7efafa13b71fe7a31ddfca2e024eddada330d40b2e40cdfeb21b9",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_2_generated",
+    "generation_id": "her2_caplacizumab_longH3_2_generated",
+    "source_arm": "rfd4-antibody-her2-longH3",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGLNITSRTMGWFRQAPGKGRELVASISGSGSSTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAASDYGPDAYAHQRASYDTLGKRAFYSYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 134,
+    "numbering_confidence": 0.773063600063324,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AASDYGPDAYAHQRASYDTLGKRAFYSY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.42105263157894735,
+        "jaccard": 0.3076923076923077,
+        "n_target_residues": 15
+      },
+      "4.5": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.3333333333333333,
+        "n_target_residues": 21
+      },
+      "5.0": {
+        "recall": 0.5789473684210527,
+        "jaccard": 0.3235294117647059,
+        "n_target_residues": 26
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.40540557322756177,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_2/her2_caplacizumab_longH3_2_generated.cif",
+    "structure_sha256": "6f00be41b896d617c25d687104c2a8e6f2e786b2858d3f1d6d4bb947e5b4385b",
+    "sequence_sha256": "c04f62c12c36744d1e8063d30f016298951f6385894670d4cbdc3ba2e539b30e",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_3_generated",
+    "generation_id": "her2_caplacizumab_longH3_3_generated",
+    "source_arm": "rfd4-antibody-her2-longH3",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSDYTMGWFRQAPGKGRELVAAISGSGGNTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAARLDTSVFDVEDLKNVLNWDYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 128,
+    "numbering_confidence": 0.812127947807312,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AARLDTSVFDVEDLKNVLNWDY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.45,
+        "n_target_residues": 10
+      },
+      "4.5": {
+        "recall": 0.6842105263157895,
+        "jaccard": 0.5416666666666666,
+        "n_target_residues": 18
+      },
+      "5.0": {
+        "recall": 0.6842105263157895,
+        "jaccard": 0.48148148148148145,
+        "n_target_residues": 21
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.45560980010869706,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_3/her2_caplacizumab_longH3_3_generated.cif",
+    "structure_sha256": "3022ee3420c2b5bf154a663e3a45d2a36f23ba216d5091502a48d81bb8981fd7",
+    "sequence_sha256": "9fc830b14a28a72a27804617b0d0e243a20e9401f8b491e22277a5a0317b2840",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_4_generated",
+    "generation_id": "her2_caplacizumab_longH3_4_generated",
+    "source_arm": "rfd4-antibody-her2-longH3",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGRTFTDYVMGWFRQAPGKGRELVASISGDGTSTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAARLSSTPAGPTLERYDYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 124,
+    "numbering_confidence": 0.8022686243057251,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AARLSSTPAGPTLERYDY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.5,
+        "n_target_residues": 11
+      },
+      "4.5": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.47619047619047616,
+        "n_target_residues": 12
+      },
+      "5.0": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.45454545454545453,
+        "n_target_residues": 13
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.4301463223171604,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_4/her2_caplacizumab_longH3_4_generated.cif",
+    "structure_sha256": "446cc49aa2851c2602d5f493199d36fe042bade0de5b136f06afd7ed7e806f09",
+    "sequence_sha256": "f8ba8396d103448fe263ec2226182e10adc6b5354266604300e3c03ff52269b3",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_5_generated",
+    "generation_id": "her2_caplacizumab_longH3_5_generated",
+    "source_arm": "rfd4-antibody-her2-longH3",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGRTFTSYTMGWFRQAPGKGRELVASISHDGSSTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAARYSLSDATEDERSGFDYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 125,
+    "numbering_confidence": 0.8126949667930603,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AARYSLSDATEDERSGFDY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.3157894736842105,
+        "jaccard": 0.23076923076923078,
+        "n_target_residues": 13
+      },
+      "4.5": {
+        "recall": 0.3684210526315789,
+        "jaccard": 0.25,
+        "n_target_residues": 16
+      },
+      "5.0": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.2903225806451613,
+        "n_target_residues": 21
+      }
+    },
+    "cross_chain_pairs_under_2A": 1,
+    "antigen_rigid_rmsd": 0.334393448791066,
+    "hotspot_obedience": "0.75",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_5/her2_caplacizumab_longH3_5_generated.cif",
+    "structure_sha256": "41cdacbd8613bdb947242de27b11f09be690032362b845b0bc768444d3489569",
+    "sequence_sha256": "5f6d9f39e14c5694d0ea65d1903205fbeb2678c996743a908659199b9dde3e9f",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_6_generated",
+    "generation_id": "her2_caplacizumab_longH3_6_generated",
+    "source_arm": "rfd4-antibody-her2-longH3",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGGTFSSYYMGWFRQAPGKGRELVAAINPDGSSTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCNTAVWEDIPVTVNGEPRTLSAYVDYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 131,
+    "numbering_confidence": 0.8048916459083557,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "NTAVWEDIPVTVNGEPRTLSAYVDY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.3103448275862069,
+        "n_target_residues": 19
+      },
+      "4.5": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.3,
+        "n_target_residues": 20
+      },
+      "5.0": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.30303030303030304,
+        "n_target_residues": 24
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.3800720525399067,
+    "hotspot_obedience": "0.75",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_6/her2_caplacizumab_longH3_6_generated.cif",
+    "structure_sha256": "59be44ae87e733c117291663df1c05501d00f0cd99f49c2e1f2de77eed74b4f0",
+    "sequence_sha256": "0a0113556f476ae72e6be24651bbc454361e8055cc6dd3611c22aa2735750059",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_7_generated",
+    "generation_id": "her2_caplacizumab_longH3_7_generated",
+    "source_arm": "rfd4-antibody-her2-longH3",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSSYDMGWFRQAPGKGRELVAWINSSGSSTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAARLSVADALRTGRPLWAYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 125,
+    "numbering_confidence": 0.7940355539321899,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AARLSVADALRTGRPLWAY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.3157894736842105,
+        "jaccard": 0.25,
+        "n_target_residues": 11
+      },
+      "4.5": {
+        "recall": 0.3157894736842105,
+        "jaccard": 0.25,
+        "n_target_residues": 11
+      },
+      "5.0": {
+        "recall": 0.3157894736842105,
+        "jaccard": 0.25,
+        "n_target_residues": 11
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.4056595219178291,
+    "hotspot_obedience": "0.5",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_7/her2_caplacizumab_longH3_7_generated.cif",
+    "structure_sha256": "2347ccbd6d4d7ec30b1a9f12b59b10aa4d9a945cd01508608dfc95775d9ff854",
+    "sequence_sha256": "81527a777897884da24da1ec44bc55fc0a5c5a132dd51289d694cf9903472a32",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_8_generated",
+    "generation_id": "her2_caplacizumab_longH3_8_generated",
+    "source_arm": "rfd4-antibody-her2-longH3",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGPHFSSYAMGWFRQAPGKGRELVALITSGGGTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCHAFPYSAPGALEHKLATGSVSDYYPDAWGQGTQVTVS",
+    "light_variable": "",
+    "length": 132,
+    "numbering_confidence": 0.7597866058349609,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "HAFPYSAPGALEHKLATGSVSDYYPDA",
+    "footprint": {
+      "4.0": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.4,
+        "n_target_residues": 16
+      },
+      "4.5": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.3333333333333333,
+        "n_target_residues": 21
+      },
+      "5.0": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.30303030303030304,
+        "n_target_residues": 24
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.49092843161984545,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_8/her2_caplacizumab_longH3_8_generated.cif",
+    "structure_sha256": "bd412e64af94226ce2c387a047aebf5d10c55a60cde102f7313a581e1fda458a",
+    "sequence_sha256": "209ac5f6e88e134cee8688bedf1ba1ce2db4600f52d3442902ec059c8822050b",
+    "official_validation": "pending"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_9_generated",
+    "generation_id": "her2_caplacizumab_longH3_9_generated",
+    "source_arm": "rfd4-antibody-her2-longH3",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGPTFSSYTMGWFRQAPGKGRELVANITSGGSTTYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCKATVSTPKTVTYQGKPVSTTEYSEYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 130,
+    "numbering_confidence": 0.7684035301208496,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "KATVSTPKTVTYQGKPVSTTEYSEY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.3684210526315789,
+        "jaccard": 0.28,
+        "n_target_residues": 13
+      },
+      "4.5": {
+        "recall": 0.42105263157894735,
+        "jaccard": 0.27586206896551724,
+        "n_target_residues": 18
+      },
+      "5.0": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.2903225806451613,
+        "n_target_residues": 21
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.51148481085348,
+    "hotspot_obedience": "0.75",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-antibody-her2-longH3/design/generation/inference_samples/her2_caplacizumab_longH3_9/her2_caplacizumab_longH3_9_generated.cif",
+    "structure_sha256": "16974e27858892db9721921feda1c3e9ee856a49bd6f96589020ef88be9ea79a",
+    "sequence_sha256": "84cfcb5d1c8347ad0ab189f814ac201cc17d6fd221d40d75291f913670ee6704",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k1__her2_variable_sequence_0_generated",
+    "generation_id": "her2_variable_sequence_0_generated",
+    "source_arm": "rfd4-variable-sequence-k1",
+    "format": "VHH",
+    "heavy_variable": "DVQLVESGGGLVQPGGSLRLSCTSSGRAFDGYTMGWYRQAPGRERELVALITRSGDTYYPDSVRGRFTISRDNAKSTVYLQMNSLRLEDTAVYYCAAFDYKQLLKSPVDSRDSTIYNPAEYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 131,
+    "numbering_confidence": 0.7564347386360168,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AAFDYKQLLKSPVDSRDSTIYNPAEY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.2647058823529412,
+        "n_target_residues": 24
+      },
+      "4.5": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.23076923076923078,
+        "n_target_residues": 29
+      },
+      "5.0": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.21951219512195122,
+        "n_target_residues": 31
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.3844227765201225,
+    "hotspot_obedience": "0.75",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_0/her2_variable_sequence_0_generated.cif",
+    "structure_sha256": "fa6c50e0633fa0ce9ba01090bb15dc25a462906f8f8f391606fb27072b6ce43d",
+    "sequence_sha256": "1fa4ce8535fafb026c524f1cabdf80cd248bdb8b588d9471be17ce3e8a59cd6b",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k1__her2_variable_sequence_1_generated",
+    "generation_id": "her2_variable_sequence_1_generated",
+    "source_arm": "rfd4-variable-sequence-k1",
+    "format": "VHH",
+    "heavy_variable": "MITLVESGGGLVQPGGSLRLTCAASGNTFSAYDMRWYRQAAGKQRELVSIISSGGSTTWAPDSVKGRFTISRDDAKSTVYLQMNSLKAEDTAIYYCYTRTGAKIDSHSSYPGGISYRYWGQGTQVTVL",
+    "light_variable": "",
+    "length": 128,
+    "numbering_confidence": 0.6898342967033386,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "YTRTGAKIDSHSSYPGGISYRY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.2631578947368421,
+        "jaccard": 0.16129032258064516,
+        "n_target_residues": 17
+      },
+      "4.5": {
+        "recall": 0.3684210526315789,
+        "jaccard": 0.1891891891891892,
+        "n_target_residues": 25
+      },
+      "5.0": {
+        "recall": 0.42105263157894735,
+        "jaccard": 0.20512820512820512,
+        "n_target_residues": 28
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.3084421531389524,
+    "hotspot_obedience": "0.75",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_1/her2_variable_sequence_1_generated.cif",
+    "structure_sha256": "b760160697672dd0b09f49ff93f11721313a752c92fd9a47ab908bd5c73b1c81",
+    "sequence_sha256": "b863755d3058616784f68fc73e6309cce90383b6a66769d38817cf1468dcdab4",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k1__her2_variable_sequence_10_generated",
+    "generation_id": "her2_variable_sequence_10_generated",
+    "source_arm": "rfd4-variable-sequence-k1",
+    "format": "VHH",
+    "heavy_variable": "QIDLTESGGGVVQPGGNLKLTCQARGGKFSHFAVGWFRQAPGRERELVAKISSGGSTYYPDSVKGRFTISRDDARSAVYLAMNSLRPEDTAVYYCAATDPEWISRESVTSSLDSFQGWGQGTQVTVS",
+    "light_variable": "",
+    "length": 127,
+    "numbering_confidence": 0.7085591554641724,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AATDPEWISRESVTSSLDSFQG",
+    "footprint": {
+      "4.0": {
+        "recall": 0.42105263157894735,
+        "jaccard": 0.25806451612903225,
+        "n_target_residues": 20
+      },
+      "4.5": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.3125,
+        "n_target_residues": 23
+      },
+      "5.0": {
+        "recall": 0.5789473684210527,
+        "jaccard": 0.34375,
+        "n_target_residues": 24
+      }
+    },
+    "cross_chain_pairs_under_2A": 1,
+    "antigen_rigid_rmsd": 0.28131261012196107,
+    "hotspot_obedience": "0.75",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_10/her2_variable_sequence_10_generated.cif",
+    "structure_sha256": "6f9fa98245ef599acade7579e4df0b835ca445c57ccb2a7e618b26f3c1a083b9",
+    "sequence_sha256": "734d6938247913b5abceb2f971edfd8faad9829038440af1b0cb0ea8c0c81147",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k1__her2_variable_sequence_11_generated",
+    "generation_id": "her2_variable_sequence_11_generated",
+    "source_arm": "rfd4-variable-sequence-k1",
+    "format": "VHH",
+    "heavy_variable": "QVQLVESGGGLVQPGGSLRLSCAASGGAFSNYYIGWYRQAPGKERELVASINGSGSHTWSPDSVKGRFTISRDNARNMVYLQMNSLRPEDTANYYCAKLYSWAYNLDDKGNWIHSYSDDYVWGQGTQVTVS",
+    "light_variable": "",
+    "length": 131,
+    "numbering_confidence": 0.7259677052497864,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AKLYSWAYNLDDKGNWIHSYSDDYV",
+    "footprint": {
+      "4.0": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.2571428571428571,
+        "n_target_residues": 25
+      },
+      "4.5": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.25,
+        "n_target_residues": 26
+      },
+      "5.0": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.2702702702702703,
+        "n_target_residues": 28
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.34210458391413856,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_11/her2_variable_sequence_11_generated.cif",
+    "structure_sha256": "164f9905f0830594338fe5be108be7c8bcd988e2b37449444d33fe95ab24c0b4",
+    "sequence_sha256": "ad65d98902385eeb4c9d18af825954e2b4eb5ac62650c0adc0b90341420a19fb",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k1__her2_variable_sequence_12_generated",
+    "generation_id": "her2_variable_sequence_12_generated",
+    "source_arm": "rfd4-variable-sequence-k1",
+    "format": "VHH",
+    "heavy_variable": "EVQLQESGGGLVQPGGSLRLSCASSGQSFSDYAMGWFRQAPGQKRTLVAAITPAGKVYFPDSVRGRFTISRDDAASSVFLQMNSLKPEDTAVYFCAATKRLNVSAWKSPVEWSHWGQGTQVTVS",
+    "light_variable": "",
+    "length": 124,
+    "numbering_confidence": 0.7153832316398621,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AATKRLNVSAWKSPVEWSH",
+    "footprint": {
+      "4.0": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.4090909090909091,
+        "n_target_residues": 12
+      },
+      "4.5": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.4166666666666667,
+        "n_target_residues": 15
+      },
+      "5.0": {
+        "recall": 0.5789473684210527,
+        "jaccard": 0.4230769230769231,
+        "n_target_residues": 18
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.42709581753371867,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_12/her2_variable_sequence_12_generated.cif",
+    "structure_sha256": "f33456f49b23c0fdf3e46266884b72b2bca95889bc82b0cfab1a6f6b85cd4eac",
+    "sequence_sha256": "e08a6896d0a6c3c3a370da3f1c54730cae158194eb903a384895608946c4584f",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k1__her2_variable_sequence_13_generated",
+    "generation_id": "her2_variable_sequence_13_generated",
+    "source_arm": "rfd4-variable-sequence-k1",
+    "format": "VHH",
+    "heavy_variable": "EVQLQESGGGVVQPGGSLRLSCAASGHTFTRFAMGWFRQHPGKERELVAYIDTEGHTWFPSSVKGRFTISRDNAKNNVFLQMNSLRPEDTAVYYCATGKWHESRRVFWINRMSTTDDMDYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 130,
+    "numbering_confidence": 0.7636774182319641,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "ATGKWHESRRVFWINRMSTTDDMDY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.5789473684210527,
+        "jaccard": 0.5238095238095238,
+        "n_target_residues": 13
+      },
+      "4.5": {
+        "recall": 0.5789473684210527,
+        "jaccard": 0.5238095238095238,
+        "n_target_residues": 13
+      },
+      "5.0": {
+        "recall": 0.5789473684210527,
+        "jaccard": 0.5238095238095238,
+        "n_target_residues": 13
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.3057628183562575,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_13/her2_variable_sequence_13_generated.cif",
+    "structure_sha256": "3e334e5059a9abecb74600aa02ac4715d282f46c31133986c73f6b9b173812b3",
+    "sequence_sha256": "60cc80abe78693234693a81eee19ccfc952a67138f1fce697d5efa02e68201e3",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k1__her2_variable_sequence_14_generated",
+    "generation_id": "her2_variable_sequence_14_generated",
+    "source_arm": "rfd4-variable-sequence-k1",
+    "format": "VHH",
+    "heavy_variable": "QLQLIESGGGLVQPGGVLRLTCAASGATFTDYDMGWYRQAPGKGRELVASITSGGNTYFPDSVQGRFTISRDNAKNLVYLHMRSLKPEDTAVYYCNAKSIGSRQVIDDEGYSRWSYDDYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 129,
+    "numbering_confidence": 0.7361771464347839,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "NAKSIGSRQVIDDEGYSRWSYDDY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.3684210526315789,
+        "jaccard": 0.30434782608695654,
+        "n_target_residues": 11
+      },
+      "4.5": {
+        "recall": 0.42105263157894735,
+        "jaccard": 0.27586206896551724,
+        "n_target_residues": 18
+      },
+      "5.0": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.30303030303030304,
+        "n_target_residues": 24
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.30722779641810605,
+    "hotspot_obedience": "0.75",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_14/her2_variable_sequence_14_generated.cif",
+    "structure_sha256": "5964d1e6b45d04f277e18b7e70a0f5c4ef0b19a2b147e4e9c15886038154ab07",
+    "sequence_sha256": "e3c90833fd1deaf10a67760a81eada02302f1b3e0e05f9979da22fb115f36b25",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k1__her2_variable_sequence_15_generated",
+    "generation_id": "her2_variable_sequence_15_generated",
+    "source_arm": "rfd4-variable-sequence-k1",
+    "format": "VHH",
+    "heavy_variable": "QVQLQESGGGLVQPGGSLRLSCVASGRTFTKLAMGWYRQPPGRQRELVASITSGGVTNYPDSVKGRFTISRDNAKNTVYLQMNNLKAEDTAIYYCQASNYTSVTSSSHSPRLSTDVTDTYWGQGTTVTVS",
+    "light_variable": "",
+    "length": 130,
+    "numbering_confidence": 0.735983669757843,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "QASNYTSVTSSSHSPRLSTDVTDTY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.2631578947368421,
+        "jaccard": 0.19230769230769232,
+        "n_target_residues": 12
+      },
+      "4.5": {
+        "recall": 0.3157894736842105,
+        "jaccard": 0.1935483870967742,
+        "n_target_residues": 18
+      },
+      "5.0": {
+        "recall": 0.3684210526315789,
+        "jaccard": 0.20588235294117646,
+        "n_target_residues": 22
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.4109212953573132,
+    "hotspot_obedience": "0.5",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_15/her2_variable_sequence_15_generated.cif",
+    "structure_sha256": "a87de7e5d45c730fb9b195c4807209560e1275fc60f9bd13112ce3326725fe74",
+    "sequence_sha256": "d513e4eded2a8dda43f1d308d655bdabf1d2f86c037d7fe8af08d5774bb872cb",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k1__her2_variable_sequence_2_generated",
+    "generation_id": "her2_variable_sequence_2_generated",
+    "source_arm": "rfd4-variable-sequence-k1",
+    "format": "VHH",
+    "heavy_variable": "QVQLQESGGGLVRPGGSLRLTCAASGDTFNKYAMGWFRQAPGKSLELVASISSSARSTYAPDTVKGRFTISRDNSKSVVYLQMNSLKLEDTADYFCAGHLGFNGYSSDVSTKEYGAFREVGFRYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 134,
+    "numbering_confidence": 0.7624242901802063,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AGHLGFNGYSSDVSTKEYGAFREVGFRY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.3684210526315789,
+        "jaccard": 0.20588235294117646,
+        "n_target_residues": 22
+      },
+      "4.5": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.2571428571428571,
+        "n_target_residues": 25
+      },
+      "5.0": {
+        "recall": 0.5789473684210527,
+        "jaccard": 0.2894736842105263,
+        "n_target_residues": 30
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.3004702575971029,
+    "hotspot_obedience": "0.75",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_2/her2_variable_sequence_2_generated.cif",
+    "structure_sha256": "0042b9982dbf349aee2fdacb0908829617a842f320c4b0a175894e7846c81587",
+    "sequence_sha256": "2a4eef26db92c132fd47aeee8df62d64830562dc19db196b24b18847ae56cf78",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k1__her2_variable_sequence_3_generated",
+    "generation_id": "her2_variable_sequence_3_generated",
+    "source_arm": "rfd4-variable-sequence-k1",
+    "format": "VHH",
+    "heavy_variable": "EVLLVESGGGLVQPGGSLRLSCAASGPTFDRRSVGWFRQAPGKEKEGVASISGDGSRTSMPNTVKGRFTISRDNAKNMVFLQMNSLKAEDTAVYYCASTASDRTADVIFERRVANFDYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 128,
+    "numbering_confidence": 0.7194862365722656,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "ASTASDRTADVIFERRVANFDY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.42105263157894735,
+        "jaccard": 0.36363636363636365,
+        "n_target_residues": 11
+      },
+      "4.5": {
+        "recall": 0.42105263157894735,
+        "jaccard": 0.34782608695652173,
+        "n_target_residues": 12
+      },
+      "5.0": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.391304347826087,
+        "n_target_residues": 13
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.3106330973235431,
+    "hotspot_obedience": "0.75",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_3/her2_variable_sequence_3_generated.cif",
+    "structure_sha256": "f942049a0b8ea5dac007d61440a935dba72ef522eca1d39c0ac2caba5811fe2f",
+    "sequence_sha256": "98688f611ee85682eb66ed0823badea085cc1363fee8d12efc8e76c3335fa1f8",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k1__her2_variable_sequence_4_generated",
+    "generation_id": "her2_variable_sequence_4_generated",
+    "source_arm": "rfd4-variable-sequence-k1",
+    "format": "VHH",
+    "heavy_variable": "QVQLVETGGGLVKPGGNLRLSCTASGLTFSSYGIGWFRQAPGKERELVADISSSGRKTWYPDSVKGRFTISRDNAKDTVHLQMNSLRPEDSAVYYCAAASRRISHTATIANYDYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 124,
+    "numbering_confidence": 0.7681500315666199,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AAASRRISHTATIANYDY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.7894736842105263,
+        "jaccard": 0.625,
+        "n_target_residues": 20
+      },
+      "4.5": {
+        "recall": 0.8421052631578947,
+        "jaccard": 0.5925925925925926,
+        "n_target_residues": 24
+      },
+      "5.0": {
+        "recall": 0.8421052631578947,
+        "jaccard": 0.5161290322580645,
+        "n_target_residues": 28
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.3395617704006075,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_4/her2_variable_sequence_4_generated.cif",
+    "structure_sha256": "24ebd54397f6e239c9b68195851c9bb4ab551622134984230183a0902e4a5b19",
+    "sequence_sha256": "e4d8963cc6940ddc22fa951ed90aae11a711af4d77f27cd5ae0fd5475314a992",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k1__her2_variable_sequence_5_generated",
+    "generation_id": "her2_variable_sequence_5_generated",
+    "source_arm": "rfd4-variable-sequence-k1",
+    "format": "VHH",
+    "heavy_variable": "MVQLVESGGGLVEPGGSLRLTCAASGYEVATYAMGWFRQALGRERELVAAISADGGYTFYPDSVKGRFTISRDNAKNQVFLQMDSLKTEDTAVYYCAARPPYYVVRKEYWGQYMYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 125,
+    "numbering_confidence": 0.7297587990760803,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AARPPYYVVRKEYWGQYMY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.42105263157894735,
+        "jaccard": 0.27586206896551724,
+        "n_target_residues": 18
+      },
+      "4.5": {
+        "recall": 0.5789473684210527,
+        "jaccard": 0.34375,
+        "n_target_residues": 24
+      },
+      "5.0": {
+        "recall": 0.6842105263157895,
+        "jaccard": 0.3939393939393939,
+        "n_target_residues": 27
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.3730070801722165,
+    "hotspot_obedience": "0.75",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_5/her2_variable_sequence_5_generated.cif",
+    "structure_sha256": "75f08882ee39eb2b75673d4223b42848461236855cc62e1c1d518d52ff823705",
+    "sequence_sha256": "d21efed52c37d7831c9ec0de35599d986e7678d7f2baa5f0db259de51f67a55a",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k1__her2_variable_sequence_6_generated",
+    "generation_id": "her2_variable_sequence_6_generated",
+    "source_arm": "rfd4-variable-sequence-k1",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCASSGGSFDRAAFGWYRQAPGKERELVASISGSGSSTYYPDVVKGRFTISRDNAQRSVFLQMNSLKVEDTAVYFCNAKNLHGYNAMVSGQVIQSYHYEEAWGQGTQVTVS",
+    "light_variable": "",
+    "length": 131,
+    "numbering_confidence": 0.6887946128845215,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "NAKNLHGYNAMVSGQVIQSYHYEEA",
+    "footprint": {
+      "4.0": {
+        "recall": 0.2631578947368421,
+        "jaccard": 0.19230769230769232,
+        "n_target_residues": 12
+      },
+      "4.5": {
+        "recall": 0.3157894736842105,
+        "jaccard": 0.23076923076923078,
+        "n_target_residues": 13
+      },
+      "5.0": {
+        "recall": 0.3157894736842105,
+        "jaccard": 0.20689655172413793,
+        "n_target_residues": 16
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.3259717994716122,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_6/her2_variable_sequence_6_generated.cif",
+    "structure_sha256": "b729416e8333529c894059157b92ef8d60774ace34d62988f63fef0f2baa028a",
+    "sequence_sha256": "91b2ebb1196552921b8b2b1210ea27f03e7cf3bfce278c6c6c3540716241feb2",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k1__her2_variable_sequence_7_generated",
+    "generation_id": "her2_variable_sequence_7_generated",
+    "source_arm": "rfd4-variable-sequence-k1",
+    "format": "VHH",
+    "heavy_variable": "EVHLVESGGGLVQPGGSLRLTCVASGRTFSTYSIAWFRQTPGKQRERVAAINSDGSSTSYPDSVKGRFTISRDNAKNSVYLQMNGLRIEDSAVYYCAAGREYTRVGSSLLLYYDHWGHGTQVTVS",
+    "light_variable": "",
+    "length": 125,
+    "numbering_confidence": 0.7420340180397034,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AAGREYTRVGSSLLLYYDH",
+    "footprint": {
+      "4.0": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.43478260869565216,
+        "n_target_residues": 14
+      },
+      "4.5": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.4166666666666667,
+        "n_target_residues": 15
+      },
+      "5.0": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.4,
+        "n_target_residues": 16
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.4509890873308854,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_7/her2_variable_sequence_7_generated.cif",
+    "structure_sha256": "c7744e72388c3e3f1eb9b2bba4b7e416f29a17ffe2d2dd664feb4fd7cbc8ebfe",
+    "sequence_sha256": "a576b1cd62d031e939c73b2f4beeb920d50b49bcbe3e5ffa23ac85db57d02ac5",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k1__her2_variable_sequence_8_generated",
+    "generation_id": "her2_variable_sequence_8_generated",
+    "source_arm": "rfd4-variable-sequence-k1",
+    "format": "VHH",
+    "heavy_variable": "ELQLVESGGGLVQPGGSLRLSCAASGTSIRDLDVGWYRQAPGKQRELVALIFSDGSTFYPSSVKGRFTISRDNSTNTVYLQMNSLRPEDTAVYFCSASVPRELEYTDTVTGMTLHTHQFEIHWGQGTQVTVS",
+    "light_variable": "",
+    "length": 132,
+    "numbering_confidence": 0.7145115733146667,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "SASVPRELEYTDTVTGMTLHTHQFEIH",
+    "footprint": {
+      "4.0": {
+        "recall": 0.3157894736842105,
+        "jaccard": 0.2,
+        "n_target_residues": 17
+      },
+      "4.5": {
+        "recall": 0.3157894736842105,
+        "jaccard": 0.1935483870967742,
+        "n_target_residues": 18
+      },
+      "5.0": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.2727272727272727,
+        "n_target_residues": 23
+      }
+    },
+    "cross_chain_pairs_under_2A": 1,
+    "antigen_rigid_rmsd": 0.37008800758831123,
+    "hotspot_obedience": "0.75",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_8/her2_variable_sequence_8_generated.cif",
+    "structure_sha256": "faac7b061d7750f29e77e3270edc72a2df08d69593399205ef9ce3f72fdaad90",
+    "sequence_sha256": "f7f32a5616d76160c76407fac06db4da08784b24f305a00fdf6a3a2152fa5770",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k1__her2_variable_sequence_9_generated",
+    "generation_id": "her2_variable_sequence_9_generated",
+    "source_arm": "rfd4-variable-sequence-k1",
+    "format": "VHH",
+    "heavy_variable": "MVQLQESGGGTVQPGGTLRLSCAASGGVFSSAAMAWYRQAPGKGRTLVAYIRPDGTSDFPDSVKGRFTISRDNAKKMVYLQMNSLKTEDTADYFCKSSTISPFTMPWQGQAVRTCGFYDAWGQGTQVTVN",
+    "light_variable": "",
+    "length": 130,
+    "numbering_confidence": 0.6997795701026917,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 3,
+    "cdrh3_imgt": "KSSTISPFTMPWQGQAVRTCGFYDA",
+    "footprint": {
+      "4.0": {
+        "recall": 0.3684210526315789,
+        "jaccard": 0.22580645161290322,
+        "n_target_residues": 19
+      },
+      "4.5": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.29411764705882354,
+        "n_target_residues": 25
+      },
+      "5.0": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.2857142857142857,
+        "n_target_residues": 26
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.40815338909739385,
+    "hotspot_obedience": "0.75",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k1/design/generation/inference_samples/her2_variable_sequence_9/her2_variable_sequence_9_generated.cif",
+    "structure_sha256": "c720b3169497c6c111eb610bb87d1ef4934d3a6da4fc955f22937d3e989c747c",
+    "sequence_sha256": "932e50fa068d7c175f3832f4205f196b3f9a81710276518be2a5e6ca07a484db",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k2__her2_variable_sequence_0_generated",
+    "generation_id": "her2_variable_sequence_0_generated",
+    "source_arm": "rfd4-variable-sequence-k2",
+    "format": "VHH",
+    "heavy_variable": "DVQLVESGGGLVQPGGSLRLSCAASGRTFSDYDMGWYRQAPGRGRELVAHIGRTGTTWYPDSVKGRFTISRDNAKSTVYLQMNSLRPEDTAVYYCNAYRGGYDYRDSSGVLNWMPYDPTEYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 131,
+    "numbering_confidence": 0.7755805253982544,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "NAYRGGYDYRDSSGVLNWMPYDPTEY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.3684210526315789,
+        "jaccard": 0.23333333333333334,
+        "n_target_residues": 18
+      },
+      "4.5": {
+        "recall": 0.42105263157894735,
+        "jaccard": 0.24242424242424243,
+        "n_target_residues": 22
+      },
+      "5.0": {
+        "recall": 0.42105263157894735,
+        "jaccard": 0.21052631578947367,
+        "n_target_residues": 27
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.42556041836416675,
+    "hotspot_obedience": "0.5",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_0/her2_variable_sequence_0_generated.cif",
+    "structure_sha256": "64b2f153da2fa5fb08c47fc5e7c2419df0af24b07b76feee5490a92911a86cf8",
+    "sequence_sha256": "1845bf37e7ebf77ebf31312cb7cf83c4680ec7e1f8806d953aa3824838efbc97",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k2__her2_variable_sequence_1_generated",
+    "generation_id": "her2_variable_sequence_1_generated",
+    "source_arm": "rfd4-variable-sequence-k2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSSYAMSWYRQAPGKERELVAAISSSGSNTWHPDSVKGRFTISRDNAKNTVYLQMNSLRVEDTAVYYCFTRTGYNWDSSAPLRDHDSVEYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 128,
+    "numbering_confidence": 0.7754343748092651,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "FTRTGYNWDSSAPLRDHDSVEY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.2631578947368421,
+        "jaccard": 0.15151515151515152,
+        "n_target_residues": 19
+      },
+      "4.5": {
+        "recall": 0.2631578947368421,
+        "jaccard": 0.1388888888888889,
+        "n_target_residues": 22
+      },
+      "5.0": {
+        "recall": 0.3157894736842105,
+        "jaccard": 0.15789473684210525,
+        "n_target_residues": 25
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.3886436171966744,
+    "hotspot_obedience": "0.75",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_1/her2_variable_sequence_1_generated.cif",
+    "structure_sha256": "b991668a582a115ad42202fd69307d596ad88ad3c5cb3a0b2886d9580bb002b7",
+    "sequence_sha256": "3b55d91ae56c28efab29b20bbcee05f1f9b2d452aca36f6ef7c578d1d5cf98cc",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k2__her2_variable_sequence_10_generated",
+    "generation_id": "her2_variable_sequence_10_generated",
+    "source_arm": "rfd4-variable-sequence-k2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLTCAASGRTFSDYGVGWFRQAPGRERELVAYISSGGSTYYPDSVKGRFTISRDNAKNTVYLQMNSLRPEDTAVYYCAATRPPHLYTESITGTLDAFAYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 127,
+    "numbering_confidence": 0.8114091753959656,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AATRPPHLYTESITGTLDAFAY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.3448275862068966,
+        "n_target_residues": 20
+      },
+      "4.5": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.3448275862068966,
+        "n_target_residues": 20
+      },
+      "5.0": {
+        "recall": 0.5789473684210527,
+        "jaccard": 0.3793103448275862,
+        "n_target_residues": 21
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.2781034683007721,
+    "hotspot_obedience": "0.75",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_10/her2_variable_sequence_10_generated.cif",
+    "structure_sha256": "8087c8c7a34e756a2db4cea9736c442438dcb0028ead2437b1e7364a7a28923b",
+    "sequence_sha256": "373ab538dadc9441ee659e481089f9c74d9b41f5e3bdab54db36065d48a0bee7",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k2__her2_variable_sequence_11_generated",
+    "generation_id": "her2_variable_sequence_11_generated",
+    "source_arm": "rfd4-variable-sequence-k2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSNYGMSWYRQAPGKERELVAYISSSGSYTYSPDSVKGRFTISRDNAKNTVYLQMNSLRPEDTAVYYCNARPWYSYELDDSGNWIYYYSTDEYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 131,
+    "numbering_confidence": 0.7639972567558289,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "NARPWYSYELDDSGNWIYYYSTDEY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.3684210526315789,
+        "jaccard": 0.2413793103448276,
+        "n_target_residues": 17
+      },
+      "4.5": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.2571428571428571,
+        "n_target_residues": 25
+      },
+      "5.0": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.2777777777777778,
+        "n_target_residues": 27
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.38755784932723525,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_11/her2_variable_sequence_11_generated.cif",
+    "structure_sha256": "be4ff7544363fad82c665071530db605eb62653b714274b8bef5920b777037d1",
+    "sequence_sha256": "aec32427d5c4499a58329f8aa72d30fe32f061ea8ee609cea5f01b1b1a433b62",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k2__her2_variable_sequence_12_generated",
+    "generation_id": "her2_variable_sequence_12_generated",
+    "source_arm": "rfd4-variable-sequence-k2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGKTFSDFTMGWFRQAPGKERELVAAINSGGSTYYPDSVKGRFTISRDNAKNTVYLQMNSLKPEDTAVYYCAAMETNSSTFPTSPSEYSYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 124,
+    "numbering_confidence": 0.8046942353248596,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AAMETNSSTFPTSPSEYSY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.3684210526315789,
+        "jaccard": 0.3181818181818182,
+        "n_target_residues": 10
+      },
+      "4.5": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.45454545454545453,
+        "n_target_residues": 13
+      },
+      "5.0": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.43478260869565216,
+        "n_target_residues": 14
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.5216846208167752,
+    "hotspot_obedience": "0.75",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_12/her2_variable_sequence_12_generated.cif",
+    "structure_sha256": "75fd2962b2b8921ced4e99c6cb9a7e0c6c3eb30c83413417e16f582c63fcd088",
+    "sequence_sha256": "2dae8d56b7f83af5e4b3d89ce7cf9f21a3403f761207c5c890aa05c650a46f1d",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k2__her2_variable_sequence_13_generated",
+    "generation_id": "her2_variable_sequence_13_generated",
+    "source_arm": "rfd4-variable-sequence-k2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSRYAMGWFRQAPGKERELVAAISSRGNTYYPDSVKGRFTISRDNAKNMVYLQMNSLKPEDTAVYYCAAKKPHSSLGYASVGYWNTEDDFDYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 130,
+    "numbering_confidence": 0.8095279932022095,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AAKKPHSSLGYASVGYWNTEDDFDY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.5263157894736842,
+        "n_target_residues": 10
+      },
+      "4.5": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.4166666666666667,
+        "n_target_residues": 15
+      },
+      "5.0": {
+        "recall": 0.5789473684210527,
+        "jaccard": 0.44,
+        "n_target_residues": 17
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.32859752335282777,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_13/her2_variable_sequence_13_generated.cif",
+    "structure_sha256": "c69e90639dc98ab7ac9fcb245fe4351843e96a17117b09369359a49f49016fa6",
+    "sequence_sha256": "9656992349b865dc68b6f749c74601ed86f13defea01198e0a34ffa5d2663da5",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k2__her2_variable_sequence_14_generated",
+    "generation_id": "her2_variable_sequence_14_generated",
+    "source_arm": "rfd4-variable-sequence-k2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGRTFTDYDMGWYRQAPGKERELVASITSGGNTYYPDSVKGRFTISRDNAKNTVYLQMNSLKPEDTAVYYCNARKPTPTDHIDSDGYPLWLYDDYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 129,
+    "numbering_confidence": 0.7787883877754211,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "NARKPTPTDHIDSDGYPLWLYDDY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.3684210526315789,
+        "jaccard": 0.2916666666666667,
+        "n_target_residues": 12
+      },
+      "4.5": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.2903225806451613,
+        "n_target_residues": 21
+      },
+      "5.0": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.2857142857142857,
+        "n_target_residues": 26
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.39953463791997906,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_14/her2_variable_sequence_14_generated.cif",
+    "structure_sha256": "a00b7293878417493f8dade9873b486b8c28d8d36826fe03772e0bb9c042fab5",
+    "sequence_sha256": "ab5c9a68de0499e83ed883ddcb5716196c80330fb21dc927ce3853d567c27b5c",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k2__her2_variable_sequence_15_generated",
+    "generation_id": "her2_variable_sequence_15_generated",
+    "source_arm": "rfd4-variable-sequence-k2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGRSISNYAMGWYRQAPGRERELVAMIWSGGSTYYPDSVKGRFTISRDNAKNSVYLQMNSLRAEDTAVYYCNTSVPDSRLSGSTAAMTSSDALVDFWGQGTQVTVS",
+    "light_variable": "",
+    "length": 130,
+    "numbering_confidence": 0.790256679058075,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "NTSVPDSRLSGSTAAMTSSDALVDF",
+    "footprint": {
+      "4.0": {
+        "recall": 0.3157894736842105,
+        "jaccard": 0.20689655172413793,
+        "n_target_residues": 16
+      },
+      "4.5": {
+        "recall": 0.3157894736842105,
+        "jaccard": 0.1875,
+        "n_target_residues": 19
+      },
+      "5.0": {
+        "recall": 0.3157894736842105,
+        "jaccard": 0.16666666666666666,
+        "n_target_residues": 23
+      }
+    },
+    "cross_chain_pairs_under_2A": 1,
+    "antigen_rigid_rmsd": 0.524151502636681,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_15/her2_variable_sequence_15_generated.cif",
+    "structure_sha256": "ee6fe7f01c88f6867b137c4255cb2ffa652f7a610d70b94a908447e1f35fc0aa",
+    "sequence_sha256": "0de4e6c28dc51bd45f53bec8d8478b1ce1a8f76a6e6b4926bbf06abf72cd5c9b",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k2__her2_variable_sequence_2_generated",
+    "generation_id": "her2_variable_sequence_2_generated",
+    "source_arm": "rfd4-variable-sequence-k2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGLTFSDYAMGWFRQAPGKERELVASISSSGSWTYAPDSVKGRFTISRDNAKNTVYLQMNSLKPEDTAVYYCAARLAAPASRSYRGETLSADTYTGSFDYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 134,
+    "numbering_confidence": 0.7943017482757568,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AARLAAPASRSYRGETLSADTYTGSFDY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.3684210526315789,
+        "jaccard": 0.2,
+        "n_target_residues": 23
+      },
+      "4.5": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.21951219512195122,
+        "n_target_residues": 31
+      },
+      "5.0": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.2222222222222222,
+        "n_target_residues": 36
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.3639712581727259,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_2/her2_variable_sequence_2_generated.cif",
+    "structure_sha256": "5ed61164dce72cc130fff6a4188ba886c4959847b97cd7a6356a23c6fc5ee00d",
+    "sequence_sha256": "a9cdb4ee4464460351257db4e903078ff72ae2e885c9ef4c69fa190cd5664cd2",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k2__her2_variable_sequence_3_generated",
+    "generation_id": "her2_variable_sequence_3_generated",
+    "source_arm": "rfd4-variable-sequence-k2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSYYAMGWFRQAPGKEREGVAAISSSGSYTYSPDSVKGRFTISRDNAKNTVYLQMNSLKPEDTAVYYCAARYDPSGSSYYWVRNVDNADYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 128,
+    "numbering_confidence": 0.7715560793876648,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AARYDPSGSSYYWVRNVDNADY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.42105263157894735,
+        "jaccard": 0.4,
+        "n_target_residues": 9
+      },
+      "4.5": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.391304347826087,
+        "n_target_residues": 13
+      },
+      "5.0": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.36,
+        "n_target_residues": 15
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.3096689116617755,
+    "hotspot_obedience": "0.75",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_3/her2_variable_sequence_3_generated.cif",
+    "structure_sha256": "d7628940183065b997a131a9f29a9ce37f4ede60653081ad3a48c68bf9adf8ad",
+    "sequence_sha256": "891844be3e5f3d12853ca364cdd47f5103cd34b2ae38947565fc16dfadc86926",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k2__her2_variable_sequence_4_generated",
+    "generation_id": "her2_variable_sequence_4_generated",
+    "source_arm": "rfd4-variable-sequence-k2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSYYGMGWFRQAPGKERELVASINSSGTKTYYPDSVKGRFTISRDNAKNTVYLQMNSLRPEDTAVYYCAAARRSGTINSVLEAYDYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 124,
+    "numbering_confidence": 0.8004387021064758,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AAARRSGTINSVLEAYDY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.7894736842105263,
+        "jaccard": 0.6818181818181818,
+        "n_target_residues": 18
+      },
+      "4.5": {
+        "recall": 0.7894736842105263,
+        "jaccard": 0.6521739130434783,
+        "n_target_residues": 19
+      },
+      "5.0": {
+        "recall": 0.7894736842105263,
+        "jaccard": 0.5769230769230769,
+        "n_target_residues": 22
+      }
+    },
+    "cross_chain_pairs_under_2A": 1,
+    "antigen_rigid_rmsd": 0.41640650318698647,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_4/her2_variable_sequence_4_generated.cif",
+    "structure_sha256": "d161b4202649a332792ef6896929baa65aaba3f1b061248f801d0d970bba54c0",
+    "sequence_sha256": "ea4c077ee3059bbe0de5b72e72235de82bd48261459794ee15290af4b7a1db6b",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k2__her2_variable_sequence_5_generated",
+    "generation_id": "her2_variable_sequence_5_generated",
+    "source_arm": "rfd4-variable-sequence-k2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSTYAMGWFRQAPGKERELVASISSDGSYTYYPDSVKGRFTISRDNAKNTVYLQMNSLRPEDTAVYYCAARPNYWYASPEDWGTFQYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 125,
+    "numbering_confidence": 0.7981387376785278,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AARPNYWYASPEDWGTFQY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.3684210526315789,
+        "jaccard": 0.25,
+        "n_target_residues": 16
+      },
+      "4.5": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.3333333333333333,
+        "n_target_residues": 21
+      },
+      "5.0": {
+        "recall": 0.5789473684210527,
+        "jaccard": 0.34375,
+        "n_target_residues": 24
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.36688212118355007,
+    "hotspot_obedience": "0.75",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_5/her2_variable_sequence_5_generated.cif",
+    "structure_sha256": "fabf288bacdec42e07dbb3b8b444edc952f1c1aedb7db8ada946f7a790d0815c",
+    "sequence_sha256": "ff325ae3bdc32f92b5554c0ebdff016b9d674bf4a3110b10251ad1fa9e1c3cb9",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k2__her2_variable_sequence_6_generated",
+    "generation_id": "her2_variable_sequence_6_generated",
+    "source_arm": "rfd4-variable-sequence-k2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSHFAMGWYRQAPGKERELVASISWDGSSTYYPDSVKGRFTISRDNAKNTVYLQMNSLKPEDTAVYYCNAAEYTLETAMEDGKPIHYYTLTQYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 131,
+    "numbering_confidence": 0.765308678150177,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "NAAEYTLETAMEDGKPIHYYTLTQY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.3684210526315789,
+        "jaccard": 0.2692307692307692,
+        "n_target_residues": 14
+      },
+      "4.5": {
+        "recall": 0.42105263157894735,
+        "jaccard": 0.2857142857142857,
+        "n_target_residues": 17
+      },
+      "5.0": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.28125,
+        "n_target_residues": 22
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.38691957219890427,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_6/her2_variable_sequence_6_generated.cif",
+    "structure_sha256": "1bc8ffeff70760af942fa32ddc2a2ba63965d1801f199cd0d17ab52e3d568078",
+    "sequence_sha256": "ef009012c0403900c265432c91e18ab5f5656780f05df8faa8ddeb20e5594ef3",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k2__her2_variable_sequence_7_generated",
+    "generation_id": "her2_variable_sequence_7_generated",
+    "source_arm": "rfd4-variable-sequence-k2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSTYAMAWFRQAPGKERERVAAINSSGGTTSYPDSVKGRFTISRDNAKNTVYLQMNSLKPEDTAVYYCAAGSGSTAMPYGSVWSYDYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 125,
+    "numbering_confidence": 0.8080893754959106,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "AAGSGSTAMPYGSVWSYDY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.4166666666666667,
+        "n_target_residues": 15
+      },
+      "4.5": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.4,
+        "n_target_residues": 16
+      },
+      "5.0": {
+        "recall": 0.5263157894736842,
+        "jaccard": 0.37037037037037035,
+        "n_target_residues": 18
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.4819977059483996,
+    "hotspot_obedience": "1.0",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_7/her2_variable_sequence_7_generated.cif",
+    "structure_sha256": "14660f6eda82e91db48308ce6248fc1e7e4f0270b24a6d10656f40f3872c5098",
+    "sequence_sha256": "339c36bb8fc93d6e337a25644b8794a758dcf0fa2a6225db9942a09a62a39458",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k2__her2_variable_sequence_8_generated",
+    "generation_id": "her2_variable_sequence_8_generated",
+    "source_arm": "rfd4-variable-sequence-k2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGPSFSDYYMGWYRQAPGKERELVAYITPGGSTIYPDSVKGRFTISRDNAKNTVYLQMNSLKPEDTAVYYCNAAVPKTVTYWDDHTQEFKHATQYVDYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 132,
+    "numbering_confidence": 0.7994619607925415,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "NAAVPKTVTYWDDHTQEFKHATQYVDY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.3157894736842105,
+        "jaccard": 0.20689655172413793,
+        "n_target_residues": 16
+      },
+      "4.5": {
+        "recall": 0.42105263157894735,
+        "jaccard": 0.26666666666666666,
+        "n_target_residues": 19
+      },
+      "5.0": {
+        "recall": 0.47368421052631576,
+        "jaccard": 0.2727272727272727,
+        "n_target_residues": 23
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.49418350427718466,
+    "hotspot_obedience": "0.75",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_8/her2_variable_sequence_8_generated.cif",
+    "structure_sha256": "be283ca497b4844a3c3a818a2f6753bac898214a076dee47232799fad5e6f86f",
+    "sequence_sha256": "1a6a41c6e5bf0143ceb49bcae88740a88876ab5a9a62c93e19cdb88aa36d6e10",
+    "official_validation": "pending"
+  },
+  {
+    "query": "rfd4-variable-sequence-k2__her2_variable_sequence_9_generated",
+    "generation_id": "her2_variable_sequence_9_generated",
+    "source_arm": "rfd4-variable-sequence-k2",
+    "format": "VHH",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGPSFSSYAMGWYRQAPGKERELVASITSGGSTSYPDSVKGRFTISRDNAKNMVYLQMNSLKPEDTAVYYCKASVPTSKTVTYQGKAITTTEYTDYWGQGTQVTVS",
+    "light_variable": "",
+    "length": 130,
+    "numbering_confidence": 0.7738745808601379,
+    "detected_chain": "H",
+    "canonical_cysteines": true,
+    "cysteine_count": 2,
+    "cdrh3_imgt": "KASVPTSKTVTYQGKAITTTEYTDY",
+    "footprint": {
+      "4.0": {
+        "recall": 0.3684210526315789,
+        "jaccard": 0.25,
+        "n_target_residues": 16
+      },
+      "4.5": {
+        "recall": 0.42105263157894735,
+        "jaccard": 0.26666666666666666,
+        "n_target_residues": 19
+      },
+      "5.0": {
+        "recall": 0.42105263157894735,
+        "jaccard": 0.24242424242424243,
+        "n_target_residues": 22
+      }
+    },
+    "cross_chain_pairs_under_2A": 0,
+    "antigen_rigid_rmsd": 0.5094695773067448,
+    "hotspot_obedience": "0.75",
+    "sequence_adherence": "1.0",
+    "requested_seed": 20261114,
+    "recorded_seed": "20261114.0",
+    "checkpoint": "rfd4-proteina-antibody-2026-10-30-ema.ckpt",
+    "structure": "runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design/generation/inference_samples/her2_variable_sequence_9/her2_variable_sequence_9_generated.cif",
+    "structure_sha256": "f2e99552a1ddcd641a410cd5924d7887897e99986ad63d1454549076fc0620c6",
+    "sequence_sha256": "c6474c60e732b46c22310e73285ed1f42917b8a389bb19d2168b96e607c816c8",
+    "official_validation": "pending"
+  }
+]

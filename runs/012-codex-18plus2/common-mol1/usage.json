@@ -1,0 +1,343 @@
+{
+  "amount": 0.184992,
+  "amount_micros": 184992,
+  "billable_s": 2561.44,
+  "closed_at": "2026-11-14T14:36:14.542000+00:00",
+  "currency": "usd",
+  "excluded_s": 0.0,
+  "job": "535c038636d606d54d62bdde910af4b5",
+  "kind": "predict",
+  "links": {
+    "job": "/v1/jobs/535c038636d606d54d62bdde910af4b5"
+  },
+  "load_s": 108.14,
+  "meter": {
+    "bias": "under",
+    "bound_s": 6.0,
+    "method": "sampled-lease-integral+engine-clock-cap",
+    "sample_gap_s": 3.0,
+    "visible": true
+  },
+  "model": "mol1",
+  "name": "team14-18plus2-common-blind-mol1",
+  "object": "usage",
+  "reconcile": {
+    "agree": 1,
+    "capped": 0,
+    "checked": 1,
+    "over_engine": 0,
+    "rate": 1.0,
+    "worst_delta_s": -0.356
+  },
+  "status": "succeeded",
+  "submitted_at": "2026-11-14T14:32:21.848000+00:00",
+  "surface": "skill",
+  "targets": [
+    {
+      "amount": 0.015357,
+      "amount_micros": 15357,
+      "attempts": 1,
+      "billable_s": 212.644,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "anas_007",
+      "intervals": [
+        [
+          "2026-11-14T14:32:39.893000+00:00",
+          "2026-11-14T14:36:12.537000+00:00"
+        ]
+      ],
+      "load_s": 10.044,
+      "runtime_s": 202.6
+    },
+    {
+      "amount": 0.008765,
+      "amount_micros": 8765,
+      "attempts": 1,
+      "billable_s": 121.357,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "anas_015",
+      "intervals": [
+        [
+          "2026-11-14T14:32:59.788000+00:00",
+          "2026-11-14T14:35:01.145000+00:00"
+        ]
+      ],
+      "load_s": 5.657,
+      "runtime_s": 115.7
+    },
+    {
+      "amount": 0.008699,
+      "amount_micros": 8699,
+      "attempts": 1,
+      "billable_s": 120.446,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "anas_009",
+      "intervals": [
+        [
+          "2026-11-14T14:33:00.379000+00:00",
+          "2026-11-14T14:35:00.825000+00:00"
+        ]
+      ],
+      "load_s": 7.446,
+      "runtime_s": 113.0
+    },
+    {
+      "amount": 0.011309,
+      "amount_micros": 11309,
+      "attempts": 1,
+      "billable_s": 156.584,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "r004_cdrh3_3",
+      "intervals": [
+        [
+          "2026-11-14T14:33:22.034000+00:00",
+          "2026-11-14T14:35:58.618000+00:00"
+        ]
+      ],
+      "load_s": 7.584,
+      "runtime_s": 149.0
+    },
+    {
+      "amount": 0.015139,
+      "amount_micros": 15139,
+      "attempts": 1,
+      "billable_s": 209.614,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "anas_016",
+      "intervals": [
+        [
+          "2026-11-14T14:32:40.224000+00:00",
+          "2026-11-14T14:36:09.839000+00:00"
+        ]
+      ],
+      "load_s": 8.214,
+      "runtime_s": 201.4
+    },
+    {
+      "amount": 0.011093,
+      "amount_micros": 11093,
+      "attempts": 1,
+      "billable_s": 153.601,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "anas_028",
+      "intervals": [
+        [
+          "2026-11-14T14:33:23.964000+00:00",
+          "2026-11-14T14:35:57.564000+00:00"
+        ]
+      ],
+      "load_s": 7.101,
+      "runtime_s": 146.5
+    },
+    {
+      "amount": 0.008706,
+      "amount_micros": 8706,
+      "attempts": 1,
+      "billable_s": 120.546,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "anas_038",
+      "intervals": [
+        [
+          "2026-11-14T14:33:01.522000+00:00",
+          "2026-11-14T14:35:02.069000+00:00"
+        ]
+      ],
+      "load_s": 6.046,
+      "runtime_s": 114.5
+    },
+    {
+      "amount": 0.011023,
+      "amount_micros": 11023,
+      "attempts": 1,
+      "billable_s": 152.621,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "anas_003",
+      "intervals": [
+        [
+          "2026-11-14T14:33:25.887000+00:00",
+          "2026-11-14T14:35:58.508000+00:00"
+        ]
+      ],
+      "load_s": 5.821,
+      "runtime_s": 146.8
+    },
+    {
+      "amount": 0.008841,
+      "amount_micros": 8841,
+      "attempts": 1,
+      "billable_s": 122.417,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "anas_004",
+      "intervals": [
+        [
+          "2026-11-14T14:33:01.232000+00:00",
+          "2026-11-14T14:35:03.649000+00:00"
+        ]
+      ],
+      "load_s": 7.317,
+      "runtime_s": 115.1
+    },
+    {
+      "amount": 0.010143,
+      "amount_micros": 10143,
+      "attempts": 1,
+      "billable_s": 140.45,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "anas_036",
+      "intervals": [
+        [
+          "2026-11-14T14:33:37.370000+00:00",
+          "2026-11-14T14:35:57.820000+00:00"
+        ]
+      ],
+      "load_s": 5.45,
+      "runtime_s": 135.0
+    },
+    {
+      "amount": 0.009796,
+      "amount_micros": 9796,
+      "attempts": 1,
+      "billable_s": 135.639,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "anas_002",
+      "intervals": [
+        [
+          "2026-11-14T14:33:08.372000+00:00",
+          "2026-11-14T14:35:24.011000+00:00"
+        ]
+      ],
+      "load_s": 7.339,
+      "runtime_s": 128.3
+    },
+    {
+      "amount": 0.010437,
+      "amount_micros": 10437,
+      "attempts": 1,
+      "billable_s": 144.507,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "anas_021",
+      "intervals": [
+        [
+          "2026-11-14T14:33:33.614000+00:00",
+          "2026-11-14T14:35:58.120000+00:00"
+        ]
+      ],
+      "load_s": 3.707,
+      "runtime_s": 140.8
+    },
+    {
+      "amount": 0.009791,
+      "amount_micros": 9791,
+      "attempts": 1,
+      "billable_s": 135.576,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "anas_039",
+      "intervals": [
+        [
+          "2026-11-14T14:33:41.937000+00:00",
+          "2026-11-14T14:35:57.513000+00:00"
+        ]
+      ],
+      "load_s": 6.076,
+      "runtime_s": 129.5
+    },
+    {
+      "amount": 0.010142,
+      "amount_micros": 10142,
+      "attempts": 1,
+      "billable_s": 140.426,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "anas_014",
+      "intervals": [
+        [
+          "2026-11-14T14:33:37.050000+00:00",
+          "2026-11-14T14:35:57.476000+00:00"
+        ]
+      ],
+      "load_s": 4.626,
+      "runtime_s": 135.8
+    },
+    {
+      "amount": 0.009428,
+      "amount_micros": 9428,
+      "attempts": 1,
+      "billable_s": 130.541,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "anas_026",
+      "intervals": [
+        [
+          "2026-11-14T14:33:45.999000+00:00",
+          "2026-11-14T14:35:56.541000+00:00"
+        ]
+      ],
+      "load_s": 3.841,
+      "runtime_s": 126.7
+    },
+    {
+      "amount": 0.009644,
+      "amount_micros": 9644,
+      "attempts": 1,
+      "billable_s": 133.53,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "anas_031",
+      "intervals": [
+        [
+          "2026-11-14T14:33:09.815000+00:00",
+          "2026-11-14T14:35:23.345000+00:00"
+        ]
+      ],
+      "load_s": 5.23,
+      "runtime_s": 128.3
+    },
+    {
+      "amount": 0.008413,
+      "amount_micros": 8413,
+      "attempts": 1,
+      "billable_s": 116.484,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "anas_010",
+      "intervals": [
+        [
+          "2026-11-14T14:33:47.825000+00:00",
+          "2026-11-14T14:35:44.309000+00:00"
+        ]
+      ],
+      "load_s": 3.484,
+      "runtime_s": 113.0
+    },
+    {
+      "amount": 0.008266,
+      "amount_micros": 8266,
+      "attempts": 1,
+      "billable_s": 114.457,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "anas_040",
+      "intervals": [
+        [
+          "2026-11-14T14:33:52.760000+00:00",
+          "2026-11-14T14:35:47.217000+00:00"
+        ]
+      ],
+      "load_s": 3.157,
+      "runtime_s": 111.3
+    }
+  ]
+}

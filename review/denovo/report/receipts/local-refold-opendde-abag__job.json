@@ -1,0 +1,83 @@
+{
+  "created_at": "2026-11-14T13:45:31.317238+00:00",
+  "done": 9,
+  "download": "curl -fsSL -H \"Authorization: Bearer $JAPANFOLD_API_KEY\" -o 82ca8820a52524b3e61c3b79dc8a2a7e-results.zip https://api.japanfold.aiand.com/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/archive && unzip -oq 82ca8820a52524b3e61c3b79dc8a2a7e-results.zip",
+  "error": null,
+  "finished_at": "2026-11-14T13:51:13.982365+00:00",
+  "id": "82ca8820a52524b3e61c3b79dc8a2a7e",
+  "kind": "predict",
+  "links": {
+    "archive": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/archive",
+    "logs": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/logs",
+    "results": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/results",
+    "self": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e",
+    "usage": "/v1/jobs/82ca8820a52524b3e61c3b79dc8a2a7e/usage"
+  },
+  "model": "opendde-abag",
+  "name": "team14-her2-blind-antibody-specialist",
+  "object": "job",
+  "params": {
+    "diffusion_samples": 1,
+    "fast": false,
+    "output_format": "cif",
+    "seed": 42,
+    "use_msa_server": true,
+    "use_tfg_guidance": false,
+    "write_pae": true
+  },
+  "progress": 1.0,
+  "protocol": null,
+  "residues": 741,
+  "results_ready": true,
+  "stage": "done",
+  "started_at": "2026-11-14T13:45:40.895101+00:00",
+  "status": "succeeded",
+  "targets": [
+    {
+      "id": "novel1_crop119",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "novel1_ectodomain607",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "novel2_crop119",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "novel2_ectodomain607",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "novel3_crop119",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "novel3_ectodomain607",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "high_footprint_known_hit",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "fixed_framework_control",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "trastuzumab_wt_control",
+      "stage": null,
+      "state": "done"
+    }
+  ],
+  "total": 9
+}

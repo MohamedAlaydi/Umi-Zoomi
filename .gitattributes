@@ -5,3 +5,19 @@
 *.yaml text eol=lf
 *.py text eol=lf
 *.sh text eol=lf
+# Keep raw score receipts and replay inputs byte-identical for SHA-256 checks.
+**/score-evidence/** -text -whitespace
+*.log -text -whitespace
+*.csv -text -whitespace
+*.pdb -text -whitespace
+review/denovo/report/** -text -whitespace
+*.pdf binary
+*.png binary
+*.pptx binary
+*.joblib binary
+*.gz binary
+*.zip binary
+*.npz binary
+*.parquet binary
+# Generated Markdown summaries use intentional hard line breaks.
+runs/*/*summary.md -whitespace

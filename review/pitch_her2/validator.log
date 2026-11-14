@@ -1,0 +1,48 @@
+INFO     panel_input: 20/20 design(s) valid
+shape: (20, 5)
+┌──────────────┬────────────────────────┬────────────────────────┬────────┬────────────────────────┐
+│ sequence_id  ┆ heavy_sequence         ┆ design_description     ┆ kind   ┆ light_sequence         │
+│ ---          ┆ ---                    ┆ ---                    ┆ ---    ┆ ---                    │
+│ str          ┆ str                    ┆ str                    ┆ str    ┆ str                    │
+╞══════════════╪════════════════════════╪════════════════════════╪════════╪════════════════════════╡
+│ anas_009     ┆ EVQLVESGGGLVQPGGSLRLSC ┆ Trastuzumab            ┆ paired ┆ DIQMTQSPSSLSASVGDRVTIT │
+│              ┆ AASGFNIK…              ┆ optimisation revie…    ┆        ┆ CRASQDVN…              │
+│ anas_016     ┆ EVQLVESGGGLVQPGGSLRLSC ┆ Trastuzumab            ┆ paired ┆ DIQMTQSPSSLSASVGDRVTIT │
+│              ┆ AASGFNIK…              ┆ optimisation revie…    ┆        ┆ CRASQDVN…              │
+│ anas_027     ┆ EVQLVESGGGLVQPGGSLRLSC ┆ Trastuzumab            ┆ paired ┆ DIQMTQSPSSLSASVGDRVTIT │
+│              ┆ AASGFNIK…              ┆ optimisation revie…    ┆        ┆ CRASQDVN…              │
+│ r004_cdrh3_3 ┆ EVQLVESGGGLVQPGGSLRLSC ┆ Trastuzumab            ┆ paired ┆ DIQMTQSPSSLSASVGDRVTIT │
+│              ┆ AASGFNIK…              ┆ optimisation revie…    ┆        ┆ CRASQDVN…              │
+│ anas_028     ┆ EVQLVESGGGLVQPGGSLRLSC ┆ Trastuzumab            ┆ paired ┆ DIQMTQSPSSLSASVGDRVTIT │
+│              ┆ AASGFNIK…              ┆ optimisation revie…    ┆        ┆ CRASQDVN…              │
+│ anas_038     ┆ EVQLVESGGGLVQPGGSLRLSC ┆ Trastuzumab            ┆ paired ┆ DIQMTQSPSSLSASVGDRVTIT │
+│              ┆ AASGFNIK…              ┆ optimisation revie…    ┆        ┆ CRASQDVN…              │
+│ anas_003     ┆ EVQLVESGGGLVQPGGSLRLSC ┆ Trastuzumab            ┆ paired ┆ DIQMTQSPSSLSASVGDRVTIT │
+│              ┆ AASGFNIK…              ┆ optimisation revie…    ┆        ┆ CRASQDVN…              │
+│ anas_007     ┆ EVQLVESGGGLVQPGGSLRLSC ┆ Trastuzumab            ┆ paired ┆ DIQMTQSPSSLSASVGDRVTIT │
+│              ┆ AASGFNIK…              ┆ optimisation revie…    ┆        ┆ CRASQDVN…              │
+│ anas_004     ┆ EVQLVESGGGLVQPGGSLRLSC ┆ Trastuzumab            ┆ paired ┆ DIQMTQSPSSLSASVGDRVTIT │
+│              ┆ AASGFNIK…              ┆ optimisation revie…    ┆        ┆ CRASQDVN…              │
+│ anas_002     ┆ EVQLVESGGGLVQPGGSLRLSC ┆ Trastuzumab            ┆ paired ┆ DIQMTQSPSSLSASVGDRVTIT │
+│              ┆ AASGFNIK…              ┆ optimisation revie…    ┆        ┆ CRASQDVN…              │
+│ anas_036     ┆ EVQLVESGGGLVQPGGSLRLSC ┆ Trastuzumab            ┆ paired ┆ DIQMTQSPSSLSASVGDRVTIT │
+│              ┆ AASGFNIK…              ┆ optimisation revie…    ┆        ┆ CRASQDVN…              │
+│ anas_021     ┆ EVQLVESGGGLVQPGGSLRLSC ┆ Trastuzumab            ┆ paired ┆ DIQMTQSPSSLSASVGDRVTIT │
+│              ┆ AASGFNIK…              ┆ optimisation revie…    ┆        ┆ CRASQDVN…              │
+│ anas_015     ┆ EVQLVESGGGLVQPGGSLRLSC ┆ Trastuzumab            ┆ paired ┆ DIQMTQSPSSLSASVGDRVTIT │
+│              ┆ AASGFNIK…              ┆ optimisation revie…    ┆        ┆ CRASQDVN…              │
+│ anas_039     ┆ EVQLVESGGGLVQPGGSLRLSC ┆ Trastuzumab            ┆ paired ┆ DIQMTQSPSSLSASVGDRVTIT │
+│              ┆ AASGFNIK…              ┆ optimisation revie…    ┆        ┆ CRASQDVN…              │
+│ anas_014     ┆ EVQLVESGGGLVQPGGSLRLSC ┆ Trastuzumab            ┆ paired ┆ DIQMTQSPSSLSASVGDRVTIT │
+│              ┆ AASGFNIK…              ┆ optimisation revie…    ┆        ┆ CRASQDVN…              │
+│ anas_026     ┆ EVQLVESGGGLVQPGGSLRLSC ┆ Trastuzumab            ┆ paired ┆ DIQMTQSPSSLSASVGDRVTIT │
+│              ┆ AASGFNIK…              ┆ optimisation revie…    ┆        ┆ CRASQDVN…              │
+│ anas_032     ┆ EVQLVESGGGLVQPGGSLRLSC ┆ Trastuzumab            ┆ paired ┆ DIQMTQSPSSLSASVGDRVTIT │
+│              ┆ AASGFNIK…              ┆ optimisation revie…    ┆        ┆ CRASQDVN…              │
+│ anas_010     ┆ EVQLVESGGGLVQPGGSLRLSC ┆ Trastuzumab            ┆ paired ┆ DIQMTQSPSSLSASVGDRVTIT │
+│              ┆ AASGFNIK…              ┆ optimisation revie…    ┆        ┆ CRASQDVN…              │
+│ anas_040     ┆ EVQLVESGGGLVQPGGSLRLSC ┆ Trastuzumab            ┆ paired ┆ DIQMTQSPSSLSASVGDRVTIT │
+│              ┆ AASGFNIK…              ┆ optimisation revie…    ┆        ┆ CRASQDVN…              │
+│ anas_031     ┆ EVQLVESGGGLVQPGGSLRLSC ┆ Trastuzumab            ┆ paired ┆ DIQMTQSPSSLSASVGDRVTIT │
+│              ┆ AASGFNIK…              ┆ optimisation revie…    ┆        ┆ CRASQDVN…              │
+└──────────────┴────────────────────────┴────────────────────────┴────────┴────────────────────────┘

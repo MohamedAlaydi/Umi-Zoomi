@@ -1,0 +1,23 @@
+{
+  "parent": "rfd4-variable-sequence-k1__her2_variable_sequence_12_generated",
+  "selection_reason": "Lowest independent NanoBodyBuilder2 monomer CA RMSD of three novelty-screened candidates",
+  "parent_ca_rmsd": 1.1362108922697696,
+  "numbering": "IMGT via immunum2.1; sequence and insertion codes frozen",
+  "parameters": {
+    "pdb_file": "structure.pdb",
+    "nanobody_chain": "H",
+    "nanobody_mode": true,
+    "antigen_chain": "T",
+    "custom_chain_mode": true,
+    "skip_anarcii_numbering": true,
+    "regions": "CDRH1 CDRH2 CDRH3",
+    "num_seq_per_target": 16,
+    "sampling_temp": "0.20",
+    "limit_variation": false,
+    "seed": 20261114
+  },
+  "source_structure": "runs/011-codex-denovo-vhh/design-initial-guess-af2ig/novel2_crop119.cif",
+  "source_structure_sha256": "d7bc9437032242db44a39e0555f0db15e3bb1fd946821b7873647cfcda283668",
+  "tar_sha256": "dd14252d980ac4fc015bed969ed567d1f4f824ee0bfdca07e8b3666c2c84063c",
+  "scope": "CDR inverse folding conditioned on supplied backbone and target; no measured improvement promised"
+}

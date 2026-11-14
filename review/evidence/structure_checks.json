@@ -1,0 +1,3002 @@
+{
+  "reference_sha256": "8136a9abb040fc92f993a416e9af98e618f1a9a4932eace743e6b009efcd0c5b",
+  "spr_reference_sha256": "4d6f53a6183f377670e9577b3233a7c4c14888965ac63824863219d13424fa9b",
+  "novelty_cache_sha256": "62b51f1f1ca5f7b8e7dec87309b1e4a8ab1e99bf3bf10b3a28f115e4c40538ed",
+  "config_sha256": "8e2a5b8d42b062fc2a4d43ac7c148c152a1a3351e737617a493ee88d617c8adc",
+  "manifest_sha256": "e88c3fc6d288c409914e0e14f74c1464095552347412b3096a58f6558f26dad3",
+  "input_sha256": "48e7f85bc88744c225ac006111241fdb108ab964cbbd37766a7b8dd36213c9b4",
+  "template_sha256": "719541a9bd7fb1cd77aaa1387873142f3376075cdff71e007afe7a66e594efff",
+  "result_sha256": "b3c6bb722cbc608d814fae19306bc71e1a272db6537ec87000fd5f7b89bd0de2",
+  "config": {
+    "missing_msas": "fail",
+    "num_diffusion_samples": 1,
+    "query_failures": "skip",
+    "recycling_steps": 3,
+    "sampling_steps": 200,
+    "schema_version": "foundry.cli.v1",
+    "seeds": [
+      42
+    ],
+    "template_paths": [
+      "../prepared/holo/template.cif"
+    ],
+    "weights": "/app/weights/boltz2_conf.ckpt",
+    "write_detailed_scores": true
+  },
+  "objects": {
+    "anas_001": {
+      "model": "b849aed91e74b819b0c050e35edbc4ceb419c947b1768d64be396c1c6ad0fc16",
+      "score": "9fd77011ea8e656b67acf10cc85887b0d755ba819be585293c533e39de83ea5c"
+    },
+    "anas_002": {
+      "model": "ab47ab23f65b7207c5be9d343845a2474e9cbc352039b03d01b0d1259eca0582",
+      "score": "4094192c5ca18b9e601c0105ac5e95fbedb310ef3222abab605077b421cdfb6b"
+    },
+    "anas_003": {
+      "model": "bf344aca8b8abb50e07c1872c7f16f2cd62ce018e6f1ee995ceff5b02f7b9532",
+      "score": "30314c43b3ec13ded5723cbf5ee1d28f3c5a21e328ddab5466c419c96086957b"
+    },
+    "anas_004": {
+      "model": "7e425e1f57bdf69ba49374c930576c37f69092837005e9ff3050917d9018a974",
+      "score": "6edf57350cea863c814c2d6fdfa62a3ae8e6d9a49c25b7730eae4a8c8766e841"
+    },
+    "anas_005": {
+      "model": "97f5204db2e0f2815c2513f3fc1911bf074c494d50439bfccad8b7a5930be036",
+      "score": "72d7ba74ed5945e098013d7c933bb79fe885d22676638e5e01d7aadcfae402bd"
+    },
+    "anas_006": {
+      "model": "34570e3d58087a7c73090336be7f62125583afd5b6d04ceb39bb299f4642e6fd",
+      "score": "1f547719d897adc0afc3cd14f6ecb24c16a27f2098c724d451dd2cd3e9e94592"
+    },
+    "anas_007": {
+      "model": "c82f7d99429a08f58074d80c3ae942a09cc82bed06efab41f051e1241382473d",
+      "score": "f7c27a1c0ecaca81121411b217fba773af785bf1aa60507c9b518efc0e0172f6"
+    },
+    "anas_008": {
+      "model": "38ff0c1b843756dce94aaa29fa869af2598d34280590f6c5349a3af687c45e34",
+      "score": "52c3894a977e1850c0e41c9b90ae663ff85bcd45b964e0d02f1a347804d79e62"
+    },
+    "anas_009": {
+      "model": "97c0b96b5e319276d90249d86fe7c888a8b25f72fca0bc15030f0f9294c29ca2",
+      "score": "be335ba6c38aabf0eea3ff87cd169d0bbff1c50c05da069d46d0f314462fbc79"
+    },
+    "anas_010": {
+      "model": "95183b533722863cc099e869436227fcce8699e98c22b75fd6e7bfdd8c2b4cdb",
+      "score": "b938e76123f6d90a441563c25ebf41bb1bf06eb7a09e216af02894434d5787fd"
+    },
+    "anas_011": {
+      "model": "62323d0dd0945b4b4e8de94385b2dc1534753aac6283fd5a8e3509d2fb1f7cee",
+      "score": "a56992acfcd903598422564a853d5f709935edef2603a9b53ef231a0da9e263c"
+    },
+    "anas_012": {
+      "model": "70531d1bb4ffa082bcd17e08cff68804df3344299fa043962e78df05bfd42a4e",
+      "score": "5b7e0ec222db439b319262e6e9d1c6e50cc022860078616180fb2d46a915d760"
+    },
+    "anas_013": {
+      "model": "6e9ce0332088305f25e9af0568096e9e6b92c6e7cb427c530a7d6e8943c092f3",
+      "score": "f8afd353cb7740910f96a939a69e531c0bdf2aa053b0471a1b22f9dceabcde9c"
+    },
+    "anas_014": {
+      "model": "6b839afc0981099896e3ab58ec34be631c05ebb07f7bba0dc1525c899876f128",
+      "score": "6575645b21f581df2b4cf030c61ee1a119e257442febe1f97cc00893d3b75143"
+    },
+    "anas_015": {
+      "model": "1bf3e18a6132e8aa5afa99809044871660ef283be4d34ce188b463296715a8eb",
+      "score": "638704770261d1a0b8ceb7d8cc7376f70c9c641caac3e70ea6bbc9a04997a400"
+    },
+    "anas_016": {
+      "model": "8c9d2c03bd419c4a4ed4e5a1891284116f85825f4427db96f224fc12d27370e6",
+      "score": "fc18e26595ac5f6855be73b55867e185b34fb54b9e565d46628bb67fc3e147b2"
+    },
+    "anas_017": {
+      "model": "3dc31b3443f13d648c8c6240b7d9e67c2927bb4c1cdc5551e3a865722352efc0",
+      "score": "c8212622fe8aebbc3940479aa7e98e972ab4a36ee791e8d3e86460c9a32f3035"
+    },
+    "anas_018": {
+      "model": "c0bac166147db04326ef48525028065dfe521a71db38b9832aafff9153832b2d",
+      "score": "4484d82e735da009ae6db16fc19cbc2de65795519b45c518e20883c76c0328b1"
+    },
+    "anas_019": {
+      "model": "658bed55dcfcf96d26e7f8c18ec0f27c97b6eeb1106c07282c0b9123e8c6ccbd",
+      "score": "eb26b5d97497a77b66573df4a8069cee6b39c67c04681984064e102924426231"
+    },
+    "anas_020": {
+      "model": "4e93783bc36a3b7728b77d53958a802b8dbb989a27c7a638a8ac809edff539f0",
+      "score": "06f8a6483f5e699db51b552f4d56bac7bdf599956ac303304346923c6d2e0047"
+    },
+    "anas_021": {
+      "model": "5b0d695d0bf06f2b5c5b0aa95d27c9660d6201fbfb8a928a44da85a38140ea9c",
+      "score": "bc2939e3ce020d945af527a1a6318d05a6446e6d75881d69958723754954ad02"
+    },
+    "anas_022": {
+      "model": "f8060ba44acc358d783c311e5caa684b3036aaf38db55560523261f2be017aaa",
+      "score": "b6e168e0dfbcfc8451ec1f9c2a4f84ab035df11caece117f13a79ac20e2fe114"
+    },
+    "anas_023": {
+      "model": "236bb3e0c4f78e0c83792b37008a51763d3d2b44468d3e65ff60a991d7bbcf8e",
+      "score": "1774ede15994d6eaa205f8abecaba53b21a3ca5df7cf49cbc06eb803ec5699d5"
+    },
+    "anas_024": {
+      "model": "4aec5815beb6b8f2e9ee4dd7c569ebc53557f999fa8fe7909c34c6e79afb61d1",
+      "score": "445fcd27232e11812a0453d648114a702d4f0b02227c1b4ccd2a31d11bf0492a"
+    },
+    "anas_025": {
+      "model": "87a48b3bb727fdad4db11be48f29429ba3e748e851059924ec7c3c1fc8c8c96d",
+      "score": "2133b7999f7bc769e00f0c9b8f94710508590791a3171880802217cc81efeb14"
+    },
+    "anas_026": {
+      "model": "9d30c5dcb99b7b9825e13c3f1baae7b95aee389b323fadae6645b197e2aa4c65",
+      "score": "efbed69fec518252d4837b7d17f5dabcb48d925fb7a8d8fa122c098586ad45c1"
+    },
+    "anas_027": {
+      "model": "b09223cfb1ed5834a5df619960bb9002e46c7f97556e6238e95ce4389abfbc53",
+      "score": "ea6335a54bd23e3c6fef0f83c9d1655f4d4a83132ef351006611ad9fd68bb468"
+    },
+    "anas_028": {
+      "model": "0d2e3ac985a4c5469c62645619b43d034c45ea6ba1d58671c3d2a3c05f903c8a",
+      "score": "64141f3e0cf8febcb1388885adea2cc7c898b5f32245a2a9822afb577a8d828b"
+    },
+    "anas_029": {
+      "model": "dce70fc744077a3cf42be1adb7e3de2d9a0b08600556b5bd99afe22f8b4730d8",
+      "score": "e4199daf3d0161a9a9390d65d58d6345b459a38651397a26288c72133d523e85"
+    },
+    "anas_030": {
+      "model": "6908711dc06b49e9cd19fbc1b35b050248a784907b0bdf453543fe5d5932a7a0",
+      "score": "075ebf2beebb3287f0c9d9588be751a8f126422097b0ab57c8b2bd6aea4ef349"
+    },
+    "anas_031": {
+      "model": "bfbbca96d78d4235ecc1bde466e979c5ef5c3dcb26955525508fbf61c8c96aac",
+      "score": "a970891fb3ee0e516cc66d003598348ab8c2d790e485126b9168adc2f9649146"
+    },
+    "anas_032": {
+      "model": "681d860a529d145a74ba3b3963b689ba12d9170601b7398760ef088b02049bdb",
+      "score": "360bc770a3ef5c9ab66195b48d347b1ec7cd726d0f138249eeb54b54095cd6a7"
+    },
+    "anas_033": {
+      "model": "e7dc12133907b525c162be05c18a7dd4f9543f88d3201bcecf4e57b14c3cbfd5",
+      "score": "dced0938371df3b006c940d7048fb5ee87e273c1016ff8b690ed4cb28ef573fd"
+    },
+    "anas_034": {
+      "model": "13c81b60d9c2c6698344e9939d7e839f8709a45979e60d837d9d38ecb3cf4543",
+      "score": "9babe2fe2a9b7e8996e908eb02d0c56efefd6b40e365f1902727f32dae09b020"
+    },
+    "anas_035": {
+      "model": "e89a96b5b4d80e5d911c38abf77ff9bbc0016570e60c16dc4bd05e6fd35ed258",
+      "score": "0509e3b29ef4a2ae8ced565b5c4f226626205e89a036e814188016f509dcd5d6"
+    },
+    "anas_036": {
+      "model": "469fb84edaff136375bdbeecef0a664530b487c39d8b9411a096a25db4f1cd09",
+      "score": "0e312a5fcfaa95c9e0c76505fe7bcb68054a783102f150fa8e6fa908b7dabfd8"
+    },
+    "anas_037": {
+      "model": "aae53b25284fb5d22abe3865dd6f6de3bc9d1ae7a650b6c19e7f98310a5ba5d6",
+      "score": "67f64506db2ffa5e89b13d6c76ba55616571c98f910d921f52f0f2676ef892a6"
+    },
+    "anas_038": {
+      "model": "1840d44a68befff4182cc08e2102f4789c34abb36469f76735afccb7f0d57042",
+      "score": "a7a3d275d867a85d835bbb62498b1272d07ecf0f12c1f4178ae3f0e1ccfb2e20"
+    },
+    "anas_039": {
+      "model": "ca9e2d3ed1f6da2b33edbc66b3070f677f1cc7ba666e1f1fe554c58d743840af",
+      "score": "4f44068d7ce9b9f5cd9ca072dce3b3087ed2669caac29a44f69f9a74f759ab99"
+    },
+    "anas_040": {
+      "model": "eb5ddc63edbef1d15eb526cd3b6aa76ec62b28c893663b55f949964169375795",
+      "score": "f3a05098e4b9ccac7e24471775e0c72c639131c80a017bbb25aca0f665ec9e1f"
+    },
+    "trastuzumab_wt": {
+      "model": "077b15e3b30234965c3c1f8bd49899428c88aae65c15110c429431a8b45dab5e",
+      "score": "c17a46fd765eba0f4bca1688a7900af9f3a85ded49b03a9bd9e975ea88e2ce42"
+    },
+    "r004_cdrh3_4": {
+      "model": "09c1962b8891ab06e2f1c408a923c368407e87fd9bc8f5a9b074c4e8df966b1d",
+      "score": "d0c61ff5d33cf5ecc0c465b02a2bddf3f44169bcff1c2f6627cde6971ba512ed"
+    },
+    "r004_cdrh3_3": {
+      "model": "9bea0ee7a556206405eabc737dff56ef1194969eb3a1e177f508132350761f9f",
+      "score": "9ef0563d157a2b27948f457f04cf854b8fde86dca02f4b84112f6035c6fecaf3"
+    },
+    "r004_cdrh3_31": {
+      "model": "cd575d6d6c169d230151e983c63b115ff4349a4dec4de6ad0cb211e85ec35fdd",
+      "score": "186741a59c375a5eb4facc567f2ef87de8347d4befe69fe04eb1ccb41bdf3f5a"
+    }
+  },
+  "reference_footprint": {
+    "4.0": {
+      "epitope": 17,
+      "loop": [
+        103,
+        105
+      ]
+    },
+    "4.5": {
+      "epitope": 19,
+      "loop": [
+        99,
+        103,
+        104,
+        105
+      ]
+    },
+    "5.0": {
+      "epitope": 19,
+      "loop": [
+        99,
+        103,
+        104,
+        105
+      ]
+    }
+  },
+  "generation_runs": {
+    "001": {
+      "refolded": 2,
+      "unique_loops": 2,
+      "numeric_margin_pass": 1,
+      "distance_distribution": {
+        "2": 1,
+        "3": 1
+      },
+      "all_four_identities": 0,
+      "template_H3_positions": [],
+      "target_labels": [
+        "A;C;D"
+      ],
+      "inputs": {
+        "prepared/holo/template.cif": "a234bcb48e5dbfb9fe4332f3893ba7a73e00e2e402abc16eb9deb7dd73817495",
+        "scored-boltz2/refold_metrics.csv": "020fc5728948b8c1123331cfa39028efe3a80a01fe75da31651e6ab9d1008fde",
+        "design/config.json": "d210664688bcdf680509aa9582eecc79a3cb614bd6b54b72d5f030551c054a2f",
+        "boltz2/config.json": "8e2a5b8d42b062fc2a4d43ac7c148c152a1a3351e737617a493ee88d617c8adc"
+      }
+    },
+    "004": {
+      "refolded": 10,
+      "unique_loops": 10,
+      "numeric_margin_pass": 9,
+      "distance_distribution": {
+        "3": 8,
+        "4": 1,
+        "2": 1
+      },
+      "all_four_identities": 0,
+      "template_H3_positions": [],
+      "target_labels": [
+        "A;C;D"
+      ],
+      "inputs": {
+        "prepared/holo/template.cif": "719541a9bd7fb1cd77aaa1387873142f3376075cdff71e007afe7a66e594efff",
+        "scored-boltz2/refold_metrics.csv": "0ffd00b5dd5a9817a17a1d766ce260abf6f17c2add5035418174b57fb408392d",
+        "design/config.json": "ae7b6f6f4221fac3b39221bc10165f06e27d66f9e8318a82f6e280e413fe1fd2",
+        "boltz2/config.json": "8e2a5b8d42b062fc2a4d43ac7c148c152a1a3351e737617a493ee88d617c8adc"
+      }
+    },
+    "005": {
+      "refolded": 10,
+      "unique_loops": 8,
+      "numeric_margin_pass": 0,
+      "distance_distribution": {
+        "1": 9,
+        "2": 1
+      },
+      "all_four_identities": 10,
+      "template_H3_positions": [
+        99,
+        103,
+        104,
+        105
+      ],
+      "target_labels": [
+        "A;C;D"
+      ],
+      "inputs": {
+        "prepared/holo/template.cif": "74d1eac1574bf6116173b86fb5c28ee594927e4266e31da341205363c8c77b2c",
+        "scored-boltz2/refold_metrics.csv": "da4c3681ab1872ee982b7a9654a25c367eaa914cea5c9841476aedd1dcbb7e6d",
+        "design/config.json": "ae7b6f6f4221fac3b39221bc10165f06e27d66f9e8318a82f6e280e413fe1fd2",
+        "boltz2/config.json": "8e2a5b8d42b062fc2a4d43ac7c148c152a1a3351e737617a493ee88d617c8adc"
+      }
+    },
+    "007": {
+      "refolded": 12,
+      "unique_loops": 12,
+      "numeric_margin_pass": 0,
+      "distance_distribution": {
+        "1": 8,
+        "2": 4
+      },
+      "all_four_identities": 12,
+      "template_H3_positions": [
+        99,
+        103,
+        104,
+        105
+      ],
+      "target_labels": [
+        "A;C;D"
+      ],
+      "inputs": {
+        "prepared/holo/template.cif": "d620d82ae90ad48344d8be1a1f1a1ee8c91b5b7efd718d1e95c439e1ebe42536",
+        "scored-boltz2/refold_metrics.csv": "6fb5de031a5e910e4e567a42f9020c921fbc3f705bc5a4e6c1e3026c44227011",
+        "design/config.json": "9775e88d7cd2d7f580f0db96402c061adf32b8d0fee4ef4dba2a3cbf7f879582",
+        "boltz2/config.json": "8e2a5b8d42b062fc2a4d43ac7c148c152a1a3351e737617a493ee88d617c8adc"
+      }
+    }
+  },
+  "open_dde_request": {
+    "request_sha256": "5f187873a723727711d781c33eb3a101d8e07548e14e57fc224128135b3ed0b1",
+    "model": "opendde-abag",
+    "arms": [
+      "trastuzumab_wt",
+      "her2_cdrh3_2",
+      "her2_cdrh3_3"
+    ],
+    "residues_per_arm": 336,
+    "params": {
+      "output_format": "pdb",
+      "write_pae": true
+    }
+  },
+  "batch": [
+    {
+      "query": "anas_001",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WTATGFYSSK",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.996472,
+      "blosum62": 26,
+      "metrics": {
+        "AC": 0.9355,
+        "AD": 0.9390000000000001,
+        "BC": 0.938,
+        "BD": 0.9145,
+        "VH_min": 0.9145,
+        "Fv_mean": 0.93175,
+        "global_ipTM": 0.954
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 17,
+          "predicted": 18,
+          "jaccard": 0.9444444444444444,
+          "contacting_loop_positions": [
+            99,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_002",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WDANGFYYVD",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.995819,
+      "blosum62": 35,
+      "metrics": {
+        "AC": 0.902,
+        "AD": 0.9099999999999999,
+        "BC": 0.9025000000000001,
+        "BD": 0.877,
+        "VH_min": 0.877,
+        "Fv_mean": 0.897875,
+        "global_ipTM": 0.927
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 15,
+          "jaccard": 0.8823529411764706,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 18,
+          "predicted": 18,
+          "jaccard": 0.9473684210526315,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 18,
+          "predicted": 18,
+          "jaccard": 0.9473684210526315,
+          "contacting_loop_positions": [
+            99,
+            100,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_003",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WVGPGFYGWD",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.995569,
+      "blosum62": 37,
+      "metrics": {
+        "AC": 0.9005000000000001,
+        "AD": 0.885,
+        "BC": 0.9025000000000001,
+        "BD": 0.853,
+        "VH_min": 0.853,
+        "Fv_mean": 0.8852500000000001,
+        "global_ipTM": 0.927
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 15,
+          "jaccard": 0.8823529411764706,
+          "contacting_loop_positions": [
+            99,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 17,
+          "predicted": 17,
+          "jaccard": 0.8947368421052632,
+          "contacting_loop_positions": [
+            99,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_004",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WYGGGFYFWD",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.994878,
+      "blosum62": 35,
+      "metrics": {
+        "AC": 0.9145000000000001,
+        "AD": 0.9145,
+        "BC": 0.9155,
+        "BD": 0.887,
+        "VH_min": 0.887,
+        "Fv_mean": 0.907875,
+        "global_ipTM": 0.935
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 16,
+          "jaccard": 0.8333333333333334,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_005",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WGFVGFYRSK",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.994583,
+      "blosum62": 27,
+      "metrics": {
+        "AC": 0.904,
+        "AD": 0.8915,
+        "BC": 0.904,
+        "BD": 0.8605,
+        "VH_min": 0.8605,
+        "Fv_mean": 0.89,
+        "global_ipTM": 0.929
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 17,
+          "jaccard": 0.7894736842105263,
+          "contacting_loop_positions": [
+            99,
+            101,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 18,
+          "predicted": 19,
+          "jaccard": 0.9,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 18,
+          "predicted": 19,
+          "jaccard": 0.9,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_006",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WVREGFYRSK",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.994563,
+      "blosum62": 24,
+      "metrics": {
+        "AC": 0.848,
+        "AD": 0.8140000000000001,
+        "BC": 0.843,
+        "BD": 0.7725,
+        "VH_min": 0.7725,
+        "Fv_mean": 0.819375,
+        "global_ipTM": 0.89
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 17,
+          "jaccard": 0.7894736842105263,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            105,
+            106
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            105,
+            106
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            100,
+            101,
+            102,
+            103,
+            105,
+            106
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_007",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WYGEGFYTWE",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.994258,
+      "blosum62": 36,
+      "metrics": {
+        "AC": 0.9195,
+        "AD": 0.9245,
+        "BC": 0.9215,
+        "BD": 0.8965000000000001,
+        "VH_min": 0.8965000000000001,
+        "Fv_mean": 0.9155,
+        "global_ipTM": 0.94
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 17,
+          "jaccard": 0.7894736842105263,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            100,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            100,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_008",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WAAGGFYFWQ",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.994122,
+      "blosum62": 26,
+      "metrics": {
+        "AC": 0.906,
+        "AD": 0.9055,
+        "BC": 0.9055,
+        "BD": 0.8714999999999999,
+        "VH_min": 0.8714999999999999,
+        "Fv_mean": 0.897125,
+        "global_ipTM": 0.928
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 16,
+          "predicted": 16,
+          "jaccard": 0.9411764705882353,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 18,
+          "predicted": 18,
+          "jaccard": 0.9473684210526315,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_009",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WDREGFYGGD",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.994027,
+      "blosum62": 32,
+      "metrics": {
+        "AC": 0.9295,
+        "AD": 0.931,
+        "BC": 0.9319999999999999,
+        "BD": 0.9065,
+        "VH_min": 0.9065,
+        "Fv_mean": 0.92475,
+        "global_ipTM": 0.948
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 18,
+          "jaccard": 0.75,
+          "contacting_loop_positions": [
+            101,
+            103,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 22,
+          "jaccard": 0.8636363636363636,
+          "contacting_loop_positions": [
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 23,
+          "jaccard": 0.8260869565217391,
+          "contacting_loop_positions": [
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_010",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WTATGFYGGD",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.993987,
+      "blosum62": 30,
+      "metrics": {
+        "AC": 0.9199999999999999,
+        "AD": 0.9175,
+        "BC": 0.9205000000000001,
+        "BD": 0.8885000000000001,
+        "VH_min": 0.8885000000000001,
+        "Fv_mean": 0.911625,
+        "global_ipTM": 0.939
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 16,
+          "predicted": 16,
+          "jaccard": 0.9411764705882353,
+          "contacting_loop_positions": [
+            99,
+            103,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 18,
+          "predicted": 18,
+          "jaccard": 0.9473684210526315,
+          "contacting_loop_positions": [
+            99,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 18,
+          "predicted": 18,
+          "jaccard": 0.9473684210526315,
+          "contacting_loop_positions": [
+            99,
+            101,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_011",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WPYGGFYRGD",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.993966,
+      "blosum62": 26,
+      "metrics": {
+        "AC": 0.937,
+        "AD": 0.9390000000000001,
+        "BC": 0.935,
+        "BD": 0.913,
+        "VH_min": 0.913,
+        "Fv_mean": 0.931,
+        "global_ipTM": 0.953
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 17,
+          "jaccard": 0.7894736842105263,
+          "contacting_loop_positions": [
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 18,
+          "predicted": 18,
+          "jaccard": 0.9473684210526315,
+          "contacting_loop_positions": [
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_012",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WPATGFYPVK",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.993678,
+      "blosum62": 26,
+      "metrics": {
+        "AC": 0.9215,
+        "AD": 0.911,
+        "BC": 0.92,
+        "BD": 0.882,
+        "VH_min": 0.882,
+        "Fv_mean": 0.908625,
+        "global_ipTM": 0.939
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 16,
+          "predicted": 17,
+          "jaccard": 0.8888888888888888,
+          "contacting_loop_positions": [
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_013",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WDETGFYYSK",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.993539,
+      "blosum62": 22,
+      "metrics": {
+        "AC": 0.914,
+        "AD": 0.915,
+        "BC": 0.9135,
+        "BD": 0.8855,
+        "VH_min": 0.8855,
+        "Fv_mean": 0.907,
+        "global_ipTM": 0.935
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 15,
+          "jaccard": 0.8823529411764706,
+          "contacting_loop_positions": [
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 17,
+          "predicted": 17,
+          "jaccard": 0.8947368421052632,
+          "contacting_loop_positions": [
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 18,
+          "predicted": 18,
+          "jaccard": 0.9473684210526315,
+          "contacting_loop_positions": [
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_014",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WGYNGFYPSK",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.993504,
+      "blosum62": 31,
+      "metrics": {
+        "AC": 0.902,
+        "AD": 0.897,
+        "BC": 0.9015,
+        "BD": 0.866,
+        "VH_min": 0.866,
+        "Fv_mean": 0.891625,
+        "global_ipTM": 0.928
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 16,
+          "jaccard": 0.8333333333333334,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_015",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WPGGGFYYWE",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.993249,
+      "blosum62": 32,
+      "metrics": {
+        "AC": 0.9215,
+        "AD": 0.9215,
+        "BC": 0.9235,
+        "BD": 0.8935,
+        "VH_min": 0.8935,
+        "Fv_mean": 0.915,
+        "global_ipTM": 0.941
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 15,
+          "jaccard": 0.8823529411764706,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 18,
+          "predicted": 18,
+          "jaccard": 0.9473684210526315,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_016",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WYGEGFYGSD",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.993227,
+      "blosum62": 40,
+      "metrics": {
+        "AC": 0.9259999999999999,
+        "AD": 0.9235,
+        "BC": 0.9285,
+        "BD": 0.8985000000000001,
+        "VH_min": 0.8985000000000001,
+        "Fv_mean": 0.919125,
+        "global_ipTM": 0.945
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 16,
+          "jaccard": 0.8333333333333334,
+          "contacting_loop_positions": [
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 20,
+          "jaccard": 0.95,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 20,
+          "jaccard": 0.95,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_017",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WDATGFYGIY",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.99306,
+      "blosum62": 26,
+      "metrics": {
+        "AC": 0.9275,
+        "AD": 0.9319999999999999,
+        "BC": 0.9305,
+        "BD": 0.9065,
+        "VH_min": 0.9065,
+        "Fv_mean": 0.924125,
+        "global_ipTM": 0.948
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 16,
+          "predicted": 17,
+          "jaccard": 0.8888888888888888,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 18,
+          "predicted": 18,
+          "jaccard": 0.9473684210526315,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_018",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WYAAGFYVWE",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.992974,
+      "blosum62": 26,
+      "metrics": {
+        "AC": 0.9215,
+        "AD": 0.9239999999999999,
+        "BC": 0.9225,
+        "BD": 0.8965000000000001,
+        "VH_min": 0.8965000000000001,
+        "Fv_mean": 0.916125,
+        "global_ipTM": 0.941
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 16,
+          "jaccard": 0.8333333333333334,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_019",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WTATGFYDLQ",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.992926,
+      "blosum62": 27,
+      "metrics": {
+        "AC": 0.9279999999999999,
+        "AD": 0.9325,
+        "BC": 0.9315,
+        "BD": 0.9075,
+        "VH_min": 0.9075,
+        "Fv_mean": 0.924875,
+        "global_ipTM": 0.948
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 16,
+          "predicted": 16,
+          "jaccard": 0.9411764705882353,
+          "contacting_loop_positions": [
+            99,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 18,
+          "predicted": 18,
+          "jaccard": 0.9473684210526315,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_020",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WVREGFYKWY",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.992602,
+      "blosum62": 22,
+      "metrics": {
+        "AC": 0.925,
+        "AD": 0.9239999999999999,
+        "BC": 0.9275,
+        "BD": 0.8995,
+        "VH_min": 0.8995,
+        "Fv_mean": 0.919,
+        "global_ipTM": 0.944
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 17,
+          "jaccard": 0.7894736842105263,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            106
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 20,
+          "jaccard": 0.95,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            106
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 20,
+          "jaccard": 0.95,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            106
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_021",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WGYKGFYDWD",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.99257,
+      "blosum62": 35,
+      "metrics": {
+        "AC": 0.911,
+        "AD": 0.9139999999999999,
+        "BC": 0.912,
+        "BD": 0.885,
+        "VH_min": 0.885,
+        "Fv_mean": 0.9055,
+        "global_ipTM": 0.934
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 14,
+          "predicted": 15,
+          "jaccard": 0.7777777777777778,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 16,
+          "predicted": 16,
+          "jaccard": 0.8421052631578947,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 18,
+          "predicted": 19,
+          "jaccard": 0.9,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_022",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WPKGGFYRWK",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.992416,
+      "blosum62": 22,
+      "metrics": {
+        "AC": 0.9239999999999999,
+        "AD": 0.913,
+        "BC": 0.923,
+        "BD": 0.8825000000000001,
+        "VH_min": 0.8825000000000001,
+        "Fv_mean": 0.910625,
+        "global_ipTM": 0.941
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 16,
+          "jaccard": 0.8333333333333334,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            106
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 18,
+          "predicted": 18,
+          "jaccard": 0.9473684210526315,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            106
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 20,
+          "jaccard": 0.95,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            106
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_023",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WDATGFYYWE",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.992215,
+      "blosum62": 27,
+      "metrics": {
+        "AC": 0.92,
+        "AD": 0.9245,
+        "BC": 0.92,
+        "BD": 0.8955,
+        "VH_min": 0.8955,
+        "Fv_mean": 0.915,
+        "global_ipTM": 0.94
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 15,
+          "jaccard": 0.8823529411764706,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 16,
+          "predicted": 16,
+          "jaccard": 0.8421052631578947,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 17,
+          "predicted": 17,
+          "jaccard": 0.8947368421052632,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_024",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WASRGFYNWE",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.992159,
+      "blosum62": 27,
+      "metrics": {
+        "AC": 0.9145000000000001,
+        "AD": 0.913,
+        "BC": 0.9145000000000001,
+        "BD": 0.882,
+        "VH_min": 0.882,
+        "Fv_mean": 0.906,
+        "global_ipTM": 0.934
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 15,
+          "jaccard": 0.8823529411764706,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 18,
+          "predicted": 18,
+          "jaccard": 0.9473684210526315,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 18,
+          "predicted": 18,
+          "jaccard": 0.9473684210526315,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_025",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WPATGFYDGY",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.991875,
+      "blosum62": 19,
+      "metrics": {
+        "AC": 0.8965000000000001,
+        "AD": 0.898,
+        "BC": 0.897,
+        "BD": 0.867,
+        "VH_min": 0.867,
+        "Fv_mean": 0.889625,
+        "global_ipTM": 0.924
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 17,
+          "jaccard": 0.7894736842105263,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_026",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WDAMGFYGWD",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.991836,
+      "blosum62": 31,
+      "metrics": {
+        "AC": 0.9315,
+        "AD": 0.9325,
+        "BC": 0.9319999999999999,
+        "BD": 0.909,
+        "VH_min": 0.909,
+        "Fv_mean": 0.92625,
+        "global_ipTM": 0.949
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 16,
+          "jaccard": 0.8333333333333334,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 17,
+          "predicted": 18,
+          "jaccard": 0.85,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 20,
+          "jaccard": 0.95,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_027",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WTATGFYETY",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.991789,
+      "blosum62": 22,
+      "metrics": {
+        "AC": 0.9359999999999999,
+        "AD": 0.9390000000000001,
+        "BC": 0.937,
+        "BD": 0.915,
+        "VH_min": 0.915,
+        "Fv_mean": 0.9317500000000001,
+        "global_ipTM": 0.952
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 16,
+          "predicted": 16,
+          "jaccard": 0.9411764705882353,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 20,
+          "jaccard": 0.95,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 20,
+          "jaccard": 0.95,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_028",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WGREGFYSAE",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.991702,
+      "blosum62": 38,
+      "metrics": {
+        "AC": 0.9225,
+        "AD": 0.9179999999999999,
+        "BC": 0.925,
+        "BD": 0.891,
+        "VH_min": 0.891,
+        "Fv_mean": 0.914125,
+        "global_ipTM": 0.942
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 15,
+          "jaccard": 0.8823529411764706,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 18,
+          "predicted": 18,
+          "jaccard": 0.9473684210526315,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_029",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WVEPGFYEQD",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.991689,
+      "blosum62": 29,
+      "metrics": {
+        "AC": 0.911,
+        "AD": 0.911,
+        "BC": 0.9135,
+        "BD": 0.8825000000000001,
+        "VH_min": 0.8825000000000001,
+        "Fv_mean": 0.9045000000000001,
+        "global_ipTM": 0.933
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 16,
+          "predicted": 17,
+          "jaccard": 0.8888888888888888,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_030",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WYATGFYDSD",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.991647,
+      "blosum62": 29,
+      "metrics": {
+        "AC": 0.91,
+        "AD": 0.9155,
+        "BC": 0.9115,
+        "BD": 0.8865000000000001,
+        "VH_min": 0.8865000000000001,
+        "Fv_mean": 0.905875,
+        "global_ipTM": 0.932
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 16,
+          "jaccard": 0.8333333333333334,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_031",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WRAAGFYRWD",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.991593,
+      "blosum62": 30,
+      "metrics": {
+        "AC": 0.9245,
+        "AD": 0.919,
+        "BC": 0.925,
+        "BD": 0.893,
+        "VH_min": 0.893,
+        "Fv_mean": 0.915375,
+        "global_ipTM": 0.943
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 15,
+          "jaccard": 0.8823529411764706,
+          "contacting_loop_positions": [
+            99,
+            102,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 17,
+          "predicted": 17,
+          "jaccard": 0.8947368421052632,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_032",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WVREGFYTVE",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.991551,
+      "blosum62": 30,
+      "metrics": {
+        "AC": 0.904,
+        "AD": 0.9035,
+        "BC": 0.906,
+        "BD": 0.8725,
+        "VH_min": 0.8725,
+        "Fv_mean": 0.8965000000000001,
+        "global_ipTM": 0.929
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 16,
+          "jaccard": 0.8333333333333334,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 20,
+          "jaccard": 0.95,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 20,
+          "jaccard": 0.95,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_033",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WPYGGFYHVK",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.991465,
+      "blosum62": 22,
+      "metrics": {
+        "AC": 0.8895,
+        "AD": 0.8815,
+        "BC": 0.8885000000000001,
+        "BD": 0.8475,
+        "VH_min": 0.8475,
+        "Fv_mean": 0.87675,
+        "global_ipTM": 0.917
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 17,
+          "jaccard": 0.7894736842105263,
+          "contacting_loop_positions": [
+            99,
+            103,
+            104,
+            105,
+            106
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105,
+            106
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105,
+            106
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_034",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WYRGGFYNWE",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.991455,
+      "blosum62": 23,
+      "metrics": {
+        "AC": 0.9225,
+        "AD": 0.9265,
+        "BC": 0.9225,
+        "BD": 0.8975,
+        "VH_min": 0.8975,
+        "Fv_mean": 0.91725,
+        "global_ipTM": 0.941
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 15,
+          "jaccard": 0.8823529411764706,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 18,
+          "predicted": 18,
+          "jaccard": 0.9473684210526315,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_035",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WVETGFYDWD",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.991444,
+      "blosum62": 27,
+      "metrics": {
+        "AC": 0.9145000000000001,
+        "AD": 0.9135,
+        "BC": 0.9145000000000001,
+        "BD": 0.8835,
+        "VH_min": 0.8835,
+        "Fv_mean": 0.9065000000000001,
+        "global_ipTM": 0.935
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 15,
+          "jaccard": 0.8823529411764706,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_036",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WGAKGFYSWQ",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.991426,
+      "blosum62": 35,
+      "metrics": {
+        "AC": 0.9165000000000001,
+        "AD": 0.9105,
+        "BC": 0.9185000000000001,
+        "BD": 0.8825000000000001,
+        "VH_min": 0.8825000000000001,
+        "Fv_mean": 0.907,
+        "global_ipTM": 0.938
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 16,
+          "jaccard": 0.8333333333333334,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 18,
+          "predicted": 19,
+          "jaccard": 0.9,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 18,
+          "predicted": 19,
+          "jaccard": 0.9,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_037",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WRAKGFYSAE",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.991275,
+      "blosum62": 29,
+      "metrics": {
+        "AC": 0.9295,
+        "AD": 0.9285,
+        "BC": 0.933,
+        "BD": 0.904,
+        "VH_min": 0.904,
+        "Fv_mean": 0.9237500000000001,
+        "global_ipTM": 0.949
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 16,
+          "jaccard": 0.8333333333333334,
+          "contacting_loop_positions": [
+            99,
+            100,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            100,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            100,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_038",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WAGEGFYYAE",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.99112,
+      "blosum62": 37,
+      "metrics": {
+        "AC": 0.9035,
+        "AD": 0.9015,
+        "BC": 0.901,
+        "BD": 0.867,
+        "VH_min": 0.867,
+        "Fv_mean": 0.89325,
+        "global_ipTM": 0.928
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 15,
+          "jaccard": 0.8823529411764706,
+          "contacting_loop_positions": [
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 20,
+          "jaccard": 0.95,
+          "contacting_loop_positions": [
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_039",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WTAKGFYAQN",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.990996,
+      "blosum62": 32,
+      "metrics": {
+        "AC": 0.9165000000000001,
+        "AD": 0.9119999999999999,
+        "BC": 0.9175,
+        "BD": 0.8845000000000001,
+        "VH_min": 0.8845000000000001,
+        "Fv_mean": 0.907625,
+        "global_ipTM": 0.937
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 16,
+          "jaccard": 0.8333333333333334,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 21,
+          "jaccard": 0.9047619047619048,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 21,
+          "jaccard": 0.9047619047619048,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104
+          ]
+        }
+      }
+    },
+    {
+      "query": "anas_040",
+      "source": "enumerated+facs_model",
+      "cdrh3": "WAERGFYIWD",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": 0.990919,
+      "blosum62": 30,
+      "metrics": {
+        "AC": 0.891,
+        "AD": 0.8955,
+        "BC": 0.8905000000000001,
+        "BD": 0.863,
+        "VH_min": 0.863,
+        "Fv_mean": 0.885,
+        "global_ipTM": 0.922
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 17,
+          "jaccard": 0.7894736842105263,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 18,
+          "predicted": 18,
+          "jaccard": 0.9473684210526315,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "trastuzumab_wt",
+      "source": "control",
+      "cdrh3": "WGGDGFYAMD",
+      "local_distance": 0,
+      "local_margin": false,
+      "validation": "unverified",
+      "p_high": null,
+      "blosum62": 63,
+      "metrics": {
+        "AC": 0.9275,
+        "AD": 0.9265,
+        "BC": 0.9305,
+        "BD": 0.901,
+        "VH_min": 0.901,
+        "Fv_mean": 0.921375,
+        "global_ipTM": 0.946
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 16,
+          "predicted": 17,
+          "jaccard": 0.8888888888888888,
+          "contacting_loop_positions": [
+            99,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "r004_cdrh3_4",
+      "source": "control",
+      "cdrh3": "YWSLHYYAMD",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": null,
+      "blosum62": 19,
+      "metrics": {
+        "AC": 0.9319999999999999,
+        "AD": 0.9245,
+        "BC": 0.9345,
+        "BD": 0.9,
+        "VH_min": 0.9,
+        "Fv_mean": 0.92275,
+        "global_ipTM": 0.949
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 17,
+          "jaccard": 0.7894736842105263,
+          "contacting_loop_positions": [
+            100,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 18,
+          "predicted": 18,
+          "jaccard": 0.9473684210526315,
+          "contacting_loop_positions": [
+            100,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 20,
+          "jaccard": 0.95,
+          "contacting_loop_positions": [
+            100,
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "r004_cdrh3_3",
+      "source": "control",
+      "cdrh3": "WASSSEYYFD",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": null,
+      "blosum62": 19,
+      "metrics": {
+        "AC": 0.9524999999999999,
+        "AD": 0.9515,
+        "BC": 0.953,
+        "BD": 0.933,
+        "VH_min": 0.933,
+        "Fv_mean": 0.9475,
+        "global_ipTM": 0.967
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 16,
+          "predicted": 17,
+          "jaccard": 0.8888888888888888,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 19,
+          "predicted": 19,
+          "jaccard": 1.0,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    },
+    {
+      "query": "r004_cdrh3_31",
+      "source": "control",
+      "cdrh3": "WHSSYDYYFD",
+      "local_distance": 3,
+      "local_margin": true,
+      "validation": "unverified",
+      "p_high": null,
+      "blosum62": 14,
+      "metrics": {
+        "AC": 0.9355,
+        "AD": 0.9305,
+        "BC": 0.9385,
+        "BD": 0.9055,
+        "VH_min": 0.9055,
+        "Fv_mean": 0.9275,
+        "global_ipTM": 0.954
+      },
+      "footprint": {
+        "4.0": {
+          "reference": 17,
+          "intersection": 15,
+          "predicted": 15,
+          "jaccard": 0.8823529411764706,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "4.5": {
+          "reference": 19,
+          "intersection": 18,
+          "predicted": 18,
+          "jaccard": 0.9473684210526315,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "5.0": {
+          "reference": 19,
+          "intersection": 18,
+          "predicted": 18,
+          "jaccard": 0.9473684210526315,
+          "contacting_loop_positions": [
+            99,
+            102,
+            103,
+            104,
+            105
+          ]
+        }
+      }
+    }
+  ]
+}

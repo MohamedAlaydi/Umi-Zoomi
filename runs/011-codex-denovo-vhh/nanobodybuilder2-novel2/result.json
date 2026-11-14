@@ -1,0 +1,222 @@
+{
+ "schema": "fs2-serve.nebius.ai/scientific-run-result/v2",
+ "operation_id": "op-cb14aad491ba0c87",
+ "model_id": "nanobodybuilder2",
+ "status": "succeeded",
+ "terminal_status": "succeeded",
+ "input_manifest": {
+  "artifact_id": "bb4b4b3b-54b7-527f-a95f-97fe3c548518",
+  "compression": "none",
+  "media_type": "application/vnd.fs2.scientific-manifest+json",
+  "sha256": "12c50f49ff557b1b5758bd0f067835b763c5a5298ec36ff809b28f86b343a89e",
+  "size_bytes": 505
+ },
+ "output_manifest": {
+  "artifact_id": "ebc9e392-4a3a-5e32-95b8-69c862e94a1f",
+  "sha256": "ad29dcdb029a93c657029970af0f38eab4d4f0276b6c75dd264ac3abae37dbf2",
+  "size_bytes": 2113,
+  "media_type": "application/vnd.fs2.scientific-manifest+json",
+  "compression": "none"
+ },
+ "semantic_validation": {
+  "status": "passed",
+  "validator_id": "nanobodybuilder2-v1",
+  "residues": 124,
+  "structures_completed": 5
+ },
+ "native_result": {
+  "validation": {
+   "status": "passed",
+   "validator_id": "nanobodybuilder2-v1",
+   "residues": 124,
+   "structures_completed": 5
+  },
+  "files": [
+   {
+    "name": "result",
+    "semantic_type": "nanobodybuilder2-result/v1",
+    "media_type": "application/json",
+    "compression": null,
+    "file": {
+     "path": "result.json",
+     "sha256": "d9d43a0161311d7b01c109be3172a9c04838c7bf5d1e9f25e904edf1167d0865",
+     "size_bytes": 3232
+    }
+   },
+   {
+    "name": "native-00000",
+    "semantic_type": "nanobodybuilder2-native-file/v1",
+    "media_type": "application/octet-stream",
+    "compression": null,
+    "file": {
+     "path": "native/error_estimates.npy",
+     "sha256": "9e75af47041dc14422fb421fbbda22f4aee8c17924fcb1a088c68d61838e5f0f",
+     "size_bytes": 624
+    }
+   },
+   {
+    "name": "native-00001",
+    "semantic_type": "nanobodybuilder2-native-file/v1",
+    "media_type": "chemical/x-pdb",
+    "compression": null,
+    "file": {
+     "path": "native/final_model.pdb",
+     "sha256": "52588e2a00993ef7f5dfa9811874282d11e21fd991982fda2fb1d4e97844112b",
+     "size_bytes": 150887
+    }
+   },
+   {
+    "name": "native-00002",
+    "semantic_type": "nanobodybuilder2-native-file/v1",
+    "media_type": "chemical/x-pdb",
+    "compression": null,
+    "file": {
+     "path": "native/rank0_unrefined.pdb",
+     "sha256": "6bafa3198d6dd58da3aeced6f850242710bad60112713d7bf21e050ef416f627",
+     "size_bytes": 76382
+    }
+   },
+   {
+    "name": "native-00003",
+    "semantic_type": "nanobodybuilder2-native-file/v1",
+    "media_type": "chemical/x-pdb",
+    "compression": null,
+    "file": {
+     "path": "native/rank1_unrefined.pdb",
+     "sha256": "34005cdff9b783baacfbee9ba75aa2d064f877b14cb9bf768bfad7befd89df17",
+     "size_bytes": 76382
+    }
+   },
+   {
+    "name": "native-00004",
+    "semantic_type": "nanobodybuilder2-native-file/v1",
+    "media_type": "chemical/x-pdb",
+    "compression": null,
+    "file": {
+     "path": "native/rank2_unrefined.pdb",
+     "sha256": "ec1bc0b46bde6fcc29fb8ad521ce8e6eca752587d4c1b77221e6586a3ebdfea2",
+     "size_bytes": 76382
+    }
+   },
+   {
+    "name": "native-00005",
+    "semantic_type": "nanobodybuilder2-native-file/v1",
+    "media_type": "chemical/x-pdb",
+    "compression": null,
+    "file": {
+     "path": "native/rank3_unrefined.pdb",
+     "sha256": "62abe1ddce995ff348d0568bb67549f665499ee27b1085938fc9313ebee891de",
+     "size_bytes": 76382
+    }
+   }
+  ],
+  "command_seconds": 10.474495735019445,
+  "command_timing_scope": "terminal-stage-only",
+  "runtime_metrics": {
+   "native_command_seconds": 7.603456343058497,
+   "backend": "cuda"
+  }
+ },
+ "customer_storage": {
+  "available": true,
+  "bucket": "fs2-oslo-hackathon-participant-17-13c5f0c3b6",
+  "prefix": "runs/nanobodybuilder2/op-cb14aad491ba0c87/",
+  "manifest_key": "runs/nanobodybuilder2/op-cb14aad491ba0c87/manifest.json",
+  "files": [
+   {
+    "path": "artifacts/result.json",
+    "sha256": "d9d43a0161311d7b01c109be3172a9c04838c7bf5d1e9f25e904edf1167d0865",
+    "size_bytes": 3232,
+    "key": "runs/nanobodybuilder2/op-cb14aad491ba0c87/artifacts/result.json"
+   },
+   {
+    "path": "artifacts/native/error_estimates.npy",
+    "sha256": "9e75af47041dc14422fb421fbbda22f4aee8c17924fcb1a088c68d61838e5f0f",
+    "size_bytes": 624,
+    "key": "runs/nanobodybuilder2/op-cb14aad491ba0c87/artifacts/native/error_estimates.npy"
+   },
+   {
+    "path": "artifacts/native/final_model.pdb",
+    "sha256": "52588e2a00993ef7f5dfa9811874282d11e21fd991982fda2fb1d4e97844112b",
+    "size_bytes": 150887,
+    "key": "runs/nanobodybuilder2/op-cb14aad491ba0c87/artifacts/native/final_model.pdb"
+   },
+   {
+    "path": "artifacts/native/rank0_unrefined.pdb",
+    "sha256": "6bafa3198d6dd58da3aeced6f850242710bad60112713d7bf21e050ef416f627",
+    "size_bytes": 76382,
+    "key": "runs/nanobodybuilder2/op-cb14aad491ba0c87/artifacts/native/rank0_unrefined.pdb"
+   },
+   {
+    "path": "artifacts/native/rank1_unrefined.pdb",
+    "sha256": "34005cdff9b783baacfbee9ba75aa2d064f877b14cb9bf768bfad7befd89df17",
+    "size_bytes": 76382,
+    "key": "runs/nanobodybuilder2/op-cb14aad491ba0c87/artifacts/native/rank1_unrefined.pdb"
+   },
+   {
+    "path": "artifacts/native/rank2_unrefined.pdb",
+    "sha256": "ec1bc0b46bde6fcc29fb8ad521ce8e6eca752587d4c1b77221e6586a3ebdfea2",
+    "size_bytes": 76382,
+    "key": "runs/nanobodybuilder2/op-cb14aad491ba0c87/artifacts/native/rank2_unrefined.pdb"
+   },
+   {
+    "path": "artifacts/native/rank3_unrefined.pdb",
+    "sha256": "62abe1ddce995ff348d0568bb67549f665499ee27b1085938fc9313ebee891de",
+    "size_bytes": 76382,
+    "key": "runs/nanobodybuilder2/op-cb14aad491ba0c87/artifacts/native/rank3_unrefined.pdb"
+   },
+   {
+    "path": "result.json",
+    "sha256": "224dd30b585f1b7fbf313dd801746bfe40565ac90814a51f3a5cf8b67fc7cc02",
+    "size_bytes": 2098,
+    "key": "runs/nanobodybuilder2/op-cb14aad491ba0c87/result.json"
+   }
+  ]
+ },
+ "progress": {
+  "schema": "scientific-ai/progress/v1",
+  "updated_at": null,
+  "current_step_id": null,
+  "steps": [
+   {
+    "step_id": "delivered_calls",
+    "command": null,
+    "state": "completed",
+    "unit": "call",
+    "initial_step": null,
+    "target_step": null,
+    "observed_step": null,
+    "durable_step": null,
+    "timestep_ps": null,
+    "completed_ns": null,
+    "durable_completed_ns": null,
+    "target_ns": null,
+    "ns_per_day": null,
+    "ns_per_day_source": null,
+    "completed_units": 1.0,
+    "durable_completed_units": 1.0,
+    "target_units": null,
+    "rate": null,
+    "rate_unit": null,
+    "rate_source": null,
+    "rate_window_seconds": null,
+    "observed_at": null,
+    "durable_at": null,
+    "rate_updated_at": null
+   }
+  ],
+  "available": true,
+  "stale": false,
+  "stale_after_seconds": null,
+  "source": "verified-delivery"
+ },
+ "execution": {
+  "stage_id": "predict",
+  "shard_id": "main",
+  "role": "run",
+  "owner": {
+   "tenant_id": "oslo-hackathon",
+   "principal_id": "623dd01a507c57298faf83aaa99b3933a2f9b2232518a79cb15b9e320051fb48"
+  }
+ }
+}

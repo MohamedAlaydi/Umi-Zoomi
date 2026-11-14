@@ -1,0 +1,18 @@
+2026-11-14 13:33:12.823 | DEBUG    | abguard.reference:cdrh3_reference:558 - reference_data: reading abguard_cdrh3 from the bundle
+2026-11-14 13:33:12.823 | DEBUG    | abguard.io:read_table:69 - reading /home/hackathon/team14/runs/011-codex-denovo-vhh/abguard-complete/submission.csv as .csv
+2026-11-14 13:33:15.796 | DEBUG    | abguard.io:read_table:69 - reading /home/hackathon/team14/runs/011-codex-denovo-vhh/abguard-complete/submission.csv as .csv
+2026-11-14 13:33:18.784 | WARNING  | abguard.pipeline:validate_frame:319 - /home/hackathon/team14/runs/011-codex-denovo-vhh/abguard-complete/submission.csv: dropped rows for [vhh] heavy_cysteines_are_paired: 1 row(s); [vhh] heavy_domain_cysteines_are_paired: 1 row(s); [vhh] heavy_has_expected_domains: 1 row(s); [novelty] pilot-unconditioned-s20261114__0_shard-0_design_1: CDRH3 ARGYSYYSFVY is 2 mutation(s) from ARGYLYYSFDY in uspto:uspto_AJN51465; a novel design needs at least 3; [novelty] pilot-unconditioned-s20261114__0_shard-0_design_1__canonicalCys: CDRH3 ARGYSYYSFVY is 2 mutation(s) from ARGYLYYSFDY in uspto:uspto_AJN51465; a novel design needs at least 3
+{
+  "input": 115,
+  "validated": 111,
+  "novelty_verdict_counts": [
+    {
+      "is_novel_enough": false,
+      "count": 3
+    },
+    {
+      "is_novel_enough": true,
+      "count": 112
+    }
+  ]
+}

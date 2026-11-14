@@ -17,6 +17,9 @@
 #
 # Usage:
 #   amass key      save your own key, prompted, not echoed
+#   amass key --shared
+#                  save the one team-subscription key, used by anyone who
+#                  has not saved a personal one
 #   amass search biomedcore "trastuzumab Met-107 oxidation"
 #   amass search biomedcore "HER2 epitope competitive binding" 40
 #   amass get biomedcore <amass-id>
@@ -130,8 +133,12 @@ cmd="${1:-}"; shift || true
 
 case "$cmd" in
   key)
-    me="$(cat "$HOME/.team_me" 2>/dev/null)"
-    [ -n "$me" ] || die "No ~/.team_me yet. Run:  echo yourname > ~/.team_me"
+    if [ "${1:-}" = "--shared" ]; then
+      me="shared"
+    else
+      me="$(cat "$HOME/.team_me" 2>/dev/null)"
+      [ -n "$me" ] || die "No ~/.team_me yet. Run:  echo yourname > ~/.team_me"
+    fi
     mkdir -p "$HOME/.amass-keys" && chmod 700 "$HOME/.amass-keys"
     printf 'Paste your Amass key and press enter. It starts with amass_\n' >&2
     printf 'It is not echoed, not logged, and not stored in the repo.\n' >&2

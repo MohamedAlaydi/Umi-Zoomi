@@ -1,0 +1,146 @@
+{
+  "artifacts": [
+    {
+      "path": "novel1_crop119.cif",
+      "target": "novel1_crop119",
+      "type": "structure",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/novel1_crop119.cif"
+    },
+    {
+      "path": "novel2_crop119.cif",
+      "target": "novel2_crop119",
+      "type": "structure",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/novel2_crop119.cif"
+    },
+    {
+      "path": "novel3_crop119.cif",
+      "target": "novel3_crop119",
+      "type": "structure",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/novel3_crop119.cif"
+    },
+    {
+      "path": "fixed_framework_control.cif",
+      "target": "fixed_framework_control",
+      "type": "structure",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/fixed_framework_control.cif"
+    },
+    {
+      "path": "high_footprint_known_hit.cif",
+      "target": "high_footprint_known_hit",
+      "type": "structure",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/high_footprint_known_hit.cif"
+    },
+    {
+      "path": "novel1_crop119_pae.npz",
+      "type": "pae",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/novel1_crop119_pae.npz"
+    },
+    {
+      "path": "novel2_crop119_pae.npz",
+      "type": "pae",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/novel2_crop119_pae.npz"
+    },
+    {
+      "path": "novel3_crop119_pae.npz",
+      "type": "pae",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/novel3_crop119_pae.npz"
+    },
+    {
+      "path": "high_footprint_known_hit_pae.npz",
+      "type": "pae",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/high_footprint_known_hit_pae.npz"
+    },
+    {
+      "path": "fixed_framework_control_pae.npz",
+      "type": "pae",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/fixed_framework_control_pae.npz"
+    },
+    {
+      "path": "novel1_crop119_pae.json",
+      "type": "pae_sidecar",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/novel1_crop119_pae.json"
+    },
+    {
+      "path": "novel1_crop119_pae.json",
+      "type": "pae_sidecar",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/novel1_crop119_pae.json"
+    },
+    {
+      "path": "novel2_crop119_pae.json",
+      "type": "pae_sidecar",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/novel2_crop119_pae.json"
+    },
+    {
+      "path": "novel3_crop119_pae.json",
+      "type": "pae_sidecar",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/novel3_crop119_pae.json"
+    },
+    {
+      "path": "high_footprint_known_hit_pae.json",
+      "type": "pae_sidecar",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/high_footprint_known_hit_pae.json"
+    },
+    {
+      "path": "fixed_framework_control_pae.json",
+      "type": "pae_sidecar",
+      "url": "/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/fixed_framework_control_pae.json"
+    }
+  ],
+  "created_at": "2026-11-14T13:50:06.427795+00:00",
+  "done": 5,
+  "download": "curl -fsSL -H \"Authorization: Bearer $JAPANFOLD_API_KEY\" --create-dirs -o novel1_crop119.cif https://api.japanfold.aiand.com/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/novel1_crop119.cif -o novel2_crop119.cif https://api.japanfold.aiand.com/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/novel2_crop119.cif -o novel3_crop119.cif https://api.japanfold.aiand.com/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/novel3_crop119.cif -o fixed_framework_control.cif https://api.japanfold.aiand.com/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/fixed_framework_control.cif -o high_footprint_known_hit.cif https://api.japanfold.aiand.com/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/high_footprint_known_hit.cif -o novel1_crop119_pae.npz https://api.japanfold.aiand.com/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/novel1_crop119_pae.npz -o novel2_crop119_pae.npz https://api.japanfold.aiand.com/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/novel2_crop119_pae.npz -o novel3_crop119_pae.npz https://api.japanfold.aiand.com/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/novel3_crop119_pae.npz -o high_footprint_known_hit_pae.npz https://api.japanfold.aiand.com/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/high_footprint_known_hit_pae.npz -o fixed_framework_control_pae.npz https://api.japanfold.aiand.com/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/fixed_framework_control_pae.npz -o novel1_crop119_pae.json https://api.japanfold.aiand.com/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/novel1_crop119_pae.json -o novel1_crop119_pae.json https://api.japanfold.aiand.com/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/novel1_crop119_pae.json -o novel2_crop119_pae.json https://api.japanfold.aiand.com/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/novel2_crop119_pae.json -o novel3_crop119_pae.json https://api.japanfold.aiand.com/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/novel3_crop119_pae.json -o high_footprint_known_hit_pae.json https://api.japanfold.aiand.com/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/high_footprint_known_hit_pae.json -o fixed_framework_control_pae.json https://api.japanfold.aiand.com/v1/jobs/eec321fd1dd467b035916be5862002cd/artifacts/fixed_framework_control_pae.json",
+  "error": null,
+  "finished_at": "2026-11-14T13:50:57.560330+00:00",
+  "id": "eec321fd1dd467b035916be5862002cd",
+  "kind": "predict",
+  "links": {
+    "archive": "/v1/jobs/eec321fd1dd467b035916be5862002cd/archive",
+    "logs": "/v1/jobs/eec321fd1dd467b035916be5862002cd/logs",
+    "results": "/v1/jobs/eec321fd1dd467b035916be5862002cd/results",
+    "self": "/v1/jobs/eec321fd1dd467b035916be5862002cd",
+    "usage": "/v1/jobs/eec321fd1dd467b035916be5862002cd/usage"
+  },
+  "model": "af2ig",
+  "name": "team14-her2-initial-guess-format-fix",
+  "object": "job",
+  "params": {
+    "output_format": "cif",
+    "seed": 0,
+    "write_pae": true
+  },
+  "progress": 1.0,
+  "protocol": null,
+  "residues": 253,
+  "results_ready": true,
+  "stage": "done",
+  "started_at": "2026-11-14T13:50:15.638020+00:00",
+  "status": "succeeded",
+  "targets": [
+    {
+      "id": "novel1_crop119",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "novel2_crop119",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "novel3_crop119",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "high_footprint_known_hit",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "fixed_framework_control",
+      "stage": null,
+      "state": "done"
+    }
+  ],
+  "total": 5
+}

@@ -1,0 +1,850 @@
+{
+  "provenance": {
+    "cli_contract_version": "foundry.cli.v1",
+    "ended_at": "2026-11-14T13:12:25.747595Z",
+    "inputs": [
+      {
+        "path": "/work/runs/009-claude-multiseed-refold/prepared/holo/queries_calib.json",
+        "tier": "none"
+      }
+    ],
+    "module": {
+      "name": "apheris-boltz",
+      "version": "1.3.0"
+    },
+    "resolved_config": {
+      "missing_msas": "fail",
+      "num_diffusion_samples": 1,
+      "query_failures": "skip",
+      "recycling_steps": 3,
+      "sampling_steps": 200,
+      "seeds": [
+        42,
+        1,
+        2
+      ],
+      "template_paths": [
+        "../prepared/holo/template.cif"
+      ],
+      "weights": "/app/weights/boltz2_conf.ckpt",
+      "write_detailed_scores": true
+    },
+    "started_at": "2026-11-14T13:01:17.662699Z"
+  },
+  "result": {
+    "predictions": [
+      {
+        "detailed_scores_path": "calib_001/seed_42/calib_001_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_001/seed_42/calib_001_seed_42_sample_1_model.cif",
+        "query_id": "calib_001",
+        "query_index": 0,
+        "sample": 1,
+        "scores_path": "calib_001/seed_42/calib_001_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "calib_001/seed_1/calib_001_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_001/seed_1/calib_001_seed_1_sample_1_model.cif",
+        "query_id": "calib_001",
+        "query_index": 0,
+        "sample": 1,
+        "scores_path": "calib_001/seed_1/calib_001_seed_1_sample_1_scores.json",
+        "seed": 1
+      },
+      {
+        "detailed_scores_path": "calib_001/seed_2/calib_001_seed_2_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_001/seed_2/calib_001_seed_2_sample_1_model.cif",
+        "query_id": "calib_001",
+        "query_index": 0,
+        "sample": 1,
+        "scores_path": "calib_001/seed_2/calib_001_seed_2_sample_1_scores.json",
+        "seed": 2
+      },
+      {
+        "detailed_scores_path": "calib_002/seed_42/calib_002_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_002/seed_42/calib_002_seed_42_sample_1_model.cif",
+        "query_id": "calib_002",
+        "query_index": 1,
+        "sample": 1,
+        "scores_path": "calib_002/seed_42/calib_002_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "calib_002/seed_1/calib_002_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_002/seed_1/calib_002_seed_1_sample_1_model.cif",
+        "query_id": "calib_002",
+        "query_index": 1,
+        "sample": 1,
+        "scores_path": "calib_002/seed_1/calib_002_seed_1_sample_1_scores.json",
+        "seed": 1
+      },
+      {
+        "detailed_scores_path": "calib_002/seed_2/calib_002_seed_2_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_002/seed_2/calib_002_seed_2_sample_1_model.cif",
+        "query_id": "calib_002",
+        "query_index": 1,
+        "sample": 1,
+        "scores_path": "calib_002/seed_2/calib_002_seed_2_sample_1_scores.json",
+        "seed": 2
+      },
+      {
+        "detailed_scores_path": "calib_003/seed_42/calib_003_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_003/seed_42/calib_003_seed_42_sample_1_model.cif",
+        "query_id": "calib_003",
+        "query_index": 2,
+        "sample": 1,
+        "scores_path": "calib_003/seed_42/calib_003_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "calib_003/seed_1/calib_003_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_003/seed_1/calib_003_seed_1_sample_1_model.cif",
+        "query_id": "calib_003",
+        "query_index": 2,
+        "sample": 1,
+        "scores_path": "calib_003/seed_1/calib_003_seed_1_sample_1_scores.json",
+        "seed": 1
+      },
+      {
+        "detailed_scores_path": "calib_003/seed_2/calib_003_seed_2_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_003/seed_2/calib_003_seed_2_sample_1_model.cif",
+        "query_id": "calib_003",
+        "query_index": 2,
+        "sample": 1,
+        "scores_path": "calib_003/seed_2/calib_003_seed_2_sample_1_scores.json",
+        "seed": 2
+      },
+      {
+        "detailed_scores_path": "calib_004/seed_42/calib_004_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_004/seed_42/calib_004_seed_42_sample_1_model.cif",
+        "query_id": "calib_004",
+        "query_index": 3,
+        "sample": 1,
+        "scores_path": "calib_004/seed_42/calib_004_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "calib_004/seed_1/calib_004_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_004/seed_1/calib_004_seed_1_sample_1_model.cif",
+        "query_id": "calib_004",
+        "query_index": 3,
+        "sample": 1,
+        "scores_path": "calib_004/seed_1/calib_004_seed_1_sample_1_scores.json",
+        "seed": 1
+      },
+      {
+        "detailed_scores_path": "calib_004/seed_2/calib_004_seed_2_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_004/seed_2/calib_004_seed_2_sample_1_model.cif",
+        "query_id": "calib_004",
+        "query_index": 3,
+        "sample": 1,
+        "scores_path": "calib_004/seed_2/calib_004_seed_2_sample_1_scores.json",
+        "seed": 2
+      },
+      {
+        "detailed_scores_path": "calib_005/seed_42/calib_005_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_005/seed_42/calib_005_seed_42_sample_1_model.cif",
+        "query_id": "calib_005",
+        "query_index": 4,
+        "sample": 1,
+        "scores_path": "calib_005/seed_42/calib_005_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "calib_005/seed_1/calib_005_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_005/seed_1/calib_005_seed_1_sample_1_model.cif",
+        "query_id": "calib_005",
+        "query_index": 4,
+        "sample": 1,
+        "scores_path": "calib_005/seed_1/calib_005_seed_1_sample_1_scores.json",
+        "seed": 1
+      },
+      {
+        "detailed_scores_path": "calib_005/seed_2/calib_005_seed_2_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_005/seed_2/calib_005_seed_2_sample_1_model.cif",
+        "query_id": "calib_005",
+        "query_index": 4,
+        "sample": 1,
+        "scores_path": "calib_005/seed_2/calib_005_seed_2_sample_1_scores.json",
+        "seed": 2
+      },
+      {
+        "detailed_scores_path": "calib_006/seed_42/calib_006_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_006/seed_42/calib_006_seed_42_sample_1_model.cif",
+        "query_id": "calib_006",
+        "query_index": 5,
+        "sample": 1,
+        "scores_path": "calib_006/seed_42/calib_006_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "calib_006/seed_1/calib_006_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_006/seed_1/calib_006_seed_1_sample_1_model.cif",
+        "query_id": "calib_006",
+        "query_index": 5,
+        "sample": 1,
+        "scores_path": "calib_006/seed_1/calib_006_seed_1_sample_1_scores.json",
+        "seed": 1
+      },
+      {
+        "detailed_scores_path": "calib_006/seed_2/calib_006_seed_2_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_006/seed_2/calib_006_seed_2_sample_1_model.cif",
+        "query_id": "calib_006",
+        "query_index": 5,
+        "sample": 1,
+        "scores_path": "calib_006/seed_2/calib_006_seed_2_sample_1_scores.json",
+        "seed": 2
+      },
+      {
+        "detailed_scores_path": "calib_007/seed_42/calib_007_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_007/seed_42/calib_007_seed_42_sample_1_model.cif",
+        "query_id": "calib_007",
+        "query_index": 6,
+        "sample": 1,
+        "scores_path": "calib_007/seed_42/calib_007_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "calib_007/seed_1/calib_007_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_007/seed_1/calib_007_seed_1_sample_1_model.cif",
+        "query_id": "calib_007",
+        "query_index": 6,
+        "sample": 1,
+        "scores_path": "calib_007/seed_1/calib_007_seed_1_sample_1_scores.json",
+        "seed": 1
+      },
+      {
+        "detailed_scores_path": "calib_007/seed_2/calib_007_seed_2_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_007/seed_2/calib_007_seed_2_sample_1_model.cif",
+        "query_id": "calib_007",
+        "query_index": 6,
+        "sample": 1,
+        "scores_path": "calib_007/seed_2/calib_007_seed_2_sample_1_scores.json",
+        "seed": 2
+      },
+      {
+        "detailed_scores_path": "calib_008/seed_42/calib_008_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_008/seed_42/calib_008_seed_42_sample_1_model.cif",
+        "query_id": "calib_008",
+        "query_index": 7,
+        "sample": 1,
+        "scores_path": "calib_008/seed_42/calib_008_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "calib_008/seed_1/calib_008_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_008/seed_1/calib_008_seed_1_sample_1_model.cif",
+        "query_id": "calib_008",
+        "query_index": 7,
+        "sample": 1,
+        "scores_path": "calib_008/seed_1/calib_008_seed_1_sample_1_scores.json",
+        "seed": 1
+      },
+      {
+        "detailed_scores_path": "calib_008/seed_2/calib_008_seed_2_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_008/seed_2/calib_008_seed_2_sample_1_model.cif",
+        "query_id": "calib_008",
+        "query_index": 7,
+        "sample": 1,
+        "scores_path": "calib_008/seed_2/calib_008_seed_2_sample_1_scores.json",
+        "seed": 2
+      },
+      {
+        "detailed_scores_path": "calib_009/seed_42/calib_009_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_009/seed_42/calib_009_seed_42_sample_1_model.cif",
+        "query_id": "calib_009",
+        "query_index": 8,
+        "sample": 1,
+        "scores_path": "calib_009/seed_42/calib_009_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "calib_009/seed_1/calib_009_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_009/seed_1/calib_009_seed_1_sample_1_model.cif",
+        "query_id": "calib_009",
+        "query_index": 8,
+        "sample": 1,
+        "scores_path": "calib_009/seed_1/calib_009_seed_1_sample_1_scores.json",
+        "seed": 1
+      },
+      {
+        "detailed_scores_path": "calib_009/seed_2/calib_009_seed_2_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_009/seed_2/calib_009_seed_2_sample_1_model.cif",
+        "query_id": "calib_009",
+        "query_index": 8,
+        "sample": 1,
+        "scores_path": "calib_009/seed_2/calib_009_seed_2_sample_1_scores.json",
+        "seed": 2
+      },
+      {
+        "detailed_scores_path": "calib_010/seed_42/calib_010_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_010/seed_42/calib_010_seed_42_sample_1_model.cif",
+        "query_id": "calib_010",
+        "query_index": 9,
+        "sample": 1,
+        "scores_path": "calib_010/seed_42/calib_010_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "calib_010/seed_1/calib_010_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_010/seed_1/calib_010_seed_1_sample_1_model.cif",
+        "query_id": "calib_010",
+        "query_index": 9,
+        "sample": 1,
+        "scores_path": "calib_010/seed_1/calib_010_seed_1_sample_1_scores.json",
+        "seed": 1
+      },
+      {
+        "detailed_scores_path": "calib_010/seed_2/calib_010_seed_2_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_010/seed_2/calib_010_seed_2_sample_1_model.cif",
+        "query_id": "calib_010",
+        "query_index": 9,
+        "sample": 1,
+        "scores_path": "calib_010/seed_2/calib_010_seed_2_sample_1_scores.json",
+        "seed": 2
+      },
+      {
+        "detailed_scores_path": "calib_011/seed_42/calib_011_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_011/seed_42/calib_011_seed_42_sample_1_model.cif",
+        "query_id": "calib_011",
+        "query_index": 10,
+        "sample": 1,
+        "scores_path": "calib_011/seed_42/calib_011_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "calib_011/seed_1/calib_011_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_011/seed_1/calib_011_seed_1_sample_1_model.cif",
+        "query_id": "calib_011",
+        "query_index": 10,
+        "sample": 1,
+        "scores_path": "calib_011/seed_1/calib_011_seed_1_sample_1_scores.json",
+        "seed": 1
+      },
+      {
+        "detailed_scores_path": "calib_011/seed_2/calib_011_seed_2_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_011/seed_2/calib_011_seed_2_sample_1_model.cif",
+        "query_id": "calib_011",
+        "query_index": 10,
+        "sample": 1,
+        "scores_path": "calib_011/seed_2/calib_011_seed_2_sample_1_scores.json",
+        "seed": 2
+      },
+      {
+        "detailed_scores_path": "calib_012/seed_42/calib_012_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_012/seed_42/calib_012_seed_42_sample_1_model.cif",
+        "query_id": "calib_012",
+        "query_index": 11,
+        "sample": 1,
+        "scores_path": "calib_012/seed_42/calib_012_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "calib_012/seed_1/calib_012_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_012/seed_1/calib_012_seed_1_sample_1_model.cif",
+        "query_id": "calib_012",
+        "query_index": 11,
+        "sample": 1,
+        "scores_path": "calib_012/seed_1/calib_012_seed_1_sample_1_scores.json",
+        "seed": 1
+      },
+      {
+        "detailed_scores_path": "calib_012/seed_2/calib_012_seed_2_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_012/seed_2/calib_012_seed_2_sample_1_model.cif",
+        "query_id": "calib_012",
+        "query_index": 11,
+        "sample": 1,
+        "scores_path": "calib_012/seed_2/calib_012_seed_2_sample_1_scores.json",
+        "seed": 2
+      },
+      {
+        "detailed_scores_path": "calib_013/seed_42/calib_013_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_013/seed_42/calib_013_seed_42_sample_1_model.cif",
+        "query_id": "calib_013",
+        "query_index": 12,
+        "sample": 1,
+        "scores_path": "calib_013/seed_42/calib_013_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "calib_013/seed_1/calib_013_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_013/seed_1/calib_013_seed_1_sample_1_model.cif",
+        "query_id": "calib_013",
+        "query_index": 12,
+        "sample": 1,
+        "scores_path": "calib_013/seed_1/calib_013_seed_1_sample_1_scores.json",
+        "seed": 1
+      },
+      {
+        "detailed_scores_path": "calib_013/seed_2/calib_013_seed_2_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_013/seed_2/calib_013_seed_2_sample_1_model.cif",
+        "query_id": "calib_013",
+        "query_index": 12,
+        "sample": 1,
+        "scores_path": "calib_013/seed_2/calib_013_seed_2_sample_1_scores.json",
+        "seed": 2
+      },
+      {
+        "detailed_scores_path": "calib_014/seed_42/calib_014_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_014/seed_42/calib_014_seed_42_sample_1_model.cif",
+        "query_id": "calib_014",
+        "query_index": 13,
+        "sample": 1,
+        "scores_path": "calib_014/seed_42/calib_014_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "calib_014/seed_1/calib_014_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_014/seed_1/calib_014_seed_1_sample_1_model.cif",
+        "query_id": "calib_014",
+        "query_index": 13,
+        "sample": 1,
+        "scores_path": "calib_014/seed_1/calib_014_seed_1_sample_1_scores.json",
+        "seed": 1
+      },
+      {
+        "detailed_scores_path": "calib_014/seed_2/calib_014_seed_2_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_014/seed_2/calib_014_seed_2_sample_1_model.cif",
+        "query_id": "calib_014",
+        "query_index": 13,
+        "sample": 1,
+        "scores_path": "calib_014/seed_2/calib_014_seed_2_sample_1_scores.json",
+        "seed": 2
+      },
+      {
+        "detailed_scores_path": "calib_015/seed_42/calib_015_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_015/seed_42/calib_015_seed_42_sample_1_model.cif",
+        "query_id": "calib_015",
+        "query_index": 14,
+        "sample": 1,
+        "scores_path": "calib_015/seed_42/calib_015_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "calib_015/seed_1/calib_015_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_015/seed_1/calib_015_seed_1_sample_1_model.cif",
+        "query_id": "calib_015",
+        "query_index": 14,
+        "sample": 1,
+        "scores_path": "calib_015/seed_1/calib_015_seed_1_sample_1_scores.json",
+        "seed": 1
+      },
+      {
+        "detailed_scores_path": "calib_015/seed_2/calib_015_seed_2_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_015/seed_2/calib_015_seed_2_sample_1_model.cif",
+        "query_id": "calib_015",
+        "query_index": 14,
+        "sample": 1,
+        "scores_path": "calib_015/seed_2/calib_015_seed_2_sample_1_scores.json",
+        "seed": 2
+      },
+      {
+        "detailed_scores_path": "calib_016/seed_42/calib_016_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_016/seed_42/calib_016_seed_42_sample_1_model.cif",
+        "query_id": "calib_016",
+        "query_index": 15,
+        "sample": 1,
+        "scores_path": "calib_016/seed_42/calib_016_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "calib_016/seed_1/calib_016_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_016/seed_1/calib_016_seed_1_sample_1_model.cif",
+        "query_id": "calib_016",
+        "query_index": 15,
+        "sample": 1,
+        "scores_path": "calib_016/seed_1/calib_016_seed_1_sample_1_scores.json",
+        "seed": 1
+      },
+      {
+        "detailed_scores_path": "calib_016/seed_2/calib_016_seed_2_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_016/seed_2/calib_016_seed_2_sample_1_model.cif",
+        "query_id": "calib_016",
+        "query_index": 15,
+        "sample": 1,
+        "scores_path": "calib_016/seed_2/calib_016_seed_2_sample_1_scores.json",
+        "seed": 2
+      },
+      {
+        "detailed_scores_path": "calib_017/seed_42/calib_017_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_017/seed_42/calib_017_seed_42_sample_1_model.cif",
+        "query_id": "calib_017",
+        "query_index": 16,
+        "sample": 1,
+        "scores_path": "calib_017/seed_42/calib_017_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "calib_017/seed_1/calib_017_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_017/seed_1/calib_017_seed_1_sample_1_model.cif",
+        "query_id": "calib_017",
+        "query_index": 16,
+        "sample": 1,
+        "scores_path": "calib_017/seed_1/calib_017_seed_1_sample_1_scores.json",
+        "seed": 1
+      },
+      {
+        "detailed_scores_path": "calib_017/seed_2/calib_017_seed_2_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_017/seed_2/calib_017_seed_2_sample_1_model.cif",
+        "query_id": "calib_017",
+        "query_index": 16,
+        "sample": 1,
+        "scores_path": "calib_017/seed_2/calib_017_seed_2_sample_1_scores.json",
+        "seed": 2
+      },
+      {
+        "detailed_scores_path": "calib_018/seed_42/calib_018_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_018/seed_42/calib_018_seed_42_sample_1_model.cif",
+        "query_id": "calib_018",
+        "query_index": 17,
+        "sample": 1,
+        "scores_path": "calib_018/seed_42/calib_018_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "calib_018/seed_1/calib_018_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_018/seed_1/calib_018_seed_1_sample_1_model.cif",
+        "query_id": "calib_018",
+        "query_index": 17,
+        "sample": 1,
+        "scores_path": "calib_018/seed_1/calib_018_seed_1_sample_1_scores.json",
+        "seed": 1
+      },
+      {
+        "detailed_scores_path": "calib_018/seed_2/calib_018_seed_2_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_018/seed_2/calib_018_seed_2_sample_1_model.cif",
+        "query_id": "calib_018",
+        "query_index": 17,
+        "sample": 1,
+        "scores_path": "calib_018/seed_2/calib_018_seed_2_sample_1_scores.json",
+        "seed": 2
+      },
+      {
+        "detailed_scores_path": "calib_019/seed_42/calib_019_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_019/seed_42/calib_019_seed_42_sample_1_model.cif",
+        "query_id": "calib_019",
+        "query_index": 18,
+        "sample": 1,
+        "scores_path": "calib_019/seed_42/calib_019_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "calib_019/seed_1/calib_019_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_019/seed_1/calib_019_seed_1_sample_1_model.cif",
+        "query_id": "calib_019",
+        "query_index": 18,
+        "sample": 1,
+        "scores_path": "calib_019/seed_1/calib_019_seed_1_sample_1_scores.json",
+        "seed": 1
+      },
+      {
+        "detailed_scores_path": "calib_019/seed_2/calib_019_seed_2_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_019/seed_2/calib_019_seed_2_sample_1_model.cif",
+        "query_id": "calib_019",
+        "query_index": 18,
+        "sample": 1,
+        "scores_path": "calib_019/seed_2/calib_019_seed_2_sample_1_scores.json",
+        "seed": 2
+      },
+      {
+        "detailed_scores_path": "calib_020/seed_42/calib_020_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_020/seed_42/calib_020_seed_42_sample_1_model.cif",
+        "query_id": "calib_020",
+        "query_index": 19,
+        "sample": 1,
+        "scores_path": "calib_020/seed_42/calib_020_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "calib_020/seed_1/calib_020_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_020/seed_1/calib_020_seed_1_sample_1_model.cif",
+        "query_id": "calib_020",
+        "query_index": 19,
+        "sample": 1,
+        "scores_path": "calib_020/seed_1/calib_020_seed_1_sample_1_scores.json",
+        "seed": 1
+      },
+      {
+        "detailed_scores_path": "calib_020/seed_2/calib_020_seed_2_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_020/seed_2/calib_020_seed_2_sample_1_model.cif",
+        "query_id": "calib_020",
+        "query_index": 19,
+        "sample": 1,
+        "scores_path": "calib_020/seed_2/calib_020_seed_2_sample_1_scores.json",
+        "seed": 2
+      },
+      {
+        "detailed_scores_path": "calib_021/seed_42/calib_021_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_021/seed_42/calib_021_seed_42_sample_1_model.cif",
+        "query_id": "calib_021",
+        "query_index": 20,
+        "sample": 1,
+        "scores_path": "calib_021/seed_42/calib_021_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "calib_021/seed_1/calib_021_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_021/seed_1/calib_021_seed_1_sample_1_model.cif",
+        "query_id": "calib_021",
+        "query_index": 20,
+        "sample": 1,
+        "scores_path": "calib_021/seed_1/calib_021_seed_1_sample_1_scores.json",
+        "seed": 1
+      },
+      {
+        "detailed_scores_path": "calib_021/seed_2/calib_021_seed_2_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_021/seed_2/calib_021_seed_2_sample_1_model.cif",
+        "query_id": "calib_021",
+        "query_index": 20,
+        "sample": 1,
+        "scores_path": "calib_021/seed_2/calib_021_seed_2_sample_1_scores.json",
+        "seed": 2
+      },
+      {
+        "detailed_scores_path": "calib_022/seed_42/calib_022_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_022/seed_42/calib_022_seed_42_sample_1_model.cif",
+        "query_id": "calib_022",
+        "query_index": 21,
+        "sample": 1,
+        "scores_path": "calib_022/seed_42/calib_022_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "calib_022/seed_1/calib_022_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_022/seed_1/calib_022_seed_1_sample_1_model.cif",
+        "query_id": "calib_022",
+        "query_index": 21,
+        "sample": 1,
+        "scores_path": "calib_022/seed_1/calib_022_seed_1_sample_1_scores.json",
+        "seed": 1
+      },
+      {
+        "detailed_scores_path": "calib_022/seed_2/calib_022_seed_2_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_022/seed_2/calib_022_seed_2_sample_1_model.cif",
+        "query_id": "calib_022",
+        "query_index": 21,
+        "sample": 1,
+        "scores_path": "calib_022/seed_2/calib_022_seed_2_sample_1_scores.json",
+        "seed": 2
+      },
+      {
+        "detailed_scores_path": "calib_023/seed_42/calib_023_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_023/seed_42/calib_023_seed_42_sample_1_model.cif",
+        "query_id": "calib_023",
+        "query_index": 22,
+        "sample": 1,
+        "scores_path": "calib_023/seed_42/calib_023_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "calib_023/seed_1/calib_023_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_023/seed_1/calib_023_seed_1_sample_1_model.cif",
+        "query_id": "calib_023",
+        "query_index": 22,
+        "sample": 1,
+        "scores_path": "calib_023/seed_1/calib_023_seed_1_sample_1_scores.json",
+        "seed": 1
+      },
+      {
+        "detailed_scores_path": "calib_023/seed_2/calib_023_seed_2_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_023/seed_2/calib_023_seed_2_sample_1_model.cif",
+        "query_id": "calib_023",
+        "query_index": 22,
+        "sample": 1,
+        "scores_path": "calib_023/seed_2/calib_023_seed_2_sample_1_scores.json",
+        "seed": 2
+      },
+      {
+        "detailed_scores_path": "calib_024/seed_42/calib_024_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_024/seed_42/calib_024_seed_42_sample_1_model.cif",
+        "query_id": "calib_024",
+        "query_index": 23,
+        "sample": 1,
+        "scores_path": "calib_024/seed_42/calib_024_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "calib_024/seed_1/calib_024_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_024/seed_1/calib_024_seed_1_sample_1_model.cif",
+        "query_id": "calib_024",
+        "query_index": 23,
+        "sample": 1,
+        "scores_path": "calib_024/seed_1/calib_024_seed_1_sample_1_scores.json",
+        "seed": 1
+      },
+      {
+        "detailed_scores_path": "calib_024/seed_2/calib_024_seed_2_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_024/seed_2/calib_024_seed_2_sample_1_model.cif",
+        "query_id": "calib_024",
+        "query_index": 23,
+        "sample": 1,
+        "scores_path": "calib_024/seed_2/calib_024_seed_2_sample_1_scores.json",
+        "seed": 2
+      },
+      {
+        "detailed_scores_path": "calib_025/seed_42/calib_025_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_025/seed_42/calib_025_seed_42_sample_1_model.cif",
+        "query_id": "calib_025",
+        "query_index": 24,
+        "sample": 1,
+        "scores_path": "calib_025/seed_42/calib_025_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "calib_025/seed_1/calib_025_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_025/seed_1/calib_025_seed_1_sample_1_model.cif",
+        "query_id": "calib_025",
+        "query_index": 24,
+        "sample": 1,
+        "scores_path": "calib_025/seed_1/calib_025_seed_1_sample_1_scores.json",
+        "seed": 1
+      },
+      {
+        "detailed_scores_path": "calib_025/seed_2/calib_025_seed_2_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_025/seed_2/calib_025_seed_2_sample_1_model.cif",
+        "query_id": "calib_025",
+        "query_index": 24,
+        "sample": 1,
+        "scores_path": "calib_025/seed_2/calib_025_seed_2_sample_1_scores.json",
+        "seed": 2
+      },
+      {
+        "detailed_scores_path": "calib_026/seed_42/calib_026_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_026/seed_42/calib_026_seed_42_sample_1_model.cif",
+        "query_id": "calib_026",
+        "query_index": 25,
+        "sample": 1,
+        "scores_path": "calib_026/seed_42/calib_026_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "calib_026/seed_1/calib_026_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_026/seed_1/calib_026_seed_1_sample_1_model.cif",
+        "query_id": "calib_026",
+        "query_index": 25,
+        "sample": 1,
+        "scores_path": "calib_026/seed_1/calib_026_seed_1_sample_1_scores.json",
+        "seed": 1
+      },
+      {
+        "detailed_scores_path": "calib_026/seed_2/calib_026_seed_2_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_026/seed_2/calib_026_seed_2_sample_1_model.cif",
+        "query_id": "calib_026",
+        "query_index": 25,
+        "sample": 1,
+        "scores_path": "calib_026/seed_2/calib_026_seed_2_sample_1_scores.json",
+        "seed": 2
+      },
+      {
+        "detailed_scores_path": "calib_027/seed_42/calib_027_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_027/seed_42/calib_027_seed_42_sample_1_model.cif",
+        "query_id": "calib_027",
+        "query_index": 26,
+        "sample": 1,
+        "scores_path": "calib_027/seed_42/calib_027_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "calib_027/seed_1/calib_027_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_027/seed_1/calib_027_seed_1_sample_1_model.cif",
+        "query_id": "calib_027",
+        "query_index": 26,
+        "sample": 1,
+        "scores_path": "calib_027/seed_1/calib_027_seed_1_sample_1_scores.json",
+        "seed": 1
+      },
+      {
+        "detailed_scores_path": "calib_027/seed_2/calib_027_seed_2_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_027/seed_2/calib_027_seed_2_sample_1_model.cif",
+        "query_id": "calib_027",
+        "query_index": 26,
+        "sample": 1,
+        "scores_path": "calib_027/seed_2/calib_027_seed_2_sample_1_scores.json",
+        "seed": 2
+      },
+      {
+        "detailed_scores_path": "calib_028/seed_42/calib_028_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_028/seed_42/calib_028_seed_42_sample_1_model.cif",
+        "query_id": "calib_028",
+        "query_index": 27,
+        "sample": 1,
+        "scores_path": "calib_028/seed_42/calib_028_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "calib_028/seed_1/calib_028_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_028/seed_1/calib_028_seed_1_sample_1_model.cif",
+        "query_id": "calib_028",
+        "query_index": 27,
+        "sample": 1,
+        "scores_path": "calib_028/seed_1/calib_028_seed_1_sample_1_scores.json",
+        "seed": 1
+      },
+      {
+        "detailed_scores_path": "calib_028/seed_2/calib_028_seed_2_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_028/seed_2/calib_028_seed_2_sample_1_model.cif",
+        "query_id": "calib_028",
+        "query_index": 27,
+        "sample": 1,
+        "scores_path": "calib_028/seed_2/calib_028_seed_2_sample_1_scores.json",
+        "seed": 2
+      },
+      {
+        "detailed_scores_path": "calib_029/seed_42/calib_029_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_029/seed_42/calib_029_seed_42_sample_1_model.cif",
+        "query_id": "calib_029",
+        "query_index": 28,
+        "sample": 1,
+        "scores_path": "calib_029/seed_42/calib_029_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "calib_029/seed_1/calib_029_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_029/seed_1/calib_029_seed_1_sample_1_model.cif",
+        "query_id": "calib_029",
+        "query_index": 28,
+        "sample": 1,
+        "scores_path": "calib_029/seed_1/calib_029_seed_1_sample_1_scores.json",
+        "seed": 1
+      },
+      {
+        "detailed_scores_path": "calib_029/seed_2/calib_029_seed_2_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_029/seed_2/calib_029_seed_2_sample_1_model.cif",
+        "query_id": "calib_029",
+        "query_index": 28,
+        "sample": 1,
+        "scores_path": "calib_029/seed_2/calib_029_seed_2_sample_1_scores.json",
+        "seed": 2
+      },
+      {
+        "detailed_scores_path": "calib_030/seed_42/calib_030_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_030/seed_42/calib_030_seed_42_sample_1_model.cif",
+        "query_id": "calib_030",
+        "query_index": 29,
+        "sample": 1,
+        "scores_path": "calib_030/seed_42/calib_030_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "calib_030/seed_1/calib_030_seed_1_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_030/seed_1/calib_030_seed_1_sample_1_model.cif",
+        "query_id": "calib_030",
+        "query_index": 29,
+        "sample": 1,
+        "scores_path": "calib_030/seed_1/calib_030_seed_1_sample_1_scores.json",
+        "seed": 1
+      },
+      {
+        "detailed_scores_path": "calib_030/seed_2/calib_030_seed_2_sample_1_detailed_scores.cbor.gz",
+        "path": "calib_030/seed_2/calib_030_seed_2_sample_1_model.cif",
+        "query_id": "calib_030",
+        "query_index": 29,
+        "sample": 1,
+        "scores_path": "calib_030/seed_2/calib_030_seed_2_sample_1_scores.json",
+        "seed": 2
+      }
+    ]
+  },
+  "schema_version": "foundry.cli.v1",
+  "task": "predict"
+}

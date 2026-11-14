@@ -9,6 +9,56 @@ and JapanFold.
 
 ---
 
+## Current evidence and submission materials
+
+The current proposal is a ranked panel of 20 Fab optimisation designs. Start
+with the [ranked full-sequence CSV](review/pitch_her2/Proposed_ranked_20.csv),
+[selection rationale](review/pitch_her2/Rangering_begrunnet.md), and
+[pitch deck](review/pitch_her2/HER2_pitch.pdf). The first four proposed tests
+are `anas_007`, `anas_015`, `anas_009`, and `r004_cdrh3_3`. Earlier ranking
+files remain as dated alternatives; they are not additional submissions.
+
+- [Score ledger](notes/SCORES.md): generated scores, source links, seeds and
+  small raw-score snapshots that can be checked from a fresh checkout.
+- [Pipeline audit](CURRENT_PIPELINE_AUDIT.md) and
+  [execution roadmap](EXECUTION_ROADMAP.md): controls, assay transfer,
+  reproducibility and remaining experimental work.
+- [De novo campaign](review/denovo/CAMPAIGN_RESULTS.md): 96 new sequences
+  and independent model checks. Three VHHs remain exploratory reserves;
+  weak docking support does not establish new HER2 binding.
+  The [offline report](review/denovo/report/report.html),
+  [evidence figure](review/denovo/report/campaign-evidence.pdf), and
+  [candidate export](review/denovo/report/exploratory-candidates.csv)
+  include compact structures and receipts.
+- [Validator status](notes/ABGUARD.md): the recovered local build and its
+  limitations. A local pass is distinct from final organiser acceptance.
+- [JapanFold handoff](notes/japanfold/README.md): the earlier Fab pilot
+  plan, preserved with its date and links to the subsequent campaign.
+
+No new candidate has measured SPR affinity, competitive binding or Tm in
+this repository. Model confidence, FACS classifier outputs, chemical
+liability flags and predicted binding-ddG are computational evidence.
+
+The score ledger requires only Python's standard library:
+
+```bash
+python3 scripts/scores.py --check
+python3 -m unittest discover -s scripts -p 'test_scores.py'
+```
+
+The frozen optimisation review can be replayed on CPU after installing
+`review/requirements.txt`, without downloading data or submitting jobs:
+
+```bash
+python3 review/replay.py
+```
+
+Raw GPU tensors, full model archives and weights remain excluded. Compact
+campaign reports, configuration, job receipts and score snapshots are
+published; see the campaign documentation for the original-output audit.
+
+---
+
 ## The task, and what actually decides it
 
 Two tracks, judged separately:

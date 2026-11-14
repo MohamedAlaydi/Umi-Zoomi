@@ -1,0 +1,8 @@
+{
+  "request_sha256": "b7144be96b1eaa26143e034dab2226b823418a532837ec2bc975871ff4d33f78",
+  "idempotency_key": "79c34472-be3d-41d8-8e61-b1f7389e4603",
+  "created_utc": "2026-11-14T13:03:47.742590+00:00",
+  "job_id": "7ddd6a47ff2643d5b5b2f3fa5e354e2b",
+  "status": "queued",
+  "submitted_utc": "2026-11-14T13:03:48.632190+00:00"
+}

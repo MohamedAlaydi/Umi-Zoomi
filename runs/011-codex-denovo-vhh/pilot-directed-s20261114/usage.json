@@ -1,0 +1,117 @@
+{
+  "amount": 0.032607,
+  "amount_micros": 32607,
+  "billable_s": 451.491,
+  "closed_at": "2026-11-14T13:06:02.633000+00:00",
+  "currency": "usd",
+  "excluded_s": 0.0,
+  "job": "76103db46162d975c6b29217fc07300e",
+  "kind": "design",
+  "links": {
+    "job": "/v1/jobs/76103db46162d975c6b29217fc07300e"
+  },
+  "load_s": 0.0,
+  "meter": {
+    "bias": "under",
+    "bound_s": 6.0,
+    "method": "sampled-lease-integral+engine-clock-cap",
+    "sample_gap_s": 3.0,
+    "visible": true
+  },
+  "model": "boltzgen",
+  "name": "team14-her2-pilot-directed-s20261114",
+  "object": "usage",
+  "reconcile": {
+    "agree": 0,
+    "capped": 0,
+    "checked": 0,
+    "over_engine": 0,
+    "rate": null,
+    "worst_delta_s": null
+  },
+  "status": "succeeded",
+  "submitted_at": "2026-11-14T13:03:30.614000+00:00",
+  "surface": "skill",
+  "targets": [
+    {
+      "amount": 0.00811,
+      "amount_micros": 8110,
+      "attempts": 1,
+      "billable_s": 112.302,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "shard_0",
+      "intervals": [
+        [
+          "2026-11-14T13:03:35.646000+00:00",
+          "2026-11-14T13:05:27.948000+00:00"
+        ]
+      ],
+      "load_s": 0.0,
+      "runtime_s": null
+    },
+    {
+      "amount": 0.008119,
+      "amount_micros": 8119,
+      "attempts": 1,
+      "billable_s": 112.418,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "shard_0",
+      "intervals": [
+        [
+          "2026-11-14T13:03:34.769000+00:00",
+          "2026-11-14T13:05:27.187000+00:00"
+        ]
+      ],
+      "load_s": 0.0,
+      "runtime_s": null
+    },
+    {
+      "amount": 0.008118,
+      "amount_micros": 8118,
+      "attempts": 1,
+      "billable_s": 112.405,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "shard_0",
+      "intervals": [
+        [
+          "2026-11-14T13:03:35.920000+00:00",
+          "2026-11-14T13:05:28.325000+00:00"
+        ]
+      ],
+      "load_s": 0.0,
+      "runtime_s": null
+    },
+    {
+      "amount": 0.00826,
+      "amount_micros": 8260,
+      "attempts": 1,
+      "billable_s": 114.366,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "shard_0",
+      "intervals": [
+        [
+          "2026-11-14T13:03:35.090000+00:00",
+          "2026-11-14T13:05:29.456000+00:00"
+        ]
+      ],
+      "load_s": 0.0,
+      "runtime_s": null
+    },
+    {
+      "amount": 0.0,
+      "amount_micros": 0,
+      "attempts": 0,
+      "billable_s": 0.0,
+      "excluded": "not_metered",
+      "excluded_s": 0.0,
+      "id": null,
+      "intervals": [],
+      "load_s": 0.0,
+      "runtime_s": null
+    }
+  ]
+}

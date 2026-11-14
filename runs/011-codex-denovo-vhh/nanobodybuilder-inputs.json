@@ -1,0 +1,20 @@
+[
+  {
+    "name": "novel1",
+    "candidate": "rfd4-variable-sequence-k1__her2_variable_sequence_13_generated",
+    "input_path": "/home/hackathon/team14/nebius/nebius-runs/inputs/run011/novel1.fasta",
+    "label": "run011-novel1-nbb2"
+  },
+  {
+    "name": "novel2",
+    "candidate": "rfd4-variable-sequence-k1__her2_variable_sequence_12_generated",
+    "input_path": "/home/hackathon/team14/nebius/nebius-runs/inputs/run011/novel2.fasta",
+    "label": "run011-novel2-nbb2"
+  },
+  {
+    "name": "novel3",
+    "candidate": "rfd4-variable-sequence-k1__her2_variable_sequence_2_generated",
+    "input_path": "/home/hackathon/team14/nebius/nebius-runs/inputs/run011/novel3.fasta",
+    "label": "run011-novel3-nbb2"
+  }
+]

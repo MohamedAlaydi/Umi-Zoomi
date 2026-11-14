@@ -1,0 +1,190 @@
+{
+  "amount": 0.035389,
+  "amount_micros": 35389,
+  "billable_s": 490.002,
+  "closed_at": "2026-11-14T13:36:15+00:00",
+  "currency": "usd",
+  "excluded_s": 0.0,
+  "job": "3f825d078c45c3bc0557f056468acfcb",
+  "kind": "predict",
+  "links": {
+    "job": "/v1/jobs/3f825d078c45c3bc0557f056468acfcb"
+  },
+  "load_s": 16.745,
+  "meter": {
+    "bias": "under",
+    "bound_s": 6.0,
+    "method": "sampled-lease-integral+engine-clock-cap",
+    "sample_gap_s": 3.0,
+    "visible": true
+  },
+  "model": "openfold3",
+  "name": "team14-her2-variable-designs-context-openfold3",
+  "object": "usage",
+  "reconcile": {
+    "agree": 1,
+    "capped": 0,
+    "checked": 1,
+    "over_engine": 0,
+    "rate": 1.0,
+    "worst_delta_s": -1.264
+  },
+  "status": "succeeded",
+  "submitted_at": "2026-11-14T13:33:02.064000+00:00",
+  "surface": "skill",
+  "targets": [
+    {
+      "amount": 0.001303,
+      "amount_micros": 1303,
+      "attempts": 1,
+      "billable_s": 18.036,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "novel1_crop119",
+      "intervals": [
+        [
+          "2026-11-14T13:33:40.393000+00:00",
+          "2026-11-14T13:33:58.429000+00:00"
+        ]
+      ],
+      "load_s": 0.0,
+      "runtime_s": 18.3
+    },
+    {
+      "amount": 0.010586,
+      "amount_micros": 10586,
+      "attempts": 1,
+      "billable_s": 146.57,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "novel1_ectodomain607",
+      "intervals": [
+        [
+          "2026-11-14T13:33:46.424000+00:00",
+          "2026-11-14T13:36:12.994000+00:00"
+        ]
+      ],
+      "load_s": 3.97,
+      "runtime_s": 142.6
+    },
+    {
+      "amount": 0.001448,
+      "amount_micros": 1448,
+      "attempts": 1,
+      "billable_s": 20.049,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "novel2_crop119",
+      "intervals": [
+        [
+          "2026-11-14T13:33:34.332000+00:00",
+          "2026-11-14T13:33:54.381000+00:00"
+        ]
+      ],
+      "load_s": 0.449,
+      "runtime_s": 19.6
+    },
+    {
+      "amount": 0.007685,
+      "amount_micros": 7685,
+      "attempts": 1,
+      "billable_s": 106.412,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "novel2_ectodomain607",
+      "intervals": [
+        [
+          "2026-11-14T13:33:44.511000+00:00",
+          "2026-11-14T13:35:30.923000+00:00"
+        ]
+      ],
+      "load_s": 5.112,
+      "runtime_s": 101.3
+    },
+    {
+      "amount": 0.001738,
+      "amount_micros": 1738,
+      "attempts": 1,
+      "billable_s": 24.071,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "novel3_crop119",
+      "intervals": [
+        [
+          "2026-11-14T13:33:24.403000+00:00",
+          "2026-11-14T13:33:48.473000+00:00"
+        ]
+      ],
+      "load_s": 4.571,
+      "runtime_s": 19.5
+    },
+    {
+      "amount": 0.007839,
+      "amount_micros": 7839,
+      "attempts": 1,
+      "billable_s": 108.543,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "novel3_ectodomain607",
+      "intervals": [
+        [
+          "2026-11-14T13:33:46.630000+00:00",
+          "2026-11-14T13:35:35.173000+00:00"
+        ]
+      ],
+      "load_s": 2.643,
+      "runtime_s": 105.9
+    },
+    {
+      "amount": 0.001602,
+      "amount_micros": 1602,
+      "attempts": 1,
+      "billable_s": 22.18,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "high_footprint_known_hit",
+      "intervals": [
+        [
+          "2026-11-14T13:33:20.494000+00:00",
+          "2026-11-14T13:33:42.674000+00:00"
+        ]
+      ],
+      "load_s": 0.0,
+      "runtime_s": 22.6
+    },
+    {
+      "amount": 0.001303,
+      "amount_micros": 1303,
+      "attempts": 1,
+      "billable_s": 18.041,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "fixed_framework_control",
+      "intervals": [
+        [
+          "2026-11-14T13:33:36.652000+00:00",
+          "2026-11-14T13:33:54.693000+00:00"
+        ]
+      ],
+      "load_s": 0.0,
+      "runtime_s": 18.8
+    },
+    {
+      "amount": 0.001885,
+      "amount_micros": 1885,
+      "attempts": 1,
+      "billable_s": 26.1,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "trastuzumab_wt_control",
+      "intervals": [
+        [
+          "2026-11-14T13:33:54.760000+00:00",
+          "2026-11-14T13:34:20.860000+00:00"
+        ]
+      ],
+      "load_s": 0.0,
+      "runtime_s": 26.8
+    }
+  ]
+}

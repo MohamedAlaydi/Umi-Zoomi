@@ -3,6 +3,7 @@
 *.pem
 *.key
 .env
+.env.*
 credentials*
 nebius/
 
@@ -25,9 +26,46 @@ runs/*/**
 # ---- junk ----
 __pycache__/
 .venv/
+**/.venv/
+**/.venv_*/
 *.pyc
+*.pid
 .DS_Store
 .claude/
 
 # ---- anas: regenerable, too big for a repo ----
 people/anas/ideal-legal-loops.txt
+
+# Portable score receipts; do not track the VM's absolute out/ symlinks.
+!runs/*/score-evidence/
+!runs/*/score-evidence/**
+
+# Small campaign receipts and prepared inputs; large tensors/archives stay local.
+!runs/011-*/**/
+!runs/011-*/**/*.json
+runs/011-*/**/*full_data*.json
+!runs/011-*/**/*.md
+!runs/011-*/**/*.yaml
+!runs/011-*/**/*.sh
+!runs/011-*/**/*.log
+!runs/011-*/**/*.fasta
+runs/011-*/**/artifacts/
+
+# Reproducible run setup and published summaries.
+!runs/003-*/*.py
+!runs/003-*/*.sh
+!runs/003-*/request.json
+!runs/008-*/*.md
+!runs/008-*/input_hashes.txt
+!runs/009-*/*.py
+!runs/009-*/*.sh
+!runs/009-*/*.md
+!runs/009-*/*.json
+!runs/009-*/*.log
+
+# Ongoing comparison: publish manifests/status, keep provider tensors local.
+!runs/012-*/**/
+!runs/012-*/**/*.json
+!runs/012-*/**/*.log
+runs/012-*/**/*full_data*.json
+runs/012-*/**/artifacts/

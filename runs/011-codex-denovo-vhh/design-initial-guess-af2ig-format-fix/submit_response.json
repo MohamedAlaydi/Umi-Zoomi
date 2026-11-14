@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-11-14T13:50:06.427795+00:00",
+  "done": 0,
+  "error": null,
+  "finished_at": null,
+  "id": "eec321fd1dd467b035916be5862002cd",
+  "kind": "predict",
+  "links": {
+    "archive": "/v1/jobs/eec321fd1dd467b035916be5862002cd/archive",
+    "logs": "/v1/jobs/eec321fd1dd467b035916be5862002cd/logs",
+    "results": "/v1/jobs/eec321fd1dd467b035916be5862002cd/results",
+    "self": "/v1/jobs/eec321fd1dd467b035916be5862002cd",
+    "usage": "/v1/jobs/eec321fd1dd467b035916be5862002cd/usage",
+    "wait": "/v1/jobs/eec321fd1dd467b035916be5862002cd?wait=60"
+  },
+  "model": "af2ig",
+  "name": "team14-her2-initial-guess-format-fix",
+  "object": "job",
+  "params": {
+    "output_format": "cif",
+    "seed": 0,
+    "write_pae": true
+  },
+  "progress": null,
+  "protocol": null,
+  "queue": {
+    "accounts_ahead": 0,
+    "fleet": {
+      "accounts_waiting": 6,
+      "busy": 261,
+      "chips": 261,
+      "out_of_service": 41
+    },
+    "reason": "all_chips_busy",
+    "yours": {
+      "of": 1,
+      "position": 1
+    }
+  },
+  "residues": 253,
+  "results_ready": false,
+  "stage": null,
+  "started_at": null,
+  "status": "queued",
+  "total": 5,
+  "wait": {
+    "how": "GET this URL with your API key instead of sleeping. It answers the moment the job ends, or after 60 s with the job as it is then; call it again while status is queued or running.",
+    "seconds": 60,
+    "url": "https://api.japanfold.aiand.com/v1/jobs/eec321fd1dd467b035916be5862002cd?wait=60"
+  },
+  "waiting_for_device": true
+}

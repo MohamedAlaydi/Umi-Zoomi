@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "cli_contract_version": "foundry.cli.v1",
+    "ended_at": "2026-11-14T13:30:50.058700Z",
+    "inputs": [
+      {
+        "path": "/work/runs/011-codex-denovo-vhh/rfd4-variable-sequence-k2/design.yaml",
+        "tier": "none"
+      }
+    ],
+    "module": {
+      "name": "apheris-rfd4-proteina",
+      "version": "0.3.0"
+    },
+    "resolved_config": {
+      "batch_size": 1,
+      "compile": false,
+      "data_path": "/weights",
+      "inverse_folding": false,
+      "metrics_tags": [
+        "design",
+        "hotspot_conditioning",
+        "interchain_interactions"
+      ],
+      "num_replicates": 16,
+      "recycle_strategy": "high/front_loaded",
+      "resample_hotspots": false,
+      "seed": 20261114,
+      "sequence_tsr_k": 2.0
+    },
+    "started_at": "2026-11-14T13:27:07.210792Z"
+  },
+  "result": {
+    "artifacts": "generation",
+    "designs": [
+      "generation/inference_samples/her2_variable_sequence_0/her2_variable_sequence_0_generated.cif",
+      "generation/inference_samples/her2_variable_sequence_1/her2_variable_sequence_1_generated.cif",
+      "generation/inference_samples/her2_variable_sequence_10/her2_variable_sequence_10_generated.cif",
+      "generation/inference_samples/her2_variable_sequence_11/her2_variable_sequence_11_generated.cif",
+      "generation/inference_samples/her2_variable_sequence_12/her2_variable_sequence_12_generated.cif",
+      "generation/inference_samples/her2_variable_sequence_13/her2_variable_sequence_13_generated.cif",
+      "generation/inference_samples/her2_variable_sequence_14/her2_variable_sequence_14_generated.cif",
+      "generation/inference_samples/her2_variable_sequence_15/her2_variable_sequence_15_generated.cif",
+      "generation/inference_samples/her2_variable_sequence_2/her2_variable_sequence_2_generated.cif",
+      "generation/inference_samples/her2_variable_sequence_3/her2_variable_sequence_3_generated.cif",
+      "generation/inference_samples/her2_variable_sequence_4/her2_variable_sequence_4_generated.cif",
+      "generation/inference_samples/her2_variable_sequence_5/her2_variable_sequence_5_generated.cif",
+      "generation/inference_samples/her2_variable_sequence_6/her2_variable_sequence_6_generated.cif",
+      "generation/inference_samples/her2_variable_sequence_7/her2_variable_sequence_7_generated.cif",
+      "generation/inference_samples/her2_variable_sequence_8/her2_variable_sequence_8_generated.cif",
+      "generation/inference_samples/her2_variable_sequence_9/her2_variable_sequence_9_generated.cif"
+    ],
+    "log": "generation.log",
+    "metrics": "generation/inference_metrics/per_example_metrics.csv"
+  },
+  "schema_version": "foundry.cli.v1",
+  "task": "design"
+}

@@ -1,0 +1,506 @@
+[
+  {
+    "status": "fulfilled",
+    "value": {
+      "query": "antifold-novel2-seq1",
+      "query_document": {
+        "query": {
+          "type": "terminal",
+          "service": "sequence",
+          "parameters": {
+            "value": "EVQLQESGGGLVQPGGSLRLSCASSGFTFSSYAMGWFRQAPGQKRTLVAAITPDGDTYFPDSVRGRFTISRDDAASSVFLQMNSLKPEDTAVYFCAATRGHGVVLGHYPEDFDYWGQGTQVTVS",
+            "sequence_type": "protein",
+            "identity_cutoff": 0.7,
+            "evalue_cutoff": 1
+          }
+        },
+        "digest": "6c66172f42d4"
+      },
+      "result": {
+        "total_count": 25,
+        "returned": 5,
+        "result_type": "polymer_entity",
+        "fetch_with": "rcsb_get_polymer_entities",
+        "offset": 0,
+        "has_more": true,
+        "next_offset": 5,
+        "hits": [
+          {
+            "id": "6WAQ_1",
+            "score": 1
+          },
+          {
+            "id": "4KRN_1",
+            "score": 0.947
+          },
+          {
+            "id": "4KRO_2",
+            "score": 0.947
+          },
+          {
+            "id": "8DT8_2",
+            "score": 0.947
+          },
+          {
+            "id": "7UNY_2",
+            "score": 0.789
+          }
+        ],
+        "editor": {
+          "url": "https://search.rcsb.org/query-editor.html",
+          "params": {
+            "json": {
+              "query": {
+                "type": "terminal",
+                "service": "sequence",
+                "parameters": {
+                  "value": "EVQLQESGGGLVQPGGSLRLSCASSGFTFSSYAMGWFRQAPGQKRTLVAAITPDGDTYFPDSVRGRFTISRDDAASSVFLQMNSLKPEDTAVYFCAATRGHGVVLGHYPEDFDYWGQGTQVTVS",
+                  "sequence_type": "protein",
+                  "identity_cutoff": 0.7,
+                  "evalue_cutoff": 1
+                }
+              },
+              "return_type": "polymer_entity",
+              "request_options": {
+                "results_content_type": [
+                  "experimental"
+                ],
+                "sort": [
+                  {
+                    "sort_by": "score",
+                    "direction": "desc"
+                  }
+                ],
+                "paginate": {
+                  "start": 0,
+                  "rows": 5
+                },
+                "scoring_strategy": "sequence"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "query": "antifold-novel2-seq5",
+      "query_document": {
+        "query": {
+          "type": "terminal",
+          "service": "sequence",
+          "parameters": {
+            "value": "EVQLQESGGGLVQPGGSLRLSCASSGFTFSSYTMGWFRQAPGQKRTLVAAITPDGTTYFPDSVRGRFTISRDDAASSVFLQMNSLKPEDTAVYFCAASRGHAVVRGHEPEDFDYWGQGTQVTVS",
+            "sequence_type": "protein",
+            "identity_cutoff": 0.7,
+            "evalue_cutoff": 1
+          }
+        },
+        "digest": "23147ae0015c"
+      },
+      "result": {
+        "total_count": 17,
+        "returned": 5,
+        "result_type": "polymer_entity",
+        "fetch_with": "rcsb_get_polymer_entities",
+        "offset": 0,
+        "has_more": true,
+        "next_offset": 5,
+        "hits": [
+          {
+            "id": "8R4B_2",
+            "score": 1
+          },
+          {
+            "id": "8R4D_2",
+            "score": 1
+          },
+          {
+            "id": "9EZV_2",
+            "score": 0.923
+          },
+          {
+            "id": "4KRN_1",
+            "score": 0.692
+          },
+          {
+            "id": "4KRO_2",
+            "score": 0.692
+          }
+        ],
+        "editor": {
+          "url": "https://search.rcsb.org/query-editor.html",
+          "params": {
+            "json": {
+              "query": {
+                "type": "terminal",
+                "service": "sequence",
+                "parameters": {
+                  "value": "EVQLQESGGGLVQPGGSLRLSCASSGFTFSSYTMGWFRQAPGQKRTLVAAITPDGTTYFPDSVRGRFTISRDDAASSVFLQMNSLKPEDTAVYFCAASRGHAVVRGHEPEDFDYWGQGTQVTVS",
+                  "sequence_type": "protein",
+                  "identity_cutoff": 0.7,
+                  "evalue_cutoff": 1
+                }
+              },
+              "return_type": "polymer_entity",
+              "request_options": {
+                "results_content_type": [
+                  "experimental"
+                ],
+                "sort": [
+                  {
+                    "sort_by": "score",
+                    "direction": "desc"
+                  }
+                ],
+                "paginate": {
+                  "start": 0,
+                  "rows": 5
+                },
+                "scoring_strategy": "sequence"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "query": "antifold-novel2-seq8",
+      "query_document": {
+        "query": {
+          "type": "terminal",
+          "service": "sequence",
+          "parameters": {
+            "value": "EVQLQESGGGLVQPGGSLRLSCASSGFTFSSYTMGWFRQAPGQKRTLVAAITPGGTTYFPDSVRGRFTISRDDAASSVFLQMNSLKPEDTAVYFCAATRGHSVVLGSYPYDFDSWGQGTQVTVS",
+            "sequence_type": "protein",
+            "identity_cutoff": 0.7,
+            "evalue_cutoff": 1
+          }
+        },
+        "digest": "ee029b5810cb"
+      },
+      "result": {
+        "total_count": 28,
+        "returned": 5,
+        "result_type": "polymer_entity",
+        "fetch_with": "rcsb_get_polymer_entities",
+        "offset": 0,
+        "has_more": true,
+        "next_offset": 5,
+        "hits": [
+          {
+            "id": "4KRN_1",
+            "score": 1
+          },
+          {
+            "id": "4KRO_2",
+            "score": 1
+          },
+          {
+            "id": "6WAQ_1",
+            "score": 0.938
+          },
+          {
+            "id": "3STB_1",
+            "score": 0.75
+          },
+          {
+            "id": "7AQY_2",
+            "score": 0.562
+          }
+        ],
+        "editor": {
+          "url": "https://search.rcsb.org/query-editor.html",
+          "params": {
+            "json": {
+              "query": {
+                "type": "terminal",
+                "service": "sequence",
+                "parameters": {
+                  "value": "EVQLQESGGGLVQPGGSLRLSCASSGFTFSSYTMGWFRQAPGQKRTLVAAITPGGTTYFPDSVRGRFTISRDDAASSVFLQMNSLKPEDTAVYFCAATRGHSVVLGSYPYDFDSWGQGTQVTVS",
+                  "sequence_type": "protein",
+                  "identity_cutoff": 0.7,
+                  "evalue_cutoff": 1
+                }
+              },
+              "return_type": "polymer_entity",
+              "request_options": {
+                "results_content_type": [
+                  "experimental"
+                ],
+                "sort": [
+                  {
+                    "sort_by": "score",
+                    "direction": "desc"
+                  }
+                ],
+                "paginate": {
+                  "start": 0,
+                  "rows": 5
+                },
+                "scoring_strategy": "sequence"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "query": "antifold-novel2-seq9",
+      "query_document": {
+        "query": {
+          "type": "terminal",
+          "service": "sequence",
+          "parameters": {
+            "value": "EVQLQESGGGLVQPGGSLRLSCASSGFSFSSYTMGWFRQAPGQKRTLVAAITPDGDTYFPDSVRGRFTISRDDAASSVFLQMNSLKPEDTAVYFCAATRGHAVVVGGYPEDFDYWGQGTQVTVS",
+            "sequence_type": "protein",
+            "identity_cutoff": 0.7,
+            "evalue_cutoff": 1
+          }
+        },
+        "digest": "81883d61001a"
+      },
+      "result": {
+        "total_count": 13,
+        "returned": 5,
+        "result_type": "polymer_entity",
+        "fetch_with": "rcsb_get_polymer_entities",
+        "offset": 0,
+        "has_more": true,
+        "next_offset": 5,
+        "hits": [
+          {
+            "id": "7S7R_2",
+            "score": 1
+          },
+          {
+            "id": "8R4B_2",
+            "score": 0.857
+          },
+          {
+            "id": "8R4D_2",
+            "score": 0.857
+          },
+          {
+            "id": "9EZV_2",
+            "score": 0.857
+          },
+          {
+            "id": "7M1H_7",
+            "score": 0.714
+          }
+        ],
+        "editor": {
+          "url": "https://search.rcsb.org/query-editor.html",
+          "params": {
+            "json": {
+              "query": {
+                "type": "terminal",
+                "service": "sequence",
+                "parameters": {
+                  "value": "EVQLQESGGGLVQPGGSLRLSCASSGFSFSSYTMGWFRQAPGQKRTLVAAITPDGDTYFPDSVRGRFTISRDDAASSVFLQMNSLKPEDTAVYFCAATRGHAVVVGGYPEDFDYWGQGTQVTVS",
+                  "sequence_type": "protein",
+                  "identity_cutoff": 0.7,
+                  "evalue_cutoff": 1
+                }
+              },
+              "return_type": "polymer_entity",
+              "request_options": {
+                "results_content_type": [
+                  "experimental"
+                ],
+                "sort": [
+                  {
+                    "sort_by": "score",
+                    "direction": "desc"
+                  }
+                ],
+                "paginate": {
+                  "start": 0,
+                  "rows": 5
+                },
+                "scoring_strategy": "sequence"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "query": "antifold-novel2-seq10",
+      "query_document": {
+        "query": {
+          "type": "terminal",
+          "service": "sequence",
+          "parameters": {
+            "value": "EVQLQESGGGLVQPGGSLRLSCASSGFTFSSYTMGWFRQAPGQKRTLVAAITPDGDTYFPDSVRGRFTISRDDAASSVFLQMNSLKPEDTAVYFCAATRGLSVVLGYYPEDFDHWGQGTQVTVS",
+            "sequence_type": "protein",
+            "identity_cutoff": 0.7,
+            "evalue_cutoff": 1
+          }
+        },
+        "digest": "586596e7d999"
+      },
+      "result": {
+        "total_count": 11,
+        "returned": 5,
+        "result_type": "polymer_entity",
+        "fetch_with": "rcsb_get_polymer_entities",
+        "offset": 0,
+        "has_more": true,
+        "next_offset": 5,
+        "hits": [
+          {
+            "id": "4KRN_1",
+            "score": 1
+          },
+          {
+            "id": "4KRO_2",
+            "score": 1
+          },
+          {
+            "id": "9EZV_2",
+            "score": 0.667
+          },
+          {
+            "id": "9EZU_2",
+            "score": 0.444
+          },
+          {
+            "id": "5BOP_1",
+            "score": 0.333
+          }
+        ],
+        "editor": {
+          "url": "https://search.rcsb.org/query-editor.html",
+          "params": {
+            "json": {
+              "query": {
+                "type": "terminal",
+                "service": "sequence",
+                "parameters": {
+                  "value": "EVQLQESGGGLVQPGGSLRLSCASSGFTFSSYTMGWFRQAPGQKRTLVAAITPDGDTYFPDSVRGRFTISRDDAASSVFLQMNSLKPEDTAVYFCAATRGLSVVLGYYPEDFDHWGQGTQVTVS",
+                  "sequence_type": "protein",
+                  "identity_cutoff": 0.7,
+                  "evalue_cutoff": 1
+                }
+              },
+              "return_type": "polymer_entity",
+              "request_options": {
+                "results_content_type": [
+                  "experimental"
+                ],
+                "sort": [
+                  {
+                    "sort_by": "score",
+                    "direction": "desc"
+                  }
+                ],
+                "paginate": {
+                  "start": 0,
+                  "rows": 5
+                },
+                "scoring_strategy": "sequence"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "query": "antifold-novel2-seq11",
+      "query_document": {
+        "query": {
+          "type": "terminal",
+          "service": "sequence",
+          "parameters": {
+            "value": "EVQLQESGGGLVQPGGSLRLSCASSGFTFSSYAMGWFRQAPGQKRTLVAAITPDGTTYFPDSVRGRFTISRDDAASSVFLQMNSLKPEDTAVYFCAASRGLDVVLGYYPEDFDSWGQGTQVTVS",
+            "sequence_type": "protein",
+            "identity_cutoff": 0.7,
+            "evalue_cutoff": 1
+          }
+        },
+        "digest": "1f66a4af9509"
+      },
+      "result": {
+        "total_count": 25,
+        "returned": 5,
+        "result_type": "polymer_entity",
+        "fetch_with": "rcsb_get_polymer_entities",
+        "offset": 0,
+        "has_more": true,
+        "next_offset": 5,
+        "hits": [
+          {
+            "id": "3STB_1",
+            "score": 1
+          },
+          {
+            "id": "6WAQ_1",
+            "score": 1
+          },
+          {
+            "id": "4KRN_1",
+            "score": 0.882
+          },
+          {
+            "id": "4KRO_2",
+            "score": 0.882
+          },
+          {
+            "id": "8XLD_2",
+            "score": 0.765
+          }
+        ],
+        "editor": {
+          "url": "https://search.rcsb.org/query-editor.html",
+          "params": {
+            "json": {
+              "query": {
+                "type": "terminal",
+                "service": "sequence",
+                "parameters": {
+                  "value": "EVQLQESGGGLVQPGGSLRLSCASSGFTFSSYAMGWFRQAPGQKRTLVAAITPDGTTYFPDSVRGRFTISRDDAASSVFLQMNSLKPEDTAVYFCAASRGLDVVLGYYPEDFDSWGQGTQVTVS",
+                  "sequence_type": "protein",
+                  "identity_cutoff": 0.7,
+                  "evalue_cutoff": 1
+                }
+              },
+              "return_type": "polymer_entity",
+              "request_options": {
+                "results_content_type": [
+                  "experimental"
+                ],
+                "sort": [
+                  {
+                    "sort_by": "score",
+                    "direction": "desc"
+                  }
+                ],
+                "paginate": {
+                  "start": 0,
+                  "rows": 5
+                },
+                "scoring_strategy": "sequence"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+]

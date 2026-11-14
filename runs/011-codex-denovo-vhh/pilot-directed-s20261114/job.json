@@ -1,0 +1,83 @@
+{
+  "artifacts": [
+    {
+      "path": "final_8_designs/rank1_3_shard-0_design.cif",
+      "rank": "1",
+      "type": "structure",
+      "url": "/v1/jobs/76103db46162d975c6b29217fc07300e/artifacts/final_8_designs/rank1_3_shard-0_design.cif"
+    },
+    {
+      "path": "final_8_designs/rank2_3_shard-0_design_1.cif",
+      "rank": "2",
+      "type": "structure",
+      "url": "/v1/jobs/76103db46162d975c6b29217fc07300e/artifacts/final_8_designs/rank2_3_shard-0_design_1.cif"
+    },
+    {
+      "path": "final_8_designs/rank3_1_shard-0_design.cif",
+      "rank": "3",
+      "type": "structure",
+      "url": "/v1/jobs/76103db46162d975c6b29217fc07300e/artifacts/final_8_designs/rank3_1_shard-0_design.cif"
+    },
+    {
+      "path": "final_8_designs/rank4_0_shard-0_design_1.cif",
+      "rank": "4",
+      "type": "structure",
+      "url": "/v1/jobs/76103db46162d975c6b29217fc07300e/artifacts/final_8_designs/rank4_0_shard-0_design_1.cif"
+    },
+    {
+      "path": "final_8_designs/rank5_1_shard-0_design_1.cif",
+      "rank": "5",
+      "type": "structure",
+      "url": "/v1/jobs/76103db46162d975c6b29217fc07300e/artifacts/final_8_designs/rank5_1_shard-0_design_1.cif"
+    },
+    {
+      "path": "final_8_designs/rank6_2_shard-0_design.cif",
+      "rank": "6",
+      "type": "structure",
+      "url": "/v1/jobs/76103db46162d975c6b29217fc07300e/artifacts/final_8_designs/rank6_2_shard-0_design.cif"
+    },
+    {
+      "path": "final_8_designs/rank7_0_shard-0_design.cif",
+      "rank": "7",
+      "type": "structure",
+      "url": "/v1/jobs/76103db46162d975c6b29217fc07300e/artifacts/final_8_designs/rank7_0_shard-0_design.cif"
+    },
+    {
+      "path": "final_8_designs/rank8_2_shard-0_design_1.cif",
+      "rank": "8",
+      "type": "structure",
+      "url": "/v1/jobs/76103db46162d975c6b29217fc07300e/artifacts/final_8_designs/rank8_2_shard-0_design_1.cif"
+    }
+  ],
+  "created_at": "2026-11-14T13:03:29.030378+00:00",
+  "done": 1,
+  "download": "curl -fsSL -H \"Authorization: Bearer $JAPANFOLD_API_KEY\" --create-dirs -o final_8_designs/rank1_3_shard-0_design.cif https://api.japanfold.aiand.com/v1/jobs/76103db46162d975c6b29217fc07300e/artifacts/final_8_designs/rank1_3_shard-0_design.cif -o final_8_designs/rank2_3_shard-0_design_1.cif https://api.japanfold.aiand.com/v1/jobs/76103db46162d975c6b29217fc07300e/artifacts/final_8_designs/rank2_3_shard-0_design_1.cif -o final_8_designs/rank3_1_shard-0_design.cif https://api.japanfold.aiand.com/v1/jobs/76103db46162d975c6b29217fc07300e/artifacts/final_8_designs/rank3_1_shard-0_design.cif -o final_8_designs/rank4_0_shard-0_design_1.cif https://api.japanfold.aiand.com/v1/jobs/76103db46162d975c6b29217fc07300e/artifacts/final_8_designs/rank4_0_shard-0_design_1.cif -o final_8_designs/rank5_1_shard-0_design_1.cif https://api.japanfold.aiand.com/v1/jobs/76103db46162d975c6b29217fc07300e/artifacts/final_8_designs/rank5_1_shard-0_design_1.cif -o final_8_designs/rank6_2_shard-0_design.cif https://api.japanfold.aiand.com/v1/jobs/76103db46162d975c6b29217fc07300e/artifacts/final_8_designs/rank6_2_shard-0_design.cif -o final_8_designs/rank7_0_shard-0_design.cif https://api.japanfold.aiand.com/v1/jobs/76103db46162d975c6b29217fc07300e/artifacts/final_8_designs/rank7_0_shard-0_design.cif -o final_8_designs/rank8_2_shard-0_design_1.cif https://api.japanfold.aiand.com/v1/jobs/76103db46162d975c6b29217fc07300e/artifacts/final_8_designs/rank8_2_shard-0_design_1.cif",
+  "error": null,
+  "finished_at": "2026-11-14T13:06:09.038428+00:00",
+  "id": "76103db46162d975c6b29217fc07300e",
+  "kind": "design",
+  "links": {
+    "archive": "/v1/jobs/76103db46162d975c6b29217fc07300e/archive",
+    "logs": "/v1/jobs/76103db46162d975c6b29217fc07300e/logs",
+    "results": "/v1/jobs/76103db46162d975c6b29217fc07300e/results",
+    "self": "/v1/jobs/76103db46162d975c6b29217fc07300e",
+    "usage": "/v1/jobs/76103db46162d975c6b29217fc07300e/usage"
+  },
+  "model": "boltzgen",
+  "name": "team14-her2-pilot-directed-s20261114",
+  "object": "job",
+  "params": {
+    "budget": 8,
+    "fast": false,
+    "num_designs": 8,
+    "seed": 20261114
+  },
+  "progress": 1.0,
+  "protocol": "nanobody-anything",
+  "residues": 254,
+  "results_ready": true,
+  "stage": "done",
+  "started_at": "2026-11-14T13:03:30.528522+00:00",
+  "status": "succeeded",
+  "total": 1
+}

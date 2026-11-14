@@ -1,0 +1,117 @@
+{
+  "amount": 0.031967,
+  "amount_micros": 31967,
+  "billable_s": 442.63,
+  "closed_at": "2026-11-14T13:06:13.465000+00:00",
+  "currency": "usd",
+  "excluded_s": 0.0,
+  "job": "7ddd6a47ff2643d5b5b2f3fa5e354e2b",
+  "kind": "design",
+  "links": {
+    "job": "/v1/jobs/7ddd6a47ff2643d5b5b2f3fa5e354e2b"
+  },
+  "load_s": 0.0,
+  "meter": {
+    "bias": "under",
+    "bound_s": 6.0,
+    "method": "sampled-lease-integral+engine-clock-cap",
+    "sample_gap_s": 3.0,
+    "visible": true
+  },
+  "model": "boltzgen",
+  "name": "team14-her2-pilot-unconditioned-s20261114",
+  "object": "usage",
+  "reconcile": {
+    "agree": 0,
+    "capped": 0,
+    "checked": 0,
+    "over_engine": 0,
+    "rate": null,
+    "worst_delta_s": null
+  },
+  "status": "succeeded",
+  "submitted_at": "2026-11-14T13:03:48.575000+00:00",
+  "surface": "skill",
+  "targets": [
+    {
+      "amount": 0.008109,
+      "amount_micros": 8109,
+      "attempts": 1,
+      "billable_s": 112.279,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "shard_0",
+      "intervals": [
+        [
+          "2026-11-14T13:03:54.598000+00:00",
+          "2026-11-14T13:05:46.877000+00:00"
+        ]
+      ],
+      "load_s": 0.0,
+      "runtime_s": null
+    },
+    {
+      "amount": 0.007829,
+      "amount_micros": 7829,
+      "attempts": 1,
+      "billable_s": 108.399,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "shard_0",
+      "intervals": [
+        [
+          "2026-11-14T13:03:57.079000+00:00",
+          "2026-11-14T13:05:45.479000+00:00"
+        ]
+      ],
+      "load_s": 0.0,
+      "runtime_s": null
+    },
+    {
+      "amount": 0.007823,
+      "amount_micros": 7823,
+      "attempts": 1,
+      "billable_s": 108.329,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "shard_0",
+      "intervals": [
+        [
+          "2026-11-14T13:03:57.376000+00:00",
+          "2026-11-14T13:05:45.704000+00:00"
+        ]
+      ],
+      "load_s": 0.0,
+      "runtime_s": null
+    },
+    {
+      "amount": 0.008206,
+      "amount_micros": 8206,
+      "attempts": 1,
+      "billable_s": 113.623,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "shard_0",
+      "intervals": [
+        [
+          "2026-11-14T13:03:53.521000+00:00",
+          "2026-11-14T13:05:47.145000+00:00"
+        ]
+      ],
+      "load_s": 0.0,
+      "runtime_s": null
+    },
+    {
+      "amount": 0.0,
+      "amount_micros": 0,
+      "attempts": 0,
+      "billable_s": 0.0,
+      "excluded": "not_metered",
+      "excluded_s": 0.0,
+      "id": null,
+      "intervals": [],
+      "load_s": 0.0,
+      "runtime_s": null
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "utc": "2026-11-14T13:52:52.850303+00:00",
+  "input_rows": 131,
+  "input_sha256": "66b4b5356ffb8ad305ddd1d85fa31da38dade914f57f85e117e4e924e19f350c",
+  "package_hashes": {
+    "__init__.py": "2b300c3b42533a966ba66941e9bff971514fa1cfb10cd189fdc30ff77d4275af",
+    "annotate.py": "0eed9f844b48b62fe4db8f0df0e0dbf1b9cafc261a1ba85b357d2ba92612658c",
+    "cli.py": "232870fd212ac724828e0cb2b39fdca51aa1dc19a753e12d541556b9d0847d5d",
+    "config.py": "13671d58e3acc7604b5e1ba1286d111e735f11a7bd3d89afbb82dbcb41963e0f",
+    "io.py": "f26d32320c5deebd563e0b75584c3c0e62a9db3f3a39fc6bf687cf83d47248ab",
+    "liabilities.py": "92122dc31eb82b1ae757ef2eee6624295fede56590ea8a1ad2c4c8146dc5e31c",
+    "novelty.py": "df248d4aed9324bde1730d3ed17664efd0b1d144e164d5171a9b3354ea36056f",
+    "pipeline.py": "0adf7ef03e37c12612a212a78b8ddffd1d6c3e4bd4df267a296a3e9503ccf8b4",
+    "reference.py": "f966a3ed082b62e02e4a4516eea9b3d6e01e9afe660fa220daaf5b1c732fb1ba",
+    "schemas.py": "fe24399f7cace046c6b19eb79422436852bbc4604ca26f6e54c87c9e102eb909"
+  },
+  "reference_hashes": {
+    "abguard_cdrh3.parquet": "60744436b44760be20916f0b4a0e7575d3d60197b9fbf79e9599d38e147ad0af",
+    "manifest.json": "de5578eb098a576e446cd51bfe37eeafe5da0b7340a41ac2e7f38fab68f1c649"
+  },
+  "reference_manifest": {
+    "format": 1,
+    "abguard_version": "0.1.0",
+    "scheme": "imgt",
+    "min_confidence": 0.1,
+    "index_table": "abguard_cdrh3",
+    "compression": "zstd",
+    "tables": [
+      {
+        "table": "abguard_cdrh3",
+        "n_rows": 610109,
+        "sequence_column": null,
+        "n_bytes": 2028925
+      }
+    ]
+  },
+  "scope": "Installed restored abguard build, version0.1.0; hash identifies actual code. It classifies against trastuzumab, whereas task PDF describes nearest known antibody. Preserve this discrepancy; do not claim universal nearest-antibody validation.",
+  "commands": [
+    {
+      "name": "novelty-report",
+      "args": [
+        "novelty-report",
+        "/home/hackathon/team14/runs/011-codex-denovo-vhh/abguard-final/submission.csv",
+        "--reference-db",
+        "/home/hackathon/tools/abguard-venv/lib/python3.12/site-packages/abguard/reference_data",
+        "-o",
+        "/home/hackathon/team14/runs/011-codex-denovo-vhh/abguard-final/novelty.csv"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "team-validate",
+      "args": [
+        "team-validate",
+        "/home/hackathon/team14/runs/011-codex-denovo-vhh/abguard-final/submission.csv",
+        "--reference-db",
+        "/home/hackathon/tools/abguard-venv/lib/python3.12/site-packages/abguard/reference_data",
+        "--drop",
+        "-o",
+        "/home/hackathon/team14/runs/011-codex-denovo-vhh/abguard-final/validated.csv"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "all-liabilities",
+      "args": [
+        "team-validate",
+        "/home/hackathon/team14/runs/011-codex-denovo-vhh/abguard-final/submission.csv",
+        "--all-liabilities",
+        "--reference-db",
+        "/home/hackathon/tools/abguard-venv/lib/python3.12/site-packages/abguard/reference_data",
+        "-o",
+        "/home/hackathon/team14/runs/011-codex-denovo-vhh/abguard-final/liabilities.json"
+      ],
+      "exit_code": 0
+    }
+  ]
+}

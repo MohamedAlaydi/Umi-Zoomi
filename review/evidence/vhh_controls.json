@@ -1,0 +1,79 @@
+{
+  "inputs": {
+    "iptm_confidence_scores.zip": "643cead16b0daf499600e01e52713078497c5be2c4f20c83ab68d83aec2cc15a",
+    "spr_table_s1_pairwise.csv": "6d28ccec9ed5d4f15cd88e4edd063bfcaaa1d80d48323447441ad03dd35e00f1"
+  },
+  "paired_coverage": 7991,
+  "cognate": 89,
+  "shuffled": 7902,
+  "models": {
+    "boltz2": {
+      "nonmissing": 8281,
+      "same_pair_auc": 0.6402219321520082,
+      "shuffled_ge_070": 7448,
+      "cognate_ge_070": 88
+    },
+    "chai1": {
+      "nonmissing": 8041,
+      "same_pair_auc": 0.5680257309342821,
+      "shuffled_ge_070": 17,
+      "cognate_ge_070": 7
+    },
+    "af3": {
+      "nonmissing": 8228,
+      "same_pair_auc": 0.7591990649501336,
+      "shuffled_ge_070": 240,
+      "cognate_ge_070": 42
+    }
+  },
+  "off_diagonal_rank_correlations": {
+    "boltz2": {
+      "boltz2": 1.0,
+      "chai1": 0.20065060691186207,
+      "af3": 0.18122502485146275
+    },
+    "chai1": {
+      "boltz2": 0.20065060691186207,
+      "chai1": 1.0,
+      "af3": 0.2084561639905804
+    },
+    "af3": {
+      "boltz2": 0.18122502485146275,
+      "chai1": 0.2084561639905804,
+      "af3": 1.0
+    }
+  },
+  "measured_outcomes": {
+    "no reportable fit": 12,
+    "not expressed": 7,
+    "antigen not produced": 5,
+    "KD reported": 4,
+    "response without fitted KD": 1
+  },
+  "examples": [
+    {
+      "antigen_name": "CD4",
+      "vhh_design": "8w90_a",
+      "pair_type": "cognate",
+      "outcome_class": "KD reported",
+      "kd_nM": 7.41,
+      "af3_iptm": 0.12
+    },
+    {
+      "antigen_name": "CNPase",
+      "vhh_design": "9etj_h",
+      "pair_type": "cognate",
+      "outcome_class": "KD reported",
+      "kd_nM": 4.03,
+      "af3_iptm": 0.46
+    },
+    {
+      "antigen_name": "Leptin receptor",
+      "vhh_design": "8av2_d",
+      "pair_type": "cognate",
+      "outcome_class": "response without fitted KD",
+      "kd_nM": null,
+      "af3_iptm": 0.15
+    }
+  ]
+}

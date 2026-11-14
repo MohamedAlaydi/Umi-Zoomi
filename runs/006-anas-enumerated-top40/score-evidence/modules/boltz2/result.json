@@ -1,0 +1,434 @@
+{
+  "provenance": {
+    "cli_contract_version": "foundry.cli.v1",
+    "ended_at": "2026-11-14T11:44:20.458533Z",
+    "inputs": [
+      {
+        "path": "/work/runs/006-anas-enumerated-top40/prepared/holo/queries.json",
+        "tier": "none"
+      }
+    ],
+    "module": {
+      "name": "apheris-boltz",
+      "version": "1.3.0"
+    },
+    "resolved_config": {
+      "missing_msas": "fail",
+      "num_diffusion_samples": 1,
+      "query_failures": "skip",
+      "recycling_steps": 3,
+      "sampling_steps": 200,
+      "seeds": [
+        42
+      ],
+      "template_paths": [
+        "../prepared/holo/template.cif"
+      ],
+      "weights": "/app/weights/boltz2_conf.ckpt",
+      "write_detailed_scores": true
+    },
+    "started_at": "2026-11-14T11:38:21.302167Z"
+  },
+  "result": {
+    "predictions": [
+      {
+        "detailed_scores_path": "anas_001/seed_42/anas_001_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_001/seed_42/anas_001_seed_42_sample_1_model.cif",
+        "query_id": "anas_001",
+        "query_index": 0,
+        "sample": 1,
+        "scores_path": "anas_001/seed_42/anas_001_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_002/seed_42/anas_002_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_002/seed_42/anas_002_seed_42_sample_1_model.cif",
+        "query_id": "anas_002",
+        "query_index": 1,
+        "sample": 1,
+        "scores_path": "anas_002/seed_42/anas_002_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_003/seed_42/anas_003_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_003/seed_42/anas_003_seed_42_sample_1_model.cif",
+        "query_id": "anas_003",
+        "query_index": 2,
+        "sample": 1,
+        "scores_path": "anas_003/seed_42/anas_003_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_004/seed_42/anas_004_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_004/seed_42/anas_004_seed_42_sample_1_model.cif",
+        "query_id": "anas_004",
+        "query_index": 3,
+        "sample": 1,
+        "scores_path": "anas_004/seed_42/anas_004_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_005/seed_42/anas_005_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_005/seed_42/anas_005_seed_42_sample_1_model.cif",
+        "query_id": "anas_005",
+        "query_index": 4,
+        "sample": 1,
+        "scores_path": "anas_005/seed_42/anas_005_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_006/seed_42/anas_006_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_006/seed_42/anas_006_seed_42_sample_1_model.cif",
+        "query_id": "anas_006",
+        "query_index": 5,
+        "sample": 1,
+        "scores_path": "anas_006/seed_42/anas_006_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_007/seed_42/anas_007_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_007/seed_42/anas_007_seed_42_sample_1_model.cif",
+        "query_id": "anas_007",
+        "query_index": 6,
+        "sample": 1,
+        "scores_path": "anas_007/seed_42/anas_007_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_008/seed_42/anas_008_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_008/seed_42/anas_008_seed_42_sample_1_model.cif",
+        "query_id": "anas_008",
+        "query_index": 7,
+        "sample": 1,
+        "scores_path": "anas_008/seed_42/anas_008_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_009/seed_42/anas_009_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_009/seed_42/anas_009_seed_42_sample_1_model.cif",
+        "query_id": "anas_009",
+        "query_index": 8,
+        "sample": 1,
+        "scores_path": "anas_009/seed_42/anas_009_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_010/seed_42/anas_010_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_010/seed_42/anas_010_seed_42_sample_1_model.cif",
+        "query_id": "anas_010",
+        "query_index": 9,
+        "sample": 1,
+        "scores_path": "anas_010/seed_42/anas_010_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_011/seed_42/anas_011_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_011/seed_42/anas_011_seed_42_sample_1_model.cif",
+        "query_id": "anas_011",
+        "query_index": 10,
+        "sample": 1,
+        "scores_path": "anas_011/seed_42/anas_011_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_012/seed_42/anas_012_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_012/seed_42/anas_012_seed_42_sample_1_model.cif",
+        "query_id": "anas_012",
+        "query_index": 11,
+        "sample": 1,
+        "scores_path": "anas_012/seed_42/anas_012_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_013/seed_42/anas_013_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_013/seed_42/anas_013_seed_42_sample_1_model.cif",
+        "query_id": "anas_013",
+        "query_index": 12,
+        "sample": 1,
+        "scores_path": "anas_013/seed_42/anas_013_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_014/seed_42/anas_014_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_014/seed_42/anas_014_seed_42_sample_1_model.cif",
+        "query_id": "anas_014",
+        "query_index": 13,
+        "sample": 1,
+        "scores_path": "anas_014/seed_42/anas_014_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_015/seed_42/anas_015_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_015/seed_42/anas_015_seed_42_sample_1_model.cif",
+        "query_id": "anas_015",
+        "query_index": 14,
+        "sample": 1,
+        "scores_path": "anas_015/seed_42/anas_015_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_016/seed_42/anas_016_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_016/seed_42/anas_016_seed_42_sample_1_model.cif",
+        "query_id": "anas_016",
+        "query_index": 15,
+        "sample": 1,
+        "scores_path": "anas_016/seed_42/anas_016_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_017/seed_42/anas_017_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_017/seed_42/anas_017_seed_42_sample_1_model.cif",
+        "query_id": "anas_017",
+        "query_index": 16,
+        "sample": 1,
+        "scores_path": "anas_017/seed_42/anas_017_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_018/seed_42/anas_018_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_018/seed_42/anas_018_seed_42_sample_1_model.cif",
+        "query_id": "anas_018",
+        "query_index": 17,
+        "sample": 1,
+        "scores_path": "anas_018/seed_42/anas_018_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_019/seed_42/anas_019_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_019/seed_42/anas_019_seed_42_sample_1_model.cif",
+        "query_id": "anas_019",
+        "query_index": 18,
+        "sample": 1,
+        "scores_path": "anas_019/seed_42/anas_019_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_020/seed_42/anas_020_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_020/seed_42/anas_020_seed_42_sample_1_model.cif",
+        "query_id": "anas_020",
+        "query_index": 19,
+        "sample": 1,
+        "scores_path": "anas_020/seed_42/anas_020_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_021/seed_42/anas_021_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_021/seed_42/anas_021_seed_42_sample_1_model.cif",
+        "query_id": "anas_021",
+        "query_index": 20,
+        "sample": 1,
+        "scores_path": "anas_021/seed_42/anas_021_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_022/seed_42/anas_022_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_022/seed_42/anas_022_seed_42_sample_1_model.cif",
+        "query_id": "anas_022",
+        "query_index": 21,
+        "sample": 1,
+        "scores_path": "anas_022/seed_42/anas_022_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_023/seed_42/anas_023_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_023/seed_42/anas_023_seed_42_sample_1_model.cif",
+        "query_id": "anas_023",
+        "query_index": 22,
+        "sample": 1,
+        "scores_path": "anas_023/seed_42/anas_023_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_024/seed_42/anas_024_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_024/seed_42/anas_024_seed_42_sample_1_model.cif",
+        "query_id": "anas_024",
+        "query_index": 23,
+        "sample": 1,
+        "scores_path": "anas_024/seed_42/anas_024_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_025/seed_42/anas_025_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_025/seed_42/anas_025_seed_42_sample_1_model.cif",
+        "query_id": "anas_025",
+        "query_index": 24,
+        "sample": 1,
+        "scores_path": "anas_025/seed_42/anas_025_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_026/seed_42/anas_026_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_026/seed_42/anas_026_seed_42_sample_1_model.cif",
+        "query_id": "anas_026",
+        "query_index": 25,
+        "sample": 1,
+        "scores_path": "anas_026/seed_42/anas_026_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_027/seed_42/anas_027_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_027/seed_42/anas_027_seed_42_sample_1_model.cif",
+        "query_id": "anas_027",
+        "query_index": 26,
+        "sample": 1,
+        "scores_path": "anas_027/seed_42/anas_027_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_028/seed_42/anas_028_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_028/seed_42/anas_028_seed_42_sample_1_model.cif",
+        "query_id": "anas_028",
+        "query_index": 27,
+        "sample": 1,
+        "scores_path": "anas_028/seed_42/anas_028_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_029/seed_42/anas_029_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_029/seed_42/anas_029_seed_42_sample_1_model.cif",
+        "query_id": "anas_029",
+        "query_index": 28,
+        "sample": 1,
+        "scores_path": "anas_029/seed_42/anas_029_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_030/seed_42/anas_030_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_030/seed_42/anas_030_seed_42_sample_1_model.cif",
+        "query_id": "anas_030",
+        "query_index": 29,
+        "sample": 1,
+        "scores_path": "anas_030/seed_42/anas_030_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_031/seed_42/anas_031_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_031/seed_42/anas_031_seed_42_sample_1_model.cif",
+        "query_id": "anas_031",
+        "query_index": 30,
+        "sample": 1,
+        "scores_path": "anas_031/seed_42/anas_031_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_032/seed_42/anas_032_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_032/seed_42/anas_032_seed_42_sample_1_model.cif",
+        "query_id": "anas_032",
+        "query_index": 31,
+        "sample": 1,
+        "scores_path": "anas_032/seed_42/anas_032_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_033/seed_42/anas_033_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_033/seed_42/anas_033_seed_42_sample_1_model.cif",
+        "query_id": "anas_033",
+        "query_index": 32,
+        "sample": 1,
+        "scores_path": "anas_033/seed_42/anas_033_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_034/seed_42/anas_034_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_034/seed_42/anas_034_seed_42_sample_1_model.cif",
+        "query_id": "anas_034",
+        "query_index": 33,
+        "sample": 1,
+        "scores_path": "anas_034/seed_42/anas_034_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_035/seed_42/anas_035_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_035/seed_42/anas_035_seed_42_sample_1_model.cif",
+        "query_id": "anas_035",
+        "query_index": 34,
+        "sample": 1,
+        "scores_path": "anas_035/seed_42/anas_035_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_036/seed_42/anas_036_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_036/seed_42/anas_036_seed_42_sample_1_model.cif",
+        "query_id": "anas_036",
+        "query_index": 35,
+        "sample": 1,
+        "scores_path": "anas_036/seed_42/anas_036_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_037/seed_42/anas_037_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_037/seed_42/anas_037_seed_42_sample_1_model.cif",
+        "query_id": "anas_037",
+        "query_index": 36,
+        "sample": 1,
+        "scores_path": "anas_037/seed_42/anas_037_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_038/seed_42/anas_038_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_038/seed_42/anas_038_seed_42_sample_1_model.cif",
+        "query_id": "anas_038",
+        "query_index": 37,
+        "sample": 1,
+        "scores_path": "anas_038/seed_42/anas_038_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_039/seed_42/anas_039_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_039/seed_42/anas_039_seed_42_sample_1_model.cif",
+        "query_id": "anas_039",
+        "query_index": 38,
+        "sample": 1,
+        "scores_path": "anas_039/seed_42/anas_039_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "anas_040/seed_42/anas_040_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "anas_040/seed_42/anas_040_seed_42_sample_1_model.cif",
+        "query_id": "anas_040",
+        "query_index": 39,
+        "sample": 1,
+        "scores_path": "anas_040/seed_42/anas_040_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "trastuzumab_wt/seed_42/trastuzumab_wt_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "trastuzumab_wt/seed_42/trastuzumab_wt_seed_42_sample_1_model.cif",
+        "query_id": "trastuzumab_wt",
+        "query_index": 40,
+        "sample": 1,
+        "scores_path": "trastuzumab_wt/seed_42/trastuzumab_wt_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "r004_cdrh3_4/seed_42/r004_cdrh3_4_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "r004_cdrh3_4/seed_42/r004_cdrh3_4_seed_42_sample_1_model.cif",
+        "query_id": "r004_cdrh3_4",
+        "query_index": 41,
+        "sample": 1,
+        "scores_path": "r004_cdrh3_4/seed_42/r004_cdrh3_4_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "r004_cdrh3_3/seed_42/r004_cdrh3_3_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "r004_cdrh3_3/seed_42/r004_cdrh3_3_seed_42_sample_1_model.cif",
+        "query_id": "r004_cdrh3_3",
+        "query_index": 42,
+        "sample": 1,
+        "scores_path": "r004_cdrh3_3/seed_42/r004_cdrh3_3_seed_42_sample_1_scores.json",
+        "seed": 42
+      },
+      {
+        "detailed_scores_path": "r004_cdrh3_31/seed_42/r004_cdrh3_31_seed_42_sample_1_detailed_scores.cbor.gz",
+        "path": "r004_cdrh3_31/seed_42/r004_cdrh3_31_seed_42_sample_1_model.cif",
+        "query_id": "r004_cdrh3_31",
+        "query_index": 43,
+        "sample": 1,
+        "scores_path": "r004_cdrh3_31/seed_42/r004_cdrh3_31_seed_42_sample_1_scores.json",
+        "seed": 42
+      }
+    ]
+  },
+  "schema_version": "foundry.cli.v1",
+  "task": "predict"
+}

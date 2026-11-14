@@ -1,0 +1,2786 @@
+[
+  {
+    "query": "antifold-novel2-seq1",
+    "best": {
+      "reference": "7UNY_2",
+      "identity_over_alignment": 0.7244094488188977,
+      "query_coverage": 0.9758064516129032,
+      "alignment_columns": 127
+    },
+    "comparisons": [
+      {
+        "reference": "8XKI_1",
+        "identity_over_alignment": 0.6746031746031746,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8XK2_2",
+        "identity_over_alignment": 0.6746031746031746,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7EOW_2",
+        "identity_over_alignment": 0.671875,
+        "query_coverage": 1.0,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "7A6O_2",
+        "identity_over_alignment": 0.671875,
+        "query_coverage": 1.0,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "5HVH_2",
+        "identity_over_alignment": 0.688,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "5HVG_2",
+        "identity_over_alignment": 0.688,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "46GH_2",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.6587301587301587,
+        "query_coverage": 0.9435483870967742,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.6929133858267716,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.6850393700787402,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.6929133858267716,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.6666666666666666,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "4KRN_1",
+        "identity_over_alignment": 0.7153846153846154,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "4KRO_2",
+        "identity_over_alignment": 0.7153846153846154,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "9EZV_2",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "9EZU_2",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8XLD_2",
+        "identity_over_alignment": 0.6746031746031746,
+        "query_coverage": 0.9274193548387096,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8R4D_2",
+        "identity_over_alignment": 0.689922480620155,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8R4B_2",
+        "identity_over_alignment": 0.689922480620155,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8DT8_2",
+        "identity_over_alignment": 0.7007874015748031,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "7UNY_2",
+        "identity_over_alignment": 0.7244094488188977,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "7S7R_2",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7M1H_7",
+        "identity_over_alignment": 0.688,
+        "query_coverage": 0.967741935483871,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "7AQY_2",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "6WAQ_1",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "5BOP_1",
+        "identity_over_alignment": 0.6904761904761905,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "3STB_1",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      }
+    ],
+    "scope": "27 known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "antifold-novel2-seq2",
+    "best": {
+      "reference": "4KRN_1",
+      "identity_over_alignment": 0.7307692307692307,
+      "query_coverage": 1.0,
+      "alignment_columns": 130
+    },
+    "comparisons": [
+      {
+        "reference": "8XKI_1",
+        "identity_over_alignment": 0.6904761904761905,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8XK2_2",
+        "identity_over_alignment": 0.6904761904761905,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7EOW_2",
+        "identity_over_alignment": 0.6796875,
+        "query_coverage": 1.0,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "7A6O_2",
+        "identity_over_alignment": 0.6796875,
+        "query_coverage": 1.0,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "5HVH_2",
+        "identity_over_alignment": 0.712,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "5HVG_2",
+        "identity_over_alignment": 0.712,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "46GH_2",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.6746031746031746,
+        "query_coverage": 0.9435483870967742,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7086614173228346,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.6929133858267716,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7007874015748031,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "4KRN_1",
+        "identity_over_alignment": 0.7307692307692307,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "4KRO_2",
+        "identity_over_alignment": 0.7307692307692307,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "9EZV_2",
+        "identity_over_alignment": 0.7142857142857143,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "9EZU_2",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8XLD_2",
+        "identity_over_alignment": 0.6666666666666666,
+        "query_coverage": 0.9274193548387096,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8R4D_2",
+        "identity_over_alignment": 0.689922480620155,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8R4B_2",
+        "identity_over_alignment": 0.689922480620155,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8DT8_2",
+        "identity_over_alignment": 0.7086614173228346,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "7UNY_2",
+        "identity_over_alignment": 0.7244094488188977,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "7S7R_2",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7M1H_7",
+        "identity_over_alignment": 0.688,
+        "query_coverage": 0.967741935483871,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "7AQY_2",
+        "identity_over_alignment": 0.7142857142857143,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "6WAQ_1",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "5BOP_1",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "3STB_1",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      }
+    ],
+    "scope": "27 known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "antifold-novel2-seq3",
+    "best": {
+      "reference": "7UNY_2",
+      "identity_over_alignment": 0.7244094488188977,
+      "query_coverage": 0.9758064516129032,
+      "alignment_columns": 127
+    },
+    "comparisons": [
+      {
+        "reference": "8XKI_1",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8XK2_2",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7EOW_2",
+        "identity_over_alignment": 0.6796875,
+        "query_coverage": 1.0,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "7A6O_2",
+        "identity_over_alignment": 0.6796875,
+        "query_coverage": 1.0,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "5HVH_2",
+        "identity_over_alignment": 0.704,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "5HVG_2",
+        "identity_over_alignment": 0.704,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "46GH_2",
+        "identity_over_alignment": 0.7222222222222222,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.6746031746031746,
+        "query_coverage": 0.9435483870967742,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7007874015748031,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.6929133858267716,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7086614173228346,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "4KRN_1",
+        "identity_over_alignment": 0.7230769230769231,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "4KRO_2",
+        "identity_over_alignment": 0.7230769230769231,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "9EZV_2",
+        "identity_over_alignment": 0.7142857142857143,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "9EZU_2",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8XLD_2",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9274193548387096,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8R4D_2",
+        "identity_over_alignment": 0.6976744186046512,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8R4B_2",
+        "identity_over_alignment": 0.6976744186046512,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8DT8_2",
+        "identity_over_alignment": 0.7007874015748031,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "7UNY_2",
+        "identity_over_alignment": 0.7244094488188977,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "7S7R_2",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7M1H_7",
+        "identity_over_alignment": 0.688,
+        "query_coverage": 0.967741935483871,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "7AQY_2",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "6WAQ_1",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "5BOP_1",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "3STB_1",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      }
+    ],
+    "scope": "27 known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "antifold-novel2-seq4",
+    "best": {
+      "reference": "4KRN_1",
+      "identity_over_alignment": 0.7307692307692307,
+      "query_coverage": 1.0,
+      "alignment_columns": 130
+    },
+    "comparisons": [
+      {
+        "reference": "8XKI_1",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8XK2_2",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7EOW_2",
+        "identity_over_alignment": 0.6796875,
+        "query_coverage": 1.0,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "7A6O_2",
+        "identity_over_alignment": 0.6796875,
+        "query_coverage": 1.0,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "5HVH_2",
+        "identity_over_alignment": 0.704,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "5HVG_2",
+        "identity_over_alignment": 0.704,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "46GH_2",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.6746031746031746,
+        "query_coverage": 0.9435483870967742,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7086614173228346,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.6929133858267716,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7007874015748031,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "4KRN_1",
+        "identity_over_alignment": 0.7307692307692307,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "4KRO_2",
+        "identity_over_alignment": 0.7307692307692307,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "9EZV_2",
+        "identity_over_alignment": 0.7142857142857143,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "9EZU_2",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8XLD_2",
+        "identity_over_alignment": 0.6746031746031746,
+        "query_coverage": 0.9274193548387096,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8R4D_2",
+        "identity_over_alignment": 0.6976744186046512,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8R4B_2",
+        "identity_over_alignment": 0.6976744186046512,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8DT8_2",
+        "identity_over_alignment": 0.7007874015748031,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "7UNY_2",
+        "identity_over_alignment": 0.7244094488188977,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "7S7R_2",
+        "identity_over_alignment": 0.6904761904761905,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7M1H_7",
+        "identity_over_alignment": 0.688,
+        "query_coverage": 0.967741935483871,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "7AQY_2",
+        "identity_over_alignment": 0.7142857142857143,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "6WAQ_1",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "5BOP_1",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "3STB_1",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      }
+    ],
+    "scope": "27 known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "antifold-novel2-seq5",
+    "best": {
+      "reference": "8R4D_2",
+      "identity_over_alignment": 0.7209302325581395,
+      "query_coverage": 0.9838709677419355,
+      "alignment_columns": 129
+    },
+    "comparisons": [
+      {
+        "reference": "8XKI_1",
+        "identity_over_alignment": 0.6666666666666666,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8XK2_2",
+        "identity_over_alignment": 0.6666666666666666,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7EOW_2",
+        "identity_over_alignment": 0.6796875,
+        "query_coverage": 1.0,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "7A6O_2",
+        "identity_over_alignment": 0.6796875,
+        "query_coverage": 1.0,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "5HVH_2",
+        "identity_over_alignment": 0.68,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "5HVG_2",
+        "identity_over_alignment": 0.68,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "46GH_2",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.6666666666666666,
+        "query_coverage": 0.9435483870967742,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.6929133858267716,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.6692913385826772,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.6850393700787402,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.6666666666666666,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "4KRN_1",
+        "identity_over_alignment": 0.7,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "4KRO_2",
+        "identity_over_alignment": 0.7,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "9EZV_2",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "9EZU_2",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8XLD_2",
+        "identity_over_alignment": 0.6746031746031746,
+        "query_coverage": 0.9274193548387096,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8R4D_2",
+        "identity_over_alignment": 0.7209302325581395,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8R4B_2",
+        "identity_over_alignment": 0.7209302325581395,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8DT8_2",
+        "identity_over_alignment": 0.6850393700787402,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "7UNY_2",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7S7R_2",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7M1H_7",
+        "identity_over_alignment": 0.68,
+        "query_coverage": 0.967741935483871,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "7AQY_2",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "6WAQ_1",
+        "identity_over_alignment": 0.6904761904761905,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "5BOP_1",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "3STB_1",
+        "identity_over_alignment": 0.6904761904761905,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      }
+    ],
+    "scope": "27 known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "antifold-novel2-seq6",
+    "best": {
+      "reference": "4KRN_1",
+      "identity_over_alignment": 0.7307692307692307,
+      "query_coverage": 1.0,
+      "alignment_columns": 130
+    },
+    "comparisons": [
+      {
+        "reference": "8XKI_1",
+        "identity_over_alignment": 0.6904761904761905,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8XK2_2",
+        "identity_over_alignment": 0.6904761904761905,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7EOW_2",
+        "identity_over_alignment": 0.6796875,
+        "query_coverage": 1.0,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "7A6O_2",
+        "identity_over_alignment": 0.6796875,
+        "query_coverage": 1.0,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "5HVH_2",
+        "identity_over_alignment": 0.712,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "5HVG_2",
+        "identity_over_alignment": 0.712,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "46GH_2",
+        "identity_over_alignment": 0.7222222222222222,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9435483870967742,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7086614173228346,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.6850393700787402,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7086614173228346,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "4KRN_1",
+        "identity_over_alignment": 0.7307692307692307,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "4KRO_2",
+        "identity_over_alignment": 0.7307692307692307,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "9EZV_2",
+        "identity_over_alignment": 0.7222222222222222,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "9EZU_2",
+        "identity_over_alignment": 0.7142857142857143,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8XLD_2",
+        "identity_over_alignment": 0.6746031746031746,
+        "query_coverage": 0.9274193548387096,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8R4D_2",
+        "identity_over_alignment": 0.689922480620155,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8R4B_2",
+        "identity_over_alignment": 0.689922480620155,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8DT8_2",
+        "identity_over_alignment": 0.6929133858267716,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "7UNY_2",
+        "identity_over_alignment": 0.7222222222222222,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7S7R_2",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7M1H_7",
+        "identity_over_alignment": 0.688,
+        "query_coverage": 0.967741935483871,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "7AQY_2",
+        "identity_over_alignment": 0.7142857142857143,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "6WAQ_1",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "5BOP_1",
+        "identity_over_alignment": 0.6904761904761905,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "3STB_1",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      }
+    ],
+    "scope": "27 known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "antifold-novel2-seq7",
+    "best": {
+      "reference": "9EZV_2",
+      "identity_over_alignment": 0.7244094488188977,
+      "query_coverage": 0.9838709677419355,
+      "alignment_columns": 127
+    },
+    "comparisons": [
+      {
+        "reference": "8XKI_1",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8XK2_2",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7EOW_2",
+        "identity_over_alignment": 0.6796875,
+        "query_coverage": 1.0,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "7A6O_2",
+        "identity_over_alignment": 0.6796875,
+        "query_coverage": 1.0,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "5HVH_2",
+        "identity_over_alignment": 0.696,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "5HVG_2",
+        "identity_over_alignment": 0.696,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "46GH_2",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.6746031746031746,
+        "query_coverage": 0.9435483870967742,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7007874015748031,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.6850393700787402,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.6929133858267716,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.6666666666666666,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "4KRN_1",
+        "identity_over_alignment": 0.7230769230769231,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "4KRO_2",
+        "identity_over_alignment": 0.7230769230769231,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "9EZV_2",
+        "identity_over_alignment": 0.7244094488188977,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "9EZU_2",
+        "identity_over_alignment": 0.7165354330708661,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8XLD_2",
+        "identity_over_alignment": 0.6666666666666666,
+        "query_coverage": 0.9274193548387096,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8R4D_2",
+        "identity_over_alignment": 0.6976744186046512,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8R4B_2",
+        "identity_over_alignment": 0.6976744186046512,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8DT8_2",
+        "identity_over_alignment": 0.7007874015748031,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "7UNY_2",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7S7R_2",
+        "identity_over_alignment": 0.7222222222222222,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7M1H_7",
+        "identity_over_alignment": 0.68,
+        "query_coverage": 0.967741935483871,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "7AQY_2",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "6WAQ_1",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "5BOP_1",
+        "identity_over_alignment": 0.6904761904761905,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "3STB_1",
+        "identity_over_alignment": 0.6904761904761905,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      }
+    ],
+    "scope": "27 known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "antifold-novel2-seq8",
+    "best": {
+      "reference": "4KRN_1",
+      "identity_over_alignment": 0.7153846153846154,
+      "query_coverage": 1.0,
+      "alignment_columns": 130
+    },
+    "comparisons": [
+      {
+        "reference": "8XKI_1",
+        "identity_over_alignment": 0.6587301587301587,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8XK2_2",
+        "identity_over_alignment": 0.6587301587301587,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7EOW_2",
+        "identity_over_alignment": 0.6796875,
+        "query_coverage": 1.0,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "7A6O_2",
+        "identity_over_alignment": 0.6796875,
+        "query_coverage": 1.0,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "5HVH_2",
+        "identity_over_alignment": 0.68,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "5HVG_2",
+        "identity_over_alignment": 0.68,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "46GH_2",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.6746031746031746,
+        "query_coverage": 0.9435483870967742,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.6771653543307087,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.6771653543307087,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.6929133858267716,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.6587301587301587,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "4KRN_1",
+        "identity_over_alignment": 0.7153846153846154,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "4KRO_2",
+        "identity_over_alignment": 0.7153846153846154,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "9EZV_2",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "9EZU_2",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8XLD_2",
+        "identity_over_alignment": 0.6666666666666666,
+        "query_coverage": 0.9274193548387096,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8R4D_2",
+        "identity_over_alignment": 0.6976744186046512,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8R4B_2",
+        "identity_over_alignment": 0.6976744186046512,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8DT8_2",
+        "identity_over_alignment": 0.6929133858267716,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "7UNY_2",
+        "identity_over_alignment": 0.7086614173228346,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "7S7R_2",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7M1H_7",
+        "identity_over_alignment": 0.664,
+        "query_coverage": 0.967741935483871,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "7AQY_2",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "6WAQ_1",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "5BOP_1",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "3STB_1",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      }
+    ],
+    "scope": "27 known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "antifold-novel2-seq9",
+    "best": {
+      "reference": "7S7R_2",
+      "identity_over_alignment": 0.7222222222222222,
+      "query_coverage": 0.9596774193548387,
+      "alignment_columns": 126
+    },
+    "comparisons": [
+      {
+        "reference": "8XKI_1",
+        "identity_over_alignment": 0.6666666666666666,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8XK2_2",
+        "identity_over_alignment": 0.6666666666666666,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7EOW_2",
+        "identity_over_alignment": 0.671875,
+        "query_coverage": 1.0,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "7A6O_2",
+        "identity_over_alignment": 0.671875,
+        "query_coverage": 1.0,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "5HVH_2",
+        "identity_over_alignment": 0.68,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "5HVG_2",
+        "identity_over_alignment": 0.68,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "46GH_2",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.6507936507936508,
+        "query_coverage": 0.9435483870967742,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.6850393700787402,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.6692913385826772,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.6771653543307087,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.6507936507936508,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "4KRN_1",
+        "identity_over_alignment": 0.6923076923076923,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "4KRO_2",
+        "identity_over_alignment": 0.6923076923076923,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "9EZV_2",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "9EZU_2",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8XLD_2",
+        "identity_over_alignment": 0.6746031746031746,
+        "query_coverage": 0.9274193548387096,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8R4D_2",
+        "identity_over_alignment": 0.6976744186046512,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8R4B_2",
+        "identity_over_alignment": 0.6976744186046512,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8DT8_2",
+        "identity_over_alignment": 0.6850393700787402,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "7UNY_2",
+        "identity_over_alignment": 0.7086614173228346,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "7S7R_2",
+        "identity_over_alignment": 0.7222222222222222,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7M1H_7",
+        "identity_over_alignment": 0.696,
+        "query_coverage": 0.967741935483871,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "7AQY_2",
+        "identity_over_alignment": 0.6904761904761905,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "6WAQ_1",
+        "identity_over_alignment": 0.6904761904761905,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "5BOP_1",
+        "identity_over_alignment": 0.6746031746031746,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "3STB_1",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      }
+    ],
+    "scope": "27 known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "antifold-novel2-seq10",
+    "best": {
+      "reference": "7S7R_2",
+      "identity_over_alignment": 0.7142857142857143,
+      "query_coverage": 0.9596774193548387,
+      "alignment_columns": 126
+    },
+    "comparisons": [
+      {
+        "reference": "8XKI_1",
+        "identity_over_alignment": 0.6746031746031746,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8XK2_2",
+        "identity_over_alignment": 0.6746031746031746,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7EOW_2",
+        "identity_over_alignment": 0.671875,
+        "query_coverage": 1.0,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "7A6O_2",
+        "identity_over_alignment": 0.671875,
+        "query_coverage": 1.0,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "5HVH_2",
+        "identity_over_alignment": 0.68,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "5HVG_2",
+        "identity_over_alignment": 0.68,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "46GH_2",
+        "identity_over_alignment": 0.6904761904761905,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.6587301587301587,
+        "query_coverage": 0.9435483870967742,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.6850393700787402,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.6692913385826772,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.6771653543307087,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.6507936507936508,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "4KRN_1",
+        "identity_over_alignment": 0.7076923076923077,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "4KRO_2",
+        "identity_over_alignment": 0.7076923076923077,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "9EZV_2",
+        "identity_over_alignment": 0.7086614173228346,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "9EZU_2",
+        "identity_over_alignment": 0.7086614173228346,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8XLD_2",
+        "identity_over_alignment": 0.6587301587301587,
+        "query_coverage": 0.9274193548387096,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8R4D_2",
+        "identity_over_alignment": 0.689922480620155,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8R4B_2",
+        "identity_over_alignment": 0.689922480620155,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8DT8_2",
+        "identity_over_alignment": 0.6850393700787402,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "7UNY_2",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7S7R_2",
+        "identity_over_alignment": 0.7142857142857143,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7M1H_7",
+        "identity_over_alignment": 0.672,
+        "query_coverage": 0.967741935483871,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "7AQY_2",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "6WAQ_1",
+        "identity_over_alignment": 0.6904761904761905,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "5BOP_1",
+        "identity_over_alignment": 0.6904761904761905,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "3STB_1",
+        "identity_over_alignment": 0.6904761904761905,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      }
+    ],
+    "scope": "27 known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "antifold-novel2-seq11",
+    "best": {
+      "reference": "9EZV_2",
+      "identity_over_alignment": 0.7086614173228346,
+      "query_coverage": 0.9838709677419355,
+      "alignment_columns": 127
+    },
+    "comparisons": [
+      {
+        "reference": "8XKI_1",
+        "identity_over_alignment": 0.6746031746031746,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8XK2_2",
+        "identity_over_alignment": 0.6746031746031746,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7EOW_2",
+        "identity_over_alignment": 0.6796875,
+        "query_coverage": 1.0,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "7A6O_2",
+        "identity_over_alignment": 0.6796875,
+        "query_coverage": 1.0,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "5HVH_2",
+        "identity_over_alignment": 0.688,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "5HVG_2",
+        "identity_over_alignment": 0.688,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "46GH_2",
+        "identity_over_alignment": 0.6904761904761905,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.6507936507936508,
+        "query_coverage": 0.9435483870967742,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.6850393700787402,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.6771653543307087,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.6850393700787402,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.6587301587301587,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "4KRN_1",
+        "identity_over_alignment": 0.7076923076923077,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "4KRO_2",
+        "identity_over_alignment": 0.7076923076923077,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "9EZV_2",
+        "identity_over_alignment": 0.7086614173228346,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "9EZU_2",
+        "identity_over_alignment": 0.7086614173228346,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8XLD_2",
+        "identity_over_alignment": 0.6746031746031746,
+        "query_coverage": 0.9274193548387096,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8R4D_2",
+        "identity_over_alignment": 0.6976744186046512,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8R4B_2",
+        "identity_over_alignment": 0.6976744186046512,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8DT8_2",
+        "identity_over_alignment": 0.6929133858267716,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "7UNY_2",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7S7R_2",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7M1H_7",
+        "identity_over_alignment": 0.68,
+        "query_coverage": 0.967741935483871,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "7AQY_2",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "6WAQ_1",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "5BOP_1",
+        "identity_over_alignment": 0.6904761904761905,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "3STB_1",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      }
+    ],
+    "scope": "27 known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "antifold-novel2-seq12",
+    "best": {
+      "reference": "4KRN_1",
+      "identity_over_alignment": 0.7230769230769231,
+      "query_coverage": 1.0,
+      "alignment_columns": 130
+    },
+    "comparisons": [
+      {
+        "reference": "8XKI_1",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8XK2_2",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7EOW_2",
+        "identity_over_alignment": 0.6796875,
+        "query_coverage": 1.0,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "7A6O_2",
+        "identity_over_alignment": 0.6796875,
+        "query_coverage": 1.0,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "5HVH_2",
+        "identity_over_alignment": 0.712,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "5HVG_2",
+        "identity_over_alignment": 0.712,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "46GH_2",
+        "identity_over_alignment": 0.7142857142857143,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.6666666666666666,
+        "query_coverage": 0.9435483870967742,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7086614173228346,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.6850393700787402,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7007874015748031,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.6746031746031746,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "4KRN_1",
+        "identity_over_alignment": 0.7230769230769231,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "4KRO_2",
+        "identity_over_alignment": 0.7230769230769231,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "9EZV_2",
+        "identity_over_alignment": 0.7222222222222222,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "9EZU_2",
+        "identity_over_alignment": 0.7142857142857143,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8XLD_2",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9274193548387096,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8R4D_2",
+        "identity_over_alignment": 0.6976744186046512,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8R4B_2",
+        "identity_over_alignment": 0.6976744186046512,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8DT8_2",
+        "identity_over_alignment": 0.7086614173228346,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "7UNY_2",
+        "identity_over_alignment": 0.7222222222222222,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7S7R_2",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7M1H_7",
+        "identity_over_alignment": 0.696,
+        "query_coverage": 0.967741935483871,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "7AQY_2",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "6WAQ_1",
+        "identity_over_alignment": 0.7142857142857143,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "5BOP_1",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "3STB_1",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      }
+    ],
+    "scope": "27 known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "antifold-novel2-seq13",
+    "best": {
+      "reference": "46GH_2",
+      "identity_over_alignment": 0.7222222222222222,
+      "query_coverage": 0.9596774193548387,
+      "alignment_columns": 126
+    },
+    "comparisons": [
+      {
+        "reference": "8XKI_1",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8XK2_2",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7EOW_2",
+        "identity_over_alignment": 0.6875,
+        "query_coverage": 1.0,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "7A6O_2",
+        "identity_over_alignment": 0.6875,
+        "query_coverage": 1.0,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "5HVH_2",
+        "identity_over_alignment": 0.688,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "5HVG_2",
+        "identity_over_alignment": 0.688,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "46GH_2",
+        "identity_over_alignment": 0.7222222222222222,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.6666666666666666,
+        "query_coverage": 0.9435483870967742,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.6929133858267716,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.6850393700787402,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.6929133858267716,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.6746031746031746,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "4KRN_1",
+        "identity_over_alignment": 0.7153846153846154,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "4KRO_2",
+        "identity_over_alignment": 0.7153846153846154,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "9EZV_2",
+        "identity_over_alignment": 0.7222222222222222,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "9EZU_2",
+        "identity_over_alignment": 0.7142857142857143,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8XLD_2",
+        "identity_over_alignment": 0.6666666666666666,
+        "query_coverage": 0.9274193548387096,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8R4D_2",
+        "identity_over_alignment": 0.689922480620155,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8R4B_2",
+        "identity_over_alignment": 0.689922480620155,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8DT8_2",
+        "identity_over_alignment": 0.6929133858267716,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "7UNY_2",
+        "identity_over_alignment": 0.7165354330708661,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "7S7R_2",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7M1H_7",
+        "identity_over_alignment": 0.68,
+        "query_coverage": 0.967741935483871,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "7AQY_2",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "6WAQ_1",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "5BOP_1",
+        "identity_over_alignment": 0.6904761904761905,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "3STB_1",
+        "identity_over_alignment": 0.6904761904761905,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      }
+    ],
+    "scope": "27 known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "antifold-novel2-seq14",
+    "best": {
+      "reference": "7UNY_2",
+      "identity_over_alignment": 0.7165354330708661,
+      "query_coverage": 0.9758064516129032,
+      "alignment_columns": 127
+    },
+    "comparisons": [
+      {
+        "reference": "8XKI_1",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8XK2_2",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7EOW_2",
+        "identity_over_alignment": 0.6976744186046512,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "7A6O_2",
+        "identity_over_alignment": 0.6976744186046512,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "5HVH_2",
+        "identity_over_alignment": 0.696,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "5HVG_2",
+        "identity_over_alignment": 0.696,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "46GH_2",
+        "identity_over_alignment": 0.7142857142857143,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.6746031746031746,
+        "query_coverage": 0.9435483870967742,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.6929133858267716,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.6850393700787402,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.6929133858267716,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.6746031746031746,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "4KRN_1",
+        "identity_over_alignment": 0.7153846153846154,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "4KRO_2",
+        "identity_over_alignment": 0.7153846153846154,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "9EZV_2",
+        "identity_over_alignment": 0.7142857142857143,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "9EZU_2",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8XLD_2",
+        "identity_over_alignment": 0.6666666666666666,
+        "query_coverage": 0.9274193548387096,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8R4D_2",
+        "identity_over_alignment": 0.7054263565891473,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8R4B_2",
+        "identity_over_alignment": 0.7054263565891473,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8DT8_2",
+        "identity_over_alignment": 0.7007874015748031,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "7UNY_2",
+        "identity_over_alignment": 0.7165354330708661,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "7S7R_2",
+        "identity_over_alignment": 0.7142857142857143,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7M1H_7",
+        "identity_over_alignment": 0.68,
+        "query_coverage": 0.967741935483871,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "7AQY_2",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "6WAQ_1",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "5BOP_1",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "3STB_1",
+        "identity_over_alignment": 0.6904761904761905,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      }
+    ],
+    "scope": "27 known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "antifold-novel2-seq15",
+    "best": {
+      "reference": "9EZV_2",
+      "identity_over_alignment": 0.7244094488188977,
+      "query_coverage": 0.9838709677419355,
+      "alignment_columns": 127
+    },
+    "comparisons": [
+      {
+        "reference": "8XKI_1",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8XK2_2",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7EOW_2",
+        "identity_over_alignment": 0.6875,
+        "query_coverage": 1.0,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "7A6O_2",
+        "identity_over_alignment": 0.6875,
+        "query_coverage": 1.0,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "5HVH_2",
+        "identity_over_alignment": 0.704,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "5HVG_2",
+        "identity_over_alignment": 0.704,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "46GH_2",
+        "identity_over_alignment": 0.7142857142857143,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.6666666666666666,
+        "query_coverage": 0.9435483870967742,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.6929133858267716,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.6850393700787402,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.6929133858267716,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.6746031746031746,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "4KRN_1",
+        "identity_over_alignment": 0.7230769230769231,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "4KRO_2",
+        "identity_over_alignment": 0.7230769230769231,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "9EZV_2",
+        "identity_over_alignment": 0.7244094488188977,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "9EZU_2",
+        "identity_over_alignment": 0.7165354330708661,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8XLD_2",
+        "identity_over_alignment": 0.6666666666666666,
+        "query_coverage": 0.9274193548387096,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8R4D_2",
+        "identity_over_alignment": 0.689922480620155,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8R4B_2",
+        "identity_over_alignment": 0.689922480620155,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8DT8_2",
+        "identity_over_alignment": 0.7007874015748031,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "7UNY_2",
+        "identity_over_alignment": 0.7165354330708661,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "7S7R_2",
+        "identity_over_alignment": 0.6904761904761905,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7M1H_7",
+        "identity_over_alignment": 0.68,
+        "query_coverage": 0.967741935483871,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "7AQY_2",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "6WAQ_1",
+        "identity_over_alignment": 0.6904761904761905,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "5BOP_1",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "3STB_1",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      }
+    ],
+    "scope": "27 known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "antifold-novel2-seq16",
+    "best": {
+      "reference": "4KRN_1",
+      "identity_over_alignment": 0.7230769230769231,
+      "query_coverage": 1.0,
+      "alignment_columns": 130
+    },
+    "comparisons": [
+      {
+        "reference": "8XKI_1",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8XK2_2",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7EOW_2",
+        "identity_over_alignment": 0.671875,
+        "query_coverage": 1.0,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "7A6O_2",
+        "identity_over_alignment": 0.671875,
+        "query_coverage": 1.0,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "5HVH_2",
+        "identity_over_alignment": 0.704,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "5HVG_2",
+        "identity_over_alignment": 0.704,
+        "query_coverage": 0.9758064516129032,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "46GH_2",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.6587301587301587,
+        "query_coverage": 0.9435483870967742,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.6929133858267716,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.6850393700787402,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.6929133858267716,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.6666666666666666,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "4KRN_1",
+        "identity_over_alignment": 0.7230769230769231,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "4KRO_2",
+        "identity_over_alignment": 0.7230769230769231,
+        "query_coverage": 1.0,
+        "alignment_columns": 130
+      },
+      {
+        "reference": "9EZV_2",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "9EZU_2",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8XLD_2",
+        "identity_over_alignment": 0.6746031746031746,
+        "query_coverage": 0.9274193548387096,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8R4D_2",
+        "identity_over_alignment": 0.6976744186046512,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8R4B_2",
+        "identity_over_alignment": 0.6976744186046512,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8DT8_2",
+        "identity_over_alignment": 0.7007874015748031,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "7UNY_2",
+        "identity_over_alignment": 0.7142857142857143,
+        "query_coverage": 0.9838709677419355,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7S7R_2",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "7M1H_7",
+        "identity_over_alignment": 0.688,
+        "query_coverage": 0.967741935483871,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "7AQY_2",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "6WAQ_1",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "5BOP_1",
+        "identity_over_alignment": 0.6825396825396826,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "3STB_1",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 1.0,
+        "alignment_columns": 126
+      }
+    ],
+    "scope": "27 known PDB antibody references only; not official validation"
+  }
+]

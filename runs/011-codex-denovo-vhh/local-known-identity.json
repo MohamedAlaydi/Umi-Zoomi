@@ -1,0 +1,1346 @@
+[
+  {
+    "query": "her2_caplacizumab_cdr123_0_generated",
+    "best": {
+      "reference": "8ELQ_2",
+      "identity_over_alignment": 0.7086614173228346,
+      "query_coverage": 1.0,
+      "alignment_columns": 127
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.696,
+        "query_coverage": 0.9512195121951219,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7086614173228346,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.6850393700787402,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.6850393700787402,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.704,
+        "query_coverage": 0.967479674796748,
+        "alignment_columns": 125
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_cdr123_1_generated",
+    "best": {
+      "reference": "9L1J_1",
+      "identity_over_alignment": 0.7213114754098361,
+      "query_coverage": 0.9752066115702479,
+      "alignment_columns": 122
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.7213114754098361,
+        "query_coverage": 0.9752066115702479,
+        "alignment_columns": 122
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.6929133858267716,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.6850393700787402,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7007874015748031,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.7131147540983607,
+        "query_coverage": 0.9917355371900827,
+        "alignment_columns": 122
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_cdr123_10_generated",
+    "best": {
+      "reference": "1OL0_1",
+      "identity_over_alignment": 0.7377049180327869,
+      "query_coverage": 0.9916666666666667,
+      "alignment_columns": 122
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.7295081967213115,
+        "query_coverage": 0.975,
+        "alignment_columns": 122
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7007874015748031,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7244094488188977,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.6929133858267716,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.7377049180327869,
+        "query_coverage": 0.9916666666666667,
+        "alignment_columns": 122
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_cdr123_11_generated",
+    "best": {
+      "reference": "1OL0_1",
+      "identity_over_alignment": 0.736,
+      "query_coverage": 0.967741935483871,
+      "alignment_columns": 125
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.72,
+        "query_coverage": 0.9516129032258065,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7244094488188977,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7086614173228346,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7086614173228346,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.736,
+        "query_coverage": 0.967741935483871,
+        "alignment_columns": 125
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_cdr123_12_generated",
+    "best": {
+      "reference": "9L1J_1",
+      "identity_over_alignment": 0.7416666666666667,
+      "query_coverage": 0.9915254237288136,
+      "alignment_columns": 120
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.7416666666666667,
+        "query_coverage": 0.9915254237288136,
+        "alignment_columns": 120
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7244094488188977,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7165354330708661,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7086614173228346,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.7355371900826446,
+        "query_coverage": 1.0,
+        "alignment_columns": 121
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_cdr123_13_generated",
+    "best": {
+      "reference": "1OL0_1",
+      "identity_over_alignment": 0.72,
+      "query_coverage": 0.967479674796748,
+      "alignment_columns": 125
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.704,
+        "query_coverage": 0.9512195121951219,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.6850393700787402,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7007874015748031,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.6771653543307087,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.72,
+        "query_coverage": 0.967479674796748,
+        "alignment_columns": 125
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_cdr123_14_generated",
+    "best": {
+      "reference": "8ELP_2",
+      "identity_over_alignment": 0.7007874015748031,
+      "query_coverage": 1.0,
+      "alignment_columns": 127
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.6935483870967742,
+        "query_coverage": 0.9590163934426229,
+        "alignment_columns": 124
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.6850393700787402,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7007874015748031,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.6850393700787402,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.6935483870967742,
+        "query_coverage": 0.9754098360655737,
+        "alignment_columns": 124
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_cdr123_15_generated",
+    "best": {
+      "reference": "9L1J_1",
+      "identity_over_alignment": 0.75,
+      "query_coverage": 0.9590163934426229,
+      "alignment_columns": 124
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.75,
+        "query_coverage": 0.9590163934426229,
+        "alignment_columns": 124
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7244094488188977,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7165354330708661,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7244094488188977,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.7338709677419355,
+        "query_coverage": 0.9754098360655737,
+        "alignment_columns": 124
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_cdr123_2_generated",
+    "best": {
+      "reference": "8ELP_2",
+      "identity_over_alignment": 0.7322834645669292,
+      "query_coverage": 1.0,
+      "alignment_columns": 127
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.7301587301587301,
+        "query_coverage": 0.944,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7086614173228346,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7322834645669292,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.71875,
+        "query_coverage": 0.992,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.7301587301587301,
+        "query_coverage": 0.96,
+        "alignment_columns": 126
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_cdr123_3_generated",
+    "best": {
+      "reference": "1OL0_1",
+      "identity_over_alignment": 0.7295081967213115,
+      "query_coverage": 0.9917355371900827,
+      "alignment_columns": 122
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.7131147540983607,
+        "query_coverage": 0.9752066115702479,
+        "alignment_columns": 122
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.6929133858267716,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7086614173228346,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.6929133858267716,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.7295081967213115,
+        "query_coverage": 0.9917355371900827,
+        "alignment_columns": 122
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_cdr123_4_generated",
+    "best": {
+      "reference": "1OL0_1",
+      "identity_over_alignment": 0.7603305785123967,
+      "query_coverage": 1.0,
+      "alignment_columns": 121
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.7563025210084033,
+        "query_coverage": 1.0,
+        "alignment_columns": 119
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7401574803149606,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7401574803149606,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7322834645669292,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.7603305785123967,
+        "query_coverage": 1.0,
+        "alignment_columns": 121
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_cdr123_5_generated",
+    "best": {
+      "reference": "9L1J_1",
+      "identity_over_alignment": 0.7666666666666667,
+      "query_coverage": 0.9915966386554622,
+      "alignment_columns": 120
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.7666666666666667,
+        "query_coverage": 0.9915966386554622,
+        "alignment_columns": 120
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7244094488188977,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7165354330708661,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7244094488188977,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.7520661157024794,
+        "query_coverage": 1.0,
+        "alignment_columns": 121
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_cdr123_6_generated",
+    "best": {
+      "reference": "1OL0_1",
+      "identity_over_alignment": 0.717741935483871,
+      "query_coverage": 0.975609756097561,
+      "alignment_columns": 124
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.7096774193548387,
+        "query_coverage": 0.959349593495935,
+        "alignment_columns": 124
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7165354330708661,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7165354330708661,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7165354330708661,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.717741935483871,
+        "query_coverage": 0.975609756097561,
+        "alignment_columns": 124
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_cdr123_7_generated",
+    "best": {
+      "reference": "9L1J_1",
+      "identity_over_alignment": 0.7666666666666667,
+      "query_coverage": 0.9915966386554622,
+      "alignment_columns": 120
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.7666666666666667,
+        "query_coverage": 0.9915966386554622,
+        "alignment_columns": 120
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7244094488188977,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7165354330708661,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7244094488188977,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.743801652892562,
+        "query_coverage": 1.0,
+        "alignment_columns": 121
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_cdr123_8_generated",
+    "best": {
+      "reference": "1OL0_1",
+      "identity_over_alignment": 0.7063492063492064,
+      "query_coverage": 0.9596774193548387,
+      "alignment_columns": 126
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.6984126984126984,
+        "query_coverage": 0.9435483870967742,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.6850393700787402,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.6929133858267716,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.6771653543307087,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.7063492063492064,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_cdr123_9_generated",
+    "best": {
+      "reference": "1OL0_1",
+      "identity_over_alignment": 0.7258064516129032,
+      "query_coverage": 0.9754098360655737,
+      "alignment_columns": 124
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.7096774193548387,
+        "query_coverage": 0.9590163934426229,
+        "alignment_columns": 124
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7007874015748031,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.6850393700787402,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.6929133858267716,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.7258064516129032,
+        "query_coverage": 0.9754098360655737,
+        "alignment_columns": 124
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_0_generated",
+    "best": {
+      "reference": "9L1J_1",
+      "identity_over_alignment": 0.6842105263157895,
+      "query_coverage": 0.8931297709923665,
+      "alignment_columns": 133
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.6842105263157895,
+        "query_coverage": 0.8931297709923665,
+        "alignment_columns": 133
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.6616541353383458,
+        "query_coverage": 0.9541984732824428,
+        "alignment_columns": 133
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.6541353383458647,
+        "query_coverage": 0.9541984732824428,
+        "alignment_columns": 133
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.6691729323308271,
+        "query_coverage": 0.9541984732824428,
+        "alignment_columns": 133
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.6766917293233082,
+        "query_coverage": 0.9083969465648855,
+        "alignment_columns": 133
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_1_generated",
+    "best": {
+      "reference": "1OL0_1",
+      "identity_over_alignment": 0.7286821705426356,
+      "query_coverage": 0.9375,
+      "alignment_columns": 129
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.7209302325581395,
+        "query_coverage": 0.921875,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.6976744186046512,
+        "query_coverage": 0.984375,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7054263565891473,
+        "query_coverage": 0.984375,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.6976744186046512,
+        "query_coverage": 0.984375,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.7286821705426356,
+        "query_coverage": 0.9375,
+        "alignment_columns": 129
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_10_generated",
+    "best": {
+      "reference": "9L1J_1",
+      "identity_over_alignment": 0.7286821705426356,
+      "query_coverage": 0.9212598425196851,
+      "alignment_columns": 129
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.7286821705426356,
+        "query_coverage": 0.9212598425196851,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7054263565891473,
+        "query_coverage": 0.984251968503937,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7209302325581395,
+        "query_coverage": 0.984251968503937,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7209302325581395,
+        "query_coverage": 0.984251968503937,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.7131782945736435,
+        "query_coverage": 0.937007874015748,
+        "alignment_columns": 129
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_11_generated",
+    "best": {
+      "reference": "1OL0_1",
+      "identity_over_alignment": 0.7196969696969697,
+      "query_coverage": 0.916030534351145,
+      "alignment_columns": 132
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.7045454545454546,
+        "query_coverage": 0.9007633587786259,
+        "alignment_columns": 132
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7121212121212122,
+        "query_coverage": 0.9618320610687023,
+        "alignment_columns": 132
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7045454545454546,
+        "query_coverage": 0.9618320610687023,
+        "alignment_columns": 132
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7121212121212122,
+        "query_coverage": 0.9618320610687023,
+        "alignment_columns": 132
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.7196969696969697,
+        "query_coverage": 0.916030534351145,
+        "alignment_columns": 132
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_12_generated",
+    "best": {
+      "reference": "1OL0_1",
+      "identity_over_alignment": 0.7619047619047619,
+      "query_coverage": 0.9596774193548387,
+      "alignment_columns": 126
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.7301587301587301,
+        "query_coverage": 0.9435483870967742,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7401574803149606,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.75,
+        "query_coverage": 0.9919354838709677,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7480314960629921,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.7619047619047619,
+        "query_coverage": 0.9596774193548387,
+        "alignment_columns": 126
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_13_generated",
+    "best": {
+      "reference": "9L1J_1",
+      "identity_over_alignment": 0.7121212121212122,
+      "query_coverage": 0.9,
+      "alignment_columns": 132
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.7121212121212122,
+        "query_coverage": 0.9,
+        "alignment_columns": 132
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.6893939393939394,
+        "query_coverage": 0.9615384615384616,
+        "alignment_columns": 132
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7045454545454546,
+        "query_coverage": 0.9615384615384616,
+        "alignment_columns": 132
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.696969696969697,
+        "query_coverage": 0.9615384615384616,
+        "alignment_columns": 132
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.7121212121212122,
+        "query_coverage": 0.9153846153846154,
+        "alignment_columns": 132
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_14_generated",
+    "best": {
+      "reference": "8ELO_2",
+      "identity_over_alignment": 0.7404580152671756,
+      "query_coverage": 0.9689922480620154,
+      "alignment_columns": 131
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.7022900763358778,
+        "query_coverage": 0.9069767441860465,
+        "alignment_columns": 131
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7175572519083969,
+        "query_coverage": 0.9689922480620154,
+        "alignment_columns": 131
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.732824427480916,
+        "query_coverage": 0.9689922480620154,
+        "alignment_columns": 131
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7404580152671756,
+        "query_coverage": 0.9689922480620154,
+        "alignment_columns": 131
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.7251908396946565,
+        "query_coverage": 0.9224806201550387,
+        "alignment_columns": 131
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_15_generated",
+    "best": {
+      "reference": "8ELP_2",
+      "identity_over_alignment": 0.696969696969697,
+      "query_coverage": 0.9615384615384616,
+      "alignment_columns": 132
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.6818181818181818,
+        "query_coverage": 0.9,
+        "alignment_columns": 132
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.6742424242424242,
+        "query_coverage": 0.9615384615384616,
+        "alignment_columns": 132
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.696969696969697,
+        "query_coverage": 0.9615384615384616,
+        "alignment_columns": 132
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.6515151515151515,
+        "query_coverage": 0.9615384615384616,
+        "alignment_columns": 132
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.6818181818181818,
+        "query_coverage": 0.9153846153846154,
+        "alignment_columns": 132
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_2_generated",
+    "best": {
+      "reference": "8ELO_2",
+      "identity_over_alignment": 0.674074074074074,
+      "query_coverage": 0.9402985074626866,
+      "alignment_columns": 135
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.6518518518518519,
+        "query_coverage": 0.8805970149253731,
+        "alignment_columns": 135
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.6666666666666666,
+        "query_coverage": 0.9402985074626866,
+        "alignment_columns": 135
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.6518518518518519,
+        "query_coverage": 0.9402985074626866,
+        "alignment_columns": 135
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.674074074074074,
+        "query_coverage": 0.9402985074626866,
+        "alignment_columns": 135
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.6666666666666666,
+        "query_coverage": 0.8955223880597015,
+        "alignment_columns": 135
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_3_generated",
+    "best": {
+      "reference": "8ELP_2",
+      "identity_over_alignment": 0.7286821705426356,
+      "query_coverage": 0.984375,
+      "alignment_columns": 129
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.6976744186046512,
+        "query_coverage": 0.921875,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7131782945736435,
+        "query_coverage": 0.984375,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7286821705426356,
+        "query_coverage": 0.984375,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7131782945736435,
+        "query_coverage": 0.984375,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.7209302325581395,
+        "query_coverage": 0.9375,
+        "alignment_columns": 129
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_4_generated",
+    "best": {
+      "reference": "1OL0_1",
+      "identity_over_alignment": 0.736,
+      "query_coverage": 0.967741935483871,
+      "alignment_columns": 125
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.728,
+        "query_coverage": 0.9516129032258065,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7244094488188977,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7165354330708661,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7086614173228346,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.736,
+        "query_coverage": 0.967741935483871,
+        "alignment_columns": 125
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_5_generated",
+    "best": {
+      "reference": "9L1J_1",
+      "identity_over_alignment": 0.7380952380952381,
+      "query_coverage": 0.944,
+      "alignment_columns": 126
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.7380952380952381,
+        "query_coverage": 0.944,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7165354330708661,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7165354330708661,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7007874015748031,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.7301587301587301,
+        "query_coverage": 0.96,
+        "alignment_columns": 126
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_6_generated",
+    "best": {
+      "reference": "1OL0_1",
+      "identity_over_alignment": 0.7121212121212122,
+      "query_coverage": 0.916030534351145,
+      "alignment_columns": 132
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.6818181818181818,
+        "query_coverage": 0.9007633587786259,
+        "alignment_columns": 132
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7045454545454546,
+        "query_coverage": 0.9618320610687023,
+        "alignment_columns": 132
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7045454545454546,
+        "query_coverage": 0.9618320610687023,
+        "alignment_columns": 132
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.696969696969697,
+        "query_coverage": 0.9618320610687023,
+        "alignment_columns": 132
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.7121212121212122,
+        "query_coverage": 0.916030534351145,
+        "alignment_columns": 132
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_7_generated",
+    "best": {
+      "reference": "1OL0_1",
+      "identity_over_alignment": 0.7301587301587301,
+      "query_coverage": 0.96,
+      "alignment_columns": 126
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.7142857142857143,
+        "query_coverage": 0.944,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.6929133858267716,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7086614173228346,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7007874015748031,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.7301587301587301,
+        "query_coverage": 0.96,
+        "alignment_columns": 126
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_8_generated",
+    "best": {
+      "reference": "8ELP_2",
+      "identity_over_alignment": 0.6865671641791045,
+      "query_coverage": 0.946969696969697,
+      "alignment_columns": 134
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.6791044776119403,
+        "query_coverage": 0.8863636363636364,
+        "alignment_columns": 134
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.6716417910447762,
+        "query_coverage": 0.946969696969697,
+        "alignment_columns": 134
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.6865671641791045,
+        "query_coverage": 0.946969696969697,
+        "alignment_columns": 134
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.6865671641791045,
+        "query_coverage": 0.946969696969697,
+        "alignment_columns": 134
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.6865671641791045,
+        "query_coverage": 0.9015151515151515,
+        "alignment_columns": 134
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  },
+  {
+    "query": "her2_caplacizumab_longH3_9_generated",
+    "best": {
+      "reference": "8ELP_2",
+      "identity_over_alignment": 0.7045454545454546,
+      "query_coverage": 0.9615384615384616,
+      "alignment_columns": 132
+    },
+    "comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.6742424242424242,
+        "query_coverage": 0.9,
+        "alignment_columns": 132
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.696969696969697,
+        "query_coverage": 0.9615384615384616,
+        "alignment_columns": 132
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7045454545454546,
+        "query_coverage": 0.9615384615384616,
+        "alignment_columns": 132
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7045454545454546,
+        "query_coverage": 0.9615384615384616,
+        "alignment_columns": 132
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.696969696969697,
+        "query_coverage": 0.9153846153846154,
+        "alignment_columns": 132
+      }
+    ],
+    "scope": "five known PDB antibody references only; not official validation"
+  }
+]

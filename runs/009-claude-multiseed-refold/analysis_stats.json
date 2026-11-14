@@ -1,0 +1,160 @@
+{
+  "variance_components": {
+    "iface_min": {
+      "k_sequences": 11,
+      "n_per_sequence": 5.545454545454546,
+      "ms_between": 0.0017790544535519128,
+      "ms_within": 0.00021505566666666674,
+      "sd_between": 0.016793825297616014,
+      "sd_within": 0.014664776393340156,
+      "icc1": 0.5673692282095577,
+      "grand_mean": 0.8966229508196721
+    },
+    "bsa_fv_her2": {
+      "k_sequences": 11,
+      "n_per_sequence": 5.545454545454546,
+      "ms_between": 11151.23537864217,
+      "ms_within": 927.3671596716246,
+      "sd_between": 42.937726620716006,
+      "sd_within": 30.452703651262635,
+      "icc1": 0.6653331059943212,
+      "grand_mean": 1595.2228243468237
+    },
+    "iface_mean": {
+      "k_sequences": 11,
+      "n_per_sequence": 5.545454545454546,
+      "ms_between": 0.0013589746209016385,
+      "ms_within": 0.000170834625,
+      "sd_between": 0.014637443539064867,
+      "sd_within": 0.013070372029900296,
+      "icc1": 0.5563766891524053,
+      "grand_mean": 0.9104508196721312
+    },
+    "iptm": {
+      "k_sequences": 11,
+      "n_per_sequence": 5.545454545454546,
+      "ms_between": 0.0006169719125683042,
+      "ms_within": 6.314266666666627e-05,
+      "sd_between": 0.009993540294690708,
+      "sd_within": 0.007946236006227495,
+      "icc1": 0.6126537916665928,
+      "grand_mean": 0.9440491803278688
+    }
+  },
+  "noise_floor": {
+    "n_seeds": 2,
+    "sd_delta_pooled": 0.009398803115290774,
+    "sd_delta_median": 0.008662058069535156,
+    "mdd_80pct_power_nct": 0.05444540070635977,
+    "mdd_80pct_power_approx": 0.051108299347638185
+  },
+  "labels": {
+    "FAIL_ROBUST": 1,
+    "INDETERMINATE": 54,
+    "NONINFERIOR": 4,
+    "NA_WT": 1
+  },
+  "calibration": {
+    "iface_min": {
+      "rho": NaN,
+      "lo": NaN,
+      "hi": NaN,
+      "p": NaN,
+      "auc": NaN,
+      "n": 0,
+      "excludes": "no"
+    },
+    "iface_mean": {
+      "rho": NaN,
+      "lo": NaN,
+      "hi": NaN,
+      "p": NaN,
+      "auc": NaN,
+      "n": 0,
+      "excludes": "no"
+    },
+    "iptm": {
+      "rho": NaN,
+      "lo": NaN,
+      "hi": NaN,
+      "p": NaN,
+      "auc": NaN,
+      "n": 0,
+      "excludes": "no"
+    },
+    "bsa_fv_her2": {
+      "rho": NaN,
+      "lo": NaN,
+      "hi": NaN,
+      "p": NaN,
+      "auc": NaN,
+      "n": 0,
+      "excludes": "no"
+    },
+    "plddt": {
+      "rho": NaN,
+      "lo": NaN,
+      "hi": NaN,
+      "p": NaN,
+      "auc": NaN,
+      "n": 0,
+      "excludes": "no"
+    },
+    "n_iface_res_45": {
+      "rho": NaN,
+      "lo": NaN,
+      "hi": NaN,
+      "p": NaN,
+      "auc": NaN,
+      "n": 0,
+      "excludes": "no"
+    },
+    "cdrh3_share": {
+      "rho": NaN,
+      "lo": NaN,
+      "hi": NaN,
+      "p": NaN,
+      "auc": NaN,
+      "n": 0,
+      "excludes": "no"
+    },
+    "cdrh3_rmsd_1n8z": {
+      "rho": NaN,
+      "lo": NaN,
+      "hi": NaN,
+      "p": NaN,
+      "auc": NaN,
+      "n": 0,
+      "excludes": "no"
+    }
+  },
+  "determinism": [
+    {
+      "query_id": "anas_001",
+      "seed": 42,
+      "a": "009/cand-s42",
+      "b": "006/reused-seed42",
+      "scores": "identical",
+      "cif_sha256_16": "identical",
+      "d_iface_min": 0.0
+    },
+    {
+      "query_id": "anas_027",
+      "seed": 42,
+      "a": "009/cand-s42",
+      "b": "006/reused-seed42",
+      "scores": "identical",
+      "cif_sha256_16": "identical",
+      "d_iface_min": 0.0
+    },
+    {
+      "query_id": "trastuzumab_wt",
+      "seed": 42,
+      "a": "009/cand-s42",
+      "b": "006/reused-seed42",
+      "scores": "identical",
+      "cif_sha256_16": "identical",
+      "d_iface_min": 0.0
+    }
+  ]
+}

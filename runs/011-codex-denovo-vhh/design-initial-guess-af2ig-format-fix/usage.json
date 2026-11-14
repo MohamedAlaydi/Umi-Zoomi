@@ -1,0 +1,122 @@
+{
+  "amount": 0.004488,
+  "amount_micros": 4488,
+  "billable_s": 62.146,
+  "closed_at": "2026-11-14T13:50:57.162000+00:00",
+  "currency": "usd",
+  "excluded_s": 0.0,
+  "job": "eec321fd1dd467b035916be5862002cd",
+  "kind": "predict",
+  "links": {
+    "job": "/v1/jobs/eec321fd1dd467b035916be5862002cd"
+  },
+  "load_s": 9.846,
+  "meter": {
+    "bias": "under",
+    "bound_s": 6.0,
+    "method": "sampled-lease-integral+engine-clock-cap",
+    "sample_gap_s": 3.0,
+    "visible": true
+  },
+  "model": "af2ig",
+  "name": "team14-her2-initial-guess-format-fix",
+  "object": "usage",
+  "reconcile": {
+    "agree": 1,
+    "capped": 0,
+    "checked": 1,
+    "over_engine": 0,
+    "rate": 1.0,
+    "worst_delta_s": -2.867
+  },
+  "status": "succeeded",
+  "submitted_at": "2026-11-14T13:50:15.766000+00:00",
+  "surface": "skill",
+  "targets": [
+    {
+      "amount": 0.001013,
+      "amount_micros": 1013,
+      "attempts": 1,
+      "billable_s": 14.033,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "novel1_crop119",
+      "intervals": [
+        [
+          "2026-11-14T13:50:33.830000+00:00",
+          "2026-11-14T13:50:47.863000+00:00"
+        ]
+      ],
+      "load_s": 0.233,
+      "runtime_s": 13.8
+    },
+    {
+      "amount": 0.001158,
+      "amount_micros": 1158,
+      "attempts": 1,
+      "billable_s": 16.033,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "novel2_crop119",
+      "intervals": [
+        [
+          "2026-11-14T13:50:34.992000+00:00",
+          "2026-11-14T13:50:51.025000+00:00"
+        ]
+      ],
+      "load_s": 3.433,
+      "runtime_s": 12.6
+    },
+    {
+      "amount": 0.001303,
+      "amount_micros": 1303,
+      "attempts": 1,
+      "billable_s": 18.042,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "novel3_crop119",
+      "intervals": [
+        [
+          "2026-11-14T13:50:38.116000+00:00",
+          "2026-11-14T13:50:56.158000+00:00"
+        ]
+      ],
+      "load_s": 3.142,
+      "runtime_s": 14.9
+    },
+    {
+      "amount": 0.000579,
+      "amount_micros": 579,
+      "attempts": 1,
+      "billable_s": 8.019,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "high_footprint_known_hit",
+      "intervals": [
+        [
+          "2026-11-14T13:50:42.355000+00:00",
+          "2026-11-14T13:50:50.374000+00:00"
+        ]
+      ],
+      "load_s": 2.219,
+      "runtime_s": 5.8
+    },
+    {
+      "amount": 0.000435,
+      "amount_micros": 435,
+      "attempts": 1,
+      "billable_s": 6.019,
+      "excluded": null,
+      "excluded_s": 0.0,
+      "id": "fixed_framework_control",
+      "intervals": [
+        [
+          "2026-11-14T13:50:44.522000+00:00",
+          "2026-11-14T13:50:50.541000+00:00"
+        ]
+      ],
+      "load_s": 0.819,
+      "runtime_s": 5.2
+    }
+  ]
+}

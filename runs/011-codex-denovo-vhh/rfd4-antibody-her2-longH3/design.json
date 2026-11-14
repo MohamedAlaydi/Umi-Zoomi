@@ -1,0 +1,63 @@
+{
+  "her2_caplacizumab_longH3": {
+    "input": [
+      "../caplacizumab-longH3.cif",
+      "../rfd4-antibody-her2/her2-target.cif"
+    ],
+    "input_as_annotated_cif": true,
+    "contig": "H1-86, /0, C489-580, /0, D591-607",
+    "conditions": {
+      "C_CRDGRP": {
+        "1": [
+          {
+            "select": "sel('H/*/[1-22,24-37,39-75,77-86]') and not has_nan_coord()"
+          }
+        ],
+        "2": [
+          {
+            "select": "sel('C/*/*/[N,CA,C,O]') and not has_nan_coord()"
+          },
+          {
+            "select": "sel('D/*/*/[N,CA,C,O]') and not has_nan_coord()"
+          }
+        ]
+      },
+      "C_SEQ": {
+        "true": [
+          {
+            "select": "sel('H/*/[1-22,24-37,39-75,77-86]')"
+          },
+          {
+            "select": "sel('C')"
+          },
+          {
+            "select": "sel('D')"
+          }
+        ]
+      },
+      "C_HOT": {
+        "true": [
+          {
+            "select": "sel('D/*/593/NZ')"
+          },
+          {
+            "select": "sel('C/*/573/CD1')"
+          },
+          {
+            "select": "sel('D/*/591/CG2')"
+          },
+          {
+            "select": "sel('C/*/572/CD')"
+          }
+        ]
+      },
+      "C_CATH": {
+        "2.60.40": [
+          {
+            "select": "sel('H')"
+          }
+        ]
+      }
+    }
+  }
+}

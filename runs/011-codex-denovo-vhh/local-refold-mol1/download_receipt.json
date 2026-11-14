@@ -1,0 +1,282 @@
+{
+  "job_id": "f17875d6892ef43c21a85534110dcc21",
+  "utc": "2026-11-14T13:44:39.812898+00:00",
+  "archive_sha256": "01ef730a3711e8480cfc90a7229d42e61390caa3e8013455815b1dd69726bb54",
+  "artifacts": [
+    {
+      "path": "fixed_framework_control/seed_42/predictions/fixed_framework_control_full_data_sample_0.json",
+      "sha256": "793b8297af9859290f5e5c09c293377e853efce593a6124641ece929e3071cc6",
+      "bytes": 2648565
+    },
+    {
+      "path": "fixed_framework_control/seed_42/predictions/fixed_framework_control_sample_0.cif",
+      "sha256": "470da6a65192654e97160df2652e8be79d40b5d867066e16bbf1e5d48f49f27e",
+      "bytes": 203400
+    },
+    {
+      "path": "fixed_framework_control/seed_42/predictions/fixed_framework_control_summary_confidence_sample_0.json",
+      "sha256": "ae19b604dea02a9a16e6b2dd23e1225b67cb61dff99ea26e5026c63b71c3f997",
+      "bytes": 1259
+    },
+    {
+      "path": "fixed_framework_control.cif",
+      "sha256": "947282074dd27dbcaabef32dbdbf13d8908c255631f3b01762788de575135b0f",
+      "bytes": 198834
+    },
+    {
+      "path": "fixed_framework_control_pae.json",
+      "sha256": "00ec1106bf4ed3302c1543a77903ee69093fbfb45d589bb21f382d902e39cafc",
+      "bytes": 458
+    },
+    {
+      "path": "fixed_framework_control_pae.npz",
+      "sha256": "83e75c8c714ed89229f985cb3ae006d7c11d15f9e63e9b8b5db7492c9dc21896",
+      "bytes": 406522
+    },
+    {
+      "path": "high_footprint_known_hit/seed_42/predictions/high_footprint_known_hit_full_data_sample_0.json",
+      "sha256": "e6d9c55ee5d2c91b6bf6e7d131d5694375fcd483db1c380993451ff728b0c94b",
+      "bytes": 2691867
+    },
+    {
+      "path": "high_footprint_known_hit/seed_42/predictions/high_footprint_known_hit_sample_0.cif",
+      "sha256": "fb7297b820810b10386718df5052542d044d37eba142057cffa6ac98525d99b8",
+      "bytes": 211134
+    },
+    {
+      "path": "high_footprint_known_hit/seed_42/predictions/high_footprint_known_hit_summary_confidence_sample_0.json",
+      "sha256": "65f46bf5dd035ee67bcd8e688657e2e20fd4d4b55003d0fbfcde94414f31ae02",
+      "bytes": 1252
+    },
+    {
+      "path": "high_footprint_known_hit.cif",
+      "sha256": "0414fdf9010ef3a4073183e397e428c109e07cdeee358498d8a01c477e069b52",
+      "bytes": 206530
+    },
+    {
+      "path": "high_footprint_known_hit_pae.json",
+      "sha256": "f0a6a6df308ec8e185693101ae68491b6e7aa1674ce0959f4209f2c78dd1f07a",
+      "bytes": 458
+    },
+    {
+      "path": "high_footprint_known_hit_pae.npz",
+      "sha256": "ab13d4f7a419a8112375bdfd2965b72a34dfea7b3a0f11e1e91479cc50b7523c",
+      "bytes": 417152
+    },
+    {
+      "path": "novel1_crop119/seed_42/predictions/novel1_crop119_full_data_sample_0.json",
+      "sha256": "66b55bd7e566a43454f31b6d0ff30545fb0acc2587389e395c823c8d3182101c",
+      "bytes": 2834832
+    },
+    {
+      "path": "novel1_crop119/seed_42/predictions/novel1_crop119_sample_0.cif",
+      "sha256": "64ccbf9627154221db41cde697f3184e037d32b4f9661742c97a7f91f71941f1",
+      "bytes": 220843
+    },
+    {
+      "path": "novel1_crop119/seed_42/predictions/novel1_crop119_summary_confidence_sample_0.json",
+      "sha256": "0dd502e709ad2ff128425de489ce9a65af7868e431c2caf1265188f26f337d82",
+      "bytes": 1251
+    },
+    {
+      "path": "novel1_crop119.cif",
+      "sha256": "acf32baf6555a8d690e533bc88bbab373697131a45e65f037a538077f3b2b8a8",
+      "bytes": 216187
+    },
+    {
+      "path": "novel1_crop119_pae.json",
+      "sha256": "2b151e94f7af6d8b76f9eaee790fc1e47870bd5641b30f45b9294f7d5952c973",
+      "bytes": 458
+    },
+    {
+      "path": "novel1_crop119_pae.npz",
+      "sha256": "520b7a7122d83a27c127d77e67f82346c83a02d6b4f082395b443f92e3ef50b3",
+      "bytes": 438646
+    },
+    {
+      "path": "novel1_ectodomain607/seed_42/predictions/novel1_ectodomain607_full_data_sample_0.json",
+      "sha256": "326b1bb0eb61155da57dded170a9d9fa42d4eff2b0b8b65276005e1227bb3ee8",
+      "bytes": 23889999
+    },
+    {
+      "path": "novel1_ectodomain607/seed_42/predictions/novel1_ectodomain607_sample_0.cif",
+      "sha256": "e3b8f510d9a08b7da86276dd969dd84628f348afc76aff8097558851269df94c",
+      "bytes": 638248
+    },
+    {
+      "path": "novel1_ectodomain607/seed_42/predictions/novel1_ectodomain607_summary_confidence_sample_0.json",
+      "sha256": "c25ca77a67d9c746fe14db1ceb7ba92460147596eed60a05e2f7fcfa364214e3",
+      "bytes": 1259
+    },
+    {
+      "path": "novel1_ectodomain607.cif",
+      "sha256": "618ee9265c6fc40712c1e42ab2596c0fe80bd336b8b6f3cf1981d16262997751",
+      "bytes": 622012
+    },
+    {
+      "path": "novel1_ectodomain607_pae.json",
+      "sha256": "50e9dc49d7f046cede45759b7d576f6ecae5e89754c0e8b157182bb4480f6e66",
+      "bytes": 458
+    },
+    {
+      "path": "novel1_ectodomain607_pae.npz",
+      "sha256": "3b6f9f195e61952e98a5eee45554b83ce26a4850219f1c8dd2c6a52d75874f86",
+      "bytes": 3858040
+    },
+    {
+      "path": "novel2_crop119/seed_42/predictions/novel2_crop119_full_data_sample_0.json",
+      "sha256": "97956e8220f125edffc703c17bfdee26053b573d5cb8c4b1e83e0ccdce029bc0",
+      "bytes": 2705945
+    },
+    {
+      "path": "novel2_crop119/seed_42/predictions/novel2_crop119_sample_0.cif",
+      "sha256": "e9d2bccb454438ffb0a0bccff5ecfc3e5663ee68f38ff5848149f2ef1e24443c",
+      "bytes": 208258
+    },
+    {
+      "path": "novel2_crop119/seed_42/predictions/novel2_crop119_summary_confidence_sample_0.json",
+      "sha256": "9cd07608e262a880f80201194a5f134a85c3b4ce5566d8a8b2cf5b44d4a0775b",
+      "bytes": 1249
+    },
+    {
+      "path": "novel2_crop119.cif",
+      "sha256": "2691af70ceb3a0990c8e40a4f231cad4830efd6238d025ccefd7ead202cd95db",
+      "bytes": 203674
+    },
+    {
+      "path": "novel2_crop119_pae.json",
+      "sha256": "f0a6a6df308ec8e185693101ae68491b6e7aa1674ce0959f4209f2c78dd1f07a",
+      "bytes": 458
+    },
+    {
+      "path": "novel2_crop119_pae.npz",
+      "sha256": "6dc360ae4e87a3cbe83c3c9008b71c7ba744a91b57ccf0854087c588ce187d7d",
+      "bytes": 415995
+    },
+    {
+      "path": "novel2_ectodomain607/seed_42/predictions/novel2_ectodomain607_full_data_sample_0.json",
+      "sha256": "188b0cc7664de1f22ca1bce8292a6811e2d7b0fcfa9121e8f078819b17d23959",
+      "bytes": 23470418
+    },
+    {
+      "path": "novel2_ectodomain607/seed_42/predictions/novel2_ectodomain607_sample_0.cif",
+      "sha256": "e7c92d473d9a781cad55a328f15ff0496848e2dddc368433427fd454c1e88054",
+      "bytes": 633232
+    },
+    {
+      "path": "novel2_ectodomain607/seed_42/predictions/novel2_ectodomain607_summary_confidence_sample_0.json",
+      "sha256": "707a9e9a7dfe11f524dcae1e17d025160de9edd4212b2ec46c462a4cf8720e1f",
+      "bytes": 1248
+    },
+    {
+      "path": "novel2_ectodomain607.cif",
+      "sha256": "8e1fc9fc2308ea810af335b438c3826ab66fcf9bb1b739344505ab7805397b89",
+      "bytes": 622780
+    },
+    {
+      "path": "novel2_ectodomain607_pae.json",
+      "sha256": "1f35152fceb4dc761ed4fbe3b890fa3025b0c0d7a727a9ea140d15bf83766f9d",
+      "bytes": 458
+    },
+    {
+      "path": "novel2_ectodomain607_pae.npz",
+      "sha256": "7d0b69f2d35b1c79944937b3e0ef49c8414a89ca23537a71c39d6c812e694629",
+      "bytes": 3794956
+    },
+    {
+      "path": "novel3_crop119/seed_42/predictions/novel3_crop119_full_data_sample_0.json",
+      "sha256": "a76a01b25709b0aeeea96b77e9fe70b16bfe6ea182fc0c4838254c0da8ae6661",
+      "bytes": 2942695
+    },
+    {
+      "path": "novel3_crop119/seed_42/predictions/novel3_crop119_sample_0.cif",
+      "sha256": "5c5411f326fa7ef68235178014537b3dc6982fb7e245402b1d2ad002d3ba169b",
+      "bytes": 219115
+    },
+    {
+      "path": "novel3_crop119/seed_42/predictions/novel3_crop119_summary_confidence_sample_0.json",
+      "sha256": "97f1ab576eeb27ebc4299a0925cb36a02919dbf172bdedeb52d6e16599023db0",
+      "bytes": 1256
+    },
+    {
+      "path": "novel3_crop119.cif",
+      "sha256": "7955d6336d181c3bbec966e718c3e8b8e99551641a4aeebd77f47e50d8a76503",
+      "bytes": 214411
+    },
+    {
+      "path": "novel3_crop119_pae.json",
+      "sha256": "071f7225b7f93af7f22dcf52ca020cd7a6dbf78a03ccb336f0801229a3adf661",
+      "bytes": 458
+    },
+    {
+      "path": "novel3_crop119_pae.npz",
+      "sha256": "f58676fcfac31068985e78f3991d1607a550f8c003f5d7872cae5e8a1bd2108d",
+      "bytes": 453268
+    },
+    {
+      "path": "novel3_ectodomain607/seed_42/predictions/novel3_ectodomain607_full_data_sample_0.json",
+      "sha256": "10a9c33f68db400909c7b069d2048ff2dbcdd17cfa97571004c9215802963672",
+      "bytes": 24186132
+    },
+    {
+      "path": "novel3_ectodomain607/seed_42/predictions/novel3_ectodomain607_sample_0.cif",
+      "sha256": "97ebc7e9d34ef1428fb1e2b4205b51a3dc8f7e8d91b82024b878bcf9335b5fa6",
+      "bytes": 636536
+    },
+    {
+      "path": "novel3_ectodomain607/seed_42/predictions/novel3_ectodomain607_summary_confidence_sample_0.json",
+      "sha256": "38b2f9e0e9a2cf8d80eefe1872980e54cb3b6fa6cdb3e1ab769fb3716b549954",
+      "bytes": 1247
+    },
+    {
+      "path": "novel3_ectodomain607.cif",
+      "sha256": "17bfc7c0f9a84fc0965498551dc1c6ac4ab7c1c341575e4c7c2a8b39d69cf958",
+      "bytes": 625964
+    },
+    {
+      "path": "novel3_ectodomain607_pae.json",
+      "sha256": "974526092f7a0281f77ffd1899ce68666f5151fd4ee6cc2640304543c1438481",
+      "bytes": 458
+    },
+    {
+      "path": "novel3_ectodomain607_pae.npz",
+      "sha256": "ed52410057194ea0183165ac9b0b1e3298ffcda5f44b873e142e09248f98c09c",
+      "bytes": 3898417
+    },
+    {
+      "path": "results.json",
+      "sha256": "4c63e50b71992ade7d1ed3fabb42f11c72b103dc26079745b6e236eb6b5797b2",
+      "bytes": 5642
+    },
+    {
+      "path": "trastuzumab_wt_control/seed_42/predictions/trastuzumab_wt_control_full_data_sample_0.json",
+      "sha256": "12870cc481212db979131c0002f04f373ce8ee902ce8c02c2a72e76c10ba12f4",
+      "bytes": 5381332
+    },
+    {
+      "path": "trastuzumab_wt_control/seed_42/predictions/trastuzumab_wt_control_sample_0.cif",
+      "sha256": "ddbf832f30c25d1966a35acfa7dd5728a7f25bf94379cfb2a9b0e4a2b8b57bd5",
+      "bytes": 306421
+    },
+    {
+      "path": "trastuzumab_wt_control/seed_42/predictions/trastuzumab_wt_control_summary_confidence_sample_0.json",
+      "sha256": "9b8303dc9ccc1049374e2a2b6fda4a5eb1ff6e35db841018c7902b42186e02b9",
+      "bytes": 2023
+    },
+    {
+      "path": "trastuzumab_wt_control.cif",
+      "sha256": "c2b39294833cafc6a375fc0e117e26864154cb5a7c5a598b586d0c8d88c73d43",
+      "bytes": 300662
+    },
+    {
+      "path": "trastuzumab_wt_control_pae.json",
+      "sha256": "f274f974590a5c2b9f9d6c0a5e005a1f91df9e9ec019366ef4a04ec08be37310",
+      "bytes": 458
+    },
+    {
+      "path": "trastuzumab_wt_control_pae.npz",
+      "sha256": "58f44ee44f000f0bd3931cee07498ee6419716a50bfd4b0e5e097055a26ffa38",
+      "bytes": 834883
+    }
+  ]
+}

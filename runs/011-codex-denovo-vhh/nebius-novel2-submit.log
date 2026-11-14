@@ -1,0 +1,4 @@
+  uploaded novel2.fasta (128 bytes, text/x-fasta)
+Submitting nanobodybuilder2. Usually about 2 minutes on the first call, and it can be longer when many teams submit at once.
+Run id: op-cb14aad491ba0c87  (saved in nebius-runs/run011-novel2-nbb2.json)
+Check it later with: forge.py wait op-cb14aad491ba0c87

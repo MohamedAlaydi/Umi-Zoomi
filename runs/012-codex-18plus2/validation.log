@@ -1,0 +1,10 @@
+{
+  "input": 20,
+  "validated": 20,
+  "novelty_verdict_counts": [
+    {
+      "is_novel_enough": true,
+      "count": 20
+    }
+  ]
+}

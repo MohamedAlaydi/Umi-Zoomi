@@ -1,0 +1,12 @@
+{
+  "model": "boltzgen",
+  "protocol": "nanobody-anything",
+  "name": "team14-her2-pilot-directed-s20261114",
+  "spec": "entities:\n  - protein: {id: B, sequence: 110..135}\n  - protein: {id: A, msa: empty, sequence: CHQLCARGHCWGPGPTQCVNCSQFLRGQECVEECRVLQGLPREYVNARHCLPCHPECQPQNGSVTCFGPEADQCVACAHYKDPPFCVARCPSGVKPDLSYMPIWKFPDEEGACQPCPIN, binding_types: {binding: '69..117'}}\n",
+  "params": {
+    "num_designs": 8,
+    "budget": 8,
+    "fast": false,
+    "seed": 20261114
+  }
+}

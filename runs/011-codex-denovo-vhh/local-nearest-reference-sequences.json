@@ -1,0 +1,85 @@
+{
+  "count": 7,
+  "polymer_entities": [
+    {
+      "rcsb_id": "8XKI_1",
+      "rcsb_polymer_entity": {
+        "pdbx_description": "nanobody VHH60"
+      },
+      "entity_poly": {
+        "pdbx_seq_one_letter_code_can": "EVQLVESGGGLVQPGGSLRLSCAASGRTFRVNLMGWFRQAPGKGRELVASINGFDDITYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAAYDSDYDGRLFNYWGQGTQVTVSS"
+      }
+    },
+    {
+      "rcsb_id": "8XK2_2",
+      "rcsb_polymer_entity": {
+        "pdbx_description": "VHH60 nanobody"
+      },
+      "entity_poly": {
+        "pdbx_seq_one_letter_code_can": "EVQLVESGGGLVQPGGSLRLSCAASGRTFRVNLMGWFRQAPGKGRELVASINGFDDITYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAAYDSDYDGRLFNYWGQGTQVTVSS"
+      }
+    },
+    {
+      "rcsb_id": "7EOW_2",
+      "rcsb_polymer_entity": {
+        "pdbx_description": "caplacizumab"
+      },
+      "entity_poly": {
+        "pdbx_seq_one_letter_code_can": "MEVQLVESGGGLVQPGGSLRLSCAASGRTFSYNPMGWFRQAPGKGRELVAAISRTGGSTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAAAGVRAEDGRVRTLPSEYTFWGQGTQVTVSSLEHHHHHH"
+      }
+    },
+    {
+      "rcsb_id": "7A6O_2",
+      "rcsb_polymer_entity": {
+        "pdbx_description": "VHH81 Nanobody fragment"
+      },
+      "entity_poly": {
+        "pdbx_seq_one_letter_code_can": "EVQLVESGGGLVQPGGSLRLSCAASGRTFSYNPMGWFRQAPGKGRELVAAISRTGGSTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAAAGVRAEDGRVRTLPSEYTFWGQGTQVTVSS"
+      }
+    },
+    {
+      "rcsb_id": "5HVH_2",
+      "rcsb_polymer_entity": {
+        "pdbx_description": "VHH-a204"
+      },
+      "entity_poly": {
+        "pdbx_seq_one_letter_code_can": "QVQLQESGGGLVQPGGSLRLSCAASGSIFSGNAMGWYRQAPGKQRELVAAITSGGSTDYADSVKGRFTISRDNAKNTVYLQMNSLKPEDTAVYYCHVDPRPWGYDVTDYDYWGQGTQVTVSSHHHHHH"
+      }
+    },
+    {
+      "rcsb_id": "5HVG_2",
+      "rcsb_polymer_entity": {
+        "pdbx_description": "VHH-a204"
+      },
+      "entity_poly": {
+        "pdbx_seq_one_letter_code_can": "QVQLQESGGGLVQPGGSLRLSCAASGSIFSGNAMGWYRQAPGKQRELVAAITSGGSTDYADSVKGRFTISRDNAKNTVYLQMNSLKPEDTAVYYCHVDPRPWGYDVTDYDYWGQGTQVTVSSHHHHHH"
+      }
+    },
+    {
+      "rcsb_id": "46GH_2",
+      "rcsb_polymer_entity": {
+        "pdbx_description": "BHRF1_VHH-N13"
+      },
+      "entity_poly": {
+        "pdbx_seq_one_letter_code_can": "EVQLVESGGGLVQPGGSLRLSCAASGFTFSLWDMGWFRQAPGKGRELVAAISNGGDYTYYPDSVEGRFTISRDNAKRMVYLQMNSLRAEDTAVYYCAAVLGYDWIRSGLYWGQGTQVTVSSGGGGSHHHHHH"
+      }
+    }
+  ],
+  "editor": {
+    "url": "https://data.rcsb.org/graphiql/index.html",
+    "params": {
+      "query": "query Q($ids: [String!]!) { polymer_entities(entity_ids: $ids) { rcsb_id rcsb_polymer_entity { pdbx_description } entity_poly { pdbx_seq_one_letter_code_can } } }",
+      "variables": {
+        "ids": [
+          "7A6O_2",
+          "7EOW_2",
+          "46GH_2",
+          "8XK2_2",
+          "8XKI_1",
+          "5HVG_2",
+          "5HVH_2"
+        ]
+      }
+    }
+  }
+}

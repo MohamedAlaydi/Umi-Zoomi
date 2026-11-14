@@ -1,0 +1,775 @@
+{
+ "model_id": "antifold",
+ "display_name": "AntiFold",
+ "execution_mode": "scientific-batch",
+ "protocol": "scientific-batch-v1",
+ "tool_name": "submit_antifold",
+ "operations": [
+  "inverse-fold"
+ ],
+ "source_references": [
+  "https://github.com/oxpig/AntiFold/tree/9918344067f34a6b026f2634fdba212fc3e6e986"
+ ],
+ "examples": [
+  {
+   "kind": "request-template",
+   "description": "Supply a complete structure with the chain IDs in these parameters; replace them with your actual heavy/light or general-chain labels. Upload/finalize the required payloads and canonical manifest, then fill required_owner_fields with your own pointers. This is not an exact-release or scientific qualification claim.",
+   "input_preparation": {
+    "bundle": {
+     "format": "tar",
+     "compression": "none",
+     "path_base": "Archive root; use relative POSIX paths without links, duplicates or traversal. No enclosing-directory stripping.",
+     "files": {
+      "parameters.pdb_file": "One structure, or select parameters.pdb_dir instead.",
+      "parameters.pdb_dir": "Directory of PDB structures; mutually exclusive with pdb_file.",
+      "parameters.pdbs_csv": "Optional native batch CSV, only with pdb_dir; requires a pdb column and uses native chain columns. Entries identify structures under pdb_dir.",
+      "parameters.model_file": "Optional AntiFold checkpoint in the same archive. ESM-IF1 uses its named checkpoint and does not accept this field."
+     },
+     "chains": "Set the typed heavy_chain/light_chain/nanobody_chain/antigen_chain fields to actual structure chain IDs. ESM-IF1 always uses custom_chain_mode; sampling_temp is a space-separated string of positive temperatures, not a JSON number."
+    }
+   },
+   "request": {
+    "schema": "fs2-serve.nebius.ai/scientific-run-request/v1",
+    "operation": "inverse-fold",
+    "service_class": "customer-batch",
+    "parameters": {
+     "pdb_file": "structure.pdb",
+     "heavy_chain": "H",
+     "num_seq_per_target": 4,
+     "light_chain": "L"
+    }
+   },
+   "required_owner_fields": [
+    "input_manifest"
+   ]
+  }
+ ],
+ "request_schema": {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fs2-serve.nebius.ai/schema/scientific-run-request/v1",
+  "title": "Scientific batch run request",
+  "description": "User-authored request for POST /v1/models/{model_id}:submit. Idempotency is supplied in the Idempotency-Key HTTP header; queue, image, command, environment, and accelerator placement remain operator-owned.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+   "schema",
+   "operation",
+   "service_class",
+   "input_manifest",
+   "parameters"
+  ],
+  "properties": {
+   "schema": {
+    "const": "fs2-serve.nebius.ai/scientific-run-request/v1"
+   },
+   "operation": {
+    "enum": [
+     "inverse-fold"
+    ]
+   },
+   "service_class": {
+    "enum": [
+     "customer-batch",
+     "bulk-backfill"
+    ]
+   },
+   "input_manifest": {
+    "$ref": "#/$defs/artifact_ref"
+   },
+   "parameters": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "pdb_file": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "default": null
+     },
+     "pdb_dir": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "default": null
+     },
+     "pdbs_csv": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "default": null
+     },
+     "heavy_chain": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "default": null,
+      "minLength": 1
+     },
+     "light_chain": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "default": null,
+      "minLength": 1
+     },
+     "nanobody_chain": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "default": null,
+      "minLength": 1
+     },
+     "antigen_chain": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "default": null,
+      "minLength": 1
+     },
+     "regions": {
+      "type": "string",
+      "minLength": 1,
+      "default": "CDR1 CDR2 CDR3"
+     },
+     "num_seq_per_target": {
+      "type": "integer",
+      "minimum": 0,
+      "default": 0
+     },
+     "sampling_temp": {
+      "type": "string",
+      "default": "0.20",
+      "minLength": 1
+     },
+     "limit_variation": {
+      "type": "boolean",
+      "default": false
+     },
+     "extract_embeddings": {
+      "type": "boolean",
+      "default": false
+     },
+     "custom_chain_mode": {
+      "type": "boolean",
+      "default": false
+     },
+     "skip_anarcii_numbering": {
+      "type": "boolean",
+      "default": false
+     },
+     "nanobody_mode": {
+      "type": "boolean",
+      "default": false
+     },
+     "batch_size": {
+      "type": "integer",
+      "minimum": 1,
+      "default": 1
+     },
+     "num_threads": {
+      "type": "integer",
+      "minimum": 0,
+      "default": 0
+     },
+     "seed": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 4294967295,
+      "default": 42
+     },
+     "model_file": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "default": null,
+      "description": "Optional AntiFold-compatible tensor checkpoint inside the verified archive; omitted uses the published checkpoint. ESM-IF1 selects its own fixed checkpoint."
+     }
+    }
+   },
+   "client_context": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "batch_id": {
+      "$ref": "#/$defs/opaque_id"
+     },
+     "correlation_id": {
+      "$ref": "#/$defs/opaque_id"
+     },
+     "display_name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+     }
+    }
+   },
+   "output_prefix": {
+    "type": "string",
+    "minLength": 1,
+    "maxLength": 512,
+    "description": "Directory in your assigned bucket for automatic result.json, artifacts and manifest.json delivery. Defaults to runs/<model-id>; the operation ID is appended. Never sent to the model."
+   }
+  },
+  "$defs": {
+   "opaque_id": {
+    "type": "string",
+    "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,127}$"
+   },
+   "artifact_ref": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "artifact_id",
+     "sha256",
+     "size_bytes",
+     "media_type"
+    ],
+    "properties": {
+     "artifact_id": {
+      "$ref": "#/$defs/opaque_id"
+     },
+     "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+     },
+     "size_bytes": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 268435456
+     },
+     "media_type": {
+      "const": "application/vnd.fs2.scientific-manifest+json"
+     },
+     "compression": {
+      "enum": [
+       "none"
+      ]
+     }
+    }
+   }
+  }
+ },
+ "mcp_input_schema": {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fs2-serve.nebius.ai/schema/scientific-run-request/v1",
+  "title": "Scientific batch run request",
+  "description": "User-authored request for POST /v1/models/{model_id}:submit. Idempotency is supplied in the Idempotency-Key HTTP header; queue, image, command, environment, and accelerator placement remain operator-owned.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+   "schema",
+   "operation",
+   "service_class",
+   "input_manifest",
+   "parameters"
+  ],
+  "properties": {
+   "schema": {
+    "const": "fs2-serve.nebius.ai/scientific-run-request/v1"
+   },
+   "operation": {
+    "enum": [
+     "inverse-fold"
+    ]
+   },
+   "service_class": {
+    "enum": [
+     "customer-batch",
+     "bulk-backfill"
+    ]
+   },
+   "input_manifest": {
+    "$ref": "#/$defs/artifact_ref"
+   },
+   "parameters": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "pdb_file": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "default": null
+     },
+     "pdb_dir": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "default": null
+     },
+     "pdbs_csv": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "default": null
+     },
+     "heavy_chain": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "default": null,
+      "minLength": 1
+     },
+     "light_chain": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "default": null,
+      "minLength": 1
+     },
+     "nanobody_chain": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "default": null,
+      "minLength": 1
+     },
+     "antigen_chain": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "default": null,
+      "minLength": 1
+     },
+     "regions": {
+      "type": "string",
+      "minLength": 1,
+      "default": "CDR1 CDR2 CDR3"
+     },
+     "num_seq_per_target": {
+      "type": "integer",
+      "minimum": 0,
+      "default": 0
+     },
+     "sampling_temp": {
+      "type": "string",
+      "default": "0.20",
+      "minLength": 1
+     },
+     "limit_variation": {
+      "type": "boolean",
+      "default": false
+     },
+     "extract_embeddings": {
+      "type": "boolean",
+      "default": false
+     },
+     "custom_chain_mode": {
+      "type": "boolean",
+      "default": false
+     },
+     "skip_anarcii_numbering": {
+      "type": "boolean",
+      "default": false
+     },
+     "nanobody_mode": {
+      "type": "boolean",
+      "default": false
+     },
+     "batch_size": {
+      "type": "integer",
+      "minimum": 1,
+      "default": 1
+     },
+     "num_threads": {
+      "type": "integer",
+      "minimum": 0,
+      "default": 0
+     },
+     "seed": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 4294967295,
+      "default": 42
+     },
+     "model_file": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "default": null,
+      "description": "Optional AntiFold-compatible tensor checkpoint inside the verified archive; omitted uses the published checkpoint. ESM-IF1 selects its own fixed checkpoint."
+     }
+    }
+   },
+   "client_context": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "batch_id": {
+      "$ref": "#/$defs/opaque_id"
+     },
+     "correlation_id": {
+      "$ref": "#/$defs/opaque_id"
+     },
+     "display_name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+     }
+    }
+   },
+   "output_prefix": {
+    "type": "string",
+    "minLength": 1,
+    "maxLength": 512,
+    "description": "Directory in your assigned bucket for automatic result.json, artifacts and manifest.json delivery. Defaults to runs/<model-id>; the operation ID is appended. Never sent to the model."
+   },
+   "idempotency_key": {
+    "type": [
+     "string",
+     "null"
+    ],
+    "minLength": 8,
+    "maxLength": 200
+   }
+  },
+  "$defs": {
+   "opaque_id": {
+    "type": "string",
+    "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,127}$"
+   },
+   "artifact_ref": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "artifact_id",
+     "sha256",
+     "size_bytes",
+     "media_type"
+    ],
+    "properties": {
+     "artifact_id": {
+      "$ref": "#/$defs/opaque_id"
+     },
+     "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+     },
+     "size_bytes": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 268435456
+     },
+     "media_type": {
+      "const": "application/vnd.fs2.scientific-manifest+json"
+     },
+     "compression": {
+      "enum": [
+       "none"
+      ]
+     }
+    }
+   }
+  }
+ },
+ "runtime_revision": "antifold-oslo-20261110-3dc8a142",
+ "regions": [
+  "north",
+  "south"
+ ],
+ "input_artifact_contract": {
+  "manifest_schema": "fs2-serve.nebius.ai/scientific-artifact-manifest/v1",
+  "manifest_media_type": "application/vnd.fs2.scientific-manifest+json",
+  "exactly_one_entry": true,
+  "operation_parameter": "operation",
+  "operations": {
+   "inverse-fold": {
+    "name": "workload",
+    "semantic_type": "inverse-folding-tar/v1",
+    "media_type": "application/x-tar",
+    "allowed_compressions": [
+     "none"
+    ],
+    "maximum_bytes": 137438953472,
+    "compression": "none",
+    "bundle": {
+     "format": "tar",
+     "compression": "none",
+     "path_base": "Archive root; use relative POSIX paths without links, duplicates or traversal. No enclosing-directory stripping.",
+     "files": {
+      "parameters.pdb_file": "One structure, or select parameters.pdb_dir instead.",
+      "parameters.pdb_dir": "Directory of PDB structures; mutually exclusive with pdb_file.",
+      "parameters.pdbs_csv": "Optional native batch CSV, only with pdb_dir; requires a pdb column and uses native chain columns. Entries identify structures under pdb_dir.",
+      "parameters.model_file": "Optional AntiFold checkpoint in the same archive. ESM-IF1 uses its named checkpoint and does not accept this field."
+     },
+     "chains": "Set the typed heavy_chain/light_chain/nanobody_chain/antigen_chain fields to actual structure chain IDs. ESM-IF1 always uses custom_chain_mode; sampling_temp is a space-separated string of positive temperatures, not a JSON number."
+    }
+   }
+  },
+  "entry_name_rule": "Use the logical entry name, independent of the uploaded filename.",
+  "transport": "Upload and finalize the payload, then a JSON manifest containing schema and entries with name, semantic_type and artifact. Submit the finalized manifest as input_manifest."
+ },
+ "execution_bounds": {
+  "stage_timeouts_s": {
+   "inverse-fold": 604800
+  },
+  "graph_deadline_s": 1209600,
+  "source": "operator configuration, not measured capacity"
+ },
+ "qualification": "configured-native-dag-not-a-readiness-claim",
+ "qualification_evidence": "https://raw.githubusercontent.com/rene-tech/serverless-ai-cookbook/15353c201443746810af9eff7fcf45b8eb884889/skills/scientific-ai/scientific-gateway/references/model-readiness.json",
+ "qualification_evidence_scope": "Dated 2026-11-12 snapshot of 79 historical catalog rows and scoped observations; it may omit this model and does not certify this release, all features or capacity.",
+ "capabilities": {
+  "native_dag": true,
+  "stages_per_operation": 1,
+  "gpus_per_compute_stage": 1,
+  "gpu_classes": [
+   "l40s",
+   "rtx-pro-6000",
+   "h100",
+   "h200"
+  ],
+  "mid_fold_checkpoint_resume": false,
+  "restart_current_stage": true,
+  "cancelled_graph_resume": false,
+  "portable_completed_result": true,
+  "cpu_delivery_retry": true,
+  "gpu_snapshot": false,
+  "exact_retained_retry_policy": false,
+  "result_schema": "fs2-serve.nebius.ai/scientific-run-result/v2"
+ },
+ "contracts": [
+  {
+   "tool_name": "submit_antifold",
+   "protocol": "scientific-batch-v1",
+   "input_schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://fs2-serve.nebius.ai/schema/scientific-run-request/v1",
+    "title": "Scientific batch run request",
+    "description": "User-authored request for POST /v1/models/{model_id}:submit. Idempotency is supplied in the Idempotency-Key HTTP header; queue, image, command, environment, and accelerator placement remain operator-owned.",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "schema",
+     "operation",
+     "service_class",
+     "input_manifest",
+     "parameters"
+    ],
+    "properties": {
+     "schema": {
+      "const": "fs2-serve.nebius.ai/scientific-run-request/v1"
+     },
+     "operation": {
+      "enum": [
+       "inverse-fold"
+      ]
+     },
+     "service_class": {
+      "enum": [
+       "customer-batch",
+       "bulk-backfill"
+      ]
+     },
+     "input_manifest": {
+      "$ref": "#/$defs/artifact_ref"
+     },
+     "parameters": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+       "pdb_file": {
+        "type": [
+         "string",
+         "null"
+        ],
+        "default": null
+       },
+       "pdb_dir": {
+        "type": [
+         "string",
+         "null"
+        ],
+        "default": null
+       },
+       "pdbs_csv": {
+        "type": [
+         "string",
+         "null"
+        ],
+        "default": null
+       },
+       "heavy_chain": {
+        "type": [
+         "string",
+         "null"
+        ],
+        "default": null,
+        "minLength": 1
+       },
+       "light_chain": {
+        "type": [
+         "string",
+         "null"
+        ],
+        "default": null,
+        "minLength": 1
+       },
+       "nanobody_chain": {
+        "type": [
+         "string",
+         "null"
+        ],
+        "default": null,
+        "minLength": 1
+       },
+       "antigen_chain": {
+        "type": [
+         "string",
+         "null"
+        ],
+        "default": null,
+        "minLength": 1
+       },
+       "regions": {
+        "type": "string",
+        "minLength": 1,
+        "default": "CDR1 CDR2 CDR3"
+       },
+       "num_seq_per_target": {
+        "type": "integer",
+        "minimum": 0,
+        "default": 0
+       },
+       "sampling_temp": {
+        "type": "string",
+        "default": "0.20",
+        "minLength": 1
+       },
+       "limit_variation": {
+        "type": "boolean",
+        "default": false
+       },
+       "extract_embeddings": {
+        "type": "boolean",
+        "default": false
+       },
+       "custom_chain_mode": {
+        "type": "boolean",
+        "default": false
+       },
+       "skip_anarcii_numbering": {
+        "type": "boolean",
+        "default": false
+       },
+       "nanobody_mode": {
+        "type": "boolean",
+        "default": false
+       },
+       "batch_size": {
+        "type": "integer",
+        "minimum": 1,
+        "default": 1
+       },
+       "num_threads": {
+        "type": "integer",
+        "minimum": 0,
+        "default": 0
+       },
+       "seed": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 4294967295,
+        "default": 42
+       },
+       "model_file": {
+        "type": [
+         "string",
+         "null"
+        ],
+        "default": null,
+        "description": "Optional AntiFold-compatible tensor checkpoint inside the verified archive; omitted uses the published checkpoint. ESM-IF1 selects its own fixed checkpoint."
+       }
+      }
+     },
+     "client_context": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+       "batch_id": {
+        "$ref": "#/$defs/opaque_id"
+       },
+       "correlation_id": {
+        "$ref": "#/$defs/opaque_id"
+       },
+       "display_name": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 128
+       }
+      }
+     },
+     "output_prefix": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 512,
+      "description": "Directory in your assigned bucket for automatic result.json, artifacts and manifest.json delivery. Defaults to runs/<model-id>; the operation ID is appended. Never sent to the model."
+     },
+     "idempotency_key": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "minLength": 8,
+      "maxLength": 200
+     }
+    },
+    "$defs": {
+     "opaque_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,127}$"
+     },
+     "artifact_ref": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "artifact_id",
+       "sha256",
+       "size_bytes",
+       "media_type"
+      ],
+      "properties": {
+       "artifact_id": {
+        "$ref": "#/$defs/opaque_id"
+       },
+       "sha256": {
+        "type": "string",
+        "pattern": "^[0-9a-f]{64}$"
+       },
+       "size_bytes": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 268435456
+       },
+       "media_type": {
+        "const": "application/vnd.fs2.scientific-manifest+json"
+       },
+       "compression": {
+        "enum": [
+         "none"
+        ]
+       }
+      }
+     }
+    }
+   },
+   "model_ref": "antifold"
+  }
+ ]
+}

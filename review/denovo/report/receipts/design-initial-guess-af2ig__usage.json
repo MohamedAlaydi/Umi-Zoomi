@@ -1,0 +1,122 @@
+{
+  "amount": 0.0,
+  "amount_micros": 0,
+  "billable_s": 0.0,
+  "closed_at": "2026-11-14T13:47:20.086000+00:00",
+  "currency": "usd",
+  "excluded_s": 22.072,
+  "job": "7800c0f7d13c48f2f2f455e69980b117",
+  "kind": "predict",
+  "links": {
+    "job": "/v1/jobs/7800c0f7d13c48f2f2f455e69980b117"
+  },
+  "load_s": 0.0,
+  "meter": {
+    "bias": "under",
+    "bound_s": 6.0,
+    "method": "sampled-lease-integral+engine-clock-cap",
+    "sample_gap_s": 3.0,
+    "visible": true
+  },
+  "model": "af2ig",
+  "name": "team14-her2-design-pose-consistency",
+  "object": "usage",
+  "reconcile": {
+    "agree": 0,
+    "capped": 0,
+    "checked": 0,
+    "over_engine": 0,
+    "rate": null,
+    "worst_delta_s": null
+  },
+  "status": "failed",
+  "submitted_at": "2026-11-14T13:47:00.652000+00:00",
+  "surface": "skill",
+  "targets": [
+    {
+      "amount": 0.0,
+      "amount_micros": 0,
+      "attempts": 1,
+      "billable_s": 0.0,
+      "excluded": "job_failed",
+      "excluded_s": 2.004,
+      "id": "novel1_crop119",
+      "intervals": [
+        [
+          "2026-11-14T13:47:04.672000+00:00",
+          "2026-11-14T13:47:06.675000+00:00"
+        ]
+      ],
+      "load_s": 0.0,
+      "runtime_s": null
+    },
+    {
+      "amount": 0.0,
+      "amount_micros": 0,
+      "attempts": 1,
+      "billable_s": 0.0,
+      "excluded": "job_failed",
+      "excluded_s": 2.002,
+      "id": "novel2_crop119",
+      "intervals": [
+        [
+          "2026-11-14T13:47:05.162000+00:00",
+          "2026-11-14T13:47:07.165000+00:00"
+        ]
+      ],
+      "load_s": 0.0,
+      "runtime_s": null
+    },
+    {
+      "amount": 0.0,
+      "amount_micros": 0,
+      "attempts": 1,
+      "billable_s": 0.0,
+      "excluded": "job_failed",
+      "excluded_s": 4.041,
+      "id": "novel3_crop119",
+      "intervals": [
+        [
+          "2026-11-14T13:47:08.473000+00:00",
+          "2026-11-14T13:47:12.514000+00:00"
+        ]
+      ],
+      "load_s": 0.0,
+      "runtime_s": null
+    },
+    {
+      "amount": 0.0,
+      "amount_micros": 0,
+      "attempts": 1,
+      "billable_s": 0.0,
+      "excluded": "job_failed",
+      "excluded_s": 10.019,
+      "id": "high_footprint_known_hit",
+      "intervals": [
+        [
+          "2026-11-14T13:47:07.239000+00:00",
+          "2026-11-14T13:47:17.257000+00:00"
+        ]
+      ],
+      "load_s": 0.0,
+      "runtime_s": null
+    },
+    {
+      "amount": 0.0,
+      "amount_micros": 0,
+      "attempts": 1,
+      "billable_s": 0.0,
+      "excluded": "job_failed",
+      "excluded_s": 4.006,
+      "id": "fixed_framework_control",
+      "intervals": [
+        [
+          "2026-11-14T13:47:14.074000+00:00",
+          "2026-11-14T13:47:18.081000+00:00"
+        ]
+      ],
+      "load_s": 0.0,
+      "runtime_s": null
+    }
+  ]
+}

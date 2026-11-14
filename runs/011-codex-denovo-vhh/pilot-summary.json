@@ -1,0 +1,20 @@
+{
+  "n": 16,
+  "by_arm": {
+    "directed": 8,
+    "unconditioned": 8
+  },
+  "detected_chain": {
+    "H": 15,
+    "L": 1
+  },
+  "canonical_disulfide_cysteines": 0,
+  "provider_filter_passes": {
+    "directed": 1,
+    "unconditioned": 0
+  },
+  "screen_status": {
+    "REVIEW_MISSING_CANONICAL_CYS": 15,
+    "REJECT_LOCAL_NOT_HEAVY_DOMAIN": 1
+  }
+}

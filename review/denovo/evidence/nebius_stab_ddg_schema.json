@@ -1,0 +1,372 @@
+{
+  "model_id": "stab-ddg",
+  "display_name": "StaB-ddG",
+  "execution_mode": "scientific-batch",
+  "protocol": "scientific-batch-v1",
+  "tool_name": "submit_stab_ddg",
+  "operations": [
+    "predict-binding-ddg"
+  ],
+  "source_references": [
+    "https://github.com/LDeng0205/StaB-ddG/tree/b19a5d72637a6b581b16f38af39383658e5ae1a5"
+  ],
+  "examples": [
+    {
+      "kind": "request-template",
+      "description": "Your tar contains complex.pdb with partner chains A/B and actual ARG at A27. Verify those identifiers in your structure; the template does not establish them. Upload/finalize the payload and canonical manifest, then add your own input_manifest. This is not an exact-release or scientific qualification claim.",
+      "request": {
+        "schema": "fs2-serve.nebius.ai/scientific-run-request/v1",
+        "operation": "predict-binding-ddg",
+        "service_class": "customer-batch",
+        "parameters": {
+          "pdb_file": "complex.pdb",
+          "partner_a": [
+            "A"
+          ],
+          "partner_b": [
+            "B"
+          ],
+          "variants": [
+            {
+              "id": "R27P",
+              "mutations": [
+                {
+                  "chain": "A",
+                  "residue_number": 27,
+                  "insertion_code": "",
+                  "wild_type": "R",
+                  "mutant": "P"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "required_owner_fields": [
+        "input_manifest"
+      ]
+    }
+  ],
+  "request_schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://fs2-serve.nebius.ai/schema/scientific-run-request/v1",
+    "title": "Scientific batch run request",
+    "description": "User-authored request for POST /v1/models/{model_id}:submit. Idempotency is supplied in the Idempotency-Key HTTP header; queue, image, command, environment, and accelerator placement remain operator-owned.",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "schema",
+      "operation",
+      "service_class",
+      "input_manifest",
+      "parameters"
+    ],
+    "properties": {
+      "schema": {
+        "const": "fs2-serve.nebius.ai/scientific-run-request/v1"
+      },
+      "operation": {
+        "enum": [
+          "predict-binding-ddg"
+        ]
+      },
+      "service_class": {
+        "enum": [
+          "customer-batch",
+          "bulk-backfill"
+        ]
+      },
+      "input_manifest": {
+        "$ref": "#/$defs/artifact_ref"
+      },
+      "parameters": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "pdb_file",
+          "partner_a",
+          "partner_b",
+          "variants"
+        ],
+        "properties": {
+          "pdb_file": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Relative PDB path inside the workload archive."
+          },
+          "partner_a": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 1,
+              "pattern": "^[ -~]$"
+            }
+          },
+          "partner_b": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 1,
+              "pattern": "^[ -~]$"
+            }
+          },
+          "variants": {
+            "type": "array",
+            "minItems": 1,
+            "description": "Single or multiple substitutions per named variant, using ORIGINAL PDB residue IDs.",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "mutations"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "mutations": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "chain",
+                      "residue_number",
+                      "wild_type",
+                      "mutant"
+                    ],
+                    "properties": {
+                      "chain": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 1,
+                        "pattern": "^[ -~]$"
+                      },
+                      "residue_number": {
+                        "type": "integer"
+                      },
+                      "insertion_code": {
+                        "type": "string",
+                        "maxLength": 1,
+                        "pattern": "^[ -~]?$",
+                        "default": ""
+                      },
+                      "wild_type": {
+                        "enum": [
+                          "A",
+                          "C",
+                          "D",
+                          "E",
+                          "F",
+                          "G",
+                          "H",
+                          "I",
+                          "K",
+                          "L",
+                          "M",
+                          "N",
+                          "P",
+                          "Q",
+                          "R",
+                          "S",
+                          "T",
+                          "V",
+                          "W",
+                          "Y"
+                        ]
+                      },
+                      "mutant": {
+                        "enum": [
+                          "A",
+                          "C",
+                          "D",
+                          "E",
+                          "F",
+                          "G",
+                          "H",
+                          "I",
+                          "K",
+                          "L",
+                          "M",
+                          "N",
+                          "P",
+                          "Q",
+                          "R",
+                          "S",
+                          "T",
+                          "V",
+                          "W",
+                          "Y"
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "mc_samples": {
+            "type": "integer",
+            "minimum": 1,
+            "default": 20,
+            "description": "Monte Carlo draws; upstream default20. Sampling error is not predictive uncertainty."
+          },
+          "batch_tokens": {
+            "type": "integer",
+            "minimum": 1,
+            "default": 10000,
+            "description": "Maximum approximate residue tokens per mutant microbatch; at least one mutant runs."
+          },
+          "seed": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 4294967295,
+            "default": 0,
+            "description": "Unsigned 32-bit NumPy seed, also passed unchanged to PyTorch."
+          },
+          "noise_level_angstrom": {
+            "type": "number",
+            "minimum": 0,
+            "default": 0.1,
+            "description": "Native backbone noise amplitude; changing it changes the scoring protocol."
+          }
+        }
+      },
+      "client_context": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "batch_id": {
+            "$ref": "#/$defs/opaque_id"
+          },
+          "correlation_id": {
+            "$ref": "#/$defs/opaque_id"
+          },
+          "display_name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          }
+        }
+      },
+      "output_prefix": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 512,
+        "description": "Directory in your assigned bucket for automatic result.json, artifacts and manifest.json delivery. Defaults to runs/<model-id>; the operation ID is appended. Never sent to the model."
+      }
+    },
+    "$defs": {
+      "opaque_id": {
+        "type": "string",
+        "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,127}$"
+      },
+      "artifact_ref": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "artifact_id",
+          "sha256",
+          "size_bytes",
+          "media_type"
+        ],
+        "properties": {
+          "artifact_id": {
+            "$ref": "#/$defs/opaque_id"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "size_bytes": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 268435456
+          },
+          "media_type": {
+            "const": "application/vnd.fs2.scientific-manifest+json"
+          },
+          "compression": {
+            "enum": [
+              "none"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "runtime_revision": "stab-ddg-b19a5d7-29c874d-matched-wt-batch-20261112",
+  "input_artifact_contract": {
+    "manifest_schema": "fs2-serve.nebius.ai/scientific-artifact-manifest/v1",
+    "manifest_media_type": "application/vnd.fs2.scientific-manifest+json",
+    "exactly_one_entry": true,
+    "operation_parameter": "operation",
+    "operations": {
+      "predict-binding-ddg": {
+        "name": "workload",
+        "semantic_type": "stab-ddg-workload-tar/v1",
+        "media_type": "application/x-tar",
+        "allowed_compressions": [
+          "none"
+        ],
+        "maximum_bytes": 137438953472,
+        "compression": "none",
+        "bundle": {
+          "format": "tar",
+          "compression": "none",
+          "path_base": "Archive root, preserving relative POSIX paths selected by parameters. No automatic enclosing-directory removal.",
+          "members": "Regular files/directories only; no duplicate paths, links or traversal. Only selected files are read; all members count toward the expanded-byte bound.",
+          "files": [
+            {
+              "path_parameter": "parameters.pdb_file",
+              "required": true,
+              "format": "PDB",
+              "content": "One wild-type structural model containing the requested partner chains. Mutations use original PDB chain, residue_number and insertion_code; wild_type must match the structure and each mutation site must have N/CA/C/O coordinates."
+            }
+          ],
+          "mutations": "Set partner_a, partner_b and variants in typed parameters; no mutation CSV is uploaded. Partner sets must be disjoint, variant IDs unique, and sites unique within each variant. The worker generates its native CSV from these verified fields."
+        }
+      }
+    },
+    "entry_name_rule": "Use the logical entry name, independent of the uploaded filename.",
+    "transport": "Upload and finalize the payload, then a JSON manifest containing schema and entries with name, semantic_type and artifact. Submit the finalized manifest as input_manifest."
+  },
+  "execution_bounds": {
+    "stage_timeouts_s": {
+      "score": 1800
+    },
+    "graph_deadline_s": 1800,
+    "source": "operator configuration, not measured capacity"
+  },
+  "qualification": "configured-native-dag-not-a-readiness-claim",
+  "qualification_evidence": "https://raw.githubusercontent.com/rene-tech/serverless-ai-cookbook/15353c201443746810af9eff7fcf45b8eb884889/skills/scientific-ai/scientific-gateway/references/model-readiness.json",
+  "qualification_evidence_scope": "Dated 2026-11-12 snapshot of 79 historical catalog rows and scoped observations; it may omit this model and does not certify this release, all features or capacity.",
+  "capabilities": {
+    "native_dag": true,
+    "stages_per_operation": 1,
+    "gpus_per_compute_stage": 1,
+    "gpu_classes": [
+      "rtx-pro-6000",
+      "l40s",
+      "h100",
+      "h200"
+    ],
+    "mid_fold_checkpoint_resume": false,
+    "restart_current_stage": true,
+    "cancelled_graph_resume": false,
+    "portable_completed_result": true,
+    "cpu_delivery_retry": true,
+    "gpu_snapshot": false,
+    "exact_retained_retry_policy": false,
+    "result_schema": "fs2-serve.nebius.ai/scientific-run-result/v2"
+  }
+}

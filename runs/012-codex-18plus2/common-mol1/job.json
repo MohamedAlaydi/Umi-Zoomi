@@ -1,0 +1,127 @@
+{
+  "created_at": "2026-11-14T14:32:01.504195+00:00",
+  "done": 18,
+  "download": "curl -fsSL -H \"Authorization: Bearer $JAPANFOLD_API_KEY\" -o 535c038636d606d54d62bdde910af4b5-results.zip https://api.japanfold.aiand.com/v1/jobs/535c038636d606d54d62bdde910af4b5/archive && unzip -oq 535c038636d606d54d62bdde910af4b5-results.zip",
+  "error": null,
+  "finished_at": "2026-11-14T14:36:16.948761+00:00",
+  "id": "535c038636d606d54d62bdde910af4b5",
+  "kind": "predict",
+  "links": {
+    "archive": "/v1/jobs/535c038636d606d54d62bdde910af4b5/archive",
+    "logs": "/v1/jobs/535c038636d606d54d62bdde910af4b5/logs",
+    "results": "/v1/jobs/535c038636d606d54d62bdde910af4b5/results",
+    "self": "/v1/jobs/535c038636d606d54d62bdde910af4b5",
+    "usage": "/v1/jobs/535c038636d606d54d62bdde910af4b5/usage"
+  },
+  "model": "mol1",
+  "name": "team14-18plus2-common-blind-mol1",
+  "object": "job",
+  "params": {
+    "diffusion_samples": 1,
+    "fast": false,
+    "output_format": "cif",
+    "seed": 42,
+    "use_msa_server": true,
+    "write_pae": true
+  },
+  "progress": 1.0,
+  "protocol": null,
+  "residues": 346,
+  "results_ready": true,
+  "stage": "done",
+  "started_at": "2026-11-14T14:32:21.704803+00:00",
+  "status": "succeeded",
+  "targets": [
+    {
+      "id": "anas_007",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "anas_015",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "anas_009",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "r004_cdrh3_3",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "anas_016",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "anas_028",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "anas_038",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "anas_003",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "anas_004",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "anas_036",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "anas_002",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "anas_021",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "anas_039",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "anas_014",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "anas_026",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "anas_031",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "anas_010",
+      "stage": null,
+      "state": "done"
+    },
+    {
+      "id": "anas_040",
+      "stage": null,
+      "state": "done"
+    }
+  ],
+  "total": 18
+}

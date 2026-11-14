@@ -1,0 +1,278 @@
+[
+  {
+    "name": "novel1",
+    "candidate": "rfd4-variable-sequence-k1__her2_variable_sequence_13_generated",
+    "operation_id": "op-d5445e28234cb24f",
+    "model_version": "ImmuneBuilder 1.2 / NanoBodyBuilder2",
+    "source_revision": "0df4e2ad82a1aa60f37ea9dae335d1198159ef78",
+    "checkpoint_sha256": {
+      "1": "2f8f398a95e2fd3fe38527415471a60346cb131864a1a4ef081e11816d74e995",
+      "2": "41c163511ad20d1aa67fbd50f64ced9a25381d0618847b16a19d5e14df73297e",
+      "3": "8de57b3f0b6b89acb0e87fc7b647522666dd90e86ed3138417cbcd785c982c4d",
+      "4": "96f3cfba8de00e4c833bc73efa821f6022ed65e951a4289c7e3b5409527964e0"
+    },
+    "exact_sequence_verified": true,
+    "models": [
+      {
+        "native_file": "final_model.pdb",
+        "path": "runs/011-codex-denovo-vhh/nanobodybuilder2-novel1/585c3934-689c-5969-9e9c-a8027958ceed.pdb",
+        "sha256": "d866f2a7eab85bde70c1c564d16dc974f0304fd0b9997f79694180528abdc5c9",
+        "all_CA_rmsd_after_self_fit": 2.7895059303714445,
+        "CA_rmsd_after_framework_fit": {
+          "framework": 0.5334525777059496,
+          "cdr1": 0.8063089058866354,
+          "cdr2": 0.3339123852022692,
+          "cdr3": 6.805573276250256
+        },
+        "cysteine_SG_distance": 2.012275218963623,
+        "native_B_factor_mean": 0.6724615384615383,
+        "B_factor_interpretation": "Native ensemble coordinate uncertainty; not pLDDT and not temperature stability"
+      },
+      {
+        "native_file": "rank0_unrefined.pdb",
+        "path": "runs/011-codex-denovo-vhh/nanobodybuilder2-novel1/2dc79d27-4ddc-5490-bbb8-63e2af27492e.pdb",
+        "sha256": "28692d17e514f7d133b08c89522466ddfeef8eb1858e9d87aeea48aaa8d1ad51",
+        "all_CA_rmsd_after_self_fit": 2.720499665387649,
+        "CA_rmsd_after_framework_fit": {
+          "framework": 0.5408253444671398,
+          "cdr1": 0.919546996248592,
+          "cdr2": 0.3634492507399523,
+          "cdr3": 6.61747777513623
+        },
+        "cysteine_SG_distance": 1.9709757566452026,
+        "native_B_factor_mean": 0.0,
+        "B_factor_interpretation": "Native ensemble coordinate uncertainty; not pLDDT and not temperature stability"
+      },
+      {
+        "native_file": "rank1_unrefined.pdb",
+        "path": "runs/011-codex-denovo-vhh/nanobodybuilder2-novel1/9ec31000-7415-5ea9-8345-bc9bd64c1a2f.pdb",
+        "sha256": "3995f9fff5d750a13a1c5cae193ff9a3eda21ec27a6f12b75eab4c721c3fa707",
+        "all_CA_rmsd_after_self_fit": 2.7981806163596294,
+        "CA_rmsd_after_framework_fit": {
+          "framework": 0.5404059172389868,
+          "cdr1": 1.704883465641919,
+          "cdr2": 0.3050153512109959,
+          "cdr3": 6.569225513839161
+        },
+        "cysteine_SG_distance": 2.349269151687622,
+        "native_B_factor_mean": 0.0,
+        "B_factor_interpretation": "Native ensemble coordinate uncertainty; not pLDDT and not temperature stability"
+      },
+      {
+        "native_file": "rank2_unrefined.pdb",
+        "path": "runs/011-codex-denovo-vhh/nanobodybuilder2-novel1/c7c80e18-d3c2-5885-a7d5-cee05654bce6.pdb",
+        "sha256": "e8d25e0beadb9574321c8ea954b07a25f9ab3e98860f4c7915abf5c78c301304",
+        "all_CA_rmsd_after_self_fit": 3.1792325396820993,
+        "CA_rmsd_after_framework_fit": {
+          "framework": 0.5527553417915441,
+          "cdr1": 1.6332004470504837,
+          "cdr2": 0.6669988313404716,
+          "cdr3": 7.565393528727712
+        },
+        "cysteine_SG_distance": 2.4736218452453613,
+        "native_B_factor_mean": 0.0,
+        "B_factor_interpretation": "Native ensemble coordinate uncertainty; not pLDDT and not temperature stability"
+      },
+      {
+        "native_file": "rank3_unrefined.pdb",
+        "path": "runs/011-codex-denovo-vhh/nanobodybuilder2-novel1/6eb659f5-337b-53c9-b758-0fc8a042dc5a.pdb",
+        "sha256": "e556e793772f80eef0243f8e896c46612e3362d6fd81d3c8fce2d7f8116b8dca",
+        "all_CA_rmsd_after_self_fit": 2.2248085743979735,
+        "CA_rmsd_after_framework_fit": {
+          "framework": 0.5655526589043381,
+          "cdr1": 1.8045728459488404,
+          "cdr2": 0.5380505580546169,
+          "cdr3": 5.268429218438305
+        },
+        "cysteine_SG_distance": 2.4358327388763428,
+        "native_B_factor_mean": 0.0,
+        "B_factor_interpretation": "Native ensemble coordinate uncertainty; not pLDDT and not temperature stability"
+      }
+    ],
+    "scope": "Monomer sequence-fold consistency only. No antigen, measured affinity, competition or Tm."
+  },
+  {
+    "name": "novel2",
+    "candidate": "rfd4-variable-sequence-k1__her2_variable_sequence_12_generated",
+    "operation_id": "op-cb14aad491ba0c87",
+    "model_version": "ImmuneBuilder 1.2 / NanoBodyBuilder2",
+    "source_revision": "0df4e2ad82a1aa60f37ea9dae335d1198159ef78",
+    "checkpoint_sha256": {
+      "1": "2f8f398a95e2fd3fe38527415471a60346cb131864a1a4ef081e11816d74e995",
+      "2": "41c163511ad20d1aa67fbd50f64ced9a25381d0618847b16a19d5e14df73297e",
+      "3": "8de57b3f0b6b89acb0e87fc7b647522666dd90e86ed3138417cbcd785c982c4d",
+      "4": "96f3cfba8de00e4c833bc73efa821f6022ed65e951a4289c7e3b5409527964e0"
+    },
+    "exact_sequence_verified": true,
+    "models": [
+      {
+        "native_file": "final_model.pdb",
+        "path": "runs/011-codex-denovo-vhh/nanobodybuilder2-novel2/952830e4-1b01-5f40-8d65-6c528c9a1240.pdb",
+        "sha256": "52588e2a00993ef7f5dfa9811874282d11e21fd991982fda2fb1d4e97844112b",
+        "all_CA_rmsd_after_self_fit": 1.1362108922697696,
+        "CA_rmsd_after_framework_fit": {
+          "framework": 0.6188341729874438,
+          "cdr1": 1.1952163181525857,
+          "cdr2": 1.0314347516169586,
+          "cdr3": 2.4050945100791115
+        },
+        "cysteine_SG_distance": 2.0311684608459473,
+        "native_B_factor_mean": 0.4925000000000001,
+        "B_factor_interpretation": "Native ensemble coordinate uncertainty; not pLDDT and not temperature stability"
+      },
+      {
+        "native_file": "rank0_unrefined.pdb",
+        "path": "runs/011-codex-denovo-vhh/nanobodybuilder2-novel2/74625c59-41c6-54c3-85be-817df7af12b9.pdb",
+        "sha256": "6bafa3198d6dd58da3aeced6f850242710bad60112713d7bf21e050ef416f627",
+        "all_CA_rmsd_after_self_fit": 1.1988394045009494,
+        "CA_rmsd_after_framework_fit": {
+          "framework": 0.6956666105465045,
+          "cdr1": 1.254916999417964,
+          "cdr2": 1.10940827747775,
+          "cdr3": 2.490097438890739
+        },
+        "cysteine_SG_distance": 2.617913007736206,
+        "native_B_factor_mean": 0.0,
+        "B_factor_interpretation": "Native ensemble coordinate uncertainty; not pLDDT and not temperature stability"
+      },
+      {
+        "native_file": "rank1_unrefined.pdb",
+        "path": "runs/011-codex-denovo-vhh/nanobodybuilder2-novel2/f5c497e6-16c0-5cff-b885-817a3556e4ad.pdb",
+        "sha256": "34005cdff9b783baacfbee9ba75aa2d064f877b14cb9bf768bfad7befd89df17",
+        "all_CA_rmsd_after_self_fit": 1.11808259226132,
+        "CA_rmsd_after_framework_fit": {
+          "framework": 0.5757736969109918,
+          "cdr1": 1.3400903404562245,
+          "cdr2": 0.5159657470455832,
+          "cdr3": 2.5303991838993056
+        },
+        "cysteine_SG_distance": 2.1421403884887695,
+        "native_B_factor_mean": 0.0,
+        "B_factor_interpretation": "Native ensemble coordinate uncertainty; not pLDDT and not temperature stability"
+      },
+      {
+        "native_file": "rank2_unrefined.pdb",
+        "path": "runs/011-codex-denovo-vhh/nanobodybuilder2-novel2/1244af2f-c8af-5a9b-9998-0be1284ece15.pdb",
+        "sha256": "ec1bc0b46bde6fcc29fb8ad521ce8e6eca752587d4c1b77221e6586a3ebdfea2",
+        "all_CA_rmsd_after_self_fit": 1.2919437645256304,
+        "CA_rmsd_after_framework_fit": {
+          "framework": 0.5119353028730182,
+          "cdr1": 0.9703345693908034,
+          "cdr2": 1.0374237429914268,
+          "cdr3": 3.1733065074370406
+        },
+        "cysteine_SG_distance": 2.3534462451934814,
+        "native_B_factor_mean": 0.0,
+        "B_factor_interpretation": "Native ensemble coordinate uncertainty; not pLDDT and not temperature stability"
+      },
+      {
+        "native_file": "rank3_unrefined.pdb",
+        "path": "runs/011-codex-denovo-vhh/nanobodybuilder2-novel2/f1414c8a-ab5b-5973-878b-204dea79069b.pdb",
+        "sha256": "62abe1ddce995ff348d0568bb67549f665499ee27b1085938fc9313ebee891de",
+        "all_CA_rmsd_after_self_fit": 1.227898123824709,
+        "CA_rmsd_after_framework_fit": {
+          "framework": 0.5184185879981873,
+          "cdr1": 2.340753910799898,
+          "cdr2": 0.8295831192311163,
+          "cdr3": 2.6068371129460726
+        },
+        "cysteine_SG_distance": 2.1937241554260254,
+        "native_B_factor_mean": 0.0,
+        "B_factor_interpretation": "Native ensemble coordinate uncertainty; not pLDDT and not temperature stability"
+      }
+    ],
+    "scope": "Monomer sequence-fold consistency only. No antigen, measured affinity, competition or Tm."
+  },
+  {
+    "name": "novel3",
+    "candidate": "rfd4-variable-sequence-k1__her2_variable_sequence_2_generated",
+    "operation_id": "op-82d421b500006a54",
+    "model_version": "ImmuneBuilder 1.2 / NanoBodyBuilder2",
+    "source_revision": "0df4e2ad82a1aa60f37ea9dae335d1198159ef78",
+    "checkpoint_sha256": {
+      "1": "2f8f398a95e2fd3fe38527415471a60346cb131864a1a4ef081e11816d74e995",
+      "2": "41c163511ad20d1aa67fbd50f64ced9a25381d0618847b16a19d5e14df73297e",
+      "3": "8de57b3f0b6b89acb0e87fc7b647522666dd90e86ed3138417cbcd785c982c4d",
+      "4": "96f3cfba8de00e4c833bc73efa821f6022ed65e951a4289c7e3b5409527964e0"
+    },
+    "exact_sequence_verified": true,
+    "models": [
+      {
+        "native_file": "final_model.pdb",
+        "path": "runs/011-codex-denovo-vhh/nanobodybuilder2-novel3/d6518cc2-a879-55fd-9cf2-0752d5ec817f.pdb",
+        "sha256": "c93b4fc12063c5419a88683c5878e6071d075a8a02adfaa9ffc63ed675185114",
+        "all_CA_rmsd_after_self_fit": 5.794216977037365,
+        "CA_rmsd_after_framework_fit": {
+          "framework": 0.4857704688966272,
+          "cdr1": 1.529941533260198,
+          "cdr2": 0.714034672455061,
+          "cdr3": 15.018778256940257
+        },
+        "cysteine_SG_distance": 2.034212112426758,
+        "native_B_factor_mean": 0.8799253731343283,
+        "B_factor_interpretation": "Native ensemble coordinate uncertainty; not pLDDT and not temperature stability"
+      },
+      {
+        "native_file": "rank0_unrefined.pdb",
+        "path": "runs/011-codex-denovo-vhh/nanobodybuilder2-novel3/5de27e60-4b98-58ae-ab6d-7fb5ec8c0926.pdb",
+        "sha256": "6c6520ac11600ec49ce40f145844326c4067195e861ba7d94c75342fa53954c8",
+        "all_CA_rmsd_after_self_fit": 5.762016331667519,
+        "CA_rmsd_after_framework_fit": {
+          "framework": 0.5044196117326433,
+          "cdr1": 1.4301339349345124,
+          "cdr2": 0.9547297957017551,
+          "cdr3": 15.008836707648957
+        },
+        "cysteine_SG_distance": 2.743699073791504,
+        "native_B_factor_mean": 0.0,
+        "B_factor_interpretation": "Native ensemble coordinate uncertainty; not pLDDT and not temperature stability"
+      },
+      {
+        "native_file": "rank1_unrefined.pdb",
+        "path": "runs/011-codex-denovo-vhh/nanobodybuilder2-novel3/a31dc333-de7d-5482-94ad-571d56ede237.pdb",
+        "sha256": "e9c38cbee027977ec8f23391bdc3c4e778b193ddaf035fc96a686964083390d2",
+        "all_CA_rmsd_after_self_fit": 5.309631884813169,
+        "CA_rmsd_after_framework_fit": {
+          "framework": 0.5255730635468281,
+          "cdr1": 0.9229199780235458,
+          "cdr2": 1.1037949760904193,
+          "cdr3": 12.718733557400688
+        },
+        "cysteine_SG_distance": 2.2008814811706543,
+        "native_B_factor_mean": 0.0,
+        "B_factor_interpretation": "Native ensemble coordinate uncertainty; not pLDDT and not temperature stability"
+      },
+      {
+        "native_file": "rank2_unrefined.pdb",
+        "path": "runs/011-codex-denovo-vhh/nanobodybuilder2-novel3/8e3a81f2-0ba4-52a6-b75a-e29bbe689ee8.pdb",
+        "sha256": "2f1a9811e616d65e551585d5565572c33dd4837a9b168b5223ec6210c3525ab6",
+        "all_CA_rmsd_after_self_fit": 5.271731460017652,
+        "CA_rmsd_after_framework_fit": {
+          "framework": 0.6332715737092012,
+          "cdr1": 1.0459119156889576,
+          "cdr2": 0.42954515092322043,
+          "cdr3": 13.076036214838247
+        },
+        "cysteine_SG_distance": 3.3224518299102783,
+        "native_B_factor_mean": 0.0,
+        "B_factor_interpretation": "Native ensemble coordinate uncertainty; not pLDDT and not temperature stability"
+      },
+      {
+        "native_file": "rank3_unrefined.pdb",
+        "path": "runs/011-codex-denovo-vhh/nanobodybuilder2-novel3/dc6707b8-f2b1-59f6-9718-3a528033f898.pdb",
+        "sha256": "cabb5eefa26fbf070210d3818c8be0a15650b230e37ab53e24fd7e9beff08e38",
+        "all_CA_rmsd_after_self_fit": 5.189338660683314,
+        "CA_rmsd_after_framework_fit": {
+          "framework": 0.6082075302402061,
+          "cdr1": 1.5299187207801703,
+          "cdr2": 1.2576559524155735,
+          "cdr3": 12.869696368239508
+        },
+        "cysteine_SG_distance": 2.244382619857788,
+        "native_B_factor_mean": 0.0,
+        "B_factor_interpretation": "Native ensemble coordinate uncertainty; not pLDDT and not temperature stability"
+      }
+    ],
+    "scope": "Monomer sequence-fold consistency only. No antigen, measured affinity, competition or Tm."
+  }
+]

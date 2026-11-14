@@ -1,0 +1,14 @@
+{
+  "input": 131,
+  "validated": 127,
+  "novelty_verdict_counts": [
+    {
+      "is_novel_enough": false,
+      "count": 3
+    },
+    {
+      "is_novel_enough": true,
+      "count": 128
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "count": 15,
+  "polymer_entities": [
+    {
+      "rcsb_id": "4KRN_1",
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Nanobody/VHH domain EgA1"
+      },
+      "entity_poly": {
+        "pdbx_seq_one_letter_code_can": "QVQLQESGGGLVQPGGSLRLSCAASGRTFSSYAMGWFRQAPGKQREFVAAIRWSGGYTYYTDSVKGRFTISRDNAKTTVYLQMNSLKPEDTAVYYCAATYLSSDYSRYALPQRPLDYDYWGQGTQVTVSSLEHHHHHH"
+      }
+    },
+    {
+      "rcsb_id": "4KRO_2",
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Nanobody/VHH domain EgA1"
+      },
+      "entity_poly": {
+        "pdbx_seq_one_letter_code_can": "QVQLQESGGGLVQPGGSLRLSCAASGRTFSSYAMGWFRQAPGKQREFVAAIRWSGGYTYYTDSVKGRFTISRDNAKTTVYLQMNSLKPEDTAVYYCAATYLSSDYSRYALPQRPLDYDYWGQGTQVTVSSLEHHHHHH"
+      }
+    },
+    {
+      "rcsb_id": "9EZV_2",
+      "rcsb_polymer_entity": {
+        "pdbx_description": "single-domain antibody VHH_h2"
+      },
+      "entity_poly": {
+        "pdbx_seq_one_letter_code_can": "QVQLVESGGGLVQAGGSLRLSCAASGRTFSSYGMGWFRQAPGKEREFVAAISPFGGNTYYADSVKGRFTISRDNAKNTVYLQMNSLKPEDTAVYYCAAGRWNRYGFEDQDNFDYWGQGTQVTVSSAAAHHHHHH"
+      }
+    },
+    {
+      "rcsb_id": "9EZU_2",
+      "rcsb_polymer_entity": {
+        "pdbx_description": "single-domain antibody VHH_h1"
+      },
+      "entity_poly": {
+        "pdbx_seq_one_letter_code_can": "QVQLVESGGGLVQAGGSLRLSCAASGRTFSSYGMGWFRQAPGKEREFVAAIGPFGYETYYADSVKGRFTISRDNAKNTVYLQMNSLKPEDTAVYYCAAGRWNRYGFEDQDNFDYWGQGTQVTVSSAAAHHHHHH"
+      }
+    },
+    {
+      "rcsb_id": "8XLD_2",
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Nanobody(Staygold-S2G10)-Nanobody(Staygold-S4F1)"
+      },
+      "entity_poly": {
+        "pdbx_seq_one_letter_code_can": "QVQLVESGGGLVQAGGSLRLSCAASGLTFPAYAMGWYRQAPGKERELVAAITGDGSTNYADSVKGRFTISRDNAKNTVYLQMNSLKPEDTAVYYCAADRYVPAPPYYYWGQGTQVTVSSGGGGSGGGGSGGGGSGGGGSGGGGSGGGGSGGGGSQVQLVESGGGLVQAGGSLRLSCAASGIIFGSYAMGWYRQAPGKERELVAAISISTTTTYYADSVKGRFTISRDNAKNTVYLQMNSLKPEDTAVYYCNAVSYGGLDYWGQGTQVTVSSGSHHHHHHGGSGGSGGSC"
+      }
+    },
+    {
+      "rcsb_id": "8R4D_2",
+      "rcsb_polymer_entity": {
+        "pdbx_description": "NbRoco1"
+      },
+      "entity_poly": {
+        "pdbx_seq_one_letter_code_can": "QVQLQESGGGLVQAGGSLRLSCANSGLTFSTYTMGWFRQAPGKEREFVAAIRWSGTSTYYQDHADSVKGRFTISRDNAKNTVYLQMNSLKPEDTAVYYCAASRLRAGVKAPSEYDYWGQGTQVTVSSHHHHHHEPEA"
+      }
+    },
+    {
+      "rcsb_id": "8R4B_2",
+      "rcsb_polymer_entity": {
+        "pdbx_description": "NbRoco1"
+      },
+      "entity_poly": {
+        "pdbx_seq_one_letter_code_can": "QVQLQESGGGLVQAGGSLRLSCANSGLTFSTYTMGWFRQAPGKEREFVAAIRWSGTSTYYQDHADSVKGRFTISRDNAKNTVYLQMNSLKPEDTAVYYCAASRLRAGVKAPSEYDYWGQGTQVTVSSHHHHHHEPEA"
+      }
+    },
+    {
+      "rcsb_id": "8DT8_2",
+      "rcsb_polymer_entity": {
+        "pdbx_description": "LM18 nanobody"
+      },
+      "entity_poly": {
+        "pdbx_seq_one_letter_code_can": "EVQLQESGGGLVQPGGSLRLSCAASGFTFSSYALGWYRQAPGKEREWVCAISGSGGSTYYADSVKGRFTCSRDNSKNTLYLQMNSLKPEDTAVYYCARVYQFYGARDYGYPYDFDYWGQGTQVTVSS"
+      }
+    },
+    {
+      "rcsb_id": "7UNY_2",
+      "rcsb_polymer_entity": {
+        "pdbx_description": "D2 Nanobody"
+      },
+      "entity_poly": {
+        "pdbx_seq_one_letter_code_can": "QVQLQESGGGLVQAGGSLRLSCAASGRTFSSYAMGWFRQAPGKEREFVAAISYSGSNTYDADSVKGRFAISRDNAKNTVYLQMNSLKPEDTAVYYCAAAGVYSGTYTDTEFDYWGQGTQVTVSSHHHHHH"
+      }
+    },
+    {
+      "rcsb_id": "7S7R_2",
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Nanobody G7"
+      },
+      "entity_poly": {
+        "pdbx_seq_one_letter_code_can": "QVQLQESGGGLVQAGGSLRLSCAASGRTFSSYGMGWFRQAPGTEREFVAAISWSGDSTYYADSVKGRFTISIDKAKNTVYLQMNSLKPEDTAVYYCAADHALVVGGTYNYWGQGTQVTVSSHHHHHH"
+      }
+    },
+    {
+      "rcsb_id": "7M1H_7",
+      "rcsb_polymer_entity": {
+        "pdbx_description": "JPU-B8"
+      },
+      "entity_poly": {
+        "pdbx_seq_one_letter_code_can": "GPLGSQVQLVESGGGLVQPGGSLRLSCAASGSIFSIYAMGWYRQAPGKQRELVAAISSYGSTNYADSVKGRFTISRDNAKNTVYLQMNSLKPEDTAVYYCNADIATMTAVGGFDYWGQGTQVTVSS"
+      }
+    },
+    {
+      "rcsb_id": "7AQY_2",
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Nanobody VSG2(NB11)"
+      },
+      "entity_poly": {
+        "pdbx_seq_one_letter_code_can": "QVQLQESGGGLVQAGGSLTLSCAVSGLTFSNYAMGWFRQAPGKEREFVAAITWDGGNTYYTDSVKGRFTISRDNAKNTVFLQMNSLKPEDTAVYYCAAKLLGSSRYELALAGYDYWGQGTQVTVSSHHHHHH"
+      }
+    },
+    {
+      "rcsb_id": "6WAQ_1",
+      "rcsb_polymer_entity": {
+        "pdbx_description": "nanobody SARS VHH-72"
+      },
+      "entity_poly": {
+        "pdbx_seq_one_letter_code_can": "QVQLQESGGGLVQAGGSLRLSCAASGRTFSEYAMGWFRQAPGKEREFVATISWSGGSTYYTDSVKGRFTISRDNAKNTVYLQMNSLKPDDTAVYYCAAAGLGTVVSEWDYDYDYWGQGTQVTVSSGS"
+      }
+    },
+    {
+      "rcsb_id": "5BOP_1",
+      "rcsb_polymer_entity": {
+        "pdbx_description": "Nanobody"
+      },
+      "entity_poly": {
+        "pdbx_seq_one_letter_code_can": "QVQLQESGGGLVQAGGSLRLSCAASGGTFSTYGMGWFRQAPGKEREFVAASSWTGANTYYADSVRGRFTISRDNAKNTVYLEMNSLKPEDTAVYYCAARRWLGGSYFDPGNYDFWGQGTQVTVSSHHHHHHEPEA"
+      }
+    },
+    {
+      "rcsb_id": "3STB_1",
+      "rcsb_polymer_entity": {
+        "pdbx_description": "single domain antibody VHH"
+      },
+      "entity_poly": {
+        "pdbx_seq_one_letter_code_can": "QVQLQESGGGLVQAGGSLRLSCAASGRTLSSYAMGWFRQAPGKEREFVAAINRSGSTFYADAVKGRFTISRDNAKNTVYLQMNSLKPEDTAAYYCAADRFSPVVPGPIPVNTVDSWGQGTQVTVSSHHHHHH"
+      }
+    }
+  ],
+  "editor": {
+    "url": "https://data.rcsb.org/graphiql/index.html",
+    "params": {
+      "query": "query Q($ids: [String!]!) { polymer_entities(entity_ids: $ids) { rcsb_id rcsb_polymer_entity { pdbx_description } entity_poly { pdbx_seq_one_letter_code_can } } }",
+      "variables": {
+        "ids": [
+          "6WAQ_1",
+          "4KRN_1",
+          "4KRO_2",
+          "8DT8_2",
+          "7UNY_2",
+          "8R4B_2",
+          "8R4D_2",
+          "9EZV_2",
+          "3STB_1",
+          "7AQY_2",
+          "7S7R_2",
+          "7M1H_7",
+          "9EZU_2",
+          "5BOP_1",
+          "8XLD_2"
+        ]
+      }
+    }
+  }
+}

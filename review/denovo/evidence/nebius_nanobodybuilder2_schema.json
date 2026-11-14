@@ -1,0 +1,245 @@
+{
+ "model_id": "nanobodybuilder2",
+ "display_name": "NanoBodyBuilder2",
+ "execution_mode": "scientific-batch",
+ "protocol": "scientific-batch-v1",
+ "tool_name": "submit_nanobodybuilder2",
+ "operations": [
+  "predict"
+ ],
+ "source_references": [
+  "https://github.com/oxpig/ImmuneBuilder/tree/0df4e2ad82a1aa60f37ea9dae335d1198159ef78"
+ ],
+ "examples": [
+  {
+   "kind": "request-template",
+   "description": "Use the file layout below and the published input_artifact_contract. Upload/finalize the required payloads and canonical manifest, then fill required_owner_fields with your own pointers. This is not an exact-release or scientific qualification claim.",
+   "input_preparation": {
+    "content": {
+     "format": "One plain FASTA file, not an archive.",
+     "headers": [
+      "H"
+     ],
+     "sequence": "Supply complete antibody variable-domain sequences using canonical amino acids without gaps. The first header token is the chain identifier; empty or duplicate records are rejected. NanoBodyBuilder2 H is a VHH; ABodyBuilder3 requires both H and L."
+    }
+   },
+   "request": {
+    "schema": "fs2-serve.nebius.ai/scientific-run-request/v1",
+    "operation": "predict",
+    "service_class": "customer-batch",
+    "parameters": {}
+   },
+   "required_owner_fields": [
+    "input_manifest"
+   ]
+  }
+ ],
+ "request_schema": {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fs2-serve.nebius.ai/schema/scientific-run-request/v1",
+  "title": "Scientific batch run request",
+  "description": "User-authored request for POST /v1/models/{model_id}:submit. Idempotency is supplied in the Idempotency-Key HTTP header; queue, image, command, environment, and accelerator placement remain operator-owned.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+   "schema",
+   "operation",
+   "service_class",
+   "input_manifest",
+   "parameters"
+  ],
+  "properties": {
+   "schema": {
+    "const": "fs2-serve.nebius.ai/scientific-run-request/v1"
+   },
+   "operation": {
+    "enum": [
+     "predict"
+    ]
+   },
+   "service_class": {
+    "enum": [
+     "customer-batch",
+     "bulk-backfill"
+    ]
+   },
+   "input_manifest": {
+    "$ref": "#/$defs/artifact_ref"
+   },
+   "parameters": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "numbering_scheme": {
+      "type": "string",
+      "enum": [
+       "imgt",
+       "chothia",
+       "kabat",
+       "aho",
+       "wolfguy",
+       "martin",
+       "raw"
+      ],
+      "default": "imgt"
+     },
+     "model_ids": {
+      "type": "array",
+      "items": {
+       "type": "integer",
+       "enum": [
+        1,
+        2,
+        3,
+        4
+       ]
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "default": [
+       1,
+       2,
+       3,
+       4
+      ],
+      "description": "Upstream ensemble members; omission uses all four published checkpoints."
+     },
+     "save_all": {
+      "type": "boolean",
+      "default": false,
+      "description": "Also retain ranked unrefined models and native squared error estimates."
+     },
+     "n_threads": {
+      "type": "integer",
+      "default": -1,
+      "description": "Native option: positive values select CPU refinement and that thread count; nonpositive values leave native OpenMM platform selection unchanged."
+     },
+     "check_for_strained_bonds": {
+      "type": "boolean",
+      "default": true
+     }
+    }
+   },
+   "client_context": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+     "batch_id": {
+      "$ref": "#/$defs/opaque_id"
+     },
+     "correlation_id": {
+      "$ref": "#/$defs/opaque_id"
+     },
+     "display_name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+     }
+    }
+   },
+   "output_prefix": {
+    "type": "string",
+    "minLength": 1,
+    "maxLength": 512,
+    "description": "Directory in your assigned bucket for automatic result.json, artifacts and manifest.json delivery. Defaults to runs/<model-id>; the operation ID is appended. Never sent to the model."
+   }
+  },
+  "$defs": {
+   "opaque_id": {
+    "type": "string",
+    "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,127}$"
+   },
+   "artifact_ref": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "artifact_id",
+     "sha256",
+     "size_bytes",
+     "media_type"
+    ],
+    "properties": {
+     "artifact_id": {
+      "$ref": "#/$defs/opaque_id"
+     },
+     "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+     },
+     "size_bytes": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 268435456
+     },
+     "media_type": {
+      "const": "application/vnd.fs2.scientific-manifest+json"
+     },
+     "compression": {
+      "enum": [
+       "none"
+      ]
+     }
+    }
+   }
+  }
+ },
+ "runtime_revision": "nanobodybuilder2-oslo-20261110-f434ac6c",
+ "input_artifact_contract": {
+  "manifest_schema": "fs2-serve.nebius.ai/scientific-artifact-manifest/v1",
+  "manifest_media_type": "application/vnd.fs2.scientific-manifest+json",
+  "exactly_one_entry": true,
+  "operation_parameter": "operation",
+  "operations": {
+   "predict": {
+    "name": "sequence",
+    "semantic_type": "nanobody-fasta/v1",
+    "media_type": "text/x-fasta",
+    "allowed_compressions": [
+     "none"
+    ],
+    "maximum_bytes": 137438953472,
+    "compression": "none",
+    "content": {
+     "format": "One plain FASTA file, not an archive.",
+     "headers": [
+      "H"
+     ],
+     "sequence": "Supply complete antibody variable-domain sequences using canonical amino acids without gaps. The first header token is the chain identifier; empty or duplicate records are rejected. NanoBodyBuilder2 H is a VHH; ABodyBuilder3 requires both H and L."
+    }
+   }
+  },
+  "entry_name_rule": "Use the logical entry name, independent of the uploaded filename.",
+  "transport": "Upload and finalize the payload, then a JSON manifest containing schema and entries with name, semantic_type and artifact. Submit the finalized manifest as input_manifest."
+ },
+ "execution_bounds": {
+  "stage_timeouts_s": {
+   "predict": 604800
+  },
+  "graph_deadline_s": 1209600,
+  "source": "operator configuration, not measured capacity"
+ },
+ "qualification": "configured-native-dag-not-a-readiness-claim",
+ "qualification_evidence": "https://raw.githubusercontent.com/rene-tech/serverless-ai-cookbook/15353c201443746810af9eff7fcf45b8eb884889/skills/scientific-ai/scientific-gateway/references/model-readiness.json",
+ "qualification_evidence_scope": "Dated 2026-11-12 snapshot of 79 historical catalog rows and scoped observations; it may omit this model and does not certify this release, all features or capacity.",
+ "capabilities": {
+  "native_dag": true,
+  "stages_per_operation": 1,
+  "gpus_per_compute_stage": 1,
+  "gpu_classes": [
+   "l40s",
+   "rtx-pro-6000",
+   "h100",
+   "h200"
+  ],
+  "mid_fold_checkpoint_resume": false,
+  "restart_current_stage": true,
+  "cancelled_graph_resume": false,
+  "portable_completed_result": true,
+  "cpu_delivery_retry": true,
+  "gpu_snapshot": false,
+  "exact_retained_retry_policy": false,
+  "result_schema": "fs2-serve.nebius.ai/scientific-run-result/v2"
+ }
+}
+
+[left out, use --full to see: contracts, mcp_input_schema, regions]

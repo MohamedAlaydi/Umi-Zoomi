@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-11-14T14:32:01.504195+00:00",
+  "done": 0,
+  "error": null,
+  "finished_at": null,
+  "id": "535c038636d606d54d62bdde910af4b5",
+  "kind": "predict",
+  "links": {
+    "archive": "/v1/jobs/535c038636d606d54d62bdde910af4b5/archive",
+    "logs": "/v1/jobs/535c038636d606d54d62bdde910af4b5/logs",
+    "results": "/v1/jobs/535c038636d606d54d62bdde910af4b5/results",
+    "self": "/v1/jobs/535c038636d606d54d62bdde910af4b5",
+    "usage": "/v1/jobs/535c038636d606d54d62bdde910af4b5/usage",
+    "wait": "/v1/jobs/535c038636d606d54d62bdde910af4b5?wait=60"
+  },
+  "model": "mol1",
+  "name": "team14-18plus2-common-blind-mol1",
+  "object": "job",
+  "params": {
+    "diffusion_samples": 1,
+    "fast": false,
+    "output_format": "cif",
+    "seed": 42,
+    "use_msa_server": true,
+    "write_pae": true
+  },
+  "progress": null,
+  "protocol": null,
+  "queue": {
+    "accounts_ahead": 0,
+    "fleet": {
+      "accounts_waiting": 9,
+      "busy": 269,
+      "chips": 269,
+      "out_of_service": 49
+    },
+    "reason": "all_chips_busy",
+    "yours": {
+      "of": 1,
+      "position": 1
+    }
+  },
+  "residues": 346,
+  "results_ready": false,
+  "stage": null,
+  "started_at": null,
+  "status": "queued",
+  "total": 18,
+  "wait": {
+    "how": "GET this URL with your API key instead of sleeping. It answers the moment the job ends, or after 60 s with the job as it is then; call it again while status is queued or running.",
+    "seconds": 60,
+    "url": "https://api.japanfold.aiand.com/v1/jobs/535c038636d606d54d62bdde910af4b5?wait=60"
+  },
+  "waiting_for_device": true
+}

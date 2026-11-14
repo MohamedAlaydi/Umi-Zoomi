@@ -1,0 +1,7 @@
+test_antigen_first_nonsequential_ids_map_to_one_symmetric_contact (test_contacts.ContactTests.test_antigen_first_nonsequential_ids_map_to_one_symmetric_contact) ... ok
+test_missing_interface_is_unknown_not_zero_error (test_contacts.ContactTests.test_missing_interface_is_unknown_not_zero_error) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.005s
+
+OK

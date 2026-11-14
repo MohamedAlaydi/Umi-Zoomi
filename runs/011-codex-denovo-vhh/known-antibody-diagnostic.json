@@ -1,0 +1,632 @@
+[
+  {
+    "query": "pilot-directed-s20261114__3_shard-0_design__canonicalCys",
+    "known_reference_comparison": {
+      "reference": "9L1J_1",
+      "identity_over_alignment": 0.7829457364341085,
+      "query_coverage": 0.9224806201550387,
+      "alignment_columns": 129
+    },
+    "all_reference_comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.7829457364341085,
+        "query_coverage": 0.9224806201550387,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7829457364341085,
+        "query_coverage": 0.9844961240310077,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7829457364341085,
+        "query_coverage": 0.9844961240310077,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7751937984496124,
+        "query_coverage": 0.9844961240310077,
+        "alignment_columns": 129
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.7596899224806202,
+        "query_coverage": 0.937984496124031,
+        "alignment_columns": 129
+      }
+    ],
+    "official_result": "unverified; five-reference local diagnostic only"
+  },
+  {
+    "query": "pilot-directed-s20261114__1_shard-0_design__canonicalCys",
+    "known_reference_comparison": {
+      "reference": "8ELQ_2",
+      "identity_over_alignment": 0.8188976377952756,
+      "query_coverage": 1.0,
+      "alignment_columns": 127
+    },
+    "all_reference_comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.816,
+        "query_coverage": 0.952,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.8188976377952756,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.8188976377952756,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.8031496062992126,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.784,
+        "query_coverage": 0.968,
+        "alignment_columns": 125
+      }
+    ],
+    "official_result": "unverified; five-reference local diagnostic only"
+  },
+  {
+    "query": "pilot-directed-s20261114__0_shard-0_design_1__canonicalCys",
+    "known_reference_comparison": {
+      "reference": "9L1J_1",
+      "identity_over_alignment": 0.7899159663865546,
+      "query_coverage": 1.0,
+      "alignment_columns": 119
+    },
+    "all_reference_comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.7899159663865546,
+        "query_coverage": 1.0,
+        "alignment_columns": 119
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7795275590551181,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7716535433070866,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7716535433070866,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.768595041322314,
+        "query_coverage": 1.0,
+        "alignment_columns": 121
+      }
+    ],
+    "official_result": "unverified; five-reference local diagnostic only"
+  },
+  {
+    "query": "pilot-directed-s20261114__1_shard-0_design_1__canonicalCys",
+    "known_reference_comparison": {
+      "reference": "8ELP_2",
+      "identity_over_alignment": 0.7761194029850746,
+      "query_coverage": 0.9477611940298507,
+      "alignment_columns": 134
+    },
+    "all_reference_comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.7388059701492538,
+        "query_coverage": 0.8880597014925373,
+        "alignment_columns": 134
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7686567164179104,
+        "query_coverage": 0.9477611940298507,
+        "alignment_columns": 134
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7761194029850746,
+        "query_coverage": 0.9477611940298507,
+        "alignment_columns": 134
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7686567164179104,
+        "query_coverage": 0.9477611940298507,
+        "alignment_columns": 134
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.753731343283582,
+        "query_coverage": 0.9029850746268657,
+        "alignment_columns": 134
+      }
+    ],
+    "official_result": "unverified; five-reference local diagnostic only"
+  },
+  {
+    "query": "pilot-directed-s20261114__2_shard-0_design__canonicalCys",
+    "known_reference_comparison": {
+      "reference": "8ELQ_2",
+      "identity_over_alignment": 0.78125,
+      "query_coverage": 0.9921259842519685,
+      "alignment_columns": 128
+    },
+    "all_reference_comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.7559055118110236,
+        "query_coverage": 0.937007874015748,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.78125,
+        "query_coverage": 0.9921259842519685,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7559055118110236,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7795275590551181,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.7795275590551181,
+        "query_coverage": 0.952755905511811,
+        "alignment_columns": 127
+      }
+    ],
+    "official_result": "unverified; five-reference local diagnostic only"
+  },
+  {
+    "query": "pilot-directed-s20261114__0_shard-0_design__canonicalCys",
+    "known_reference_comparison": {
+      "reference": "1OL0_1",
+      "identity_over_alignment": 0.7857142857142857,
+      "query_coverage": 0.9603174603174603,
+      "alignment_columns": 126
+    },
+    "all_reference_comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.7619047619047619,
+        "query_coverage": 0.9444444444444444,
+        "alignment_columns": 126
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7637795275590551,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7716535433070866,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.765625,
+        "query_coverage": 0.9920634920634921,
+        "alignment_columns": 128
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.7857142857142857,
+        "query_coverage": 0.9603174603174603,
+        "alignment_columns": 126
+      }
+    ],
+    "official_result": "unverified; five-reference local diagnostic only"
+  },
+  {
+    "query": "pilot-directed-s20261114__2_shard-0_design_1__canonicalCys",
+    "known_reference_comparison": {
+      "reference": "8ELQ_2",
+      "identity_over_alignment": 0.7633587786259542,
+      "query_coverage": 0.9694656488549618,
+      "alignment_columns": 131
+    },
+    "all_reference_comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.7251908396946565,
+        "query_coverage": 0.9083969465648855,
+        "alignment_columns": 131
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7633587786259542,
+        "query_coverage": 0.9694656488549618,
+        "alignment_columns": 131
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7557251908396947,
+        "query_coverage": 0.9694656488549618,
+        "alignment_columns": 131
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7633587786259542,
+        "query_coverage": 0.9694656488549618,
+        "alignment_columns": 131
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.7480916030534351,
+        "query_coverage": 0.9236641221374046,
+        "alignment_columns": 131
+      }
+    ],
+    "official_result": "unverified; five-reference local diagnostic only"
+  },
+  {
+    "query": "pilot-unconditioned-s20261114__1_shard-0_design__canonicalCys",
+    "known_reference_comparison": {
+      "reference": "8ELQ_2",
+      "identity_over_alignment": 0.8188976377952756,
+      "query_coverage": 1.0,
+      "alignment_columns": 127
+    },
+    "all_reference_comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.792,
+        "query_coverage": 0.952,
+        "alignment_columns": 125
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.8188976377952756,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7952755905511811,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.8188976377952756,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.792,
+        "query_coverage": 0.968,
+        "alignment_columns": 125
+      }
+    ],
+    "official_result": "unverified; five-reference local diagnostic only"
+  },
+  {
+    "query": "pilot-unconditioned-s20261114__0_shard-0_design_1__canonicalCys",
+    "known_reference_comparison": {
+      "reference": "9L1J_1",
+      "identity_over_alignment": 0.7983193277310925,
+      "query_coverage": 1.0,
+      "alignment_columns": 119
+    },
+    "all_reference_comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.7983193277310925,
+        "query_coverage": 1.0,
+        "alignment_columns": 119
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7559055118110236,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7637795275590551,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7637795275590551,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.7768595041322314,
+        "query_coverage": 1.0,
+        "alignment_columns": 121
+      }
+    ],
+    "official_result": "unverified; five-reference local diagnostic only"
+  },
+  {
+    "query": "pilot-unconditioned-s20261114__1_shard-0_design_1__canonicalCys",
+    "known_reference_comparison": {
+      "reference": "8ELQ_2",
+      "identity_over_alignment": 0.7686567164179104,
+      "query_coverage": 0.9477611940298507,
+      "alignment_columns": 134
+    },
+    "all_reference_comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.7238805970149254,
+        "query_coverage": 0.8880597014925373,
+        "alignment_columns": 134
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7686567164179104,
+        "query_coverage": 0.9477611940298507,
+        "alignment_columns": 134
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.753731343283582,
+        "query_coverage": 0.9477611940298507,
+        "alignment_columns": 134
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7686567164179104,
+        "query_coverage": 0.9477611940298507,
+        "alignment_columns": 134
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.7164179104477612,
+        "query_coverage": 0.9029850746268657,
+        "alignment_columns": 134
+      }
+    ],
+    "official_result": "unverified; five-reference local diagnostic only"
+  },
+  {
+    "query": "pilot-unconditioned-s20261114__2_shard-0_design_1__canonicalCys",
+    "known_reference_comparison": {
+      "reference": "8ELO_2",
+      "identity_over_alignment": 0.7862595419847328,
+      "query_coverage": 0.9694656488549618,
+      "alignment_columns": 131
+    },
+    "all_reference_comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.732824427480916,
+        "query_coverage": 0.9083969465648855,
+        "alignment_columns": 131
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7709923664122137,
+        "query_coverage": 0.9694656488549618,
+        "alignment_columns": 131
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7709923664122137,
+        "query_coverage": 0.9694656488549618,
+        "alignment_columns": 131
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7862595419847328,
+        "query_coverage": 0.9694656488549618,
+        "alignment_columns": 131
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.7480916030534351,
+        "query_coverage": 0.9236641221374046,
+        "alignment_columns": 131
+      }
+    ],
+    "official_result": "unverified; five-reference local diagnostic only"
+  },
+  {
+    "query": "pilot-unconditioned-s20261114__3_shard-0_design_1__canonicalCys",
+    "known_reference_comparison": {
+      "reference": "1OL0_1",
+      "identity_over_alignment": 0.743801652892562,
+      "query_coverage": 1.0,
+      "alignment_columns": 121
+    },
+    "all_reference_comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.7058823529411765,
+        "query_coverage": 1.0,
+        "alignment_columns": 119
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7322834645669292,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7244094488188977,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7322834645669292,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.743801652892562,
+        "query_coverage": 1.0,
+        "alignment_columns": 121
+      }
+    ],
+    "official_result": "unverified; five-reference local diagnostic only"
+  },
+  {
+    "query": "pilot-unconditioned-s20261114__2_shard-0_design__canonicalCys",
+    "known_reference_comparison": {
+      "reference": "8ELO_2",
+      "identity_over_alignment": 0.8267716535433071,
+      "query_coverage": 1.0,
+      "alignment_columns": 127
+    },
+    "all_reference_comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.7874015748031497,
+        "query_coverage": 0.937007874015748,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.8031496062992126,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.8031496062992126,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.8267716535433071,
+        "query_coverage": 1.0,
+        "alignment_columns": 127
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.8267716535433071,
+        "query_coverage": 0.952755905511811,
+        "alignment_columns": 127
+      }
+    ],
+    "official_result": "unverified; five-reference local diagnostic only"
+  },
+  {
+    "query": "pilot-unconditioned-s20261114__3_shard-0_design__canonicalCys",
+    "known_reference_comparison": {
+      "reference": "8ELQ_2",
+      "identity_over_alignment": 0.7313432835820896,
+      "query_coverage": 0.9477611940298507,
+      "alignment_columns": 134
+    },
+    "all_reference_comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.7164179104477612,
+        "query_coverage": 0.8880597014925373,
+        "alignment_columns": 134
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7313432835820896,
+        "query_coverage": 0.9477611940298507,
+        "alignment_columns": 134
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7089552238805971,
+        "query_coverage": 0.9477611940298507,
+        "alignment_columns": 134
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7313432835820896,
+        "query_coverage": 0.9477611940298507,
+        "alignment_columns": 134
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.7014925373134329,
+        "query_coverage": 0.9029850746268657,
+        "alignment_columns": 134
+      }
+    ],
+    "official_result": "unverified; five-reference local diagnostic only"
+  },
+  {
+    "query": "pilot-unconditioned-s20261114__0_shard-0_design__canonicalCys",
+    "known_reference_comparison": {
+      "reference": "8ELO_2",
+      "identity_over_alignment": 0.7407407407407407,
+      "query_coverage": 0.9407407407407408,
+      "alignment_columns": 135
+    },
+    "all_reference_comparisons": [
+      {
+        "reference": "9L1J_1",
+        "identity_over_alignment": 0.6962962962962963,
+        "query_coverage": 0.8814814814814815,
+        "alignment_columns": 135
+      },
+      {
+        "reference": "8ELQ_2",
+        "identity_over_alignment": 0.7333333333333333,
+        "query_coverage": 0.9407407407407408,
+        "alignment_columns": 135
+      },
+      {
+        "reference": "8ELP_2",
+        "identity_over_alignment": 0.7185185185185186,
+        "query_coverage": 0.9407407407407408,
+        "alignment_columns": 135
+      },
+      {
+        "reference": "8ELO_2",
+        "identity_over_alignment": 0.7407407407407407,
+        "query_coverage": 0.9407407407407408,
+        "alignment_columns": 135
+      },
+      {
+        "reference": "1OL0_1",
+        "identity_over_alignment": 0.7185185185185186,
+        "query_coverage": 0.8962962962962963,
+        "alignment_columns": 135
+      }
+    ],
+    "official_result": "unverified; five-reference local diagnostic only"
+  }
+]

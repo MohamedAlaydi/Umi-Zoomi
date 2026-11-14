@@ -1,0 +1,157 @@
+{
+  "utc": "2026-11-14T14:09:56.699238+00:00",
+  "status": "passed",
+  "n_checks": 20,
+  "checks": [
+    {
+      "check": "design counts",
+      "passed": true,
+      "detail": {
+        "backbone_designs": 80,
+        "sequence_optimization": 16,
+        "cysteine_diagnostics": 15
+      }
+    },
+    {
+      "check": "unique campaign sequence IDs",
+      "passed": true,
+      "detail": 111
+    },
+    {
+      "check": "generated structure hashes and exact binder sequences",
+      "passed": true,
+      "detail": 80
+    },
+    {
+      "check": "downloaded archive and artifact hashes",
+      "passed": true,
+      "detail": 365
+    },
+    {
+      "check": "reference-checked input hash",
+      "passed": true,
+      "detail": 131
+    },
+    {
+      "check": "reference lookup has no missing novelty verdict",
+      "passed": true,
+      "detail": 131
+    },
+    {
+      "check": "CLI report skip was explicitly caught",
+      "passed": true,
+      "detail": "Raw CLI report contains unknown verdicts; never counted as passes"
+    },
+    {
+      "check": "CLI team validation equals explicit-reference adapter",
+      "passed": true,
+      "detail": 127
+    },
+    {
+      "check": "existing optimization controls preserved",
+      "passed": true,
+      "detail": 20
+    },
+    {
+      "check": "selected candidates pass installed validator",
+      "passed": true,
+      "detail": [
+        "rfd4-variable-sequence-k1__her2_variable_sequence_12_generated",
+        "rfd4-variable-sequence-k1__her2_variable_sequence_13_generated",
+        "rfd4-variable-sequence-k1__her2_variable_sequence_2_generated"
+      ]
+    },
+    {
+      "check": "selected RCSB zero-hit receipts",
+      "passed": true,
+      "detail": "70% RCSB threshold; limited database scope"
+    },
+    {
+      "check": "selected small-reference global identity <70%",
+      "passed": true,
+      "detail": {
+        "rfd4-variable-sequence-k1__her2_variable_sequence_2_generated": {
+          "reference": "7UNY_2",
+          "identity_over_alignment": 0.674074074074074,
+          "query_coverage": 0.917910447761194,
+          "alignment_columns": 135
+        },
+        "rfd4-variable-sequence-k1__her2_variable_sequence_12_generated": {
+          "reference": "7AQY_2",
+          "identity_over_alignment": 0.6850393700787402,
+          "query_coverage": 0.9919354838709677,
+          "alignment_columns": 127
+        },
+        "rfd4-variable-sequence-k1__her2_variable_sequence_13_generated": {
+          "reference": "5HVH_2",
+          "identity_over_alignment": 0.6870229007633588,
+          "query_coverage": 0.9307692307692308,
+          "alignment_columns": 131
+        }
+      }
+    },
+    {
+      "check": "all525063 provided HER2 CDRH3s checked independently",
+      "passed": true,
+      "detail": {
+        "rfd4-variable-sequence-k1__her2_variable_sequence_13_generated": 15,
+        "rfd4-variable-sequence-k1__her2_variable_sequence_12_generated": 11,
+        "rfd4-variable-sequence-k1__her2_variable_sequence_2_generated": 18
+      }
+    },
+    {
+      "check": "optimized variants with known matches held back",
+      "passed": true,
+      "detail": 16
+    },
+    {
+      "check": "completed complex predictions",
+      "passed": true,
+      "detail": {
+        "blind": 27,
+        "initial_guess": 5
+      }
+    },
+    {
+      "check": "cofold role maps and artifact hashes",
+      "passed": true,
+      "detail": 32
+    },
+    {
+      "check": "format correction preserves atoms, residues and coordinates",
+      "passed": true,
+      "detail": 5
+    },
+    {
+      "check": "monomer ensemble sequence and hash receipts",
+      "passed": true,
+      "detail": {
+        "sequences": 3,
+        "structures": 15,
+        "not_independent_experimental_samples": true
+      }
+    },
+    {
+      "check": "calibration sample units",
+      "passed": true,
+      "detail": {
+        "constructs": 30,
+        "quantified_KD": 25,
+        "structures": 90
+      }
+    },
+    {
+      "check": "calibration superiority remains unproven",
+      "passed": true,
+      "detail": {
+        "definition": "rho(NAC, logKD) minus rho(ipTM, logKD); more negative favors NAC",
+        "difference": -0.10108496755626856,
+        "paired_bootstrap_ci95": [
+          -0.5751921558757694,
+          0.4231842836701101
+        ]
+      }
+    }
+  ],
+  "scope": "Computational and provenance audit. No new expression, binding, competition or Tm measurements."
+}

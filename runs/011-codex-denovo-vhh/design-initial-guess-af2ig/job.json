@@ -1,0 +1,58 @@
+{
+  "created_at": "2026-11-14T13:46:59.931707+00:00",
+  "done": 5,
+  "error": "Folding failed. The job's log has the engine's own output.",
+  "finished_at": "2026-11-14T13:47:21.414392+00:00",
+  "id": "7800c0f7d13c48f2f2f455e69980b117",
+  "kind": "predict",
+  "links": {
+    "archive": "/v1/jobs/7800c0f7d13c48f2f2f455e69980b117/archive",
+    "logs": "/v1/jobs/7800c0f7d13c48f2f2f455e69980b117/logs",
+    "results": "/v1/jobs/7800c0f7d13c48f2f2f455e69980b117/results",
+    "self": "/v1/jobs/7800c0f7d13c48f2f2f455e69980b117",
+    "usage": "/v1/jobs/7800c0f7d13c48f2f2f455e69980b117/usage"
+  },
+  "model": "af2ig",
+  "name": "team14-her2-design-pose-consistency",
+  "object": "job",
+  "params": {
+    "output_format": "cif",
+    "seed": 0,
+    "write_pae": true
+  },
+  "progress": 0.99,
+  "protocol": null,
+  "residues": 253,
+  "results_ready": true,
+  "stage": null,
+  "started_at": "2026-11-14T13:47:00.498472+00:00",
+  "status": "failed",
+  "targets": [
+    {
+      "id": "novel1_crop119",
+      "stage": null,
+      "state": "failed"
+    },
+    {
+      "id": "novel2_crop119",
+      "stage": null,
+      "state": "failed"
+    },
+    {
+      "id": "novel3_crop119",
+      "stage": null,
+      "state": "failed"
+    },
+    {
+      "id": "high_footprint_known_hit",
+      "stage": null,
+      "state": "failed"
+    },
+    {
+      "id": "fixed_framework_control",
+      "stage": null,
+      "state": "failed"
+    }
+  ],
+  "total": 5
+}

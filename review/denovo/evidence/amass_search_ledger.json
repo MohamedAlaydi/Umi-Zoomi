@@ -1,0 +1,384 @@
+[
+  {
+    "query": "BoltzGen universal binder design nanobody frameworks",
+    "limit": 20,
+    "utc": "2026-11-14T12:48:25.941339+00:00",
+    "status": 200,
+    "billed_credits": "5",
+    "records": [
+      {
+        "amassId": "AMBC_7RZqsUDgiNKqWnImKrx9KnLjnyo",
+        "title": "BoltzGen: Toward Universal Binder Design",
+        "doi": "10.1101/2025.11.20.689494",
+        "pmid": "41394589"
+      },
+      {
+        "amassId": "AMBC_UMnDXBpfpKM2bhK7cvEo8L0vMrJ",
+        "title": "A Two-Step Approach for the Design and Generation of Nanobodies",
+        "doi": "10.3390/ijms19113444",
+        "pmid": "30400198"
+      },
+      {
+        "amassId": "AMBC_6BUNmh94wus3ffIwqEmWDt9lARD",
+        "title": "P06.04 Integrated de novo design and high-throughput screening of T cell receptor mimetic minibinders for multipronged intracellular cancer antigen targeting",
+        "doi": "10.1136/jitc-2026-itoc.40"
+      },
+      {
+        "amassId": "AMBC_NsS1m5v1CSwctPyTX9ZrPKH7LoG",
+        "title": "Structural Insights into the Design of Synthetic Nanobody Libraries",
+        "doi": "10.3390/molecules27072198",
+        "pmid": "35408597"
+      },
+      {
+        "amassId": "AMBC_1P6J7uziKVEUFRNmQ65qlPAv2Wz",
+        "title": "Assessment of generative de novo peptide design methods for G protein-coupled receptors",
+        "doi": "10.1371/journal.pone.0355549",
+        "pmid": "42658811"
+      },
+      {
+        "amassId": "AMBC_9aepTEhKjWNvS8AtMnZ0BX3kNIz",
+        "title": "Integrating seed-based design with ribosome display for the development of nanobody-like protein scaffolds",
+        "doi": "10.1093/bbb/zbag057",
+        "pmid": "41995290"
+      },
+      {
+        "amassId": "AMBC_HomJFwtRray6zBhZ0kc6JfHjmEr",
+        "title": "Design and Construction of a Synthetic Nanobody Library: Testing Its Potential with a Single Selection Round Strategy",
+        "doi": "10.3390/molecules28093708",
+        "pmid": "37175117"
+      },
+      {
+        "amassId": "AMBC_OlfUao6ftDaTnpSn6Avj87aC2ux",
+        "title": "Nanobody-Based Lateral Flow Assays: Applications, Innovations, Challenges, and Future Directions",
+        "doi": "10.1021/acssensors.6c02118",
+        "pmid": "42896506"
+      },
+      {
+        "amassId": "AMBC_KqxxcEW8Qr4tPxAYus1x7oh8ymX",
+        "title": "Design of minibinder proteins as universal antagonists against canine and human TNF\u03b1",
+        "doi": "10.1038/s42003-025-09030-7",
+        "pmid": "41286500"
+      },
+      {
+        "amassId": "AMBC_KzEf7fCw60ya86nlEusXSaPOctm",
+        "title": "High-level expression of Camelid nanobodies in Nicotiana benthamiana",
+        "doi": "10.1007/s11248-009-9338-0",
+        "pmid": "19862637"
+      },
+      {
+        "amassId": "AMBC_6YHDW5XeBSP0KMdZnVL3b3B2MyT",
+        "title": "Intracellular protein binders for imaging, control and future therapeutics",
+        "doi": "10.1038/s41551-026-01768-7",
+        "pmid": "42624994"
+      },
+      {
+        "amassId": "AMBC_DBJhx1GJGLU5c0yoWnej1XjQnFW",
+        "title": "Structure-based design and construction of a synthetic phage display nanobody library",
+        "doi": "10.1186/s13104-022-06001-7",
+        "pmid": "35351202"
+      },
+      {
+        "amassId": "AMBC_ev6qdM7GyB2ueBkbfeA7A3tm9C",
+        "title": "NanoBlocks: Creating Genetically Encoded Protein Switches Using Competitive Binding",
+        "doi": "10.1021/acsnano.6c10102",
+        "pmid": "43007788"
+      },
+      {
+        "amassId": "AMBC_4UhWiwj0vW9ihlWDV1SjpH1HnAD",
+        "title": "Toward universal binder discovery: Advances in display, computational design and in vivo platforms",
+        "doi": "10.1016/j.cbpa.2026.102663",
+        "pmid": "41793828"
+      },
+      {
+        "amassId": "AMBC_JwSZ8KuTsyFMjhsKzvqSthxhn7B",
+        "title": "Nanobody engineering: computational modelling and design for biomedical and therapeutic applications",
+        "doi": "10.1002/2211-5463.13850",
+        "pmid": "38898362"
+      },
+      {
+        "amassId": "AMBC_5Zxc10RRtMk8mUF9n2KwOfC4ynu",
+        "title": "Easily Established and Multifunctional Synthetic Nanobody Libraries as Research Tools",
+        "doi": "10.3390/ijms23031482",
+        "pmid": "35163405"
+      },
+      {
+        "amassId": "AMBC_NpqA9Est08Ymnt9CIAqfwUTGLqy",
+        "title": "Targeting angiogenesis: advances in the design and engineered applications of nanobodies",
+        "doi": "10.3389/fimmu.2026.1912560",
+        "pmid": "42698711"
+      },
+      {
+        "amassId": "AMBC_OLZKvGtbJhEHpjZCkfInYY54uav",
+        "title": "Generation of synthetic nanobodies against delicate proteins",
+        "doi": "10.1038/s41596-020-0304-x",
+        "pmid": "32269381"
+      },
+      {
+        "amassId": "AMBC_IUuvyt24VteiXOh2y8xzyKv8cxC",
+        "title": "Nanobody-based combination vaccine using licensed protein nanoparticles protects animals against respiratory and viral infections",
+        "doi": "10.1038/s41551-025-01529-y",
+        "pmid": "41136606"
+      },
+      {
+        "amassId": "AMBC_75q9pVmOFeiuLzgLlCKCo4AGoCt",
+        "title": "An iterative strategy to design 4-1BB agonist nanobodies de novo with generative AI models",
+        "doi": "10.1038/s41598-025-10241-5",
+        "pmid": "40659740"
+      }
+    ]
+  },
+  {
+    "query": "Atomically accurate de novo design antibodies RFdiffusion",
+    "limit": 20,
+    "utc": "2026-11-14T12:48:31.543622+00:00",
+    "status": 200,
+    "billed_credits": "5",
+    "records": [
+      {
+        "amassId": "AMBC_Lz5g8lDFUMBXhqq8lelbAEJfmVH",
+        "title": "Atomically accurate de novo design of antibodies with RFdiffusion",
+        "doi": "10.1038/s41586-025-09721-5",
+        "pmid": "41193805"
+      },
+      {
+        "amassId": "AMBC_V9pvV02G1BjyGr9tefzFoT6uAv9",
+        "title": "Atomically accurate de novo design of antibodies with RFdiffusion",
+        "doi": "10.1101/2024.03.14.585103",
+        "pmid": "38562682"
+      },
+      {
+        "amassId": "AMBC_6poBHWLhkEhP77QCbUh5yjX60jv",
+        "title": "A Structure-Guided Workflow for Efficiently Developing Antibody Against CEACAM-6 with RF Diffusion",
+        "doi": "10.1149/ma2026-01341604mtgabs"
+      },
+      {
+        "amassId": "AMBC_IRErEoBGMTZSRrUA0JFQj8kPmd0",
+        "title": "De novo design of protein structure and function with RFdiffusion",
+        "doi": "10.1038/s41586-023-06415-8",
+        "pmid": "37433327"
+      },
+      {
+        "amassId": "AMBC_Qsu83QD2NdLCT1fu4YKY61EQdR4",
+        "title": "Nativeness-constrained diffusion framework for nanobody design",
+        "doi": "10.1093/bib/bbaf631.049"
+      },
+      {
+        "amassId": "AMBC_1EqARobWbVAAOF5ZoUTGiSkZpIO",
+        "title": "P07.01 Targeting cancer antigens with de novo designed protein binders as bispecific T cell engagers",
+        "doi": "10.1136/jitc-2026-itoc.51"
+      },
+      {
+        "amassId": "AMBC_FNwBVGoBypRpMIhmSPs5W4PF7SG",
+        "title": "De novo design of high-affinity binders of bioactive helical peptides",
+        "doi": "10.1038/s41586-023-06953-1",
+        "pmid": "38109936"
+      },
+      {
+        "amassId": "AMBC_CU9WARvHA4TQRwVU2iRMn6eqI3i",
+        "title": "De novo design of peptide binding antibodies",
+        "doi": "10.1002/bit.26133",
+        "pmid": "28425638"
+      },
+      {
+        "amassId": "AMBC_68V2GG9S23jSssmXXh6myA5VfIH",
+        "title": "De Novo Design of High-Affinity HER2-Targeting Protein Minibinders",
+        "doi": "10.3390/biom15111587",
+        "pmid": "41301505"
+      },
+      {
+        "amassId": "AMBC_UT0BdQQzyU0zqXrHVy10TQ0fkzO",
+        "title": "The past, present and future of de novo protein design",
+        "doi": "10.1038/s41586-026-10328-7",
+        "pmid": "42056544"
+      },
+      {
+        "amassId": "AMBC_aOsRQooOkl5oinmbZSVOfL4YK9M",
+        "title": "Dynamics-informed RFdiffusion for de novo design of binders against the KRAS conformational ensemble",
+        "doi": "10.1080/07391102.2025.2609688",
+        "pmid": "41473986"
+      },
+      {
+        "amassId": "AMBC_KV1ymwW4Yzoxvh6FXJFZwRjQqGV",
+        "title": "Computational design of metalloproteases",
+        "doi": "10.1038/s41586-026-11167-2",
+        "pmid": "42875487"
+      },
+      {
+        "amassId": "AMBC_3et6ZOzcOQRHFeRsL7DNVzUjIW4",
+        "title": "Target-Specific De Novo Peptide Binder Design with DiffPepBuilder",
+        "doi": "10.1021/acs.jcim.4c00975",
+        "pmid": "39266056"
+      },
+      {
+        "amassId": "AMBC_DmhdFwPBJCGo0C7SLicra90wI6t",
+        "title": "Parametrically guided design of beta barrels and transmembrane nanopores using deep learning",
+        "doi": "10.1101/2024.07.22.604663",
+        "pmid": "39091726"
+      },
+      {
+        "amassId": "AMBC_PJMRS1vEtLoes0FiTOiO21EzQIX",
+        "title": "Parametrically guided design of beta barrels and transmembrane nanopores using deep learning",
+        "doi": "10.1073/pnas.2425459122",
+        "pmid": "40953261"
+      },
+      {
+        "amassId": "AMBC_VhbhumA0RxgHOIhrytik03BAaN4",
+        "title": "Advances in designed bionanomolecular assemblies for biotechnological and biomedical applications",
+        "doi": "10.1016/j.copbio.2024.103256",
+        "pmid": "39827499"
+      },
+      {
+        "amassId": "AMBC_VG2MXLkVuYpNrhbH61YIlSOnvZ5",
+        "title": "Seed-Guided De Novo Design Expands the Structural Diversity of Antitoxin Protein Binders",
+        "doi": "10.64898/2026.08.02.742339",
+        "pmid": "42620311"
+      },
+      {
+        "amassId": "AMBC_5qnwNXgWo4iYGtl1qmmwKORUr62",
+        "title": "Integration of Evolutionary Analysis With RFdiffusion for De Novo Design of Aggregation-Resistant Frataxin",
+        "doi": "10.1002/prot.70114",
+        "pmid": "41563298"
+      },
+      {
+        "amassId": "AMBC_ULcNy7GhjRPS6emXpBnj1PE3NYH",
+        "title": "De novo design of epitope-specific antibodies via a structure-driven computational workflow",
+        "doi": "10.1038/s41467-025-67361-9",
+        "pmid": "41365923"
+      },
+      {
+        "amassId": "AMBC_3ts0055uZ0pyoZ9DoKWD9AyjbZ2",
+        "title": "O15.05 Development of peptide-centric CARs targeting IGFBPL-1 for cancer immunotherapy in small-cell lung cancer",
+        "doi": "10.1136/jitc-2026-itoc.12"
+      }
+    ]
+  },
+  {
+    "query": "blinded prospective antibody thermostability prediction developability",
+    "limit": 20,
+    "utc": "2026-11-14T12:48:36.423757+00:00",
+    "status": 200,
+    "billed_credits": "5",
+    "records": [
+      {
+        "amassId": "AMBC_7JQnNNTyfm9h6mBu1BVMLkjM0Ix",
+        "title": "Ginkgo Datapoints Antibody Developability Competition outcomes: limited model performance and a call for data standardization",
+        "doi": "10.1080/19420862.2026.2634216",
+        "pmid": "41724677"
+      },
+      {
+        "amassId": "AMBC_NMWcikGLGTtC6o15wowZa5fYPYX",
+        "title": "Toward enhancement of antibody thermostability and affinity by computational design in the absence of antigen",
+        "doi": "10.1080/19420862.2024.2362775",
+        "pmid": "38899735"
+      },
+      {
+        "amassId": "AMBC_BJFWrKeCafnxZbW9Nrc9pieUaS5",
+        "title": "A blinded, prospective benchmark of in silico antibody discovery anchored to experimental affinity and developability",
+        "doi": "10.1038/s41587-026-03238-6",
+        "pmid": "42618805"
+      },
+      {
+        "amassId": "AMBC_BsOW4BqGhtVjSOIq2MVVh5hs3FH",
+        "title": "A high-throughput platform for biophysical antibody developability assessment to enable AI/ML model training",
+        "doi": "10.1080/19420862.2025.2593055",
+        "pmid": "41328470"
+      },
+      {
+        "amassId": "AMBC_3be5qWJeC8dWj7xmDFHjiejk7Yh",
+        "title": "AB-Panda: An AI-Generated Antibody Structure-Based Tool for Developability Prediction",
+        "doi": "10.1002/bit.70086",
+        "pmid": "41174971"
+      },
+      {
+        "amassId": "AMBC_HV8pUIDwfGpZvhnQccJlEjHfRD0",
+        "title": "Predicting Antibody Developability Profiles Through Early Stage Discovery Screening",
+        "doi": "10.1080/19420862.2020.1743053",
+        "pmid": "32249670"
+      },
+      {
+        "amassId": "AMBC_8Nwc4z6j2rLmtCZPiIpGzhuTNkv",
+        "title": "Fitness Landscape for Antibodies 2: Benchmarking Reveals That Protein AI Models Cannot Yet Consistently Predict Developability Properties",
+        "doi": "10.64898/2025.12.27.696706",
+        "pmid": "41497662"
+      },
+      {
+        "amassId": "AMBC_Xg03TE4pB3CpB96ByTQ4yJkFeLK",
+        "title": "Assay-Level Modeling and External Validation of Antibody Developability Using Physicochemical Descriptors and Sequence Embeddings",
+        "doi": "10.1021/acs.jcim.6c02385",
+        "pmid": "42906056"
+      },
+      {
+        "amassId": "AMBC_Wisq9sgyGBSmjTz0c2zzwyzrXap",
+        "title": "The Therapeutic Antibody Profiler for Computational Developability Assessment",
+        "doi": "10.1007/978-1-0716-1450-1_5",
+        "pmid": "34478133"
+      },
+      {
+        "amassId": "AMBC_T6M0W5zDRYhMJH5J8MZMy2BIhNf",
+        "title": "Developability assessment at early-stage discovery to enable development of antibody-derived therapeutics",
+        "doi": "10.1093/abt/tbac029",
+        "pmid": "36683767"
+      },
+      {
+        "amassId": "AMBC_N6f2zbiRxaetbTCvAkdMAypZlcM",
+        "title": "Current advances in biopharmaceutical informatics: guidelines, impact and challenges in the computational developability assessment of antibody therapeutics",
+        "doi": "10.1080/19420862.2021.2020082",
+        "pmid": "35104168"
+      },
+      {
+        "amassId": "AMBC_XwUGmBh2icQzL22ruwqvF0WY2Cc",
+        "title": "PROPERMAB: an integrative framework for in silico prediction of antibody developability using machine learning",
+        "doi": "10.1080/19420862.2025.2474521",
+        "pmid": "40042626"
+      },
+      {
+        "amassId": "AMBC_Q6NrQhJhZz77QTpRLL66TD9roYS",
+        "title": "Assessment of Therapeutic Antibody Developability by Combinations of In Vitro and In Silico Methods",
+        "doi": "10.1007/978-1-0716-1450-1_4",
+        "pmid": "34478132"
+      },
+      {
+        "amassId": "AMBC_2CL3c9M1M0ecA2GpvFYqhcB0d8A",
+        "title": "Application of protein language models for antibody developability prediction",
+        "doi": "10.1080/19420862.2026.2647489",
+        "pmid": "41860336"
+      },
+      {
+        "amassId": "AMBC_Rh68WfQvK0GwH7bdZEYkH8EJFw7",
+        "title": "Predicting Agitation Stability of Monoclonal Antibodies during Developability Assessment",
+        "doi": "10.1021/acs.molpharmaceut.6c00092",
+        "pmid": "42028833"
+      },
+      {
+        "amassId": "AMBC_DRMpEHuH81fJmJDAjq6sShmLnhy",
+        "title": "Structure, heterogeneity and developability assessment of therapeutic antibodies",
+        "doi": "10.1080/19420862.2018.1553476",
+        "pmid": "30543482"
+      },
+      {
+        "amassId": "AMBC_TAuhSLzBosSu6SJRwQPtHlH8KKs",
+        "title": "AbLEF: antibody language ensemble fusion for thermodynamically empowered property predictions",
+        "doi": "10.1093/bioinformatics/btae268",
+        "pmid": "38627249"
+      },
+      {
+        "amassId": "AMBC_RVOzYhDw1GNOT5QASvHNlg1ryZ2",
+        "title": "Structure-Based Optimization of Antibody-Based Biotherapeutics for Improved Developability: A Practical Guide for Molecular Modelers",
+        "doi": "10.1007/978-1-0716-2609-2_11",
+        "pmid": "36346594"
+      },
+      {
+        "amassId": "AMBC_OGbYZxoXynP5sFHHWdqHPLMKOZJ",
+        "title": "Blueprint for antibody biologics developability",
+        "doi": "10.1080/19420862.2023.2185924",
+        "pmid": "36880643"
+      },
+      {
+        "amassId": "AMBC_PQmu6k62HoSL1CiBebHtSxwBi5K",
+        "title": "An antibody developability triaging pipeline exploiting protein language models",
+        "doi": "10.1080/19420862.2025.2472009",
+        "pmid": "40038849"
+      }
+    ]
+  }
+]

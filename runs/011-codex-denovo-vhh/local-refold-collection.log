@@ -1,0 +1,258 @@
+[
+  {
+    "name": "novel1_crop119",
+    "model": "openfold3",
+    "iptm": 0.086983,
+    "epitope_recall": 0.0,
+    "ca_nac": 0.9148395707872178,
+    "pose_rmsd": 38.65656981903141
+  },
+  {
+    "name": "novel1_ectodomain607",
+    "model": "openfold3",
+    "iptm": 0.102655,
+    "epitope_recall": 0.0,
+    "ca_nac": 0.9187444449530708,
+    "pose_rmsd": 77.35151311090435
+  },
+  {
+    "name": "novel2_crop119",
+    "model": "openfold3",
+    "iptm": 0.067117,
+    "epitope_recall": 0.0,
+    "ca_nac": 0.9187102830674915,
+    "pose_rmsd": 45.51061703531968
+  },
+  {
+    "name": "novel2_ectodomain607",
+    "model": "openfold3",
+    "iptm": 0.107031,
+    "epitope_recall": 0.0,
+    "ca_nac": 0.9163621207343208,
+    "pose_rmsd": 35.5210512049856
+  },
+  {
+    "name": "novel3_crop119",
+    "model": "openfold3",
+    "iptm": 0.084919,
+    "epitope_recall": 0.0,
+    "ca_nac": 0.8968491817050509,
+    "pose_rmsd": 44.025072375322516
+  },
+  {
+    "name": "novel3_ectodomain607",
+    "model": "openfold3",
+    "iptm": 0.121471,
+    "epitope_recall": 0.0,
+    "ca_nac": 0.9001971062554252,
+    "pose_rmsd": 77.76679123218314
+  },
+  {
+    "name": "high_footprint_known_hit",
+    "model": "openfold3",
+    "iptm": 0.065532,
+    "epitope_recall": 0.21052631578947367,
+    "ca_nac": 0.9377862557305229,
+    "pose_rmsd": 49.37690509321166
+  },
+  {
+    "name": "fixed_framework_control",
+    "model": "openfold3",
+    "iptm": 0.117108,
+    "epitope_recall": 1.0,
+    "ca_nac": 0.4218839764065213,
+    "pose_rmsd": 37.89532050228765
+  },
+  {
+    "name": "trastuzumab_wt_control",
+    "model": "openfold3",
+    "iptm": 0.530762,
+    "epitope_recall": 0.10526315789473684,
+    "ca_nac": 0.9587699144151477,
+    "pose_rmsd": null
+  },
+  {
+    "name": "novel1_crop119",
+    "model": "mol1",
+    "iptm": 0.16313,
+    "epitope_recall": 0.3684210526315789,
+    "ca_nac": 0.8994293000963001,
+    "pose_rmsd": 34.031470245682925
+  },
+  {
+    "name": "novel1_ectodomain607",
+    "model": "mol1",
+    "iptm": 0.14866,
+    "epitope_recall": 0.0,
+    "ca_nac": 0.8933590138753253,
+    "pose_rmsd": 23.280670717316088
+  },
+  {
+    "name": "novel2_crop119",
+    "model": "mol1",
+    "iptm": 0.124493,
+    "epitope_recall": 0.0,
+    "ca_nac": 0.898659304300944,
+    "pose_rmsd": 46.15471195271367
+  },
+  {
+    "name": "novel2_ectodomain607",
+    "model": "mol1",
+    "iptm": 0.137174,
+    "epitope_recall": 0.0,
+    "ca_nac": 0.8916360812717014,
+    "pose_rmsd": 57.35324304871065
+  },
+  {
+    "name": "novel3_crop119",
+    "model": "mol1",
+    "iptm": 0.189638,
+    "epitope_recall": 0.42105263157894735,
+    "ca_nac": 0.9043227666219076,
+    "pose_rmsd": 39.14254985780687
+  },
+  {
+    "name": "novel3_ectodomain607",
+    "model": "mol1",
+    "iptm": 0.16721,
+    "epitope_recall": 0.42105263157894735,
+    "ca_nac": 0.8939346220228406,
+    "pose_rmsd": 31.349635914593517
+  },
+  {
+    "name": "high_footprint_known_hit",
+    "model": "mol1",
+    "iptm": 0.289242,
+    "epitope_recall": 0.3157894736842105,
+    "ca_nac": 0.900326747470432,
+    "pose_rmsd": 23.385458967497428
+  },
+  {
+    "name": "fixed_framework_control",
+    "model": "mol1",
+    "iptm": 0.135901,
+    "epitope_recall": 0.0,
+    "ca_nac": 0.8932614017062716,
+    "pose_rmsd": 50.65335371409004
+  },
+  {
+    "name": "trastuzumab_wt_control",
+    "model": "mol1",
+    "iptm": 0.952837,
+    "epitope_recall": 0.9473684210526315,
+    "ca_nac": 0.9459483629862467,
+    "pose_rmsd": null
+  },
+  {
+    "name": "novel1_crop119",
+    "model": "opendde-abag",
+    "iptm": 0.35495,
+    "epitope_recall": 0.0,
+    "ca_nac": 0.9427796588473849,
+    "pose_rmsd": 33.02118776376639
+  },
+  {
+    "name": "novel1_ectodomain607",
+    "model": "opendde-abag",
+    "iptm": 0.217358,
+    "epitope_recall": 0.0,
+    "ca_nac": 0.9083735122680663,
+    "pose_rmsd": 89.18135050821678
+  },
+  {
+    "name": "novel2_crop119",
+    "model": "opendde-abag",
+    "iptm": 0.244729,
+    "epitope_recall": 0.0,
+    "ca_nac": 0.953798932393392,
+    "pose_rmsd": 37.48965913175417
+  },
+  {
+    "name": "novel2_ectodomain607",
+    "model": "opendde-abag",
+    "iptm": 0.394892,
+    "epitope_recall": 0.0,
+    "ca_nac": 0.9365221574571397,
+    "pose_rmsd": 65.94955880621396
+  },
+  {
+    "name": "novel3_crop119",
+    "model": "opendde-abag",
+    "iptm": 0.216511,
+    "epitope_recall": 0.21052631578947367,
+    "ca_nac": 0.9361350877549913,
+    "pose_rmsd": 38.75360910462442
+  },
+  {
+    "name": "novel3_ectodomain607",
+    "model": "opendde-abag",
+    "iptm": 0.232489,
+    "epitope_recall": 0.42105263157894735,
+    "ca_nac": 0.8990719892713759,
+    "pose_rmsd": 38.88064578585478
+  },
+  {
+    "name": "high_footprint_known_hit",
+    "model": "opendde-abag",
+    "iptm": 0.20763,
+    "epitope_recall": 0.5263157894736842,
+    "ca_nac": 0.9514266018337673,
+    "pose_rmsd": 22.943531693890545
+  },
+  {
+    "name": "fixed_framework_control",
+    "model": "opendde-abag",
+    "iptm": 0.417635,
+    "epitope_recall": 0.0,
+    "ca_nac": 0.9567397265964084,
+    "pose_rmsd": 32.29977836280158
+  },
+  {
+    "name": "trastuzumab_wt_control",
+    "model": "opendde-abag",
+    "iptm": 0.797757,
+    "epitope_recall": 0.3684210526315789,
+    "ca_nac": 0.969269421895345,
+    "pose_rmsd": null
+  },
+  {
+    "name": "novel1_crop119",
+    "model": "af2ig",
+    "iptm": 0.1078,
+    "epitope_recall": 0.10526315789473684,
+    "ca_nac": 0.9412121158175999,
+    "pose_rmsd": 9.615555709963965
+  },
+  {
+    "name": "novel2_crop119",
+    "model": "af2ig",
+    "iptm": 0.1124,
+    "epitope_recall": 0.05263157894736842,
+    "ca_nac": 0.9165591930813259,
+    "pose_rmsd": 20.01478653395759
+  },
+  {
+    "name": "novel3_crop119",
+    "model": "af2ig",
+    "iptm": 0.1209,
+    "epitope_recall": 0.15789473684210525,
+    "ca_nac": 0.9093902138604057,
+    "pose_rmsd": 20.07217281506513
+  },
+  {
+    "name": "high_footprint_known_hit",
+    "model": "af2ig",
+    "iptm": 0.1095,
+    "epitope_recall": 0.21052631578947367,
+    "ca_nac": 0.927132669236925,
+    "pose_rmsd": 22.30289938625503
+  },
+  {
+    "name": "fixed_framework_control",
+    "model": "af2ig",
+    "iptm": 0.0979,
+    "epitope_recall": 0.05263157894736842,
+    "ca_nac": 0.9425940238104927,
+    "pose_rmsd": 23.534233157808703
+  }
+]

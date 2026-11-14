@@ -1,0 +1,1184 @@
+{
+  "provider": "AMASS",
+  "base_url": "https://api.amass.tech/api/v1",
+  "pricing_url": "https://platform.amass.tech/documentation/getting-started/pricing",
+  "currency": "USD",
+  "dollars_per_credit": 0.01,
+  "initial_credit_estimate_cap": 48,
+  "initial_balance": 10495,
+  "closing_balance": 10448,
+  "charged_credits": 47.0,
+  "cost_USD": 0.47,
+  "search_results": 127,
+  "preflight": {
+    "endpoint": "/credits/api-credits",
+    "status": 401,
+    "description": "Earlier probe before credential became available",
+    "charged_credits": 0
+  },
+  "requests": [
+    {
+      "action": "credit balance",
+      "status": 200,
+      "remaining": 10495,
+      "charged_credits": 0.0,
+      "utc": "2026-11-14T12:15:38+00:00"
+    },
+    {
+      "action": "search",
+      "core": "biomedcore",
+      "q": "binder-enriched antibody libraries",
+      "purpose": "sequence baseline",
+      "limit": 20,
+      "status": 200,
+      "charged_credits": 5.0,
+      "hits": [
+        {
+          "amassId": "AMBC_D3jgznTkXJu1PfKG4OnMLwojJUY",
+          "pmid": "36341416",
+          "doi": "10.3389/fimmu.2022.999034",
+          "title": "Hallucinating structure-conditioned antibody libraries for target-specific binders",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36341416/"
+        },
+        {
+          "amassId": "AMBC_D1G6zlN9Tx2Px5EsjQdO5Sr7cUT",
+          "doi": "10.6084/m9.figshare.33511453.v1",
+          "title": "Utilizing Phage Display to Identify Antibody Binders for Bispecific T-cell Engager",
+          "url": "https://doi.org/10.6084/m9.figshare.33511453.v1"
+        },
+        {
+          "amassId": "AMBC_2UcKUYLsIJborWon9uk6XZ7Atcr",
+          "doi": "10.6084/m9.figshare.33511453",
+          "title": "Utilizing Phage Display to Identify Antibody Binders for Bispecific T-cell Engager",
+          "url": "https://doi.org/10.6084/m9.figshare.33511453"
+        },
+        {
+          "amassId": "AMBC_GyHGNgOPwfxEoq4ZG1SS0m3aLMk",
+          "pmid": "30539478",
+          "doi": "10.1007/978-1-4939-8958-4_15",
+          "title": "Phage Display Technology for Human Monoclonal Antibodies",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30539478/"
+        },
+        {
+          "amassId": "AMBC_2VuZr7xUwgA80tFSpnwzjGQYyqe",
+          "pmid": "38354946",
+          "doi": "10.1016/j.nbt.2024.02.001",
+          "title": "Deep mining of antibody phage-display selections using Oxford Nanopore Technologies and Dual Unique Molecular Identifiers",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38354946/"
+        },
+        {
+          "amassId": "AMBC_2zwAdCsbcp3huyFlN9Hxw0kGm2U",
+          "pmid": "33140055",
+          "doi": "10.1101/2020.10.29.361287",
+          "title": "A cell-free antibody engineering platform rapidly generates SARS-CoV-2 neutralizing antibodies",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33140055/"
+        },
+        {
+          "amassId": "AMBC_CZPBK9zXopPqTdBrx8jjMkukyPj",
+          "pmid": "39321026",
+          "doi": "10.1016/j.xpro.2024.103339",
+          "title": "Protocol for engineering binding domains to recognize ligand-bound receptors by using yeast surface display",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39321026/"
+        },
+        {
+          "amassId": "AMBC_S6OP0nDG3FpiiGXLtK3YhS3Idm2",
+          "pmid": "25626152",
+          "doi": "10.1016/j.cbpa.2015.01.003",
+          "title": "Identification of optimal protein binders through the use of large genetically encoded display libraries",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25626152/"
+        },
+        {
+          "amassId": "AMBC_OiCBY4vM0S5879RVPux5jWkhWzx",
+          "pmid": "27669967",
+          "doi": "10.2174/1381612822666160923113714",
+          "title": "Therapeutic Antibodies by Phage Display",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27669967/"
+        },
+        {
+          "amassId": "AMBC_IclV64Q9ggrXh7kdsNXLoabUKAh",
+          "pmid": "39414385",
+          "doi": "10.1101/pdb.prot108615",
+          "title": "Semisynthetic Phage Display Library Construction: Generation of Filtered Libraries",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39414385/"
+        },
+        {
+          "amassId": "AMBC_Q9zAQDNSQ4yIe1eyWFFeFmo04A6",
+          "pmid": "26607994",
+          "doi": "10.1016/j.nbt.2015.11.005",
+          "title": "Platform for high-throughput antibody selection using synthetically-designed antibody libraries",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26607994/"
+        },
+        {
+          "amassId": "AMBC_OLZKvGtbJhEHpjZCkfInYY54uav",
+          "pmid": "32269381",
+          "doi": "10.1038/s41596-020-0304-x",
+          "title": "Generation of synthetic nanobodies against delicate proteins",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32269381/"
+        },
+        {
+          "amassId": "AMBC_2a2L0FsFQjazJgixpOsfkS6CMeQ",
+          "pmid": "35464476",
+          "doi": "10.3389/fimmu.2022.869825",
+          "title": "Construction of a Large Size Human Immunoglobulin Heavy Chain Variable (VH) Domain Library, Isolation and Characterization of Novel Human Antibody VH Domains Targeting PD-L1 and CD22",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35464476/"
+        },
+        {
+          "amassId": "AMBC_4QtxdBGQW6MH2iIgcvsBtiwarIS",
+          "pmid": "42457721",
+          "doi": "10.1038/s41467-026-75463-1",
+          "title": "ADAPT-M: a workflow for rapid, quantitative in vitro measurements of enriched protein libraries",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42457721/"
+        },
+        {
+          "amassId": "AMBC_4qFbHRNkH88fLOGdx5tmH0RhB8y",
+          "pmid": "42400835",
+          "doi": "10.1007/978-1-0716-5249-7_4",
+          "title": "Generation of a CDR H3 Randomized Monoclonal Antibody Library by Kunkel Mutagenesis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42400835/"
+        },
+        {
+          "amassId": "AMBC_Dco8M0TeNKMHv2t0S7X0aUcLbUp",
+          "pmid": "42144075",
+          "doi": "10.1016/j.slast.2026.100429",
+          "title": "Improving genotyped functional screening: A versatile closed-tube PCR for Illumina library generation reduces background sequences in multiplexed sequencing",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42144075/"
+        },
+        {
+          "amassId": "AMBC_UMnDXBpfpKM2bhK7cvEo8L0vMrJ",
+          "pmid": "30400198",
+          "doi": "10.3390/ijms19113444",
+          "title": "A Two-Step Approach for the Design and Generation of Nanobodies",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30400198/"
+        },
+        {
+          "amassId": "AMBC_7PllpkMz3SsvkrD9rySC84AF3B0",
+          "pmid": "30801054",
+          "doi": "10.1093/abt/tby012",
+          "title": "Generation of antibody-based therapeutics targeting the Idiotype of B-cell Malignancies",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30801054/"
+        },
+        {
+          "amassId": "AMBC_7fcX5HUJnZa5yDiJmaU34VnQhF5",
+          "pmid": "23868333",
+          "doi": "10.1002/pro.2312",
+          "title": "Design, construction, and characterization of a second-generation DARP in library with reduced hydrophobicity",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23868333/"
+        },
+        {
+          "amassId": "AMBC_AALdqvpci9VI6woIq0eoJ7qYpD5",
+          "pmid": "1896445",
+          "doi": "10.1073/pnas.88.18.7978",
+          "title": "Assembly of combinatorial antibody libraries on phage surfaces: the gene III site",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/1896445/"
+        }
+      ],
+      "returned": 20,
+      "utc": "2026-11-14T12:15:42+00:00"
+    },
+    {
+      "action": "search",
+      "core": "biomedcore",
+      "q": "blinded prospective benchmark in silico antibody discovery",
+      "purpose": "prospective transfer",
+      "limit": 20,
+      "status": 200,
+      "charged_credits": 5.0,
+      "hits": [
+        {
+          "amassId": "AMBC_BJFWrKeCafnxZbW9Nrc9pieUaS5",
+          "pmid": "42618805",
+          "doi": "10.1038/s41587-026-03238-6",
+          "title": "A blinded, prospective benchmark of in silico antibody discovery anchored to experimental affinity and developability",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42618805/"
+        },
+        {
+          "amassId": "AMBC_UvOc5QSGQUOlLsChL6cTexP86SA",
+          "pmid": "39496931",
+          "doi": "10.1038/s41587-024-02469-9",
+          "title": "AIntibody: an experimentally validated in silico antibody discovery design challenge",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39496931/"
+        },
+        {
+          "amassId": "AMBC_IAJcQKQPIbtbylqbMm1kN3piz1K",
+          "pmid": "42026072",
+          "doi": "10.1038/s41467-026-72093-5",
+          "title": "In silico discovery of nanobody binders to a G-protein coupled receptor using AlphaFold-Multimer",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42026072/"
+        },
+        {
+          "amassId": "AMBC_7JQnNNTyfm9h6mBu1BVMLkjM0Ix",
+          "pmid": "41724677",
+          "doi": "10.1080/19420862.2026.2634216",
+          "title": "Ginkgo Datapoints Antibody Developability Competition outcomes: limited model performance and a call for data standardization",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41724677/"
+        },
+        {
+          "amassId": "AMBC_Tu1CroBphd4GHoktGbZLHva29lP",
+          "pmid": "39770013",
+          "doi": "10.3390/molecules29245923",
+          "title": "The Application of Machine Learning on Antibody Discovery and Optimization",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39770013/"
+        },
+        {
+          "amassId": "AMBC_37zQ0xntm58DG5evh3i7HUHvVUU",
+          "pmid": "30298157",
+          "doi": "10.1039/c8cs00523k",
+          "title": "Third generation antibody discovery methods: in silico rational design",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30298157/"
+        },
+        {
+          "amassId": "AMBC_RgGf9BfUMvFh0FWTK1SBrwDl4Pg",
+          "pmid": "42564542",
+          "doi": "10.1016/j.isci.2026.116522",
+          "title": "A systematic evaluation framework for universal antibody-antigen binding affinity prediction and candidate recommendation",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42564542/"
+        },
+        {
+          "amassId": "AMBC_1r8XJbtKwHlq0TxjxBrc4yhJ8DP",
+          "pmid": "35830864",
+          "doi": "10.1093/bib/bbac267",
+          "title": "Machine-designed biotherapeutics: opportunities, feasibility and advantages of deep learning in computational antibody discovery",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35830864/"
+        },
+        {
+          "amassId": "AMBC_6b1I2s3oS2MTaeQHJKfpGBHFTUt",
+          "pmid": "40017562",
+          "doi": "10.3389/fbinf.2025.1533983",
+          "title": "Unlocking the potential of in silico approach in designing antibodies against SARS-CoV-2",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40017562/"
+        },
+        {
+          "amassId": "AMBC_2nuUt19qWf07j2ps9b2pZd1jepa",
+          "pmid": "40475769",
+          "doi": "10.3389/fimmu.2025.1571371",
+          "title": "Applying computational protein design to therapeutic antibody discovery - current state and perspectives",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40475769/"
+        },
+        {
+          "amassId": "AMBC_Zky8MHJUDVOLC6p3YqcyVP1Dm5I",
+          "pmid": "37609373",
+          "doi": "10.3389/fmolb.2023.1221626",
+          "title": "How can we discover developable antibody-based biotherapeutics?",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37609373/"
+        },
+        {
+          "amassId": "AMBC_AbxL5p06yKs60NOzE1FUFYQpRWt",
+          "pmid": "39951479",
+          "doi": "10.1021/acs.jcim.4c02296",
+          "title": "The Need for Continuing Blinded Pose- and Activity Prediction Benchmarks",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39951479/"
+        },
+        {
+          "amassId": "AMBC_FdJV1utvQILako15jVDIbG1IyQ3",
+          "pmid": "31042706",
+          "doi": "10.1371/journal.pcbi.1006980",
+          "title": "Experimentally guided computational antibody affinity maturation with de novo docking, modelling and rational design",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31042706/"
+        },
+        {
+          "amassId": "AMBC_Ne9LTdi3sOCsqHBHBwj1u79OWde",
+          "pmid": "43009741",
+          "doi": "10.1177/08828245261499794",
+          "title": "peleke-1: A Suite of Protein Language Models Fine-Tuned for Targeted Antibody Sequence Generation",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43009741/"
+        },
+        {
+          "amassId": "AMBC_Ibt5pPIDy1D95TthbtT77YjaR3",
+          "pmid": "33539768",
+          "doi": "10.1016/j.str.2021.01.005",
+          "title": "An expanded benchmark for antibody-antigen docking and affinity prediction reveals insights into antibody recognition determinants",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33539768/"
+        },
+        {
+          "amassId": "AMBC_Mgx8TgoKb5DL9Pa3pD6wLwaHhY6",
+          "pmid": "30523762",
+          "doi": "10.1080/19420862.2018.1556082",
+          "title": "In vitro and in silico assessment of the developability of a designed monoclonal antibody library",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30523762/"
+        },
+        {
+          "amassId": "AMBC_PvSaN9AchyLxMIBFn36KgwxtJ64",
+          "pmid": "39851074",
+          "doi": "10.1093/bib/bbaf023",
+          "title": "Deep learning-based design and experimental validation of a medicine-like human antibody library",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39851074/"
+        },
+        {
+          "amassId": "AMBC_2ZKw4bhK1NuORWVwdvxQYos0oXN",
+          "pmid": "42640010",
+          "doi": "10.1093/bib/bbag459",
+          "title": "Evidence-aware comparison of sequence-centric machine learning for antibody discovery and optimization",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42640010/"
+        },
+        {
+          "amassId": "AMBC_K3a0dIUO9gRzC87LWNzQeudDSuv",
+          "pmid": "42776794",
+          "doi": "10.3390/antib15050081",
+          "title": "The Evolution of Artificial Intelligence in Antibody Design: From Structure-Based Engineering to Generative Models",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42776794/"
+        },
+        {
+          "amassId": "AMBC_I6DUPxuO6fPAYiTi29tgYZ7qJz7",
+          "pmid": "42869376",
+          "doi": "10.1016/j.drudis.2026.104835",
+          "title": "From artificial intelligence promise to translational practice in drug discovery: Reproducibility, validation and evidence-based implementation",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42869376/"
+        }
+      ],
+      "returned": 20,
+      "utc": "2026-11-14T12:15:47+00:00"
+    },
+    {
+      "action": "search",
+      "core": "biomedcore",
+      "q": "Structural Plausibility Without Binding Specificity",
+      "purpose": "structural confidence",
+      "limit": 20,
+      "status": 200,
+      "charged_credits": 5.0,
+      "hits": [
+        {
+          "amassId": "AMBC_ZVQG6B7P6cDuAXSOAFazFBM5pyH",
+          "pmid": "33354781",
+          "doi": "10.1111/dmcn.14777",
+          "title": "Specificity of association and plausibility in paediatric neurodisability",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33354781/"
+        },
+        {
+          "amassId": "AMBC_RBFFVaIiDOcMQaFiyLCoYWyYEb6",
+          "pmid": "42459534",
+          "doi": "10.1007/s42113-024-00196-7",
+          "title": "Plausibility and Early Theory in Linguistics and Cognitive Science",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42459534/"
+        },
+        {
+          "amassId": "AMBC_KAEvxssqEMngM6Y7fk6s0payg5d",
+          "pmid": "42281398",
+          "doi": "10.1093/bib/bbag279",
+          "title": "Deep Prior Framework: integrating functional specificity with general plausibility for targeted protein evolution",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42281398/"
+        },
+        {
+          "amassId": "AMBC_ZxxFuhq65A6WxkVD9IzgLznK35N",
+          "pmid": "36808785",
+          "doi": "10.1002/pro.4601",
+          "title": "Reply to \"Intrinsic protein disorder uncouples affinity from binding specificity\"",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36808785/"
+        },
+        {
+          "amassId": "AMBC_XOPwyBJYj88zsvg6Pgbpslvmcco",
+          "pmid": "25369664",
+          "title": "Office hours on Saturday without plausibility check",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25369664/"
+        },
+        {
+          "amassId": "AMBC_7QRsR7udje22jaIdWpTLC8am4AA",
+          "pmid": "35319306",
+          "doi": "10.1177/17470218221092400",
+          "title": "Plausibility and structural reanalysis in L1 and L2 sentence comprehension",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35319306/"
+        },
+        {
+          "amassId": "AMBC_6cHJOWQMfMjrb8mwUSlfiDVFoI0",
+          "pmid": "20192548",
+          "doi": "10.1037/a0018027",
+          "title": "Effects of plausibility on structural priming",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20192548/"
+        },
+        {
+          "amassId": "AMBC_9oPctPJlk5faHFfcKUnVR7mEO4a",
+          "pmid": "42649842",
+          "doi": "10.3390/bioengineering13080953",
+          "title": "Integrated Computational Modeling Reveals a Structurally Plausible Transient Paclitaxel-NK2R Interaction",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42649842/"
+        },
+        {
+          "amassId": "AMBC_JpNlv8ZIhcDbZ3vWZcOBVZ4Qp7h",
+          "pmid": "27147539",
+          "doi": "10.1002/prot.25061",
+          "title": "Statistical analysis of structural determinants for protein-DNA-binding specificity",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27147539/"
+        },
+        {
+          "amassId": "AMBC_bRJECyHwiMHC5xmnpmx8LYzfmr",
+          "pmid": "7659083",
+          "doi": "10.1210/mend.9.4.7659083",
+          "title": "Structural determinants of DNA-binding specificity by steroid receptors",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/7659083/"
+        },
+        {
+          "amassId": "AMBC_9LFZG5XQInrJSn9jl1CdHQAyEm4",
+          "pmid": "21071205",
+          "doi": "10.1016/j.sbi.2010.10.002",
+          "title": "Protein binding specificity versus promiscuity",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21071205/"
+        },
+        {
+          "amassId": "AMBC_QpSRdjQyKQGAHf6on1zgVxrAF7X",
+          "pmid": "827496",
+          "doi": "10.1016/0019-2791(76)90239-1",
+          "title": "Structural basis for the specificity of phosphorylcholine-binding immunoglobulins",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/827496/"
+        },
+        {
+          "amassId": "AMBC_QCF82trdpdUxC6rFpXXz6luN8wC",
+          "pmid": "42957427",
+          "doi": "10.1080/19420862.2026.2753234",
+          "title": "SprintX: mitigating data scarcity in antibody design via synthetic structural prior knowledge dataset",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42957427/"
+        },
+        {
+          "amassId": "AMBC_ATmRTdJNyt7I633XA5mVgdiznOM",
+          "pmid": "42441251",
+          "doi": "10.1039/d6sc02631a",
+          "title": "HFGuidedDesign: de novo design of cyclic peptide binders via structure-guided discrete diffusion",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42441251/"
+        },
+        {
+          "amassId": "AMBC_Fd3GN0ikAFrY7dV1a2P74VOD8nC",
+          "pmid": "42779121",
+          "doi": "10.1016/j.molp.2026.09.009",
+          "title": "Structural evolution of LEAFY reveals DNA-mediated cooperativity and dimerization shifts at the water-to-land transition",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42779121/"
+        },
+        {
+          "amassId": "AMBC_YOtFRrAw2tWPmBxsv7oxmTYDjDA",
+          "pmid": "18385236",
+          "doi": "10.1128/JVI.00135-08",
+          "title": "Structural basis for the receptor binding specificity of Norwalk virus",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18385236/"
+        },
+        {
+          "amassId": "AMBC_Li9xKHKiTLtGvw0UT8SksPSbo9i",
+          "pmid": "16246914",
+          "doi": "10.1093/nar/gki875",
+          "title": "Protein-DNA binding specificity predictions with structural models",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16246914/"
+        },
+        {
+          "amassId": "AMBC_AdBlYDbjwJhgvpkRZly7hGPtAmD",
+          "pmid": "26384429",
+          "doi": "10.1093/nar/gkv919",
+          "title": "A structural approach reveals how neighbouring C2H2 zinc fingers influence DNA binding specificity",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26384429/"
+        },
+        {
+          "amassId": "AMBC_ShX5JopmKLXVzumlWsPH8SirszQ",
+          "pmid": "28923982",
+          "doi": "10.4049/jimmunol.1700744",
+          "title": "Emerging Concepts in TCR Specificity: Rationalizing and (Maybe) Predicting Outcomes",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28923982/"
+        },
+        {
+          "amassId": "AMBC_82QhKQGwEvPpfdLz28PyFavYKJL",
+          "pmid": "35167467",
+          "doi": "10.1109/TVCG.2022.3150496",
+          "title": "Breaking Plausibility Without Breaking Presence - Evidence For The Multi-Layer Nature Of Plausibility",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35167467/"
+        }
+      ],
+      "returned": 20,
+      "utc": "2026-11-14T12:15:51+00:00"
+    },
+    {
+      "action": "search",
+      "core": "biomedcore",
+      "q": "Trastuzumab HER2 Complex Formation Stress Induced Modifications",
+      "purpose": "chemical stability",
+      "limit": 20,
+      "status": 200,
+      "charged_credits": 5.0,
+      "hits": [
+        {
+          "amassId": "AMBC_BibSCHeKmFxuFIBS6GDWARfIqWa",
+          "pmid": "35047480",
+          "doi": "10.3389/fchem.2021.794247",
+          "title": "Effect of Trastuzumab-HER2 Complex Formation on Stress-Induced Modifications in the CDRs of Trastuzumab",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35047480/"
+        },
+        {
+          "amassId": "AMBC_OWYQuEBr8PUqRgJUl0EQvwdJXEt",
+          "pmid": "30288503",
+          "title": "Implications of Autophagy and Oxidative Stress in Trastuzumab-Mediated Cardiac Toxicities",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30288503/"
+        },
+        {
+          "amassId": "AMBC_CC71mm0sfUB1OAr6vHjxrw2xk7r",
+          "pmid": "34257270",
+          "doi": "10.1038/s41419-021-03991-3",
+          "title": "miR-301a-3p induced by endoplasmic reticulum stress mediates the occurrence and transmission of trastuzumab resistance in HER2-positive gastric cancer",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34257270/"
+        },
+        {
+          "amassId": "AMBC_5WPqhBpifn56gbuIhTUa9mURxQC",
+          "doi": "10.1158/1538-7445.sabcs23-po3-24-04",
+          "title": "Abstract PO3-24-04: Altered epigenetic modifications and genome architecture reshape lipid metabolism during secondary trastuzumab resistance formation of HER2-positive breast cancer",
+          "url": "https://doi.org/10.1158/1538-7445.sabcs23-po3-24-04"
+        },
+        {
+          "amassId": "AMBC_LDD3R8dT8hwS2O5MgsauWOMfhTy",
+          "pmid": "38723875",
+          "doi": "10.1016/j.jsb.2024.108095",
+          "title": "Structure and conformational variability of the HER2-trastuzumab-pertuzumab complex",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38723875/"
+        },
+        {
+          "amassId": "AMBC_EsuxDT0fSVGPZwXjYp1QuAAqryb",
+          "pmid": "31042744",
+          "doi": "10.1371/journal.pone.0216095",
+          "title": "Cryo-EM Structure of HER2-trastuzumab-pertuzumab complex",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31042744/"
+        },
+        {
+          "amassId": "AMBC_KO495mOCRzsPU6qqgDzS671EkLv",
+          "pmid": "31086176",
+          "doi": "10.1038/s41467-019-10138-8",
+          "title": "An integrated stress response via PKR suppresses HER2+ cancers and improves trastuzumab therapy",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31086176/"
+        },
+        {
+          "amassId": "AMBC_2UvGjT1cdQzcBLssBGIbxncHvDr",
+          "pmid": "33557368",
+          "doi": "10.3390/antib10010007",
+          "title": "Trastuzumab Blocks the Receiver Function of HER2 Leading to the Population Shifts of HER2-Containing Homodimers and Heterodimers",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33557368/"
+        },
+        {
+          "amassId": "AMBC_49SgkxAkB1fZsyscorKaEYtfONP",
+          "pmid": "38612751",
+          "doi": "10.3390/ijms25073940",
+          "title": "Exploring the Combined Action of Adding Pertuzumab to Branded Trastuzumab versus Trastuzumab Biosimilars for Treating HER2+ Breast Cancer",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38612751/"
+        },
+        {
+          "amassId": "AMBC_NSGrmW667WERXmSKqZb7vxIrk1G",
+          "pmid": "24255707",
+          "doi": "10.1371/journal.pone.0079543",
+          "title": "Trastuzumab alters the expression of genes essential for cardiac function and induces ultrastructural changes of cardiomyocytes in mice",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24255707/"
+        },
+        {
+          "amassId": "AMBC_RbSX9xiWLnWdL0EoOaZY2Gsva5l",
+          "pmid": "37337732",
+          "doi": "10.2217/imt-2023-0065",
+          "title": "Enhanced binding at fever temperatures of HER2 in complex with trastuzumab and pertuzumab",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37337732/"
+        },
+        {
+          "amassId": "AMBC_WgAJWTOn6gnX3akyQIt2KYtRaHr",
+          "pmid": "36552857",
+          "doi": "10.3390/cells11244093",
+          "title": "A Novel Mechanism Underlying the Inhibitory Effects of Trastuzumab on the Growth of HER2-Positive Breast Cancer Cells",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36552857/"
+        },
+        {
+          "amassId": "AMBC_C5bjvuz7s6SFvT10zgLjEDLS61p",
+          "pmid": "38698660",
+          "doi": "10.1021/acs.analchem.3c04161",
+          "title": "Structural Characterization of Monoclonal Antibodies and Epitope Mapping by FFAP Footprinting",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38698660/"
+        },
+        {
+          "amassId": "AMBC_KFQ9Gh4UwMQdlexJjcUXsSHp8Oj",
+          "pmid": "39335484",
+          "doi": "10.3390/biomedicines12091970",
+          "title": "Changes in Mitochondrial Function and Cell Death Patterns in Peripheral Blood Mononuclear Cells during Trastuzumab Treatment Following Doxorubicin Chemotherapy",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39335484/"
+        },
+        {
+          "amassId": "AMBC_8rrCK5hrzNDwnrIFwwYdD2SaJTb",
+          "pmid": "40724844",
+          "doi": "10.3390/ijms26146593",
+          "title": "HER2-Driven Breast Cancer: Role of the Chaperonin HSP90 in Modulating Response to Trastuzumab-Based Therapeutic Combinations",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40724844/"
+        },
+        {
+          "amassId": "AMBC_L1nrNyOizzevoIefePFtTipKuw8",
+          "pmid": "38219531",
+          "doi": "10.1016/j.drup.2024.101051",
+          "title": "Tyrosine phosphorylation-mediated YAP1-TFAP2A interactions coordinate transcription and trastuzumab resistance in HER2+ breast cancer",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38219531/"
+        },
+        {
+          "amassId": "AMBC_IiCBQIAc0abZOL0x4BAZzTERxPy",
+          "pmid": "29720121",
+          "doi": "10.1186/s12885-018-4387-5",
+          "title": "C-Cbl reverses HER2-mediated tamoxifen resistance in human breast cancer cells",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29720121/"
+        },
+        {
+          "amassId": "AMBC_HDdRy0GOOpMNOWyzR6QBatF5Yw3",
+          "pmid": "21324925",
+          "doi": "10.1158/0008-5472.CAN-10-1872",
+          "title": "Trastuzumab has preferential activity against breast cancers driven by HER2 homodimers",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21324925/"
+        },
+        {
+          "amassId": "AMBC_JmL0zT18WRdVRL9bs2GvQRkzdYK",
+          "pmid": "22295219",
+          "doi": "10.4061/2011/352182",
+          "title": "Molecular Mechanisms of Trastuzumab Resistance in HER2 Overexpressing Breast Cancer",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22295219/"
+        },
+        {
+          "amassId": "AMBC_JwIYHpe9Ps6Qg4BEUnmUuaWuSFd",
+          "pmid": "37569408",
+          "doi": "10.3390/ijms241512031",
+          "title": "Binding Affinity of Trastuzumab and Pertuzumab Monoclonal Antibodies to Extracellular HER2 Domain",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37569408/"
+        }
+      ],
+      "returned": 20,
+      "utc": "2026-11-14T12:15:57+00:00"
+    },
+    {
+      "action": "search",
+      "core": "biomedcore",
+      "q": "high-throughput biophysical antibody developability assessment",
+      "purpose": "therapeutic feasibility",
+      "limit": 20,
+      "status": 200,
+      "charged_credits": 5.0,
+      "hits": [
+        {
+          "amassId": "AMBC_BsOW4BqGhtVjSOIq2MVVh5hs3FH",
+          "pmid": "41328470",
+          "doi": "10.1080/19420862.2025.2593055",
+          "title": "A high-throughput platform for biophysical antibody developability assessment to enable AI/ML model training",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41328470/"
+        },
+        {
+          "amassId": "AMBC_HV8pUIDwfGpZvhnQccJlEjHfRD0",
+          "pmid": "32249670",
+          "doi": "10.1080/19420862.2020.1743053",
+          "title": "Predicting Antibody Developability Profiles Through Early Stage Discovery Screening",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32249670/"
+        },
+        {
+          "amassId": "AMBC_Wisq9sgyGBSmjTz0c2zzwyzrXap",
+          "pmid": "34478133",
+          "doi": "10.1007/978-1-0716-1450-1_5",
+          "title": "The Therapeutic Antibody Profiler for Computational Developability Assessment",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34478133/"
+        },
+        {
+          "amassId": "AMBC_FmJVUu8h4p8yFHPQjXyGbO16Wo7",
+          "pmid": "24492294",
+          "doi": "10.4161/mabs.27431",
+          "title": "High-throughput screening for developability during early-stage antibody discovery using self-interaction nanoparticle spectroscopy",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24492294/"
+        },
+        {
+          "amassId": "AMBC_T6M0W5zDRYhMJH5J8MZMy2BIhNf",
+          "pmid": "36683767",
+          "doi": "10.1093/abt/tbac029",
+          "title": "Developability assessment at early-stage discovery to enable development of antibody-derived therapeutics",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36683767/"
+        },
+        {
+          "amassId": "AMBC_BolQnF6w0sFpNyo2wyzQiFwCuhl",
+          "pmid": "40347482",
+          "doi": "10.1080/19420862.2025.2502127",
+          "title": "Biologics developability data analysis using hierarchical clustering accelerates candidate lead selection, optimization, and preformulation screening",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40347482/"
+        },
+        {
+          "amassId": "AMBC_XwUGmBh2icQzL22ruwqvF0WY2Cc",
+          "pmid": "40042626",
+          "doi": "10.1080/19420862.2025.2474521",
+          "title": "PROPERMAB: an integrative framework for in silico prediction of antibody developability using machine learning",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40042626/"
+        },
+        {
+          "amassId": "AMBC_CSCxp8vJ1HHZ44xGwRK7BF6KRSn",
+          "pmid": "30130444",
+          "doi": "10.1080/19420862.2018.1504726",
+          "title": "High-throughput screening of antibody variants for chemical stability: identification of deamidation-resistant mutants",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30130444/"
+        },
+        {
+          "amassId": "AMBC_1jyVGD3xzeRgOYcPGEmH5r1wnTE",
+          "pmid": "39723199",
+          "doi": "10.2147/BTT.S486345",
+          "title": "Biophysical Analysis of Therapeutic Antibodies in the Early Development Pipeline",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39723199/"
+        },
+        {
+          "amassId": "AMBC_N6f2zbiRxaetbTCvAkdMAypZlcM",
+          "pmid": "35104168",
+          "doi": "10.1080/19420862.2021.2020082",
+          "title": "Current advances in biopharmaceutical informatics: guidelines, impact and challenges in the computational developability assessment of antibody therapeutics",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35104168/"
+        },
+        {
+          "amassId": "AMBC_Q6NrQhJhZz77QTpRLL66TD9roYS",
+          "pmid": "34478132",
+          "doi": "10.1007/978-1-0716-1450-1_4",
+          "title": "Assessment of Therapeutic Antibody Developability by Combinations of In Vitro and In Silico Methods",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34478132/"
+        },
+        {
+          "amassId": "AMBC_MT678EzvjWdHhzdR4ueoTpr00hR",
+          "pmid": "43023544",
+          "doi": "10.1080/19420862.2026.2755649",
+          "title": "High-throughput developability assessment of 181 untagged VHH single-domain antibodies",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/43023544/"
+        },
+        {
+          "amassId": "AMBC_F4XQYupKucimqV6w4XWZxdOaZYc",
+          "pmid": "25514497",
+          "doi": "10.4161/19420862.2014.985544",
+          "title": "Early developability screen of therapeutic antibody candidates using Taylor dispersion analysis and UV area imaging detection",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25514497/"
+        },
+        {
+          "amassId": "AMBC_ZvPjGvopSk6WorUhCMrfSNu2q6L",
+          "pmid": "31553901",
+          "doi": "10.1016/j.celrep.2019.08.056",
+          "title": "Affinity Maturation Enhances Antibody Specificity but Compromises Conformational Stability",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31553901/"
+        },
+        {
+          "amassId": "AMBC_OGbYZxoXynP5sFHHWdqHPLMKOZJ",
+          "pmid": "36880643",
+          "doi": "10.1080/19420862.2023.2185924",
+          "title": "Blueprint for antibody biologics developability",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36880643/"
+        },
+        {
+          "amassId": "AMBC_ZqA2FRiAhQHkbRmlyBPY68lF8Zo",
+          "pmid": "42129096",
+          "doi": "10.1007/978-1-0716-5041-7_14",
+          "title": "Ultra-Dilute Developability Analysis of Antibody Self-Association and Non-Specific Binding",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42129096/"
+        },
+        {
+          "amassId": "AMBC_SkaDkRxQnmE3YA4I04rr0YLP8Sl",
+          "pmid": "34890875",
+          "doi": "10.1016/j.copbio.2021.10.027",
+          "title": "Improving antibody drug development using bionanotechnology",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34890875/"
+        },
+        {
+          "amassId": "AMBC_Rh68WfQvK0GwH7bdZEYkH8EJFw7",
+          "pmid": "42028833",
+          "doi": "10.1021/acs.molpharmaceut.6c00092",
+          "title": "Predicting Agitation Stability of Monoclonal Antibodies during Developability Assessment",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42028833/"
+        },
+        {
+          "amassId": "AMBC_DRMpEHuH81fJmJDAjq6sShmLnhy",
+          "pmid": "30543482",
+          "doi": "10.1080/19420862.2018.1553476",
+          "title": "Structure, heterogeneity and developability assessment of therapeutic antibodies",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30543482/"
+        },
+        {
+          "amassId": "AMBC_C03KfIMPlhelXrWcyARuIqX4FGc",
+          "pmid": "37766540",
+          "doi": "10.1080/19420862.2023.2261149",
+          "title": "A library approach for the de novo high-throughput isolation of humanized VHH domains with favorable developability properties following camelid immunization",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37766540/"
+        }
+      ],
+      "returned": 20,
+      "utc": "2026-11-14T12:16:01+00:00"
+    },
+    {
+      "action": "search",
+      "core": "trialcore",
+      "q": "NCT01772472",
+      "purpose": "clinical translation",
+      "limit": 20,
+      "status": 200,
+      "charged_credits": 5.0,
+      "hits": [
+        {
+          "amassId": "AMTC_C5lwUxmDUyTaLCUqYx6hNnt47f7",
+          "registryId": "NCT01772472",
+          "nctId": "NCT01772472",
+          "officialTitle": "A Randomized, Multicenter, Open-Label Phase III Study to Evaluate the Efficacy and Safety of Trastuzumab Emtansine Versus Trastuzumab as Adjuvant Therapy for Patients With HER2-Positive Primary Breast Cancer Who Have Residual Tumor Present Pathologically in the Breast or Axillary Lymph Nodes Following Preoperative Therapy",
+          "briefTitle": "A Study of Trastuzumab Emtansine Versus Trastuzumab as Adjuvant Therapy in Patients With HER2-Positive Breast Cancer Who Have Residual Tumor in the Breast or Axillary Lymph Nodes Following Preoperative Therapy (KATHERINE)",
+          "url": "https://clinicaltrials.gov/study/NCT01772472",
+          "sourceUrl": "https://clinicaltrials.gov/study/NCT01772472"
+        }
+      ],
+      "returned": 1,
+      "utc": "2026-11-14T12:16:01+00:00"
+    },
+    {
+      "action": "search",
+      "core": "patentcore",
+      "q": "anti HER2 associated antibody compositions designed by artificial intelligence",
+      "purpose": "prior art",
+      "limit": 20,
+      "status": 200,
+      "charged_credits": 5.0,
+      "hits": [
+        {
+          "amassId": "AMPC_CudChXcHGaktNcMn6TGjuO7PNVc",
+          "publicationNumber": "WO-2025122885-A1",
+          "title": "Anti-her2 associated antibody compositions designed by artificial intelligence and methods of use",
+          "url": "https://patents.google.com/patent/WO2025122885A1"
+        },
+        {
+          "amassId": "AMPC_VDqMHeDYzXaCkjhts4fheJpfruv",
+          "publicationNumber": "US-2018344846-A1",
+          "title": "Humanized pan-her antibody compositions",
+          "url": "https://patents.google.com/patent/US2018344846A1"
+        },
+        {
+          "amassId": "AMPC_VEO0Hfi5StgPpwhoFt45mLbHU9A",
+          "publicationNumber": "US-2025304718-A1",
+          "title": "Her2 single domain antibody and uses thereof",
+          "url": "https://patents.google.com/patent/US2025304718A1"
+        },
+        {
+          "amassId": "AMPC_aFIsrfyX71vw0YrGSLZ71Ex7i9j",
+          "publicationNumber": "US-2024317890-A1",
+          "title": "Her2 single domain antibodies variants and cars thereof",
+          "url": "https://patents.google.com/patent/US2024317890A1"
+        },
+        {
+          "amassId": "AMPC_CNWaCVrfoQErxo0CUzz28PLwbda",
+          "publicationNumber": "US-2015071927-A1",
+          "title": "Anti-her2 and anti-igf-ir bi-specific antibodies and uses thereof",
+          "url": "https://patents.google.com/patent/US2015071927A1"
+        },
+        {
+          "amassId": "AMPC_6Zbm7KwE2jcaKutESgadDgOGohk",
+          "publicationNumber": "US-2011064736-A1",
+          "title": "Tumor therapy with an antibody for vascular endothelial growth factor and an antibody for human epithelial growth factor receptor type 2",
+          "url": "https://patents.google.com/patent/US2011064736A1"
+        },
+        {
+          "amassId": "AMPC_ABTaF0VbQe6EBPu6ojIdOyKMXtf",
+          "publicationNumber": "US-2025215111-A1",
+          "title": "Compositions and methods for treating her2 positive metastatic breast cancer and other cancers",
+          "url": "https://patents.google.com/patent/US2025215111A1"
+        },
+        {
+          "amassId": "AMPC_YNmwwRhVF5KqXflJ21lrhjdZXwn",
+          "publicationNumber": "US-9957325-B2",
+          "title": "Synthetic antibody mimic peptides",
+          "url": "https://patents.google.com/patent/US9957325B2"
+        },
+        {
+          "amassId": "AMPC_DuPkoHidJWGnP4Y8ulWVWmW0dpt",
+          "publicationNumber": "US-2008159981-A1",
+          "title": "Methods of therapy for cancers characterized by overexpression of the HER2 receptor protein",
+          "url": "https://patents.google.com/patent/US2008159981A1"
+        },
+        {
+          "amassId": "AMPC_GT9wkIHXhEMveE4JLnSMSPvAfjR",
+          "publicationNumber": "US-11453724-B2",
+          "title": "Recombinant bifunctional protein targeting CD47 and HER2",
+          "url": "https://patents.google.com/patent/US11453724B2"
+        },
+        {
+          "amassId": "AMPC_GAXaxqdwT9bo05dupUG97efwyQt",
+          "publicationNumber": "US-2024366671-A1",
+          "title": "Combined her2 and meso dual-target car-t vector, construction method therefor and application thereof in cancer",
+          "url": "https://patents.google.com/patent/US2024366671A1"
+        },
+        {
+          "amassId": "AMPC_6PAj29DULMzPGWaVcqlCdyGns8T",
+          "publicationNumber": "US-11718671-B2",
+          "title": "Bispecific antibody and uses thereof",
+          "url": "https://patents.google.com/patent/US11718671B2"
+        },
+        {
+          "amassId": "AMPC_6dqTuPj1BwypbdpCD07DpoMsibK",
+          "publicationNumber": "US-11525008-B2",
+          "title": "Methods and pharmaceutical compositions for the treatment of lung cancer",
+          "url": "https://patents.google.com/patent/US11525008B2"
+        },
+        {
+          "amassId": "AMPC_4e9fesjx052lgDGJr7iByv3RmDk",
+          "publicationNumber": "US-2025218531-A1",
+          "title": "Unlocking de novo antibody design with generative artificial intelligence",
+          "url": "https://patents.google.com/patent/US2025218531A1"
+        },
+        {
+          "amassId": "AMPC_HpYJbC9OtiP9aN9jainW8aloCg4",
+          "publicationNumber": "US-2015283220-A1",
+          "title": "Methods and compositions for the treatment of cancer",
+          "url": "https://patents.google.com/patent/US2015283220A1"
+        },
+        {
+          "amassId": "AMPC_AEjhos7RNM0d9hvuiaVqJbiUys6",
+          "publicationNumber": "US-10753935-B2",
+          "title": "Prognostic method and kits useful in said method",
+          "url": "https://patents.google.com/patent/US10753935B2"
+        },
+        {
+          "amassId": "AMPC_8WfXlk3xH8P7dkUBTVz3Y7u82Ke",
+          "publicationNumber": "US-2007111957-A1",
+          "title": "Synthetic gene encoding human epidermal growth factor 2/neu antigen and uses thereof",
+          "url": "https://patents.google.com/patent/US2007111957A1"
+        },
+        {
+          "amassId": "AMPC_Q8w43T5OfFRTOR5Iz99vxAjn6Ds",
+          "publicationNumber": "US-11266726-B2",
+          "title": "Compositions and methods for the treatment of HER2-expressing solid tumors",
+          "url": "https://patents.google.com/patent/US11266726B2"
+        },
+        {
+          "amassId": "AMPC_PaUdITLTUh34VpQaOaWI4XVzLUq",
+          "publicationNumber": "US-2017080087-A1",
+          "title": "Combination Therapies for Treating Her2-Positive Cancers that are Resistant to Her2-Targeted Therapies",
+          "url": "https://patents.google.com/patent/US2017080087A1"
+        },
+        {
+          "amassId": "AMPC_1yfQ8fFoFnrYlTQesEATu21N3jQ",
+          "publicationNumber": "US-2003171278-A1",
+          "title": "Compounds that bind HER2",
+          "url": "https://patents.google.com/patent/US2003171278A1"
+        }
+      ],
+      "returned": 20,
+      "utc": "2026-11-14T12:16:05+00:00"
+    },
+    {
+      "action": "search",
+      "core": "regulatorycore",
+      "q": "Kadcyla",
+      "purpose": "product format and clinical context",
+      "limit": 20,
+      "status": 200,
+      "charged_credits": 5.0,
+      "hits": [
+        {
+          "amassId": "AMRC_WQSCuMnVs27wupDTUPTQwX0lTJ",
+          "name": "Kadcyla",
+          "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125427",
+          "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125427"
+        },
+        {
+          "amassId": "AMRC_14ZBQVAlLN3OClwGNXSivAB871e",
+          "name": "Kadcyla",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kadcyla",
+          "sourceUrl": "https://www.ema.europa.eu/en/medicines/human/EPAR/kadcyla"
+        },
+        {
+          "amassId": "AMRC_F7RcAPE8xWlLcc0h4ltklHAqh40",
+          "name": "Phesgo",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/phesgo",
+          "sourceUrl": "https://www.ema.europa.eu/en/medicines/human/EPAR/phesgo"
+        },
+        {
+          "amassId": "AMRC_DT7xEogdEtoSieGE0AjD92QrRrv",
+          "name": "Enhertu",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/enhertu",
+          "sourceUrl": "https://www.ema.europa.eu/en/medicines/human/EPAR/enhertu"
+        },
+        {
+          "amassId": "AMRC_aFRcE2VDZYdKf1yWjOZn5tYBZDd",
+          "name": "Perjeta",
+          "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125409",
+          "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=125409"
+        },
+        {
+          "amassId": "AMRC_YxKa4iHw9bmIbhg4N35J66TVA0Z",
+          "name": "Herceptin",
+          "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=103792",
+          "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=103792"
+        }
+      ],
+      "returned": 6,
+      "utc": "2026-11-14T12:16:05+00:00"
+    },
+    {
+      "action": "credit balance",
+      "status": 200,
+      "remaining": 10455,
+      "charged_credits": 0.0,
+      "utc": "2026-11-14T12:16:05+00:00"
+    },
+    {
+      "utc": "2026-11-14T12:17:00+00:00",
+      "action": "doi lookup",
+      "core": "biomedcore",
+      "status": 200,
+      "charged_credits": 1.0,
+      "requested": [
+        "10.1101/2024.03.26.586756",
+        "10.64898/2026.03.02.709004",
+        "10.1038/s41587-026-03238-6",
+        "10.1080/19420862.2026.2634216",
+        "10.1080/19420862.2025.2593055",
+        "10.3389/fimmu.2026.1951538",
+        "10.1080/19420862.2025.2532117",
+        "10.1101/2025.04.17.648362"
+      ],
+      "result": [
+        {
+          "input": {
+            "doi": "10.1101/2024.03.26.586756"
+          },
+          "error": {
+            "code": "NOT_FOUND",
+            "message": "Identifier not found"
+          }
+        },
+        {
+          "input": {
+            "doi": "10.64898/2026.03.02.709004"
+          },
+          "error": {
+            "code": "NOT_FOUND",
+            "message": "Identifier not found"
+          }
+        },
+        {
+          "input": {
+            "doi": "10.1038/s41587-026-03238-6"
+          },
+          "amassIds": [
+            "AMBC_BJFWrKeCafnxZbW9Nrc9pieUaS5"
+          ]
+        },
+        {
+          "input": {
+            "doi": "10.1080/19420862.2026.2634216"
+          },
+          "amassIds": [
+            "AMBC_7JQnNNTyfm9h6mBu1BVMLkjM0Ix"
+          ]
+        },
+        {
+          "input": {
+            "doi": "10.1080/19420862.2025.2593055"
+          },
+          "amassIds": [
+            "AMBC_BsOW4BqGhtVjSOIq2MVVh5hs3FH"
+          ]
+        },
+        {
+          "input": {
+            "doi": "10.3389/fimmu.2026.1951538"
+          },
+          "amassIds": [
+            "AMBC_3Pn6zEybKEU3zxAgKfBy4CWDnv9"
+          ]
+        },
+        {
+          "input": {
+            "doi": "10.1080/19420862.2025.2532117"
+          },
+          "amassIds": [
+            "AMBC_Ept1YihUddbypIrHsCXS17uFBnm"
+          ]
+        },
+        {
+          "input": {
+            "doi": "10.1101/2025.04.17.648362"
+          },
+          "error": {
+            "code": "NOT_FOUND",
+            "message": "Identifier not found"
+          }
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-14T12:17:00+00:00",
+      "action": "get by ID",
+      "status": 200,
+      "core": "biomedcore",
+      "id": "AMBC_BJFWrKeCafnxZbW9Nrc9pieUaS5",
+      "charged_credits": 1.0,
+      "record": {
+        "amassId": "AMBC_BJFWrKeCafnxZbW9Nrc9pieUaS5",
+        "title": "A blinded, prospective benchmark of in silico antibody discovery anchored to experimental affinity and developability",
+        "doi": "10.1038/s41587-026-03238-6",
+        "pmid": "42618805",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42618805/"
+      }
+    },
+    {
+      "utc": "2026-11-14T12:17:01+00:00",
+      "action": "get by ID",
+      "status": 200,
+      "core": "biomedcore",
+      "id": "AMBC_7JQnNNTyfm9h6mBu1BVMLkjM0Ix",
+      "charged_credits": 1.0,
+      "record": {
+        "amassId": "AMBC_7JQnNNTyfm9h6mBu1BVMLkjM0Ix",
+        "title": "Ginkgo Datapoints Antibody Developability Competition outcomes: limited model performance and a call for data standardization",
+        "doi": "10.1080/19420862.2026.2634216",
+        "pmid": "41724677",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41724677/"
+      }
+    },
+    {
+      "utc": "2026-11-14T12:17:01+00:00",
+      "action": "get by ID",
+      "status": 200,
+      "core": "biomedcore",
+      "id": "AMBC_BibSCHeKmFxuFIBS6GDWARfIqWa",
+      "charged_credits": 1.0,
+      "record": {
+        "amassId": "AMBC_BibSCHeKmFxuFIBS6GDWARfIqWa",
+        "title": "Effect of Trastuzumab-HER2 Complex Formation on Stress-Induced Modifications in the CDRs of Trastuzumab",
+        "doi": "10.3389/fchem.2021.794247",
+        "pmid": "35047480",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35047480/"
+      }
+    },
+    {
+      "utc": "2026-11-14T12:17:01+00:00",
+      "action": "get by ID",
+      "status": 200,
+      "core": "trialcore",
+      "id": "AMTC_C5lwUxmDUyTaLCUqYx6hNnt47f7",
+      "charged_credits": 1.0,
+      "record": {
+        "amassId": "AMTC_C5lwUxmDUyTaLCUqYx6hNnt47f7",
+        "briefTitle": "A Study of Trastuzumab Emtansine Versus Trastuzumab as Adjuvant Therapy in Patients With HER2-Positive Breast Cancer Who Have Residual Tumor in the Breast or Axillary Lymph Nodes Following Preoperative Therapy (KATHERINE)",
+        "nctId": "NCT01772472",
+        "sourceUrl": "https://clinicaltrials.gov/study/NCT01772472",
+        "url": "https://clinicaltrials.gov/study/NCT01772472",
+        "overallStatus": "COMPLETED",
+        "phase": "PHASE3"
+      }
+    },
+    {
+      "utc": "2026-11-14T12:17:02+00:00",
+      "action": "get by ID",
+      "status": 200,
+      "core": "patentcore",
+      "id": "AMPC_CudChXcHGaktNcMn6TGjuO7PNVc",
+      "charged_credits": 1.0,
+      "record": {
+        "amassId": "AMPC_CudChXcHGaktNcMn6TGjuO7PNVc",
+        "title": "Anti-her2 associated antibody compositions designed by artificial intelligence and methods of use",
+        "publicationNumber": "WO-2025122885-A1",
+        "url": "https://patents.google.com/patent/WO2025122885A1"
+      }
+    },
+    {
+      "utc": "2026-11-14T12:17:03+00:00",
+      "action": "get by ID",
+      "status": 200,
+      "core": "regulatorycore",
+      "id": "AMRC_14ZBQVAlLN3OClwGNXSivAB871e",
+      "charged_credits": 1.0,
+      "record": {
+        "amassId": "AMRC_14ZBQVAlLN3OClwGNXSivAB871e",
+        "name": "Kadcyla",
+        "sourceUrl": "https://www.ema.europa.eu/en/medicines/human/EPAR/kadcyla",
+        "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kadcyla",
+        "activeSubstance": "Trastuzumab Emtansine",
+        "agency": "EMA"
+      }
+    },
+    {
+      "utc": "2026-11-14T12:17:03+00:00",
+      "action": "credit balance",
+      "status": 200,
+      "remaining": 10448,
+      "charged_credits": 0.0
+    }
+  ]
+}

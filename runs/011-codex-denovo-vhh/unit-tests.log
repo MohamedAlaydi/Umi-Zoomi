@@ -1,0 +1,13 @@
+test_compact_structure_preserves_backbone_and_required_insertion_field (test_geometry.GeometryTests.test_compact_structure_preserves_backbone_and_required_insertion_field) ... ok
+test_superposition_is_rigid_and_preserves_chirality (test_geometry.GeometryTests.test_superposition_is_rigid_and_preserves_chirality) ... ok
+test_changed_sequence_cannot_reuse_reference_hash (test_preflight.PreflightTests.test_changed_sequence_cannot_reuse_reference_hash) ... ok
+test_csv_duplicates_and_format_mismatch_are_not_silent (test_preflight.PreflightTests.test_csv_duplicates_and_format_mismatch_are_not_silent) ... ok
+test_imported_claim_cannot_assign_track_or_official_acceptance (test_preflight.PreflightTests.test_imported_claim_cannot_assign_track_or_official_acceptance) ... ok
+test_vhh_label_cannot_disguise_a_generated_light_chain (test_preflight.PreflightTests.test_vhh_label_cannot_disguise_a_generated_light_chain) ... ok
+test_ambiguous_confidence_units_are_rejected (test_regional.RegionalTests.test_ambiguous_confidence_units_are_rejected) ... ok
+test_framework_average_excludes_cdrs_and_antigen_confidence (test_regional.RegionalTests.test_framework_average_excludes_cdrs_and_antigen_confidence) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.079s
+
+OK

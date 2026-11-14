@@ -1,0 +1,85 @@
+{
+  "model_id": "nanobodybuilder2",
+  "model_version": "ImmuneBuilder 1.2 / NanoBodyBuilder2",
+  "source_revision": "0df4e2ad82a1aa60f37ea9dae335d1198159ef78",
+  "input_sha256": "187a09389965fe44d2041759b4c6bd83ee48ce7c741ddf9bb9ef92767c67c4d3",
+  "parameters": {
+    "numbering_scheme": "imgt",
+    "model_ids": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "save_all": true,
+    "n_threads": -1,
+    "check_for_strained_bonds": true
+  },
+  "operation": "predict",
+  "checkpoint_sha256": {
+    "1": "2f8f398a95e2fd3fe38527415471a60346cb131864a1a4ef081e11816d74e995",
+    "2": "41c163511ad20d1aa67fbd50f64ced9a25381d0618847b16a19d5e14df73297e",
+    "3": "8de57b3f0b6b89acb0e87fc7b647522666dd90e86ed3138417cbcd785c982c4d",
+    "4": "96f3cfba8de00e4c833bc73efa821f6022ed65e951a4289c7e3b5409527964e0"
+  },
+  "files": {
+    "error_estimates.npy": {
+      "sha256": "9e75af47041dc14422fb421fbbda22f4aee8c17924fcb1a088c68d61838e5f0f",
+      "size_bytes": 624
+    },
+    "final_model.pdb": {
+      "sha256": "52588e2a00993ef7f5dfa9811874282d11e21fd991982fda2fb1d4e97844112b",
+      "size_bytes": 150887
+    },
+    "rank0_unrefined.pdb": {
+      "sha256": "6bafa3198d6dd58da3aeced6f850242710bad60112713d7bf21e050ef416f627",
+      "size_bytes": 76382
+    },
+    "rank1_unrefined.pdb": {
+      "sha256": "34005cdff9b783baacfbee9ba75aa2d064f877b14cb9bf768bfad7befd89df17",
+      "size_bytes": 76382
+    },
+    "rank2_unrefined.pdb": {
+      "sha256": "ec1bc0b46bde6fcc29fb8ad521ce8e6eca752587d4c1b77221e6586a3ebdfea2",
+      "size_bytes": 76382
+    },
+    "rank3_unrefined.pdb": {
+      "sha256": "62abe1ddce995ff348d0568bb67549f665499ee27b1085938fc9313ebee891de",
+      "size_bytes": 76382
+    }
+  },
+  "structures": {
+    "final_model.pdb": {
+      "atoms": 1860,
+      "residues": 124,
+      "sequence": "EVQLQESGGGLVQPGGSLRLSCASSGQSFSDYAMGWFRQAPGQKRTLVAAITPAGKVYFPDSVRGRFTISRDDAASSVFLQMNSLKPEDTAVYFCAATKRLNVSAWKSPVEWSHWGQGTQVTVS"
+    },
+    "rank0_unrefined.pdb": {
+      "atoms": 943,
+      "residues": 124,
+      "sequence": "EVQLQESGGGLVQPGGSLRLSCASSGQSFSDYAMGWFRQAPGQKRTLVAAITPAGKVYFPDSVRGRFTISRDDAASSVFLQMNSLKPEDTAVYFCAATKRLNVSAWKSPVEWSHWGQGTQVTVS"
+    },
+    "rank1_unrefined.pdb": {
+      "atoms": 943,
+      "residues": 124,
+      "sequence": "EVQLQESGGGLVQPGGSLRLSCASSGQSFSDYAMGWFRQAPGQKRTLVAAITPAGKVYFPDSVRGRFTISRDDAASSVFLQMNSLKPEDTAVYFCAATKRLNVSAWKSPVEWSHWGQGTQVTVS"
+    },
+    "rank2_unrefined.pdb": {
+      "atoms": 943,
+      "residues": 124,
+      "sequence": "EVQLQESGGGLVQPGGSLRLSCASSGQSFSDYAMGWFRQAPGQKRTLVAAITPAGKVYFPDSVRGRFTISRDDAASSVFLQMNSLKPEDTAVYFCAATKRLNVSAWKSPVEWSHWGQGTQVTVS"
+    },
+    "rank3_unrefined.pdb": {
+      "atoms": 943,
+      "residues": 124,
+      "sequence": "EVQLQESGGGLVQPGGSLRLSCASSGQSFSDYAMGWFRQAPGQKRTLVAAITPAGKVYFPDSVRGRFTISRDDAASSVFLQMNSLKPEDTAVYFCAATKRLNVSAWKSPVEWSHWGQGTQVTVS"
+    }
+  },
+  "runtime_metrics": {
+    "native_command_seconds": 7.603456343058497,
+    "backend": "cuda"
+  },
+  "refinement_convergence": "not_reported_by_upstream_save_api",
+  "uncertainty_interpretation": "Native ensemble coordinate spread; refined PDB B-factor is its square root, not pLDDT or Kd.",
+  "sequence_scope": "The native ANARCI-selected VHH domain; flanking non-domain residues may be trimmed."
+}

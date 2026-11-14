@@ -1,0 +1,52 @@
+{
+  "started_utc": "2026-11-14T13:03:00Z",
+  "target": "HER2 1N8Z entity 3 positions 489-607; UniProt P04626 511-629",
+  "target_length": 119,
+  "target_sequence_sha256": "1e079745f5855331f422ec196280ae55fe5c69931d434e2fe86216512dc648bc",
+  "comparison": "Six design arms plus strict novelty gate, independent fold/docking controls and retrospective affinity calibration",
+  "initial_batches": 2,
+  "designs_per_initial_batch": 8,
+  "intended_binder_length": "110..135",
+  "maximum_total_designs": 96,
+  "maximum_independent_finalists": 20,
+  "working_budget_usd": 20,
+  "budget_note": "Monitor billed usage before expansion; no provider hard cap promised. Design cost historical median $0.015 and P90 $0.047 per mixed-size BoltzGen job, not a quote.",
+  "gates": [
+    "canonical amino acids; declared format and length",
+    "immunum numbering >=0.1 and full variable-domain coverage",
+    "canonical antibody cysteines and antibody fold diagnostics",
+    "Installed validator receipt plus additional nearest-known sequence scope check; eligibility still subject to organisers.",
+    "new chain-role mapping for geometry",
+    "independent refold of plausible finalists; matched controls",
+    "experimental expression/SPR/competition/Tm remain pending"
+  ],
+  "stopping_rule": "After 96 model-designed sequences, strict novelty rejects all16 AntiFold variants; independent docking does not support three remaining VHH poses. Stop expansion, preserve stronger Fab panel, report negative evidence transparently.",
+  "executed_expansion": "80 generated complex designs: 16 hosted BoltzGen + 64 local antibody RFD4. 16 AntiFold CDR variants. 15 canonical-Cys diagnostic variants. 20 existing Fab controls.",
+  "deviation_from_initial_scale": "Do not scale unmodified hosted VHH request: all 16 lack canonical Cys, one is detected as light chain. Diagnose and compare preserved-Cys local antibody model.",
+  "completed_utc": "2026-11-14T13:56:00Z",
+  "completed_counts": {
+    "new_design_sequences": 96,
+    "cysteine_diagnostics": 15,
+    "existing_controls": 20,
+    "abguard_inputs": 131,
+    "abguard_valid": 127,
+    "strict_exploratory_novel_candidates": 3,
+    "blind_cofold_predictions": 27,
+    "initial_guess_predictions": 5,
+    "paired_diagnostic_cofolds": 16,
+    "NBB2_sequences": 3,
+    "NBB2_ensemble_structures": 15,
+    "retrospective_constructs": 30,
+    "retrospective_models_reanalysed": 90
+  },
+  "final_status": "Computational campaign complete. Three novelty-screened exploratory VHHs remain unsupported for binding; no prospective experimental measurements. No campaign job pending.",
+  "validator_update": "Installed abguard reference index610109 was run. All3 original finalists pass installed de_novo rules. A reference-skip bug in novelty-report is bypassed via public Python API with explicit reference; team-validate and adapter agree. Installed full-sequence classification is WT-relative, not all known antibodies.",
+  "budget_final": {
+    "JapanFold_USD": 0.415739,
+    "AMASS_credits": 25,
+    "AMASS_USD": 0.25,
+    "Nebius_USD": "not quoted by returned operations; participant resource",
+    "local_GPU_USD": "not separately metered"
+  },
+  "next_action": "SPR + competition + direct thermal measurements, or new target-conditioned design cycle; do not submit these as validated binders"
+}

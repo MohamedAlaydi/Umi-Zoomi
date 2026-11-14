@@ -131,3 +131,56 @@ number we plan against either way.
 a hackathon tier, how much API use the free plan includes, and whether MCP
 and API usage share a balance. All four are questions for the Amass people
 on site, which is why route 1 is first.
+
+---
+
+## The MCP connector is now in the repo (14 Nov)
+
+Route 2 no longer needs each person to add the server by hand. `.mcp.json`
+at the repo root declares it:
+
+```json
+{ "mcpServers": { "amass": { "type": "http", "url": "https://mcp.amass.tech/mcp" } } }
+```
+
+Any Claude Code session started inside `~/team14` offers it. Two one-time
+steps per person, both inside Claude:
+
+1. approve the project server when Claude asks on first start in this repo
+2. `/mcp` → amass → sign in, which opens the Amass OAuth page
+
+Sign-in is per person against their own free Amass account, so nothing in
+the file is a credential and nobody shares a balance. The endpoint answers
+`401` with `WWW-Authenticate: Bearer resource_metadata=.../.well-known/oauth-protected-resource`,
+i.e. normal OAuth discovery; Claude handles the rest.
+
+14 tools, `search_amass_<core>_records` and `get_amass_<core>_record` for
+the six cores, plus `get_amass_regulatorycore_document_section` and
+`send_feedback`.
+
+**Use the connector for claim-checking, the key only for scripts.** The
+connector is included on every plan including Free; the API bills credits
+per call.
+
+`scripts/amass` was committed without its executable bit, so `amass search`
+failed with "Permission denied" for anyone who tried it. Fixed with
+`chmod +x`; commit the mode change.
+
+## Decided, 14 Nov: one shared key after all
+
+We are on a single Amass subscription, so route 3 is what we are doing:
+one key, saved once with `amass key --shared`, used by anyone who has not
+saved a personal one. `scripts/env.sh` prefers a personal key and falls
+back to `~/.amass-keys/shared.key`, so route 1 still works later without
+anyone changing a command.
+
+What we accept by doing this: one 60-requests-per-minute budget for the
+whole team, so a loop by one person starves the others; one bill; and only
+the organisation admin can read the balance. Keep heavy literature work on
+the MCP connector, which is free and authenticates per person.
+
+**Measured, not documented**: one `amass search ... 1` (a single result)
+cost 10 credits, $0.10, not the $0.05 that "per 20 results" suggests. Asking
+for fewer results does not make a search cheaper, so set `limit` to what you
+actually want to read. Balance on the shared subscription was 10500 credits
+($105) at 12:15 on 14 Nov; `amass credits` shows it.

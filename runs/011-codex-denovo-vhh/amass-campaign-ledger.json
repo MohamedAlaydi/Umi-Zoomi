@@ -1,0 +1,214 @@
+[
+  {
+    "query": "Revisiting Structure Based Filtering AI Designed Antibodies Non CDR Antibody Confidence",
+    "billed_credits": "5",
+    "results": [
+      {
+        "amassId": "AMBC_K3a0dIUO9gRzC87LWNzQeudDSuv",
+        "title": "The Evolution of Artificial Intelligence in Antibody Design: From Structure-Based Engineering to Generative Models",
+        "doi": "10.3390/antib15050081"
+      },
+      {
+        "amassId": "AMBC_PsMaxA57fPR1XBvICVPK5wPBNEm",
+        "title": "Revolutionizing oncology: the role of Artificial Intelligence (AI) as an antibody design, and optimization tools",
+        "doi": "10.1186/s40364-025-00764-4"
+      },
+      {
+        "amassId": "AMBC_ZRRBjznCXj6eA5mahe1UEFAlSB8",
+        "title": "Artificial intelligence advancements in monoclonal antibody development technology",
+        "doi": "10.3389/fimmu.2026.1802038"
+      },
+      {
+        "amassId": "AMBC_Tu1CroBphd4GHoktGbZLHva29lP",
+        "title": "The Application of Machine Learning on Antibody Discovery and Optimization",
+        "doi": "10.3390/molecules29245923"
+      },
+      {
+        "amassId": "AMBC_ZJICUnJomd7kMgj1SoWsVAwa18K",
+        "title": "Structural Modeling of Nanobodies: A Benchmark of State-of-the-Art Artificial Intelligence Programs",
+        "doi": "10.3390/molecules28103991"
+      },
+      {
+        "amassId": "AMBC_HBleQk6ZUOztwcPWSMctwyHCjWz",
+        "title": "RosettaAntibodyDesign (RAbD): A general framework for computational antibody design",
+        "doi": "10.1371/journal.pcbi.1006112"
+      },
+      {
+        "amassId": "AMBC_VzxQjJqmQD8rTYqcudV7grDZK35",
+        "title": "Conformational Entropy as a Potential Liability of Computationally Designed Antibodies",
+        "doi": "10.3390/biom12050718"
+      },
+      {
+        "amassId": "AMBC_5vuSPWqVVuVXOdY8OJ3PfoNHiHL",
+        "title": "ABodyBuilder: Automated antibody structure prediction with data-driven accuracy estimation",
+        "doi": "10.1080/19420862.2016.1205773"
+      },
+      {
+        "amassId": "AMBC_EfPTYlbSR87pYLOg1eyrdBfbQLY",
+        "title": "Multi-objective antibody design and optimization using machine learning",
+        "doi": "10.1038/s44222-026-00444-4"
+      },
+      {
+        "amassId": "AMBC_D3jgznTkXJu1PfKG4OnMLwojJUY",
+        "title": "Hallucinating structure-conditioned antibody libraries for target-specific binders",
+        "doi": "10.3389/fimmu.2022.999034"
+      },
+      {
+        "amassId": "AMBC_F6rGvoWgDpqsqtlfMiN7C7MJbV1",
+        "title": "Benchmarking inverse folding models for antibody CDR sequence design",
+        "doi": "10.1371/journal.pone.0324566"
+      },
+      {
+        "amassId": "AMBC_B9eMwU0CUW2tBEDizLBEoONKYgh",
+        "title": "Applications of Artificial Intelligence in Biotech Drug Discovery and Product Development",
+        "doi": "10.1002/mco2.70317"
+      },
+      {
+        "amassId": "AMBC_WuoC5jHSRyQgw1IB0IxewhkwbWy",
+        "title": "Technological advancements in antibody-based therapeutics for treatment of diseases",
+        "doi": "10.1186/s12929-025-01190-2"
+      },
+      {
+        "amassId": "AMBC_CpnU2JV2vknq5n6nVNNQaGb4bvs",
+        "title": "AbFlex: designing antibody complementarity determining regions with flexible CDR definition",
+        "doi": "10.1093/bioinformatics/btae122"
+      },
+      {
+        "amassId": "AMBC_Ept1YihUddbypIrHsCXS17uFBnm",
+        "title": "Tuning antibody stability and function by rational designs of framework mutations",
+        "doi": "10.1080/19420862.2025.2532117"
+      },
+      {
+        "amassId": "AMBC_35tYqkLMwjzi3Pmq5cf79pLJA1W",
+        "title": "Challenges in antibody structure prediction",
+        "doi": "10.1080/19420862.2023.2175319"
+      },
+      {
+        "amassId": "AMBC_T0BicfbTqtewKEh5TNm963ufIUR",
+        "title": "Nanobodies: From Discovery to AI-Driven Design",
+        "doi": "10.3390/biology14050547"
+      },
+      {
+        "amassId": "AMBC_XYb5dyCU9mTC0pGVvHvFFCKAQRK",
+        "title": "Antibody complementarity determining region design using high-capacity machine learning",
+        "doi": "10.1093/bioinformatics/btz895"
+      },
+      {
+        "amassId": "AMBC_Lz5g8lDFUMBXhqq8lelbAEJfmVH",
+        "title": "Atomically accurate de novo design of antibodies with RFdiffusion",
+        "doi": "10.1038/s41586-025-09721-5"
+      },
+      {
+        "amassId": "AMBC_VzW00hrDedLvjMJY29eY0U5EvyZ",
+        "title": "The Patent and Literature Antibody Database (PLAbDab): an evolving reference set of functionally diverse, literature-annotated antibody sequences and structures",
+        "doi": "10.1093/nar/gkad1056"
+      }
+    ]
+  },
+  {
+    "query": "disulfide free single domain antibody stability",
+    "billed_credits": "5",
+    "results": [
+      {
+        "amassId": "AMBC_YO9DpqejWQK6dQu3CT86Xtu8iY9",
+        "title": "Improvement of single domain antibody stability by disulfide bond introduction",
+        "doi": "10.1007/978-1-61779-968-6_24"
+      },
+      {
+        "amassId": "AMBC_QdRQWetmb7y7KVpriYCYtQigUcW",
+        "title": "Characterization of single-domain antibodies with an engineered disulfide bond",
+        "doi": "10.1007/978-1-61779-968-6_25"
+      },
+      {
+        "amassId": "AMBC_Th6GbXy4ThQQQHTlWKxDSwo3j73",
+        "title": "Evaluation of disulfide bond position to enhance the thermal stability of a highly stable single domain antibody",
+        "doi": "10.1371/journal.pone.0115405"
+      },
+      {
+        "amassId": "AMBC_ZSyZ8kXAEo75dEx1DG59nVKVcBI",
+        "title": "Removal of a Conserved Disulfide Bond Does Not Compromise Mechanical Stability of a VHH Antibody Complex",
+        "doi": "10.1021/acs.nanolett.9b02062"
+      },
+      {
+        "amassId": "AMBC_BV0xrByN9QfL2a7OYiU2gV8X0rx",
+        "title": "Functional Divergence in the Affinity and Stability of Non-Canonical Cysteines and Non-Canonical Disulfide Bonds: Insights from a VHH and VNAR Study",
+        "doi": "10.3390/ijms25189801"
+      },
+      {
+        "amassId": "AMBC_1jmPoUCPp3s97imj1v8wXNVZ2AI",
+        "title": "Enhanced production of a single domain antibody with an engineered stabilizing extra disulfide bond",
+        "doi": "10.1186/s12934-015-0340-3"
+      },
+      {
+        "amassId": "AMBC_X09xYuCB9BFWymzOoPy5wfInA95",
+        "title": "Enhancing Stability of Camelid and Shark Single Domain Antibodies: An Overview",
+        "doi": "10.3389/fimmu.2017.00865"
+      },
+      {
+        "amassId": "AMBC_5JaRadt9dUgiPXxWZ1hI1ZV0Z2j",
+        "title": "Stabilization of an immunoglobulin fold domain by an engineered disulfide bond at the buried hydrophobic region",
+        "doi": "10.1074/jbc.M707078200"
+      },
+      {
+        "amassId": "AMBC_490UPezu6skiSUz1yefRdETBHJV",
+        "title": "Potent inhibition of huntingtin aggregation and cytotoxicity by a disulfide bond-free single-domain intracellular antibody",
+        "doi": "10.1073/pnas.0408134101"
+      },
+      {
+        "amassId": "AMBC_XoqL8xPucBZdxTalvM2x3mrL4rz",
+        "title": "The nature of antibody heavy chain residue H6 strongly influences the stability of a VH domain lacking the disulfide bridge",
+        "doi": "10.1006/jmbi.1998.2064"
+      },
+      {
+        "amassId": "AMBC_13i1yq2UeOiKGGKKdvQTPzpVwR6",
+        "title": "Engineering disulfide bonds within an antibody",
+        "doi": "10.1016/j.bbapap.2014.07.005"
+      },
+      {
+        "amassId": "AMBC_Nuj2gCdXGNUkcvpOUFRKQUzhiUk",
+        "title": "Multiscale Computational Workflow to Determine Stability of Disulfide Bridges in Proteins\u2500Application to IgG Antibodies",
+        "doi": "10.1021/acs.jcim.5c01241"
+      },
+      {
+        "amassId": "AMBC_H8LtMKdx04huKQQbzHa3vyPXdKE",
+        "title": "Structural and mutational analysis of a monomeric and dimeric form of a single domain antibody with implications for protein misfolding",
+        "doi": "10.1002/prot.24671"
+      },
+      {
+        "amassId": "AMBC_UG6M61DcDdQ9OXrYWntpp0vuXAb",
+        "title": "High-yield production of functional soluble single-domain antibodies in the cytoplasm of Escherichia coli",
+        "doi": "10.1186/1475-2859-12-97"
+      },
+      {
+        "amassId": "AMBC_wG2p6KXc8s23gZPDF1hiVIeUv3",
+        "title": "Decoupling stability and release in disulfide bonds with antibody-small molecule conjugates",
+        "doi": "10.1039/c6sc01831a"
+      },
+      {
+        "amassId": "AMBC_OHZFZoOE9y364k3Q5tNAgsqTgg5",
+        "title": "Stabilization of the single-chain fragment variable by an interdomain disulfide bond and its effect on antibody affinity",
+        "doi": "10.3390/ijms12010001"
+      },
+      {
+        "amassId": "AMBC_A58WrPRQjxkA9Z80hKCAloYUfKx",
+        "title": "Domain-level stability of an antibody monitored by reduction, differential alkylation, and mass spectrometry analysis",
+        "doi": "10.1016/j.ab.2010.02.004"
+      },
+      {
+        "amassId": "AMBC_7rIfzPc8ae7Dt07MkqVVj1DUGxe",
+        "title": "Disulfide bond introduction for general stabilization of immunoglobulin heavy-chain variable domains",
+        "doi": "10.1016/j.jmb.2008.01.022"
+      },
+      {
+        "amassId": "AMBC_YSORUg7zrOd24yGaUtqd9rQ8ykT",
+        "title": "Dual beneficial effect of interloop disulfide bond for single domain antibody fragments",
+        "doi": "10.1074/jbc.M111.242818"
+      },
+      {
+        "amassId": "AMBC_YyN2vFiGi6OLrK5f7fsB467appz",
+        "title": "1H, 13C and 15N resonance assignments of a shark variable new antigen receptor against hyaluronan synthase",
+        "doi": "10.1007/s12104-024-10190-6"
+      }
+    ]
+  }
+]

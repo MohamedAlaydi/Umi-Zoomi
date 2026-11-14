@@ -1,0 +1,171 @@
+{
+ "schema": "fs2-serve.nebius.ai/scientific-run-result/v2",
+ "operation_id": "op-7dc29083a7978d17",
+ "model_id": "antifold",
+ "status": "succeeded",
+ "terminal_status": "succeeded",
+ "input_manifest": {
+  "artifact_id": "7fcad006-9ae7-54f5-aa68-3c33a22f2245",
+  "compression": "none",
+  "media_type": "application/vnd.fs2.scientific-manifest+json",
+  "sha256": "8e0d5db05126e7c1e0ca1dc722c63372470311ebf36f7b23d8adab04a99b9ed6",
+  "size_bytes": 513
+ },
+ "output_manifest": {
+  "artifact_id": "115fdd3c-7872-5643-8cbf-268ddf6e070e",
+  "sha256": "75693b48eaf92660d451cca8dc0a1c43e1c1769c98a3c2c335eaa6824cb917a4",
+  "size_bytes": 1228,
+  "media_type": "application/vnd.fs2.scientific-manifest+json",
+  "compression": "none"
+ },
+ "semantic_validation": {
+  "status": "passed",
+  "validator_id": "inverse-fold-v1",
+  "structures_completed": 1,
+  "residues_scored": 243
+ },
+ "native_result": {
+  "validation": {
+   "status": "passed",
+   "validator_id": "inverse-fold-v1",
+   "structures_completed": 1,
+   "residues_scored": 243
+  },
+  "files": [
+   {
+    "name": "result",
+    "semantic_type": "inverse-fold-result/v1",
+    "media_type": "application/json",
+    "compression": null,
+    "file": {
+     "path": "result.json",
+     "sha256": "f64855bbd513fdd1d2d082e8a02ae10a8950b115ace808a2a990619602f2d15f",
+     "size_bytes": 2400
+    }
+   },
+   {
+    "name": "native-00000",
+    "semantic_type": "inverse-fold-native-file/v1",
+    "media_type": "text/plain",
+    "compression": null,
+    "file": {
+     "path": "native/log.txt",
+     "sha256": "ac20bd682d7d98ac098506da0509cba9b16f9b8a9e672b1423c0e9ed14ee78de",
+     "size_bytes": 5383
+    }
+   },
+   {
+    "name": "native-00001",
+    "semantic_type": "inverse-fold-native-file/v1",
+    "media_type": "text/csv",
+    "compression": null,
+    "file": {
+     "path": "native/structure_HT.csv",
+     "sha256": "697518f363b18586ba3ccbb862d0b11eab4930daa583e9b173deae76c194acb3",
+     "size_bytes": 45720
+    }
+   },
+   {
+    "name": "native-00002",
+    "semantic_type": "inverse-fold-native-file/v1",
+    "media_type": "application/octet-stream",
+    "compression": null,
+    "file": {
+     "path": "native/structure_HT.fasta",
+     "sha256": "81d65998e6a051ab401e2b82e10ac9775076d1b93e1eebbcd0259abadc8a8b94",
+     "size_bytes": 6314
+    }
+   }
+  ],
+  "command_seconds": 9.18004073901102,
+  "command_timing_scope": "terminal-stage-only",
+  "runtime_metrics": {
+   "native_command_seconds": 6.627273744903505,
+   "backend": "cuda"
+  }
+ },
+ "customer_storage": {
+  "available": true,
+  "bucket": "fs2-oslo-hackathon-participant-17-13c5f0c3b6",
+  "prefix": "runs/antifold/op-7dc29083a7978d17/",
+  "manifest_key": "runs/antifold/op-7dc29083a7978d17/manifest.json",
+  "files": [
+   {
+    "path": "artifacts/result.json",
+    "sha256": "f64855bbd513fdd1d2d082e8a02ae10a8950b115ace808a2a990619602f2d15f",
+    "size_bytes": 2400,
+    "key": "runs/antifold/op-7dc29083a7978d17/artifacts/result.json"
+   },
+   {
+    "path": "artifacts/native/log.txt",
+    "sha256": "ac20bd682d7d98ac098506da0509cba9b16f9b8a9e672b1423c0e9ed14ee78de",
+    "size_bytes": 5383,
+    "key": "runs/antifold/op-7dc29083a7978d17/artifacts/native/log.txt"
+   },
+   {
+    "path": "artifacts/native/structure_HT.csv",
+    "sha256": "697518f363b18586ba3ccbb862d0b11eab4930daa583e9b173deae76c194acb3",
+    "size_bytes": 45720,
+    "key": "runs/antifold/op-7dc29083a7978d17/artifacts/native/structure_HT.csv"
+   },
+   {
+    "path": "artifacts/native/structure_HT.fasta",
+    "sha256": "81d65998e6a051ab401e2b82e10ac9775076d1b93e1eebbcd0259abadc8a8b94",
+    "size_bytes": 6314,
+    "key": "runs/antifold/op-7dc29083a7978d17/artifacts/native/structure_HT.fasta"
+   },
+   {
+    "path": "result.json",
+    "sha256": "e223643f9a027e86b8c5d3edc12302f170e12763c41c6e127843f30be85af5a7",
+    "size_bytes": 1265,
+    "key": "runs/antifold/op-7dc29083a7978d17/result.json"
+   }
+  ]
+ },
+ "progress": {
+  "schema": "scientific-ai/progress/v1",
+  "updated_at": null,
+  "current_step_id": null,
+  "steps": [
+   {
+    "step_id": "delivered_calls",
+    "command": null,
+    "state": "completed",
+    "unit": "call",
+    "initial_step": null,
+    "target_step": null,
+    "observed_step": null,
+    "durable_step": null,
+    "timestep_ps": null,
+    "completed_ns": null,
+    "durable_completed_ns": null,
+    "target_ns": null,
+    "ns_per_day": null,
+    "ns_per_day_source": null,
+    "completed_units": 1.0,
+    "durable_completed_units": 1.0,
+    "target_units": null,
+    "rate": null,
+    "rate_unit": null,
+    "rate_source": null,
+    "rate_window_seconds": null,
+    "observed_at": null,
+    "durable_at": null,
+    "rate_updated_at": null
+   }
+  ],
+  "available": true,
+  "stale": false,
+  "stale_after_seconds": null,
+  "source": "verified-delivery"
+ },
+ "execution": {
+  "stage_id": "inverse-fold",
+  "shard_id": "main",
+  "role": "run",
+  "owner": {
+   "tenant_id": "oslo-hackathon",
+   "principal_id": "623dd01a507c57298faf83aaa99b3933a2f9b2232518a79cb15b9e320051fb48"
+  }
+ }
+}

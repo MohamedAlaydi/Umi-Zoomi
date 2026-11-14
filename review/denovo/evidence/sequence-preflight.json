@@ -1,0 +1,1132 @@
+{
+  "created_utc": "2026-11-14T12:54:21.079014+00:00",
+  "immunum_version": "2.1.0",
+  "input_sha256": "eadd6fd3692d7ce2fac78004ded826f8633334e8260215240cde0ae23a983add",
+  "parent_spr_sha256": "4d6f53a6183f377670e9577b3233a7c4c14888965ac63824863219d13424fa9b",
+  "scope": "local sequence diagnostics only; no track assignment or efficacy claim",
+  "counts": {
+    "PASS_LOCAL": 20
+  },
+  "rows": [
+    {
+      "query": "anas_009",
+      "format": "Fab",
+      "pair_sha256": "0dadfae417d374ca1682694ddbff1ae68e770634d89ff32ceaeea41170dd2c7a",
+      "length": 227,
+      "local_status": "PASS_LOCAL",
+      "errors": [],
+      "numbering": {
+        "heavy": {
+          "status": "PASS_LOCAL",
+          "chain": "H",
+          "confidence": 0.8749555945396423,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "SRWDREGFYGGDY",
+          "cdr_lengths": [
+            8,
+            8,
+            13
+          ],
+          "canonical_cysteines_present": true
+        },
+        "light": {
+          "status": "PASS_LOCAL",
+          "chain": "K",
+          "confidence": 0.9022924304008484,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "QQHYTTPPT",
+          "cdr_lengths": [
+            6,
+            3,
+            9
+          ],
+          "canonical_cysteines_present": true
+        }
+      },
+      "cysteine_counts": {
+        "heavy": 2,
+        "light": 2
+      },
+      "aligned_identity_to_trastuzumab_pair_diagnostic": 0.9779735682819384,
+      "official_eligibility": "UNVERIFIED",
+      "assigned_track": null,
+      "pending_checks": [
+        "official_validator_and_database",
+        "disulfide_pairing",
+        "antigen_chain_mapping",
+        "interface_geometry_and_context",
+        "independent_refolding",
+        "expression",
+        "SPR",
+        "competition",
+        "thermal_measurement"
+      ]
+    },
+    {
+      "query": "anas_016",
+      "format": "Fab",
+      "pair_sha256": "0ed7943688f1149b4fa5d017ef53eb9ff45e287d96fae69ce04b65dd35d17787",
+      "length": 227,
+      "local_status": "PASS_LOCAL",
+      "errors": [],
+      "numbering": {
+        "heavy": {
+          "status": "PASS_LOCAL",
+          "chain": "H",
+          "confidence": 0.8778716921806335,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "SRWYGEGFYGSDY",
+          "cdr_lengths": [
+            8,
+            8,
+            13
+          ],
+          "canonical_cysteines_present": true
+        },
+        "light": {
+          "status": "PASS_LOCAL",
+          "chain": "K",
+          "confidence": 0.9022924304008484,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "QQHYTTPPT",
+          "cdr_lengths": [
+            6,
+            3,
+            9
+          ],
+          "canonical_cysteines_present": true
+        }
+      },
+      "cysteine_counts": {
+        "heavy": 2,
+        "light": 2
+      },
+      "aligned_identity_to_trastuzumab_pair_diagnostic": 0.9823788546255506,
+      "official_eligibility": "UNVERIFIED",
+      "assigned_track": null,
+      "pending_checks": [
+        "official_validator_and_database",
+        "disulfide_pairing",
+        "antigen_chain_mapping",
+        "interface_geometry_and_context",
+        "independent_refolding",
+        "expression",
+        "SPR",
+        "competition",
+        "thermal_measurement"
+      ]
+    },
+    {
+      "query": "anas_027",
+      "format": "Fab",
+      "pair_sha256": "8a84d2547a88d7c9a7759e9dda3080e4df8b1f02dc41c6e25cec58d07736ec90",
+      "length": 227,
+      "local_status": "PASS_LOCAL",
+      "errors": [],
+      "numbering": {
+        "heavy": {
+          "status": "PASS_LOCAL",
+          "chain": "H",
+          "confidence": 0.8607205152511597,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "SRWTATGFYETYY",
+          "cdr_lengths": [
+            8,
+            8,
+            13
+          ],
+          "canonical_cysteines_present": true
+        },
+        "light": {
+          "status": "PASS_LOCAL",
+          "chain": "K",
+          "confidence": 0.9022924304008484,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "QQHYTTPPT",
+          "cdr_lengths": [
+            6,
+            3,
+            9
+          ],
+          "canonical_cysteines_present": true
+        }
+      },
+      "cysteine_counts": {
+        "heavy": 2,
+        "light": 2
+      },
+      "aligned_identity_to_trastuzumab_pair_diagnostic": 0.973568281938326,
+      "official_eligibility": "UNVERIFIED",
+      "assigned_track": null,
+      "pending_checks": [
+        "official_validator_and_database",
+        "disulfide_pairing",
+        "antigen_chain_mapping",
+        "interface_geometry_and_context",
+        "independent_refolding",
+        "expression",
+        "SPR",
+        "competition",
+        "thermal_measurement"
+      ]
+    },
+    {
+      "query": "r004_cdrh3_3",
+      "format": "Fab",
+      "pair_sha256": "8dfe7400a4a24d5820d431c4e4ba27cae59e84ff878067b68b2e34ba791106b9",
+      "length": 227,
+      "local_status": "PASS_LOCAL",
+      "errors": [],
+      "numbering": {
+        "heavy": {
+          "status": "PASS_LOCAL",
+          "chain": "H",
+          "confidence": 0.891423225402832,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "SRWASSSEYYFDY",
+          "cdr_lengths": [
+            8,
+            8,
+            13
+          ],
+          "canonical_cysteines_present": true
+        },
+        "light": {
+          "status": "PASS_LOCAL",
+          "chain": "K",
+          "confidence": 0.9022924304008484,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "QQHYTTPPT",
+          "cdr_lengths": [
+            6,
+            3,
+            9
+          ],
+          "canonical_cysteines_present": true
+        }
+      },
+      "cysteine_counts": {
+        "heavy": 2,
+        "light": 2
+      },
+      "aligned_identity_to_trastuzumab_pair_diagnostic": 0.9691629955947136,
+      "official_eligibility": "UNVERIFIED",
+      "assigned_track": null,
+      "pending_checks": [
+        "official_validator_and_database",
+        "disulfide_pairing",
+        "antigen_chain_mapping",
+        "interface_geometry_and_context",
+        "independent_refolding",
+        "expression",
+        "SPR",
+        "competition",
+        "thermal_measurement"
+      ]
+    },
+    {
+      "query": "anas_028",
+      "format": "Fab",
+      "pair_sha256": "43bf074f8615c23a3376839e27839d4d08779de20ec74f433b071bdeedc4a803",
+      "length": 227,
+      "local_status": "PASS_LOCAL",
+      "errors": [],
+      "numbering": {
+        "heavy": {
+          "status": "PASS_LOCAL",
+          "chain": "H",
+          "confidence": 0.870723307132721,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "SRWGREGFYSAEY",
+          "cdr_lengths": [
+            8,
+            8,
+            13
+          ],
+          "canonical_cysteines_present": true
+        },
+        "light": {
+          "status": "PASS_LOCAL",
+          "chain": "K",
+          "confidence": 0.9022924304008484,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "QQHYTTPPT",
+          "cdr_lengths": [
+            6,
+            3,
+            9
+          ],
+          "canonical_cysteines_present": true
+        }
+      },
+      "cysteine_counts": {
+        "heavy": 2,
+        "light": 2
+      },
+      "aligned_identity_to_trastuzumab_pair_diagnostic": 0.9779735682819384,
+      "official_eligibility": "UNVERIFIED",
+      "assigned_track": null,
+      "pending_checks": [
+        "official_validator_and_database",
+        "disulfide_pairing",
+        "antigen_chain_mapping",
+        "interface_geometry_and_context",
+        "independent_refolding",
+        "expression",
+        "SPR",
+        "competition",
+        "thermal_measurement"
+      ]
+    },
+    {
+      "query": "anas_038",
+      "format": "Fab",
+      "pair_sha256": "df3d8bd4e25cea1c8739ac348b399ff451fcd85948d96e05d33dfa0e506dbe75",
+      "length": 227,
+      "local_status": "PASS_LOCAL",
+      "errors": [],
+      "numbering": {
+        "heavy": {
+          "status": "PASS_LOCAL",
+          "chain": "H",
+          "confidence": 0.870723307132721,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "SRWAGEGFYYAEY",
+          "cdr_lengths": [
+            8,
+            8,
+            13
+          ],
+          "canonical_cysteines_present": true
+        },
+        "light": {
+          "status": "PASS_LOCAL",
+          "chain": "K",
+          "confidence": 0.9022924304008484,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "QQHYTTPPT",
+          "cdr_lengths": [
+            6,
+            3,
+            9
+          ],
+          "canonical_cysteines_present": true
+        }
+      },
+      "cysteine_counts": {
+        "heavy": 2,
+        "light": 2
+      },
+      "aligned_identity_to_trastuzumab_pair_diagnostic": 0.9779735682819384,
+      "official_eligibility": "UNVERIFIED",
+      "assigned_track": null,
+      "pending_checks": [
+        "official_validator_and_database",
+        "disulfide_pairing",
+        "antigen_chain_mapping",
+        "interface_geometry_and_context",
+        "independent_refolding",
+        "expression",
+        "SPR",
+        "competition",
+        "thermal_measurement"
+      ]
+    },
+    {
+      "query": "anas_003",
+      "format": "Fab",
+      "pair_sha256": "a9ee16eec5190b09a6f611105a26413b45b0e72e7e1ae844a52ef1338145c584",
+      "length": 227,
+      "local_status": "PASS_LOCAL",
+      "errors": [],
+      "numbering": {
+        "heavy": {
+          "status": "PASS_LOCAL",
+          "chain": "H",
+          "confidence": 0.8825864791870117,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "SRWVGPGFYGWDY",
+          "cdr_lengths": [
+            8,
+            8,
+            13
+          ],
+          "canonical_cysteines_present": true
+        },
+        "light": {
+          "status": "PASS_LOCAL",
+          "chain": "K",
+          "confidence": 0.9022924304008484,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "QQHYTTPPT",
+          "cdr_lengths": [
+            6,
+            3,
+            9
+          ],
+          "canonical_cysteines_present": true
+        }
+      },
+      "cysteine_counts": {
+        "heavy": 2,
+        "light": 2
+      },
+      "aligned_identity_to_trastuzumab_pair_diagnostic": 0.9823788546255506,
+      "official_eligibility": "UNVERIFIED",
+      "assigned_track": null,
+      "pending_checks": [
+        "official_validator_and_database",
+        "disulfide_pairing",
+        "antigen_chain_mapping",
+        "interface_geometry_and_context",
+        "independent_refolding",
+        "expression",
+        "SPR",
+        "competition",
+        "thermal_measurement"
+      ]
+    },
+    {
+      "query": "anas_007",
+      "format": "Fab",
+      "pair_sha256": "1198d825d9b845e2cc097686f3e8361e0b526f90271a745988b596c3a19d9b35",
+      "length": 227,
+      "local_status": "PASS_LOCAL",
+      "errors": [],
+      "numbering": {
+        "heavy": {
+          "status": "PASS_LOCAL",
+          "chain": "H",
+          "confidence": 0.8751315474510193,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "SRWYGEGFYTWEY",
+          "cdr_lengths": [
+            8,
+            8,
+            13
+          ],
+          "canonical_cysteines_present": true
+        },
+        "light": {
+          "status": "PASS_LOCAL",
+          "chain": "K",
+          "confidence": 0.9022924304008484,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "QQHYTTPPT",
+          "cdr_lengths": [
+            6,
+            3,
+            9
+          ],
+          "canonical_cysteines_present": true
+        }
+      },
+      "cysteine_counts": {
+        "heavy": 2,
+        "light": 2
+      },
+      "aligned_identity_to_trastuzumab_pair_diagnostic": 0.9779735682819384,
+      "official_eligibility": "UNVERIFIED",
+      "assigned_track": null,
+      "pending_checks": [
+        "official_validator_and_database",
+        "disulfide_pairing",
+        "antigen_chain_mapping",
+        "interface_geometry_and_context",
+        "independent_refolding",
+        "expression",
+        "SPR",
+        "competition",
+        "thermal_measurement"
+      ]
+    },
+    {
+      "query": "anas_004",
+      "format": "Fab",
+      "pair_sha256": "18ee66e30af87ef7aedc59a017f27541f9d2d1a41427aaced9f5c6193eb5dbc4",
+      "length": 227,
+      "local_status": "PASS_LOCAL",
+      "errors": [],
+      "numbering": {
+        "heavy": {
+          "status": "PASS_LOCAL",
+          "chain": "H",
+          "confidence": 0.8825864791870117,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "SRWYGGGFYFWDY",
+          "cdr_lengths": [
+            8,
+            8,
+            13
+          ],
+          "canonical_cysteines_present": true
+        },
+        "light": {
+          "status": "PASS_LOCAL",
+          "chain": "K",
+          "confidence": 0.9022924304008484,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "QQHYTTPPT",
+          "cdr_lengths": [
+            6,
+            3,
+            9
+          ],
+          "canonical_cysteines_present": true
+        }
+      },
+      "cysteine_counts": {
+        "heavy": 2,
+        "light": 2
+      },
+      "aligned_identity_to_trastuzumab_pair_diagnostic": 0.9823788546255506,
+      "official_eligibility": "UNVERIFIED",
+      "assigned_track": null,
+      "pending_checks": [
+        "official_validator_and_database",
+        "disulfide_pairing",
+        "antigen_chain_mapping",
+        "interface_geometry_and_context",
+        "independent_refolding",
+        "expression",
+        "SPR",
+        "competition",
+        "thermal_measurement"
+      ]
+    },
+    {
+      "query": "anas_002",
+      "format": "Fab",
+      "pair_sha256": "f133215586ed2f7a1e01978f31c57c17ba1af217189eab378b9318c78922fa52",
+      "length": 227,
+      "local_status": "PASS_LOCAL",
+      "errors": [],
+      "numbering": {
+        "heavy": {
+          "status": "PASS_LOCAL",
+          "chain": "H",
+          "confidence": 0.8810943365097046,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "SRWDANGFYYVDY",
+          "cdr_lengths": [
+            8,
+            8,
+            13
+          ],
+          "canonical_cysteines_present": true
+        },
+        "light": {
+          "status": "PASS_LOCAL",
+          "chain": "K",
+          "confidence": 0.9022924304008484,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "QQHYTTPPT",
+          "cdr_lengths": [
+            6,
+            3,
+            9
+          ],
+          "canonical_cysteines_present": true
+        }
+      },
+      "cysteine_counts": {
+        "heavy": 2,
+        "light": 2
+      },
+      "aligned_identity_to_trastuzumab_pair_diagnostic": 0.9779735682819384,
+      "official_eligibility": "UNVERIFIED",
+      "assigned_track": null,
+      "pending_checks": [
+        "official_validator_and_database",
+        "disulfide_pairing",
+        "antigen_chain_mapping",
+        "interface_geometry_and_context",
+        "independent_refolding",
+        "expression",
+        "SPR",
+        "competition",
+        "thermal_measurement"
+      ]
+    },
+    {
+      "query": "anas_036",
+      "format": "Fab",
+      "pair_sha256": "b7488b69e1a08ab09a351c6dead5bba9812eba1015aa0087bcaa2250c1f07b70",
+      "length": 227,
+      "local_status": "PASS_LOCAL",
+      "errors": [],
+      "numbering": {
+        "heavy": {
+          "status": "PASS_LOCAL",
+          "chain": "H",
+          "confidence": 0.8712520003318787,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "SRWGAKGFYSWQY",
+          "cdr_lengths": [
+            8,
+            8,
+            13
+          ],
+          "canonical_cysteines_present": true
+        },
+        "light": {
+          "status": "PASS_LOCAL",
+          "chain": "K",
+          "confidence": 0.9022924304008484,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "QQHYTTPPT",
+          "cdr_lengths": [
+            6,
+            3,
+            9
+          ],
+          "canonical_cysteines_present": true
+        }
+      },
+      "cysteine_counts": {
+        "heavy": 2,
+        "light": 2
+      },
+      "aligned_identity_to_trastuzumab_pair_diagnostic": 0.9779735682819384,
+      "official_eligibility": "UNVERIFIED",
+      "assigned_track": null,
+      "pending_checks": [
+        "official_validator_and_database",
+        "disulfide_pairing",
+        "antigen_chain_mapping",
+        "interface_geometry_and_context",
+        "independent_refolding",
+        "expression",
+        "SPR",
+        "competition",
+        "thermal_measurement"
+      ]
+    },
+    {
+      "query": "anas_021",
+      "format": "Fab",
+      "pair_sha256": "cabbf10ade5131a1f51ffce78ba7a5eeed78934f2be25aa6e407bfef5fa1194c",
+      "length": 227,
+      "local_status": "PASS_LOCAL",
+      "errors": [],
+      "numbering": {
+        "heavy": {
+          "status": "PASS_LOCAL",
+          "chain": "H",
+          "confidence": 0.8825864791870117,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "SRWGYKGFYDWDY",
+          "cdr_lengths": [
+            8,
+            8,
+            13
+          ],
+          "canonical_cysteines_present": true
+        },
+        "light": {
+          "status": "PASS_LOCAL",
+          "chain": "K",
+          "confidence": 0.9022924304008484,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "QQHYTTPPT",
+          "cdr_lengths": [
+            6,
+            3,
+            9
+          ],
+          "canonical_cysteines_present": true
+        }
+      },
+      "cysteine_counts": {
+        "heavy": 2,
+        "light": 2
+      },
+      "aligned_identity_to_trastuzumab_pair_diagnostic": 0.9823788546255506,
+      "official_eligibility": "UNVERIFIED",
+      "assigned_track": null,
+      "pending_checks": [
+        "official_validator_and_database",
+        "disulfide_pairing",
+        "antigen_chain_mapping",
+        "interface_geometry_and_context",
+        "independent_refolding",
+        "expression",
+        "SPR",
+        "competition",
+        "thermal_measurement"
+      ]
+    },
+    {
+      "query": "anas_015",
+      "format": "Fab",
+      "pair_sha256": "537e55f3e261ab7ae25640381bbfb84b1180372b47d115f00e0290710ef6ac50",
+      "length": 227,
+      "local_status": "PASS_LOCAL",
+      "errors": [],
+      "numbering": {
+        "heavy": {
+          "status": "PASS_LOCAL",
+          "chain": "H",
+          "confidence": 0.8751315474510193,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "SRWPGGGFYYWEY",
+          "cdr_lengths": [
+            8,
+            8,
+            13
+          ],
+          "canonical_cysteines_present": true
+        },
+        "light": {
+          "status": "PASS_LOCAL",
+          "chain": "K",
+          "confidence": 0.9022924304008484,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "QQHYTTPPT",
+          "cdr_lengths": [
+            6,
+            3,
+            9
+          ],
+          "canonical_cysteines_present": true
+        }
+      },
+      "cysteine_counts": {
+        "heavy": 2,
+        "light": 2
+      },
+      "aligned_identity_to_trastuzumab_pair_diagnostic": 0.9779735682819384,
+      "official_eligibility": "UNVERIFIED",
+      "assigned_track": null,
+      "pending_checks": [
+        "official_validator_and_database",
+        "disulfide_pairing",
+        "antigen_chain_mapping",
+        "interface_geometry_and_context",
+        "independent_refolding",
+        "expression",
+        "SPR",
+        "competition",
+        "thermal_measurement"
+      ]
+    },
+    {
+      "query": "anas_039",
+      "format": "Fab",
+      "pair_sha256": "7401fd6357eb3a0104072565594bd11153118ad57d6f9143ad9acdeff7f06ab0",
+      "length": 227,
+      "local_status": "PASS_LOCAL",
+      "errors": [],
+      "numbering": {
+        "heavy": {
+          "status": "PASS_LOCAL",
+          "chain": "H",
+          "confidence": 0.8669669032096863,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "SRWTAKGFYAQNY",
+          "cdr_lengths": [
+            8,
+            8,
+            13
+          ],
+          "canonical_cysteines_present": true
+        },
+        "light": {
+          "status": "PASS_LOCAL",
+          "chain": "K",
+          "confidence": 0.9022924304008484,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "QQHYTTPPT",
+          "cdr_lengths": [
+            6,
+            3,
+            9
+          ],
+          "canonical_cysteines_present": true
+        }
+      },
+      "cysteine_counts": {
+        "heavy": 2,
+        "light": 2
+      },
+      "aligned_identity_to_trastuzumab_pair_diagnostic": 0.9779735682819384,
+      "official_eligibility": "UNVERIFIED",
+      "assigned_track": null,
+      "pending_checks": [
+        "official_validator_and_database",
+        "disulfide_pairing",
+        "antigen_chain_mapping",
+        "interface_geometry_and_context",
+        "independent_refolding",
+        "expression",
+        "SPR",
+        "competition",
+        "thermal_measurement"
+      ]
+    },
+    {
+      "query": "anas_014",
+      "format": "Fab",
+      "pair_sha256": "3648a1a1148dc28ffffc4c8601f6a19c51021c649ee54ee89c86be99e85383b5",
+      "length": 227,
+      "local_status": "PASS_LOCAL",
+      "errors": [],
+      "numbering": {
+        "heavy": {
+          "status": "PASS_LOCAL",
+          "chain": "H",
+          "confidence": 0.8645974397659302,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "SRWGYNGFYPSKY",
+          "cdr_lengths": [
+            8,
+            8,
+            13
+          ],
+          "canonical_cysteines_present": true
+        },
+        "light": {
+          "status": "PASS_LOCAL",
+          "chain": "K",
+          "confidence": 0.9022924304008484,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "QQHYTTPPT",
+          "cdr_lengths": [
+            6,
+            3,
+            9
+          ],
+          "canonical_cysteines_present": true
+        }
+      },
+      "cysteine_counts": {
+        "heavy": 2,
+        "light": 2
+      },
+      "aligned_identity_to_trastuzumab_pair_diagnostic": 0.9779735682819384,
+      "official_eligibility": "UNVERIFIED",
+      "assigned_track": null,
+      "pending_checks": [
+        "official_validator_and_database",
+        "disulfide_pairing",
+        "antigen_chain_mapping",
+        "interface_geometry_and_context",
+        "independent_refolding",
+        "expression",
+        "SPR",
+        "competition",
+        "thermal_measurement"
+      ]
+    },
+    {
+      "query": "anas_026",
+      "format": "Fab",
+      "pair_sha256": "f04c1f6f987f3c25dbc1de6d1d53daceaac9bafb3dfa83797c4e0091945e2415",
+      "length": 227,
+      "local_status": "PASS_LOCAL",
+      "errors": [],
+      "numbering": {
+        "heavy": {
+          "status": "PASS_LOCAL",
+          "chain": "H",
+          "confidence": 0.8825864791870117,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "SRWDAMGFYGWDY",
+          "cdr_lengths": [
+            8,
+            8,
+            13
+          ],
+          "canonical_cysteines_present": true
+        },
+        "light": {
+          "status": "PASS_LOCAL",
+          "chain": "K",
+          "confidence": 0.9022924304008484,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "QQHYTTPPT",
+          "cdr_lengths": [
+            6,
+            3,
+            9
+          ],
+          "canonical_cysteines_present": true
+        }
+      },
+      "cysteine_counts": {
+        "heavy": 2,
+        "light": 2
+      },
+      "aligned_identity_to_trastuzumab_pair_diagnostic": 0.9779735682819384,
+      "official_eligibility": "UNVERIFIED",
+      "assigned_track": null,
+      "pending_checks": [
+        "official_validator_and_database",
+        "disulfide_pairing",
+        "antigen_chain_mapping",
+        "interface_geometry_and_context",
+        "independent_refolding",
+        "expression",
+        "SPR",
+        "competition",
+        "thermal_measurement"
+      ]
+    },
+    {
+      "query": "anas_032",
+      "format": "Fab",
+      "pair_sha256": "baee29e9cc333c45f533b6abc75376b3e72bcb4ce3e1886abbe9d776f480f046",
+      "length": 227,
+      "local_status": "PASS_LOCAL",
+      "errors": [],
+      "numbering": {
+        "heavy": {
+          "status": "PASS_LOCAL",
+          "chain": "H",
+          "confidence": 0.8736394643783569,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "SRWVREGFYTVEY",
+          "cdr_lengths": [
+            8,
+            8,
+            13
+          ],
+          "canonical_cysteines_present": true
+        },
+        "light": {
+          "status": "PASS_LOCAL",
+          "chain": "K",
+          "confidence": 0.9022924304008484,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "QQHYTTPPT",
+          "cdr_lengths": [
+            6,
+            3,
+            9
+          ],
+          "canonical_cysteines_present": true
+        }
+      },
+      "cysteine_counts": {
+        "heavy": 2,
+        "light": 2
+      },
+      "aligned_identity_to_trastuzumab_pair_diagnostic": 0.973568281938326,
+      "official_eligibility": "UNVERIFIED",
+      "assigned_track": null,
+      "pending_checks": [
+        "official_validator_and_database",
+        "disulfide_pairing",
+        "antigen_chain_mapping",
+        "interface_geometry_and_context",
+        "independent_refolding",
+        "expression",
+        "SPR",
+        "competition",
+        "thermal_measurement"
+      ]
+    },
+    {
+      "query": "anas_010",
+      "format": "Fab",
+      "pair_sha256": "b02c5118375959de2df6c86b0e7da195efb946c2827fa88150401f8af2fe8ed6",
+      "length": 227,
+      "local_status": "PASS_LOCAL",
+      "errors": [],
+      "numbering": {
+        "heavy": {
+          "status": "PASS_LOCAL",
+          "chain": "H",
+          "confidence": 0.8749555945396423,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "SRWTATGFYGGDY",
+          "cdr_lengths": [
+            8,
+            8,
+            13
+          ],
+          "canonical_cysteines_present": true
+        },
+        "light": {
+          "status": "PASS_LOCAL",
+          "chain": "K",
+          "confidence": 0.9022924304008484,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "QQHYTTPPT",
+          "cdr_lengths": [
+            6,
+            3,
+            9
+          ],
+          "canonical_cysteines_present": true
+        }
+      },
+      "cysteine_counts": {
+        "heavy": 2,
+        "light": 2
+      },
+      "aligned_identity_to_trastuzumab_pair_diagnostic": 0.9779735682819384,
+      "official_eligibility": "UNVERIFIED",
+      "assigned_track": null,
+      "pending_checks": [
+        "official_validator_and_database",
+        "disulfide_pairing",
+        "antigen_chain_mapping",
+        "interface_geometry_and_context",
+        "independent_refolding",
+        "expression",
+        "SPR",
+        "competition",
+        "thermal_measurement"
+      ]
+    },
+    {
+      "query": "anas_040",
+      "format": "Fab",
+      "pair_sha256": "f91130857043e9a606236a4691ba12981e64f681801198483c05f083eb156913",
+      "length": 227,
+      "local_status": "PASS_LOCAL",
+      "errors": [],
+      "numbering": {
+        "heavy": {
+          "status": "PASS_LOCAL",
+          "chain": "H",
+          "confidence": 0.8825864791870117,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "SRWAERGFYIWDY",
+          "cdr_lengths": [
+            8,
+            8,
+            13
+          ],
+          "canonical_cysteines_present": true
+        },
+        "light": {
+          "status": "PASS_LOCAL",
+          "chain": "K",
+          "confidence": 0.9022924304008484,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "QQHYTTPPT",
+          "cdr_lengths": [
+            6,
+            3,
+            9
+          ],
+          "canonical_cysteines_present": true
+        }
+      },
+      "cysteine_counts": {
+        "heavy": 2,
+        "light": 2
+      },
+      "aligned_identity_to_trastuzumab_pair_diagnostic": 0.9779735682819384,
+      "official_eligibility": "UNVERIFIED",
+      "assigned_track": null,
+      "pending_checks": [
+        "official_validator_and_database",
+        "disulfide_pairing",
+        "antigen_chain_mapping",
+        "interface_geometry_and_context",
+        "independent_refolding",
+        "expression",
+        "SPR",
+        "competition",
+        "thermal_measurement"
+      ]
+    },
+    {
+      "query": "anas_031",
+      "format": "Fab",
+      "pair_sha256": "3b8ae0a19412ac511f8edbf8808acfe62d1a9df3d6a6d8345389bf39d10032fe",
+      "length": 227,
+      "local_status": "PASS_LOCAL",
+      "errors": [],
+      "numbering": {
+        "heavy": {
+          "status": "PASS_LOCAL",
+          "chain": "H",
+          "confidence": 0.8825864791870117,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "SRWRAAGFYRWDY",
+          "cdr_lengths": [
+            8,
+            8,
+            13
+          ],
+          "canonical_cysteines_present": true
+        },
+        "light": {
+          "status": "PASS_LOCAL",
+          "chain": "K",
+          "confidence": 0.9022924304008484,
+          "prefix": "",
+          "postfix": "",
+          "cdr3_imgt": "QQHYTTPPT",
+          "cdr_lengths": [
+            6,
+            3,
+            9
+          ],
+          "canonical_cysteines_present": true
+        }
+      },
+      "cysteine_counts": {
+        "heavy": 2,
+        "light": 2
+      },
+      "aligned_identity_to_trastuzumab_pair_diagnostic": 0.9779735682819384,
+      "official_eligibility": "UNVERIFIED",
+      "assigned_track": null,
+      "pending_checks": [
+        "official_validator_and_database",
+        "disulfide_pairing",
+        "antigen_chain_mapping",
+        "interface_geometry_and_context",
+        "independent_refolding",
+        "expression",
+        "SPR",
+        "competition",
+        "thermal_measurement"
+      ]
+    }
+  ]
+}

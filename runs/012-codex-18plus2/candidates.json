@@ -1,0 +1,204 @@
+[
+  {
+    "query": "anas_007",
+    "requested_track": "optimisation",
+    "format": "Fab",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYGEGFYTWEYWGQGTLVTVSS",
+    "light_variable": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "1198d825d9b845e2cc097686f3e8361e0b526f90271a745988b596c3a19d9b35",
+    "prior_optimization_rank": 1,
+    "selection_reason": "Beste kombinasjon i dette testpanelet av h\u00f8y sekvenssk\u00e5r og en stabil foretrukket kontaktflate. Eksakt HER2-flate i fem av seks modeller."
+  },
+  {
+    "query": "anas_015",
+    "requested_track": "optimisation",
+    "format": "Fab",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPGGGFYYWEYWGQGTLVTVSS",
+    "light_variable": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "537e55f3e261ab7ae25640381bbfb84b1180372b47d115f00e0290710ef6ac50",
+    "prior_optimization_rank": 2,
+    "selection_reason": "Den kontaktbevarende halvdelen av hovedeksperimentet. Fem endringer og sekvenssk\u00e5r 32, som anas_009. Alle fire kontakter i seks av seks."
+  },
+  {
+    "query": "anas_009",
+    "requested_track": "optimisation",
+    "format": "Fab",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDREGFYGGDYWGQGTLVTVSS",
+    "light_variable": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "0dadfae417d374ca1682694ddbff1ae68e770634d89ff32ceaeea41170dd2c7a",
+    "prior_optimization_rank": 3,
+    "selection_reason": "Den andre halvdelen av samme eksperiment. De samme fire byggesteinene er til stede, men ingen av seks modeller har alle fire kontaktene samtidig."
+  },
+  {
+    "query": "r004_cdrh3_3",
+    "requested_track": "optimisation",
+    "format": "Fab",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWASSSEYYFDYWGQGTLVTVSS",
+    "light_variable": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "8dfe7400a4a24d5820d431c4e4ba27cae59e84ff878067b68b2e34ba791106b9",
+    "prior_optimization_rank": 4,
+    "selection_reason": "Utfordrer fra en annen designmetode. Bare to av fire opprinnelige aminosyrer er bevart, men alle fire posisjonene har kontakt i seks av seks. Eksakt flate i tre av seks."
+  },
+  {
+    "query": "anas_016",
+    "requested_track": "optimisation",
+    "format": "Fab",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYGEGFYGSDYWGQGTLVTVSS",
+    "light_variable": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "0ed7943688f1149b4fa5d017ef53eb9ff45e287d96fae69ce04b65dd35d17787",
+    "prior_optimization_rank": 5,
+    "selection_reason": "H\u00f8yest sekvenssk\u00e5r blant de 20. Bare tre av seks modeller har alle fire kontaktene. F\u00f8rste reserve tester dermed den sterkeste sekvensbaserte hypotesen."
+  },
+  {
+    "query": "anas_028",
+    "requested_track": "optimisation",
+    "format": "Fab",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGREGFYSAEYWGQGTLVTVSS",
+    "light_variable": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "43bf074f8615c23a3376839e27839d4d08779de20ec74f433b071bdeedc4a803",
+    "prior_optimization_rank": 6,
+    "selection_reason": "Sekvenssk\u00e5r 38 og alle fire kontakter i seks av seks. Sterkere samlet begrunnelse for tidlig testing enn den tidligere nummer seks, anas_027."
+  },
+  {
+    "query": "anas_038",
+    "requested_track": "optimisation",
+    "format": "Fab",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWAGEGFYYAEYWGQGTLVTVSS",
+    "light_variable": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "df3d8bd4e25cea1c8739ac348b399ff451fcd85948d96e05d33dfa0e506dbe75",
+    "prior_optimization_rank": 7,
+    "selection_reason": "Samme sekvenssk\u00e5r som anas_003, men st\u00f8rre gjennomsnittlig overlapp med hele HER2-flaten. Tre eksakte flater, selv om ingen pose har alle fire l\u00f8kkekontaktene."
+  },
+  {
+    "query": "anas_003",
+    "requested_track": "optimisation",
+    "format": "Fab",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWVGPGFYGWDYWGQGTLVTVSS",
+    "light_variable": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "a9ee16eec5190b09a6f611105a26413b45b0e72e7e1ae844a52ef1338145c584",
+    "prior_optimization_rank": 8,
+    "selection_reason": "Beholder alle fire kontakter gjennom seks modellkj\u00f8ringer. Ved samme sekvenssk\u00e5r som anas_038 er den samlede HER2-flaten mindre lik originalens."
+  },
+  {
+    "query": "anas_004",
+    "requested_track": "optimisation",
+    "format": "Fab",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYGGGFYFWDYWGQGTLVTVSS",
+    "light_variable": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "18ee66e30af87ef7aedc59a017f27541f9d2d1a41427aaced9f5c6193eb5dbc4",
+    "prior_optimization_rank": 9,
+    "selection_reason": "Best gjennomsnittlig overlapp i gruppen med sekvenssk\u00e5r 35. Alle fire kontakter i seks av seks. Sammenlignbar med anas_021, som ogs\u00e5 har fire endringer."
+  },
+  {
+    "query": "anas_036",
+    "requested_track": "optimisation",
+    "format": "Fab",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGAKGFYSWQYWGQGTLVTVSS",
+    "light_variable": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "b7488b69e1a08ab09a351c6dead5bba9812eba1015aa0087bcaa2250c1f07b70",
+    "prior_optimization_rank": 10,
+    "selection_reason": "Samme sekvenssk\u00e5r og like mange kj\u00f8ringer med alle kontaktene som anas_002. Litt st\u00f8rre gjennomsnittlig overlapp gir en knapp prioritet."
+  },
+  {
+    "query": "anas_002",
+    "requested_track": "optimisation",
+    "format": "Fab",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDANGFYYVDYWGQGTLVTVSS",
+    "light_variable": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "f133215586ed2f7a1e01978f31c57c17ba1af217189eab378b9318c78922fa52",
+    "prior_optimization_rank": 11,
+    "selection_reason": "Samme sekvenssk\u00e5r som de to foran, og seks av seks med alle fire kontakter. Noe lavere gjennomsnittlig overlapp."
+  },
+  {
+    "query": "anas_021",
+    "requested_track": "optimisation",
+    "format": "Fab",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGYKGFYDWDYWGQGTLVTVSS",
+    "light_variable": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "cabbf10ade5131a1f51ffce78ba7a5eeed78934f2be25aa6e407bfef5fa1194c",
+    "prior_optimization_rank": 12,
+    "selection_reason": "Lavest gjennomsnittlig overlapp av kandidatene med sk\u00e5r 35. Gir et ekstra sammenligningspar med anas_004 dersom begge n\u00e5r laben."
+  },
+  {
+    "query": "anas_039",
+    "requested_track": "optimisation",
+    "format": "Fab",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWTAKGFYAQNYWGQGTLVTVSS",
+    "light_variable": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "7401fd6357eb3a0104072565594bd11153118ad57d6f9143ad9acdeff7f06ab0",
+    "prior_optimization_rank": 13,
+    "selection_reason": "Sekvenssk\u00e5r 32 gir plass foran kandidatene med sk\u00e5r 31 i denne regelen. Bare to av seks beholder alle kontaktene. Prioritet over anas_014 er s\u00e6rlig usikker."
+  },
+  {
+    "query": "anas_014",
+    "requested_track": "optimisation",
+    "format": "Fab",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGYNGFYPSKYWGQGTLVTVSS",
+    "light_variable": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "3648a1a1148dc28ffffc4c8601f6a19c51021c649ee54ee89c86be99e85383b5",
+    "prior_optimization_rank": 14,
+    "selection_reason": "Sv\u00e6rt h\u00f8y overlapp med hele HER2-flaten, seks av seks med alle fire kontakter og tre eksakte flater. F\u00f8rst av de to med sk\u00e5r 31."
+  },
+  {
+    "query": "anas_026",
+    "requested_track": "optimisation",
+    "format": "Fab",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDAMGFYGWDYWGQGTLVTVSS",
+    "light_variable": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "f04c1f6f987f3c25dbc1de6d1d53daceaac9bafb3dfa83797c4e0091945e2415",
+    "prior_optimization_rank": 15,
+    "selection_reason": "Samme sekvenssk\u00e5r og samme seks av seks l\u00f8kkekontakter som anas_014, men lavere overlapp med hele HER2-flaten."
+  },
+  {
+    "query": "anas_031",
+    "requested_track": "optimisation",
+    "format": "Fab",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWRAAGFYRWDYWGQGTLVTVSS",
+    "light_variable": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "3b8ae0a19412ac511f8edbf8808acfe62d1a9df3d6a6d8345389bf39d10032fe",
+    "prior_optimization_rank": 16,
+    "selection_reason": "St\u00f8rst gjennomsnittlig overlapp blant de fire med sekvenssk\u00e5r 30. Beholder alle fire kontakter i seks av seks."
+  },
+  {
+    "query": "anas_010",
+    "requested_track": "optimisation",
+    "format": "Fab",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWTATGFYGGDYWGQGTLVTVSS",
+    "light_variable": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "b02c5118375959de2df6c86b0e7da195efb946c2827fa88150401f8af2fe8ed6",
+    "prior_optimization_rank": 17,
+    "selection_reason": "Nest st\u00f8rst gjennomsnittlig overlapp blant kandidatene med sk\u00e5r 30. Alle fire kontakter i seks av seks. Forskjellen fra anas_031 er liten."
+  },
+  {
+    "query": "anas_040",
+    "requested_track": "optimisation",
+    "format": "Fab",
+    "heavy_variable": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWAERGFYIWDYWGQGTLVTVSS",
+    "light_variable": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+    "pair_sha256": "f91130857043e9a606236a4691ba12981e64f681801198483c05f083eb156913",
+    "prior_optimization_rank": 18,
+    "selection_reason": "Tredje h\u00f8yeste gjennomsnittlige overlapp i gruppen med sk\u00e5r 30. Fire av seks har alle l\u00f8kkekontaktene. Plasseringen mot anas_032 avhenger av hvilken egenskap man vektlegger."
+  },
+  {
+    "query": "rfd4-variable-sequence-k1__her2_variable_sequence_12_generated",
+    "requested_track": "de_novo",
+    "format": "VHH",
+    "heavy_variable": "EVQLQESGGGLVQPGGSLRLSCASSGQSFSDYAMGWFRQAPGQKRTLVAAITPAGKVYFPDSVRGRFTISRDDAASSVFLQMNSLKPEDTAVYFCAATKRLNVSAWKSPVEWSHWGQGTQVTVS",
+    "light_variable": "",
+    "pair_sha256": "809634fa1ba95cc2033ae09b0b58a1477b50596dcda6f61880fee32dbc5a1019",
+    "prior_optimization_rank": null,
+    "selection_reason": "novel2: strongest independent monomer fold; docking unsupported",
+    "short_name": "novel2"
+  },
+  {
+    "query": "rfd4-variable-sequence-k1__her2_variable_sequence_2_generated",
+    "requested_track": "de_novo",
+    "format": "VHH",
+    "heavy_variable": "QVQLQESGGGLVRPGGSLRLTCAASGDTFNKYAMGWFRQAPGKSLELVASISSSARSTYAPDTVKGRFTISRDNSKSVVYLQMNSLKLEDTADYFCAGHLGFNGYSSDVSTKEYGAFREVGFRYWGQGTQVTVS",
+    "light_variable": "",
+    "pair_sha256": "3e17aea82221a7823adc4ae9aea248b60273d544bb912550a9f81577d4624d97",
+    "prior_optimization_rank": null,
+    "selection_reason": "novel3: strongest Mol1 epitope-recovery hypothesis across two target contexts; large CDRH3 uncertainty",
+    "short_name": "novel3"
+  }
+]
