@@ -48,13 +48,20 @@ TABLE=$(sed -n '/refolded design(s) from/,$p' "$DIR/run.log" 2>/dev/null)
 if [ -n "$TABLE" ]; then
   echo "$TABLE"
 else
-  # older runs did not append the table, so work it out now
-  CSV=$(find -L "$DIR" "$HOME/team14/data/rfd4-proteina/docs/runs" \
-          -name refold_metrics.csv 2>/dev/null | head -1)
+  # Older runs did not append the table, so work it out now.
+  #
+  # ONLY look inside this run's own directory (and whatever its out/ symlink
+  # points at). An earlier version also searched the shared runs tree and took
+  # the first match, which silently reported a DIFFERENT run's numbers. That is
+  # the kind of bug that puts the wrong figures on a slide.
+  CSV=$(find -L "$DIR" -name refold_metrics.csv 2>/dev/null | head -1)
   if [ -n "$CSV" ]; then
+    echo "(from $CSV)"
     "$HOME/team14/.venv/bin/python" "$HOME/team14/scripts/report.py" "$CSV"
   else
-    echo "(no refold_metrics.csv found for this run)"
+    echo "No refold_metrics.csv inside $DIR."
+    echo "This run has no scored output of its own yet, or it wrote it"
+    echo "somewhere else. Do NOT quote another run's numbers for it."
   fi
 fi
 
