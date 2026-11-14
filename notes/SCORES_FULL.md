@@ -1,8 +1,12 @@
 # Score table
 
-This is the computational score ledger for the hackathon submission.
+This is the computational score ledger for the initial design phase.
 
-Start with the [proposed ranked 20](RANKED_CANDIDATES.csv)
+For the current recommendation and latest results, use the
+[submission package](../submission/README.md), including the current top four
+and the separate 90-candidate result table. This ledger preserves earlier evidence.
+
+The [initial ranked 20](RANKED_CANDIDATES.csv)
 and [selection rationale](../review/pitch_her2/Rangering_begrunnet.md).
 The [earlier review order](../review/evidence/panel.csv) and
 [earlier ensemble order](../people/anas/final-20.csv) are dated analyses,

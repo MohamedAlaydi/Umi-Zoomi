@@ -7,6 +7,11 @@ JapanFold and Amass.
 
 ## Latest design audit and immediate submission files
 
+The consolidated [submission and result CSV package](submission/README.md)
+contains the current ranked four, their evidence, all 90 candidate results,
+an exact five-column validator input and a fresh 4/4 validation receipt.
+The optional 20-row draft is labelled separately.
+
 The fresh evaluation retrains on the original assays, generates new H3 sequences,
 checks full607-residue HER2 complexes, and tests a separate framework stability
 hypothesis. **The four current recommendations, in priority order, are

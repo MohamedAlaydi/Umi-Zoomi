@@ -1,0 +1,65 @@
+{
+  "checked_oslo": "2026-11-14T17:45:06.021069+01:00",
+  "source_commit": "5efccc7897397c4bd51dca0a3c09871b12f31668",
+  "recommended_submission": "TOP4_INNSENDING.csv",
+  "rank_preserved": true,
+  "columns": [
+    "sequence_id",
+    "kind",
+    "heavy_sequence",
+    "light_sequence",
+    "design_description",
+    "track"
+  ],
+  "input_rows": 4,
+  "valid_rows": 4,
+  "format": "UTF-8, comma-separated, quoted where needed",
+  "track_metadata": "optimization; final track assignment belongs to organiser",
+  "validation_input": "TOP4_ABGUARD.csv",
+  "validator_command": [
+    "/home/hackathon/.local/bin/abguard",
+    "team-validate",
+    "/home/hackathon/team14/submission/TOP4_ABGUARD.csv",
+    "--reference-db",
+    "/home/hackathon/tools/abguard-venv/lib/python3.12/site-packages/abguard/reference_data",
+    "-o",
+    "/home/hackathon/team14/submission/TOP4_VALIDERT.csv"
+  ],
+  "validator_exit_code": 0,
+  "reference_manifest_sha256": "de5578eb098a576e446cd51bfe37eeafe5da0b7340a41ac2e7f38fab68f1c649",
+  "counts": {
+    "recommended": 4,
+    "all_candidate_results": 90,
+    "optional_DRAFT_panel": 20
+  },
+  "limitations": [
+    "Predictions are not new SPR, competition or Tm measurements.",
+    "TOP20_UTKAST.csv is a draft; two de novo entries require final known-antibody database confirmation."
+  ],
+  "files": {
+    "ALLE_KANDIDATER_RESULTATER.csv": {
+      "sha256": "c9d0f266bafce1f6dd3933d7bb73d17eed1e5cd9285f04330fb01e7472e75a0b",
+      "bytes": 43254
+    },
+    "TOP20_UTKAST.csv": {
+      "sha256": "fcd5d2021e3a6d79c1a0b55c2cfd88bf98389701fe8e6c03498c80a4db6070bb",
+      "bytes": 6483
+    },
+    "TOP4_ABGUARD.csv": {
+      "sha256": "37e5171c17ea9583dbbfd51f60e2c1ad160f23ddbbc569d3854d82059d32380f",
+      "bytes": 1371
+    },
+    "TOP4_INNSENDING.csv": {
+      "sha256": "e620b37652fd99d81f008947ab1eabf1fb9f85eece1a03ce9bdbc424dd0da1fd",
+      "bytes": 1429
+    },
+    "TOP4_RESULTATER.csv": {
+      "sha256": "0d22d4dc78cc5e75afe9beb3b59d448c404c35367fa3ce751df6365b07ec717e",
+      "bytes": 2829
+    },
+    "TOP4_VALIDERT.csv": {
+      "sha256": "c7dd3ec871e27a9922c7944cafa8537f11e5e7f42a38e9651cce1bce7f4f7add",
+      "bytes": 1366
+    }
+  }
+}

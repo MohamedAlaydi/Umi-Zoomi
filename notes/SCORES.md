@@ -1,8 +1,12 @@
 # Score table
 
-This is the computational score ledger for the hackathon submission.
+This is the computational score ledger for the initial design phase.
 
-Start with the [proposed ranked 20](RANKED_CANDIDATES.csv)
+For the current recommendation and latest results, use the
+[submission package](../submission/README.md), including the current top four
+and the separate 90-candidate result table. This ledger preserves earlier evidence.
+
+The [initial ranked 20](RANKED_CANDIDATES.csv)
 and [selection rationale](../review/pitch_her2/Rangering_begrunnet.md).
 The [earlier review order](../review/evidence/panel.csv) and
 [earlier ensemble order](../people/anas/final-20.csv) are dated analyses,
@@ -60,9 +64,9 @@ All **2,168** score rows: [CSV](SCORES.csv) · [full ledger with source links](S
 | Run 009: multiseed-refold | 90 | 1640 | 1, 2, 3, 4, 5, 42 |
 | Run 010: passers-007-005 | 20 | 112 | 42 |
 
-## Proposed panel: original matched seed-42 scores
+## Baseline panel: original matched seed-42 scores
 
-This preserves the proposed experimental order. These are the original run-006
+This preserves the earlier experimental order. These are the original run-006
 complex scores, not a claim of seed robustness or measured affinity. Global ipTM
 also includes the VH–VL interface. See the linked rationale for the six-seed
 HER2-contact evidence used for selection. A local validator pass is not final acceptance.
