@@ -1,7 +1,7 @@
 # Source this in any script or shell: `. ~/team14/scripts/env.sh`
 # ~/.bashrc returns early for non-interactive shells, so the Foundry
 # credentials and the pixi PATH are missing in `ssh host "cmd"` and in cron.
-eval "$(grep -E '^export (FOUNDRY|QUAY|NXF)' "$HOME/.bashrc")"
+eval "$(grep -E '^export (FOUNDRY|QUAY|NXF|AMASS)' "$HOME/.bashrc")"
 export PATH="$HOME/.pixi/bin:$HOME/.local/bin:$PATH"
 
 REG=quay.io/apheris/oslo-hackathon

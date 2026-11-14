@@ -1,0 +1,142 @@
+#!/usr/bin/env bash
+# Amass Platform API, for the whole team.
+#
+# Each person uses their OWN key. Make one at
+# https://platform.amass.tech/api-keys  (it starts with amass_ and is shown
+# only once). Then put it in ~/.bashrc on the VM:
+#
+#     export AMASS_API_KEY=amass_xxxxxxxxxxxx
+#
+# and `. ~/team14/scripts/env.sh` picks it up, exactly the way the Foundry
+# credentials already work. Never put a key in this repo. The repo is public
+# and the pre-commit hook rejects secret-shaped lines.
+#
+# Usage:
+#   amass search biomedcore "trastuzumab Met-107 oxidation"
+#   amass search biomedcore "HER2 epitope competitive binding" 40
+#   amass get biomedcore <amass-id>
+#   amass credits          # organisation admins only, others get 403
+#   amass cores
+#
+# What it costs, from Amass's own pricing page:
+#   search       $0.05 per 20 results, so limit=100 is $0.25
+#   get by id    $0.01
+#   rate limit   60 requests per 60 seconds, keyed by user + organisation
+#
+# That rate limit is the reason we do not share one key between five people:
+# one shared key means one shared 60-per-minute budget and one bill. Every
+# response prints its own credit cost below so you can see what you spent.
+set -euo pipefail
+
+BASE="https://api.amass.tech/api/v1"
+CORES="biomedcore trialcore drugcore regulatorycore genecore patentcore"
+
+die() { printf '%s\n' "$*" >&2; exit 2; }
+
+if [ "${1:-}" = "cores" ]; then
+  printf '%s\n' $CORES
+  exit 0
+fi
+
+if [ -z "${AMASS_API_KEY:-}" ]; then
+  cat >&2 <<'MSG'
+AMASS_API_KEY is not set.
+
+Get your own key:
+  1. sign in at https://platform.amass.tech
+  2. open https://platform.amass.tech/api-keys
+  3. Create API Key, and copy it now: it is shown only once
+  4. add this line to ~/.bashrc on the VM
+
+       export AMASS_API_KEY=amass_your_key_here
+
+  5. . ~/team14/scripts/env.sh
+
+Do not paste a key into this repo. It is public.
+MSG
+  exit 2
+fi
+
+case "${AMASS_API_KEY}" in
+  amass_*) : ;;
+  *) die "AMASS_API_KEY does not start with amass_, so it is probably not an Amass key." ;;
+esac
+
+check_core() {
+  for c in $CORES; do [ "$c" = "$1" ] && return 0; done
+  die "unknown core '$1'. One of: $CORES"
+}
+
+# curl, then report the credit cost and rate-limit headroom Amass sends back
+call() {
+  local url="$1" method="${2:-GET}"
+  local hdr body status
+  hdr="$(mktemp)"; body="$(mktemp)"
+  trap 'rm -f "$hdr" "$body"' RETURN
+
+  status="$(curl -sS -o "$body" -D "$hdr" -w '%{http_code}' \
+      -X "$method" "$url" \
+      -H "Authorization: Bearer ${AMASS_API_KEY}" \
+      -H 'Accept: application/json')"
+
+  if [ "$status" = "401" ]; then
+    die "401 from Amass: the key was rejected. Check that AMASS_API_KEY is current and not revoked."
+  fi
+  if [ "$status" = "403" ]; then
+    die "403 from Amass: your account is not allowed this call. The credits endpoint is organisation admins only."
+  fi
+  if [ "$status" = "429" ]; then
+    local retry
+    retry="$(grep -i '^retry-after:' "$hdr" | tr -d '\r' | awk '{print $2}')"
+    die "429 from Amass: rate limited, 60 requests per 60 seconds. Retry after ${retry:-?}s. If several of us are on one key, that is why."
+  fi
+  if [ "${status:0:1}" != "2" ]; then
+    printf 'HTTP %s from Amass:\n' "$status" >&2
+    cat "$body" >&2
+    exit 1
+  fi
+
+  if command -v python3 >/dev/null 2>&1; then
+    python3 -m json.tool < "$body" || cat "$body"
+  else
+    cat "$body"
+  fi
+
+  local cost remain
+  cost="$(grep -i '^x-amass-credit-cost:' "$hdr" | tr -d '\r' | awk '{print $2}')"
+  remain="$(grep -i '^x-ratelimit-remaining:' "$hdr" | tr -d '\r' | awk '{print $2}')"
+  printf '\n# cost %s credits (1 credit = $0.01) | %s requests left this minute\n' \
+    "${cost:-0}" "${remain:-?}" >&2
+}
+
+urlencode() {
+  if command -v python3 >/dev/null 2>&1; then
+    python3 -c 'import sys,urllib.parse as u; print(u.quote(sys.argv[1], safe=""))' "$1"
+  else
+    printf '%s' "$1" | tr ' ' '+'
+  fi
+}
+
+cmd="${1:-}"; shift || true
+
+case "$cmd" in
+  search)
+    core="${1:-}"; query="${2:-}"; limit="${3:-20}"
+    [ -n "$core" ] && [ -n "$query" ] || die 'usage: amass search <core> "<query>" [limit]'
+    check_core "$core"
+    call "${BASE}/cores/${core}/records?query=$(urlencode "$query")&limit=${limit}"
+    ;;
+  get)
+    core="${1:-}"; id="${2:-}"
+    [ -n "$core" ] && [ -n "$id" ] || die 'usage: amass get <core> <amass-id>'
+    check_core "$core"
+    call "${BASE}/cores/${core}/records/${id}"
+    ;;
+  credits)
+    call "${BASE}/credits/api-credits"
+    ;;
+  *)
+    sed -n '2,30p' "$0" | sed 's/^# \{0,1\}//'
+    exit 0
+    ;;
+esac
