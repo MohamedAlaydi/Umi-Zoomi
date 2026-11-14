@@ -1,0 +1,54 @@
+in-batch wild type iface_min 0.901; seed SD 0.0147
+structural floor (WT - 2 SD): 0.872
+a delta vs WT is undetectable below 0.054
+
+second opinion: refitting a logistic regression on the FACS screen
+  external SPR set, unseen by either model: n=592, 160 with a fitted KD
+    AUC binder-vs-no-fit  0.764   p_high, gradient boosting
+    AUC binder-vs-no-fit  0.679   p_high, logistic regression
+    AUC binder-vs-no-fit  0.743   p_high, mean of the two
+    AUC binder-vs-no-fit  0.815   dumb rule: -mutation count
+    AUC binder-vs-no-fit  0.857   dumb rule: -distance to nearest FACS high
+  the two models agree with each other: Spearman 0.629
+
+structural floor: 31 of 40 candidates at or above 0.872
+   dropped anas_008 WAAGGFYFWQ iface 0.871 (-2.0 seed SD vs WT)
+   dropped anas_025 WPATGFYDGY iface 0.867 (-2.3 seed SD vs WT)
+   dropped anas_038 WAGEGFYYAE iface 0.867 (-2.3 seed SD vs WT)
+   dropped anas_014 WGYNGFYPSK iface 0.866 (-2.4 seed SD vs WT)
+   dropped anas_040 WAERGFYIWD iface 0.863 (-2.6 seed SD vs WT)
+   dropped anas_005 WGFVGFYRSK iface 0.861 (-2.8 seed SD vs WT)
+   dropped anas_003 WVGPGFYGWD iface 0.853 (-3.3 seed SD vs WT)
+   dropped anas_033 WPYGGFYHVK iface 0.848 (-3.6 seed SD vs WT)
+   dropped anas_006 WVREGFYRSK iface 0.772 (-8.8 seed SD vs WT)
+
+final 20, ranked on measured-data agreement, 3+ apart from each other
+
+  # query      CDRH3          p_gb   p_lr  p_mean  liab  grip  iface    d_WT  detect
+------------------------------------------------------------------------------------
+  1 anas_036   WGAKGFYSWQ    0.991  0.982   0.987   2/2   4/4  0.883  -0.018      no
+  2 anas_023   WDATGFYYWE    0.992  0.977   0.984   2/2   4/4  0.895  -0.006      no
+  3 anas_002   WDANGFYYVD    0.996  0.968   0.982   2/2   4/4  0.877  -0.024      no
+  4 anas_031   WRAAGFYRWD    0.992  0.972   0.982   2/2   4/4  0.893  -0.008      no
+  5 anas_026   WDAMGFYGWD    0.992  0.969   0.981   2/2   4/4  0.909  +0.008      no
+  6 anas_015   WPGGGFYYWE    0.993  0.952   0.972   2/2   4/4  0.893  -0.008      no
+  7 anas_018   WYAAGFYVWE    0.993  0.942   0.967   2/2   4/4  0.897  -0.004      no
+  8 anas_001   WTATGFYSSK    0.996  0.936   0.966   2/2   4/4  0.914  +0.013      no
+  9 anas_028   WGREGFYSAE    0.992  0.941   0.966   2/2   4/4  0.891  -0.010      no
+ 10 anas_030   WYATGFYDSD    0.992  0.928   0.960   2/2   4/4  0.887  -0.014      no
+ 11 anas_021   WGYKGFYDWD    0.993  0.918   0.955   2/2   4/4  0.885  -0.016      no
+ 12 anas_004   WYGGGFYFWD    0.995  0.916   0.955   2/2   4/4  0.887  -0.014      no
+ 13 anas_007   WYGEGFYTWE    0.994  0.910   0.952   2/2   4/4  0.897  -0.004      no
+ 14 anas_037   WRAKGFYSAE    0.991  0.910   0.951   2/2   4/4  0.904  +0.003      no
+ 15 anas_012   WPATGFYPVK    0.994  0.886   0.940   2/2   4/4  0.882  -0.019      no
+ 16 anas_035   WVETGFYDWD    0.991  0.860   0.926   2/2   4/4  0.883  -0.018      no
+ 17 anas_017   WDATGFYGIY    0.993  0.857   0.925   2/2   4/4  0.906  +0.005      no
+ 18 anas_020   WVREGFYKWY    0.993  0.856   0.925   2/2   4/4  0.899  -0.002      no
+ 19 anas_034   WYRGGFYNWE    0.991  0.856   0.924   2/2   4/4  0.897  -0.004      no
+ 20 anas_010   WTATGFYGGD    0.994  0.847   0.921   2/2   4/4  0.889  -0.012      no
+
+20 of 20 have a WT delta inside the seed noise, so their structural
+difference from trastuzumab is not measurable at one seed. That is expected and
+is why the order above does not use it.
+
+wrote people/anas/final-20.csv
