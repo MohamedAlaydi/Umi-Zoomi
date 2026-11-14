@@ -1,0 +1,49 @@
+# Redesign trastuzumab's CDRH3 while HOLDING the four residues that actually
+# touch HER2.
+#
+# Derived from the organisers' Data/12-her2/her2_cdrh3.yaml. The only change is
+# that W99, G103, F104 and Y105 move from "freely generated" into the fixed
+# sequence and the fixed coordinate group, alongside the framework.
+#
+# Why: scripts/contacts.py measured the interface from this same 1N8Z file and
+# found only four of the ten redesignable positions contact HER2 at all. Run 004
+# then generated 40 designs with the loop free, and 0 of the 10 that were
+# refolded kept all four. G103 and F104 were lost in every single one. So the
+# model will not preserve them unless it is told to.
+#
+# That leaves exactly six positions free: 100, 101, 102, 106, 107, 108.
+# Two of those six are trastuzumab's documented chemical liabilities, D102
+# isomerization and M107 oxidation, so a design here can clear both without
+# moving an atom that does the binding.
+#
+# Six free positions still clears the novelty filter: changing four of six gives
+# 60 % identity to trastuzumab, inside the 70 % limit with margin.
+#
+# HER2 is split at its unresolved loop (581-590) into chains C (489-580) and
+# D (591-607), because input validation rejects a numbering gap inside one chain.
+her2_anchored:
+  input: her2_fv_1n8z.cif
+  conditions:
+    C_CRDGRP:
+      1:
+        - select: "sel('A') and not has_nan_coord()"
+        - select: "sel('B/*/[1-98, 109-120]') and not has_nan_coord()"
+        # the four contact residues, held in place with the framework
+        - select: "sel('B/*/[99, 103-105]') and not has_nan_coord()"
+      2:
+        - select: "sel('C/*/*/[N,CA,C,O]') and not has_nan_coord()"
+        - select: "sel('D/*/*/[N,CA,C,O]') and not has_nan_coord()"
+    C_SEQ:
+      true:
+        - select: "sel('A')"
+        - select: "sel('B/*/[1-98, 109-120]')"
+        # their identity is given too, not just their position
+        - select: "sel('B/*/[99, 103-105]')"
+        - select: "sel('C')"
+        - select: "sel('D')"
+    C_HOT:
+      true:
+        - select: "sel('D/*/593/NZ')"
+        - select: "sel('C/*/573/CD1')"
+        - select: "sel('D/*/591/CG2')"
+        - select: "sel('C/*/572/CD')"
