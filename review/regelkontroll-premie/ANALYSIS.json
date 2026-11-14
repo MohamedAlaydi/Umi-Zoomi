@@ -1,0 +1,68 @@
+{
+  "input_sha256": {
+    "review/panel18plus2/RANKED_18_PLUS_2.csv": "305f36599f162615c71d616f01222bda965654299e24f9ffcfe7764a4d95c058",
+    "review/panel18plus2/KANDIDATBEVIS.csv": "bed84aceb1040c9cd78f37e5627c2222af2a9039e20ca21a83bfc00d46e2184f",
+    "runs/012-codex-18plus2/common-evidence.json": "c20791cf80861900c9961ea825652c4bcc8142144a6e079f72f2deba91301b43",
+    "runs/011-codex-denovo-vhh/local-refold-evidence.json": "c5e52d790a176ad808c4af77d788a8f38e9dd51eda413f3655de02915b2778d3",
+    "data/her2-trastuzumab/trastuzumab_her2_spr_all_768.csv": "4d6f53a6183f377670e9577b3233a7c4c14888965ac63824863219d13424fa9b",
+    "data/her2-trastuzumab/tz_her2_facs_3classes_524346.csv.zip": "85e5e56c9c34a7b206b818b90421427a8ad65d55ae821cb4ad642bb595def968",
+    "review/panel18plus2/original_reference.csv": "f67f8284ce21f86b56b17f75493b05217d8f603565487692372083f626fa08b5"
+  },
+  "cross_panel_exact_pair_overlap": 19,
+  "common_panel_snapshot_sha256": "dfe4bb0508baca893a8ace822c0072f9c43d5110852d1e341138cfcff63087f0",
+  "matched_common_control_hits_of19": {
+    "mol1": 18,
+    "opendde-abag": 7
+  },
+  "mol1_full_recall_for_fabs": 18,
+  "historical": {
+    "all": {
+      "n_unique": 268,
+      "outcome_counts": {
+        "quantified_binding": 95,
+        "no_reportable_kd": 128,
+        "inconclusive": 41,
+        "not_reported": 4
+      },
+      "min_quantified_nM": 0.095,
+      "strictly_below_median_wt": 1,
+      "strictly_below_weakest_wt": 1,
+      "within_25pct_of_median_wt_or_better": 1,
+      "within_2x_median_wt_or_better": 3
+    },
+    "FACS_unseen": {
+      "n_unique": 255,
+      "outcome_counts": {
+        "quantified_binding": 82,
+        "no_reportable_kd": 128,
+        "inconclusive": 41,
+        "not_reported": 4
+      },
+      "min_quantified_nM": 0.185,
+      "strictly_below_median_wt": 0,
+      "strictly_below_weakest_wt": 0,
+      "within_25pct_of_median_wt_or_better": 0,
+      "within_2x_median_wt_or_better": 2
+    }
+  },
+  "wt_median_nM": 0.1345,
+  "wt_range_nM": [
+    0.02851802,
+    0.178
+  ],
+  "historical_conditional_upper_one_sided_95": 0.03587403171067116,
+  "external_matched_fab_and_thermal": {
+    "n": 12,
+    "strictly_tighter_Fab": 0,
+    "higher_IP1": 1,
+    "higher_IP2": 5,
+    "less_high_cdr3_flags_than_parent": 11,
+    "less_flags_and_higher_IP1": 1,
+    "observed_both_strict_fab_kd_and_IP1": 0
+  },
+  "geometry_prediction_count": 104,
+  "native_reference_sha256": "9f22f02b6e514de56dab8a48bc31a16302a51397779e64c398ad3a7f05cb19a2",
+  "capture_guide_sha256": "c5655f7219f15cd6ea4e64a4b23ba6f366442eccea9f11fb858a57d169898d0a",
+  "conservative_planning_count_first_four": 0,
+  "estimated_joint_probability": null
+}

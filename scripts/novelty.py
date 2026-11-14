@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 """Check a CDRH3 against the novelty filter, locally.
 
-abguard is not installed on our VM, so this reimplements the two numeric
+This is a legacy core-window diagnostic. Use the installed abguard with an
+explicit reference for final full-domain/IMGT eligibility. It reimplements numeric
 rules the organisers published, to catch designs that would be rejected at
 submission before we waste a refold on them. It is NOT the official tool:
 treat a pass here as "worth refolding", not as "accepted".
 
 The rules, from the task PDF and the Apheris slides:
-  optimisation  CDRH3 identity to trastuzumab at most 70 %
-                AND at least 2 mutations away from every sequence in the
+  optimisation  CDRH3 identity to trastuzumab strictly below 70 %
+                AND strictly more than 2 mutations away from every sequence in the
                 provided HER2 data (525,063 CDRH3s)
   de novo       under 70 % identity to any known antibody, checked against
                 Adaptyv's database, which we do not have. Not checked here.
@@ -104,46 +105,50 @@ def _levenshtein(a: str, b: str, cap: int) -> int:
     return prev[-1]
 
 
+# The pool objects are retained alongside decoded choices to avoid id reuse.
+_EDIT_CHOICES = {}
+
+
 def min_distance(query: str, pool: dict[int, np.ndarray]) -> tuple[int, str]:
-    """Smallest distance from query to anything in the provided data."""
-    best, best_seq = 10**9, ""
+    """Exact Levenshtein distance, including equal-length sequences.
 
-    # same length: vectorised Hamming
-    same = pool.get(len(query))
-    if same is not None:
-        q = np.frombuffer(query.encode("ascii"), dtype=np.uint8)
-        d = (same != q).sum(axis=1)
-        i = int(d.argmin())
-        best = int(d[i])
-        best_seq = same[i].tobytes().decode("ascii")
-
-    # other lengths: only those close enough to still beat `best`
-    for L, arr in pool.items():
-        if L == len(query) or abs(L - len(query)) >= best:
-            continue
-        for row in arr:
-            s = row.tobytes().decode("ascii")
-            d = _levenshtein(query, s, best - 1)
-            if d < best:
-                best, best_seq = d, s
-                if best == 0:
-                    return best, best_seq
-    return best, best_seq
+    Equal length does not make Hamming and edit distance equivalent: shifts
+    can have many substitutions but only two edits. Match abguard's metric.
+    """
+    from rapidfuzz import process
+    from rapidfuzz.distance import Levenshtein
+    if not query or not query.isascii() or not query.isalpha():
+        raise ValueError("Expected a nonempty amino-acid string")
+    key = id(pool)
+    cached = _EDIT_CHOICES.get(key)
+    if cached is None or cached[0] is not pool:
+        choices = []
+        for length, values in sorted(pool.items()):
+            if values.ndim != 2 or values.shape[1] != length:
+                raise ValueError("Reference pool shape disagrees with sequence length")
+            choices.extend(row.tobytes().decode("ascii") for row in values)
+        if not choices:
+            raise ValueError("Empty reference pool")
+        cached = (pool, choices)
+        _EDIT_CHOICES[key] = cached
+    nearest = process.extractOne(query, cached[1], scorer=Levenshtein.distance)
+    return int(nearest[1]), nearest[0]
 
 
 def identity_to_trastuzumab(query: str) -> float:
+    """Edit-normalized identity of the supplied legacy core, not full IMGT H3."""
+    from rapidfuzz.distance import Levenshtein
     t = TRASTUZUMAB_CDRH3
-    if len(query) == len(t):
-        same = sum(a == b for a, b in zip(query, t))
-        return 100.0 * same / len(t)
-    d = _levenshtein(query, t, max(len(query), len(t)))
-    return 100.0 * (max(len(query), len(t)) - d) / max(len(query), len(t))
+    if not query:
+        raise ValueError("Empty CDRH3")
+    return 100.0 * (1 - Levenshtein.distance(query, t) / max(len(query), len(t)))
 
 
 def check(queries: list[str]) -> int:
     pool = load()
     total = sum(a.shape[0] for a in pool.values())
-    print(f"provided data: {total:,} unique CDRH3\n")
+    print(f"provided data: {total:,} unique legacy-core CDRH3\n")
+    print("Diagnostic only: raw core convention and conservative PDF boundaries; final IMGT/track validation requires abguard.")
 
     hdr = f"{'cdrh3':<24} {'len':>3} {'minDist':>7} {'%idTz':>6}  verdict"
     print(hdr)
@@ -158,15 +163,15 @@ def check(queries: list[str]) -> int:
         idt = identity_to_trastuzumab(q)
 
         reasons = []
-        if d < 2:
+        if d < 3:
             reasons.append(f"only {d} mutation(s) from a provided seq ({nearest})")
-        if idt > 70.0:
+        if idt >= 70.0:
             reasons.append(f"{idt:.0f} % identical to trastuzumab")
         if "C" in q:
             # not a hard rule on its own, but unpaired cysteines are rejected
             reasons.append(f"contains {q.count('C')} cysteine(s), check pairing")
 
-        hard = d < 2 or idt > 70.0
+        hard = d < 3 or idt >= 70.0
         verdict = "REJECTED" if hard else ("ok, check C" if "C" in q else "ok")
         worst = max(worst, 1 if hard else 0)
         print(f"{q:<24} {len(q):>3} {d:>7} {idt:>5.0f}%  {verdict}")

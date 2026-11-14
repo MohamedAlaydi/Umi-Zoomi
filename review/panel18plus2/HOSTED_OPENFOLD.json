@@ -1,0 +1,22 @@
+[
+  {
+    "id": "3f825d078c45c3bc0557f056468acfcb",
+    "name": "team14-her2-variable-designs-context-openfold3",
+    "model": "openfold3",
+    "status": "succeeded",
+    "total": 9,
+    "done": 9,
+    "started_at": "2026-11-14T13:33:01.982651+00:00",
+    "finished_at": "2026-11-14T13:36:17.018433+00:00"
+  },
+  {
+    "id": "87165e3bfa621033be339296e88e822d",
+    "name": "team14-her2-paired-canonical-cys-openfold3",
+    "model": "openfold3",
+    "status": "succeeded",
+    "total": 8,
+    "done": 8,
+    "started_at": "2026-11-14T13:10:28.728997+00:00",
+    "finished_at": "2026-11-14T13:12:09.038383+00:00"
+  }
+]

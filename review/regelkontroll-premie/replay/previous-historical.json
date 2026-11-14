@@ -1,0 +1,65 @@
+{
+  "unique_constructs": 255,
+  "draws": 5000,
+  "slots": 4,
+  "seed": 14112026,
+  "wt_observations_nM": [
+    0.152,
+    0.123,
+    0.146,
+    0.165,
+    0.178,
+    0.0378713,
+    0.02851802,
+    0.07916459
+  ],
+  "thresholds_nM": {
+    "lowest_observation": 0.02851802,
+    "median_observation": 0.1345,
+    "highest_observation": 0.178
+  },
+  "quantified_constructs": 82,
+  "lowest_quantified_kd_nM": 0.185,
+  "inconclusive_or_unreported": 45,
+  "no_reportable_kd": 128,
+  "measured_below_threshold_counts": {
+    "lowest_observation": 0,
+    "median_observation": 0,
+    "highest_observation": 0
+  },
+  "methods": {
+    "random": {
+      "fits_per_four": 1.2786,
+      "unknown_per_four": 0.6914,
+      "observed_below_threshold_per_four": {
+        "lowest_observation": 0.0,
+        "median_observation": 0.0,
+        "highest_observation": 0.0
+      }
+    },
+    "BLOSUM62": {
+      "fits_per_four": 2.3836,
+      "unknown_per_four": 0.8948,
+      "observed_below_threshold_per_four": {
+        "lowest_observation": 0.0,
+        "median_observation": 0.0,
+        "highest_observation": 0.0
+      }
+    },
+    "high_FACS": {
+      "fits_per_four": 2.1106,
+      "unknown_per_four": 0.9044,
+      "observed_below_threshold_per_four": {
+        "lowest_observation": 0.0,
+        "median_observation": 0.0,
+        "highest_observation": 0.0
+      }
+    }
+  },
+  "sha256": {
+    "data/her2-trastuzumab/trastuzumab_her2_spr_all_768.csv": "4d6f53a6183f377670e9577b3233a7c4c14888965ac63824863219d13424fa9b",
+    "data/her2-trastuzumab/tz_her2_facs_3classes_524346.csv.zip": "85e5e56c9c34a7b206b818b90421427a8ad65d55ae821cb4ad642bb595def968",
+    "people/anas/facs_model.joblib": "ab1f714ca3e071976083c03bc4a81f64571b236d7f4f521f2b50e8ef6dd91da7"
+  },
+  "interpretation": "Historical descriptive threshold sensitivity; neither batch-matched improvement nor a prospective S-tier estimate. Unknown outcomes are not counted as observed wins."
+}

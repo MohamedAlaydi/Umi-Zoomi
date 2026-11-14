@@ -1,0 +1,42 @@
+{
+  "candidate_count": 20,
+  "optimization_count": 18,
+  "de_novo_count": 2,
+  "completed_common_rows": 42,
+  "target_common_rows": 42,
+  "new_common_predictions": 36,
+  "reused_common_predictions": 6,
+  "verified_previous_raw_files": 717,
+  "previous_binding_ddg_candidates": 9,
+  "binding_ddg_controls": {
+    "n": 8,
+    "spearman_rho": 0.880952380952381,
+    "p": 0.0038503204637324005,
+    "scope": "Small selected historical control panel. Monte Carlo SE is not predictive error. Binding-ddG is not thermal stability."
+  },
+  "Adaptyv_new_lab_measurements": 0,
+  "validation": {
+    "source": "/home/hackathon/team14/runs/012-codex-18plus2/submission.csv",
+    "team": "submission",
+    "n_input": 20,
+    "n_valid": 20,
+    "kinds": [
+      {
+        "kind": "vhh",
+        "n_input": 2,
+        "n_valid": 2,
+        "rule_failures": {}
+      },
+      {
+        "kind": "paired",
+        "n_input": 18,
+        "n_valid": 18,
+        "rule_failures": {}
+      }
+    ],
+    "unknown_kinds": {},
+    "duplicate_ids": [],
+    "duplicate_constructs": [],
+    "novelty_failures": {}
+  }
+}

@@ -1,0 +1,58 @@
+# Hvilke fire HER2-antistoffer fortjener en labplass?
+
+**Beslutning for Team 14.** Én rangert fil med 18 trastuzumab-varianter og to nye, enkelkjedede antistoffer (VHH). De fire garanterte plassene går til `anas_015`, `anas_007`, `anas_028` og `anas_009`. Nummer 6 er `novel3` og nummer 12 er `novel1`. Dette er en prioritering av forsøk før labresultatene foreligger. Vi har ingen kalibrert sannsynlighet for S-tier, og rekkefølgen er ikke matematisk optimalisert for premiepenger.
+
+## Si dette til teamet
+
+«Vi har bare fire sikre labplasser. Vår utvalgsregel fant oftere antistoffer med målbar binding i gamle forsøk. Men ingen av de 82 med tallfestet binding i den relevante gruppen bandt sterkere enn originalen. Derfor bruker vi to av plassene på et spørsmål laboratoriet faktisk kan avgjøre. To antistoffer har like mange endringer og samme sekvensskår, men modellene er uenige om hvordan de treffer HER2. Hvilket av dem blokkerer originalens bindested best?»
+
+**Hva teamet har bygd.** En analyse som går fra en sekvens til en begrunnet plass i laboratoriekøen. Den som velger hva som skal lages, får fullsekvens, kjedekontroll, resultater per modell, svake punkter og spørsmålet kandidaten skal besvare. Relevansen utenfor hackathonet er en etterprøvbar beslutning før et kostbart forsøk. For å demonstrere økonomisk gevinst må dette gjentas prospektivt på flere par ved samme testbudsjett.
+
+## Hva som er målt
+
+| Egenskap | Hva vi faktisk har for de 20 | Hva avgjør konkurransen |
+|---|---|---|
+| Hvor hardt antistoffet binder HER2 | Historisk SPR på andre sekvenser. Ingen av de 20 fullkonstruksjonene matcher en målt variant i arrangørens 768-raders SPR-tabell. Modellsignaler varierer mellom kandidatene. | Adaptyv måler KD med SPR mot referansen i samme kampanje. Lavere KD betyr sterkere binding. |
+| Om det binder ved samme sted | 19 kontaktrester i en virkelig krystallstruktur av originalen. Beregnet overlapp for designene. En modell kan treffe flere av disse og også berøre mange andre. | Konkurranseforsøk med trastuzumab. Hvor mye blokkering man ser avhenger også av om kandidaten selv binder godt. |
+| Hvor godt proteinet tåler varme | Datakontroll på eksterne, målte trastuzumab-varianter. Ingen eksakt sekvensmatch til vår liste. Sekvensmotiver er separat rapportert per kandidat. | Direkte termisk måling og sammenligning med originalen. Manglende ekspresjon eller en uavklart måling må beholdes som eget utfall. |
+
+**0 er antallet bekreftede S-tier nå.** Alle 20 er uavklarte. Alle tre kriteriene må oppfylles på samme design. Laget sender en prioritert liste før pitchbedømmelsen. Arrangøren sender tildelte topp-N til Adaptyv etterpå. Den offentlige kommersielle API-en kan bestille fysiske eksperimenter med eget pristilbud. Denne gjennomgangen har ingen labordre eller labkvittering. Beløpet på 720 dollar per førsteplass i hvert spor er oppgitt som foreløpig i premiesliden. [Oppgavebeskrivelsen](organizer-rules.pdf) · [Arrangørens feltguide](https://oslo-ai-antibodies-hackathon.vercel.app/participant_guide) · [Adaptyvs API](https://www.adaptyvbio.com/blog/adaptyv-api/)
+
+## Hva som endret prioriteringen
+
+- **Den historiske baseline-testen besvarte bare halve spørsmålet.** 255 unike varianter med fire til seks bytter, uten eksakt FACS-overlapp, ble gjenbrukt i 5 000 like trekninger av 40. Blant fire valgte ga BLOSUM62 i snitt 2,38 rapporterbare KD-verdier, FACS-modellen 2,11 og tilfeldig valg 1,28. Av de 255 hadde 82 tallfestet KD, 128 manglet rapporterbar tilpasning og 45 hadde manglende eller inkonklusivt svar. Beste av de 82 var 0,185 nM, mot 0,0285–0,178 nM for åtte historiske WT-registreringer. Dette utvalget alene kan ikke lære oss en terskel for å slå WT. Andre varianter utenfor gruppen kan slå WT. Noen historiske konstruksjoner ble opprinnelig valgt ved hjelp av BLOSUM. [Ny kontroll og eksakte tellinger](historical_binding.json)
+- **OpenFold var allerede i bruk.** I run 011 identifiserer to JapanFold-kvitteringer modellen som `openfold3`, med 8/8 og 9/9 ferdige. I den nye sammenligningen brukte vi arrangørens lokale `apheris-openfold3` 1.3.0 preview2. Tidligere Boltz-2 brukte et templatisert oppsett med todelt HER2. Begge nye Apheris-oppsett bruker samme 119 aminosyrer i én sammenhengende HER2-kjede. Det ene får kun sekvens, det andre også HER2-koordinater. Antistoffets koordinater er utelatt. De ti manglende HER2-restene er med i sekvensen og har ingen observerte koordinater i malen. De to leverandørkjøringene av OpenFold3 er beslektede modeller. [Kontaktresultater](OPENFOLD_RESULTS.csv) · [Krystallstrukturen 1N8Z](https://www.rcsb.org/structure/1N8Z)
+- **Lokal validator omgrupperer rader.** `abguard team-validate` med eksplisitt referanse godkjente nøyaktig de 20 fullsekvensene. Den skrev VHH-radene først i sin utfil. Bruk derfor **RANKED_18_PLUS_2.csv** ved innlevering. Den er inputfilen som besto, med ønsket rekkefølge. De 18 parene har minst tre bytter til nærmeste CDRH3 i bundlet og under 70 % identitet til WTs fulle IMGT-løkke. VHH-ene har høyeste globale identitet i teamets undersøkte referanser på henholdsvis 67,4 % og 68,7 %, og minste IMGT-avstand 18 og 15 i de utdelte HER2-dataene. Arrangøren avgjør endelig spor og eventuelle duplikater på tvers av lag. [Rangert liste](RANKED_18_PLUS_2.csv) · [Validering](VERIFICATION.json)
+- **Varmestabilitet er den dårligst dekkede egenskapen.** På en separat publisert HER2-serie sammenholdt vi 12 design og originalen med de faktiske termiske målingene. Bare 1 av 12 hadde høyere første rapporterte overgangstemperatur enn originalen, mens 5 av 12 hadde høyere andre overgang. Overgangene kan beskrive ulike deler av proteinet. Dette er tellede punktestimater. Ingen av de 20 fullsekvensene finnes i dette panelet. Vi ville avklare med arrangøren hvilket termisk endepunkt som teller dersom et protein viser flere overganger. Før vi endrer et topprangert design for varme, trenger vi en sammenlignbar termisk referanse, en kontrollert endring og ny kontroll av binding, epitope og valgbarhet. [Termisk kontroll](thermal_reference.json) · [Studieforfatternes datasett](https://github.com/AbSciBio/unlocking-de-novo-antibody-design/blob/cd2bd4b6932b5301d435555dc22084d407e4b92b/functionality-developability-cross_reactivity-data.csv)
+
+## Hva 60 nye Apheris-strukturer faktisk viste
+
+Alle de 20 designene, originalen og én ekstra VHH-reserve ble kjørt med samme HER2-sekvens i to oppsett. Fire konstruksjoner fikk også to ekstra seeds per oppsett. Vi fikk dermed 60 fullførte strukturer fra 22 unike komplekser, med 14,39 minutter samlet kjøretid rapportert av modulene på lagets H100. Det kom ingen ekstra API-regning eller labbestilling.
+
+| Konstruksjon | Uten strukturmal, seed 42 / 7 / 101 | Med bare HER2 som strukturmal, samme seeds |
+|---|---:|---:|
+| trastuzumab_wt | 7 / 8 / 11 | 7 / 13 / 10 |
+| anas_007 | 0 / 3 / 3 | 1 / 0 / 6 |
+| anas_015 | 6 / 5 / 9 | 9 / 1 / 3 |
+| anas_009 | 10 / 3 / 1 | 7 / 13 / 7 |
+
+Hvert tall er hvor mange av 19 kjente kontaktrester som ble truffet. Originalen traff 7–13/19. Den tidligere hovedkandidaten traff 0–6/19. I duellen mellom anas_015 og anas_009 vant hver kandidat tre av seks sammenlignbare oppsett på denne kontaktmålingen. Seeds er gjentatte simuleringer av de samme proteinene. Summen er ingen sannsynlighet for binding. Boltz-resultatet på fire løkkeposisjoner og det nye resultatet på hele HER2-flaten er to forskjellige spørsmål.
+
+For anas_015 og anas_009 er den prospektive hypotesen at førstnevnte konkurrerer sterkere med trastuzumab når begge binder og bindingsnivået er sammenlignbart. Dersom arrangøren bare rapporterer en binær konkurransetest, er støtte for hypotesen at førstnevnte består og sistnevnte ikke gjør det. Like utfall skiller ikke kandidatene. Hvis bare én uttrykkes eller bindingen ikke kan måles, er spørsmålet uavklart. Designtype, andre sekvensforskjeller og usikkerhet i assayet begrenser slutninger fra ett par.
+
+[Alle 60 strukturresultater](OPENFOLD_RESULTS.csv) · [Kjøringskvitteringer](VERIFICATION.json)
+
+## Hvorfor disse fire?
+
+| Plass | Kandidat | Beslutningen |
+|---:|---|---|
+| 1 | anas_015 | Fem bytter og samme sekvenslikhet som nummer 4. Alle fire definerte løkkeposisjoner berørte HER2 i 6/6 Boltz-2-strukturer. Tester hovedhypotesen om bevart bindested. |
+| 2 | anas_007 | Boltz-2 gjenskapte hele originalens sett på 19 HER2-kontakter i 5/6. Apheris-kjøringene viser hvor følsom den begrunnelsen er. Sterk kandidat til å undersøke modelluenighet. |
+| 3 | anas_028 | Sekvensskår 38, fire løkkekontakter i 6/6 Boltz-2-strukturer. Representerer det mer sekvenskonservative valget. 38 og 36 er summer av BLOSUM62-poeng over ti posisjoner, ikke prosent, antall bytter eller målt affinitet. |
+| 4 | anas_009 | Den andre halvdelen av paret, sikret selv ved minste tildeling. 0/6 med alle fire løkkekontakter. StaB-ddG ga lavere estimert bindingsenergi her enn for anas_015, med betydelig usikkerhet. Den må testes for at vi skal kunne skille hypotesene. |
+
+**Etter fire.** Nummer 5, `r004_cdrh3_3`, kommer fra den frie designmetoden og undersøker om de fire opprinnelige aminosyrene må beholdes. Nummer 6, `novel3`, treffer 8/19 i både Mol-1 og OpenDDE på lang HER2, men har svak reproduksjon av den frie antistoffløkken. Nummer 12, `novel1`, treffer 7/19 i Mol-1 på kort og 0/19 på lang HER2. `novel2` hadde best modellert egenfold av de tre, men 0/19 i begge lengder hos både Mol-1 og OpenDDE. Dette er grunnen til å utelate den. Vi tok ut de to siste fra den tidligere 20-Fab-listen, `anas_032` og `anas_027`. Med 4, 6, 8, 12, 16 eller 20 plasser blir antall optimeringer/de novo henholdsvis 4/0, 5/1, 7/1, 10/2, 14/2 og 18/2. [Alle kandidatbegrunnelser](KANDIDATBEVIS.csv)
+
+## Hvis dere rekker én ting til
+
+Gi én person ansvaret for å levere den rangerte CSV-filen gjennom arrangørens kanal og ta vare på kvitteringen. Sørg for at riktig rekkefølge vises før dere sender. Vis kun det matchede paret, kontrollen og én de novo-kandidat muntlig. Ha resten av begrunnelsene i reserve. Ved nye labresultater sammenlignes hvert design med samtidig trastuzumab. Registrer KD, konkurranse, termisk endepunkt og eventuelle uavklarte utfall separat. Effekten av utvelgelsesregelen kan deretter testes på et nytt par med samme kriterier.

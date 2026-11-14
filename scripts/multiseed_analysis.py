@@ -360,6 +360,16 @@ def fmt(v, nd=4):
 
 
 # --------------------------------------------------------------------------
+def noninferiority_supported(lower_bound, margin=NONINF_MARGIN):
+    """A lower confidence bound must clear the model-score margin.
+
+    This is a statement about a computational score, never clinical binding
+    noninferiority or thermal stability. An upper bound clearing the margin
+    only means that noninferiority has not been ruled out.
+    """
+    return bool(np.isfinite(lower_bound) and lower_bound >= margin)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--no-geom", action="store_true")
@@ -587,7 +597,7 @@ def main() -> int:
         if r["cdrh3"] != WT_CDRH3 and np.isfinite(lo):
             if r["other_gates_pass"] and lo >= 0 and qv <= BH_ALPHA:
                 lab = "PASS_ROBUST"
-            elif r["other_gates_pass"] and hi >= NONINF_MARGIN:
+            elif r["other_gates_pass"] and noninferiority_supported(lo):
                 lab = "NONINFERIOR"
             elif hi < 0:
                 lab = "FAIL_ROBUST"

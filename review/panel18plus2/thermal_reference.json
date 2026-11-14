@@ -1,0 +1,21 @@
+{
+  "reference": "AbSciBio public HER2 design study, functionality-developability-cross_reactivity-data.csv",
+  "primary_revision": "cd2bd4b6932b5301d435555dc22084d407e4b92b",
+  "curation_revision": "e05e3f0135783ffb7de412df6a1467e7a0031911",
+  "sha256": {
+    "original_reference.csv": "f67f8284ce21f86b56b17f75493b05217d8f603565487692372083f626fa08b5",
+    "DSF1.csv": "fb21d1ba98309a7830f05d6232ebcee083eccd6551529e6482d906e3d712af6f",
+    "DSF2.csv": "026d21ae62bd4211cd4882f565dc36b69e00307fd4b3fb47954bd5d0cdae30fc"
+  },
+  "tested_variants": 12,
+  "control_thermal_transitions_celsius": [
+    79.52,
+    79.52
+  ],
+  "variant_first_thermal_point_above_control": 1,
+  "variant_second_thermal_point_above_control": 5,
+  "exact_heavy_light_matches_in_our_20": 0,
+  "historical_control_fab_kd_nM_in_this_study": 1.38,
+  "fab_kd_available": 12,
+  "these_are_two_thermal_transitions": "Different reported inflection points. Point comparisons only, uncertainty and assay format matter. No measured thermal effect inferred for our designs."
+}

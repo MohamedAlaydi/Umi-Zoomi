@@ -35,13 +35,17 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("run", help="run name or fragment, e.g. 006")
     ap.add_argument("--out")
+    ap.add_argument("--seed",type=int,help="Required when more than one stored seed exists")
     args = ap.parse_args()
 
     hits = sorted(glob.glob(f"{HOME}/runs/*{args.run}*"))
     if not hits:
         sys.exit(f"no run matching {args.run}")
+    if len(hits) != 1:
+        sys.exit("ambiguous run fragment; pass an unambiguous run name: " + ", ".join(hits))
     run = hits[0]
-    manifest = {r["query_id"]: r for r in csv.DictReader(open(os.path.join(run, "manifest.csv")))}
+    with open(os.path.join(run, "manifest.csv")) as manifest_file:
+        manifest = {r["query_id"]: r for r in csv.DictReader(manifest_file)}
 
     rows = []
     for qid, meta in manifest.items():
@@ -49,7 +53,15 @@ def main() -> int:
         if not sc:
             rows.append({**meta, "status": "missing"})
             continue
-        d = json.load(open(sc[0]))
+        if args.seed is not None:
+            sc = [p for p in sc if f"/seed_{args.seed}/" in p]
+        if not sc:
+            rows.append({**meta,"status":"missing_requested_seed"})
+            continue
+        if len(sc) != 1:
+            sys.exit(f"{qid}: {len(sc)} scores match; select --seed explicitly, and do not silently choose a sample")
+        with open(sc[0]) as score_file:
+            d = json.load(score_file)
         mat = d["chain_chain_interface_predicted_tm_score"]
         iface = [pairwise(mat, BINDER, t) for t in TARGETS]
         rows.append({
@@ -75,7 +87,7 @@ def main() -> int:
     if wt:
         print(f"control trastuzumab_wt: iface_min {wt['iface_min']:.3f}  "
               f"iface_mean {wt['iface_mean']:.3f}  iptm {wt['iptm']:.3f}  plddt {wt['plddt']:.2f}")
-        print("Anything below the control on iface_min is not a candidate, whatever its p_high.\n")
+        print("This compares model confidence with the matched control; it does not establish affinity or disqualify a candidate.\n")
 
     hdr = (f"{'#':>3} {'query':<16} {'CDRH3':<12} {'p_high':>7} {'mut':>4} "
            f"{'iface_min':>10} {'iface_mean':>11} {'iptm':>6} {'plddt':>7} {'source':<22}")

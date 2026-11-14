@@ -1,0 +1,186 @@
+{
+  "passed": true,
+  "completed_utc": "2026-11-14T14:45:33.565984+00:00",
+  "candidate_count": 20,
+  "format_counts": {
+    "Fab": 18,
+    "VHH": 2
+  },
+  "complete_model_rows": 42,
+  "new_model_rows": 36,
+  "reused_model_rows": 6,
+  "accepted_by_installed_reference_validator": 20,
+  "prior_raw_file_hashes_verified": 717,
+  "new_artifact_hashes_verified": 164,
+  "same20_sequences_in_both_rankings": true,
+  "regression_tests_passed": 2,
+  "new_Adaptyv_lab_results": 0,
+  "decisions": {
+    "both_tracks_top4": [
+      {
+        "rank": 1,
+        "query": "anas_007"
+      },
+      {
+        "rank": 2,
+        "query": "anas_003"
+      },
+      {
+        "rank": 3,
+        "query": "rfd4-variable-sequence-k1__her2_variable_sequence_12_generated"
+      },
+      {
+        "rank": 4,
+        "query": "rfd4-variable-sequence-k1__her2_variable_sequence_2_generated"
+      },
+      {
+        "rank": 5,
+        "query": "anas_015"
+      },
+      {
+        "rank": 6,
+        "query": "anas_009"
+      },
+      {
+        "rank": 7,
+        "query": "r004_cdrh3_3"
+      },
+      {
+        "rank": 8,
+        "query": "anas_016"
+      },
+      {
+        "rank": 9,
+        "query": "anas_028"
+      },
+      {
+        "rank": 10,
+        "query": "anas_038"
+      },
+      {
+        "rank": 11,
+        "query": "anas_004"
+      },
+      {
+        "rank": 12,
+        "query": "anas_036"
+      },
+      {
+        "rank": 13,
+        "query": "anas_002"
+      },
+      {
+        "rank": 14,
+        "query": "anas_021"
+      },
+      {
+        "rank": 15,
+        "query": "anas_039"
+      },
+      {
+        "rank": 16,
+        "query": "anas_014"
+      },
+      {
+        "rank": 17,
+        "query": "anas_026"
+      },
+      {
+        "rank": 18,
+        "query": "anas_031"
+      },
+      {
+        "rank": 19,
+        "query": "anas_010"
+      },
+      {
+        "rank": 20,
+        "query": "anas_040"
+      }
+    ],
+    "optimisation_top4": [
+      {
+        "rank": 1,
+        "query": "anas_007"
+      },
+      {
+        "rank": 2,
+        "query": "anas_003"
+      },
+      {
+        "rank": 3,
+        "query": "anas_015"
+      },
+      {
+        "rank": 4,
+        "query": "anas_009"
+      },
+      {
+        "rank": 5,
+        "query": "rfd4-variable-sequence-k1__her2_variable_sequence_12_generated"
+      },
+      {
+        "rank": 6,
+        "query": "rfd4-variable-sequence-k1__her2_variable_sequence_2_generated"
+      },
+      {
+        "rank": 7,
+        "query": "r004_cdrh3_3"
+      },
+      {
+        "rank": 8,
+        "query": "anas_016"
+      },
+      {
+        "rank": 9,
+        "query": "anas_028"
+      },
+      {
+        "rank": 10,
+        "query": "anas_038"
+      },
+      {
+        "rank": 11,
+        "query": "anas_004"
+      },
+      {
+        "rank": 12,
+        "query": "anas_036"
+      },
+      {
+        "rank": 13,
+        "query": "anas_002"
+      },
+      {
+        "rank": 14,
+        "query": "anas_021"
+      },
+      {
+        "rank": 15,
+        "query": "anas_039"
+      },
+      {
+        "rank": 16,
+        "query": "anas_014"
+      },
+      {
+        "rank": 17,
+        "query": "anas_026"
+      },
+      {
+        "rank": 18,
+        "query": "anas_031"
+      },
+      {
+        "rank": 19,
+        "query": "anas_010"
+      },
+      {
+        "rank": 20,
+        "query": "anas_040"
+      }
+    ]
+  },
+  "run_source": "runs/012-codex-18plus2 with explicit run011 reuse",
+  "billed_JapanFold_usd": 0.297869
+}

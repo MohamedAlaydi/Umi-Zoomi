@@ -2,6 +2,1320 @@
   {
     "chain_roles": {
       "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 0,
+    "epitope_recall_4.0": 1.0,
+    "epitope_jaccard_4.0": 0.8260869565217391,
+    "target_residue_contacts_4.0": 23,
+    "epitope_recall_4.5": 1.0,
+    "epitope_jaccard_4.5": 0.7916666666666666,
+    "target_residue_contacts_4.5": 24,
+    "epitope_recall_5.0": 1.0,
+    "epitope_jaccard_5.0": 0.7307692307692307,
+    "target_residue_contacts_5.0": 26,
+    "ca_nac": 0.9359549183315702,
+    "cdr_ca_plddt": 0.9191544260877242,
+    "antibody_ca_plddt": 0.9324764023163246,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYGEGFYTWEYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9352462533804088,
+        "cdr_ca_plddt": 0.9076479392216124
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9366795083378139,
+        "cdr_ca_plddt": 0.9376926549275717
+      }
+    },
+    "contact_residue_pairs_4_5": 56,
+    "mean_contact_pair_symmetric_PAE_A": 2.3024264967867305,
+    "pae_sha256": "fcd3d3d1c390639f385ce928ce45f079640d6957be18ebab65e22ffe00ce62b1",
+    "pae_sidecar_sha256": "f274f974590a5c2b9f9d6c0a5e005a1f91df9e9ec019366ef4a04ec08be37310",
+    "candidate": "anas_007",
+    "model": "mol1",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "1198d825d9b845e2cc097686f3e8361e0b526f90271a745988b596c3a19d9b35",
+    "global_iptm": 0.94582,
+    "status": "ok",
+    "source_job": "535c038636d606d54d62bdde910af4b5",
+    "row_target": "anas_007",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-mol1/artifacts/anas_007.cif",
+    "structure_sha256": "7ed703e8d551acfe8abe94978c81dc9676fc6e922ddf92fdeabe11ff0d1c5542",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.96683,
+        "1": 0.962334,
+        "2": 0.926065
+      },
+      "1": {
+        "0": 0.962334,
+        "1": 0.969141,
+        "2": 0.926449
+      },
+      "2": {
+        "0": 0.926065,
+        "1": 0.926449,
+        "2": 0.904983
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 0,
+    "epitope_recall_4.0": 0.8947368421052632,
+    "epitope_jaccard_4.0": 0.68,
+    "target_residue_contacts_4.0": 23,
+    "epitope_recall_4.5": 1.0,
+    "epitope_jaccard_4.5": 0.7307692307692307,
+    "target_residue_contacts_4.5": 26,
+    "epitope_recall_5.0": 1.0,
+    "epitope_jaccard_5.0": 0.7307692307692307,
+    "target_residue_contacts_5.0": 26,
+    "ca_nac": 0.9317119450039333,
+    "cdr_ca_plddt": 0.9148587896468791,
+    "antibody_ca_plddt": 0.9282225251722966,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPGGGFYYWEYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9320104519351499,
+        "cdr_ca_plddt": 0.9037397897654567
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9314067300517906,
+        "cdr_ca_plddt": 0.9327727339002821
+      }
+    },
+    "contact_residue_pairs_4_5": 60,
+    "mean_contact_pair_symmetric_PAE_A": 2.8643539287149906,
+    "pae_sha256": "e4d5d38fd116537700f1eb5be7d8962beec84ee647bcfff1883321c5a9d9fa9b",
+    "pae_sidecar_sha256": "f274f974590a5c2b9f9d6c0a5e005a1f91df9e9ec019366ef4a04ec08be37310",
+    "candidate": "anas_015",
+    "model": "mol1",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "537e55f3e261ab7ae25640381bbfb84b1180372b47d115f00e0290710ef6ac50",
+    "global_iptm": 0.940024,
+    "status": "ok",
+    "source_job": "535c038636d606d54d62bdde910af4b5",
+    "row_target": "anas_015",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-mol1/artifacts/anas_015.cif",
+    "structure_sha256": "0b8188c79014da6c192c2f7532f57489d8fb3f351b0bef5fc6580e12a4322072",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.964813,
+        "1": 0.960028,
+        "2": 0.919034
+      },
+      "1": {
+        "0": 0.960028,
+        "1": 0.967789,
+        "2": 0.919375
+      },
+      "2": {
+        "0": 0.919034,
+        "1": 0.919375,
+        "2": 0.896081
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 0,
+    "epitope_recall_4.0": 0.9473684210526315,
+    "epitope_jaccard_4.0": 0.6923076923076923,
+    "target_residue_contacts_4.0": 25,
+    "epitope_recall_4.5": 1.0,
+    "epitope_jaccard_4.5": 0.6551724137931034,
+    "target_residue_contacts_4.5": 29,
+    "epitope_recall_5.0": 1.0,
+    "epitope_jaccard_5.0": 0.6333333333333333,
+    "target_residue_contacts_5.0": 30,
+    "ca_nac": 0.9302562832302518,
+    "cdr_ca_plddt": 0.9160295965316448,
+    "antibody_ca_plddt": 0.9273106696847252,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDREGFYGGDYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9306161146897536,
+        "cdr_ca_plddt": 0.9071756454993939
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9298883656705363,
+        "cdr_ca_plddt": 0.9302942954169379
+      }
+    },
+    "contact_residue_pairs_4_5": 64,
+    "mean_contact_pair_symmetric_PAE_A": 2.372650380479172,
+    "pae_sha256": "430920cb05595caf13e81db250685ac6a22a214479a54b4d7ee235ee943752c2",
+    "pae_sidecar_sha256": "f274f974590a5c2b9f9d6c0a5e005a1f91df9e9ec019366ef4a04ec08be37310",
+    "candidate": "anas_009",
+    "model": "mol1",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "0dadfae417d374ca1682694ddbff1ae68e770634d89ff32ceaeea41170dd2c7a",
+    "global_iptm": 0.94012,
+    "status": "ok",
+    "source_job": "535c038636d606d54d62bdde910af4b5",
+    "row_target": "anas_009",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-mol1/artifacts/anas_009.cif",
+    "structure_sha256": "9a42ab79601c5a20a2ebcb6254d0b6e95e102d78ff384dca50861b0b4e7438a0",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.964089,
+        "1": 0.956298,
+        "2": 0.914502
+      },
+      "1": {
+        "0": 0.956298,
+        "1": 0.965535,
+        "2": 0.916318
+      },
+      "2": {
+        "0": 0.914502,
+        "1": 0.916318,
+        "2": 0.903284
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 0,
+    "epitope_recall_4.0": 0.8421052631578947,
+    "epitope_jaccard_4.0": 0.7272727272727273,
+    "target_residue_contacts_4.0": 19,
+    "epitope_recall_4.5": 1.0,
+    "epitope_jaccard_4.5": 0.8260869565217391,
+    "target_residue_contacts_4.5": 23,
+    "epitope_recall_5.0": 1.0,
+    "epitope_jaccard_5.0": 0.8260869565217391,
+    "target_residue_contacts_5.0": 23,
+    "ca_nac": 0.9377101092868381,
+    "cdr_ca_plddt": 0.9291148214137303,
+    "antibody_ca_plddt": 0.9359304681853575,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWASSSEYYFDYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9377562839382299,
+        "cdr_ca_plddt": 0.9217214360730401
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9376628970028309,
+        "cdr_ca_plddt": 0.9410263866848416
+      }
+    },
+    "contact_residue_pairs_4_5": 52,
+    "mean_contact_pair_symmetric_PAE_A": 1.5067962405200188,
+    "pae_sha256": "f48d02fe63fa413b8ff541689b1b503b32ed2f8c50a823a108c66c0a8928dfa8",
+    "pae_sidecar_sha256": "f274f974590a5c2b9f9d6c0a5e005a1f91df9e9ec019366ef4a04ec08be37310",
+    "candidate": "r004_cdrh3_3",
+    "model": "mol1",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "8dfe7400a4a24d5820d431c4e4ba27cae59e84ff878067b68b2e34ba791106b9",
+    "global_iptm": 0.951928,
+    "status": "ok",
+    "source_job": "535c038636d606d54d62bdde910af4b5",
+    "row_target": "r004_cdrh3_3",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-mol1/artifacts/r004_cdrh3_3.cif",
+    "structure_sha256": "85dea0c866e9c2142b10f0fa7df0ebf33652d0ef3f229d832c9a4d72af45781d",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.971155,
+        "1": 0.965839,
+        "2": 0.930343
+      },
+      "1": {
+        "0": 0.965839,
+        "1": 0.971386,
+        "2": 0.930033
+      },
+      "2": {
+        "0": 0.930343,
+        "1": 0.930033,
+        "2": 0.914785
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 0,
+    "epitope_recall_4.0": 0.8947368421052632,
+    "epitope_jaccard_4.0": 0.7083333333333334,
+    "target_residue_contacts_4.0": 22,
+    "epitope_recall_4.5": 1.0,
+    "epitope_jaccard_4.5": 0.7916666666666666,
+    "target_residue_contacts_4.5": 24,
+    "epitope_recall_5.0": 1.0,
+    "epitope_jaccard_5.0": 0.7916666666666666,
+    "target_residue_contacts_5.0": 24,
+    "ca_nac": 0.9318906339009604,
+    "cdr_ca_plddt": 0.9135995759355262,
+    "antibody_ca_plddt": 0.9281034985512889,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYGEGFYGSDYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.931334221808465,
+        "cdr_ca_plddt": 0.9027770312079066
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9324595496359838,
+        "cdr_ca_plddt": 0.9310358979966904
+      }
+    },
+    "contact_residue_pairs_4_5": 56,
+    "mean_contact_pair_symmetric_PAE_A": 2.6409249377569983,
+    "pae_sha256": "615d6d1273bc4eaa2edc1df6b992a6248ac3e4ddfeebd1d8fdd379b53e1f852a",
+    "pae_sidecar_sha256": "f274f974590a5c2b9f9d6c0a5e005a1f91df9e9ec019366ef4a04ec08be37310",
+    "candidate": "anas_016",
+    "model": "mol1",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "0ed7943688f1149b4fa5d017ef53eb9ff45e287d96fae69ce04b65dd35d17787",
+    "global_iptm": 0.938853,
+    "status": "ok",
+    "source_job": "535c038636d606d54d62bdde910af4b5",
+    "row_target": "anas_016",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-mol1/artifacts/anas_016.cif",
+    "structure_sha256": "5340a6b7f1377db940dd2dcee86937de8c61f2282d2854234e6715fba714c60f",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.965278,
+        "1": 0.959324,
+        "2": 0.914509
+      },
+      "1": {
+        "0": 0.959324,
+        "1": 0.968809,
+        "2": 0.918279
+      },
+      "2": {
+        "0": 0.914509,
+        "1": 0.918279,
+        "2": 0.901721
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 3,
+    "epitope_recall_4.0": 1.0,
+    "epitope_jaccard_4.0": 0.7307692307692307,
+    "target_residue_contacts_4.0": 26,
+    "epitope_recall_4.5": 1.0,
+    "epitope_jaccard_4.5": 0.7037037037037037,
+    "target_residue_contacts_4.5": 27,
+    "epitope_recall_5.0": 1.0,
+    "epitope_jaccard_5.0": 0.6785714285714286,
+    "target_residue_contacts_5.0": 28,
+    "ca_nac": 0.9312058876885307,
+    "cdr_ca_plddt": 0.9121345698579827,
+    "antibody_ca_plddt": 0.9272572007368314,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGREGFYSAEYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9309470283592142,
+        "cdr_ca_plddt": 0.9011168749579068
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9314705640814277,
+        "cdr_ca_plddt": 0.9298853005303277
+      }
+    },
+    "contact_residue_pairs_4_5": 65,
+    "mean_contact_pair_symmetric_PAE_A": 3.562604039448958,
+    "pae_sha256": "9d1129c5c2e24cf5bb2da7c16b3c42f8efa2275b947050c23fc20cfbef6d7cf8",
+    "pae_sidecar_sha256": "f274f974590a5c2b9f9d6c0a5e005a1f91df9e9ec019366ef4a04ec08be37310",
+    "candidate": "anas_028",
+    "model": "mol1",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "43bf074f8615c23a3376839e27839d4d08779de20ec74f433b071bdeedc4a803",
+    "global_iptm": 0.938273,
+    "status": "ok",
+    "source_job": "535c038636d606d54d62bdde910af4b5",
+    "row_target": "anas_028",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-mol1/artifacts/anas_028.cif",
+    "structure_sha256": "6204a72e7161fd65ac58ebced55fc125da2f2f570e3ecdd8458daf38f183f5d3",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.963471,
+        "1": 0.955609,
+        "2": 0.915507
+      },
+      "1": {
+        "0": 0.955609,
+        "1": 0.966376,
+        "2": 0.916708
+      },
+      "2": {
+        "0": 0.915507,
+        "1": 0.916708,
+        "2": 0.897169
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 1,
+    "epitope_recall_4.0": 0.9473684210526315,
+    "epitope_jaccard_4.0": 0.72,
+    "target_residue_contacts_4.0": 24,
+    "epitope_recall_4.5": 1.0,
+    "epitope_jaccard_4.5": 0.76,
+    "target_residue_contacts_4.5": 25,
+    "epitope_recall_5.0": 1.0,
+    "epitope_jaccard_5.0": 0.7037037037037037,
+    "target_residue_contacts_5.0": 27,
+    "ca_nac": 0.9282850994533962,
+    "cdr_ca_plddt": 0.9092196135825299,
+    "antibody_ca_plddt": 0.924337619999957,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWAGEGFYYAEYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9283687826303334,
+        "cdr_ca_plddt": 0.8994022264151738
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9281995357556291,
+        "cdr_ca_plddt": 0.9250365151299371
+      }
+    },
+    "contact_residue_pairs_4_5": 61,
+    "mean_contact_pair_symmetric_PAE_A": 3.1856108520363198,
+    "pae_sha256": "2225c9d008d9002f28961c6134cd28a89e2ddc449066461e4e555cfeffb4ea66",
+    "pae_sidecar_sha256": "f274f974590a5c2b9f9d6c0a5e005a1f91df9e9ec019366ef4a04ec08be37310",
+    "candidate": "anas_038",
+    "model": "mol1",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "df3d8bd4e25cea1c8739ac348b399ff451fcd85948d96e05d33dfa0e506dbe75",
+    "global_iptm": 0.934767,
+    "status": "ok",
+    "source_job": "535c038636d606d54d62bdde910af4b5",
+    "row_target": "anas_038",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-mol1/artifacts/anas_038.cif",
+    "structure_sha256": "e6f052d46b4d138ece7f3e320b9b2dbb1e3514319782560f6c37fc2d43862af3",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.961583,
+        "1": 0.952592,
+        "2": 0.908192
+      },
+      "1": {
+        "0": 0.952592,
+        "1": 0.963363,
+        "2": 0.909648
+      },
+      "2": {
+        "0": 0.908192,
+        "1": 0.909648,
+        "2": 0.894848
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 0,
+    "epitope_recall_4.0": 0.9473684210526315,
+    "epitope_jaccard_4.0": 0.782608695652174,
+    "target_residue_contacts_4.0": 22,
+    "epitope_recall_4.5": 1.0,
+    "epitope_jaccard_4.5": 0.8260869565217391,
+    "target_residue_contacts_4.5": 23,
+    "epitope_recall_5.0": 1.0,
+    "epitope_jaccard_5.0": 0.7916666666666666,
+    "target_residue_contacts_5.0": 24,
+    "ca_nac": 0.9344483922322591,
+    "cdr_ca_plddt": 0.9242591939073929,
+    "antibody_ca_plddt": 0.9323387344293133,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWVGPGFYGWDYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9339936954372531,
+        "cdr_ca_plddt": 0.9163628334834658
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9349133069327707,
+        "cdr_ca_plddt": 0.9369811079237197
+      }
+    },
+    "contact_residue_pairs_4_5": 52,
+    "mean_contact_pair_symmetric_PAE_A": 1.6154763509447758,
+    "pae_sha256": "87f34130bd754ef6e97d870d59fd459a898ee59ffb0ae0447cb8efe8fc2295e5",
+    "pae_sidecar_sha256": "f274f974590a5c2b9f9d6c0a5e005a1f91df9e9ec019366ef4a04ec08be37310",
+    "candidate": "anas_003",
+    "model": "mol1",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "a9ee16eec5190b09a6f611105a26413b45b0e72e7e1ae844a52ef1338145c584",
+    "global_iptm": 0.952062,
+    "status": "ok",
+    "source_job": "535c038636d606d54d62bdde910af4b5",
+    "row_target": "anas_003",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-mol1/artifacts/anas_003.cif",
+    "structure_sha256": "d20904417b63e00ba6cfdbb6cfcbfe0f82cfd171eacf3ef4db38ccf98951a7af",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.970159,
+        "1": 0.965669,
+        "2": 0.932728
+      },
+      "1": {
+        "0": 0.965669,
+        "1": 0.971126,
+        "2": 0.932998
+      },
+      "2": {
+        "0": 0.932728,
+        "1": 0.932998,
+        "2": 0.915731
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 0,
+    "epitope_recall_4.0": 0.9473684210526315,
+    "epitope_jaccard_4.0": 0.75,
+    "target_residue_contacts_4.0": 23,
+    "epitope_recall_4.5": 1.0,
+    "epitope_jaccard_4.5": 0.7307692307692307,
+    "target_residue_contacts_4.5": 26,
+    "epitope_recall_5.0": 1.0,
+    "epitope_jaccard_5.0": 0.7037037037037037,
+    "target_residue_contacts_5.0": 27,
+    "ca_nac": 0.9403575799730091,
+    "cdr_ca_plddt": 0.9288767972905583,
+    "antibody_ca_plddt": 0.9379805016202549,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYGGGFYFWDYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9403735670152602,
+        "cdr_ca_plddt": 0.9196397452518856
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9403412336713812,
+        "cdr_ca_plddt": 0.9437587144639757
+      }
+    },
+    "contact_residue_pairs_4_5": 64,
+    "mean_contact_pair_symmetric_PAE_A": 2.3267633270006627,
+    "pae_sha256": "eea312ee9b5172e791ce89acca384713c1978e59144b9a02ab5ca08bbb48481b",
+    "pae_sidecar_sha256": "f274f974590a5c2b9f9d6c0a5e005a1f91df9e9ec019366ef4a04ec08be37310",
+    "candidate": "anas_004",
+    "model": "mol1",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "18ee66e30af87ef7aedc59a017f27541f9d2d1a41427aaced9f5c6193eb5dbc4",
+    "global_iptm": 0.950927,
+    "status": "ok",
+    "source_job": "535c038636d606d54d62bdde910af4b5",
+    "row_target": "anas_004",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-mol1/artifacts/anas_004.cif",
+    "structure_sha256": "0e3fd9d72c5bb2ecfe2fee36cf6c32c502195d47a11cbc48596d8fcdb8160635",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.971203,
+        "1": 0.966502,
+        "2": 0.933103
+      },
+      "1": {
+        "0": 0.966502,
+        "1": 0.97173,
+        "2": 0.931428
+      },
+      "2": {
+        "0": 0.933103,
+        "1": 0.931428,
+        "2": 0.909219
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 0,
+    "epitope_recall_4.0": 1.0,
+    "epitope_jaccard_4.0": 0.76,
+    "target_residue_contacts_4.0": 25,
+    "epitope_recall_4.5": 1.0,
+    "epitope_jaccard_4.5": 0.7037037037037037,
+    "target_residue_contacts_4.5": 27,
+    "epitope_recall_5.0": 1.0,
+    "epitope_jaccard_5.0": 0.6551724137931034,
+    "target_residue_contacts_5.0": 29,
+    "ca_nac": 0.9296626040140785,
+    "cdr_ca_plddt": 0.9237737566359498,
+    "antibody_ca_plddt": 0.9284433272441579,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGAKGFYSWQYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9289465851836152,
+        "cdr_ca_plddt": 0.9179321946768926
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9303947131553393,
+        "cdr_ca_plddt": 0.9331851620144315
+      }
+    },
+    "contact_residue_pairs_4_5": 71,
+    "mean_contact_pair_symmetric_PAE_A": 1.5691261102615948,
+    "pae_sha256": "a624659680707d6dba0bf42a11536e612ce3b2add3eebaf6e1900767ca0698fe",
+    "pae_sidecar_sha256": "f274f974590a5c2b9f9d6c0a5e005a1f91df9e9ec019366ef4a04ec08be37310",
+    "candidate": "anas_036",
+    "model": "mol1",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "b7488b69e1a08ab09a351c6dead5bba9812eba1015aa0087bcaa2250c1f07b70",
+    "global_iptm": 0.952232,
+    "status": "ok",
+    "source_job": "535c038636d606d54d62bdde910af4b5",
+    "row_target": "anas_036",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-mol1/artifacts/anas_036.cif",
+    "structure_sha256": "627e8ac6b489052b01bc6b9349a4e349080446d240934e01997109d13e05fc7d",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.969857,
+        "1": 0.963232,
+        "2": 0.93589
+      },
+      "1": {
+        "0": 0.963232,
+        "1": 0.969835,
+        "2": 0.934036
+      },
+      "2": {
+        "0": 0.93589,
+        "1": 0.934036,
+        "2": 0.920071
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 0,
+    "epitope_recall_4.0": 0.8947368421052632,
+    "epitope_jaccard_4.0": 0.68,
+    "target_residue_contacts_4.0": 23,
+    "epitope_recall_4.5": 1.0,
+    "epitope_jaccard_4.5": 0.7037037037037037,
+    "target_residue_contacts_4.5": 27,
+    "epitope_recall_5.0": 1.0,
+    "epitope_jaccard_5.0": 0.7037037037037037,
+    "target_residue_contacts_5.0": 27,
+    "ca_nac": 0.9257609278361002,
+    "cdr_ca_plddt": 0.9182300210506359,
+    "antibody_ca_plddt": 0.9242016651977002,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDANGFYYVDYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.925136255117563,
+        "cdr_ca_plddt": 0.9131742885194977
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.926399638143818,
+        "cdr_ca_plddt": 0.9263753679063585
+      }
+    },
+    "contact_residue_pairs_4_5": 65,
+    "mean_contact_pair_symmetric_PAE_A": 1.9934676028214968,
+    "pae_sha256": "710c621c7fe60ff7bde8d5882657d5733f032a912a5148b2963386ae8aff20d3",
+    "pae_sidecar_sha256": "f274f974590a5c2b9f9d6c0a5e005a1f91df9e9ec019366ef4a04ec08be37310",
+    "candidate": "anas_002",
+    "model": "mol1",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "f133215586ed2f7a1e01978f31c57c17ba1af217189eab378b9318c78922fa52",
+    "global_iptm": 0.940953,
+    "status": "ok",
+    "source_job": "535c038636d606d54d62bdde910af4b5",
+    "row_target": "anas_002",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-mol1/artifacts/anas_002.cif",
+    "structure_sha256": "b1dd5fd88bfdbba0cdfb5d44e83a9a679631e1d270818fd6e1a74f4c871f0532",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.96461,
+        "1": 0.95446,
+        "2": 0.921938
+      },
+      "1": {
+        "0": 0.95446,
+        "1": 0.964571,
+        "2": 0.920322
+      },
+      "2": {
+        "0": 0.921938,
+        "1": 0.920322,
+        "2": 0.905031
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 0,
+    "epitope_recall_4.0": 0.9473684210526315,
+    "epitope_jaccard_4.0": 0.75,
+    "target_residue_contacts_4.0": 23,
+    "epitope_recall_4.5": 1.0,
+    "epitope_jaccard_4.5": 0.76,
+    "target_residue_contacts_4.5": 25,
+    "epitope_recall_5.0": 1.0,
+    "epitope_jaccard_5.0": 0.76,
+    "target_residue_contacts_5.0": 25,
+    "ca_nac": 0.9418109130859377,
+    "cdr_ca_plddt": 0.9246779259215009,
+    "antibody_ca_plddt": 0.9382635545100411,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGYKGFYDWDYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9416897348257214,
+        "cdr_ca_plddt": 0.9131056502769733
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.941934814453125,
+        "cdr_ca_plddt": 0.9433221477932402
+      }
+    },
+    "contact_residue_pairs_4_5": 66,
+    "mean_contact_pair_symmetric_PAE_A": 2.7794713328282037,
+    "pae_sha256": "3a8ea5ec9d4362b26e54328816ad0886aee6883292695ef5a14e55bb253b489a",
+    "pae_sidecar_sha256": "f274f974590a5c2b9f9d6c0a5e005a1f91df9e9ec019366ef4a04ec08be37310",
+    "candidate": "anas_021",
+    "model": "mol1",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "cabbf10ade5131a1f51ffce78ba7a5eeed78934f2be25aa6e407bfef5fa1194c",
+    "global_iptm": 0.950834,
+    "status": "ok",
+    "source_job": "535c038636d606d54d62bdde910af4b5",
+    "row_target": "anas_021",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-mol1/artifacts/anas_021.cif",
+    "structure_sha256": "d77a6db7451216825c7c7f33d41877c7d91372b7db68422224c69eff36dd7f02",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.969633,
+        "1": 0.966519,
+        "2": 0.933249
+      },
+      "1": {
+        "0": 0.966519,
+        "1": 0.971307,
+        "2": 0.933593
+      },
+      "2": {
+        "0": 0.933249,
+        "1": 0.933593,
+        "2": 0.911191
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 0,
+    "epitope_recall_4.0": 0.8947368421052632,
+    "epitope_jaccard_4.0": 0.7083333333333334,
+    "target_residue_contacts_4.0": 22,
+    "epitope_recall_4.5": 1.0,
+    "epitope_jaccard_4.5": 0.7916666666666666,
+    "target_residue_contacts_4.5": 24,
+    "epitope_recall_5.0": 1.0,
+    "epitope_jaccard_5.0": 0.7307692307692307,
+    "target_residue_contacts_5.0": 26,
+    "ca_nac": 0.9284933497111003,
+    "cdr_ca_plddt": 0.907528511209691,
+    "antibody_ca_plddt": 0.9241526122240242,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWTAKGFYAQNYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9279316937792431,
+        "cdr_ca_plddt": 0.8943324385018185
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.929067627124572,
+        "cdr_ca_plddt": 0.928788850572374
+      }
+    },
+    "contact_residue_pairs_4_5": 58,
+    "mean_contact_pair_symmetric_PAE_A": 2.812562228019895,
+    "pae_sha256": "be3bd0980320bafcab1eb66a0cc48c51dcb1726c3da331630b5265129fd5054f",
+    "pae_sidecar_sha256": "f274f974590a5c2b9f9d6c0a5e005a1f91df9e9ec019366ef4a04ec08be37310",
+    "candidate": "anas_039",
+    "model": "mol1",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "7401fd6357eb3a0104072565594bd11153118ad57d6f9143ad9acdeff7f06ab0",
+    "global_iptm": 0.932766,
+    "status": "ok",
+    "source_job": "535c038636d606d54d62bdde910af4b5",
+    "row_target": "anas_039",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-mol1/artifacts/anas_039.cif",
+    "structure_sha256": "d5f7322ef2459a104345ae8c2b400fa4b112ebb9401f798ed7342be95db7e82f",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.95864,
+        "1": 0.949123,
+        "2": 0.908605
+      },
+      "1": {
+        "0": 0.949123,
+        "1": 0.965732,
+        "2": 0.914512
+      },
+      "2": {
+        "0": 0.908605,
+        "1": 0.914512,
+        "2": 0.898275
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 0,
+    "epitope_recall_4.0": 0.8947368421052632,
+    "epitope_jaccard_4.0": 0.7083333333333334,
+    "target_residue_contacts_4.0": 22,
+    "epitope_recall_4.5": 1.0,
+    "epitope_jaccard_4.5": 0.7307692307692307,
+    "target_residue_contacts_4.5": 26,
+    "epitope_recall_5.0": 1.0,
+    "epitope_jaccard_5.0": 0.6551724137931034,
+    "target_residue_contacts_5.0": 29,
+    "ca_nac": 0.9314061342875164,
+    "cdr_ca_plddt": 0.9085051532501869,
+    "antibody_ca_plddt": 0.92666452147362,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGYNGFYPSKYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9312246595110213,
+        "cdr_ca_plddt": 0.8951380499478044
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9315916871488765,
+        "cdr_ca_plddt": 0.9300410419040256
+      }
+    },
+    "contact_residue_pairs_4_5": 63,
+    "mean_contact_pair_symmetric_PAE_A": 2.9988055898556634,
+    "pae_sha256": "f387c8ad8df2cb1831930cadca5a859026fd73108860abaefd046a9de38e9ed3",
+    "pae_sidecar_sha256": "f274f974590a5c2b9f9d6c0a5e005a1f91df9e9ec019366ef4a04ec08be37310",
+    "candidate": "anas_014",
+    "model": "mol1",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "3648a1a1148dc28ffffc4c8601f6a19c51021c649ee54ee89c86be99e85383b5",
+    "global_iptm": 0.936749,
+    "status": "ok",
+    "source_job": "535c038636d606d54d62bdde910af4b5",
+    "row_target": "anas_014",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-mol1/artifacts/anas_014.cif",
+    "structure_sha256": "1eba087d7795b4528eb4ee14db4c7e0d02491dcd4ff2df9271eb4977df479b38",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.957866,
+        "1": 0.952508,
+        "2": 0.90205
+      },
+      "1": {
+        "0": 0.952508,
+        "1": 0.965624,
+        "2": 0.906655
+      },
+      "2": {
+        "0": 0.90205,
+        "1": 0.906655,
+        "2": 0.900835
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 0,
+    "epitope_recall_4.0": 0.9473684210526315,
+    "epitope_jaccard_4.0": 0.75,
+    "target_residue_contacts_4.0": 23,
+    "epitope_recall_4.5": 1.0,
+    "epitope_jaccard_4.5": 0.7916666666666666,
+    "target_residue_contacts_4.5": 24,
+    "epitope_recall_5.0": 1.0,
+    "epitope_jaccard_5.0": 0.7916666666666666,
+    "target_residue_contacts_5.0": 24,
+    "ca_nac": 0.9386355255974663,
+    "cdr_ca_plddt": 0.9348352829953458,
+    "antibody_ca_plddt": 0.9378486912261021,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDAMGFYGWDYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.938237101795909,
+        "cdr_ca_plddt": 0.9305427998509901
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9390429027428787,
+        "cdr_ca_plddt": 0.9417509502834744
+      }
+    },
+    "contact_residue_pairs_4_5": 67,
+    "mean_contact_pair_symmetric_PAE_A": 1.79787007952804,
+    "pae_sha256": "3211c98a3d8cafccdcb2ea2f337799483a4c790f545c5020b94aa5cb77f9de82",
+    "pae_sidecar_sha256": "f274f974590a5c2b9f9d6c0a5e005a1f91df9e9ec019366ef4a04ec08be37310",
+    "candidate": "anas_026",
+    "model": "mol1",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "f04c1f6f987f3c25dbc1de6d1d53daceaac9bafb3dfa83797c4e0091945e2415",
+    "global_iptm": 0.955351,
+    "status": "ok",
+    "source_job": "535c038636d606d54d62bdde910af4b5",
+    "row_target": "anas_026",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-mol1/artifacts/anas_026.cif",
+    "structure_sha256": "baaef0a0e6063f64d647b955fc5d864d5a8b420bf9893b137a8f10a441528c58",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.973518,
+        "1": 0.968247,
+        "2": 0.93958
+      },
+      "1": {
+        "0": 0.968247,
+        "1": 0.97266,
+        "2": 0.936524
+      },
+      "2": {
+        "0": 0.93958,
+        "1": 0.936524,
+        "2": 0.917374
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 0,
+    "epitope_recall_4.0": 0.8947368421052632,
+    "epitope_jaccard_4.0": 0.7391304347826086,
+    "target_residue_contacts_4.0": 21,
+    "epitope_recall_4.5": 1.0,
+    "epitope_jaccard_4.5": 0.7307692307692307,
+    "target_residue_contacts_4.5": 26,
+    "epitope_recall_5.0": 1.0,
+    "epitope_jaccard_5.0": 0.7037037037037037,
+    "target_residue_contacts_5.0": 27,
+    "ca_nac": 0.9366938362121583,
+    "cdr_ca_plddt": 0.9271587761412277,
+    "antibody_ca_plddt": 0.9347196167261064,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWRAAGFYRWDYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9367915252014831,
+        "cdr_ca_plddt": 0.9184804850611195
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9365939519646462,
+        "cdr_ca_plddt": 0.9411404673258463
+      }
+    },
+    "contact_residue_pairs_4_5": 65,
+    "mean_contact_pair_symmetric_PAE_A": 2.0590493857860563,
+    "pae_sha256": "7025f6776508949302def7620a36e499afefa90184f156de39f4fdb09c727e95",
+    "pae_sidecar_sha256": "f274f974590a5c2b9f9d6c0a5e005a1f91df9e9ec019366ef4a04ec08be37310",
+    "candidate": "anas_031",
+    "model": "mol1",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "3b8ae0a19412ac511f8edbf8808acfe62d1a9df3d6a6d8345389bf39d10032fe",
+    "global_iptm": 0.950295,
+    "status": "ok",
+    "source_job": "535c038636d606d54d62bdde910af4b5",
+    "row_target": "anas_031",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-mol1/artifacts/anas_031.cif",
+    "structure_sha256": "bbb6bd1d07d74e7369c3215f22e01193bc19ad24a96ea6fd0eb68e44ddc7a4f7",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.970441,
+        "1": 0.965018,
+        "2": 0.932405
+      },
+      "1": {
+        "0": 0.965018,
+        "1": 0.970347,
+        "2": 0.930091
+      },
+      "2": {
+        "0": 0.932405,
+        "1": 0.930091,
+        "2": 0.908856
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 0,
+    "epitope_recall_4.0": 0.8947368421052632,
+    "epitope_jaccard_4.0": 0.7391304347826086,
+    "target_residue_contacts_4.0": 21,
+    "epitope_recall_4.5": 1.0,
+    "epitope_jaccard_4.5": 0.76,
+    "target_residue_contacts_4.5": 25,
+    "epitope_recall_5.0": 1.0,
+    "epitope_jaccard_5.0": 0.7307692307692307,
+    "target_residue_contacts_5.0": 26,
+    "ca_nac": 0.9348371463351779,
+    "cdr_ca_plddt": 0.913380769770196,
+    "antibody_ca_plddt": 0.9303946366499174,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWTATGFYGGDYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9351212981507019,
+        "cdr_ca_plddt": 0.9009356189596242
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9345466090855972,
+        "cdr_ca_plddt": 0.9334312905205621
+      }
+    },
+    "contact_residue_pairs_4_5": 58,
+    "mean_contact_pair_symmetric_PAE_A": 2.664472235430931,
+    "pae_sha256": "da604216d9de70a0fa0a74e5c53a4ae625e09843884e2c68abebd87d9ec0524e",
+    "pae_sidecar_sha256": "f274f974590a5c2b9f9d6c0a5e005a1f91df9e9ec019366ef4a04ec08be37310",
+    "candidate": "anas_010",
+    "model": "mol1",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "b02c5118375959de2df6c86b0e7da195efb946c2827fa88150401f8af2fe8ed6",
+    "global_iptm": 0.94008,
+    "status": "ok",
+    "source_job": "535c038636d606d54d62bdde910af4b5",
+    "row_target": "anas_010",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-mol1/artifacts/anas_010.cif",
+    "structure_sha256": "652a68be058141161ddee43b27e0272889a4ce41c648da7191c9a3c5f30a1b15",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.960587,
+        "1": 0.956493,
+        "2": 0.907632
+      },
+      "1": {
+        "0": 0.956493,
+        "1": 0.966531,
+        "2": 0.914267
+      },
+      "2": {
+        "0": 0.907632,
+        "1": 0.914267,
+        "2": 0.906594
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 0,
+    "epitope_recall_4.0": 0.9473684210526315,
+    "epitope_jaccard_4.0": 0.72,
+    "target_residue_contacts_4.0": 24,
+    "epitope_recall_4.5": 1.0,
+    "epitope_jaccard_4.5": 0.7307692307692307,
+    "target_residue_contacts_4.5": 26,
+    "epitope_recall_5.0": 1.0,
+    "epitope_jaccard_5.0": 0.6785714285714286,
+    "target_residue_contacts_5.0": 28,
+    "ca_nac": 0.9347091988457574,
+    "cdr_ca_plddt": 0.9195789694278799,
+    "antibody_ca_plddt": 0.9315765081733334,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWAERGFYIWDYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9355528158669941,
+        "cdr_ca_plddt": 0.9092405042977169
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9338466241386498,
+        "cdr_ca_plddt": 0.9362353854709199
+      }
+    },
+    "contact_residue_pairs_4_5": 66,
+    "mean_contact_pair_symmetric_PAE_A": 2.7822488765373374,
+    "pae_sha256": "179610e2398b9b3bbfc2c02f7bfd9e1d94bf572cf0e65bb2063da0e6b42126e5",
+    "pae_sidecar_sha256": "f274f974590a5c2b9f9d6c0a5e005a1f91df9e9ec019366ef4a04ec08be37310",
+    "candidate": "anas_040",
+    "model": "mol1",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "f91130857043e9a606236a4691ba12981e64f681801198483c05f083eb156913",
+    "global_iptm": 0.94528,
+    "status": "ok",
+    "source_job": "535c038636d606d54d62bdde910af4b5",
+    "row_target": "anas_040",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-mol1/artifacts/anas_040.cif",
+    "structure_sha256": "b2824a1611824dff306501f7cd41f403c233a5c14643824862598a93b46c72d6",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.967946,
+        "1": 0.960203,
+        "2": 0.927479
+      },
+      "1": {
+        "0": 0.960203,
+        "1": 0.96682,
+        "2": 0.926286
+      },
+      "2": {
+        "0": 0.927479,
+        "1": 0.926286,
+        "2": 0.90357
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
       "T": "T"
     },
     "antibody_n_chains": 1,
@@ -186,6 +1500,1320 @@
         "0": 0.932246,
         "1": 0.932984,
         "2": 0.914688
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 0,
+    "epitope_recall_4.0": 0.9473684210526315,
+    "epitope_jaccard_4.0": 0.75,
+    "target_residue_contacts_4.0": 23,
+    "epitope_recall_4.5": 1.0,
+    "epitope_jaccard_4.5": 0.7307692307692307,
+    "target_residue_contacts_4.5": 26,
+    "epitope_recall_5.0": 1.0,
+    "epitope_jaccard_5.0": 0.7037037037037037,
+    "target_residue_contacts_5.0": 27,
+    "ca_nac": 0.9768319257100425,
+    "cdr_ca_plddt": 0.9559868751688206,
+    "antibody_ca_plddt": 0.9725159901354283,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYGEGFYTWEYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9783251894437351,
+        "cdr_ca_plddt": 0.9430789473961139
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9753051054879521,
+        "cdr_ca_plddt": 0.9767829810248482
+      }
+    },
+    "contact_residue_pairs_4_5": 66,
+    "mean_contact_pair_symmetric_PAE_A": 3.2946116077629,
+    "pae_sha256": "89da60b5558f4a3d5d99701e1873a68d9b195cfa75ab066410b7cf4dd3f129cb",
+    "pae_sidecar_sha256": "e47cab56ca901b923b3aeb30025cdf33b4d7514cbfe8eaf1d5e3a203a61eecbb",
+    "candidate": "anas_007",
+    "model": "opendde-abag",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "1198d825d9b845e2cc097686f3e8361e0b526f90271a745988b596c3a19d9b35",
+    "global_iptm": 0.948974,
+    "status": "ok",
+    "source_job": "1f27069afc51de52aed1f030cdc38f4a",
+    "row_target": "anas_007",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-opendde-abag/artifacts/anas_007.cif",
+    "structure_sha256": "757d9231c75b39923fd3d24391a1ee2622ee1b0828b41a6a3f06c094e8b2324e",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.970591,
+        "1": 0.973848,
+        "2": 0.930166
+      },
+      "1": {
+        "0": 0.973848,
+        "1": 0.971372,
+        "2": 0.933022
+      },
+      "2": {
+        "0": 0.930166,
+        "1": 0.933022,
+        "2": 0.903751
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 0,
+    "epitope_recall_4.0": 0.3684210526315789,
+    "epitope_jaccard_4.0": 0.2413793103448276,
+    "target_residue_contacts_4.0": 17,
+    "epitope_recall_4.5": 0.3684210526315789,
+    "epitope_jaccard_4.5": 0.2413793103448276,
+    "target_residue_contacts_4.5": 17,
+    "epitope_recall_5.0": 0.3684210526315789,
+    "epitope_jaccard_5.0": 0.23333333333333334,
+    "target_residue_contacts_5.0": 18,
+    "ca_nac": 0.9645593354966906,
+    "cdr_ca_plddt": 0.8605289296900972,
+    "antibody_ca_plddt": 0.9430200003737395,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWPGGGFYYWEYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9673919778341775,
+        "cdr_ca_plddt": 0.8508764885211814
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.961663038275215,
+        "cdr_ca_plddt": 0.876080084906684
+      }
+    },
+    "contact_residue_pairs_4_5": 49,
+    "mean_contact_pair_symmetric_PAE_A": 13.890778989207988,
+    "pae_sha256": "e694b6898718f12579a2a814f1dfa4bc56210dcd897b9b9ed8f66b443b4f6013",
+    "pae_sidecar_sha256": "e47cab56ca901b923b3aeb30025cdf33b4d7514cbfe8eaf1d5e3a203a61eecbb",
+    "candidate": "anas_015",
+    "model": "opendde-abag",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "537e55f3e261ab7ae25640381bbfb84b1180372b47d115f00e0290710ef6ac50",
+    "global_iptm": 0.652054,
+    "status": "ok",
+    "source_job": "1f27069afc51de52aed1f030cdc38f4a",
+    "row_target": "anas_015",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-opendde-abag/artifacts/anas_015.cif",
+    "structure_sha256": "536c5a74919668077278fe0b9f00f9cdc4f3944bf6e31eea7a0d2b0d7f9d1780",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.959307,
+        "1": 0.962387,
+        "2": 0.295532
+      },
+      "1": {
+        "0": 0.962387,
+        "1": 0.968423,
+        "2": 0.295315
+      },
+      "2": {
+        "0": 0.295532,
+        "1": 0.295315,
+        "2": 0.880342
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 3,
+    "epitope_recall_4.0": 0.7894736842105263,
+    "epitope_jaccard_4.0": 0.5769230769230769,
+    "target_residue_contacts_4.0": 22,
+    "epitope_recall_4.5": 0.9473684210526315,
+    "epitope_jaccard_4.5": 0.6206896551724138,
+    "target_residue_contacts_4.5": 28,
+    "epitope_recall_5.0": 1.0,
+    "epitope_jaccard_5.0": 0.6551724137931034,
+    "target_residue_contacts_5.0": 29,
+    "ca_nac": 0.964439039018419,
+    "cdr_ca_plddt": 0.8854567734738612,
+    "antibody_ca_plddt": 0.948085882716242,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDREGFYGGDYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9684399858411851,
+        "cdr_ca_plddt": 0.8857206568224675
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9603481832782873,
+        "cdr_ca_plddt": 0.8850316280788847
+      }
+    },
+    "contact_residue_pairs_4_5": 66,
+    "mean_contact_pair_symmetric_PAE_A": 17.637362212845773,
+    "pae_sha256": "30ef35f9a40c11c4f5496d9a6fd4a3fd2fe350ce117144fe7cf2a0f2d0fc40ae",
+    "pae_sidecar_sha256": "e47cab56ca901b923b3aeb30025cdf33b4d7514cbfe8eaf1d5e3a203a61eecbb",
+    "candidate": "anas_009",
+    "model": "opendde-abag",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "0dadfae417d374ca1682694ddbff1ae68e770634d89ff32ceaeea41170dd2c7a",
+    "global_iptm": 0.649851,
+    "status": "ok",
+    "source_job": "1f27069afc51de52aed1f030cdc38f4a",
+    "row_target": "anas_009",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-opendde-abag/artifacts/anas_009.cif",
+    "structure_sha256": "5acef523f0accc1ee90128289ebe14732cf920ddb44876ae793da47239594769",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.966995,
+        "1": 0.970922,
+        "2": 0.295063
+      },
+      "1": {
+        "0": 0.970922,
+        "1": 0.969294,
+        "2": 0.283665
+      },
+      "2": {
+        "0": 0.295063,
+        "1": 0.283665,
+        "2": 0.879333
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 0,
+    "epitope_recall_4.0": 0.8421052631578947,
+    "epitope_jaccard_4.0": 0.7272727272727273,
+    "target_residue_contacts_4.0": 19,
+    "epitope_recall_4.5": 0.9473684210526315,
+    "epitope_jaccard_4.5": 0.782608695652174,
+    "target_residue_contacts_4.5": 22,
+    "epitope_recall_5.0": 0.9473684210526315,
+    "epitope_jaccard_5.0": 0.75,
+    "target_residue_contacts_5.0": 23,
+    "ca_nac": 0.9778824043273924,
+    "cdr_ca_plddt": 0.9498940406961646,
+    "antibody_ca_plddt": 0.9720874567914114,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWASSSEYYFDYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9783545315920649,
+        "cdr_ca_plddt": 0.932374793743265
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9773996674612667,
+        "cdr_ca_plddt": 0.97811949412028
+      }
+    },
+    "contact_residue_pairs_4_5": 50,
+    "mean_contact_pair_symmetric_PAE_A": 2.3322239816188812,
+    "pae_sha256": "dc71b163c06fcd4940edf000e151c18c31a7020a30040d5c821e75d4300398ae",
+    "pae_sidecar_sha256": "e47cab56ca901b923b3aeb30025cdf33b4d7514cbfe8eaf1d5e3a203a61eecbb",
+    "candidate": "r004_cdrh3_3",
+    "model": "opendde-abag",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "8dfe7400a4a24d5820d431c4e4ba27cae59e84ff878067b68b2e34ba791106b9",
+    "global_iptm": 0.950752,
+    "status": "ok",
+    "source_job": "1f27069afc51de52aed1f030cdc38f4a",
+    "row_target": "r004_cdrh3_3",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-opendde-abag/artifacts/r004_cdrh3_3.cif",
+    "structure_sha256": "9010dad5a637f7cb0b3a29a1414361b746baa23c696579c3448452b4e6b26e17",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.968988,
+        "1": 0.975596,
+        "2": 0.930492
+      },
+      "1": {
+        "0": 0.975596,
+        "1": 0.971719,
+        "2": 0.939157
+      },
+      "2": {
+        "0": 0.930492,
+        "1": 0.939157,
+        "2": 0.9056
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 1,
+    "epitope_recall_4.0": 0.7894736842105263,
+    "epitope_jaccard_4.0": 0.625,
+    "target_residue_contacts_4.0": 20,
+    "epitope_recall_4.5": 0.8947368421052632,
+    "epitope_jaccard_4.5": 0.6538461538461539,
+    "target_residue_contacts_4.5": 24,
+    "epitope_recall_5.0": 0.9473684210526315,
+    "epitope_jaccard_5.0": 0.6428571428571429,
+    "target_residue_contacts_5.0": 27,
+    "ca_nac": 0.9781370226542154,
+    "cdr_ca_plddt": 0.9665068151595742,
+    "antibody_ca_plddt": 0.9757290061244879,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYGEGFYGSDYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9795774480798741,
+        "cdr_ca_plddt": 0.9596751719507677
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9766642281178677,
+        "cdr_ca_plddt": 0.9775133514404296
+      }
+    },
+    "contact_residue_pairs_4_5": 59,
+    "mean_contact_pair_symmetric_PAE_A": 1.8546847663188384,
+    "pae_sha256": "8e4f3d81053219ea12c5c08dcf8361d00f0a8076b5be362dbbf986b27387a67a",
+    "pae_sidecar_sha256": "e47cab56ca901b923b3aeb30025cdf33b4d7514cbfe8eaf1d5e3a203a61eecbb",
+    "candidate": "anas_016",
+    "model": "opendde-abag",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "0ed7943688f1149b4fa5d017ef53eb9ff45e287d96fae69ce04b65dd35d17787",
+    "global_iptm": 0.952106,
+    "status": "ok",
+    "source_job": "1f27069afc51de52aed1f030cdc38f4a",
+    "row_target": "anas_016",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-opendde-abag/artifacts/anas_016.cif",
+    "structure_sha256": "c741448f784202b107eea3bd2b11b80bc77b526f6dd61ee7d7342c9b321d44d1",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.97218,
+        "1": 0.976617,
+        "2": 0.935018
+      },
+      "1": {
+        "0": 0.976617,
+        "1": 0.97178,
+        "2": 0.936198
+      },
+      "2": {
+        "0": 0.935018,
+        "1": 0.936198,
+        "2": 0.916374
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 1,
+    "epitope_recall_4.0": 0.8421052631578947,
+    "epitope_jaccard_4.0": 0.6153846153846154,
+    "target_residue_contacts_4.0": 23,
+    "epitope_recall_4.5": 0.8421052631578947,
+    "epitope_jaccard_4.5": 0.5714285714285714,
+    "target_residue_contacts_4.5": 25,
+    "epitope_recall_5.0": 0.9473684210526315,
+    "epitope_jaccard_5.0": 0.6206896551724138,
+    "target_residue_contacts_5.0": 28,
+    "ca_nac": 0.977347661336263,
+    "cdr_ca_plddt": 0.9527998335818025,
+    "antibody_ca_plddt": 0.9722650714487757,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGREGFYSAEYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9790265295007728,
+        "cdr_ca_plddt": 0.9390897001069167
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.97563106579727,
+        "cdr_ca_plddt": 0.9748883819580079
+      }
+    },
+    "contact_residue_pairs_4_5": 66,
+    "mean_contact_pair_symmetric_PAE_A": 3.997027336196466,
+    "pae_sha256": "c2035a4f407264ffb09baf58964c3be8216ace521f52b1cdc79695116b719a03",
+    "pae_sidecar_sha256": "e47cab56ca901b923b3aeb30025cdf33b4d7514cbfe8eaf1d5e3a203a61eecbb",
+    "candidate": "anas_028",
+    "model": "opendde-abag",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "43bf074f8615c23a3376839e27839d4d08779de20ec74f433b071bdeedc4a803",
+    "global_iptm": 0.944318,
+    "status": "ok",
+    "source_job": "1f27069afc51de52aed1f030cdc38f4a",
+    "row_target": "anas_028",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-opendde-abag/artifacts/anas_028.cif",
+    "structure_sha256": "c048609d7926d3aa0a7d97165e154849076e6a6756f4bd619995e1f983815e3a",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.969231,
+        "1": 0.97519,
+        "2": 0.925982
+      },
+      "1": {
+        "0": 0.97519,
+        "1": 0.971412,
+        "2": 0.925065
+      },
+      "2": {
+        "0": 0.925982,
+        "1": 0.925065,
+        "2": 0.903598
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 1,
+    "epitope_recall_4.0": 0.7368421052631579,
+    "epitope_jaccard_4.0": 0.5384615384615384,
+    "target_residue_contacts_4.0": 21,
+    "epitope_recall_4.5": 0.7894736842105263,
+    "epitope_jaccard_4.5": 0.5769230769230769,
+    "target_residue_contacts_4.5": 22,
+    "epitope_recall_5.0": 0.8947368421052632,
+    "epitope_jaccard_5.0": 0.5862068965517241,
+    "target_residue_contacts_5.0": 27,
+    "ca_nac": 0.964256957160102,
+    "cdr_ca_plddt": 0.8703665972770527,
+    "antibody_ca_plddt": 0.9448171029111888,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWAGEGFYYAEYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9680166441529663,
+        "cdr_ca_plddt": 0.8647526471368198
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9604127828190836,
+        "cdr_ca_plddt": 0.8794112947252063
+      }
+    },
+    "contact_residue_pairs_4_5": 63,
+    "mean_contact_pair_symmetric_PAE_A": 17.184118293580553,
+    "pae_sha256": "2c1f228bbaa10f86039075eaa5e99f7d59f0e57bfae0cc21f2fe83a2040659bc",
+    "pae_sidecar_sha256": "e47cab56ca901b923b3aeb30025cdf33b4d7514cbfe8eaf1d5e3a203a61eecbb",
+    "candidate": "anas_038",
+    "model": "opendde-abag",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "df3d8bd4e25cea1c8739ac348b399ff451fcd85948d96e05d33dfa0e506dbe75",
+    "global_iptm": 0.651717,
+    "status": "ok",
+    "source_job": "1f27069afc51de52aed1f030cdc38f4a",
+    "row_target": "anas_038",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-opendde-abag/artifacts/anas_038.cif",
+    "structure_sha256": "86e2c494caafada102c59dc286e9a20cb10d473b2cff26cc86e8a103c77d7f1b",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.961716,
+        "1": 0.968389,
+        "2": 0.298547
+      },
+      "1": {
+        "0": 0.968389,
+        "1": 0.969173,
+        "2": 0.29186
+      },
+      "2": {
+        "0": 0.298547,
+        "1": 0.29186,
+        "2": 0.876384
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 0,
+    "epitope_recall_4.0": 0.8421052631578947,
+    "epitope_jaccard_4.0": 0.6666666666666666,
+    "target_residue_contacts_4.0": 21,
+    "epitope_recall_4.5": 0.8947368421052632,
+    "epitope_jaccard_4.5": 0.6296296296296297,
+    "target_residue_contacts_4.5": 25,
+    "epitope_recall_5.0": 0.9473684210526315,
+    "epitope_jaccard_5.0": 0.6428571428571429,
+    "target_residue_contacts_5.0": 27,
+    "ca_nac": 0.9780293434990777,
+    "cdr_ca_plddt": 0.964558285652323,
+    "antibody_ca_plddt": 0.9752401817422606,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWVGPGFYGWDYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9795501038268372,
+        "cdr_ca_plddt": 0.9564417714086073
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9764744087819304,
+        "cdr_ca_plddt": 0.977634891933865
+      }
+    },
+    "contact_residue_pairs_4_5": 63,
+    "mean_contact_pair_symmetric_PAE_A": 2.6935606868494126,
+    "pae_sha256": "d62d336b16bacf689747415b05ca36908581b15aed22d0d16a0f4ebf1b939ce0",
+    "pae_sidecar_sha256": "e47cab56ca901b923b3aeb30025cdf33b4d7514cbfe8eaf1d5e3a203a61eecbb",
+    "candidate": "anas_003",
+    "model": "opendde-abag",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "a9ee16eec5190b09a6f611105a26413b45b0e72e7e1ae844a52ef1338145c584",
+    "global_iptm": 0.955408,
+    "status": "ok",
+    "source_job": "1f27069afc51de52aed1f030cdc38f4a",
+    "row_target": "anas_003",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-opendde-abag/artifacts/anas_003.cif",
+    "structure_sha256": "3142da019874f14d67f6d83d4a66c27e52a4c7f7048f93f2ee2e41e23cc48871",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.973389,
+        "1": 0.975822,
+        "2": 0.940217
+      },
+      "1": {
+        "0": 0.975822,
+        "1": 0.971748,
+        "2": 0.939438
+      },
+      "2": {
+        "0": 0.940217,
+        "1": 0.939438,
+        "2": 0.905254
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 1,
+    "epitope_recall_4.0": 0.7894736842105263,
+    "epitope_jaccard_4.0": 0.5769230769230769,
+    "target_residue_contacts_4.0": 22,
+    "epitope_recall_4.5": 0.8947368421052632,
+    "epitope_jaccard_4.5": 0.6296296296296297,
+    "target_residue_contacts_4.5": 25,
+    "epitope_recall_5.0": 0.8947368421052632,
+    "epitope_jaccard_5.0": 0.5862068965517241,
+    "target_residue_contacts_5.0": 27,
+    "ca_nac": 0.9780411652459039,
+    "cdr_ca_plddt": 0.9663905464334691,
+    "antibody_ca_plddt": 0.9756289225842986,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWYGGGFYFWDYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.979940224113045,
+        "cdr_ca_plddt": 0.9592223621236868
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9760994308986022,
+        "cdr_ca_plddt": 0.9779392878214518
+      }
+    },
+    "contact_residue_pairs_4_5": 56,
+    "mean_contact_pair_symmetric_PAE_A": 1.9868675180311715,
+    "pae_sha256": "87b2d6359da73e660dc0782a6728c6accb42e3ffd225a65f4227d6fb9aa86e94",
+    "pae_sidecar_sha256": "e47cab56ca901b923b3aeb30025cdf33b4d7514cbfe8eaf1d5e3a203a61eecbb",
+    "candidate": "anas_004",
+    "model": "opendde-abag",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "18ee66e30af87ef7aedc59a017f27541f9d2d1a41427aaced9f5c6193eb5dbc4",
+    "global_iptm": 0.951766,
+    "status": "ok",
+    "source_job": "1f27069afc51de52aed1f030cdc38f4a",
+    "row_target": "anas_004",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-opendde-abag/artifacts/anas_004.cif",
+    "structure_sha256": "a7daad748f21137b909efb08eb4c31f3863d08686082c0980bf5ce7351bac8a8",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.972137,
+        "1": 0.975242,
+        "2": 0.932769
+      },
+      "1": {
+        "0": 0.975242,
+        "1": 0.971691,
+        "2": 0.939587
+      },
+      "2": {
+        "0": 0.932769,
+        "1": 0.939587,
+        "2": 0.913333
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 5,
+    "epitope_recall_4.0": 0.0,
+    "epitope_jaccard_4.0": 0.0,
+    "target_residue_contacts_4.0": 13,
+    "epitope_recall_4.5": 0.0,
+    "epitope_jaccard_4.5": 0.0,
+    "target_residue_contacts_4.5": 17,
+    "epitope_recall_5.0": 0.0,
+    "epitope_jaccard_5.0": 0.0,
+    "target_residue_contacts_5.0": 18,
+    "ca_nac": 0.9686068433125813,
+    "cdr_ca_plddt": 0.8841876301866897,
+    "antibody_ca_plddt": 0.9511279753966478,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGAKGFYSWQYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9711713074065826,
+        "cdr_ca_plddt": 0.8712879575532059
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9659847508119733,
+        "cdr_ca_plddt": 0.9049704360961913
+      }
+    },
+    "contact_residue_pairs_4_5": 35,
+    "mean_contact_pair_symmetric_PAE_A": 10.735855620247976,
+    "pae_sha256": "3fb504a38ac8840bf33f738d6f4a187512e9afbc5c616b78caf26d251bb99e07",
+    "pae_sidecar_sha256": "e47cab56ca901b923b3aeb30025cdf33b4d7514cbfe8eaf1d5e3a203a61eecbb",
+    "candidate": "anas_036",
+    "model": "opendde-abag",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "b7488b69e1a08ab09a351c6dead5bba9812eba1015aa0087bcaa2250c1f07b70",
+    "global_iptm": 0.705841,
+    "status": "ok",
+    "source_job": "1f27069afc51de52aed1f030cdc38f4a",
+    "row_target": "anas_036",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-opendde-abag/artifacts/anas_036.cif",
+    "structure_sha256": "6b0833196fc252826bd85e3774d21a5b3c5dcd631973a043f21dfe9f582c5a36",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.959651,
+        "1": 0.96635,
+        "2": 0.442896
+      },
+      "1": {
+        "0": 0.96635,
+        "1": 0.968683,
+        "2": 0.400566
+      },
+      "2": {
+        "0": 0.442896,
+        "1": 0.400566,
+        "2": 0.877626
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 1,
+    "epitope_recall_4.0": 0.8947368421052632,
+    "epitope_jaccard_4.0": 0.7391304347826086,
+    "target_residue_contacts_4.0": 21,
+    "epitope_recall_4.5": 1.0,
+    "epitope_jaccard_4.5": 0.76,
+    "target_residue_contacts_4.5": 25,
+    "epitope_recall_5.0": 1.0,
+    "epitope_jaccard_5.0": 0.7307692307692307,
+    "target_residue_contacts_5.0": 26,
+    "ca_nac": 0.9747548493279352,
+    "cdr_ca_plddt": 0.9353797539244308,
+    "antibody_ca_plddt": 0.9666022965351391,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDANGFYYVDYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9763415267441301,
+        "cdr_ca_plddt": 0.9170445619780441
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9731325162394663,
+        "cdr_ca_plddt": 0.964919785393609
+      }
+    },
+    "contact_residue_pairs_4_5": 60,
+    "mean_contact_pair_symmetric_PAE_A": 3.529749756803115,
+    "pae_sha256": "7e98b575a193eb55d41aedb67798e671a36da08085c47bebfec353c960dea699",
+    "pae_sidecar_sha256": "e47cab56ca901b923b3aeb30025cdf33b4d7514cbfe8eaf1d5e3a203a61eecbb",
+    "candidate": "anas_002",
+    "model": "opendde-abag",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "f133215586ed2f7a1e01978f31c57c17ba1af217189eab378b9318c78922fa52",
+    "global_iptm": 0.932756,
+    "status": "ok",
+    "source_job": "1f27069afc51de52aed1f030cdc38f4a",
+    "row_target": "anas_002",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-opendde-abag/artifacts/anas_002.cif",
+    "structure_sha256": "45d9f335791dbc604a55f7ae858b373533227abc52e4c506ade58cf9b43df7fc",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.964288,
+        "1": 0.971788,
+        "2": 0.904379
+      },
+      "1": {
+        "0": 0.971788,
+        "1": 0.970664,
+        "2": 0.918543
+      },
+      "2": {
+        "0": 0.904379,
+        "1": 0.918543,
+        "2": 0.902998
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 0,
+    "epitope_recall_4.0": 0.8421052631578947,
+    "epitope_jaccard_4.0": 0.6666666666666666,
+    "target_residue_contacts_4.0": 21,
+    "epitope_recall_4.5": 0.9473684210526315,
+    "epitope_jaccard_4.5": 0.6923076923076923,
+    "target_residue_contacts_4.5": 25,
+    "epitope_recall_5.0": 0.9473684210526315,
+    "epitope_jaccard_5.0": 0.6206896551724138,
+    "target_residue_contacts_5.0": 28,
+    "ca_nac": 0.9769573987325032,
+    "cdr_ca_plddt": 0.9612706415703955,
+    "antibody_ca_plddt": 0.9737094798487188,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGYKGFYDWDYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9786956543974824,
+        "cdr_ca_plddt": 0.9511905959556843
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9751800811424683,
+        "cdr_ca_plddt": 0.9775107150607639
+      }
+    },
+    "contact_residue_pairs_4_5": 60,
+    "mean_contact_pair_symmetric_PAE_A": 3.834639463822047,
+    "pae_sha256": "51574300dee1047ae7db8834cccbed49194e1423f3462b0d5748d612f065fffd",
+    "pae_sidecar_sha256": "e47cab56ca901b923b3aeb30025cdf33b4d7514cbfe8eaf1d5e3a203a61eecbb",
+    "candidate": "anas_021",
+    "model": "opendde-abag",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "cabbf10ade5131a1f51ffce78ba7a5eeed78934f2be25aa6e407bfef5fa1194c",
+    "global_iptm": 0.942959,
+    "status": "ok",
+    "source_job": "1f27069afc51de52aed1f030cdc38f4a",
+    "row_target": "anas_021",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-opendde-abag/artifacts/anas_021.cif",
+    "structure_sha256": "a790c0ba0e59a8fa3033d63bff569e2ef98a4cb23c20673de4b778a6b66d3b00",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.972314,
+        "1": 0.974393,
+        "2": 0.918897
+      },
+      "1": {
+        "0": 0.974393,
+        "1": 0.971395,
+        "2": 0.929485
+      },
+      "2": {
+        "0": 0.918897,
+        "1": 0.929485,
+        "2": 0.893272
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 0,
+    "epitope_recall_4.0": 0.3684210526315789,
+    "epitope_jaccard_4.0": 0.21875,
+    "target_residue_contacts_4.0": 20,
+    "epitope_recall_4.5": 0.3684210526315789,
+    "epitope_jaccard_4.5": 0.21212121212121213,
+    "target_residue_contacts_4.5": 21,
+    "epitope_recall_5.0": 0.3684210526315789,
+    "epitope_jaccard_5.0": 0.2,
+    "target_residue_contacts_5.0": 23,
+    "ca_nac": 0.9654573300679525,
+    "cdr_ca_plddt": 0.8657510505838597,
+    "antibody_ca_plddt": 0.9448132986329201,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWTAKGFYAQNYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9689940375024145,
+        "cdr_ca_plddt": 0.8565395381532867
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9618411460619293,
+        "cdr_ca_plddt": 0.880591820610894
+      }
+    },
+    "contact_residue_pairs_4_5": 52,
+    "mean_contact_pair_symmetric_PAE_A": 10.158014664283165,
+    "pae_sha256": "f3a5ff0b1c2428457126b2ed3482cbeeccf1aead46c9599c4723546ec3196ab3",
+    "pae_sidecar_sha256": "e47cab56ca901b923b3aeb30025cdf33b4d7514cbfe8eaf1d5e3a203a61eecbb",
+    "candidate": "anas_039",
+    "model": "opendde-abag",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "7401fd6357eb3a0104072565594bd11153118ad57d6f9143ad9acdeff7f06ab0",
+    "global_iptm": 0.707319,
+    "status": "ok",
+    "source_job": "1f27069afc51de52aed1f030cdc38f4a",
+    "row_target": "anas_039",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-opendde-abag/artifacts/anas_039.cif",
+    "structure_sha256": "7757c99a073681099047c5dba57d6145dff90cea2a58c1f5447bfbdb920f0538",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.961772,
+        "1": 0.971014,
+        "2": 0.425996
+      },
+      "1": {
+        "0": 0.971014,
+        "1": 0.96918,
+        "2": 0.403389
+      },
+      "2": {
+        "0": 0.425996,
+        "1": 0.403389,
+        "2": 0.878976
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 0,
+    "epitope_recall_4.0": 0.15789473684210525,
+    "epitope_jaccard_4.0": 0.0967741935483871,
+    "target_residue_contacts_4.0": 15,
+    "epitope_recall_4.5": 0.21052631578947367,
+    "epitope_jaccard_4.5": 0.12121212121212122,
+    "target_residue_contacts_4.5": 18,
+    "epitope_recall_5.0": 0.21052631578947367,
+    "epitope_jaccard_5.0": 0.1111111111111111,
+    "target_residue_contacts_5.0": 21,
+    "ca_nac": 0.9705110448201496,
+    "cdr_ca_plddt": 0.8949639843879863,
+    "antibody_ca_plddt": 0.954869142439922,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGYNGFYPSKYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9729959416651465,
+        "cdr_ca_plddt": 0.8872636571423761
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9679703075966137,
+        "cdr_ca_plddt": 0.9073700671725802
+      }
+    },
+    "contact_residue_pairs_4_5": 47,
+    "mean_contact_pair_symmetric_PAE_A": 5.684227685979072,
+    "pae_sha256": "e688882480a7265aa4ac1ef44c872fd59ab3163ee77a013c810b544881cd0d60",
+    "pae_sidecar_sha256": "e47cab56ca901b923b3aeb30025cdf33b4d7514cbfe8eaf1d5e3a203a61eecbb",
+    "candidate": "anas_014",
+    "model": "opendde-abag",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "3648a1a1148dc28ffffc4c8601f6a19c51021c649ee54ee89c86be99e85383b5",
+    "global_iptm": 0.758734,
+    "status": "ok",
+    "source_job": "1f27069afc51de52aed1f030cdc38f4a",
+    "row_target": "anas_014",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-opendde-abag/artifacts/anas_014.cif",
+    "structure_sha256": "e6062b16907d7ff11b4fb494f1786b3685d39b2886f7fecaa7122405efb3978f",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.962908,
+        "1": 0.96806,
+        "2": 0.524223
+      },
+      "1": {
+        "0": 0.96806,
+        "1": 0.968348,
+        "2": 0.519057
+      },
+      "2": {
+        "0": 0.524223,
+        "1": 0.519057,
+        "2": 0.880852
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 2,
+    "epitope_recall_4.0": 0.8421052631578947,
+    "epitope_jaccard_4.0": 0.5517241379310345,
+    "target_residue_contacts_4.0": 26,
+    "epitope_recall_4.5": 0.9473684210526315,
+    "epitope_jaccard_4.5": 0.6,
+    "target_residue_contacts_4.5": 29,
+    "epitope_recall_5.0": 0.9473684210526315,
+    "epitope_jaccard_5.0": 0.5806451612903226,
+    "target_residue_contacts_5.0": 30,
+    "ca_nac": 0.9762288360595702,
+    "cdr_ca_plddt": 0.9385479362974777,
+    "antibody_ca_plddt": 0.9684270638621326,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWDAMGFYGWDYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9776095488831238,
+        "cdr_ca_plddt": 0.9175289522368333
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9748170959815549,
+        "cdr_ca_plddt": 0.9724118550618487
+      }
+    },
+    "contact_residue_pairs_4_5": 67,
+    "mean_contact_pair_symmetric_PAE_A": 3.9668851494789124,
+    "pae_sha256": "99ef0c27f88b9782cfebaae2c587c677aed9d9b435e6ded27da110033e0427f6",
+    "pae_sidecar_sha256": "e47cab56ca901b923b3aeb30025cdf33b4d7514cbfe8eaf1d5e3a203a61eecbb",
+    "candidate": "anas_026",
+    "model": "opendde-abag",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "f04c1f6f987f3c25dbc1de6d1d53daceaac9bafb3dfa83797c4e0091945e2415",
+    "global_iptm": 0.937384,
+    "status": "ok",
+    "source_job": "1f27069afc51de52aed1f030cdc38f4a",
+    "row_target": "anas_026",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-opendde-abag/artifacts/anas_026.cif",
+    "structure_sha256": "f8dc63446ed50ee95bbc0bb573663eef7566c39becbe26353c94d33dfd8b1c89",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.965537,
+        "1": 0.974293,
+        "2": 0.909587
+      },
+      "1": {
+        "0": 0.974293,
+        "1": 0.971321,
+        "2": 0.925173
+      },
+      "2": {
+        "0": 0.909587,
+        "1": 0.925173,
+        "2": 0.902103
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 2,
+    "epitope_recall_4.0": 0.5789473684210527,
+    "epitope_jaccard_4.0": 0.34375,
+    "target_residue_contacts_4.0": 24,
+    "epitope_recall_4.5": 0.7368421052631579,
+    "epitope_jaccard_4.5": 0.3888888888888889,
+    "target_residue_contacts_4.5": 31,
+    "epitope_recall_5.0": 0.7894736842105263,
+    "epitope_jaccard_5.0": 0.39473684210526316,
+    "target_residue_contacts_5.0": 34,
+    "ca_nac": 0.9681204901801215,
+    "cdr_ca_plddt": 0.874881491153798,
+    "antibody_ca_plddt": 0.9488154991922925,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWRAAGFYRWDYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9717853495838881,
+        "cdr_ca_plddt": 0.8673659041832231
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9643732743852594,
+        "cdr_ca_plddt": 0.8869899368286133
+      }
+    },
+    "contact_residue_pairs_4_5": 63,
+    "mean_contact_pair_symmetric_PAE_A": 13.384216191276671,
+    "pae_sha256": "d765b7f1380c4f99c7a790903c1c6c80500975b33ab4405b3d094bf7f6853304",
+    "pae_sidecar_sha256": "e47cab56ca901b923b3aeb30025cdf33b4d7514cbfe8eaf1d5e3a203a61eecbb",
+    "candidate": "anas_031",
+    "model": "opendde-abag",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "3b8ae0a19412ac511f8edbf8808acfe62d1a9df3d6a6d8345389bf39d10032fe",
+    "global_iptm": 0.672088,
+    "status": "ok",
+    "source_job": "1f27069afc51de52aed1f030cdc38f4a",
+    "row_target": "anas_031",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-opendde-abag/artifacts/anas_031.cif",
+    "structure_sha256": "793ba03cce2b2cb1f92c98ea0fa3b3afed3a0dd79cb99cee990c3e7e37db7124",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.962833,
+        "1": 0.967522,
+        "2": 0.343787
+      },
+      "1": {
+        "0": 0.967522,
+        "1": 0.969009,
+        "2": 0.330458
+      },
+      "2": {
+        "0": 0.343787,
+        "1": 0.330458,
+        "2": 0.879847
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 0,
+    "epitope_recall_4.0": 0.3684210526315789,
+    "epitope_jaccard_4.0": 0.25,
+    "target_residue_contacts_4.0": 16,
+    "epitope_recall_4.5": 0.3684210526315789,
+    "epitope_jaccard_4.5": 0.21875,
+    "target_residue_contacts_4.5": 20,
+    "epitope_recall_5.0": 0.3684210526315789,
+    "epitope_jaccard_5.0": 0.19444444444444445,
+    "target_residue_contacts_5.0": 24,
+    "ca_nac": 0.964126677195231,
+    "cdr_ca_plddt": 0.8743830660556221,
+    "antibody_ca_plddt": 0.9455454008799817,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWTATGFYGGDYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.967901875422551,
+        "cdr_ca_plddt": 0.8758595696811018
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.9602666430526905,
+        "cdr_ca_plddt": 0.8720042546590169
+      }
+    },
+    "contact_residue_pairs_4_5": 53,
+    "mean_contact_pair_symmetric_PAE_A": 12.776723191423237,
+    "pae_sha256": "527fc529996498449e16979dcd6f98b3f2e211ec10f35847977568f51beaf91c",
+    "pae_sidecar_sha256": "e47cab56ca901b923b3aeb30025cdf33b4d7514cbfe8eaf1d5e3a203a61eecbb",
+    "candidate": "anas_010",
+    "model": "opendde-abag",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "b02c5118375959de2df6c86b0e7da195efb946c2827fa88150401f8af2fe8ed6",
+    "global_iptm": 0.670098,
+    "status": "ok",
+    "source_job": "1f27069afc51de52aed1f030cdc38f4a",
+    "row_target": "anas_010",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-opendde-abag/artifacts/anas_010.cif",
+    "structure_sha256": "26ae904e57e985ac0675bc1a0d23020ea49b383ebdf53482ef31c89718a7a8c4",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.966232,
+        "1": 0.970871,
+        "2": 0.342953
+      },
+      "1": {
+        "0": 0.970871,
+        "1": 0.969191,
+        "2": 0.3296
+      },
+      "2": {
+        "0": 0.342953,
+        "1": 0.3296,
+        "2": 0.878922
+      }
+    },
+    "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."
+  },
+  {
+    "chain_roles": {
+      "H": "H",
+      "L": "L",
+      "T": "T"
+    },
+    "antibody_n_chains": 2,
+    "clashing_cross_chain_atom_pairs_2A": 1,
+    "epitope_recall_4.0": 0.7894736842105263,
+    "epitope_jaccard_4.0": 0.5357142857142857,
+    "target_residue_contacts_4.0": 24,
+    "epitope_recall_4.5": 0.8421052631578947,
+    "epitope_jaccard_4.5": 0.5517241379310345,
+    "target_residue_contacts_4.5": 26,
+    "epitope_recall_5.0": 0.8947368421052632,
+    "epitope_jaccard_5.0": 0.5862068965517241,
+    "target_residue_contacts_5.0": 27,
+    "ca_nac": 0.976919438680013,
+    "cdr_ca_plddt": 0.9511776571070895,
+    "antibody_ca_plddt": 0.9715896424953108,
+    "regional_chains": {
+      "H": {
+        "sequence": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWAERGFYIWDYWGQGTLVTVSS",
+        "detected_type": "H",
+        "n_framework": 91,
+        "n_cdr": 29,
+        "framework_ca_plddt": 0.9788338202172584,
+        "cdr_ca_plddt": 0.9357748123695109
+      },
+      "L": {
+        "sequence": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIK",
+        "detected_type": "K",
+        "n_framework": 89,
+        "n_cdr": 18,
+        "framework_ca_plddt": 0.974962037332942,
+        "cdr_ca_plddt": 0.9759933514065214
+      }
+    },
+    "contact_residue_pairs_4_5": 64,
+    "mean_contact_pair_symmetric_PAE_A": 4.831482458394021,
+    "pae_sha256": "b279a76b5f4651cbe0f0c0948623714129256a4f107f8a527aadf535b0ff7b31",
+    "pae_sidecar_sha256": "e47cab56ca901b923b3aeb30025cdf33b4d7514cbfe8eaf1d5e3a203a61eecbb",
+    "candidate": "anas_040",
+    "model": "opendde-abag",
+    "format": "Fab",
+    "requested_track": "optimisation",
+    "pair_sha256": "f91130857043e9a606236a4691ba12981e64f681801198483c05f083eb156913",
+    "global_iptm": 0.943911,
+    "status": "ok",
+    "source_job": "1f27069afc51de52aed1f030cdc38f4a",
+    "row_target": "anas_040",
+    "source_reused": false,
+    "structure": "runs/012-codex-18plus2/common-opendde-abag/artifacts/anas_040.cif",
+    "structure_sha256": "f2cfac8fd91e415dc8f121574f5ba721d544a9b537893d5f0182375cf57e35ba",
+    "raw_chain_pair_iptm": {
+      "0": {
+        "0": 0.968577,
+        "1": 0.973991,
+        "2": 0.920036
+      },
+      "1": {
+        "0": 0.973991,
+        "1": 0.971369,
+        "2": 0.93404
+      },
+      "2": {
+        "0": 0.920036,
+        "1": 0.93404,
+        "2": 0.892727
       }
     },
     "interpretation": "Shared native-sequence crop119; no input structural template or hotspot; one seed42 per model. No experimental binding or temperature."

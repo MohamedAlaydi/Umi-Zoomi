@@ -1,0 +1,62 @@
+{
+  "10": {
+    "n_valid": 10,
+    "identical_full_rows_keyed_by_id": true,
+    "same_row_order": false,
+    "input_sha256": "b26eacd3baae21f4bbce1e5de9ad04fe66c2bb7f377318c07b15d92b6547223b",
+    "validator_output_sha256": "b9bbab4759bc9caac163d644eebd4fef43773f278593ca44970b0964bf669d65",
+    "input_first_four": [
+      "anas_007",
+      "anas_003",
+      "r004_cdrh3_3",
+      "anas_016"
+    ],
+    "output_first_four": [
+      "rfd4-variable-sequence-k1__her2_variable_sequence_2_generated",
+      "anas_007",
+      "anas_003",
+      "r004_cdrh3_3"
+    ],
+    "format_counts": {
+      "paired": 9,
+      "vhh": 1
+    }
+  },
+  "20": {
+    "n_valid": 20,
+    "identical_full_rows_keyed_by_id": true,
+    "same_row_order": false,
+    "input_sha256": "bef9dee475093a864cfaa2980a12a964a66f413db0e824cdc6f4b58ecbd90bf8",
+    "validator_output_sha256": "b2f323a9c597ce778f80113919e8f648f3e52f46bb09bb64db7d85808e3a0321",
+    "input_first_four": [
+      "anas_007",
+      "anas_003",
+      "r004_cdrh3_3",
+      "anas_016"
+    ],
+    "output_first_four": [
+      "rfd4-variable-sequence-k1__her2_variable_sequence_2_generated",
+      "rfd4-variable-sequence-k1__her2_variable_sequence_13_generated",
+      "anas_007",
+      "anas_003"
+    ],
+    "format_counts": {
+      "paired": 18,
+      "vhh": 2
+    }
+  },
+  "verified_utc": "2026-11-14T15:00:00.249912+00:00",
+  "organizer_acceptance": "unconfirmed",
+  "local_evidence": [
+    "no --drop",
+    "explicit reference bundle",
+    "two inputs pass"
+  ],
+  "code_sha256": {
+    "cli.py": "232870fd212ac724828e0cb2b39fdca51aa1dc19a753e12d541556b9d0847d5d",
+    "pipeline.py": "0adf7ef03e37c12612a212a78b8ddffd1d6c3e4bd4df267a296a3e9503ccf8b4",
+    "schemas.py": "fe24399f7cace046c6b19eb79422436852bbc4604ca26f6e54c87c9e102eb909",
+    "reference_data/manifest.json": "de5578eb098a576e446cd51bfe37eeafe5da0b7340a41ac2e7f38fab68f1c649",
+    "reference_data/abguard_cdrh3.parquet": "60744436b44760be20916f0b4a0e7575d3d60197b9fbf79e9599d38e147ad0af"
+  }
+}
