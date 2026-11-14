@@ -18,7 +18,7 @@ One model struggled even with the original antibody. We therefore stopped using 
 
 Those checks changed which molecules we chose.
 
-Our four priorities test clear biological ideas. The first explores our strongest new binding hypothesis. The second uses the same binding region with a published framework change intended to improve stability. Comparing that pair lets us test what the framework change contributes.
+Our four priorities test clear biological ideas. The first explores our strongest new binding hypothesis. The second uses the same binding region with a published change to the antibody’s supporting structure, intended to improve stability. Comparing that pair lets us test what that change contributes.
 
 The third balances different signals from the experimental data. The fourth tests another sequence family with the stability hypothesis, so our choices cover more than one idea.
 
@@ -26,7 +26,7 @@ All four pass the local submission checks. Their performance still needs to be m
 
 Next, Adaptyv can test whether they bind HER2, compete for the intended binding site, and remain stable when heated, alongside the original antibody. That will tell us whether our designs improve the properties the challenge rewards.
 
-For a breast cancer programme, successful designs would then need cell testing, specificity checks and development in an appropriate therapeutic format.
+For a breast cancer programme, successful designs would then need testing in cells, checks for unwanted binding, and development into a suitable medicine.
 
 The immediate value is a better-supported choice of experiments. We have built a working route from experimental data to new molecules, with clear reasons for our choices and clear tests of what comes next.
 
