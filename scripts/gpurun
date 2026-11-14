@@ -1,0 +1,17 @@
+#!/bin/bash
+# Serialise GPU work so two of us never collide on the one H100.
+# Usage:  ~/team14/scripts/gpurun <your-name> <command...>
+# It waits for the lock, records who holds it, then runs the command.
+set -euo pipefail
+if [ $# -lt 2 ]; then
+  echo "usage: gpurun <your-name> <command...>" >&2; exit 2
+fi
+WHO="$1"; shift
+LOCK=/tmp/team14-gpu.lock
+exec 9>"$LOCK"
+echo "waiting for the GPU lock..." >&2
+flock 9
+echo "$WHO since $(date '+%H:%M:%S')  pid $$  cmd: $*" > /tmp/team14-gpu.owner
+trap 'rm -f /tmp/team14-gpu.owner' EXIT
+echo "GPU lock held by $WHO" >&2
+"$@"

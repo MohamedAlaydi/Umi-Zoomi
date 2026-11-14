@@ -1,0 +1,11 @@
+# model outputs are big; keep the configs and the notes, not the structures
+runs/**/*.cif
+runs/**/*.pdb
+runs/**/*.npz
+runs/**/*.pt
+runs/**/predictions/
+data/*.cif
+data/*.pdb
+*.log
+.venv/
+__pycache__/

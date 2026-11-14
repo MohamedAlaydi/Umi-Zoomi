@@ -1,0 +1,21 @@
+#!/bin/bash
+# Make a numbered run directory with a stub note, so every run is traceable.
+# Usage:  ~/team14/scripts/newrun <your-name> <short-slug>
+set -euo pipefail
+if [ $# -lt 2 ]; then echo "usage: newrun <your-name> <slug>" >&2; exit 2; fi
+WHO="$1"; SLUG="$2"
+N=$(printf '%03d' $(( $(ls -1 "$HOME/team14/runs" 2>/dev/null | wc -l) + 1 )))
+DIR="$HOME/team14/runs/${N}-${WHO}-${SLUG}"
+mkdir -p "$DIR"
+cat > "$DIR/NOTE.md" <<NOTE
+# ${N} ${WHO} ${SLUG}
+
+- when: $(date '+%Y-%m-%d %H:%M')
+- image:
+- command:
+- seed:
+- why we ran it:
+- what came out:
+- decision (keep / drop / why):
+NOTE
+echo "$DIR"
