@@ -70,7 +70,7 @@ One press.
 
 The talk covers judgment through the controls and four choices; execution through the implemented workflow and GitHub; user fit through antibody discovery teams; and path to value through laboratory and cell testing.
 
-Pick 01 = newML_b973259db36d. Pick 02 = newML_b973259db36d_FW 85 N 87 T. Pick 03 = newML_a7acfcc8dce3. Pick 04 = newML_5753ea077281_FW85N87T.
+Pick 01 = newML_b973259db36d. Pick 02 = newML_b973259db36d_FW85N87T. Pick 03 = newML_a7acfcc8dce3. Pick 04 = newML_5753ea077281_FW85N87T.
 
 The supporting-structure substitutions are S85N/R87T, using the paper’s verified numbering. The reported stability benefit was in full trastuzumab, not these new fragments. They also add a potential glycosylation site. Transfer to our designs remains to be tested.
 
