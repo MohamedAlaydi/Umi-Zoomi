@@ -67,9 +67,14 @@ The ten redesigned positions correspond to linear heavy-domain positions 99 thro
 | Green molecular backbone | Displayed HER2 target region | A favourable score |
 | Yellow molecular loop | The ten positions we redesigned | Only conserved residues, or a pLDDT scale |
 | Yellow letter tiles | Original amino acid retained at one of the four selected contact-associated core positions | Experimental binding or recovered HER2 contacts |
+| Blue dots in the validation plot | Historical measured constructs paired with held-out predictions | Heavy-chain residues |
+| Red highlighted point in the validation plot | The WT reference and its held-out prediction | A failed or dangerous molecule |
+| Blue / red bars in the supplementary model-control figure | Mol1 / OpenDDE, respectively; bar lengths encode reference-contact recovery | Good / bad classes |
 | Red/blue/yellow/green machinery and decorations | Presentation styling | Molecular properties |
 
 “The colours identify molecular components and highlight the redesigned loop. They are not a heat map of affinity, PAE, pLDDT or molecular matching. In the letter strip, yellow has the more specific meaning of retaining an original residue at a selected contact position.”
+
+Colour meanings are local to each visual, not a single code across the whole presentation. In the validation plot, coordinates carry the numerical data and colour identifies the reference. In the supplementary contact chart, bar length carries contact recall and colour identifies the model.
 
 The 3D candidate views use backbone coordinates from the actual selected Mol1 predictions. Their smooth tubes simplify the backbone, omit side-chain detail and use a cropped target view for readability. These are predicted structures, not new experimental structures. HER2 residues 489–607 are displayed; the structural evaluation used the complete 607-residue target construct. “Full HER2” in earlier deck wording refers to that target construct, not the entire receptor in its membrane and cellular environment.
 
