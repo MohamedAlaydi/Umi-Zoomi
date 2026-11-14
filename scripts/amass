@@ -3,15 +3,20 @@
 #
 # Each person uses their OWN key. Make one at
 # https://platform.amass.tech/api-keys  (it starts with amass_ and is shown
-# only once). Then put it in ~/.bashrc on the VM:
+# only once). Then, on the VM:
 #
-#     export AMASS_API_KEY=amass_xxxxxxxxxxxx
+#     echo yourname > ~/.team_me      # once, if you have not already
+#     amass key                       # paste it when prompted
+#     . ~/team14/scripts/env.sh
 #
-# and `. ~/team14/scripts/env.sh` picks it up, exactly the way the Foundry
-# credentials already work. Never put a key in this repo. The repo is public
-# and the pre-commit hook rejects secret-shaped lines.
+# We share one Linux user, so keys do NOT go in ~/.bashrc: five people would
+# overwrite one line. `amass key` writes ~/.amass-keys/<yourname>.key with
+# mode 600 and env.sh picks the right one using ~/.team_me. Never put a key
+# in this repo; it is public and the pre-commit hook rejects secret-shaped
+# lines.
 #
 # Usage:
+#   amass key      save your own key, prompted, not echoed
 #   amass search biomedcore "trastuzumab Met-107 oxidation"
 #   amass search biomedcore "HER2 epitope competitive binding" 40
 #   amass get biomedcore <amass-id>
@@ -38,29 +43,33 @@ if [ "${1:-}" = "cores" ]; then
   exit 0
 fi
 
-if [ -z "${AMASS_API_KEY:-}" ]; then
+if [ "${1:-}" != "key" ] && [ -z "${AMASS_API_KEY:-}" ]; then
   cat >&2 <<'MSG'
 AMASS_API_KEY is not set.
 
-Get your own key:
+Get your own key, about two minutes:
   1. sign in at https://platform.amass.tech
   2. open https://platform.amass.tech/api-keys
   3. Create API Key, and copy it now: it is shown only once
-  4. add this line to ~/.bashrc on the VM
+  4. on the VM:
 
-       export AMASS_API_KEY=amass_your_key_here
+       echo yourname > ~/.team_me     # once, if you have not already
+       amass key                      # paste it when prompted
+       . ~/team14/scripts/env.sh
 
-  5. . ~/team14/scripts/env.sh
-
-Do not paste a key into this repo. It is public.
+We share one Linux user, so your key goes in ~/.amass-keys/<yourname>.key,
+not in ~/.bashrc where five of us would overwrite one line. Do not paste a
+key into this repo, or into a chat window. It is public and it is shown once.
 MSG
   exit 2
 fi
 
-case "${AMASS_API_KEY}" in
-  amass_*) : ;;
-  *) die "AMASS_API_KEY does not start with amass_, so it is probably not an Amass key." ;;
-esac
+if [ "${1:-}" != "key" ]; then
+  case "${AMASS_API_KEY:-}" in
+    amass_*) : ;;
+    *) die "AMASS_API_KEY does not start with amass_, so it is probably not an Amass key." ;;
+  esac
+fi
 
 check_core() {
   for c in $CORES; do [ "$c" = "$1" ] && return 0; done
@@ -120,6 +129,26 @@ urlencode() {
 cmd="${1:-}"; shift || true
 
 case "$cmd" in
+  key)
+    me="$(cat "$HOME/.team_me" 2>/dev/null)"
+    [ -n "$me" ] || die "No ~/.team_me yet. Run:  echo yourname > ~/.team_me"
+    mkdir -p "$HOME/.amass-keys" && chmod 700 "$HOME/.amass-keys"
+    printf 'Paste your Amass key and press enter. It starts with amass_\n' >&2
+    printf 'It is not echoed, not logged, and not stored in the repo.\n' >&2
+    stty -echo 2>/dev/null || true
+    read -r k
+    stty echo 2>/dev/null || true
+    printf '\n' >&2
+    case "$k" in
+      amass_*) : ;;
+      *) die "That does not start with amass_, so it is probably not an Amass key. Nothing saved." ;;
+    esac
+    f="$HOME/.amass-keys/$me.key"
+    ( umask 077; printf '%s\n' "$k" > "$f" )
+    chmod 600 "$f"
+    printf 'Saved for %s. Now run:  . ~/team14/scripts/env.sh\n' "$me" >&2
+    exit 0
+    ;;
   search)
     core="${1:-}"; query="${2:-}"; limit="${3:-20}"
     [ -n "$core" ] && [ -n "$query" ] || die 'usage: amass search <core> "<query>" [limit]'

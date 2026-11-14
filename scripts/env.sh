@@ -2,6 +2,16 @@
 # ~/.bashrc returns early for non-interactive shells, so the Foundry
 # credentials and the pixi PATH are missing in `ssh host "cmd"` and in cron.
 eval "$(grep -E '^export (FOUNDRY|QUAY|NXF|AMASS)' "$HOME/.bashrc")"
+
+# Amass keys are per person, but we all share one Linux user, so ~/.bashrc is
+# the wrong place for them: five people would overwrite one line. Each key
+# lives in ~/.amass-keys/<name>.key, picked by ~/.team_me. Written by
+# `amass key`, never by hand, never in this repo. This overrides ~/.bashrc.
+if [ -r "$HOME/.team_me" ]; then
+  _amass_f="$HOME/.amass-keys/$(cat "$HOME/.team_me" 2>/dev/null).key"
+  [ -r "$_amass_f" ] && export AMASS_API_KEY="$(cat "$_amass_f")"
+  unset _amass_f
+fi
 export PATH="$HOME/.pixi/bin:$HOME/.local/bin:$PATH"
 
 REG=quay.io/apheris/oslo-hackathon

@@ -69,16 +69,34 @@ amass credits
 amass cores
 ```
 
-Each person sets their own key once:
+Each person sets their own key once. Tell a teammate this and nothing else:
 
 ```bash
-echo 'export AMASS_API_KEY=amass_your_key_here' >> ~/.bashrc
+echo yourname > ~/.team_me     # once, if you have not already
+~/team14/scripts/amass key     # paste your key when prompted
 . ~/team14/scripts/env.sh
 ```
 
-`scripts/env.sh` now picks up `AMASS*` from `~/.bashrc` alongside
-`FOUNDRY*`, `QUAY*` and `NXF*`, so it works in `ssh host "cmd"` and in cron
-where `.bashrc` returns early.
+**Why not `~/.bashrc`.** We share one Linux user, so there is one
+`~/.bashrc` for all five of us and an `export AMASS_API_KEY=` line in it
+would be overwritten by whoever edits it next. `amass key` writes
+`~/.amass-keys/<yourname>.key` instead, and `scripts/env.sh` reads the one
+matching `~/.team_me`. Tested with two names on one account: both keys
+survive and each shell gets the right one.
+
+`amass key` reads the key from the terminal without echoing it, so it never
+lands in shell history, in a log, or in a chat window. If you are asking
+Claude to set this up for you, Claude should run `amass key` and let **you**
+paste the key. Do not type a key into a chat.
+
+**The honest limit of this.** The key files are mode 600, but we all share
+one Linux account, so that stops accidents, not teammates: anyone on the VM
+can read anyone's key. Per-person files solve clobbering, not isolation. If
+you want real isolation, use route 2 and never put a key on the VM at all.
+
+`scripts/env.sh` also still picks up `AMASS*` from `~/.bashrc` alongside
+`FOUNDRY*`, `QUAY*` and `NXF*`, for anyone running this off the shared VM.
+The per-person file wins where both exist.
 
 Every call prints what it cost and how much rate-limit headroom is left, on
 stderr, because a 100-result search is $0.25 and that adds up across five
