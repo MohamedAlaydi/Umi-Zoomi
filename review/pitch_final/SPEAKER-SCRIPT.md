@@ -71,14 +71,14 @@ Four presses, one per candidate.
 ## Slide 9: Four-design results | PDF 12 |3:35–4:05
 Three presses reveal the cards. Keep the table visible.
 
-“The table shows those trade-offs numerically. The screening model favours Pick three; the affinity models favour Pick one’s loop, but disagree about its affinity relative to the reference.
+“The screening score is about 0.16 for Pick one and 0.84 for Pick three. The affinity models favour Pick one’s loop, but disagree about whether it improves on the reference.
 
 The framework variants inherit H3-only assay scores, so those scores do not evaluate the framework changes. Structural confidence and the shared binding-site recovery also do not establish stronger binding or improved stability.”
 
 ## Slide 10: Model validation | PDF 13 |4:05–4:30
 One press.
 
-“We also checked the affinity model against historical measurements, holding related sequences out together. Each dot compares a prediction with a measured affinity; the diagonal would be exact agreement.
+“On 180 historical measured constructs, the affinity model reached a rank correlation of about 0.68, with related sequences held out together. Each dot compares predicted and measured affinity; the diagonal means exact agreement.
 
 There is useful ranking signal, but substantial error, including for the reference antibody. The model supports hypotheses, not precise promises about improvement.”
 
