@@ -53,32 +53,95 @@ want to move affinity rather than preserve it, that needs the
 
 ## 2. What is published about trastuzumab's weaknesses
 
-### The chemical liability is Asp-102, and it is in CDRH3
+All of this section was re-checked in AMASS against primary records. One
+claim I had made from web search turned out to be **wrong**, and the
+correction makes our case stronger. Both are kept below, because showing
+the correction is worth more than pretending we got it right first time.
 
-Trastuzumab's documented potency loss on storage has been attributed to
-**isomerization of heavy-chain Asp-102 in CDR-H3**. The functional size of
-the effect is disputed: one line of work ties potency loss to it, another
-reports only a minor effect on target binding. Either way it is the
-recognised liability in this molecule, and Asp isomerization in CDR-H3 is
-a general developability concern across clinical-stage antibodies, not a
-quirk of this one.
+### Asp-102 isomerization: confirmed, and it is the serious one
 
-**D102 is one of our six non-contact positions.** It also sits in a `DG`
-motif with G103, which is the classic isomerization pattern.
+The primary characterization of trastuzumab's charge heterogeneity
+(Harris et al. 2001, 503 citations) resolves seven forms of the antibody
+and assigns **a low-potency form to isomerization of heavy-chain
+Asp-102**, with the Asp102 succinimide also present. Every modification
+they found was in a CDR.
 
-### What is *not* worth chasing
+A later study stressing trastuzumab under physiological conditions
+describes Hc-Asp-102 isomerization as a modification that **critically
+affects biological activity**, and adds something useful: it was not
+detected at all when the antibody was stressed **in complex with HER2**,
+only when stressed free. So the position is exposed and flexible in the
+unbound antibody, which is exactly the condition a vial of drug product
+is in.
 
-- **Met-107 oxidation.** Reported as not susceptible to oxidation in
-  trastuzumab. Methionine oxidation in this molecule is an Fc-region
-  issue, and we are not designing the Fc. Do not spend time on it.
+**D102 is one of our six non-contact positions**, and it sits in a `DG`
+motif with G103, the classic isomerization pattern.
+
+### Correction: Met-107 oxidation is real, and I was wrong about it
+
+My earlier note said Met-107 was not susceptible to oxidation in
+trastuzumab and told you to ignore it. **That was wrong.** The AMASS
+records say the opposite:
+
+- A study of oxidation sites in recombinant antibodies names heavy-chain
+  **Met-107 of the HER2 antibody** as already identified as solvent
+  accessible and sensitive to chemical oxidation.
+- The in-use stability study of the trastuzumab biosimilar CT-P6
+  routinely **measures oxidation at methionine 107**, alongside 255/256
+  and 432/433. Industry treats Met-107 as a quality attribute worth
+  monitoring in this exact molecule.
+
+**M107 is also one of our six non-contact positions.**
+
+So trastuzumab's CDRH3 carries **two** documented chemical liabilities,
+D102 and M107, and **neither of them touches HER2**. That is a better
+story than the one I had, not a worse one.
+
+### Still not worth chasing
+
 - **Light-chain Asn-30 deamidation.** Reported as not significantly
-  affecting potency.
-- **Heavy-chain Asn-55 deamidation.** Reported as only moderately
-  affected, and it is in CDR2, which the HER2 checkpoints cannot touch
-  anyway.
+  affecting potency, and the same stress study found it drops about
+  tenfold when HER2 is bound.
+- **Heavy-chain Asn-55 deamidation.** In CDR2, which the HER2 checkpoints
+  cannot touch anyway.
 
-This is worth saying out loud in the pitch: we checked three plausible
-liabilities and dropped them on evidence, keeping one.
+### Prior art: someone already improved trastuzumab through CDRH3
+
+This matters for novelty and for what is achievable.
+
+Moon et al. 2016 built a biobetter of hu4D5, which is trastuzumab, by
+randomizing CDR-H3 and CDR-L3 and panning. Their clone **AH06 reached a
+7.4-fold better affinity (KD 60 pM) and 7.2-fold better anti-proliferative
+activity**, from substitutions in CDR-H3. Their modelling attributes the
+gain to new hydrophobic contacts, including between an aromatic CDRH3
+residue and **HER2 Ile-613**.
+
+Three things follow:
+
+1. **CDRH3 substitution really can improve affinity here.** Beating
+   0.152 nM is not hopeless, and we have a published existence proof.
+2. **The gain came from reaching a HER2 residue wild-type trastuzumab
+   does not touch.** Ile-613 is not in our contact list. Note that our
+   1N8Z construct is cropped and chain D ends at residue 607, so I613 is
+   not even present in the file we design against. A design cannot be
+   guided toward a residue the input does not contain.
+3. **Their sequences may count as known antibodies** for the de novo
+   track's identity check. Worth flagging to the organisers.
+
+There is also a published ML study built on **193 affinity values of
+single trastuzumab mutants**, which is a ready-made external dataset if
+anyone wants a second opinion on ranking.
+
+### For thermostability, look outside CDRH3 too
+
+A 2025 study used trastuzumab as its test case and designed **stabilizing
+framework mutations distal to the CDRs** that kept HER2 binding and
+effector function. The HER2 checkpoints cannot make framework changes, so
+this is not directly actionable with our main tool, but it is the honest
+answer to "how would you improve thermostability properly" in the pitch.
+One caution from the same work: a light-chain framework mutation kept
+antigen binding but silently lost Fab- and Fc-mediated effector function.
+Binding is not the only thing a mutation can break.
 
 ### The clinical picture, for the "who needs this" part of the pitch
 
@@ -115,7 +178,9 @@ For the **optimisation track**:
 
 > Keep W99, G103, F104 and Y105, the four CDRH3 residues that actually
 > contact HER2. Mutate at least four of the six non-contact positions,
-> prioritising D102 to remove the documented isomerization liability.
+> and make sure **D102 and M107 are two of them**, because those are the
+> molecule's two documented chemical liabilities and neither touches the
+> antigen.
 
 Why this is worth defending in a pitch, against the three scored
 properties:
@@ -124,7 +189,7 @@ properties:
 | --- | --- |
 | epitope preserved | the contacting residues are untouched by construction |
 | binding | the interface is unchanged; most of it is light chain and CDR1/2 anyway |
-| thermostability | D102 is the known liability, and it is free to mutate |
+| thermostability | D102 (isomerization) and M107 (oxidation) are the two documented liabilities, and both are free to mutate |
 
 And it clears the novelty filter by construction: four mutations gives
 60 % identity to trastuzumab, inside our ≤ 60 % internal bar and clear of
@@ -157,17 +222,43 @@ automatic epitope check.
 
 ## Sources
 
-Structure: the hackathon's `her2_fv_1n8z.cif`, PDB 1N8Z, cropped to the Fv
-and HER2 domain IV.
+**Structure**: the hackathon's own `her2_fv_1n8z.cif`, PDB 1N8Z, cropped
+to the Fv and HER2 domain IV. Analysed with `scripts/contacts.py`.
 
-Literature:
-- [Deamidation and isomerization liability analysis of 131 clinical-stage antibodies](https://pubmed.ncbi.nlm.nih.gov/30526254/)
-- [Antibody modification monitoring by LC-MS peptide mapping](https://www.americanpharmaceuticalreview.com/Featured-Articles/331529-Multi-Attribute-Monitoring-of-Antibody-Modifications-by-Semi-Automated-Liquid-Chromatography-Mass-Spectrometry-Peptide-Mapping/)
-- [Biophysical characterization of monoclonal antibodies](https://www.azolifesciences.com/article/Exploring-the-Biophysical-Characterization-of-Monoclonal-Antibodies.aspx)
-- [Trastuzumab resistance mechanisms review](https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2024.1389390/full)
-- [p95HER2 and resistance](https://pmc.ncbi.nlm.nih.gov/articles/PMC3376449)
-- [MUC4 epitope masking in JIMT-1](https://pmc.ncbi.nlm.nih.gov/articles/PMC3045786)
+**Records, via the AMASS connector** (BiomedCore and PatentCore). These
+are the primary sources, and they are what replaced the review articles
+the first draft of this note relied on:
 
-These came from web search, not from AMASS. Once the AMASS credits are
-claimed, every claim above should be re-checked there so the pitch can
-cite records rather than reviews.
+| Claim | Record |
+| --- | --- |
+| Asp-102 isomerization gives a low-potency form; all modifications in CDRs | Harris et al. 2001, [PMID 11270864](https://pubmed.ncbi.nlm.nih.gov/11270864/), 503 citations |
+| Asp-102 isomerization critically affects activity, and is absent when HER2 is bound | Spanov et al. 2022, [PMID 35047480](https://pubmed.ncbi.nlm.nih.gov/35047480/) |
+| Met-107 of the HER2 antibody is solvent accessible and oxidation-sensitive | Hensel et al. 2011, [PMID 21390239](https://pubmed.ncbi.nlm.nih.gov/21390239/) |
+| Met-107 oxidation monitored as a quality attribute in a trastuzumab biosimilar | Kim et al. 2018, [PMID 30386977](https://pubmed.ncbi.nlm.nih.gov/30386977/) |
+| CDRH3 substitutions gave a 7.4-fold affinity gain over trastuzumab (KD 60 pM) | Moon et al. 2016, [PMID 26743905](https://pubmed.ncbi.nlm.nih.gov/26743905/) |
+| 193 single-mutant trastuzumab affinity values, CDR-H3 structural effects | Balakrishnan et al. 2021, [PMID 34392800](https://pubmed.ncbi.nlm.nih.gov/34392800/) |
+| Stabilizing framework mutations on trastuzumab that keep function | Ng et al. 2025, [PMID 40653772](https://pubmed.ncbi.nlm.nih.gov/40653772/) |
+| Succinimide in a CDR correlates with potency loss, fixable by formulation | VanAernum et al. 2023, [PMID 36627449](https://pubmed.ncbi.nlm.nih.gov/36627449/) |
+
+**From web search, not yet re-checked in AMASS**: the p95HER2 and MUC4
+resistance material in section 2. Treat those as weaker until someone
+pulls the trial and regulatory records.
+
+### What AMASS changed
+
+Worth saying in the pitch, because it is the Amass track in one line:
+four questions, and the answers changed the design.
+
+1. It **corrected a wrong claim**. Web search told me Met-107 was not
+   oxidation-prone in trastuzumab. The records say it is, and that a
+   biosimilar manufacturer measures it. We would have left a liability in
+   the molecule.
+2. It **found the primary source** for Asp-102 rather than a review's
+   summary of it, and a second record showing the site is protected when
+   HER2 is bound.
+3. It **found prior art** that CDRH3 substitution already produced a
+   7.4-fold affinity gain on this exact antibody, which tells us the
+   optimisation track is winnable and raises a novelty question we should
+   put to the organisers.
+4. It **found an external dataset** of 193 single-mutant affinities we
+   did not know existed.
